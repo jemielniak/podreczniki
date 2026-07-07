@@ -1,132 +1,92 @@
-# content-src - treści podręczników (instrukcja dla autora treści)
+# podreczniki - repozytorium źródeł treści
 
-Ten folder to całe Twoje miejsce pracy. Nie musisz znać programowania -
-wystarczy trzymać się układu folderów i formatu ćwiczeń.
+To jest repozytorium ŹRÓDŁOWE aplikacji "Podręczniki". Tutaj powstają
+i mieszkają surowe treści: pliki rozdziałów, obrazki do pytań, infografiki
+i mapy pojęć. Wykonawca treści pracuje wyłącznie w tym repozytorium.
 
-Do generowania treści służą gotowe promptbooki w folderze `_promptbooki/`
-(A - ćwiczenia, B - ilustracje do pytań, C - infografiki i mapy pojęć).
-Pliki, które z nich wychodzą, są od razu gotowe do wgrania - bez dalszej
-obróbki. Wgrywanie na GitHub krok po kroku dla osoby nietechnicznej opisuje
-`_INSTRUKCJA_WYKONAWCY.md`.
+Jednej rzeczy to repozytorium nie robi: aplikacja go NIE czyta. Uczniowie
+pobierają gotowe, skompilowane paczki z osobnego repozytorium
+`podreczniki-content` (to, które serwuje GitHub Pages). Drogę od źródła
+do produkcji przechodzi się jednym poleceniem publikacji, które uruchamia
+właściciel projektu. Wykonawca tego nie uruchamia - pisze i wysyła źródła,
+resztą zajmuje się właściciel.
 
-## Układ folderów
+## Układ plików
 
-```
-content-src/
-  sp5/ sp6/ sp7/ sp8/        klasy szkoły podstawowej
-  lo1/ lo2/ lo3/ lo4/        klasy szkoły średniej
-    <przedmiot>/             np. historia, biologia, chemia, repetytorium
-      <id-podręcznika>/      np. chemia-7-nowa-era (małe litery, cyfry, myślniki)
-        _bookConfig.json     tytuł podręcznika (i ewentualnie ikona, wydawca, free)
-        rozdzial01.js        rozdziały z ćwiczeniami (albo rozdzial01.json)
-        rozdzial02.js        ...
-        img/                 obrazki do ćwiczeń
-        cover.png            okładka podręcznika
-```
-
-Położenie folderu mówi wszystko: klasa i przedmiot biorą się ze ścieżki,
-identyfikator podręcznika z nazwy jego folderu. Nazwy folderu podręcznika
-NIE zmienia się po pierwszej publikacji.
-
-Podręcznik z polem `"free": true` w `_bookConfig.json` jest w aplikacji w
-całości darmowy (wszystkie rozdziały otwarte, bez zakupu) - to tryb testowy.
-Bez tego pola obowiązuje normalna reguła: darmowy rozdział 1, reszta za
-zakupem. Pole usuwasz, gdy podręcznik ma być płatny.
-
-Repetytoria (przygotowanie do egzaminów) trafiają do folderu
-`repetytorium` w klasach egzaminacyjnych: `sp7`, `sp8`, `lo3`, `lo4`.
-W aplikacji pojawią się automatycznie na złotej karcie "Repetytorium"
-obok przedmiotów tej klasy. Repetytoria nie mają darmowego rozdziału -
-to też dzieje się samo.
-
-## Wersja robocza (szkic)
-
-Folder podręcznika zaczynający się od podkreślnika, np.
-`_chemia-7-nowa-era`, jest SZKICEM - publikacja go pomija. Pracuj
-spokojnie w szkicu; gdy treść jest gotowa, zmień nazwę folderu
-(usuń podkreślnik).
-
-Gotowy, kompletny przykład ze wszystkimi 10 typami ćwiczeń leży w
-`sp7/chemia/_chemia-7-przyklad/` - najlepiej zacząć od skopiowania go.
-
-## Nowy podręcznik krok po kroku
-
-1. Skopiuj folder przykładu w docelowe miejsce, np.
-   `sp7/chemia/_chemia-7-nowa-era/` (na razie ze szkicowym podkreślnikiem).
-   Albo poproś o wygenerowanie szkieletu komendą
-   `node scripts/new-companion.mjs` (opis w BUILD_PROGRESS.md).
-2. W `_bookConfig.json` wpisz tytuł (oraz wydawcę, jeśli ma być widoczny):
-
-   ```json
-   { "title": "Chemia - klasa 7", "publisher": "Nowa Era" }
-   ```
-
-3. Napisz rozdziały `rozdzial01.js`, `rozdzial02.js`, ... Format ćwiczeń
-   (10 typów, wszystkie pola z przykładami) opisuje plik
-   `src/chapters/_SZABLON_ROZDZIALU.js`. Każde ćwiczenie ma unikalny `id`
-   i sekcję z listy `sectionOrder` rozdziału.
-4. Obrazki wrzuć do `img/` i podawaj w ćwiczeniach SAMĄ nazwę pliku,
-   np. `"image": "r01_uklad_okresowy.jpg"`. Zalecany format to `.jpg`
-   skompresowany do szerokości ok. 1400 px i wagi poniżej 300 KB
-   (uczniowie pobierają je przez komórkowy internet). Bez spacji i bez
-   polskich znaków w nazwach plików. Wielkość liter w nazwie musi być
-   identyczna w ćwiczeniu i w pliku.
-5. Dodaj okładkę `cover.png` (pionowa, proporcje mniej więcej 3:4).
-6. Zmień nazwę folderu - usuń podkreślnik. Gotowe: resztą (publikacją)
-   zajmuje się właściciel projektu.
-
-Jeśli przedmiotu, którego potrzebujesz, nie ma jeszcze na liście
-w `_przedmioty.json`, zgłoś to - dodanie go to jedna linijka.
-
-## Aktualizacja istniejącego podręcznika
-
-Po prostu popraw pliki rozdziałów albo dodaj nowe (`rozdzial09.js`, ...).
-Numeracji wersji nie dotykasz - pilnuje jej automat przy publikacji.
-
-## Infografiki i mapy pojęć (opcjonalne)
-
-Obok rozdziałów możesz dodać folder `visuals` z grafikami do oglądania
-w aplikacji. Układ:
+Foldery klas leżą w korzeniu repozytorium. Wewnątrz każdej klasy są
+przedmioty, a w przedmiocie podręczniki:
 
 ```
-visuals/
-  r01/
-    Infografiki/
-      01_Czas_i_epoki.jpg
-      02_Zycie_ludzi_paleolitu.jpg
-    Mapy pojęć/
-      01_Powstanie_pierwszych_spoleczenstw.jpg
-  r02/
-    ...
+sp5/ sp6/ sp7/ sp8/          klasy podstawówki
+lo1/ lo2/ lo3/ lo4/          klasy liceum
+  <przedmiot>/               np. historia, biologia
+    <podręcznik>/            np. historia-5-gwo
+      _bookConfig.json        tytuł i wydawca podręcznika
+      rozdzial01.js           rozdziały (ćwiczenia)
+      rozdzial02.js
+      img/                    obrazki do pytań (.jpg)
+      visuals/rNN/            infografiki i mapy pojęć
+      cover.png               okładka (opcjonalna)
+_przedmioty.json             rejestr przedmiotów (id, etykieta, ikona)
+_promptbooki/                specyfikacje A, B, C dla modelu generującego treść
+_INSTRUKCJA_WYKONAWCY.md     jak pracować (wariant przeglądarkowy)
+_INSTRUKCJA_WYKONAWCY_GITHUB_DESKTOP.md   jak pracować w GitHub Desktop
 ```
 
-Zasady:
+Foldery i pliki zaczynające się od podkreślnika (`_promptbooki`, instrukcje)
+są pomijane przy publikacji - to materiały pomocnicze, nie treść.
 
-- nazwa folderu w `visuals/` to id rozdziału (`r01`, `r02`...) - musi istnieć
-  taki rozdział,
-- podfoldery rozpoznawane po nazwie: `Infografiki` oraz `Mapy pojęć`
-  (może być też `Mapy_pojec` - polskie znaki nie są wymagane),
-- formaty plików: `.jpg`, `.png`, `.webp`,
-- NAZWA PLIKU staje się tytułem w aplikacji: podkreślenia zamieniają się na
-  spacje, numer z przodu (`01_`) znika. `02_Zycie_ludzi_paleolitu.jpg`
-  wyświetli się jako "Zycie ludzi paleolitu" - polskie znaki w nazwie pliku
-  są mile widziane i bezpieczne (`02_Życie_ludzi_paleolitu.jpg`),
-- numer z przodu ustala kolejność wyświetlania,
-- folder zaczynający się od `_` jest szkicem i nie publikuje się,
-- KOMPRESUJ grafiki przed dodaniem: docelowo plik poniżej 300 KB
-  (JPEG jakość ~70, szerokość do 1600 px wystarcza na telefonach).
-  Uczniowie pobierają te pliki przez komórkową transmisję danych.
+## Kto co robi
 
-W aplikacji rozdział z wizualizacjami dostaje na karcie przycisk
-"🖼 Infografiki i mapy (N)"; w rozdziale zamkniętym przycisk otwiera paywall,
-tak jak sam rozdział.
+Wykonawca treści dodaje i poprawia pliki w folderach podręczników: nowy
+`rozdzialNN.js`, skompresowane obrazki w `img/`, plansze w `visuals/rNN/`.
+Nie dotyka `_bookConfig.json` ani `_przedmioty.json` bez uzgodnienia.
+Codzienna praca w GitHub Desktop jest opisana krok po kroku w
+`_INSTRUKCJA_WYKONAWCY_GITHUB_DESKTOP.md`.
 
-## Częste błędy, które zatrzyma kontrola jakości
+Właściciel projektu publikuje. Po tym, jak wykonawca wypchnie nową porcję
+treści tutaj, właściciel uruchamia jedno polecenie (niżej), które sprawdza
+treść, kompiluje ją do paczek i wypycha wynik do `podreczniki-content`.
+GitHub Pages rozkłada zmianę, a aplikacja pobiera świeży katalog przy
+następnym uruchomieniu.
 
-Publikację poprzedza automatyczna walidacja - komunikaty są po polsku
-i wskazują plik, id ćwiczenia i powód. Najczęstsze potknięcia:
-numer poprawnej odpowiedzi spoza listy opcji, liczba luk `__________`
-w pytaniu inna niż liczba odpowiedzi, dwa ćwiczenia o tym samym id,
-sekcja nieobecna w `sectionOrder`, obrazek podany ze ścieżką
-(`img/plik.png` zamiast samego `plik.png`) albo plik obrazka o innej
-wielkości liter niż w ćwiczeniu.
+## Publikacja - jedno polecenie (właściciel)
+
+Publikację uruchamia się z folderu projektu aplikacji (tam, gdzie są
+skrypty), nie z tego repozytorium:
+
+```
+node scripts/publish-and-push.mjs
+```
+
+Skrypt robi trzy rzeczy po kolei. Pobiera najświeższe źródła z tego
+repozytorium (`git pull`). Sprawdza i kompiluje treść (`publish-all`) -
+przy jakimkolwiek błędzie zatrzymuje się i nic nie wypycha. Gdy wszystko
+się zgadza, zapisuje wynik do klona `podreczniki-content` i wypycha go na
+GitHub (`git commit` + `git push`).
+
+Ścieżki obu repozytoriów skrypt bierze z pliku `scripts/publish.config.json`
+w projekcie aplikacji (ustawia się je raz). Przydatne warianty:
+
+```
+node scripts/publish-and-push.mjs --dry-run          pokaż plan, nie zapisuj, nie wypychaj
+node scripts/publish-and-push.mjs --only historia-5-gwo   tylko jeden podręcznik
+node scripts/publish-and-push.mjs --message "rozdział 5 biologii"
+```
+
+Zanim treść pojawi się u uczniów, GitHub Pages musi rozłożyć nową wersję.
+Zwykle trwa to około minuty. Adres kontrolny to
+`https://jemielniak.github.io/podreczniki-content/catalog.json` - po
+publikacji ma tam wzrosnąć numer `version`.
+
+## Zasady nazw i formatu (skrót)
+
+Pełne reguły są w `_promptbooki/`. Najkrótsza wersja: identyfikator
+rozdziału to `rNN` (np. `r05`), nazwa pliku to `rozdzialNN.js`. Obrazki do
+pytań mają gołe nazwy z prefiksem rozdziału i tylko znaki `a-z`, `0-9`,
+podkreślnik (`r05_sosna_szyszka.jpg`). Nazwy plansz w `visuals/` mogą mieć
+polskie litery, ale nie znaki nielegalne na Windows (`: ? " / \ | * < >`);
+podtytuł zapisuje się jako `_-_`, co w aplikacji daje " - ".
+
+Nazwa folderu podręcznika (jego identyfikator) jest trwała po pierwszej
+publikacji - nie zmienia się jej później.
