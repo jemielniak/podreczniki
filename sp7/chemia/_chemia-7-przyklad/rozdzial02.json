@@ -1,0 +1,65 @@
+{
+  "id": "c7r02",
+  "number": 2,
+  "title": "Powietrze i jego składniki",
+  "icon": "🌬️",
+  "sectionOrder": ["Skład powietrza", "Tlen"],
+  "sectionIcons": {
+    "Skład powietrza": "🌍",
+    "Tlen": "🔥"
+  },
+  "exercises": [
+    {
+      "id": "C7_R02_POW_01",
+      "section": "Skład powietrza",
+      "type": "multi_select",
+      "prompt": "Zaznacz gazy szlachetne.",
+      "options": ["hel", "azot", "argon", "tlen"],
+      "answer": [0, 2],
+      "explanation": "Hel i argon należą do gazów szlachetnych - są bardzo mało aktywne chemicznie. Azot i tlen to główne składniki powietrza, ale nie są gazami szlachetnymi."
+    },
+    {
+      "id": "C7_R02_POW_02",
+      "section": "Skład powietrza",
+      "type": "sequence",
+      "prompt": "Uszereguj składniki powietrza od największej do najmniejszej zawartości.",
+      "options": null,
+      "items": ["tlen", "azot", "argon"],
+      "answer": ["azot", "tlen", "argon"],
+      "explanation": "Powietrze to około 78% azotu, 21% tlenu i niecały 1% argonu (plus śladowe ilości innych gazów)."
+    },
+    {
+      "id": "C7_R02_POW_03",
+      "section": "Skład powietrza",
+      "type": "odd_one_out",
+      "prompt": "Wskaż wyraz, który nie pasuje do pozostałych: azot, tlen, argon, dym.",
+      "options": null,
+      "answer": "dym",
+      "explanation": "Azot, tlen i argon to gazy będące naturalnymi składnikami powietrza. Dym to zanieczyszczenie - mieszanina gazów i drobnych cząstek stałych."
+    },
+    {
+      "id": "C7_R02_POW_04",
+      "section": "Tlen",
+      "type": "riddle",
+      "prompt": "Jestem gazem bez barwy i zapachu. Bez mnie nie ma oddychania ani palenia się ogniska. Kim jestem?",
+      "options": null,
+      "answer": "tlen",
+      "altAnswers": ["tlen", "o2", "O₂"],
+      "explanation": "To tlen - podtrzymuje procesy oddychania i spalania. W powietrzu stanowi około 21% objętości."
+    },
+    {
+      "id": "C7_R02_POW_05",
+      "section": "Tlen",
+      "type": "scenario",
+      "prompt": "Ala przykryła palącą się świeczkę szklanką. Po chwili płomień zgasł. Dlaczego?",
+      "options": [
+        "Pod szklanką zabrakło tlenu potrzebnego do spalania",
+        "Szklanka ochłodziła powietrze i płomień zamarzł",
+        "Skończył się wosk w świeczce"
+      ],
+      "answer": 0,
+      "explanation": "Spalanie wymaga tlenu. W zamkniętej przestrzeni pod szklanką tlen szybko się zużywa i płomień gaśnie."
+    }
+  ],
+  "kidPrompts": {}
+}

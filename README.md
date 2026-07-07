@@ -1,115 +1,132 @@
-# podreczniki-content - repo treści (GitHub Pages)
+# content-src - treści podręczników (instrukcja dla autora treści)
 
-Publiczne repo z treścią aplikacji "Podręczniki". Aplikacja pobiera stąd
-katalog i paczki podręczników. Zawartość tego folderu przenieś 1:1 do
-osobnego repozytorium i włącz GitHub Pages (Settings → Pages → Deploy from
-branch → `main`, folder `/ (root)`).
+Ten folder to całe Twoje miejsce pracy. Nie musisz znać programowania -
+wystarczy trzymać się układu folderów i formatu ćwiczeń.
 
-Po włączeniu Pages adres bazowy to zwykle:
+Do generowania treści służą gotowe promptbooki w folderze `_promptbooki/`
+(A - ćwiczenia, B - ilustracje do pytań, C - infografiki i mapy pojęć).
+Pliki, które z nich wychodzą, są od razu gotowe do wgrania - bez dalszej
+obróbki. Wgrywanie na GitHub krok po kroku dla osoby nietechnicznej opisuje
+`_INSTRUKCJA_WYKONAWCY.md`.
 
-```
-https://<twoja-nazwa>.github.io/podreczniki-content
-```
-
-Ten adres wpisujesz w aplikacji w JEDNYM miejscu:
-`src/config.js` → `CONTENT_BASE_URL`.
-
-## Układ plików
+## Układ folderów
 
 ```
-catalog.json              katalog: klasy, przedmioty, podręczniki (manifest)
-bundles/<id>.json         paczka treści jednego podręcznika (Faza 3: pobierana)
-img/<id>/cover.png        okładka podręcznika (pokazywana na liście)
-img/<id>/...              obrazki treści (te z pola "images" paczki)
+content-src/
+  sp5/ sp6/ sp7/ sp8/        klasy szkoły podstawowej
+  lo1/ lo2/ lo3/ lo4/        klasy szkoły średniej
+    <przedmiot>/             np. historia, biologia, chemia, repetytorium
+      <id-podręcznika>/      np. chemia-7-nowa-era (małe litery, cyfry, myślniki)
+        _bookConfig.json     tytuł podręcznika (i ewentualnie ikona, wydawca, free)
+        rozdzial01.js        rozdziały z ćwiczeniami (albo rozdzial01.json)
+        rozdzial02.js        ...
+        img/                 obrazki do ćwiczeń
+        cover.png            okładka podręcznika
 ```
 
-## catalog.json - format
+Położenie folderu mówi wszystko: klasa i przedmiot biorą się ze ścieżki,
+identyfikator podręcznika z nazwy jego folderu. Nazwy folderu podręcznika
+NIE zmienia się po pierwszej publikacji.
 
-```json
-{
-  "version": 1,
-  "levels":   [{ "id": "sp5", "label": "Klasa 5", "stage": "sp", "grade": 5 }],
-  "subjects": [{ "id": "historia", "label": "Historia", "icon": "📜" },
-               { "id": "repetytorium", "label": "Repetytorium", "icon": "🎯", "special": true }],
-  "companions": [{
-    "id": "historia-5",
-    "levelId": "sp5",
-    "subjectId": "historia",
-    "title": "Historia - klasa 5",
-    "publisher": "Przykładowe Wydawnictwo",
-    "cover": "img/historia-5/cover.png",
-    "chapterCount": 8,
-    "bundleUrl": "bundles/historia-5.json",
-    "bundleVersion": 1,
-    "bundleHash": "sha256 pola contentHash z paczki",
-    "entitlementId": "companion_historia_5",
-    "offeringId": "companion_historia_5",
-    "freeFirstChapter": true
-  }]
-}
+Podręcznik z polem `"free": true` w `_bookConfig.json` jest w aplikacji w
+całości darmowy (wszystkie rozdziały otwarte, bez zakupu) - to tryb testowy.
+Bez tego pola obowiązuje normalna reguła: darmowy rozdział 1, reszta za
+zakupem. Pole usuwasz, gdy podręcznik ma być płatny.
+
+Repetytoria (przygotowanie do egzaminów) trafiają do folderu
+`repetytorium` w klasach egzaminacyjnych: `sp7`, `sp8`, `lo3`, `lo4`.
+W aplikacji pojawią się automatycznie na złotej karcie "Repetytorium"
+obok przedmiotów tej klasy. Repetytoria nie mają darmowego rozdziału -
+to też dzieje się samo.
+
+## Wersja robocza (szkic)
+
+Folder podręcznika zaczynający się od podkreślnika, np.
+`_chemia-7-nowa-era`, jest SZKICEM - publikacja go pomija. Pracuj
+spokojnie w szkicu; gdy treść jest gotowa, zmień nazwę folderu
+(usuń podkreślnik).
+
+Gotowy, kompletny przykład ze wszystkimi 10 typami ćwiczeń leży w
+`sp7/chemia/_chemia-7-przyklad/` - najlepiej zacząć od skopiowania go.
+
+## Nowy podręcznik krok po kroku
+
+1. Skopiuj folder przykładu w docelowe miejsce, np.
+   `sp7/chemia/_chemia-7-nowa-era/` (na razie ze szkicowym podkreślnikiem).
+   Albo poproś o wygenerowanie szkieletu komendą
+   `node scripts/new-companion.mjs` (opis w BUILD_PROGRESS.md).
+2. W `_bookConfig.json` wpisz tytuł (oraz wydawcę, jeśli ma być widoczny):
+
+   ```json
+   { "title": "Chemia - klasa 7", "publisher": "Nowa Era" }
+   ```
+
+3. Napisz rozdziały `rozdzial01.js`, `rozdzial02.js`, ... Format ćwiczeń
+   (10 typów, wszystkie pola z przykładami) opisuje plik
+   `src/chapters/_SZABLON_ROZDZIALU.js`. Każde ćwiczenie ma unikalny `id`
+   i sekcję z listy `sectionOrder` rozdziału.
+4. Obrazki wrzuć do `img/` i podawaj w ćwiczeniach SAMĄ nazwę pliku,
+   np. `"image": "r01_uklad_okresowy.jpg"`. Zalecany format to `.jpg`
+   skompresowany do szerokości ok. 1400 px i wagi poniżej 300 KB
+   (uczniowie pobierają je przez komórkowy internet). Bez spacji i bez
+   polskich znaków w nazwach plików. Wielkość liter w nazwie musi być
+   identyczna w ćwiczeniu i w pliku.
+5. Dodaj okładkę `cover.png` (pionowa, proporcje mniej więcej 3:4).
+6. Zmień nazwę folderu - usuń podkreślnik. Gotowe: resztą (publikacją)
+   zajmuje się właściciel projektu.
+
+Jeśli przedmiotu, którego potrzebujesz, nie ma jeszcze na liście
+w `_przedmioty.json`, zgłoś to - dodanie go to jedna linijka.
+
+## Aktualizacja istniejącego podręcznika
+
+Po prostu popraw pliki rozdziałów albo dodaj nowe (`rozdzial09.js`, ...).
+Numeracji wersji nie dotykasz - pilnuje jej automat przy publikacji.
+
+## Infografiki i mapy pojęć (opcjonalne)
+
+Obok rozdziałów możesz dodać folder `visuals` z grafikami do oglądania
+w aplikacji. Układ:
+
+```
+visuals/
+  r01/
+    Infografiki/
+      01_Czas_i_epoki.jpg
+      02_Zycie_ludzi_paleolitu.jpg
+    Mapy pojęć/
+      01_Powstanie_pierwszych_spoleczenstw.jpg
+  r02/
+    ...
 ```
 
 Zasady:
 
-- `levels.stage`: `"sp"` (szkoła podstawowa, klasy 5-8) albo `"lo"` (szkoła
-  średnia, klasy 1-4). Aplikacja grupuje karty klas po tym polu.
-- `subjects`: wpis z `"special": true` (Repetytorium) jest wyróżniony
-  wizualnie i zawsze pokazywany na końcu listy przedmiotów.
-- **Każdy companion z `subjectId: "repetytorium"` MUSI mieć
-  `freeFirstChapter: false`** - repetytoria nie mają darmowego rozdziału.
-  Aplikacja i tak wymusza tę regułę po swojej stronie, ale katalog ma mówić
-  prawdę.
-- `cover` i `bundleUrl` mogą być ścieżkami względnymi (liczonymi od adresu
-  bazowego) albo pełnymi URL-ami `https://...` - oba warianty działają.
-- `entitlementId` / `offeringId`: identyfikatory RevenueCat dla odblokowania
-  tego podręcznika (użyje ich Faza 4). Konwencja: `companion_<id z podkreśleniami>`.
+- nazwa folderu w `visuals/` to id rozdziału (`r01`, `r02`...) - musi istnieć
+  taki rozdział,
+- podfoldery rozpoznawane po nazwie: `Infografiki` oraz `Mapy pojęć`
+  (może być też `Mapy_pojec` - polskie znaki nie są wymagane),
+- formaty plików: `.jpg`, `.png`, `.webp`,
+- NAZWA PLIKU staje się tytułem w aplikacji: podkreślenia zamieniają się na
+  spacje, numer z przodu (`01_`) znika. `02_Zycie_ludzi_paleolitu.jpg`
+  wyświetli się jako "Zycie ludzi paleolitu" - polskie znaki w nazwie pliku
+  są mile widziane i bezpieczne (`02_Życie_ludzi_paleolitu.jpg`),
+- numer z przodu ustala kolejność wyświetlania,
+- folder zaczynający się od `_` jest szkicem i nie publikuje się,
+- KOMPRESUJ grafiki przed dodaniem: docelowo plik poniżej 300 KB
+  (JPEG jakość ~70, szerokość do 1600 px wystarcza na telefonach).
+  Uczniowie pobierają te pliki przez komórkową transmisję danych.
 
-## Publikacja nowej wersji podręcznika
+W aplikacji rozdział z wizualizacjami dostaje na karcie przycisk
+"🖼 Infografiki i mapy (N)"; w rozdziale zamkniętym przycisk otwiera paywall,
+tak jak sam rozdział.
 
-1. W repo aplikacji: edytuj rozdziały, podbij `bundleVersion`
-   w `src/chapters/_bookConfig.js`, uruchom `node scripts/build-bundle.mjs`.
-2. Skopiuj wygenerowaną paczkę do `bundles/<id>.json` TUTAJ.
-3. W `catalog.json` ustaw `bundleVersion` na nową wartość i `bundleHash` na
-   pole `contentHash` z wnętrza paczki (aplikacja unieważnia po tym cache
-   w Fazie 3).
-4. Wgraj obrazki z listy `images` paczki do `img/<id>/` (dokładnie te nazwy
-   plików) oraz okładkę `img/<id>/cover.png`.
-5. Commit + push. GitHub Pages publikuje się samo po chwili.
+## Częste błędy, które zatrzyma kontrola jakości
 
-## Uwagi
-
-- Paczka `bundles/historia-5.json` w tym starterze to kopia paczki
-  przykładowej wbudowanej w aplikację (id `historia-5`, hash w katalogu jest
-  jej prawdziwym `contentHash`).
-- `biologia-5` i `repetytorium-historia-8` to wpisy-atrapy: pokazują
-  strukturę katalogu, ale ich paczek jeszcze nie ma. W aplikacji otwierają
-  ekran "pobieranie w Fazie 3".
-- Okładek jeszcze nie ma w repo - aplikacja pokazuje wtedy ikonę przedmiotu
-  (wbudowany fallback), niczego nie psując.
-- GitHub Pages serwuje pliki z nagłówkami CORS `*`, a aplikacja i tak pobiera
-  przez natywny CapacitorHttp, więc webview nie blokuje żądań.
-
-## Faza 3: jak aplikacja pobiera i weryfikuje paczki
-
-1. Przy otwarciu podręcznika aplikacja porównuje `bundleVersion` + `bundleHash`
-   z manifestu z tym, co ma zapisane na urządzeniu. Zgodne = otwiera z cache'u
-   bez sieci. Różne = pobiera `bundleUrl`, liczy sha256 z
-   `JSON.stringify({bookConfig, chapters, images})` sparsowanej paczki
-   i porównuje z `bundleHash`. Niezgodność = paczka odrzucona.
-2. Obrazki z listy `images` są pobierane od razu po paczce, spod
-   `img/<id>/<nazwa>`. Brak pojedynczego pliku nie blokuje podręcznika
-   (aplikacja dociągnie go przy następnym otwarciu), ale docelowo wszystkie
-   pliki z `images` muszą leżeć w repo.
-3. **Publikacja aktualizacji**: wygeneruj paczkę (`node scripts/build-bundle.mjs`
-   po podbiciu `bundleVersion` w `_bookConfig.js`), wgraj do `bundles/`,
-   w `catalog.json` podbij `bundleVersion` i wklej NOWY `contentHash` jako
-   `bundleHash`. Stare wersje na urządzeniach sprzątną się same przy
-   pierwszym otwarciu po aktualizacji.
-
-## Paczka testowa
-
-`bundles/biologia-5.json` to mała, poprawna paczka (1 rozdział, 6 ćwiczeń,
-1 obrazek `img/biologia-5/b5_test_lupa.png`) służąca wyłącznie do testowania
-pobierania end-to-end. Jej `bundleHash` w `catalog.json` jest prawdziwy.
-Przed publikacją produkcyjną podmień ją na prawdziwą treść albo usuń wpis
-z katalogu.
+Publikację poprzedza automatyczna walidacja - komunikaty są po polsku
+i wskazują plik, id ćwiczenia i powód. Najczęstsze potknięcia:
+numer poprawnej odpowiedzi spoza listy opcji, liczba luk `__________`
+w pytaniu inna niż liczba odpowiedzi, dwa ćwiczenia o tym samym id,
+sekcja nieobecna w `sectionOrder`, obrazek podany ze ścieżką
+(`img/plik.png` zamiast samego `plik.png`) albo plik obrazka o innej
+wielkości liter niż w ćwiczeniu.
