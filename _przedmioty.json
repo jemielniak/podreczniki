@@ -1,6 +1,6 @@
 [
-  { "id": "historia", "label": "Historia", "icon": "📜" },
   { "id": "biologia", "label": "Biologia", "icon": "🧬" },
-  { "id": "chemia", "label": "Chemia", "icon": "⚗️" },
+  { "id": "geografia", "label": "Geografia", "icon": "🌍" },
+  { "id": "historia", "label": "Historia", "icon": "📜" },
   { "id": "repetytorium", "label": "Repetytorium", "icon": "🎯", "special": true }
 ]

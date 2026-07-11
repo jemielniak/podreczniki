@@ -129,7 +129,7 @@ const ALL_EXERCISES = [
       "wyspowy"
     ],
     "answer": 1,
-    "image": "/img/r02_pasy_krajobrazowe_polski.png",
+    "image": "/img/r02_pasy_krajobrazowe_polski.jpg",
     "explanation": "Taki przebieg pasów krajobrazowych określa się jako układ równoleżnikowy."
   },
   {
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
       "pas kotlin podkarpackich",
       "pas gór"
     ],
-    "image": "/img/r02_pasy_krajobrazowe_polski.png",
+    "image": "/img/r02_pasy_krajobrazowe_polski.jpg",
     "explanation": "W Polsce pasy krajobrazowe następują od północy ku południu: pobrzeża, pojezierza, niziny środkowopolskie, wyżyny, kotliny podkarpackie i góry."
   },
   {
@@ -254,7 +254,7 @@ const ALL_EXERCISES = [
     "prompt": "Wybrzeże niskie powstaje dzięki budującej działalności fal morskich i tworzeniu wydm.",
     "options": null,
     "answer": true,
-    "image": "/img/r02_typy_wybrzezy.png",
+    "image": "/img/r02_typy_wybrzezy.jpg",
     "explanation": "Fale przenoszą piasek na brzeg, a wiatr usypuje z niego wydmy, dlatego powstaje wybrzeże niskie, czyli wydmowe."
   },
   {
@@ -345,7 +345,7 @@ const ALL_EXERCISES = [
       "pojezierne, morenowe"
     ],
     "answer": 1,
-    "image": "/img/r02_typy_wybrzezy.png",
+    "image": "/img/r02_typy_wybrzezy.jpg",
     "explanation": "Wysokie, klifowe wybrzeże powstaje wskutek niszczącej działalności fal morskich."
   },
   {
@@ -424,7 +424,7 @@ const ALL_EXERCISES = [
       "zatoka zostaje odcięta od pełnego morza",
       "powstaje jezioro przybrzeżne"
     ],
-    "image": "/img/r02_wydmy_ruchome.png",
+    "image": "/img/r02_wydmy_ruchome.jpg",
     "explanation": "Przybrzeżny prąd nanosi piasek, z niego powstaje mierzeja, która odcina zatokę od morza i tworzy jezioro przybrzeżne."
   },
   {
@@ -495,7 +495,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "image": "/img/r02_jezioro_szuwary_ptaki.png",
+    "image": "/img/r02_jezioro_szuwary_ptaki.jpg",
     "explanation": "Tereny podmokłe i brzegi jezior są schronieniem między innymi dla czapli, gęsi i perkozów."
   },
   {
@@ -632,7 +632,7 @@ const ALL_EXERCISES = [
       "wody roztopowe wyżłabiają zagłębienia",
       "w zagłębieniach powstają jeziora"
     ],
-    "image": "/img/r02_jezioro_szuwary_ptaki.png",
+    "image": "/img/r02_jezioro_szuwary_ptaki.jpg",
     "explanation": "Lądolód pozostawił materiał skalny, a wody roztopowe wyżłobiły zagłębienia, w których powstały jeziora polodowcowe."
   },
   {
@@ -726,7 +726,7 @@ const ALL_EXERCISES = [
         "starorzecze"
       ]
     ],
-    "image": "/img/r02_meander_starorzecze.png",
+    "image": "/img/r02_meander_starorzecze.jpg",
     "explanation": "Meandry to zakola rzek, a starorzecze jest pozostałością dawnego meandru."
   },
   {
@@ -740,7 +740,7 @@ const ALL_EXERCISES = [
       "starorzecze",
       "starorzecza"
     ],
-    "image": "/img/r02_meander_starorzecze.png",
+    "image": "/img/r02_meander_starorzecze.jpg",
     "explanation": "Odcięty od głównego koryta meander tworzy starorzecze."
   },
   {
@@ -842,7 +842,7 @@ const ALL_EXERCISES = [
       "meander zostaje odcięty od koryta",
       "powstaje starorzecze"
     ],
-    "image": "/img/r02_meander_starorzecze.png",
+    "image": "/img/r02_meander_starorzecze.jpg",
     "explanation": "Rzeka tworzy meander, przewężenie zostaje przerwane, a dawny fragment koryta zamienia się w starorzecze."
   },
   {
@@ -859,7 +859,7 @@ const ALL_EXERCISES = [
       "Gdańsk"
     ],
     "answer": 0,
-    "image": "/img/r02_warszawa_wielkie_miasto.png",
+    "image": "/img/r02_warszawa_wielkie_miasto.jpg",
     "explanation": "Warszawa leży nad Wisłą na Nizinie Mazowieckiej i jest stolicą Polski."
   },
   {
@@ -974,7 +974,7 @@ const ALL_EXERCISES = [
       "górski"
     ],
     "answer": 0,
-    "image": "/img/r02_warszawa_wielkie_miasto.png",
+    "image": "/img/r02_warszawa_wielkie_miasto.jpg",
     "explanation": "Takie cechy są typowe dla krajobrazu dużego miasta."
   },
   {
@@ -1123,7 +1123,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "image": "/img/r02_wydmy_ruchome.png",
+    "image": "/img/r02_wydmy_ruchome.jpg",
     "explanation": "Wśród roślin pionierskich wymieniono piaskownicę zwyczajną, wydmuchrzycę piaskową i mikołajka nadmorskiego."
   },
   {
@@ -1148,7 +1148,7 @@ const ALL_EXERCISES = [
         "czterdzieści"
       ]
     ],
-    "image": "/img/r02_wydmy_ruchome.png",
+    "image": "/img/r02_wydmy_ruchome.jpg",
     "explanation": "W Słowińskim Parku Narodowym najwyższa jest Wydma Łącka o wysokości ponad 40 m."
   },
   {
@@ -1186,7 +1186,7 @@ const ALL_EXERCISES = [
       "budowa falochronów"
     ],
     "answer": 0,
-    "image": "/img/r02_meander_starorzecze.png",
+    "image": "/img/r02_meander_starorzecze.jpg",
     "explanation": "Gdy klimat był chłodniejszy, wiatr usypał z piasków wydmy śródlądowe."
   },
   {

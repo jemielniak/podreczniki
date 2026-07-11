@@ -73,7 +73,7 @@ const ALL_EXERCISES = [
       "pustynia gorąca": "wysoka temperatura i bardzo mało opadów",
       "tundra": "karłowate drzewa, mchy i porosty"
     },
-    "image": "/img/r04_strefy_krajobrazowe_schemat.png",
+    "image": "/img/r04_strefy_krajobrazowe_schemat.jpg",
     "explanation": "Formacje roślinne wynikają z warunków klimatycznych, zwłaszcza temperatury i opadów."
   },
   {
@@ -98,7 +98,7 @@ const ALL_EXERCISES = [
       "tundra",
       "pustynie lodowe"
     ],
-    "image": "/img/r04_strefy_krajobrazowe_schemat.png",
+    "image": "/img/r04_strefy_krajobrazowe_schemat.jpg",
     "explanation": "Wraz z oddalaniem się od równika spada ilość energii słonecznej, a krajobrazy zmieniają się strefowo."
   },
   {
@@ -143,7 +143,7 @@ const ALL_EXERCISES = [
       "Krajobraz rolniczy"
     ],
     "answer": 0,
-    "image": "/img/r04_pietrowosc_roslinnosci_gory.png",
+    "image": "/img/r04_pietrowosc_roslinnosci_gory.jpg",
     "explanation": "Wysoko w górach roślinność zmienia się wraz z wysokością, co nazywa się piętrowością klimatyczno-roślinną."
   },
   {
@@ -233,7 +233,7 @@ const ALL_EXERCISES = [
         "zmienia sie"
       ]
     ],
-    "image": "/img/r04_pietrowosc_roslinnosci_gory.png",
+    "image": "/img/r04_pietrowosc_roslinnosci_gory.jpg",
     "explanation": "W wyższych partiach gór panują trudniejsze warunki, dlatego piętra roślinne zmieniają się wraz z wysokością."
   },
   {
@@ -338,7 +338,7 @@ const ALL_EXERCISES = [
       "orangutan": "Azja",
       "anakonda zielona": "rozlewiska Amazonki"
     },
-    "image": "/img/r04_zwierzeta_lasu_rownikowego.png",
+    "image": "/img/r04_zwierzeta_lasu_rownikowego.jpg",
     "explanation": "Skład gatunkowy lasów równikowych różni się między kontynentami."
   },
   {
@@ -361,7 +361,7 @@ const ALL_EXERCISES = [
       "podszyt",
       "runo leśne"
     ],
-    "image": "/img/r04_warstwy_lasu_rownikowego.png",
+    "image": "/img/r04_warstwy_lasu_rownikowego.jpg",
     "explanation": "Warstwy lasu równikowego obejmują najwyżej drzewa olbrzymy, a najniżej runo leśne."
   },
   {
@@ -385,7 +385,7 @@ const ALL_EXERCISES = [
       "Tworzy czarnoziem"
     ],
     "answer": 0,
-    "image": "/img/r04_warstwy_lasu_rownikowego.png",
+    "image": "/img/r04_warstwy_lasu_rownikowego.jpg",
     "explanation": "Liany wspinają się po pniach i gałęziach, aby dotrzeć do bardziej nasłonecznionych miejsc."
   },
   {
@@ -537,7 +537,7 @@ const ALL_EXERCISES = [
       "wiosna i jesień": "od 5 do 15°C",
       "przedwiośnie i przedzimie": "od 0 do 5°C"
     },
-    "image": "/img/r04_las_umiarkowany_pory_roku.png",
+    "image": "/img/r04_las_umiarkowany_pory_roku.jpg",
     "explanation": "Diagram w lekcji opisuje pory roku w Polsce według temperatury powietrza."
   },
   {
@@ -560,7 +560,7 @@ const ALL_EXERCISES = [
       "Gleba bogata w próchnicę jest żyzna.",
       "Ludzie wykarczowali wiele lasów."
     ],
-    "image": "/img/r04_przemiana_lasu_w_pole.png",
+    "image": "/img/r04_przemiana_lasu_w_pole.jpg",
     "explanation": "W strefie umiarkowanej opadłe liście tworzą próchnicę, a żyzne gleby sprzyjały zamianie lasów w pola."
   },
   {
@@ -701,7 +701,7 @@ const ALL_EXERCISES = [
       "sawanna akacjowa",
       "sawanna sucha"
     ],
-    "image": "/img/r04_sawanna_pora_sucha_deszczowa.png",
+    "image": "/img/r04_sawanna_pora_sucha_deszczowa.jpg",
     "explanation": "Wraz z oddalaniem się od równika krajobraz przechodzi od sawanny parkowej przez akacjową do suchej."
   },
   {
@@ -711,7 +711,7 @@ const ALL_EXERCISES = [
     "prompt": "Na sawannie wyraźnie zaznacza się pora sucha i pora deszczowa.",
     "options": null,
     "answer": true,
-    "image": "/img/r04_sawanna_pora_sucha_deszczowa.png",
+    "image": "/img/r04_sawanna_pora_sucha_deszczowa.jpg",
     "explanation": "W porze suchej przez kilka miesięcy nie pada deszcz, a w porze deszczowej trawy odradzają się."
   },
   {
@@ -736,7 +736,7 @@ const ALL_EXERCISES = [
         "odrastaja"
       ]
     ],
-    "image": "/img/r04_sawanna_pora_sucha_deszczowa.png",
+    "image": "/img/r04_sawanna_pora_sucha_deszczowa.jpg",
     "explanation": "Brak wody powoduje wysychanie traw, ale po powrocie opadów roślinność się odradza."
   },
   {
@@ -808,7 +808,7 @@ const ALL_EXERCISES = [
       "Zbieractwo w lesie równikowym"
     ],
     "answer": 0,
-    "image": "/img/r04_step_jurta_i_pasterstwo.png",
+    "image": "/img/r04_step_jurta_i_pasterstwo.jpg",
     "explanation": "Ludzi prowadzących koczowniczy, wędrowny tryb życia podręcznik nazywa nomadami."
   },
   {
@@ -822,7 +822,7 @@ const ALL_EXERCISES = [
       "jurta",
       "Jurta"
     ],
-    "image": "/img/r04_step_jurta_i_pasterstwo.png",
+    "image": "/img/r04_step_jurta_i_pasterstwo.jpg",
     "explanation": "Jurta jest domem, który można łatwo rozłożyć i przenieść w inne miejsce."
   },
   {
@@ -855,7 +855,7 @@ const ALL_EXERCISES = [
         "preria i pampa"
       ]
     },
-    "image": "/img/r04_formacje_porownanie.png",
+    "image": "/img/r04_formacje_porownanie.jpg",
     "explanation": "Sawanna jest gorąca przez cały rok i ma porę suchą oraz deszczową, a step leży w klimacie umiarkowanym i może mieć mroźne zimy."
   },
   {
@@ -916,7 +916,7 @@ const ALL_EXERCISES = [
       "sawanna": "pora sucha i deszczowa",
       "step": "czarnoziemy i obszary trawiaste"
     },
-    "image": "/img/r04_formacje_porownanie.png",
+    "image": "/img/r04_formacje_porownanie.jpg",
     "explanation": "Powtórka łączy najważniejsze cechy krajobrazów opisanych w rozdziale."
   },
   {
@@ -979,7 +979,7 @@ const ALL_EXERCISES = [
       "sawanna przypominająca park",
       "sucha sawanna z pożółkłymi trawami"
     ],
-    "image": "/img/r04_sawanna_pora_sucha_deszczowa.png",
+    "image": "/img/r04_sawanna_pora_sucha_deszczowa.jpg",
     "explanation": "W podróży z Gabonu do północnego Kamerunu bujny las przechodzi stopniowo w krajobraz sawanny."
   },
   {
@@ -994,7 +994,7 @@ const ALL_EXERCISES = [
       "Tajgę i sawannę"
     ],
     "answer": 0,
-    "image": "/img/r04_formacje_porownanie.png",
+    "image": "/img/r04_formacje_porownanie.jpg",
     "explanation": "Pierwszy opis dotyczy wilgotnego lasu równikowego, a drugi lasu strefy umiarkowanej."
   },
   {
@@ -1202,7 +1202,7 @@ const ALL_EXERCISES = [
         "cieply"
       ]
     ],
-    "image": "/img/r04_pietrowosc_roslinnosci_gory.png",
+    "image": "/img/r04_pietrowosc_roslinnosci_gory.jpg",
     "explanation": "Przykład Andów pokazuje, że wysokość nad poziomem morza wpływa na warunki klimatyczne."
   },
   {
@@ -1273,7 +1273,7 @@ const ALL_EXERCISES = [
       "Cały rok: pora lodowa"
     ],
     "answer": 0,
-    "image": "/img/r04_klimatogram_sawanny.png",
+    "image": "/img/r04_klimatogram_sawanny.jpg",
     "explanation": "Dla sawanny charakterystyczne są pora sucha i pora deszczowa."
   },
   {
@@ -1311,7 +1311,7 @@ const ALL_EXERCISES = [
       "Rolnicy wykorzystują żyzne gleby.",
       "Lasy zostają zamienione w pola."
     ],
-    "image": "/img/r04_przemiana_lasu_w_pole.png",
+    "image": "/img/r04_przemiana_lasu_w_pole.jpg",
     "explanation": "Żyzne gleby powstałe dzięki próchnicy sprzyjały wykorzystywaniu dawnych terenów leśnych rolniczo."
   },
   {

@@ -263,7 +263,7 @@ const ALL_EXERCISES = [
         "mianowana"
       ]
     ],
-    "image": "/img/r01_podzialka_liniowa.png",
+    "image": "/img/r01_podzialka_liniowa.jpg",
     "explanation": "Ta sama skala może mieć postać liczbową, mianowaną albo graficzną jako podziałka liniowa."
   },
   {
@@ -357,7 +357,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "image": "/img/r01_podzialka_liniowa.png",
+    "image": "/img/r01_podzialka_liniowa.jpg",
     "explanation": "Podręcznik podaje linijkę, cyrkiel i nitkę jako przydatne sposoby odmierzania odległości na mapie."
   },
   {
@@ -467,7 +467,7 @@ const ALL_EXERCISES = [
       "poziomice",
       "poziomica"
     ],
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Poziomice łączą punkty o tej samej wysokości bezwzględnej."
   },
   {
@@ -556,7 +556,7 @@ const ALL_EXERCISES = [
       "Zaznaczony jako granica państwa"
     ],
     "answer": 1,
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Im mniejsze są odległości między poziomicami, tym bardziej stromy jest stok lub zbocze."
   },
   {
@@ -683,7 +683,7 @@ const ALL_EXERCISES = [
       "Równik",
       "rownik"
     ],
-    "image": "/img/r01_globus_siatka_geograficzna.png",
+    "image": "/img/r01_globus_siatka_geograficzna.jpg",
     "explanation": "Równik jest najdłuższym równoleżnikiem i dzieli Ziemię na półkulę północną i południową."
   },
   {
@@ -753,7 +753,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: równik, zwrotnik Raka, koło podbiegunowe północne, południk 0°.",
     "options": null,
     "answer": "południk 0°",
-    "image": "/img/r01_globus_siatka_geograficzna.png",
+    "image": "/img/r01_globus_siatka_geograficzna.jpg",
     "explanation": "Równik, zwrotnik Raka i koło podbiegunowe północne są równoleżnikami, a południk 0° jest południkiem."
   },
   {
@@ -854,7 +854,7 @@ const ALL_EXERCISES = [
       3,
       5
     ],
-    "image": "/img/r01_kontynenty_oceany_mapa.png",
+    "image": "/img/r01_kontynenty_oceany_mapa.jpg",
     "explanation": "Kontynenty to wielkie obszary lądowe, takie jak Azja, Afryka, Australia i Europa."
   },
   {
@@ -957,7 +957,7 @@ const ALL_EXERCISES = [
         "Ocean Południowy"
       ]
     },
-    "image": "/img/r01_kontynenty_oceany_mapa.png",
+    "image": "/img/r01_kontynenty_oceany_mapa.jpg",
     "explanation": "Europa, Ameryka Południowa i Antarktyda są kontynentami, a Ocean Indyjski, Arktyczny i Południowy są oceanami."
   },
   {
@@ -1109,7 +1109,7 @@ const ALL_EXERCISES = [
       1,
       4
     ],
-    "image": "/img/r01_globus_siatka_geograficzna.png",
+    "image": "/img/r01_globus_siatka_geograficzna.jpg",
     "explanation": "Równik dzieli Ziemię na półkulę północną i południową, a płaszczyzna południków 0° i 180° na wschodnią i zachodnią."
   },
   {
@@ -1150,7 +1150,7 @@ const ALL_EXERCISES = [
       "Szlak turystyczny"
     ],
     "answer": 1,
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Jeżeli wartości poziomic maleją ku środkowi, oznacza to obniżenie terenu."
   },
   {
@@ -1196,7 +1196,7 @@ const ALL_EXERCISES = [
       0,
       1
     ],
-    "image": "/img/r01_kontynenty_oceany_mapa.png",
+    "image": "/img/r01_kontynenty_oceany_mapa.jpg",
     "explanation": "Europa i Ameryka Północna leżą w całości na półkuli północnej; Azja sięga również na południe od równika."
   },
   {

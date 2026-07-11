@@ -90,7 +90,7 @@ const ALL_EXERCISES = [
       "hałdy",
       "haldy"
     ],
-    "image": "/img/r03_wieza_kopalniana_halda.png",
+    "image": "/img/r03_wieza_kopalniana_halda.jpg",
     "explanation": "Hałdy są jedną z najbardziej charakterystycznych antropogenicznych form terenu w krajobrazie Wyżyny Śląskiej."
   },
   {
@@ -215,7 +215,7 @@ const ALL_EXERCISES = [
       "melioracja"
     ],
     "answer": 1,
-    "image": "/img/r03_wieza_kopalniana_halda.png",
+    "image": "/img/r03_wieza_kopalniana_halda.jpg",
     "explanation": "Rewitalizacja polega na nadaniu dawnym obiektom lub obszarom nowej funkcji, np. kulturalnej, handlowej albo rekreacyjnej."
   },
   {
@@ -245,7 +245,7 @@ const ALL_EXERCISES = [
       "less",
       "les"
     ],
-    "image": "/img/r03_wawoz_lessowy_pola.png",
+    "image": "/img/r03_wawoz_lessowy_pola.jpg",
     "explanation": "Less pokrywa znaczną część Wyżyny Lubelskiej i łatwo ulega wymywaniu przez wody opadowe."
   },
   {
@@ -255,7 +255,7 @@ const ALL_EXERCISES = [
     "prompt": "Less łatwo podlega wymywaniu przez wody opadowe, dlatego na Wyżynie Lubelskiej powstają wąwozy.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_wawoz_lessowy_pola.png",
+    "image": "/img/r03_wawoz_lessowy_pola.jpg",
     "explanation": "Wąwozy lessowe powstają, gdy bruzdy wymywane przez wodę stają się coraz głębsze i szersze."
   },
   {
@@ -546,7 +546,7 @@ const ALL_EXERCISES = [
       "grań"
     ],
     "answer": 0,
-    "image": "/img/r03_jaskinia_formy_naciekowe.png",
+    "image": "/img/r03_jaskinia_formy_naciekowe.jpg",
     "explanation": "Stalaktyt jest naciekiem zwisającym ze stropu, a stalagmit rośnie od dna jaskini."
   },
   {
@@ -690,7 +690,7 @@ const ALL_EXERCISES = [
     "prompt": "Tatry są jedynymi górami w Polsce, w których występuje krajobraz wysokogórski o charakterze alpejskim.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_turnie_i_stawy_tatrzanskie.png",
+    "image": "/img/r03_turnie_i_stawy_tatrzanskie.jpg",
     "explanation": "W Tatrach występują strome zbocza dolin, ostre granie i skaliste szczyty, dlatego mają charakter alpejski."
   },
   {
@@ -771,7 +771,7 @@ const ALL_EXERCISES = [
       "stożek piargowy": "odłamki skalne usypane poniżej wylotu żlebu",
       "żleb": "pionowe wcięcie w stoku"
     },
-    "image": "/img/r03_turnie_i_stawy_tatrzanskie.png",
+    "image": "/img/r03_turnie_i_stawy_tatrzanskie.jpg",
     "explanation": "W krajobrazie wysokogórskim Tatr występują m.in. granie, przełęcze, turnie, kotły lodowcowe, stożki piargowe i żleby."
   },
   {
@@ -817,7 +817,7 @@ const ALL_EXERCISES = [
       "hale",
       "turnie"
     ],
-    "image": "/img/r03_pietra_roslinnosci_tatr.png",
+    "image": "/img/r03_pietra_roslinnosci_tatr.jpg",
     "explanation": "Roślinność w Tatrach ma układ piętrowy: od pogórza przez regle i kosodrzewinę po hale i turnie."
   },
   {
@@ -834,7 +834,7 @@ const ALL_EXERCISES = [
       "familoki"
     ],
     "answer": 2,
-    "image": "/img/r03_pietra_roslinnosci_tatr.png",
+    "image": "/img/r03_pietra_roslinnosci_tatr.jpg",
     "explanation": "Hale to piętro łąk wysokogórskich, na którym występują trawy i zioła."
   },
   {
@@ -903,7 +903,7 @@ const ALL_EXERCISES = [
       "Ojcowski Park Narodowy"
     ],
     "answer": 0,
-    "image": "/img/r03_turnie_i_stawy_tatrzanskie.png",
+    "image": "/img/r03_turnie_i_stawy_tatrzanskie.jpg",
     "explanation": "Takie cechy są typowe dla Tatr Wysokich, które są wyższe i bardziej skaliste od Tatr Zachodnich."
   },
   {
@@ -973,7 +973,7 @@ const ALL_EXERCISES = [
       "zebranie i porównanie ocen grup",
       "zaproponowanie rozwiązań"
     ],
-    "image": "/img/r03_otoczenie_szkoly_ocena.png",
+    "image": "/img/r03_otoczenie_szkoly_ocena.jpg",
     "explanation": "Ocena najbliższego krajobrazu zaczyna się od określenia położenia i obszaru obserwacji, a kończy porównaniem ocen i zaproponowaniem zmian."
   },
   {
@@ -990,7 +990,7 @@ const ALL_EXERCISES = [
       "budowa Szlaku Orlich Gniazd"
     ],
     "answer": 0,
-    "image": "/img/r03_otoczenie_szkoly_ocena.png",
+    "image": "/img/r03_otoczenie_szkoly_ocena.jpg",
     "explanation": "Takie działania służą poprawie estetyki i jakości najbliższego otoczenia."
   },
   {
@@ -1248,7 +1248,7 @@ const ALL_EXERCISES = [
       "Karkonosze"
     ],
     "answer": 0,
-    "image": "/img/r03_wawoz_lessowy_pola.png",
+    "image": "/img/r03_wawoz_lessowy_pola.jpg",
     "explanation": "Wąwozy lessowe, czarnoziemy i rolnictwo są typowe dla Wyżyny Lubelskiej."
   },
   {
@@ -1391,7 +1391,7 @@ const ALL_EXERCISES = [
       "kalcyt",
       "calcite"
     ],
-    "image": "/img/r03_jaskinia_formy_naciekowe.png",
+    "image": "/img/r03_jaskinia_formy_naciekowe.jpg",
     "explanation": "Kalcyt powstaje z osadzającego się węglanu wapnia i buduje stalaktyty, stalagmity oraz stalagnaty."
   },
   {
@@ -1412,7 +1412,7 @@ const ALL_EXERCISES = [
       "węglan wapnia osadza się jako kalcyt",
       "powstają stalaktyty, stalagmity i stalagnaty"
     ],
-    "image": "/img/r03_jaskinia_formy_naciekowe.png",
+    "image": "/img/r03_jaskinia_formy_naciekowe.jpg",
     "explanation": "Formy naciekowe powstają bardzo powoli, gdy woda z rozpuszczonym węglanem wapnia kapie i osadza kalcyt."
   }
 ];

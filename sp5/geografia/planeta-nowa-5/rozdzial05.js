@@ -52,7 +52,7 @@ const ALL_EXERCISES = [
       5
     ],
     "explanation": "Pustynie lodowe leżą w obszarach okołobiegunowych, mają bardzo niską temperaturę, obejmują Antarktydę i Grenlandię, a Antarktyda nie ma stałych osad.",
-    "image": "/img/r05_pustynia_goraca_lodowa_kontrast.png"
+    "image": "/img/r05_pustynia_goraca_lodowa_kontrast.jpg"
   },
   {
     "id": "R05_PUS_04",
@@ -116,7 +116,7 @@ const ALL_EXERCISES = [
       "pingwin": "wodoszczelne pióra chroniące przed chłodem"
     },
     "explanation": "Każde z tych zwierząt ma cechy ułatwiające życie w skrajnych warunkach pustyni gorącej albo lodowej.",
-    "image": "/img/r05_przystosowania_wielblada_fenka.png"
+    "image": "/img/r05_przystosowania_wielblada_fenka.jpg"
   },
   {
     "id": "R05_PUS_07",
@@ -133,7 +133,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Fenek ma duże uszy służące termoregulacji i ubarwienie ułatwiające kamuflaż wśród pustynnych skał i piasku.",
-    "image": "/img/r05_przystosowania_wielblada_fenka.png"
+    "image": "/img/r05_przystosowania_wielblada_fenka.jpg"
   },
   {
     "id": "R05_PUS_08",
@@ -175,7 +175,7 @@ const ALL_EXERCISES = [
       ]
     },
     "explanation": "Pustynie gorące wiążą się ze zwrotnikami i wysoką temperaturą, a pustynie lodowe z obszarami okołobiegunowymi i lodem.",
-    "image": "/img/r05_pustynia_goraca_lodowa_kontrast.png"
+    "image": "/img/r05_pustynia_goraca_lodowa_kontrast.jpg"
   },
   {
     "id": "R05_PUS_10",
@@ -238,7 +238,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Tajga to rozległy las, w którym dominują drzewa iglaste, np. świerki, modrzewie, jodły i sosny.",
-    "image": "/img/r05_tajga_tundra_przekroj.png"
+    "image": "/img/r05_tajga_tundra_przekroj.jpg"
   },
   {
     "id": "R05_TAJ_02",
@@ -288,7 +288,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "explanation": "Lasotundra to obszar stopniowego przejścia od zwartej tajgi do bezleśnej tundry.",
-    "image": "/img/r05_tajga_tundra_przekroj.png"
+    "image": "/img/r05_tajga_tundra_przekroj.jpg"
   },
   {
     "id": "R05_TAJ_05",
@@ -331,7 +331,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Po rozmarznięciu wierzchniej warstwy gruntu podłoże staje się grząskie, a budynki mogą się wykrzywiać i pękać.",
-    "image": "/img/r05_wieloletnia_zmarzlina_budynek.png"
+    "image": "/img/r05_wieloletnia_zmarzlina_budynek.jpg"
   },
   {
     "id": "R05_TAJ_07",
@@ -389,7 +389,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Wieloletnia zmarzlina to stale zamarznięta warstwa gruntu, która utrudnia budowę i osadnictwo.",
-    "image": "/img/r05_wieloletnia_zmarzlina_budynek.png"
+    "image": "/img/r05_wieloletnia_zmarzlina_budynek.jpg"
   },
   {
     "id": "R05_TAJ_10",
@@ -502,7 +502,7 @@ const ALL_EXERCISES = [
       3
     ],
     "explanation": "Rośliny śródziemnomorskie ograniczają utratę wody i wykorzystują głębokie korzenie, a wiele z nich jest zimozielonych.",
-    "image": "/img/r05_makia_roslinnosc_srodziemnomorska.png"
+    "image": "/img/r05_makia_roslinnosc_srodziemnomorska.jpg"
   },
   {
     "id": "R05_SRO_05",
@@ -516,7 +516,7 @@ const ALL_EXERCISES = [
       "Makia"
     ],
     "explanation": "Makia powstała po zniszczeniu pierwotnych lasów dębowych, cyprysowych i piniowych.",
-    "image": "/img/r05_makia_roslinnosc_srodziemnomorska.png"
+    "image": "/img/r05_makia_roslinnosc_srodziemnomorska.jpg"
   },
   {
     "id": "R05_SRO_06",
@@ -568,7 +568,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Białe ściany odbijają światło, a cień i okiennice pomagają utrzymać niższą temperaturę wewnątrz budynku.",
-    "image": "/img/r05_dom_srodziemnomorski_bialy.png"
+    "image": "/img/r05_dom_srodziemnomorski_bialy.jpg"
   },
   {
     "id": "R05_SRO_09",
@@ -748,7 +748,7 @@ const ALL_EXERCISES = [
       "lodowce i wieczne śniegi"
     ],
     "explanation": "Wraz z wysokością spada temperatura, dlatego od podnóża ku szczytom zmieniają się kolejne piętra roślinności i krajobrazu.",
-    "image": "/img/r05_pietra_roslinnosci_himalajow.png"
+    "image": "/img/r05_pietra_roslinnosci_himalajow.jpg"
   },
   {
     "id": "R05_HIM_06",
@@ -775,7 +775,7 @@ const ALL_EXERCISES = [
       "lodowiec górski": "masa lodu powstała z wieloletniego nagromadzenia śniegu"
     },
     "explanation": "Himalaje mają bogatą wysokogórską przyrodę, a typowym elementem krajobrazu są również lodowce.",
-    "image": "/img/r05_jak_i_szerpa_himalaje.png"
+    "image": "/img/r05_jak_i_szerpa_himalaje.jpg"
   },
   {
     "id": "R05_HIM_07",
@@ -816,7 +816,7 @@ const ALL_EXERCISES = [
       "szerpa"
     ],
     "explanation": "Szerpowie bardzo dobrze znają góry i odgrywają ważną rolę w turystyce wysokogórskiej.",
-    "image": "/img/r05_jak_i_szerpa_himalaje.png"
+    "image": "/img/r05_jak_i_szerpa_himalaje.jpg"
   },
   {
     "id": "R05_HIM_10",
@@ -839,7 +839,7 @@ const ALL_EXERCISES = [
       4
     ],
     "explanation": "Wysokogórskie warunki obejmują mróz, silny wiatr, rozrzedzone powietrze, ryzyko choroby wysokościowej i niebezpieczne lodowce.",
-    "image": "/img/r05_lodowiec_gorski_szczeliny.png"
+    "image": "/img/r05_lodowiec_gorski_szczeliny.jpg"
   },
   {
     "id": "R05_HIM_11",
@@ -849,7 +849,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "explanation": "Tak powstałe masy lodu są typowym elementem wysokogórskiego krajobrazu Himalajów.",
-    "image": "/img/r05_lodowiec_gorski_szczeliny.png"
+    "image": "/img/r05_lodowiec_gorski_szczeliny.jpg"
   },
   {
     "id": "R05_HIM_12",
@@ -974,7 +974,7 @@ const ALL_EXERCISES = [
       "pustynie gorące"
     ],
     "explanation": "Najbliżej bieguna leżą pustynie lodowe, dalej tundra i tajga, a znacznie dalej strefa śródziemnomorska i pustynie gorące.",
-    "image": "/img/r05_mapa_stref_krajobrazowych.png"
+    "image": "/img/r05_mapa_stref_krajobrazowych.jpg"
   },
   {
     "id": "R05_POW_04",
@@ -1117,7 +1117,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Białe domy, oliwki, winorośl, ciepłe morze i turystyka są charakterystyczne dla regionu Morza Śródziemnego.",
-    "image": "/img/r05_dom_srodziemnomorski_bialy.png"
+    "image": "/img/r05_dom_srodziemnomorski_bialy.jpg"
   },
   {
     "id": "R05_HARD_01",
@@ -1236,7 +1236,7 @@ const ALL_EXERCISES = [
       "powstają rozlewiska i mnożą się owady"
     ],
     "explanation": "Wieloletnia zmarzlina utrudnia osadnictwo, bo rozmarzająca powierzchnia traci stabilność i tworzy podmokłe tereny.",
-    "image": "/img/r05_wieloletnia_zmarzlina_budynek.png"
+    "image": "/img/r05_wieloletnia_zmarzlina_budynek.jpg"
   },
   {
     "id": "R05_HARD_07",
