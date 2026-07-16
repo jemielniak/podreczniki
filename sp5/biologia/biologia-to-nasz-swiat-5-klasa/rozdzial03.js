@@ -1,859 +1,109 @@
-// Rozdział 3 - To nasz świat, klasa 5
-// Wygenerowane ćwiczenia: 50 podstawowych + 20 "Super trudne"
-// Ilustracje: 15 do puli podstawowej + 7 do puli "Super trudne"
+// Skróty sekcji (do identyfikatorów ćwiczeń):
+//   CRO  = Cechy roślin
+//   TKA  = Tkanki roślinne
+//   MCH  = Mchy
+//   PWS  = Paprociowe, widłakowe i skrzypowe
+//   HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
-    "id": "R03_CHR_01",
-    "section": "Czym charakteryzują się rośliny?",
+    "id": "R03_CRO_01",
+    "section": "Cechy roślin",
     "type": "single_choice",
-    "prompt": "Który zestaw najlepiej opisuje większość roślin?",
+    "prompt": "Co pozwala większości roślin wytwarzać pokarm w procesie fotosyntezy?",
+    "image": "r03_roznorodnosc_roslin.jpg",
     "options": [
-      "Mają chlorofil i same robią pokarm",
-      "Zjadają inne organizmy",
-      "Nie potrzebują światła",
-      "Zawsze żyją tylko w wodzie"
+      "dostęp do światła i chlorofil",
+      "brak wody i ciemność",
+      "wyłącznie obecność korzeni",
+      "tylko życie w lesie",
+      "pobieranie pokarmu od zwierząt",
+      "brak zielonego barwnika"
     ],
     "answer": 0,
-    "explanation": "Większość roślin ma chlorofil i dzięki światłu wytwarza pokarm w fotosyntezie."
+    "explanation": "Większość roślin ma chlorofil i potrzebuje dostępu do światła. Dzięki temu produkuje pokarm w procesie fotosyntezy."
   },
   {
-    "id": "R03_CHR_02",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "sort",
-    "image": "/img/tns_r03_podzial_roslin.jpg",
-    "prompt": "Posortuj grupy roślin do dobrych kategorii.",
-    "options": null,
-    "items": [
-      "mchy",
-      "paprociowe",
-      "nagonasienne",
-      "okrytonasienne"
-    ],
-    "categories": [
-      "zarodnikowe",
-      "nasienne"
-    ],
-    "answer": {
-      "zarodnikowe": [
-        "mchy",
-        "paprociowe"
-      ],
-      "nasienne": [
-        "nagonasienne",
-        "okrytonasienne"
-      ]
-    },
-    "explanation": "Mchy i paprociowe rozmnażają się za pomocą zarodników. Nagonasienne i okrytonasienne tworzą nasiona."
-  },
-  {
-    "id": "R03_CHR_03",
-    "section": "Czym charakteryzują się rośliny?",
+    "id": "R03_CRO_02",
+    "section": "Cechy roślin",
     "type": "true_false",
-    "prompt": "Rośliny naczyniowe mają tkankę przewodzącą.",
+    "prompt": "Większość roślin jest samożywna, ponieważ w procesie fotosyntezy produkuje pokarm.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Tkanka przewodząca rozprowadza wodę, sole mineralne i substancje pokarmowe."
+    "explanation": "Rośliny samożywne same wytwarzają pokarm dzięki fotosyntezie. W rozdziale zaznaczono jednak, że istnieją nieliczne wyjątki, np. rośliny pasożytnicze."
   },
   {
-    "id": "R03_CHR_04",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "fill_in",
-    "prompt": "Rośliny wytwarzają pokarm dzięki dostępowi do __________ i obecności __________.",
-    "options": null,
-    "answer": [
-      "światła",
-      "chlorofilu"
-    ],
-    "altAnswers": [
-      [
-        "światła",
-        "światlu",
-        "swiatła",
-        "swiatlu"
-      ],
-      [
-        "chlorofilu",
-        "chlorofil",
-        "chlorofilem"
-      ]
-    ],
-    "explanation": "Do fotosyntezy potrzebne są światło i chlorofil - zielony barwnik obecny w komórkach roślin."
-  },
-  {
-    "id": "R03_CHR_05",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "scenario",
-    "image": "/img/tns_r03_roslina_slonce_chlorofil.jpg",
-    "prompt": "Kuba postawił jedną roślinę w jasnym miejscu, a drugą zamknął w ciemnej szafce. Która będzie miała lepsze warunki do wytwarzania pokarmu?",
-    "options": [
-      "Ta w jasnym miejscu",
-      "Ta w szafce",
-      "Obie takie same",
-      "Żadna z nich"
-    ],
-    "answer": 0,
-    "explanation": "Rośliny potrzebują światła, aby przeprowadzać fotosyntezę i wytwarzać pokarm."
-  },
-  {
-    "id": "R03_CHR_06",
-    "section": "Czym charakteryzują się rośliny?",
+    "id": "R03_CRO_03",
+    "section": "Cechy roślin",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca, w których mogą żyć rośliny.",
+    "prompt": "Zaznacz środowiska wymienione w rozdziale jako miejsca życia roślin.",
+    "image": "r03_roznorodnosc_roslin.jpg",
     "options": [
-      "Na lądzie",
-      "W wodach słodkich",
-      "W wodach słonych",
-      "Tylko w lesie"
+      "arktyczna tundra",
+      "lasy tropikalne",
+      "wody słodkie i słone",
+      "gołe skały",
+      "wyłącznie pustynie bez światła"
     ],
     "answer": [
       0,
       1,
-      2
-    ],
-    "explanation": "Rośliny żyją w bardzo różnych środowiskach - na lądzie oraz w wodach słodkich i słonych. Nie tylko w lesie."
-  },
-  {
-    "id": "R03_CHR_07",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: mchy, paprociowe, nagonasienne, widłakowe.",
-    "options": null,
-    "answer": "nagonasienne",
-    "explanation": "Nagonasienne są roślinami nasiennymi, a mchy, paprociowe i widłakowe należą do roślin zarodnikowych."
-  },
-  {
-    "id": "R03_CHR_08",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "match",
-    "prompt": "Połącz pojęcie z krótkim wyjaśnieniem.",
-    "options": null,
-    "left": [
-      "zarodnik",
-      "nasiono",
-      "roślina naczyniowa",
-      "roślina nienaczyniowa"
-    ],
-    "right": [
-      "pojedyncza komórka do rozmnażania",
-      "ma tkankę przewodzącą",
-      "nie ma tkanki przewodzącej",
-      "zawiera zarodek i łupinę nasienną"
-    ],
-    "answer": {
-      "zarodnik": "pojedyncza komórka do rozmnażania",
-      "nasiono": "zawiera zarodek i łupinę nasienną",
-      "roślina naczyniowa": "ma tkankę przewodzącą",
-      "roślina nienaczyniowa": "nie ma tkanki przewodzącej"
-    },
-    "explanation": "Zarodnik to pojedyncza komórka służąca do rozmnażania, a nasiono jest lepiej chronione i zawiera zarodek. Rośliny dzielimy też według obecności tkanki przewodzącej."
-  },
-  {
-    "id": "R03_CHR_09",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "single_choice",
-    "image": "/img/tns_r03_trzy_grupy_zarodnikowe.jpg",
-    "prompt": "Do której grupy należą mchy?",
-    "options": [
-      "Do nasiennych naczyniowych",
-      "Do zarodnikowych nienaczyniowych",
-      "Do okrytonasiennych",
-      "Do nagonasiennych"
-    ],
-    "answer": 1,
-    "explanation": "Mchy rozmnażają się przez zarodniki i nie mają tkanki przewodzącej."
-  },
-  {
-    "id": "R03_CHR_10",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "riddle",
-    "prompt": "Jestem zielonym barwnikiem, dzięki mnie roślina może robić pokarm. Kim jestem?",
-    "options": null,
-    "answer": "chlorofil",
-    "altAnswers": [
-      "chlorofil",
-      "chlorofilu",
-      "chlorofilem"
-    ],
-    "explanation": "Chlorofil nadaje roślinom zielony kolor i uczestniczy w fotosyntezie."
-  },
-  {
-    "id": "R03_CHR_11",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "single_choice",
-    "prompt": "Dlaczego łuskiewnik różowy jest wyjątkiem wśród roślin opisanych w rozdziale?",
-    "options": [
-      "Bo nie ma korzeni",
-      "Bo jest pasożytem i pobiera pokarm od żywiciela",
-      "Bo rośnie tylko zimą",
-      "Bo nie jest rośliną"
-    ],
-    "answer": 1,
-    "explanation": "Łuskiewnik różowy to roślina pasożytnicza. Pobiera wodę i substancje pokarmowe od innej rośliny."
-  },
-  {
-    "id": "R03_CHR_12",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "sequence",
-    "prompt": "Ułóż etapy powstawania pokarmu przez roślinę w prostej kolejności.",
-    "options": null,
-    "items": [
-      "powstaje pokarm",
-      "dociera światło",
-      "roślina ma chlorofil",
-      "zachodzi fotosynteza"
-    ],
-    "answer": [
-      "roślina ma chlorofil",
-      "dociera światło",
-      "zachodzi fotosynteza",
-      "powstaje pokarm"
-    ],
-    "explanation": "Gdy roślina ma chlorofil i ma dostęp do światła, może przeprowadzić fotosyntezę i wytworzyć pokarm."
-  },
-  {
-    "id": "R03_CHR_13",
-    "section": "Czym charakteryzują się rośliny?",
-    "type": "scenario",
-    "prompt": "Ola porządkuje zdjęcia roślin. Chce oddzielić rośliny nasienne od zarodnikowych. Gdzie powinna włożyć sosnę?",
-    "options": [
-      "Do zarodnikowych",
-      "Do nasiennych",
-      "Do mchów",
-      "Do paprociowych"
-    ],
-    "answer": 1,
-    "explanation": "Sosna należy do roślin nasiennych - wytwarza nasiona."
-  },
-  {
-    "id": "R03_TKR_01",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "single_choice",
-    "image": "/img/tns_r03_tkanki_podzial.jpg",
-    "prompt": "Na jakie dwa wielkie rodzaje dzielimy tkanki roślinne?",
-    "options": [
-      "Na zielone i brązowe",
-      "Na twórcze i stałe",
-      "Na wodne i lądowe",
-      "Na duże i małe"
-    ],
-    "answer": 1,
-    "explanation": "Tkanki roślinne dzielimy na twórcze oraz stałe."
-  },
-  {
-    "id": "R03_TKR_02",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "true_false",
-    "prompt": "Tkanki twórcze odpowiadają za wzrost rośliny.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Komórki tkanek twórczych dzielą się, dlatego roślina może rosnąć."
-  },
-  {
-    "id": "R03_TKR_03",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "multi_select",
-    "prompt": "Zaznacz tkanki stałe.",
-    "options": [
-      "okrywająca",
-      "miękiszowa",
-      "przewodząca",
-      "wierzchołkowa"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Tkanki stałe to między innymi okrywająca, miękiszowa i przewodząca. Wierzchołkowa jest tkanką twórczą."
-  },
-  {
-    "id": "R03_TKR_04",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "match",
-    "image": "/img/tns_r03_tkanka_wierzcholkowa_boczna.jpg",
-    "prompt": "Połącz tkankę twórczą z jej rolą.",
-    "options": null,
-    "left": [
-      "wierzchołkowa",
-      "boczna"
-    ],
-    "right": [
-      "zwiększa długość rośliny",
-      "zwiększa grubość rośliny"
-    ],
-    "answer": {
-      "wierzchołkowa": "zwiększa długość rośliny",
-      "boczna": "zwiększa grubość rośliny"
-    },
-    "explanation": "Tkanka wierzchołkowa powoduje wzrost na długość, a boczna - na grubość."
-  },
-  {
-    "id": "R03_TKR_05",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "fill_in",
-    "prompt": "Tkanka __________ przewozi wodę i sole mineralne, a tkanka __________ przewozi substancje pokarmowe.",
-    "options": null,
-    "answer": [
-      "drewno",
-      "łyko"
-    ],
-    "altAnswers": [
-      [
-        "drewno",
-        "drewna",
-        "drewnie",
-        "drewnem"
-      ],
-      [
-        "łyko",
-        "lyko",
-        "łyka",
-        "lyka",
-        "łykiem",
-        "lykiem"
-      ]
-    ],
-    "explanation": "Drewno transportuje wodę i sole mineralne, a łyko - substancje pokarmowe."
-  },
-  {
-    "id": "R03_TKR_06",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "single_choice",
-    "prompt": "Która tkanka chroni wnętrze rośliny przed czynnikami zewnętrznymi?",
-    "options": [
-      "miękiszowa",
-      "okrywająca",
-      "wzmacniająca",
-      "boczna"
-    ],
-    "answer": 1,
-    "explanation": "Tkanka okrywająca osłania roślinę i reguluje wymianę substancji z otoczeniem."
-  },
-  {
-    "id": "R03_TKR_07",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "multi_select",
-    "image": "/img/tns_r03_aparaty_szparkowe_wlosniki.jpg",
-    "prompt": "Co jest związane z tkanką okrywającą?",
-    "options": [
-      "aparaty szparkowe",
-      "włośniki",
-      "kłosy zarodniowe",
-      "kolce"
-    ],
-    "answer": [
-      0,
-      1,
+      2,
       3
     ],
-    "explanation": "Tkanka okrywająca może tworzyć aparaty szparkowe, włośniki oraz kolce. Kłosy zarodniowe nie są jej elementem."
+    "explanation": "Rośliny żyją w bardzo różnych środowiskach: od tundry po lasy tropikalne, na łąkach i bagnach, w wodach słodkich i słonych, a nawet na gołych skałach."
   },
   {
-    "id": "R03_TKR_08",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: okrywająca, miękiszowa, przewodząca, nasienna.",
-    "options": null,
-    "answer": "nasienna",
-    "explanation": "Okrywająca, miękiszowa i przewodząca to rodzaje tkanek. Nasienna nie jest tkanką."
-  },
-  {
-    "id": "R03_TKR_09",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "scenario",
-    "prompt": "Bartek zauważył, że starsze drzewo jest coraz grubsze. Która tkanka najbardziej się z tym wiąże?",
-    "options": [
-      "boczna",
-      "wierzchołkowa",
-      "miękiszowa",
-      "okrywająca"
-    ],
-    "answer": 0,
-    "explanation": "Tkanka twórcza boczna zwiększa obwód, czyli grubość łodyg i korzeni."
-  },
-  {
-    "id": "R03_TKR_10",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "sort",
-    "image": "/img/tns_r03_drewno_lyko_transport.jpg",
-    "prompt": "Przyporządkuj zadania do drewna i łyka.",
-    "options": null,
-    "items": [
-      "przenosi wodę z korzeni",
-      "przenosi sole mineralne",
-      "przenosi pokarm z liści",
-      "rozprowadza substancje odżywcze do innych części rośliny"
-    ],
-    "categories": [
-      "drewno",
-      "łyko"
-    ],
-    "answer": {
-      "drewno": [
-        "przenosi wodę z korzeni",
-        "przenosi sole mineralne"
-      ],
-      "łyko": [
-        "przenosi pokarm z liści",
-        "rozprowadza substancje odżywcze do innych części rośliny"
-      ]
-    },
-    "explanation": "Drewno niesie wodę i sole mineralne z korzeni, a łyko rozprowadza substancje pokarmowe z liści i zielonych łodyg."
-  },
-  {
-    "id": "R03_TKR_11",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "riddle",
-    "prompt": "Jestem tkanką, która nadaje roślinie sztywność i elastyczność. Kim jestem?",
-    "options": null,
-    "answer": "tkanka wzmacniająca",
-    "altAnswers": [
-      "tkanka wzmacniająca",
-      "wzmacniająca",
-      "tkanki wzmacniającej",
-      "tkanką wzmacniającą"
-    ],
-    "explanation": "Tkanka wzmacniająca pomaga roślinie nie łamać się i osiągać większe rozmiary."
-  },
-  {
-    "id": "R03_TKR_12",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "true_false",
-    "prompt": "Aparaty szparkowe najczęściej znajdują się na spodniej stronie liścia.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Tak najczęściej pokazuje budowa liścia opisana w rozdziale."
-  },
-  {
-    "id": "R03_TKR_13",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "match",
-    "prompt": "Połącz nazwę tkanki z jej główną rolą.",
-    "options": null,
-    "left": [
-      "okrywająca",
-      "miękiszowa",
-      "przewodząca",
-      "wzmacniająca"
-    ],
-    "right": [
-      "chroni",
-      "wypełnia i magazynuje",
-      "transportuje",
-      "usztywnia i uelastycznia"
-    ],
-    "answer": {
-      "okrywająca": "chroni",
-      "miękiszowa": "wypełnia i magazynuje",
-      "przewodząca": "transportuje",
-      "wzmacniająca": "usztywnia i uelastycznia"
-    },
-    "explanation": "Każda tkanka ma własną pracę: okrywająca chroni, miękiszowa wypełnia i może magazynować, przewodząca transportuje, a wzmacniająca usztywnia."
-  },
-  {
-    "id": "R03_TKR_14",
-    "section": "Jaka jest rola tkanek roślinnych?",
-    "type": "scenario",
-    "prompt": "Maja ogląda przekrój liścia i widzi komórki z zielonym barwnikiem. Z jaką tkanką to kojarzymy najbardziej?",
-    "options": [
-      "z tkanką miękiszową",
-      "z tkanką wzmacniającą",
-      "z tkanką boczną",
-      "z kłączem"
-    ],
-    "answer": 0,
-    "explanation": "W komórkach tkanki miękiszowej może znajdować się chlorofil, potrzebny do fotosyntezy."
-  },
-  {
-    "id": "R03_MCH_01",
-    "section": "Jakie są cechy mchów?",
-    "type": "match",
-    "image": "/img/tns_r03_mech_budowa.jpg",
-    "prompt": "Połącz element budowy mchu z nazwą.",
-    "options": null,
-    "left": [
-      "część przytwierdzająca do podłoża",
-      "puszka, w której dojrzewają zarodniki",
-      "ochrona młodej zarodni",
-      "bezlistna część wyrastająca wiosną"
-    ],
-    "right": [
-      "zarodnia",
-      "trzonek",
-      "czepek",
-      "chwytniki"
-    ],
-    "answer": {
-      "część przytwierdzająca do podłoża": "chwytniki",
-      "puszka, w której dojrzewają zarodniki": "zarodnia",
-      "ochrona młodej zarodni": "czepek",
-      "bezlistna część wyrastająca wiosną": "trzonek"
-    },
-    "explanation": "Chwytniki przytwierdzają mech, zarodnia zawiera zarodniki, czepek chroni, a trzonek unosi zarodnię."
-  },
-  {
-    "id": "R03_MCH_02",
-    "section": "Jakie są cechy mchów?",
-    "type": "single_choice",
-    "prompt": "Dlaczego mchy zwykle są niskie?",
-    "options": [
-      "Bo mają za mało zieleni",
-      "Bo nie mają tkanek przewodzących",
-      "Bo zawsze rosną w cieniu",
-      "Bo nie tworzą łodyżek"
-    ],
-    "answer": 1,
-    "explanation": "Mchy nie mają tkanek przewodzących, więc słabo rozprowadzają wodę i substancje pokarmowe po całym organizmie."
-  },
-  {
-    "id": "R03_MCH_03",
-    "section": "Jakie są cechy mchów?",
+    "id": "R03_CRO_04",
+    "section": "Cechy roślin",
     "type": "fill_in",
-    "prompt": "Mchy są przymocowane do podłoża przez __________, a rozmnażają się za pomocą __________.",
+    "prompt": "Zarodnik to pojedyncza komórka służąca do __________, a nasiono zawiera zarodek, substancje zapasowe i __________.",
     "options": null,
     "answer": [
-      "chwytniki",
-      "zarodników"
+      "rozmnażania",
+      "łupinę nasienną"
     ],
     "altAnswers": [
       [
-        "chwytniki",
-        "chwytników",
-        "chwytnikami",
-        "chwytnik"
+        "rozmnażania",
+        "rozmnażanie"
       ],
       [
-        "zarodników",
-        "zarodniki",
-        "zarodnikow",
-        "zarodnikami",
-        "zarodnik"
+        "łupinę nasienną",
+        "łupina nasienna"
       ]
     ],
-    "explanation": "Mchy trzymają się podłoża dzięki chwytnikom, a nowe rośliny powstają z zarodników."
+    "explanation": "Zarodnik jest pojedynczą komórką służącą rozmnażaniu. Nasiono ma zarodek, zapasy pokarmu oraz łupinę nasienną, która je chroni."
   },
   {
-    "id": "R03_MCH_04",
-    "section": "Jakie są cechy mchów?",
-    "type": "single_choice",
-    "image": "/img/tns_r03_mchy_poduszki.jpg",
-    "prompt": "Jak najczęściej wyglądają skupiska mchów?",
-    "options": [
-      "Jak wysokie drzewa",
-      "Jak zielone poduszki",
-      "Jak suche patyki",
-      "Jak kolczaste krzewy"
-    ],
-    "answer": 1,
-    "explanation": "Mchy często rosną w skupiskach przypominających miękkie zielone poduszki."
-  },
-  {
-    "id": "R03_MCH_05",
-    "section": "Jakie są cechy mchów?",
-    "type": "true_false",
-    "prompt": "Listki mchów mogą chłonąć wodę całą swoją powierzchnią.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Woda pobierana przez chwytniki nie zaspokaja wszystkich potrzeb mchu, więc listki też ją chłoną."
-  },
-  {
-    "id": "R03_MCH_06",
-    "section": "Jakie są cechy mchów?",
-    "type": "multi_select",
-    "prompt": "Zaznacz miejsca, w których mogą rosnąć mchy.",
-    "options": [
-      "na skałach",
-      "na dachach",
-      "w wodach słodkich",
-      "tylko na pustyni"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Mchy zwykle rosną w miejscach wilgotnych i cienistych, ale spotyka się je także na skałach, dachach i w wodach słodkich."
-  },
-  {
-    "id": "R03_MCH_07",
-    "section": "Jakie są cechy mchów?",
-    "type": "sort",
-    "image": "/img/tns_r03_mchy_siedliska.jpg",
-    "prompt": "Posortuj przykłady do odpowiedniego miejsca życia mchu.",
-    "options": null,
-    "items": [
-      "cień w lesie",
-      "wilgotny pień",
-      "skała",
-      "dach",
-      "strumień",
-      "bagno"
-    ],
-    "categories": [
-      "ląd",
-      "woda słodka"
-    ],
-    "answer": {
-      "ląd": [
-        "cień w lesie",
-        "wilgotny pień",
-        "skała",
-        "dach"
-      ],
-      "woda słodka": [
-        "strumień",
-        "bagno"
-      ]
-    },
-    "explanation": "Większość mchów rośnie na lądzie, ale niektóre są przystosowane do życia w wodach słodkich."
-  },
-  {
-    "id": "R03_MCH_08",
-    "section": "Jakie są cechy mchów?",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: chwytniki, zarodnia, czepek, szyszka.",
-    "options": null,
-    "answer": "szyszka",
-    "explanation": "Chwytniki, zarodnia i czepek to elementy związane z mchem. Szyszka nie należy do budowy mchów."
-  },
-  {
-    "id": "R03_MCH_09",
-    "section": "Jakie są cechy mchów?",
-    "type": "scenario",
-    "prompt": "Po kilku suchych dniach listki mchu mocno przylgnęły do łodyżki. Po co mech to robi?",
-    "options": [
-      "Żeby przyciągnąć owady",
-      "Żeby zmniejszyć utratę wody",
-      "Żeby szybciej urosnąć",
-      "Żeby wypuścić nasiona"
-    ],
-    "answer": 1,
-    "explanation": "Ściśle przylegające listki zmniejszają powierzchnię parowania, więc mech traci mniej wody."
-  },
-  {
-    "id": "R03_MCH_10",
-    "section": "Jakie są cechy mchów?",
-    "type": "riddle",
-    "prompt": "Jestem rośliną zarodnikową bez tkanek przewodzących. Często tworzę zielone poduszki. Kim jestem?",
-    "options": null,
-    "answer": "mech",
-    "altAnswers": [
-      "mech",
-      "mch",
-      "mchem",
-      "mchy"
-    ],
-    "explanation": "To opis mchu - niskiej rośliny zarodnikowej bez tkanek przewodzących."
-  },
-  {
-    "id": "R03_MCH_11",
-    "section": "Jakie są cechy mchów?",
-    "type": "scenario",
-    "image": "/img/tns_r03_mchy_na_stoku_woda.jpg",
-    "prompt": "W górach długo pada deszcz. Dlaczego obecność mchów na stoku może pomóc przyrodzie?",
-    "options": [
-      "Bo mchy przyspieszają spływanie wody",
-      "Bo mchy zatrzymują dużo wody",
-      "Bo mchy zamieniają wodę w kamienie",
-      "Bo mchy zasłaniają słońce"
-    ],
-    "answer": 1,
-    "explanation": "Mchy zatrzymują ogromne ilości wody, dzięki czemu woda nie spływa tak gwałtownie po stoku i ryzyko powodzi jest mniejsze."
-  },
-  {
-    "id": "R03_MCH_12",
-    "section": "Jakie są cechy mchów?",
-    "type": "multi_select",
-    "prompt": "Dlaczego mchy są ważne w przyrodzie? Zaznacz dobre odpowiedzi.",
-    "options": [
-      "zatrzymują wodę",
-      "są wskaźnikami zmian środowiska",
-      "zapewniają schronienie zwierzętom",
-      "tworzą prąd elektryczny"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Mchy zatrzymują wodę, pomagają oceniać stan środowiska i dają schronienie wielu zwierzętom."
-  },
-  {
-    "id": "R03_MCH_13",
-    "section": "Jakie są cechy mchów?",
-    "type": "single_choice",
-    "image": "/img/tns_r03_torfowisko.jpg",
-    "prompt": "Co powstaje z obumarłych części mchów na podtopionym terenie w warunkach beztlenowych?",
-    "options": [
-      "marmur",
-      "torf",
-      "węgiel kamienny",
-      "piasek"
-    ],
-    "answer": 1,
-    "explanation": "Z obumarłych części mchów i innych organizmów na takich terenach powstaje torf."
-  },
-  {
-    "id": "R03_PWS_01",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "multi_select",
-    "image": "/img/tns_r03_trzy_grupy_zarodnikowe.jpg",
-    "prompt": "Jakie cechy są wspólne dla paprociowych, widłakowych i skrzypowych?",
-    "options": [
-      "rozmnażają się przez zarodniki",
-      "mają tkankę przewodzącą",
-      "są roślinami naczyniowymi",
-      "zawsze mają kwiaty"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Te trzy grupy to rośliny zarodnikowe naczyniowe. Nie tworzą kwiatów opisanych jak u roślin nasiennych."
-  },
-  {
-    "id": "R03_PWS_02",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "true_false",
-    "prompt": "Paprociowe, widłakowe i skrzypowe zwykle są większe od mchów, bo mają tkankę przewodzącą.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Tkanka przewodząca pozwala im lepiej transportować substancje i osiągać większe rozmiary."
-  },
-  {
-    "id": "R03_PWS_03",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "single_choice",
-    "image": "/img/tns_r03_paproc_zarodnie.jpg",
-    "prompt": "Co najlepiej rozpoznaje paproć?",
-    "options": [
-      "duże liście na ogonkach",
-      "członowane pędy",
-      "płożąca łodyga",
-      "szyszki"
-    ],
-    "answer": 0,
-    "explanation": "Paprociowe mają duże liście na ogonkach. U niektórych od spodu liści są skupiska zarodni."
-  },
-  {
-    "id": "R03_PWS_04",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
+    "id": "R03_CRO_05",
+    "section": "Cechy roślin",
     "type": "match",
-    "prompt": "Połącz grupę roślin z cechą rozpoznawczą.",
+    "prompt": "Połącz kryterium z podziałem roślin, który z niego wynika.",
     "options": null,
     "left": [
-      "paprociowe",
-      "widłakowe",
-      "skrzypowe"
+      "zarodniki lub nasiona",
+      "obecność tkanki przewodzącej",
+      "chlorofil i dostęp do światła"
     ],
     "right": [
-      "duże liście na ogonkach",
-      "płożąca łodyga i widlaste pędy",
-      "członowane pędy i liście z węzłów"
+      "podział na zarodnikowe i nasienne",
+      "podział na naczyniowe i nienaczyniowe",
+      "warunki fotosyntezy"
     ],
     "answer": {
-      "paprociowe": "duże liście na ogonkach",
-      "widłakowe": "płożąca łodyga i widlaste pędy",
-      "skrzypowe": "członowane pędy i liście z węzłów"
+      "zarodniki lub nasiona": "podział na zarodnikowe i nasienne",
+      "obecność tkanki przewodzącej": "podział na naczyniowe i nienaczyniowe",
+      "chlorofil i dostęp do światła": "warunki fotosyntezy"
     },
-    "explanation": "Każdą z tych grup rozpoznasz po innej budowie pędów lub liści."
+    "explanation": "Rośliny można dzielić m.in. według sposobu rozmnażania i według obecności tkanki przewodzącej."
   },
   {
-    "id": "R03_PWS_05",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: paprociowe, widłakowe, skrzypowe, okrytonasienne.",
-    "options": null,
-    "answer": "okrytonasienne",
-    "explanation": "Paprociowe, widłakowe i skrzypowe są roślinami zarodnikowymi naczyniowymi. Okrytonasienne należą do roślin nasiennych."
-  },
-  {
-    "id": "R03_PWS_06",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "single_choice",
-    "image": "/img/tns_r03_widlak_plozaca_lodyga.jpg",
-    "prompt": "Która cecha najbardziej pasuje do widłakowych?",
-    "options": [
-      "drobne liście i widlaste rozgałęzienia",
-      "duże liście na ogonkach",
-      "wiosenny i letni pęd",
-      "brak tkanki przewodzącej"
-    ],
-    "answer": 0,
-    "explanation": "Widłakowe rozpoznajemy po płożącej łodydze, widlasto rozgałęzionych pędach i drobnych liściach."
-  },
-  {
-    "id": "R03_PWS_07",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "scenario",
-    "prompt": "Nina widzi roślinę z członowanym pędem. Z węzłów wyrastają liście i boczne odgałęzienia. Co to najpewniej jest?",
-    "options": [
-      "mech",
-      "skrzyp",
-      "paproć",
-      "sosna"
-    ],
-    "answer": 1,
-    "explanation": "Tak wygląda skrzyp - ma członowane pędy i liście wyrastające z węzłów."
-  },
-  {
-    "id": "R03_PWS_08",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "fill_in",
-    "prompt": "Paprociowe, widłakowe i skrzypowe tworzą w lasach __________ leśne i rozmnażają się za pomocą __________.",
-    "options": null,
-    "answer": [
-      "runo",
-      "zarodników"
-    ],
-    "altAnswers": [
-      [
-        "runo",
-        "runo leśne",
-        "runa",
-        "runem"
-      ],
-      [
-        "zarodników",
-        "zarodniki",
-        "zarodnikow",
-        "zarodnikami",
-        "zarodnik"
-      ]
-    ],
-    "explanation": "Te grupy są składnikami runa leśnego, a nowe rośliny powstają z zarodników."
-  },
-  {
-    "id": "R03_PWS_09",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "single_choice",
-    "prompt": "Dlaczego paprociowe, widłakowe i skrzypowe są ważne dla przyrody?",
-    "options": [
-      "Bo są częścią runa leśnego i dają schronienie małym zwierzętom",
-      "Bo produkują śnieg",
-      "Bo zawsze rosną tylko w parkach",
-      "Bo nie mają żadnego znaczenia"
-    ],
-    "answer": 0,
-    "explanation": "W lesie tworzą runo, są pokarmem roślinożerców i miejscem schronienia wielu małych zwierząt."
-  },
-  {
-    "id": "R03_PWS_10",
-    "section": "Jak rozróżnić paprociowe, widłakowe i skrzypowe?",
-    "type": "true_false",
-    "prompt": "Wszystkie widłaki występujące w Polsce są objęte ochroną.",
-    "options": null,
-    "answer": true,
-    "explanation": "Tak podaje rozdział - wszystkie gatunki widłaków w Polsce są pod ochroną."
-  },
-  {
-    "id": "R03_SUP_01",
-    "section": "Super trudne",
+    "id": "R03_CRO_06",
+    "section": "Cechy roślin",
     "type": "sort",
-    "image": "/img/tns_r03_podzial_roslin.jpg",
-    "prompt": "Posortuj grupy roślin według dwóch kategorii naraz. Najpierw wybierz kategorię, do której pasuje każda grupa.",
+    "prompt": "Przyporządkuj grupy roślin do sposobu rozmnażania.",
+    "image": "r03_podzial_roslin.jpg",
     "options": null,
     "items": [
       "mchy",
@@ -879,13 +129,924 @@ const ALL_EXERCISES = [
         "okrytonasienne"
       ]
     },
-    "explanation": "Rośliny zarodnikowe tworzą zarodniki, a nasienne - nasiona."
+    "explanation": "Mchy, paprociowe, widłakowe i skrzypowe są roślinami zarodnikowymi. Nagonasienne i okrytonasienne są roślinami nasiennymi."
   },
   {
-    "id": "R03_SUP_02",
+    "id": "R03_CRO_07",
+    "section": "Cechy roślin",
+    "type": "odd_one_out",
+    "prompt": "Wskaż grupę, która nie pasuje do roślin zarodnikowych: mchy, paprociowe, widłakowe, okrytonasienne.",
+    "options": null,
+    "answer": "okrytonasienne",
+    "explanation": "Okrytonasienne należą do roślin nasiennych, a mchy, paprociowe i widłakowe rozmnażają się zarodnikami."
+  },
+  {
+    "id": "R03_CRO_08",
+    "section": "Cechy roślin",
+    "type": "riddle",
+    "prompt": "Zielony barwnik, który nadaje roślinom kolor i uczestniczy w fotosyntezie, to...",
+    "options": null,
+    "answer": "chlorofil",
+    "altAnswers": [
+      "chlorofil",
+      "chlorofilu"
+    ],
+    "explanation": "Chlorofil to zielony barwnik obecny w większości roślin. Dzięki niemu roślina może wykorzystywać energię światła w fotosyntezie."
+  },
+  {
+    "id": "R03_CRO_09",
+    "section": "Cechy roślin",
+    "type": "scenario",
+    "prompt": "Na schemacie podziału roślin widzisz grupę bez tkanki przewodzącej. Do której kategorii należy taka grupa?",
+    "image": "r03_podzial_roslin.jpg",
+    "options": [
+      "rośliny nienaczyniowe",
+      "rośliny naczyniowe",
+      "rośliny nasienne",
+      "rośliny okrytonasienne",
+      "rośliny nagonasienne"
+    ],
+    "answer": 0,
+    "explanation": "Rośliny bez tkanki przewodzącej to rośliny nienaczyniowe. W rozdziale jako przykład pokazano mchy."
+  },
+  {
+    "id": "R03_CRO_10",
+    "section": "Cechy roślin",
+    "type": "single_choice",
+    "prompt": "Które zdanie opisuje wyjątek od samożywności roślin?",
+    "options": [
+      "Niektóre rośliny pobierają od żywiciela wodę i substancje pokarmowe.",
+      "Każda roślina zawsze wytwarza cały pokarm w korzeniach.",
+      "Rośliny mogą żyć tylko w wodach słodkich.",
+      "Rośliny nie potrzebują światła do fotosyntezy.",
+      "Każda roślina ma nasiona ukryte w owocach."
+    ],
+    "answer": 0,
+    "explanation": "W rozdziale podano, że nieliczne rośliny nie są samożywne, lecz pobierają wodę i substancje pokarmowe od żywiciela. Takie rośliny są pasożytami."
+  },
+  {
+    "id": "R03_TKA_01",
+    "section": "Tkanki roślinne",
+    "type": "single_choice",
+    "prompt": "Czym są tkanki roślinne?",
+    "options": [
+      "grupami wyspecjalizowanych komórek",
+      "pojedynczymi zarodnikami",
+      "zawsze tylko martwymi częściami rośliny",
+      "nasionami ukrytymi w owocach",
+      "wyłącznie zielonym barwnikiem"
+    ],
+    "answer": 0,
+    "explanation": "Tkanki tworzą grupy wyspecjalizowanych komórek. Dzięki nim roślina sprawnie wykonuje różne czynności życiowe."
+  },
+  {
+    "id": "R03_TKA_02",
+    "section": "Tkanki roślinne",
+    "type": "fill_in",
+    "prompt": "Tkanki twórcze umożliwiają roślinie __________, a tkanki stałe pełnią odmienne __________.",
+    "options": null,
+    "answer": [
+      "wzrost",
+      "funkcje"
+    ],
+    "altAnswers": [
+      [
+        "wzrost",
+        "rośnięcie"
+      ],
+      [
+        "funkcje",
+        "zadania"
+      ]
+    ],
+    "explanation": "Komórki tkanek twórczych regularnie się dzielą, co powoduje wzrost. Tkanki stałe specjalizują się w różnych funkcjach."
+  },
+  {
+    "id": "R03_TKA_03",
+    "section": "Tkanki roślinne",
+    "type": "match",
+    "prompt": "Połącz rodzaj tkanki z jej funkcją.",
+    "image": "r03_tkanki_tworcze.jpg",
+    "options": null,
+    "left": [
+      "tkanka twórcza wierzchołkowa",
+      "tkanka twórcza boczna",
+      "tkanka okrywająca",
+      "tkanka przewodząca"
+    ],
+    "right": [
+      "wzrost rośliny na długość",
+      "zwiększanie obwodu rośliny",
+      "ochrona i wymiana substancji z otoczeniem",
+      "transport substancji w roślinie"
+    ],
+    "answer": {
+      "tkanka twórcza wierzchołkowa": "wzrost rośliny na długość",
+      "tkanka twórcza boczna": "zwiększanie obwodu rośliny",
+      "tkanka okrywająca": "ochrona i wymiana substancji z otoczeniem",
+      "tkanka przewodząca": "transport substancji w roślinie"
+    },
+    "explanation": "Tkanka wierzchołkowa odpowiada za wzrost na długość, boczna za wzrost na grubość, okrywająca chroni, a przewodząca transportuje substancje."
+  },
+  {
+    "id": "R03_TKA_04",
+    "section": "Tkanki roślinne",
+    "type": "true_false",
+    "prompt": "Tkanki twórcze boczne występują tylko wewnątrz zdrewniałych łodyg i korzeni.",
+    "image": "r03_tkanki_tworcze.jpg",
+    "options": null,
+    "answer": true,
+    "explanation": "W rozdziale podano, że tkanki twórcze boczne występują w zdrewniałych łodygach i korzeniach oraz zwiększają obwód rośliny."
+  },
+  {
+    "id": "R03_TKA_05",
+    "section": "Tkanki roślinne",
+    "type": "single_choice",
+    "prompt": "Która tkanka składa się z drewna i łyka?",
+    "image": "r03_tkanki_stale.jpg",
+    "options": [
+      "tkanka przewodząca",
+      "tkanka okrywająca",
+      "tkanka wzmacniająca",
+      "tkanka miękiszowa",
+      "tkanka twórcza wierzchołkowa"
+    ],
+    "answer": 0,
+    "explanation": "Drewno i łyko są elementami tkanki przewodzącej. Umożliwiają transport wody, soli mineralnych i substancji pokarmowych."
+  },
+  {
+    "id": "R03_TKA_06",
+    "section": "Tkanki roślinne",
+    "type": "multi_select",
+    "prompt": "Zaznacz funkcje skórki części nadziemnych rośliny.",
+    "image": "r03_tkanki_stale.jpg",
+    "options": [
+      "zabezpiecza przed utratą wody",
+      "umożliwia wymianę gazową",
+      "może wytwarzać włoski i kolce",
+      "wytwarza włośniki do pobierania wody z gleby",
+      "tworzy nasiona w zarodniach"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Skórka części nadziemnych chroni przed utratą wody, umożliwia wymianę gazową dzięki aparatom szparkowym oraz może wytwarzać włoski i kolce."
+  },
+  {
+    "id": "R03_TKA_07",
+    "section": "Tkanki roślinne",
+    "type": "riddle",
+    "prompt": "Cienkie wypustki skórki korzenia, które zwiększają powierzchnię wchłaniania wody i soli mineralnych, to...",
+    "options": null,
+    "answer": "włośniki",
+    "altAnswers": [
+      "włośniki",
+      "wlosniki"
+    ],
+    "explanation": "Włośniki zwiększają powierzchnię, przez którą korzeń pobiera wodę z solami mineralnymi."
+  },
+  {
+    "id": "R03_TKA_08",
+    "section": "Tkanki roślinne",
+    "type": "odd_one_out",
+    "prompt": "Co nie pasuje do tkanek stałych: okrywająca, miękiszowa, przewodząca, wierzchołkowa.",
+    "options": null,
+    "answer": "wierzchołkowa",
+    "explanation": "Tkanka wierzchołkowa jest tkanką twórczą, a okrywająca, miękiszowa i przewodząca należą do tkanek stałych."
+  },
+  {
+    "id": "R03_TKA_09",
+    "section": "Tkanki roślinne",
+    "type": "sort",
+    "prompt": "Podziel tkanki roślinne na twórcze i stałe.",
+    "options": null,
+    "items": [
+      "wierzchołkowe",
+      "boczne",
+      "okrywające",
+      "miękiszowe",
+      "przewodzące",
+      "wzmacniające"
+    ],
+    "categories": [
+      "twórcze",
+      "stałe"
+    ],
+    "answer": {
+      "twórcze": [
+        "wierzchołkowe",
+        "boczne"
+      ],
+      "stałe": [
+        "okrywające",
+        "miękiszowe",
+        "przewodzące",
+        "wzmacniające"
+      ]
+    },
+    "explanation": "Tkanki twórcze to wierzchołkowe i boczne. Tkanki stałe to okrywające, miękiszowe, przewodzące i wzmacniające."
+  },
+  {
+    "id": "R03_TKA_10",
+    "section": "Tkanki roślinne",
+    "type": "scenario",
+    "prompt": "W bulwie ziemniaka komórki gromadzą materiały zapasowe. Który typ tkanki wykonuje takie zadanie?",
+    "options": [
+      "tkanka miękiszowa",
+      "tkanka twórcza boczna",
+      "tkanka okrywająca",
+      "drewno",
+      "włośniki"
+    ],
+    "answer": 0,
+    "explanation": "Tkanki miękiszowe mogą gromadzić materiały zapasowe, np. w bulwach ziemniaka."
+  },
+  {
+    "id": "R03_TKA_11",
+    "section": "Tkanki roślinne",
+    "type": "true_false",
+    "prompt": "Drewno transportuje wodę i sole mineralne z korzeni do pozostałych części roślin.",
+    "options": null,
+    "answer": true,
+    "explanation": "Drewno przewodzi wodę i sole mineralne ku częściom nadziemnym rośliny. Łyko transportuje substancje pokarmowe."
+  },
+  {
+    "id": "R03_TKA_12",
+    "section": "Tkanki roślinne",
+    "type": "fill_in",
+    "prompt": "Łyko transportuje __________ z liści i zielonej łodygi, a drewno transportuje wodę i __________.",
+    "image": "r03_tkanki_stale.jpg",
+    "options": null,
+    "answer": [
+      "substancje pokarmowe",
+      "sole mineralne"
+    ],
+    "altAnswers": [
+      [
+        "substancje pokarmowe",
+        "pokarm"
+      ],
+      [
+        "sole mineralne",
+        "solami mineralnymi"
+      ]
+    ],
+    "explanation": "Łyko rozprowadza substancje pokarmowe, natomiast drewno przewodzi wodę z solami mineralnymi."
+  },
+  {
+    "id": "R03_TKA_13",
+    "section": "Tkanki roślinne",
+    "type": "match",
+    "prompt": "Połącz element lub tkankę z opisem.",
+    "options": null,
+    "left": [
+      "tkanka miękiszowa",
+      "tkanka wzmacniająca",
+      "drewno",
+      "łyko"
+    ],
+    "right": [
+      "wypełnia przestrzenie i gromadzi zapasy",
+      "nadaje sztywność i elastyczność",
+      "transportuje wodę i sole mineralne",
+      "transportuje substancje pokarmowe"
+    ],
+    "answer": {
+      "tkanka miękiszowa": "wypełnia przestrzenie i gromadzi zapasy",
+      "tkanka wzmacniająca": "nadaje sztywność i elastyczność",
+      "drewno": "transportuje wodę i sole mineralne",
+      "łyko": "transportuje substancje pokarmowe"
+    },
+    "explanation": "Tkanki mają różne zadania: miękisz wypełnia i magazynuje, tkanka wzmacniająca nadaje sztywność, drewno przewodzi wodę, a łyko substancje pokarmowe."
+  },
+  {
+    "id": "R03_MCH_01",
+    "section": "Mchy",
+    "type": "single_choice",
+    "prompt": "Czym mech jest przymocowany do podłoża?",
+    "image": "r03_budowa_mchu.jpg",
+    "options": [
+      "chwytnikami",
+      "korzeniami palowymi",
+      "owocami",
+      "szyszkami",
+      "włośnikami liści"
+    ],
+    "answer": 0,
+    "explanation": "Mchy są przymocowane do podłoża chwytnikami. Chwytniki pobierają wodę z solami mineralnymi, ale nie są prawdziwymi korzeniami."
+  },
+  {
+    "id": "R03_MCH_02",
+    "section": "Mchy",
+    "type": "true_false",
+    "prompt": "Mchy są małe i niskie między innymi dlatego, że nie mają tkanek przewodzących.",
+    "options": null,
+    "answer": true,
+    "explanation": "Brak tkanek przewodzących utrudnia mchom rozprowadzanie wody i substancji pokarmowych po całym organizmie, dlatego zwykle są niewysokie."
+  },
+  {
+    "id": "R03_MCH_03",
+    "section": "Mchy",
+    "type": "multi_select",
+    "prompt": "Zaznacz elementy budowy mchu opisane w rozdziale.",
+    "image": "r03_budowa_mchu.jpg",
+    "options": [
+      "chwytniki",
+      "łodyżka z listkami",
+      "trzonek",
+      "zarodnia",
+      "kwiat",
+      "owoc"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Mech ma chwytniki i ulistnioną łodyżkę, a w czasie rozmnażania także trzonek i zarodnię z zarodnikami."
+  },
+  {
+    "id": "R03_MCH_04",
+    "section": "Mchy",
+    "type": "fill_in",
+    "prompt": "Na szczycie ulistnionej łodyżki wyrasta bezlistna __________ zakończona __________.",
+    "image": "r03_budowa_mchu.jpg",
+    "options": null,
+    "answer": [
+      "trzonek",
+      "zarodnią"
+    ],
+    "altAnswers": [
+      [
+        "trzonek",
+        "łodyżka bezlistna"
+      ],
+      [
+        "zarodnią",
+        "zarodnia"
+      ]
+    ],
+    "explanation": "U mchu podczas rozmnażania wyrasta trzonek, a na jego końcu znajduje się zarodnia, w której dojrzewają zarodniki."
+  },
+  {
+    "id": "R03_MCH_05",
+    "section": "Mchy",
+    "type": "sequence",
+    "prompt": "Ułóż etapy rozsiewania zarodników mchu w poprawnej kolejności.",
+    "options": null,
+    "items": [
+      "zarodniki wysypują się z zarodni",
+      "z zarodników wyrastają nowe rośliny",
+      "zarodniki dojrzewają w zarodni",
+      "z zarodni odpada czepek"
+    ],
+    "answer": [
+      "zarodniki dojrzewają w zarodni",
+      "z zarodni odpada czepek",
+      "zarodniki wysypują się z zarodni",
+      "z zarodników wyrastają nowe rośliny"
+    ],
+    "explanation": "Zarodniki dojrzewają w zarodni. Gdy dojrzeją, czepek odpada, zarodniki się wysypują, a z nich wyrastają nowe rośliny."
+  },
+  {
+    "id": "R03_MCH_06",
+    "section": "Mchy",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie pasuje do budowy mchu: chwytniki, łodyżka, listki, korzeń.",
+    "image": "r03_budowa_mchu.jpg",
+    "options": null,
+    "answer": "korzeń",
+    "explanation": "Mchy mają chwytniki oraz łodyżkę z listkami. Nie mają prawdziwych korzeni."
+  },
+  {
+    "id": "R03_MCH_07",
+    "section": "Mchy",
+    "type": "match",
+    "prompt": "Połącz element mchu z jego funkcją lub opisem.",
+    "options": null,
+    "left": [
+      "chwytniki",
+      "zarodnia",
+      "czepek",
+      "listki"
+    ],
+    "right": [
+      "pobierają wodę z solami mineralnymi",
+      "miejsce dojrzewania zarodników",
+      "ochrania zarodnię",
+      "chłoną wodę także powierzchnią"
+    ],
+    "answer": {
+      "chwytniki": "pobierają wodę z solami mineralnymi",
+      "zarodnia": "miejsce dojrzewania zarodników",
+      "czepek": "ochrania zarodnię",
+      "listki": "chłoną wodę także powierzchnią"
+    },
+    "explanation": "Poszczególne elementy mchu pełnią różne funkcje: chwytniki pobierają wodę, zarodnia wytwarza zarodniki, a czepek ją chroni."
+  },
+  {
+    "id": "R03_MCH_08",
+    "section": "Mchy",
+    "type": "scenario",
+    "prompt": "Po wycięciu lasu na stromym zboczu znika też warstwa mchów. Dlaczego może wzrosnąć ryzyko powodzi po intensywnym deszczu?",
+    "image": "r03_mchy_woda_i_schronienie.jpg",
+    "options": [
+      "bo mchy zatrzymują dużo wody i spowalniają jej spływ",
+      "bo mchy przyspieszają odpływ wody do rzek",
+      "bo mchy zamieniają wodę w nasiona",
+      "bo mchy rosną tylko w suchym piasku",
+      "bo mchy niszczą glebę podczas deszczu"
+    ],
+    "answer": 0,
+    "explanation": "Mchy zatrzymują ogromne ilości wody. Dzięki temu woda podczas opadów nie spływa gwałtownie po stoku."
+  },
+  {
+    "id": "R03_MCH_09",
+    "section": "Mchy",
+    "type": "riddle",
+    "prompt": "Organizmy, które pojawiają się jako jedne z pierwszych na skałach lub nieużytkach i przyczyniają się do powstawania gleby, to organizmy...",
+    "options": null,
+    "answer": "pionierskie",
+    "altAnswers": [
+      "pionierskie",
+      "organizmy pionierskie"
+    ],
+    "explanation": "Mchy są organizmami pionierskimi, ponieważ zasiedlają trudne miejsca jako jedne z pierwszych i pomagają w tworzeniu gleby."
+  },
+  {
+    "id": "R03_MCH_10",
+    "section": "Mchy",
+    "type": "single_choice",
+    "prompt": "W jakich warunkach z obumarłych części mchów i szczątków innych organizmów powstaje torf?",
+    "image": "r03_mchy_woda_i_schronienie.jpg",
+    "options": [
+      "na podtopionych terenach w warunkach beztlenowych",
+      "wyłącznie na suchych skałach i w pełnym słońcu",
+      "tylko w słonej wodzie morskiej",
+      "w zarodniach paproci",
+      "z samych nasion roślin nasiennych"
+    ],
+    "answer": 0,
+    "explanation": "Torf powstaje na podtopionych terenach, w warunkach beztlenowych, z obumarłych części mchów oraz szczątków innych organizmów."
+  },
+  {
+    "id": "R03_MCH_11",
+    "section": "Mchy",
+    "type": "true_false",
+    "prompt": "W Polsce występuje około 500 gatunków mchów, a około 200 z nich objęto ochroną prawną.",
+    "options": null,
+    "answer": true,
+    "explanation": "Rozdział podaje, że w Polsce jest około 500 gatunków mchów, w tym około 200 objętych ochroną."
+  },
+  {
+    "id": "R03_MCH_12",
+    "section": "Mchy",
+    "type": "fill_in",
+    "prompt": "Mchy są zielone przez cały __________ i zwykle żyją w zwartych __________.",
+    "options": null,
+    "answer": [
+      "rok",
+      "grupach"
+    ],
+    "altAnswers": [
+      [
+        "rok",
+        "cały rok"
+      ],
+      [
+        "grupach",
+        "skupiskach"
+      ]
+    ],
+    "explanation": "Mchy są zielone cały rok i często rosną w zwartych grupach, dzięki czemu mogą gromadzić duże ilości wody."
+  },
+  {
+    "id": "R03_MCH_13",
+    "section": "Mchy",
+    "type": "sort",
+    "prompt": "Rozdziel przykłady na zagrożenia dla mchów i znaczenie mchów w przyrodzie.",
+    "image": "r03_mchy_woda_i_schronienie.jpg",
+    "options": null,
+    "items": [
+      "zanieczyszczenie powietrza",
+      "osuszanie torfowisk",
+      "masowa turystyka",
+      "zatrzymywanie wody",
+      "schronienie dla zwierząt",
+      "powstawanie gleby"
+    ],
+    "categories": [
+      "zagrożenia dla mchów",
+      "znaczenie mchów"
+    ],
+    "answer": {
+      "zagrożenia dla mchów": [
+        "zanieczyszczenie powietrza",
+        "osuszanie torfowisk",
+        "masowa turystyka"
+      ],
+      "znaczenie mchów": [
+        "zatrzymywanie wody",
+        "schronienie dla zwierząt",
+        "powstawanie gleby"
+      ]
+    },
+    "explanation": "Mchom zagrażają m.in. zanieczyszczenia i osuszanie torfowisk. W przyrodzie zatrzymują wodę, dają schronienie i pomagają tworzyć glebę."
+  },
+  {
+    "id": "R03_PWS_01",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "single_choice",
+    "prompt": "Do jakiej wspólnej grupy należą paprociowe, widłakowe i skrzypowe?",
+    "image": "r03_paproc_budowa.jpg",
+    "options": [
+      "zarodnikowe rośliny naczyniowe",
+      "nasienne rośliny nienaczyniowe",
+      "wyłącznie rośliny pasożytnicze",
+      "rośliny okrytonasienne",
+      "mchy bez tkanek przewodzących"
+    ],
+    "answer": 0,
+    "explanation": "Paprociowe, widłakowe i skrzypowe są zarodnikowymi roślinami naczyniowymi: rozmnażają się przez zarodniki i mają tkankę przewodzącą."
+  },
+  {
+    "id": "R03_PWS_02",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "true_false",
+    "prompt": "Tkanka przewodząca pozwala paprociowym, widłakowym i skrzypowym osiągać większe rozmiary niż mchy.",
+    "options": null,
+    "answer": true,
+    "explanation": "Drewno i łyko rozprowadzają substancje po roślinie. Dzięki temu te grupy mogą być większe niż mchy, które nie mają tkanek przewodzących."
+  },
+  {
+    "id": "R03_PWS_03",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "multi_select",
+    "prompt": "Zaznacz wspólne cechy paprociowych, widłakowych i skrzypowych wymienione w rozdziale.",
+    "image": "r03_porownanie_zarodnikowych.jpg",
+    "options": [
+      "rozmnażają się za pomocą zarodników",
+      "mają tkankę przewodzącą",
+      "w lasach tworzą runo leśne",
+      "są miejscem życia małych zwierząt",
+      "wytwarzają owoce z nasionami"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Te trzy grupy rozmnażają się zarodnikami, mają tkankę przewodzącą, tworzą runo leśne i są miejscem życia małych zwierząt."
+  },
+  {
+    "id": "R03_PWS_04",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "fill_in",
+    "prompt": "Tkanka przewodząca składa się z __________ oraz __________.",
+    "options": null,
+    "answer": [
+      "drewna",
+      "łyka"
+    ],
+    "altAnswers": [
+      [
+        "drewna",
+        "drewno"
+      ],
+      [
+        "łyka",
+        "łyko"
+      ]
+    ],
+    "explanation": "W rozdziale podkreślono, że tkanka przewodząca obejmuje drewno i łyko."
+  },
+  {
+    "id": "R03_PWS_05",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "match",
+    "prompt": "Połącz grupę roślin z cechą rozpoznawczą.",
+    "image": "r03_porownanie_zarodnikowych.jpg",
+    "options": null,
+    "left": [
+      "paprociowe",
+      "widłakowe",
+      "skrzypowe"
+    ],
+    "right": [
+      "duże liście na ogonkach",
+      "płożąca łodyga i widlasto rozgałęzione pędy",
+      "członowane pędy i liście wyrastające z węzłów"
+    ],
+    "answer": {
+      "paprociowe": "duże liście na ogonkach",
+      "widłakowe": "płożąca łodyga i widlasto rozgałęzione pędy",
+      "skrzypowe": "członowane pędy i liście wyrastające z węzłów"
+    },
+    "explanation": "Paprociowe mają duże liście, widłakowe płożące łodygi i widlaste pędy, a skrzypowe członowaną budowę."
+  },
+  {
+    "id": "R03_PWS_06",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "scenario",
+    "prompt": "Podczas obserwacji rośliny widzisz duży liść na ogonku, a na jego spodzie skupiska zarodni. Do której grupy najpewniej należy ta roślina?",
+    "image": "r03_paproc_budowa.jpg",
+    "options": [
+      "paprociowe",
+      "mchy",
+      "skrzypowe",
+      "widłakowe",
+      "nagonasienne"
+    ],
+    "answer": 0,
+    "explanation": "Skupiska zarodni na spodniej stronie liści są cechą opisaną przy paprociowych."
+  },
+  {
+    "id": "R03_PWS_07",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie pasuje do paprociowych: pióropusznik strusi, nerecznica samcza, salwinia pływająca, skrzyp polny.",
+    "image": "r03_paproc_budowa.jpg",
+    "options": null,
+    "answer": "skrzyp polny",
+    "explanation": "Skrzyp polny należy do skrzypowych. Pióropusznik, nerecznica i salwinia to przykłady paprociowych."
+  },
+  {
+    "id": "R03_PWS_08",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "true_false",
+    "prompt": "Wszystkie gatunki widłakowe występujące w Polsce są pod ochroną.",
+    "options": null,
+    "answer": true,
+    "explanation": "W rozdziale podano, że wszystkie gatunki widłakowe w Polsce są chronione."
+  },
+  {
+    "id": "R03_PWS_09",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "single_choice",
+    "prompt": "Którą grupę wyróżniają pędy zbudowane z członów i liście wyrastające z węzłów?",
+    "image": "r03_skrzyp_budowa.jpg",
+    "options": [
+      "skrzypowe",
+      "paprociowe",
+      "widłakowe",
+      "mchy",
+      "rośliny okrytonasienne"
+    ],
+    "answer": 0,
+    "explanation": "Członowane pędy i liście wyrastające z węzłów to cechy skrzypowych."
+  },
+  {
+    "id": "R03_PWS_10",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "riddle",
+    "prompt": "Podziemna łodyga paproci, z której wyrastają korzenie i liście, to...",
+    "options": null,
+    "answer": "kłącze",
+    "altAnswers": [
+      "kłącze",
+      "klacze"
+    ],
+    "explanation": "W budowie paproci pokazano kłącze, czyli podziemną łodygę."
+  },
+  {
+    "id": "R03_PWS_11",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "sort",
+    "prompt": "Przyporządkuj cechy do grup roślin.",
+    "image": "r03_widlak_budowa.jpg",
+    "options": null,
+    "items": [
+      "duże liście na ogonkach",
+      "widlaste rozgałęzienia pędów",
+      "płożąca łodyga",
+      "członowana budowa pędów",
+      "pęd wiosenny z zarodniami"
+    ],
+    "categories": [
+      "paprociowe",
+      "widłakowe",
+      "skrzypowe"
+    ],
+    "answer": {
+      "paprociowe": [
+        "duże liście na ogonkach"
+      ],
+      "widłakowe": [
+        "widlaste rozgałęzienia pędów",
+        "płożąca łodyga"
+      ],
+      "skrzypowe": [
+        "członowana budowa pędów",
+        "pęd wiosenny z zarodniami"
+      ]
+    },
+    "explanation": "Cechy rozpoznawcze pomagają odróżnić paprociowe, widłakowe i skrzypowe."
+  },
+  {
+    "id": "R03_PWS_12",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "match",
+    "prompt": "Połącz przykład rośliny z właściwą grupą.",
+    "options": null,
+    "left": [
+      "paprotka zwyczajna",
+      "widłak goździsty",
+      "skrzyp polny",
+      "salwinia pływająca"
+    ],
+    "right": [
+      "paprociowe lądowe",
+      "widłakowe",
+      "skrzypowe",
+      "paprociowe wodne"
+    ],
+    "answer": {
+      "paprotka zwyczajna": "paprociowe lądowe",
+      "widłak goździsty": "widłakowe",
+      "skrzyp polny": "skrzypowe",
+      "salwinia pływająca": "paprociowe wodne"
+    },
+    "explanation": "Rozdział podaje liczne przykłady: paprotka jest paprocią, widłak goździsty należy do widłakowych, skrzyp polny do skrzypowych, a salwinia to paproć wodna."
+  },
+  {
+    "id": "R03_PWS_13",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "sequence",
+    "prompt": "Ułóż w kolejności uproszczony opis powstania pokładów węgla z dawnych roślin zarodnikowych.",
+    "options": null,
+    "items": [
+      "ze szczątków powstawały pokłady węgla",
+      "szczątki roślin gromadziły się przez bardzo długi czas",
+      "w dawnych lasach rosły olbrzymie paprocie, widłaki i skrzypy",
+      "rośliny obumierały"
+    ],
+    "answer": [
+      "w dawnych lasach rosły olbrzymie paprocie, widłaki i skrzypy",
+      "rośliny obumierały",
+      "szczątki roślin gromadziły się przez bardzo długi czas",
+      "ze szczątków powstawały pokłady węgla"
+    ],
+    "explanation": "Rozdział wyjaśnia, że wielkie dawne paprocie, widłaki i skrzypy odegrały rolę w powstawaniu pokładów węgla."
+  },
+  {
+    "id": "R03_PWS_14",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "multi_select",
+    "prompt": "Zaznacz znaczenie paprociowych, widłakowych i skrzypowych opisane w rozdziale.",
+    "options": [
+      "są składnikiem runa leśnego",
+      "są pożywieniem roślinożerców",
+      "dają schronienie małym zwierzętom",
+      "odegrały rolę w powstawaniu węgla",
+      "wytwarzają owoce z nasionami"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Te rośliny są składnikiem runa leśnego, pożywieniem roślinożerców i miejscem życia małych zwierząt. Dawne formy przyczyniły się też do powstania pokładów węgla."
+  },
+  {
+    "id": "R03_HARD_01",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Nasiono różni się od zarodnika, bo ma zarodek, substancje zapasowe i __________, a zarodnik nie ma warstwy __________.",
+    "options": null,
+    "answer": [
+      "łupinę nasienną",
+      "ochronnej"
+    ],
+    "altAnswers": [
+      [
+        "łupinę nasienną",
+        "łupina nasienna"
+      ],
+      [
+        "ochronnej",
+        "ochronna"
+      ]
+    ],
+    "explanation": "Nasiono jest lepiej zabezpieczone, ponieważ ma łupinę nasienną. Zarodnik to pojedyncza komórka bez warstwy ochronnej."
+  },
+  {
+    "id": "R03_HARD_02",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Kanianka polna owija się wokół innej rośliny, nie ma chlorofilu i ssawkami pobiera pokarm z wiązek przewodzących żywiciela. Dlaczego nie może przeprowadzać fotosyntezy?",
+    "options": [
+      "bo w jej komórkach nie ma chlorofilu",
+      "bo ma zbyt wiele łodyg",
+      "bo rośnie wyłącznie w wodzie",
+      "bo nie ma żadnych komórek",
+      "bo ma łupinę nasienną"
+    ],
+    "answer": 0,
+    "explanation": "Do fotosyntezy potrzebny jest chlorofil. Skoro w komórkach kanianki nie ma chlorofilu, roślina nie może wytwarzać pokarmu w ten sposób."
+  },
+  {
+    "id": "R03_HARD_03",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Tkanki okrywające należą do tkanek twórczych.",
+    "options": null,
+    "answer": false,
+    "explanation": "To fałsz. Tkanki okrywające należą do tkanek stałych, a nie twórczych."
+  },
+  {
+    "id": "R03_HARD_04",
+    "section": "Super trudne",
+    "type": "multi_select",
+    "prompt": "Zaznacz cechy skrzypowych opisane w rozdziale.",
+    "image": "r03_skrzyp_budowa.jpg",
+    "options": [
+      "pędy zbudowane z członów",
+      "liście wyrastające z węzłów",
+      "u niektórych pędy wiosenne z zarodniami i letnie zielone",
+      "duże liście złożone z wielu listków",
+      "płożąca łodyga z widlastymi pędami"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Skrzypowe mają członowane pędy i liście wyrastające z węzłów. Niektóre gatunki mają pędy wiosenne z zarodniami i letnie zielone."
+  },
+  {
+    "id": "R03_HARD_05",
+    "section": "Super trudne",
+    "type": "sequence",
+    "prompt": "Ułóż czynności doświadczenia badającego zmianę masy mchu po namoczeniu.",
+    "image": "r03_mchy_woda_i_schronienie.jpg",
+    "options": null,
+    "items": [
+      "odsącz mech na sitku przez około 5 minut",
+      "zanurz mech w wodzie na około 15 minut",
+      "zważ wysuszoną kępkę mchu",
+      "zważ odsączony mech i oblicz wzrost masy"
+    ],
+    "answer": [
+      "zważ wysuszoną kępkę mchu",
+      "zanurz mech w wodzie na około 15 minut",
+      "odsącz mech na sitku przez około 5 minut",
+      "zważ odsączony mech i oblicz wzrost masy"
+    ],
+    "explanation": "W doświadczeniu najpierw waży się suchy mech, potem moczy go w wodzie, odsącza, ponownie waży i oblicza zmianę masy."
+  },
+  {
+    "id": "R03_HARD_06",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz zjawisko z jego wyjaśnieniem.",
+    "image": "r03_porownanie_zarodnikowych.jpg",
+    "options": null,
+    "left": [
+      "monitoring środowiska",
+      "powstawanie torfu",
+      "runo leśne",
+      "większe rozmiary niż u mchów"
+    ],
+    "right": [
+      "mchy są czułe na zanieczyszczenia",
+      "torfowce rosną u góry i obumierają od dołu",
+      "paprociowe, widłakowe i skrzypowe tworzą warstwę lasu",
+      "tkanka przewodząca rozprowadza substancje"
+    ],
+    "answer": {
+      "monitoring środowiska": "mchy są czułe na zanieczyszczenia",
+      "powstawanie torfu": "torfowce rosną u góry i obumierają od dołu",
+      "runo leśne": "paprociowe, widłakowe i skrzypowe tworzą warstwę lasu",
+      "większe rozmiary niż u mchów": "tkanka przewodząca rozprowadza substancje"
+    },
+    "explanation": "Zależności między cechami roślin a ich znaczeniem pomagają zrozumieć materiał z kilku lekcji naraz."
+  },
+  {
+    "id": "R03_HARD_07",
+    "section": "Super trudne",
+    "type": "single_choice",
+    "prompt": "Dlaczego podczas suszy listki mchów ściśle przylegają do łodyżki?",
+    "options": [
+      "aby zmniejszyć powierzchnię parowania i utratę wody",
+      "aby szybciej wypuścić nasiona",
+      "aby zwiększyć działanie drewna i łyka",
+      "aby wytworzyć kwiaty",
+      "aby odrzucić chwytniki"
+    ],
+    "answer": 0,
+    "explanation": "Podczas suszy listki przylegają do łodyżki, aby zmniejszyć powierzchnię parowania i ograniczyć utratę wody."
+  },
+  {
+    "id": "R03_HARD_08",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Posortuj grupy roślin do kategorii naczyniowe i nienaczyniowe.",
+    "prompt": "Przyporządkuj grupy roślin do kategorii naczyniowych i nienaczyniowych.",
+    "image": "r03_podzial_roslin.jpg",
     "options": null,
     "items": [
       "mchy",
@@ -896,384 +1057,69 @@ const ALL_EXERCISES = [
       "okrytonasienne"
     ],
     "categories": [
-      "naczyniowe",
-      "nienaczyniowe"
+      "nienaczyniowe",
+      "naczyniowe"
     ],
     "answer": {
+      "nienaczyniowe": [
+        "mchy"
+      ],
       "naczyniowe": [
         "paprociowe",
         "widłakowe",
         "skrzypowe",
         "nagonasienne",
         "okrytonasienne"
-      ],
-      "nienaczyniowe": [
-        "mchy"
       ]
     },
-    "explanation": "Mchy nie mają tkanki przewodzącej, więc są nienaczyniowe. Pozostałe grupy z tego zadania są naczyniowe."
+    "explanation": "Mchy są roślinami nienaczyniowymi. Paprociowe, widłakowe, skrzypowe oraz rośliny nasienne mają tkankę przewodzącą, więc są naczyniowe."
   },
   {
-    "id": "R03_SUP_03",
-    "section": "Super trudne",
-    "type": "scenario",
-    "image": "/img/tns_r03_tkanka_wierzcholkowa_boczna.jpg",
-    "prompt": "Drzewko po roku jest wyższe i ma grubszy pień. Które tkanki twórcze pracowały w tym czasie?",
-    "options": [
-      "tylko wierzchołkowa",
-      "tylko boczna",
-      "wierzchołkowa i boczna",
-      "miękiszowa i okrywająca"
-    ],
-    "answer": 2,
-    "explanation": "Wzrost na długość powoduje tkanka wierzchołkowa, a wzrost na grubość - tkanka boczna."
-  },
-  {
-    "id": "R03_SUP_04",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Które stwierdzenia o tkankach są poprawne?",
-    "options": [
-      "komórki tkanek twórczych dzielą się",
-      "tkanka miękiszowa może zawierać chlorofil",
-      "drewno przenosi pokarm z liści",
-      "tkanka wzmacniająca nadaje sztywność"
-    ],
-    "answer": [
-      0,
-      1,
-      3
-    ],
-    "explanation": "Komórki tkanek twórczych się dzielą, miękisz może zawierać chlorofil, a tkanka wzmacniająca usztywnia roślinę. Pokarm z liści przenosi łyko, nie drewno."
-  },
-  {
-    "id": "R03_SUP_05",
-    "section": "Super trudne",
-    "type": "sequence",
-    "prompt": "Ułóż prosty ciąg zdarzeń związany z powstawaniem nowych mchów.",
-    "options": null,
-    "items": [
-      "zarodniki wysypują się",
-      "wyrastają nowe rośliny",
-      "zarodniki dojrzewają w zarodni",
-      "zarodniki trafiają w odpowiednie miejsce"
-    ],
-    "answer": [
-      "zarodniki dojrzewają w zarodni",
-      "zarodniki wysypują się",
-      "zarodniki trafiają w odpowiednie miejsce",
-      "wyrastają nowe rośliny"
-    ],
-    "explanation": "Najpierw zarodniki dojrzewają, potem się wysypują, trafiają na odpowiednie podłoże i wyrastają z nich nowe rośliny."
-  },
-  {
-    "id": "R03_SUP_06",
-    "section": "Super trudne",
-    "type": "scenario",
-    "image": "/img/tns_r03_mech_budowa.jpg",
-    "prompt": "Uczeń ogląda roślinę z chwytnikami, łodyżką, drobnymi listkami i zarodnią na trzonku. Jak powinien ją zaklasyfikować?",
-    "options": [
-      "roślina nasienna naczyniowa",
-      "roślina zarodnikowa nienaczyniowa",
-      "roślina nasienna nienaczyniowa",
-      "roślina wodna bez chlorofilu"
-    ],
-    "answer": 1,
-    "explanation": "To typowy opis mchu - rośliny zarodnikowej, która nie ma tkanki przewodzącej."
-  },
-  {
-    "id": "R03_SUP_07",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "Mchy pomagają ograniczać ryzyko __________, bo zatrzymują dużo __________.",
-    "options": null,
-    "answer": [
-      "powodzi",
-      "wody"
-    ],
-    "altAnswers": [
-      [
-        "powodzi",
-        "powódź",
-        "powodz",
-        "powodzie"
-      ],
-      [
-        "wody",
-        "wodę",
-        "wode"
-      ]
-    ],
-    "explanation": "Mchy zatrzymują ogromne ilości wody, dlatego podczas opadów mniej jej gwałtownie spływa po stoku."
-  },
-  {
-    "id": "R03_SUP_08",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "image": "/img/tns_r03_torfowisko.jpg",
-    "prompt": "Które wyjaśnienie najlepiej tłumaczy, jak torfowce pomagają w powstawaniu torfowisk?",
-    "options": [
-      "rosną w górę, a dolne części obumierają i gromadzą się",
-      "zamieniają skały w piasek",
-      "wytwarzają nasiona w wodzie",
-      "spalają stare rośliny"
-    ],
-    "answer": 0,
-    "explanation": "Torfowce stale rosną w górę, a ich dolne części obumierają. W podmokłych warunkach z takich szczątków powstaje torf."
-  },
-  {
-    "id": "R03_SUP_09",
-    "section": "Super trudne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: drewno, łyko, miękiszowa, przewodząca.",
-    "options": null,
-    "answer": "miękiszowa",
-    "explanation": "Drewno i łyko są częściami tkanki przewodzącej. Miękiszowa to inny rodzaj tkanki stałej."
-  },
-  {
-    "id": "R03_SUP_10",
-    "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz sytuację z tkanką, która najbardziej pomaga roślinie.",
-    "options": null,
-    "left": [
-      "roślina rośnie w górę",
-      "korzeń pobiera wodę",
-      "liść wymienia gazy z powietrzem",
-      "pień się nie łamie"
-    ],
-    "right": [
-      "wzmacniająca",
-      "okrywająca",
-      "wierzchołkowa",
-      "okrywająca z włośnikami"
-    ],
-    "answer": {
-      "roślina rośnie w górę": "wierzchołkowa",
-      "korzeń pobiera wodę": "okrywająca z włośnikami",
-      "liść wymienia gazy z powietrzem": "okrywająca",
-      "pień się nie łamie": "wzmacniająca"
-    },
-    "explanation": "Wzrost na długość daje tkanka wierzchołkowa, włośniki pomagają pobierać wodę, aparaty szparkowe wymieniają gazy, a tkanka wzmacniająca chroni przed złamaniem."
-  },
-  {
-    "id": "R03_SUP_11",
-    "section": "Super trudne",
-    "type": "scenario",
-    "image": "/img/tns_r03_paproc_zarodnie.jpg",
-    "prompt": "Na spodzie dużego liścia widać skupiska zarodni. Jaka to grupa roślin?",
-    "options": [
-      "paprociowe",
-      "mchy",
-      "nagonasienne",
-      "okrytonasienne"
-    ],
-    "answer": 0,
-    "explanation": "Tak rozpoznasz paprociowe - u niektórych na spodzie liści znajdują się skupiska zarodni."
-  },
-  {
-    "id": "R03_SUP_12",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Co pomaga odróżnić mchy od paprociowych, widłakowych i skrzypowych?",
-    "options": [
-      "brak tkanki przewodzącej",
-      "małe rozmiary",
-      "rozmnażanie przez zarodniki",
-      "chwytniki zamiast korzeni"
-    ],
-    "answer": [
-      0,
-      1,
-      3
-    ],
-    "explanation": "Mchy odróżnia brak tkanki przewodzącej, małe rozmiary i obecność chwytników. Rozmnażanie przez zarodniki mają także paprociowe, widłakowe i skrzypowe."
-  },
-  {
-    "id": "R03_SUP_13",
-    "section": "Super trudne",
-    "type": "true_false",
-    "prompt": "Jeśli roślina ma drewno i łyko, to jest rośliną naczyniową.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Drewno i łyko tworzą tkankę przewodzącą, która występuje u roślin naczyniowych."
-  },
-  {
-    "id": "R03_SUP_14",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "image": "/img/tns_r03_widlak_plozaca_lodyga.jpg",
-    "prompt": "Który opis najlepiej pasuje do widłakowych?",
-    "options": [
-      "duże liście na ogonkach i zarodnie pod spodem",
-      "płożąca łodyga, drobne liście i widlaste pędy",
-      "wysoka łodyga z kwiatami",
-      "miękkie poduszki bez tkanki przewodzącej"
-    ],
-    "answer": 1,
-    "explanation": "Widłakowe rozpoznasz po płożącej łodydze, drobnych liściach i widlastych rozgałęzieniach."
-  },
-  {
-    "id": "R03_SUP_15",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "Skrzypowe mają pędy zbudowane z __________, a paprociowe mają duże liście na __________.",
-    "options": null,
-    "answer": [
-      "członów",
-      "ogonkach"
-    ],
-    "altAnswers": [
-      [
-        "członów",
-        "czlonow",
-        "człony",
-        "czlony"
-      ],
-      [
-        "ogonkach",
-        "ogonkach liściowych",
-        "ogonkach lisciowych",
-        "ogonkach"
-      ]
-    ],
-    "explanation": "Skrzypy mają członowaną budowę pędów, a paprocie - duże liście osadzone na ogonkach."
-  },
-  {
-    "id": "R03_SUP_16",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Przyporządkuj cechy do właściwej grupy roślin zarodnikowych.",
-    "options": null,
-    "items": [
-      "duże liście na ogonkach",
-      "widlaste rozgałęzienia pędów",
-      "członowane pędy",
-      "skupiska zarodni na spodzie liści",
-      "płożąca łodyga",
-      "liście wyrastające z węzłów"
-    ],
-    "categories": [
-      "paprociowe",
-      "widłakowe",
-      "skrzypowe"
-    ],
-    "answer": {
-      "paprociowe": [
-        "duże liście na ogonkach",
-        "skupiska zarodni na spodzie liści"
-      ],
-      "widłakowe": [
-        "widlaste rozgałęzienia pędów",
-        "płożąca łodyga"
-      ],
-      "skrzypowe": [
-        "członowane pędy",
-        "liście wyrastające z węzłów"
-      ]
-    },
-    "explanation": "Każda z tych grup ma własne cechy rozpoznawcze: paprocie - duże liście, widłaki - płożącą łodygę i widlaste pędy, skrzypy - członowane łodygi i węzły."
-  },
-  {
-    "id": "R03_SUP_17",
-    "section": "Super trudne",
-    "type": "scenario",
-    "image": "/img/tns_r03_skrzyp_pedy.jpg",
-    "prompt": "Na wiosnę uczeń widzi brązowawy pęd z zarodniami, a latem zielony pęd tej samej rośliny. O jakiej grupie mowa?",
-    "options": [
-      "o mchach",
-      "o skrzypowych",
-      "o nagonasiennych",
-      "o porostach"
-    ],
-    "answer": 1,
-    "explanation": "Niektóre skrzypy wytwarzają dwa rodzaje pędów: wiosenne z zarodniami i letnie zielone."
-  },
-  {
-    "id": "R03_SUP_18",
+    "id": "R03_HARD_09",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Jestem pierwsza na skale lub nieużytku i pomagam tworzyć glebę. Kim jestem jako grupa organizmów?",
+    "prompt": "Struktury najczęściej położone na spodniej stronie liścia, które umożliwiają wymianę gazową z atmosferą, to...",
     "options": null,
-    "answer": "organizm pionierski",
+    "answer": "aparaty szparkowe",
     "altAnswers": [
-      "organizm pionierski",
-      "organizmami pionierskimi",
-      "organizm pionierska",
-      "pionier",
-      "pionierski organizm"
+      "aparaty szparkowe",
+      "aparat szparkowy"
     ],
-    "explanation": "Mchy są organizmami pionierskimi - pojawiają się wcześnie i pomagają w powstawaniu gleby."
+    "explanation": "Aparaty szparkowe umożliwiają wymianę gazową między rośliną a atmosferą."
   },
   {
-    "id": "R03_SUP_19",
+    "id": "R03_HARD_10",
     "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Która odpowiedź najlepiej łączy budowę i miejsce życia widłaków?",
-    "options": [
-      "niskie rośliny z płożącą łodygą, spotykane m.in. na skałach i torfowiskach",
-      "wysokie drzewa tylko na pustyni",
-      "rośliny wodne bez liści",
-      "mchy żyjące jedynie w słonej wodzie"
-    ],
-    "answer": 0,
-    "explanation": "Rozdział opisuje widłaki jako niskie rośliny z płożącą łodygą, rosnące m.in. w lasach, na skałach i torfowiskach."
-  },
-  {
-    "id": "R03_SUP_20",
-    "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz grupę roślin z tym, co najbardziej zyskują dzięki tkance przewodzącej albo innym cechom.",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie pasuje do tkanki przewodzącej: drewno, łyko, aparaty szparkowe, wiązki przewodzące.",
+    "image": "r03_tkanki_stale.jpg",
     "options": null,
-    "left": [
-      "paprociowe, widłakowe i skrzypowe",
-      "mchy"
-    ],
-    "right": [
-      "mogą osiągać większe rozmiary",
-      "łatwo gromadzą wodę w skupiskach"
-    ],
-    "answer": {
-      "paprociowe, widłakowe i skrzypowe": "mogą osiągać większe rozmiary",
-      "mchy": "łatwo gromadzą wodę w skupiskach"
-    },
-    "explanation": "Rośliny zarodnikowe naczyniowe są zwykle większe dzięki tkance przewodzącej, a mchy dobrze magazynują wodę, gdy rosną w zwartych grupach."
+    "answer": "aparaty szparkowe",
+    "explanation": "Aparaty szparkowe należą do skórki i służą wymianie gazowej. Drewno, łyko i wiązki przewodzące wiążą się z transportem substancji."
   }
 ];
 
-const KID_PROMPTS = {
-  "R03_CHR_05": "Która roślina ma lepsze warunki do robienia pokarmu?",
-  "R03_CHR_13": "Do której grupy wrzucić sosnę?",
-  "R03_TKR_09": "Która tkanka pogrubia pień?",
-  "R03_TKR_14": "Z jaką tkanką kojarzy się zielony barwnik w liściu?",
-  "R03_MCH_09": "Po co mech przyciska listki podczas suszy?",
-  "R03_MCH_11": "Jak mchy pomagają na deszczowym stoku?",
-  "R03_PWS_07": "Jaka roślina ma członowany pęd?",
-  "R03_SUP_03": "Które tkanki zrobiły drzewko wyższe i grubsze?",
-  "R03_SUP_06": "Jak zaklasyfikować roślinę z chwytnikami i zarodnią?",
-  "R03_SUP_11": "Co to za grupa, gdy zarodnie są pod spodem liścia?",
-  "R03_SUP_17": "Jaka grupa ma pęd wiosenny i letni?"
-};
+const KID_PROMPTS = {};
 
 const chapter = {
-  "id": "r03",
-  "number": 3,
-  "title": "Rośliny zarodnikowe",
-  "icon": "🌿",
-  "sectionOrder": [
-    "Czym charakteryzują się rośliny?",
-    "Jaka jest rola tkanek roślinnych?",
-    "Jakie są cechy mchów?",
-    "Jak rozróżnić paprociowe, widłakowe i skrzypowe?"
+  id: "r03",
+  number: 3,
+  title: "Rośliny zarodnikowe",
+  icon: "🌿",
+  sectionOrder: [
+    "Cechy roślin",
+    "Tkanki roślinne",
+    "Mchy",
+    "Paprociowe, widłakowe i skrzypowe"
   ],
-  "sectionIcons": {
-    "Czym charakteryzują się rośliny?": "🌞",
-    "Jaka jest rola tkanek roślinnych?": "🔬",
-    "Jakie są cechy mchów?": "🍀",
-    "Jak rozróżnić paprociowe, widłakowe i skrzypowe?": "🌿"
+  sectionIcons: {
+    "Cechy roślin": "🌱",
+    "Tkanki roślinne": "🔬",
+    "Mchy": "💧",
+    "Paprociowe, widłakowe i skrzypowe": "🌿"
   },
-  "exercises": ALL_EXERCISES,
-  "kidPrompts": KID_PROMPTS
+  exercises: ALL_EXERCISES,
+  kidPrompts: KID_PROMPTS
 };
 
 export default chapter;

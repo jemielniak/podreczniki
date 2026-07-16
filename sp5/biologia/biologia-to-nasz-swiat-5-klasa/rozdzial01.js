@@ -1,1342 +1,1392 @@
+// Skróty sekcji (do identyfikatorów ćwiczeń):
+//   ORG  = Organizm i poziomy budowy
+//   CHEM = Skład chemiczny organizmów
+//   MIK  = Mikroskop i preparaty
+//   KOM  = Budowa komórek
+//   FOT  = Fotosynteza
+//   ODD  = Oddychanie komórkowe
+//   HARD = Super trudne
+
 const ALL_EXERCISES = [
   {
-    id: "R01_ORG_01",
-    section: "Jak są zbudowane organizmy?",
-    type: "single_choice",
-    prompt: "Spójrz na schemat. Który poziom budowy jest najmniejszy?",
-    image: "/img/bbt_r01_poziomy_budowy.jpg",
-    options: [
-      "komórka",
-      "tkanka",
-      "narząd",
-      "organizm"
+    "id": "R01_ORG_01",
+    "section": "Organizm i poziomy budowy",
+    "type": "single_choice",
+    "prompt": "Który opis najlepiej wyjaśnia, czym jest organizm?",
+    "options": [
+      "Istota zbudowana z komórek i wykonująca podstawowe czynności życiowe",
+      "Każdy element przyrody, także woda i skały",
+      "Tylko zwierzę, które potrafi się poruszać",
+      "Przedmiot wytworzony przez człowieka",
+      "Wyłącznie roślina, która przeprowadza fotosyntezę",
+      "Substancja prosta występująca w komórkach"
     ],
-    answer: 0,
-    explanation: "Komórka to najprostszy i najmniejszy poziom budowy organizmu. Z komórek powstają tkanki, potem narządy, układy narządów i cały organizm."
+    "answer": 0,
+    "explanation": "Organizm to istota zbudowana z komórek, która wykonuje czynności życiowe, takie jak odżywianie, oddychanie, wydalanie, ruch, rozmnażanie, wzrost i rozwój oraz reagowanie na bodźce."
   },
   {
-    id: "R01_ORG_02",
-    section: "Jak są zbudowane organizmy?",
-    type: "multi_select",
-    prompt: "Zaznacz czynności życiowe organizmów.",
-    options: [
+    "id": "R01_ORG_02",
+    "section": "Organizm i poziomy budowy",
+    "type": "multi_select",
+    "prompt": "Zaznacz czynności życiowe organizmów.",
+    "options": [
       "odżywianie",
       "oddychanie",
+      "wydalanie",
       "rozmnażanie",
-      "malowanie",
-      "reakcja na bodźce"
+      "rdzewienie",
+      "parowanie wody"
     ],
-    answer: [
+    "answer": [
       0,
       1,
       2,
-      4
+      3
     ],
-    explanation: "Organizmy odżywiają się, oddychają, rozmnażają się i reagują na bodźce. Malowanie nie jest czynnością życiową."
+    "image": "r01_czynnosci_zyciowe.jpg",
+    "explanation": "Do czynności życiowych należą między innymi odżywianie, oddychanie, wydalanie i rozmnażanie. Rdzewienie oraz parowanie wody nie są czynnościami życiowymi organizmu."
   },
   {
-    id: "R01_ORG_03",
-    section: "Jak są zbudowane organizmy?",
-    type: "true_false",
-    prompt: "Tkanka jest zbudowana z podobnych komórek.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Tkanka to grupa komórek o podobnej budowie, które wykonują podobne zadania."
+    "id": "R01_ORG_03",
+    "section": "Organizm i poziomy budowy",
+    "type": "true_false",
+    "prompt": "Każdy organizm jest zbudowany z komórek.",
+    "options": null,
+    "answer": true,
+    "explanation": "Budowa komórkowa jest wspólną cechą wszystkich organizmów. Niektóre organizmy składają się z jednej komórki, a inne z wielu komórek."
   },
   {
-    id: "R01_ORG_04",
-    section: "Jak są zbudowane organizmy?",
-    type: "fill_in",
-    prompt: "Organizm jest zbudowany z __________ i wykonuje podstawowe __________ życiowe.",
-    options: null,
-    answer: [
-      "komórek",
-      "czynności"
+    "id": "R01_ORG_04",
+    "section": "Organizm i poziomy budowy",
+    "type": "match",
+    "prompt": "Połącz czynność życiową z jej opisem.",
+    "options": null,
+    "left": [
+      "odżywianie",
+      "oddychanie",
+      "wydalanie",
+      "rozmnażanie"
     ],
-    altAnswers: [
-      [
-        "komórek",
-        "komórki",
-        "komorka",
-        "komorki"
-      ],
-      [
-        "czynności",
-        "czynnosci",
-        "czynność",
-        "czynnosc"
-      ]
+    "right": [
+      "pobieranie lub wytwarzanie pokarmu",
+      "uwalnianie energii z pokarmu",
+      "usuwanie substancji zbędnych i szkodliwych",
+      "wydawanie na świat potomstwa"
     ],
-    explanation: "Każdy organizm ma budowę komórkową i wykonuje czynności życiowe, takie jak odżywianie, oddychanie czy rozmnażanie."
-  },
-  {
-    id: "R01_ORG_05",
-    section: "Jak są zbudowane organizmy?",
-    type: "match",
-    prompt: "Połącz przykład z odpowiednim poziomem budowy organizmu.",
-    options: null,
-    left: [
-      "komórka mięśniowa",
-      "tkanka nerwowa",
-      "serce",
-      "układ krwionośny",
-      "kot domowy"
-    ],
-    right: [
-      "komórka",
-      "tkanka",
-      "narząd",
-      "układ narządów",
-      "organizm"
-    ],
-    answer: {
-      "komórka mięśniowa": "komórka",
-      "tkanka nerwowa": "tkanka",
-      serce: "narząd",
-      "układ krwionośny": "układ narządów",
-      "kot domowy": "organizm"
+    "answer": {
+      "odżywianie": "pobieranie lub wytwarzanie pokarmu",
+      "oddychanie": "uwalnianie energii z pokarmu",
+      "wydalanie": "usuwanie substancji zbędnych i szkodliwych",
+      "rozmnażanie": "wydawanie na świat potomstwa"
     },
-    explanation: "Poziomy budowy idą od komórki do całego organizmu. Każdy przykład pasuje do innego poziomu."
+    "image": "r01_czynnosci_zyciowe.jpg",
+    "explanation": "Każda czynność życiowa ma określone znaczenie dla organizmu: pokarm dostarcza materiałów i energii, oddychanie uwalnia energię, wydalanie usuwa niepotrzebne substancje, a rozmnażanie pozwala wydać potomstwo."
   },
   {
-    id: "R01_ORG_06",
-    section: "Jak są zbudowane organizmy?",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: komórka, tkanka, narząd, łodyga, układ narządów.",
-    options: null,
-    answer: "łodyga",
-    explanation: "Komórka, tkanka, narząd i układ narządów to nazwy poziomów budowy. Łodyga jest przykładem narządu rośliny, a nie nazwą poziomu."
-  },
-  {
-    id: "R01_ORG_07",
-    section: "Jak są zbudowane organizmy?",
-    type: "sequence",
-    prompt: "Ułóż poziomy budowy od najprostszego do najbardziej złożonego.",
-    options: null,
-    items: [
-      "organizm",
-      "narząd",
+    "id": "R01_ORG_05",
+    "section": "Organizm i poziomy budowy",
+    "type": "sequence",
+    "prompt": "Ułóż poziomy budowy organizmu od najprostszego do najbardziej złożonego.",
+    "options": null,
+    "items": [
+      "układ narządów lub system organów",
       "komórka",
-      "układ narządów",
+      "organ lub narząd",
+      "organizm",
       "tkanka"
     ],
-    answer: [
+    "answer": [
       "komórka",
       "tkanka",
-      "narząd",
-      "układ narządów",
+      "organ lub narząd",
+      "układ narządów lub system organów",
       "organizm"
     ],
-    explanation: "Najpierw jest komórka. Z komórek powstaje tkanka, z tkanek narząd, z narządów układ narządów, a z układów cały organizm."
+    "image": "r01_poziomy_budowy.jpg",
+    "explanation": "Hierarchiczna budowa organizmów oznacza, że poziomy układają się od komórki przez tkankę i narząd lub organ do układu narządów albo systemu organów, a następnie do całego organizmu."
   },
   {
-    id: "R01_ORG_08",
-    section: "Jak są zbudowane organizmy?",
-    type: "scenario",
-    prompt: "Kuba dotknął bardzo zimnej butelki i od razu cofnął rękę. Która czynność życiowa zadziałała w tej sytuacji?",
-    options: [
-      "rozmnażanie",
-      "reakcja na bodźce",
-      "wydalanie",
-      "wzrost"
-    ],
-    answer: 1,
-    explanation: "Nagły ruch po dotknięciu zimnego przedmiotu to reakcja na bodziec z otoczenia."
+    "id": "R01_ORG_06",
+    "section": "Organizm i poziomy budowy",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do poziomów budowy organizmu: komórka, tkanka, narząd, skała.",
+    "options": null,
+    "answer": "skała",
+    "explanation": "Komórka, tkanka i narząd to poziomy budowy organizmu. Skała jest elementem przyrody nieożywionej, a nie poziomem budowy organizmu."
   },
   {
-    id: "R01_CHEM_01",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "single_choice",
-    prompt: "Którego związku chemicznego jest zwykle najwięcej w organizmie?",
-    image: "/img/bbt_r01_zwiazki_chemiczne.jpg",
-    options: [
-      "wody",
-      "białek",
-      "tłuszczów",
-      "kwasów nukleinowych"
+    "id": "R01_ORG_07",
+    "section": "Organizm i poziomy budowy",
+    "type": "fill_in",
+    "prompt": "Podstawowy element budowy organizmów to __________.",
+    "options": null,
+    "answer": [
+      "komórka"
     ],
-    answer: 0,
-    explanation: "Woda stanowi bardzo dużą część organizmów. Pomaga transportować substancje i utrzymywać odpowiednią temperaturę."
-  },
-  {
-    id: "R01_CHEM_02",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "multi_select",
-    prompt: "Wybierz pierwiastki chemiczne.",
-    options: [
-      "tlen",
-      "azot",
-      "białko",
-      "woda",
-      "siarka"
-    ],
-    answer: [
-      0,
-      1,
-      4
-    ],
-    explanation: "Tlen, azot i siarka to pierwiastki. Białko i woda to związki chemiczne."
-  },
-  {
-    id: "R01_CHEM_03",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "true_false",
-    prompt: "Białka w organizmach pełnią między innymi funkcję budulcową.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Białka pomagają budować ciało, na przykład mięśnie i wiele innych struktur."
-  },
-  {
-    id: "R01_CHEM_04",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "fill_in",
-    prompt: "Woda pomaga utrzymać właściwą __________ organizmu i transportuje różne __________.",
-    options: null,
-    answer: [
-      "temperaturę",
-      "substancje"
-    ],
-    altAnswers: [
+    "altAnswers": [
       [
-        "temperaturę",
-        "temperatura",
-        "temperatury",
-        "temperature"
-      ],
-      [
-        "substancje",
-        "substancja",
-        "substancji"
+        "komórka",
+        "komorka"
       ]
     ],
-    explanation: "Woda jest głównym składnikiem płynów w organizmie. Dzięki niej mogą być przenoszone różne substancje, a temperatura ciała jest łatwiej utrzymywana."
+    "explanation": "Komórka jest podstawowym elementem budowy organizmów. Z komórek mogą powstawać tkanki i kolejne poziomy budowy."
   },
   {
-    id: "R01_CHEM_05",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "match",
-    prompt: "Połącz związek chemiczny z jego główną rolą.",
-    options: null,
-    left: [
+    "id": "R01_ORG_08",
+    "section": "Organizm i poziomy budowy",
+    "type": "sort",
+    "prompt": "Przyporządkuj przykłady do organizmów roślinnych i zwierzęcych.",
+    "options": null,
+    "items": [
+      "liść",
+      "system przewodzący",
+      "serce",
+      "układ krwionośny"
+    ],
+    "categories": [
+      "u roślin",
+      "u zwierząt"
+    ],
+    "answer": {
+      "u roślin": [
+        "liść",
+        "system przewodzący"
+      ],
+      "u zwierząt": [
+        "serce",
+        "układ krwionośny"
+      ]
+    },
+    "image": "r01_poziomy_budowy.jpg",
+    "explanation": "W podręczniku liść i system przewodzący są przykładami poziomów budowy roślin, a serce i układ krwionośny przykładami poziomów budowy zwierząt."
+  },
+  {
+    "id": "R01_ORG_09",
+    "section": "Organizm i poziomy budowy",
+    "type": "scenario",
+    "prompt": "Dotykasz bardzo ciepłego kubka i natychmiast odsuwasz rękę. Która czynność życiowa najlepiej opisuje taką zmianę zachowania?",
+    "options": [
+      "reagowanie na bodźce",
+      "rozmnażanie",
+      "wydalanie",
+      "odżywianie",
+      "wzrost",
+      "samodzielne wytwarzanie pokarmu"
+    ],
+    "answer": 0,
+    "image": "r01_czynnosci_zyciowe.jpg",
+    "explanation": "Bodziec to zmiana w środowisku, która wywołuje reakcję organizmu. Odsunięcie ręki od gorącego przedmiotu jest reakcją na bodziec."
+  },
+  {
+    "id": "R01_ORG_10",
+    "section": "Organizm i poziomy budowy",
+    "type": "riddle",
+    "prompt": "Jak nazywa się czynność życiowa polegająca na usuwaniu z organizmu substancji zbędnych i szkodliwych?",
+    "options": null,
+    "answer": "wydalanie",
+    "altAnswers": [
+      "wydalanie"
+    ],
+    "explanation": "Wydalanie polega na usuwaniu z organizmu substancji zbędnych i szkodliwych."
+  },
+  {
+    "id": "R01_CHEM_01",
+    "section": "Skład chemiczny organizmów",
+    "type": "single_choice",
+    "prompt": "Która lista zawiera sześć pierwiastków występujących w organizmach w największej ilości?",
+    "options": [
+      "węgiel, wodór, tlen, azot, siarka, fosfor",
+      "żelazo, miedź, srebro, złoto, wapń, sód",
+      "potas, wapń, magnez, żelazo, fluor, chlor",
+      "woda, białka, cukry, tłuszcze, sole mineralne, DNA",
+      "glukoza, tlen, dwutlenek węgla, woda, chlorofil, energia",
+      "azot, alkohol etylowy, chlorofil, cytozol, glukoza, wakuola"
+    ],
+    "answer": 0,
+    "image": "r01_sklad_chemiczny.jpg",
+    "explanation": "W organizmach w największej ilości występują: węgiel, wodór, tlen, azot, siarka oraz fosfor."
+  },
+  {
+    "id": "R01_CHEM_02",
+    "section": "Skład chemiczny organizmów",
+    "type": "multi_select",
+    "prompt": "Zaznacz podstawowe związki chemiczne występujące w organizmach.",
+    "options": [
+      "białka",
+      "cukry",
+      "tłuszcze",
+      "kwasy nukleinowe",
+      "piasek",
+      "plastik"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Do podstawowych związków chemicznych organizmów należą między innymi białka, cukry, tłuszcze i kwasy nukleinowe. W rozdziale wymieniono także sole mineralne i wodę."
+  },
+  {
+    "id": "R01_CHEM_03",
+    "section": "Skład chemiczny organizmów",
+    "type": "true_false",
+    "prompt": "Pierwiastki to substancje proste.",
+    "options": null,
+    "answer": true,
+    "explanation": "Pierwiastki są substancjami prostymi. Związki chemiczne powstają z połączenia co najmniej dwóch różnych pierwiastków."
+  },
+  {
+    "id": "R01_CHEM_04",
+    "section": "Skład chemiczny organizmów",
+    "type": "match",
+    "prompt": "Połącz związek chemiczny z jego funkcją w organizmie.",
+    "options": null,
+    "left": [
       "białka",
       "cukry",
       "tłuszcze",
       "kwasy nukleinowe"
     ],
-    right: [
-      "budują ciało",
-      "dają energię",
-      "chronią przed chłodem",
-      "przechowują informacje"
+    "right": [
+      "materiał budulcowy organizmów",
+      "główne źródło energii",
+      "źródło energii i ochrona przed chłodem",
+      "informacja o budowie i działaniu organizmu"
     ],
-    answer: {
-      "białka": "budują ciało",
-      cukry: "dają energię",
-      "tłuszcze": "chronią przed chłodem",
-      "kwasy nukleinowe": "przechowują informacje"
+    "answer": {
+      "białka": "materiał budulcowy organizmów",
+      "cukry": "główne źródło energii",
+      "tłuszcze": "źródło energii i ochrona przed chłodem",
+      "kwasy nukleinowe": "informacja o budowie i działaniu organizmu"
     },
-    explanation: "Każdy związek chemiczny ma swoje zadanie. Białka są budulcem, cukry dają energię, tłuszcze chronią i magazynują energię, a kwasy nukleinowe niosą informację."
+    "image": "r01_funkcje_zwiazkow.jpg",
+    "explanation": "Białka budują ciała organizmów, cukry są głównym źródłem energii, tłuszcze mogą być źródłem energii i chronią przed zimnem, a kwasy nukleinowe zawierają informacje o budowie i działaniu organizmu."
   },
   {
-    id: "R01_CHEM_06",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "sort",
-    prompt: "Posortuj nazwy do właściwej kategorii.",
-    options: null,
-    items: [
-      "węgiel",
-      "woda",
-      "żelazo",
-      "tłuszcze",
-      "azot",
-      "białka"
+    "id": "R01_CHEM_05",
+    "section": "Skład chemiczny organizmów",
+    "type": "fill_in",
+    "prompt": "Związki chemiczne to substancje złożone z co najmniej dwóch różnych __________.",
+    "options": null,
+    "answer": [
+      "pierwiastków"
     ],
-    categories: [
+    "altAnswers": [
+      [
+        "pierwiastków",
+        "pierwiastkow"
+      ]
+    ],
+    "explanation": "Związek chemiczny powstaje z połączenia co najmniej dwóch różnych pierwiastków, czyli substancji prostych."
+  },
+  {
+    "id": "R01_CHEM_06",
+    "section": "Skład chemiczny organizmów",
+    "type": "sort",
+    "prompt": "Rozdziel przykłady na pierwiastki i związki chemiczne.",
+    "options": null,
+    "items": [
+      "węgiel",
+      "tlen",
+      "białka",
+      "woda",
+      "fosfor",
+      "cukry"
+    ],
+    "categories": [
       "pierwiastki",
       "związki chemiczne"
     ],
-    answer: {
-      pierwiastki: [
+    "answer": {
+      "pierwiastki": [
         "węgiel",
-        "żelazo",
-        "azot"
+        "tlen",
+        "fosfor"
       ],
       "związki chemiczne": [
+        "białka",
         "woda",
-        "tłuszcze",
-        "białka"
+        "cukry"
       ]
     },
-    explanation: "Pierwiastki to substancje proste, a związki chemiczne powstają z połączenia różnych pierwiastków."
+    "image": "r01_sklad_chemiczny.jpg",
+    "explanation": "Węgiel, tlen i fosfor to pierwiastki. Białka, woda i cukry są związkami chemicznymi występującymi w organizmach."
   },
   {
-    id: "R01_CHEM_07",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: białko, tłuszcz, cukier, żelazo.",
-    options: null,
-    answer: "żelazo",
-    explanation: "Żelazo jest pierwiastkiem, a białko, tłuszcz i cukier to związki chemiczne."
+    "id": "R01_CHEM_07",
+    "section": "Skład chemiczny organizmów",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do pierwiastków występujących w organizmach w największej ilości: węgiel, wodór, tlen, celuloza.",
+    "options": null,
+    "answer": "celuloza",
+    "explanation": "Węgiel, wodór i tlen to pierwiastki. Celuloza jest przykładem cukru budującego ściany komórkowe roślin, a nie pierwiastkiem."
   },
   {
-    id: "R01_CHEM_08",
-    section: "Jaki jest skład chemiczny organizmów?",
-    type: "scenario",
-    prompt: "Foka ma pod skórą grubą warstwę tłuszczu. Po co jest jej taka warstwa?",
-    image: "/img/bbt_r01_funkcje_zwiazkow.jpg",
-    options: [
-      "żeby szybciej rosnąć",
-      "żeby chronić przed zimnem i mieć zapas energii",
-      "żeby przechowywać DNA",
-      "żeby robić fotosyntezę"
+    "id": "R01_CHEM_08",
+    "section": "Skład chemiczny organizmów",
+    "type": "scenario",
+    "prompt": "W opisie związku chemicznego podano, że hemoglobina przenosi tlen we krwi. Do której grupy związków należy hemoglobina?",
+    "options": [
+      "białka",
+      "cukry",
+      "tłuszcze",
+      "sole mineralne",
+      "woda",
+      "kwasy nukleinowe"
     ],
-    answer: 1,
-    explanation: "Tłuszcze pomagają chronić organizm przed utratą ciepła i są zapasem energii."
+    "answer": 0,
+    "image": "r01_funkcje_zwiazkow.jpg",
+    "explanation": "Hemoglobina jest białkiem zawartym we krwi. W rozdziale podano ją jako przykład białka transportującego tlen."
   },
   {
-    id: "R01_MIC_01",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "single_choice",
-    prompt: "Po co używa się mikroskopu?",
-    image: "/img/bbt_r01_mikroskop_budowa.jpg",
-    options: [
-      "żeby ważyć przedmioty",
-      "żeby oglądać bardzo małe obiekty",
-      "żeby mierzyć temperaturę",
-      "żeby suszyć preparat"
+    "id": "R01_CHEM_09",
+    "section": "Skład chemiczny organizmów",
+    "type": "riddle",
+    "prompt": "Jaki związek chemiczny jest głównym składnikiem płynów w organizmie, transportuje substancje i pomaga utrzymać właściwą temperaturę?",
+    "options": null,
+    "answer": "woda",
+    "altAnswers": [
+      "woda",
+      "wodę"
     ],
-    answer: 1,
-    explanation: "Mikroskop pozwala oglądać obiekty tak małe, że nie widać ich gołym okiem."
+    "image": "r01_funkcje_zwiazkow.jpg",
+    "explanation": "Woda jest głównym składnikiem płynów występujących w organizmie. Transportuje substancje, pomaga utrzymać temperaturę i bierze udział w procesach komórkowych."
   },
   {
-    id: "R01_MIC_02",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "multi_select",
-    prompt: "Które elementy mikroskopu pomagają ustawić ostrość obrazu?",
-    options: [
-      "śruba makrometryczna",
-      "śruba mikrometryczna",
-      "stolik",
-      "rewolwer"
-    ],
-    answer: [
-      0,
-      1
-    ],
-    explanation: "Ostrość ustawia się śrubą makrometryczną i mikrometryczną. Stolik służy do położenia preparatu, a rewolwer do zmiany obiektywu."
+    "id": "R01_CHEM_10",
+    "section": "Skład chemiczny organizmów",
+    "type": "true_false",
+    "prompt": "Cukry mogą być źródłem energii, materiałem zapasowym lub materiałem budulcowym.",
+    "options": null,
+    "answer": true,
+    "explanation": "Cukry są głównym źródłem energii, mogą tworzyć materiał zapasowy, na przykład skrobię, oraz budować ściany komórkowe roślin jako celuloza."
   },
   {
-    id: "R01_MIC_03",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "true_false",
-    prompt: "Obserwację pod mikroskopem zaczyna się od największego powiększenia.",
-    options: null,
-    answer: false,
-    explanation: "To fałsz. Zaczyna się od najmniejszego powiększenia, bo wtedy łatwiej znaleźć obiekt i ustawić ostrość."
+    "id": "R01_MIK_01",
+    "section": "Mikroskop i preparaty",
+    "type": "single_choice",
+    "prompt": "Do czego służy mikroskop optyczny opisany w rozdziale?",
+    "options": [
+      "Do powiększania obrazu bardzo małych obiektów",
+      "Do mierzenia temperatury powietrza",
+      "Do ważenia próbek biologicznych",
+      "Do wytwarzania glukozy w komórkach",
+      "Do usuwania wody z organizmu",
+      "Do zapisywania informacji w DNA"
+    ],
+    "answer": 0,
+    "image": "r01_mikroskop_optyczny.jpg",
+    "explanation": "Mikroskop powiększa obraz obserwowanego obiektu, dzięki czemu można zobaczyć elementy niewidoczne gołym okiem ani za pomocą lupy."
   },
   {
-    id: "R01_MIC_04",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "fill_in",
-    prompt: "Obserwację zaczynamy od __________ powiększenia, a ostrość dokładnie poprawiamy śrubą __________.",
-    options: null,
-    answer: [
-      "najmniejszego",
-      "mikrometryczną"
-    ],
-    altAnswers: [
-      [
-        "najmniejszego",
-        "małego",
-        "najmniejsze",
-        "najmniejszym"
-      ],
-      [
-        "mikrometryczną",
-        "mikrometryczna",
-        "śrubą mikrometryczną",
-        "sruba mikrometryczna",
-        "mikrometrycznej"
-      ]
-    ],
-    explanation: "Na początku używa się najmniejszego powiększenia. Dokładną ostrość ustawia śruba mikrometryczna."
-  },
-  {
-    id: "R01_MIC_05",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "match",
-    prompt: "Połącz część mikroskopu z jej zadaniem.",
-    options: null,
-    left: [
+    "id": "R01_MIK_02",
+    "section": "Mikroskop i preparaty",
+    "type": "match",
+    "prompt": "Połącz element mikroskopu z jego funkcją.",
+    "options": null,
+    "left": [
       "okular",
+      "śruby makrometryczna i mikrometryczna",
       "rewolwer",
-      "stolik",
       "źródło światła"
     ],
-    right: [
-      "powiększa obraz",
-      "zmienia obiektywy",
-      "miejsce na preparat",
+    "right": [
+      "powiększa obraz obiektu",
+      "ustawiają ostrość obrazu",
+      "umożliwia zmianę obiektywów",
       "oświetla preparat"
     ],
-    answer: {
-      okular: "powiększa obraz",
-      rewolwer: "zmienia obiektywy",
-      stolik: "miejsce na preparat",
+    "answer": {
+      "okular": "powiększa obraz obiektu",
+      "śruby makrometryczna i mikrometryczna": "ustawiają ostrość obrazu",
+      "rewolwer": "umożliwia zmianę obiektywów",
       "źródło światła": "oświetla preparat"
     },
-    explanation: "Każda część mikroskopu ma własne zadanie. Dzięki temu można dobrze obejrzeć preparat."
+    "image": "r01_mikroskop_optyczny.jpg",
+    "explanation": "Okular i obiektywy powiększają obraz, śruby służą do ustawiania ostrości, rewolwer pozwala zmieniać obiektywy, a źródło światła oświetla preparat."
   },
   {
-    id: "R01_MIC_06",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "sequence",
-    prompt: "Ułóż kroki przygotowania prostego preparatu z kropli wody.",
-    image: "/img/bbt_r01_preparat_kropla_wody.jpg",
-    options: null,
-    items: [
-      "przykryj kroplę szkiełkiem nakrywkowym",
-      "nabierz wodę zakraplaczem",
-      "odsącz nadmiar wody",
-      "daj kroplę na szkiełko",
-      "umieść badany materiał w kropli"
+    "id": "R01_MIK_03",
+    "section": "Mikroskop i preparaty",
+    "type": "true_false",
+    "prompt": "Obserwację pod mikroskopem zaczyna się zawsze od największego powiększenia obrazu.",
+    "options": null,
+    "answer": false,
+    "explanation": "Obserwację mikroskopową zaczyna się od najmniejszego powiększenia. Dopiero gdy uzyskane powiększenie jest niewystarczające, zmienia się obiektyw."
+  },
+  {
+    "id": "R01_MIK_04",
+    "section": "Mikroskop i preparaty",
+    "type": "sequence",
+    "prompt": "Ułóż etapy przygotowania preparatu z kropli wody z kałuży.",
+    "options": null,
+    "items": [
+      "odsączenie nadmiaru wody",
+      "pobranie wody zakraplaczem",
+      "nakrycie kropli szkiełkiem nakrywkowym",
+      "nabranie wody z kałuży do słoika",
+      "naniesienie kropli na środek szkiełka podstawowego"
     ],
-    answer: [
-      "nabierz wodę zakraplaczem",
-      "daj kroplę na szkiełko",
-      "umieść badany materiał w kropli",
-      "przykryj kroplę szkiełkiem nakrywkowym",
-      "odsącz nadmiar wody"
+    "answer": [
+      "nabranie wody z kałuży do słoika",
+      "pobranie wody zakraplaczem",
+      "naniesienie kropli na środek szkiełka podstawowego",
+      "nakrycie kropli szkiełkiem nakrywkowym",
+      "odsączenie nadmiaru wody"
     ],
-    explanation: "Najpierw trzeba pobrać kroplę i nanieść ją na szkiełko. Dopiero potem dodaje się materiał, przykrywa preparat i odsącza nadmiar wody."
+    "image": "r01_preparat_mikroskopowy.jpg",
+    "explanation": "Najpierw pobiera się wodę z kałuży, potem zakraplaczem nanosi kroplę na szkiełko podstawowe, nakrywa ją szkiełkiem nakrywkowym i usuwa nadmiar wody."
   },
   {
-    id: "R01_MIC_07",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "scenario",
-    prompt: "Ola robi preparat ze skórki cebuli. Czym najwygodniej przeniesie cienki kawałek skórki na szkiełko?",
-    image: "/img/bbt_r01_skorka_cebuli_prep.jpg",
-    options: [
-      "pęsetą",
-      "linijką",
-      "gumką",
-      "termometrem"
+    "id": "R01_MIK_05",
+    "section": "Mikroskop i preparaty",
+    "type": "fill_in",
+    "prompt": "Obiekt do obserwacji pod mikroskopem trzeba przygotować jako __________.",
+    "options": null,
+    "answer": [
+      "preparat mikroskopowy"
     ],
-    answer: 0,
-    explanation: "Do chwytania cienkiego kawałka skórki cebuli najlepiej użyć pęsety."
-  },
-  {
-    id: "R01_MIC_08",
-    section: "Jak zajrzeć do wnętrza komórki?",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: okular, obiektyw, rewolwer, chloroplast.",
-    options: null,
-    answer: "chloroplast",
-    explanation: "Okular, obiektyw i rewolwer są częściami mikroskopu. Chloroplast jest elementem komórki roślinnej."
-  },
-  {
-    id: "R01_CELL_01",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "single_choice",
-    prompt: "Który obiekt jest przykładem bardzo dużej komórki, którą można zobaczyć bez mikroskopu?",
-    options: [
-      "jajo strusia",
-      "ziarno piasku",
-      "serce kota",
-      "łodyga"
+    "altAnswers": [
+      [
+        "preparat mikroskopowy",
+        "preparat"
+      ]
     ],
-    answer: 0,
-    explanation: "Jajo strusia jest pojedynczą komórką jajową i jest tak duże, że widać je gołym okiem.",
-    image: "/img/bbt_r01_ksztalty_komorek.jpg"
+    "image": "r01_preparat_mikroskopowy.jpg",
+    "explanation": "Aby obejrzeć obiekt pod mikroskopem, przygotowuje się z niego preparat mikroskopowy albo korzysta z gotowego preparatu."
   },
   {
-    id: "R01_CELL_02",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "multi_select",
-    prompt: "Które elementy występują we wszystkich typach komórek z tego rozdziału?",
-    options: [
+    "id": "R01_MIK_06",
+    "section": "Mikroskop i preparaty",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do elementów mikroskopu: okular, obiektyw, rewolwer, chloroplast.",
+    "options": null,
+    "answer": "chloroplast",
+    "image": "r01_mikroskop_optyczny.jpg",
+    "explanation": "Okular, obiektyw i rewolwer są elementami mikroskopu. Chloroplast jest organellum komórki roślinnej."
+  },
+  {
+    "id": "R01_MIK_07",
+    "section": "Mikroskop i preparaty",
+    "type": "scenario",
+    "prompt": "Uczeń położył preparat na stoliku mikroskopu i widzi rozmazany obraz. Których elementów powinien użyć do ustawienia ostrości?",
+    "options": [
+      "śrub makrometrycznej i mikrometrycznej",
+      "stolika i szkiełka nakrywkowego",
+      "rewolweru i chloroplastu",
+      "źródła światła i wakuoli",
+      "cytozolu i jądra komórkowego",
+      "binokularu i bibuły"
+    ],
+    "answer": 0,
+    "image": "r01_mikroskop_optyczny.jpg",
+    "explanation": "Śruby makrometryczna i mikrometryczna służą do ustawiania ostrości obrazu w mikroskopie."
+  },
+  {
+    "id": "R01_MIK_08",
+    "section": "Mikroskop i preparaty",
+    "type": "multi_select",
+    "prompt": "Zaznacz materiały potrzebne do wykonania preparatu z kropli wody z kałuży.",
+    "options": [
+      "szkiełko podstawowe",
+      "szkiełko nakrywkowe",
+      "zakraplacz",
+      "słoik z wodą",
+      "mitochondrium",
+      "chlorofil"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image": "r01_preparat_mikroskopowy.jpg",
+    "explanation": "Do takiego preparatu potrzebne są między innymi szkiełko podstawowe, szkiełko nakrywkowe, zakraplacz i słoik z wodą z kałuży."
+  },
+  {
+    "id": "R01_MIK_09",
+    "section": "Mikroskop i preparaty",
+    "type": "riddle",
+    "prompt": "Jak nazywa się pokrętło mikroskopu umożliwiające zmianę obiektywów?",
+    "options": null,
+    "answer": "rewolwer",
+    "altAnswers": [
+      "rewolwer"
+    ],
+    "image": "r01_mikroskop_optyczny.jpg",
+    "explanation": "Rewolwer to pokrętło, które umożliwia zmianę obiektywów w mikroskopie."
+  },
+  {
+    "id": "R01_MIK_10",
+    "section": "Mikroskop i preparaty",
+    "type": "sort",
+    "prompt": "Przyporządkuj elementy mikroskopu do ich głównych funkcji.",
+    "options": null,
+    "items": [
+      "okular",
+      "obiektywy",
+      "śruby makrometryczna i mikrometryczna",
+      "źródło światła",
+      "stolik"
+    ],
+    "categories": [
+      "powiększanie obrazu",
+      "ustawianie ostrości",
+      "oświetlanie preparatu",
+      "umieszczenie preparatu"
+    ],
+    "answer": {
+      "powiększanie obrazu": [
+        "okular",
+        "obiektywy"
+      ],
+      "ustawianie ostrości": [
+        "śruby makrometryczna i mikrometryczna"
+      ],
+      "oświetlanie preparatu": [
+        "źródło światła"
+      ],
+      "umieszczenie preparatu": [
+        "stolik"
+      ]
+    },
+    "image": "r01_mikroskop_optyczny.jpg",
+    "explanation": "Okular i obiektywy odpowiadają za powiększenie, śruby za ostrość, źródło światła za oświetlenie, a stolik jest miejscem ułożenia preparatu."
+  },
+  {
+    "id": "R01_KOM_01",
+    "section": "Budowa komórek",
+    "type": "single_choice",
+    "prompt": "Jak nazywają się elementy, z których składają się komórki?",
+    "options": [
+      "organelle",
+      "tkanki",
+      "narządy",
+      "układy narządów",
+      "pierwiastki proste",
+      "bodźce"
+    ],
+    "answer": 0,
+    "image": "r01_komorki_ksztalty.jpg",
+    "explanation": "Komórki składają się z elementów nazywanych organellami. Różne organelle pełnią w komórce różne funkcje."
+  },
+  {
+    "id": "R01_KOM_02",
+    "section": "Budowa komórek",
+    "type": "multi_select",
+    "prompt": "Zaznacz elementy występujące we wszystkich typach komórek pokazanych w rozdziale.",
+    "options": [
       "błona komórkowa",
       "cytozol",
       "chloroplast",
-      "jądro komórkowe"
+      "wakuola",
+      "jądro komórkowe",
+      "mitochondrium"
     ],
-    answer: [
+    "answer": [
       0,
       1
     ],
-    explanation: "Błona komórkowa i cytozol są obecne we wszystkich opisanych typach komórek. Chloroplast nie występuje u zwierząt, a jądro komórkowe nie występuje u bakterii."
+    "image": "r01_model_komorki_zwierzecej.jpg",
+    "explanation": "Błona komórkowa i cytozol występują w komórkach zwierzęcych, roślinnych i bakteryjnych. Pozostałe wymienione elementy nie występują we wszystkich tych typach komórek."
   },
   {
-    id: "R01_CELL_03",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "true_false",
-    prompt: "Chloroplasty występują w komórkach zwierzęcych.",
-    options: null,
-    answer: false,
-    explanation: "To fałsz. Chloroplasty występują w komórkach roślinnych i to w nich zachodzi fotosynteza."
+    "id": "R01_KOM_03",
+    "section": "Budowa komórek",
+    "type": "true_false",
+    "prompt": "Niektóre komórki są samodzielnymi organizmami, na przykład bakterie.",
+    "options": null,
+    "answer": true,
+    "image": "r01_komorki_ksztalty.jpg",
+    "explanation": "Bakterie są przykładami organizmów jednokomórkowych. Inne komórki tworzą organizmy wielokomórkowe, takie jak rośliny i zwierzęta."
   },
   {
-    id: "R01_CELL_04",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "fill_in",
-    prompt: "Chloroplast zawiera zielony barwnik - __________ - i przeprowadza __________.",
-    options: null,
-    answer: [
-      "chlorofil",
-      "fotosyntezę"
+    "id": "R01_KOM_04",
+    "section": "Budowa komórek",
+    "type": "match",
+    "prompt": "Połącz element komórki z jego funkcją.",
+    "options": null,
+    "left": [
+      "jądro komórkowe",
+      "mitochondrium",
+      "chloroplast",
+      "ściana komórkowa"
     ],
-    altAnswers: [
-      [
-        "chlorofil",
-        "chlorofilu",
-        "chlorofilem"
+    "right": [
+      "nadzoruje procesy życiowe i zawiera DNA",
+      "dostarcza komórce energię",
+      "zawiera chlorofil i zachodzi w nim fotosynteza",
+      "nadaje komórce kształt i chroni ją"
+    ],
+    "answer": {
+      "jądro komórkowe": "nadzoruje procesy życiowe i zawiera DNA",
+      "mitochondrium": "dostarcza komórce energię",
+      "chloroplast": "zawiera chlorofil i zachodzi w nim fotosynteza",
+      "ściana komórkowa": "nadaje komórce kształt i chroni ją"
+    },
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Jądro komórkowe zawiera DNA i nadzoruje komórkę, mitochondrium dostarcza energię, chloroplast uczestniczy w fotosyntezie, a ściana komórkowa jest sztywna, chroni komórkę i nadaje jej kształt."
+  },
+  {
+    "id": "R01_KOM_05",
+    "section": "Budowa komórek",
+    "type": "sort",
+    "prompt": "Przyporządkuj elementy do typów komórek, w których są charakterystyczne lub wspólne.",
+    "options": null,
+    "items": [
+      "chloroplast",
+      "wakuola",
+      "substancja jądrowa",
+      "jądro komórkowe",
+      "mitochondrium",
+      "cytozol"
+    ],
+    "categories": [
+      "roślinna",
+      "bakteryjna",
+      "zwierzęca i roślinna",
+      "wszystkie typy"
+    ],
+    "answer": {
+      "roślinna": [
+        "chloroplast",
+        "wakuola"
       ],
+      "bakteryjna": [
+        "substancja jądrowa"
+      ],
+      "zwierzęca i roślinna": [
+        "jądro komórkowe",
+        "mitochondrium"
+      ],
+      "wszystkie typy": [
+        "cytozol"
+      ]
+    },
+    "image": "r01_model_komorki_bakteryjnej.jpg",
+    "explanation": "Chloroplasty i duża wakuola są pokazane w komórce roślinnej, substancja jądrowa w komórce bakteryjnej, jądro i mitochondria w komórkach zwierzęcych i roślinnych, a cytozol występuje we wszystkich typach komórek."
+  },
+  {
+    "id": "R01_KOM_06",
+    "section": "Budowa komórek",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do elementów komórki zwierzęcej: błona komórkowa, cytozol, jądro komórkowe, chloroplast.",
+    "options": null,
+    "answer": "chloroplast",
+    "image": "r01_model_komorki_zwierzecej.jpg",
+    "explanation": "Komórka zwierzęca ma błonę komórkową, cytozol i jądro komórkowe, ale nie ma chloroplastów. Chloroplasty występują w komórkach roślinnych."
+  },
+  {
+    "id": "R01_KOM_07",
+    "section": "Budowa komórek",
+    "type": "fill_in",
+    "prompt": "Zielony barwnik znajdujący się w chloroplastach to __________.",
+    "options": null,
+    "answer": [
+      "chlorofil"
+    ],
+    "altAnswers": [
       [
-        "fotosyntezę",
-        "fotosynteza",
-        "fotosyntezy"
+        "chlorofil"
       ]
     ],
-    explanation: "Chlorofil pochłania światło. Dzięki chloroplastom komórka roślinna może przeprowadzać fotosyntezę."
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Chlorofil to zielony barwnik obecny w chloroplastach. Pochłania światło potrzebne do fotosyntezy."
   },
   {
-    id: "R01_CELL_05",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "match",
-    prompt: "Połącz typ komórki z elementem, który go dobrze wyróżnia.",
-    options: null,
-    left: [
+    "id": "R01_KOM_08",
+    "section": "Budowa komórek",
+    "type": "scenario",
+    "prompt": "Komórka roślinna utrzymuje odpowiednią ilość wody, a dzięki temu zachowuje wielkość i jędrność. Który element komórki odpowiada za tę funkcję?",
+    "options": [
+      "wakuola",
+      "mitochondrium",
+      "rewolwer",
+      "otoczka śluzowa",
+      "hemoglobina",
+      "śruba mikrometryczna"
+    ],
+    "answer": 0,
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Wakuola utrzymuje właściwą ilość wody w komórce roślinnej, dlatego pomaga zachować jej wielkość i jędrność."
+  },
+  {
+    "id": "R01_KOM_09",
+    "section": "Budowa komórek",
+    "type": "riddle",
+    "prompt": "Które organellum bywa nazywane komórkową elektrownią, bo dostarcza komórce energię?",
+    "options": null,
+    "answer": "mitochondrium",
+    "altAnswers": [
+      "mitochondrium",
+      "mitochondria"
+    ],
+    "image": "r01_model_komorki_zwierzecej.jpg",
+    "explanation": "Mitochondrium dostarcza komórce energię i zachodzi w nim oddychanie komórkowe tlenowe."
+  },
+  {
+    "id": "R01_KOM_10",
+    "section": "Budowa komórek",
+    "type": "match",
+    "prompt": "Połącz typ komórki z elementem, który pomaga go rozpoznać.",
+    "options": null,
+    "left": [
       "komórka roślinna",
       "komórka zwierzęca",
       "komórka bakteryjna"
     ],
-    right: [
-      "chloroplast",
-      "brak chloroplastów",
-      "substancja jądrowa zamiast jądra"
+    "right": [
+      "chloroplasty i ściana komórkowa",
+      "brak ściany komórkowej w modelu z rozdziału",
+      "substancja jądrowa i często otoczka śluzowa"
     ],
-    answer: {
-      "komórka roślinna": "chloroplast",
-      "komórka zwierzęca": "brak chloroplastów",
-      "komórka bakteryjna": "substancja jądrowa zamiast jądra"
+    "answer": {
+      "komórka roślinna": "chloroplasty i ściana komórkowa",
+      "komórka zwierzęca": "brak ściany komórkowej w modelu z rozdziału",
+      "komórka bakteryjna": "substancja jądrowa i często otoczka śluzowa"
     },
-    explanation: "Komórka roślinna ma chloroplasty, zwierzęca ich nie ma, a bakteryjna nie ma jądra komórkowego - ma substancję jądrową."
+    "image": "r01_model_komorki_bakteryjnej.jpg",
+    "explanation": "Komórkę roślinną można rozpoznać po chloroplastach i ścianie komórkowej, zwierzęcą po braku ściany komórkowej w modelu, a bakteryjną po substancji jądrowej zamiast jądra komórkowego."
   },
   {
-    id: "R01_CELL_06",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "sort",
-    prompt: "Przyporządkuj elementy do właściwego typu komórki.",
-    image: "/img/bbt_r01_porownanie_komorek.jpg",
-    options: null,
-    items: [
-      "chloroplast",
-      "wakuola",
-      "jądro komórkowe",
-      "substancja jądrowa",
-      "ściana komórkowa"
+    "id": "R01_FOT_01",
+    "section": "Fotosynteza",
+    "type": "single_choice",
+    "prompt": "Jak nazywa się proces, w którym większość organizmów samożywnych wytwarza glukozę?",
+    "options": [
+      "fotosynteza",
+      "fermentacja alkoholowa",
+      "wydalanie",
+      "oddychanie tlenowe",
+      "reakcja na bodźce",
+      "barwienie preparatu"
     ],
-    categories: [
-      "roślinna",
-      "zwierzęca",
-      "bakteryjna"
-    ],
-    answer: {
-      "roślinna": [
-        "chloroplast",
-        "wakuola",
-        "ściana komórkowa"
-      ],
-      "zwierzęca": [
-        "jądro komórkowe"
-      ],
-      bakteryjna: [
-        "substancja jądrowa"
-      ]
-    },
-    explanation: "Rośliny mają chloroplasty, wakuolę i ścianę komórkową. Zwierzęta mają jądro komórkowe, a bakterie mają substancję jądrową zamiast jądra."
+    "answer": 0,
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Fotosynteza to proces wytwarzania substancji pokarmowej, czyli glukozy, w zielonych częściach roślin oraz u niektórych bakterii i protistów."
   },
   {
-    id: "R01_CELL_07",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "riddle",
-    prompt: "Jestem nazywane komórkową elektrownią. To we mnie uwalnia się energia. Kim jestem?",
-    options: null,
-    answer: "mitochondrium",
-    altAnswers: [
-      "mitochondrium",
-      "mitochondria",
-      "mitochondriom",
-      "mitochondriów"
-    ],
-    explanation: "Mitochondrium uwalnia energię potrzebną komórce do życia."
-  },
-  {
-    id: "R01_CELL_08",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "scenario",
-    prompt: "Antek ogląda komórkę z liścia i widzi w niej zielone małe struktury. Co najpewniej widzi?",
-    image: "/img/bbt_r01_model_komorki_roslinnej.jpg",
-    options: [
-      "mitochondria",
-      "chloroplasty",
-      "wić",
-      "skrzele"
-    ],
-    answer: 1,
-    explanation: "W komórkach liścia zielone struktury to zwykle chloroplasty. To one zawierają chlorofil."
-  },
-  {
-    id: "R01_CELL_09",
-    section: "Z jakich elementów są zbudowane komórki?",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: chloroplast, wakuola, ściana komórkowa, płuca.",
-    options: null,
-    answer: "płuca",
-    explanation: "Chloroplast, wakuola i ściana komórkowa to elementy komórki. Płuca są narządem."
-  },
-  {
-    id: "R01_FOT_01",
-    section: "Co to jest fotosynteza?",
-    type: "single_choice",
-    prompt: "W jakim elemencie komórki roślinnej zachodzi fotosynteza?",
-    image: "/img/bbt_r01_fotosynteza_schemat.jpg",
-    options: [
-      "w jądrze komórkowym",
-      "w chloroplaście",
-      "w mitochondrium",
-      "w błonie komórkowej"
-    ],
-    answer: 1,
-    explanation: "Fotosynteza zachodzi w chloroplastach. To w nich znajduje się chlorofil."
-  },
-  {
-    id: "R01_FOT_02",
-    section: "Co to jest fotosynteza?",
-    type: "multi_select",
-    prompt: "Co jest potrzebne do fotosyntezy?",
-    options: [
+    "id": "R01_FOT_02",
+    "section": "Fotosynteza",
+    "type": "multi_select",
+    "prompt": "Zaznacz składniki potrzebne do przeprowadzenia fotosyntezy.",
+    "options": [
+      "woda",
+      "dwutlenek węgla",
       "światło",
-      "woda",
-      "dwutlenek węgla",
       "alkohol etylowy",
-      "chlorofil"
+      "tlen",
+      "białka kurczliwe"
     ],
-    answer: [
-      0,
-      1,
-      2,
-      4
-    ],
-    explanation: "Do fotosyntezy potrzebne są światło, woda, dwutlenek węgla i chlorofil. Alkohol etylowy nie jest tu potrzebny."
-  },
-  {
-    id: "R01_FOT_03",
-    section: "Co to jest fotosynteza?",
-    type: "true_false",
-    prompt: "Tlen jest produktem fotosyntezy.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. W czasie fotosyntezy roślina wytwarza glukozę i uwalnia tlen."
-  },
-  {
-    id: "R01_FOT_04",
-    section: "Co to jest fotosynteza?",
-    type: "fill_in",
-    prompt: "W czasie fotosyntezy roślina wytwarza __________ i uwalnia do otoczenia __________.",
-    options: null,
-    answer: [
-      "glukozę",
-      "tlen"
-    ],
-    altAnswers: [
-      [
-        "glukozę",
-        "glukozę",
-        "glukoza",
-        "glukozy"
-      ],
-      [
-        "tlen",
-        "tlenu",
-        "tlenem"
-      ]
-    ],
-    explanation: "Glukoza jest pokarmem rośliny, a tlen jest uwalniany do otoczenia."
-  },
-  {
-    id: "R01_FOT_05",
-    section: "Co to jest fotosynteza?",
-    type: "match",
-    prompt: "Połącz składnik lub produkt fotosyntezy z jego opisem.",
-    options: null,
-    left: [
-      "dwutlenek węgla",
-      "woda",
-      "glukoza",
-      "tlen"
-    ],
-    right: [
-      "roślina pobiera go z powietrza",
-      "roślina pobiera ją z gleby",
-      "pokarm wytwarzany przez roślinę",
-      "gaz uwalniany do otoczenia"
-    ],
-    answer: {
-      "dwutlenek węgla": "roślina pobiera go z powietrza",
-      woda: "roślina pobiera ją z gleby",
-      glukoza: "pokarm wytwarzany przez roślinę",
-      tlen: "gaz uwalniany do otoczenia"
-    },
-    explanation: "W fotosyntezie roślina pobiera wodę i dwutlenek węgla, a wytwarza glukozę i tlen."
-  },
-  {
-    id: "R01_FOT_06",
-    section: "Co to jest fotosynteza?",
-    type: "sort",
-    prompt: "Podziel organizmy na samożywne i cudzożywne.",
-    image: "/img/bbt_r01_samozywne_cudzozywne.jpg",
-    options: null,
-    items: [
-      "dąb",
-      "koń",
-      "pieczarka",
-      "trawa"
-    ],
-    categories: [
-      "samożywne",
-      "cudzożywne"
-    ],
-    answer: {
-      "samożywne": [
-        "dąb",
-        "trawa"
-      ],
-      "cudzożywne": [
-        "koń",
-        "pieczarka"
-      ]
-    },
-    explanation: "Rośliny, takie jak dąb i trawa, same wytwarzają pokarm. Koń i pieczarka pobierają gotowy pokarm z otoczenia."
-  },
-  {
-    id: "R01_FOT_07",
-    section: "Co to jest fotosynteza?",
-    type: "scenario",
-    prompt: "Dwie takie same rośliny stoją w różnych miejscach. Jedna ma dużo światła, druga stoi w ciemnej szafce. W której fotosynteza będzie przebiegała lepiej?",
-    options: [
-      "w tej w ciemnej szafce",
-      "w tej, która ma dużo światła",
-      "w obu tak samo",
-      "w żadnej, bo światło nie ma znaczenia"
-    ],
-    answer: 1,
-    explanation: "Światło jest potrzebne do fotosyntezy. Gdy jest go więcej, proces może zachodzić sprawniej."
-  },
-  {
-    id: "R01_FOT_08",
-    section: "Co to jest fotosynteza?",
-    type: "single_choice",
-    prompt: "Na ilustracji pokazano trzy ważne czynniki. Który z nich NIE wpływa na intensywność fotosyntezy według tego tematu?",
-    image: "/img/bbt_r01_czynniki_fotosyntezy.jpg",
-    options: [
-      "ilość światła",
-      "ilość dwutlenku węgla",
-      "temperatura",
-      "kolor zeszytu leżącego obok rośliny"
-    ],
-    answer: 3,
-    explanation: "Na intensywność fotosyntezy wpływają między innymi światło, dwutlenek węgla i temperatura. Kolor zeszytu nie ma tu znaczenia."
-  },
-  {
-    id: "R01_ODD_01",
-    section: "Jak organizmy oddychają?",
-    type: "single_choice",
-    prompt: "Po co organizmy oddychają?",
-    image: "/img/bbt_r01_oddychanie_tlenowe.jpg",
-    options: [
-      "żeby zdobyć energię",
-      "żeby wytworzyć chlorofil",
-      "żeby stać się większe w jednej sekundzie",
-      "żeby zrobić preparat"
-    ],
-    answer: 0,
-    explanation: "Oddychanie komórkowe służy do uwalniania energii ze składników pokarmowych."
-  },
-  {
-    id: "R01_ODD_02",
-    section: "Jak organizmy oddychają?",
-    type: "multi_select",
-    prompt: "Które z poniższych są produktami oddychania tlenowego?",
-    options: [
-      "woda",
-      "dwutlenek węgla",
-      "energia",
-      "tlen"
-    ],
-    answer: [
+    "answer": [
       0,
       1,
       2
     ],
-    explanation: "W oddychaniu tlenowym powstają woda, dwutlenek węgla i energia. Tlen jest składnikiem, a nie produktem."
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Do fotosyntezy potrzebne są woda, dwutlenek węgla i światło. W jej wyniku powstają glukoza i tlen."
   },
   {
-    id: "R01_ODD_03",
-    section: "Jak organizmy oddychają?",
-    type: "true_false",
-    prompt: "Fermentacja daje więcej energii niż oddychanie tlenowe.",
-    options: null,
-    answer: false,
-    explanation: "To fałsz. Fermentacja daje mniej energii, bo glukoza rozkłada się tylko częściowo."
+    "id": "R01_FOT_03",
+    "section": "Fotosynteza",
+    "type": "true_false",
+    "prompt": "Fotosynteza zachodzi w mitochondriach komórek roślinnych.",
+    "options": null,
+    "answer": false,
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Fotosynteza zachodzi w chloroplastach, które zawierają chlorofil. Mitochondria są miejscem oddychania komórkowego tlenowego."
   },
   {
-    id: "R01_ODD_04",
-    section: "Jak organizmy oddychają?",
-    type: "fill_in",
-    prompt: "Oddychanie tlenowe zachodzi w __________, a fermentacja alkoholowa - w __________.",
-    options: null,
-    answer: [
+    "id": "R01_FOT_04",
+    "section": "Fotosynteza",
+    "type": "fill_in",
+    "prompt": "W procesie fotosyntezy z dwutlenku węgla i wody przy udziale światła powstaje __________ oraz __________.",
+    "options": null,
+    "answer": [
+      "glukoza",
+      "tlen"
+    ],
+    "altAnswers": [
+      [
+        "glukoza",
+        "substancja pokarmowa"
+      ],
+      [
+        "tlen"
+      ]
+    ],
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Produktami fotosyntezy są substancja pokarmowa glukoza oraz tlen uwalniany do atmosfery."
+  },
+  {
+    "id": "R01_FOT_05",
+    "section": "Fotosynteza",
+    "type": "match",
+    "prompt": "Połącz pojęcie związane z fotosyntezą z opisem.",
+    "options": null,
+    "left": [
+      "chloroplast",
+      "chlorofil",
+      "glukoza",
+      "dwutlenek węgla"
+    ],
+    "right": [
+      "miejsce fotosyntezy",
+      "zielony barwnik pochłaniający światło",
+      "substancja pokarmowa wytwarzana przez roślinę",
+      "składnik potrzebny do fotosyntezy"
+    ],
+    "answer": {
+      "chloroplast": "miejsce fotosyntezy",
+      "chlorofil": "zielony barwnik pochłaniający światło",
+      "glukoza": "substancja pokarmowa wytwarzana przez roślinę",
+      "dwutlenek węgla": "składnik potrzebny do fotosyntezy"
+    },
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Fotosynteza zachodzi w chloroplastach dzięki chlorofilowi. Do procesu potrzebny jest dwutlenek węgla, a jednym z produktów jest glukoza."
+  },
+  {
+    "id": "R01_FOT_06",
+    "section": "Fotosynteza",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do składników potrzebnych do fotosyntezy: światło, woda, dwutlenek węgla, alkohol etylowy.",
+    "options": null,
+    "answer": "alkohol etylowy",
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Do fotosyntezy potrzebne są światło, woda i dwutlenek węgla. Alkohol etylowy jest produktem fermentacji alkoholowej, a nie składnikiem fotosyntezy."
+  },
+  {
+    "id": "R01_FOT_07",
+    "section": "Fotosynteza",
+    "type": "scenario",
+    "prompt": "Ta sama roślina w ciepłym i bardzo słonecznym klimacie osiąga większe rozmiary niż w chłodniejszym miejscu. Który wniosek najlepiej pasuje do informacji z rozdziału?",
+    "options": [
+      "Intensywność fotosyntezy zależy między innymi od światła i temperatury",
+      "Fotosynteza zachodzi bez udziału światła",
+      "Rośliny pobierają gotowy pokarm wyłącznie z gleby",
+      "Tlen jest jedynym składnikiem potrzebnym do fotosyntezy",
+      "Fermentacja alkoholowa zachodzi tylko w liściach",
+      "Chlorofil chroni organizm przed zimnem"
+    ],
+    "answer": 0,
+    "explanation": "Intensywność fotosyntezy zależy między innymi od ilości światła, dwutlenku węgla i temperatury. Dlatego warunki środowiska wpływają na wzrost roślin."
+  },
+  {
+    "id": "R01_FOT_08",
+    "section": "Fotosynteza",
+    "type": "sort",
+    "prompt": "Rozdziel substancje na składniki i produkty fotosyntezy.",
+    "options": null,
+    "items": [
+      "woda",
+      "dwutlenek węgla",
+      "glukoza",
+      "tlen"
+    ],
+    "categories": [
+      "składniki fotosyntezy",
+      "produkty fotosyntezy"
+    ],
+    "answer": {
+      "składniki fotosyntezy": [
+        "woda",
+        "dwutlenek węgla"
+      ],
+      "produkty fotosyntezy": [
+        "glukoza",
+        "tlen"
+      ]
+    },
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Woda i dwutlenek węgla są zużywane w fotosyntezie, a glukoza i tlen powstają jako produkty tego procesu."
+  },
+  {
+    "id": "R01_FOT_09",
+    "section": "Fotosynteza",
+    "type": "riddle",
+    "prompt": "Jak nazywa się zielony barwnik pochłaniający światło w chloroplastach?",
+    "options": null,
+    "answer": "chlorofil",
+    "altAnswers": [
+      "chlorofil"
+    ],
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Chlorofil to zielony barwnik w chloroplastach. Dzięki niemu roślina pochłania światło potrzebne do fotosyntezy."
+  },
+  {
+    "id": "R01_FOT_10",
+    "section": "Fotosynteza",
+    "type": "sequence",
+    "prompt": "Ułóż uproszczony przebieg fotosyntezy zgodnie z opisem z rozdziału.",
+    "options": null,
+    "items": [
+      "powstają glukoza i tlen",
+      "chlorofil pochłania światło",
+      "roślina wykorzystuje glukozę",
+      "do chloroplastów trafiają woda i dwutlenek węgla"
+    ],
+    "answer": [
+      "do chloroplastów trafiają woda i dwutlenek węgla",
+      "chlorofil pochłania światło",
+      "powstają glukoza i tlen",
+      "roślina wykorzystuje glukozę"
+    ],
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Do fotosyntezy potrzebne są woda, dwutlenek węgla i światło pochłaniane przez chlorofil. W chloroplastach powstają glukoza i tlen, a glukoza jest używana przez roślinę."
+  },
+  {
+    "id": "R01_ODD_01",
+    "section": "Oddychanie komórkowe",
+    "type": "single_choice",
+    "prompt": "Po co organizmy przeprowadzają oddychanie komórkowe?",
+    "options": [
+      "Aby pozyskać energię ze składników pokarmowych",
+      "Aby wytworzyć chlorofil w liściach",
+      "Aby zbudować szkiełko nakrywkowe",
+      "Aby usunąć światło z komórki",
+      "Aby zamienić jądro komórkowe w wakuolę",
+      "Aby zwiększyć liczbę pierwiastków na Ziemi"
+    ],
+    "answer": 0,
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Oddychanie komórkowe to proces uwalniania energii z pokarmu. Energia jest potrzebna organizmom do wykonywania czynności życiowych."
+  },
+  {
+    "id": "R01_ODD_02",
+    "section": "Oddychanie komórkowe",
+    "type": "multi_select",
+    "prompt": "Zaznacz produkty oddychania tlenowego.",
+    "options": [
+      "dwutlenek węgla",
+      "woda",
+      "energia",
+      "chlorofil",
+      "alkohol etylowy",
+      "światło"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "W oddychaniu tlenowym glukoza i tlen przekształcają się w dwutlenek węgla, wodę i energię."
+  },
+  {
+    "id": "R01_ODD_03",
+    "section": "Oddychanie komórkowe",
+    "type": "true_false",
+    "prompt": "Fermentacja alkoholowa zachodzi z udziałem tlenu.",
+    "options": null,
+    "answer": false,
+    "image": "r01_fermentacja_drozdzy.jpg",
+    "explanation": "Fermentacja jest oddychaniem beztlenowym, czyli przebiega bez udziału tlenu. W jej trakcie uwalnia się mniej energii niż podczas oddychania tlenowego."
+  },
+  {
+    "id": "R01_ODD_04",
+    "section": "Oddychanie komórkowe",
+    "type": "fill_in",
+    "prompt": "W oddychaniu tlenowym glukoza i __________ przekształcają się w dwutlenek węgla, wodę i energię.",
+    "options": null,
+    "answer": [
+      "tlen"
+    ],
+    "altAnswers": [
+      [
+        "tlen"
+      ]
+    ],
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Schemat oddychania tlenowego to: glukoza + tlen -> dwutlenek węgla + woda + energia."
+  },
+  {
+    "id": "R01_ODD_05",
+    "section": "Oddychanie komórkowe",
+    "type": "match",
+    "prompt": "Połącz proces z miejscem zachodzenia w komórce.",
+    "options": null,
+    "left": [
+      "oddychanie tlenowe",
+      "fermentacja alkoholowa"
+    ],
+    "right": [
+      "mitochondria",
+      "cytozol"
+    ],
+    "answer": {
+      "oddychanie tlenowe": "mitochondria",
+      "fermentacja alkoholowa": "cytozol"
+    },
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Oddychanie tlenowe przebiega w mitochondriach, a fermentacja alkoholowa, jako oddychanie beztlenowe, zachodzi w cytozolu komórek."
+  },
+  {
+    "id": "R01_ODD_06",
+    "section": "Oddychanie komórkowe",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do schematu oddychania tlenowego: glukoza, tlen, dwutlenek węgla, chlorofil.",
+    "options": null,
+    "answer": "chlorofil",
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Glukoza, tlen i dwutlenek węgla występują w schemacie oddychania tlenowego. Chlorofil jest barwnikiem potrzebnym do fotosyntezy."
+  },
+  {
+    "id": "R01_ODD_07",
+    "section": "Oddychanie komórkowe",
+    "type": "scenario",
+    "prompt": "Drożdże znalazły się w warunkach, w których brakuje tlenu. Który proces mogą wtedy przeprowadzać?",
+    "options": [
+      "fermentację alkoholową",
+      "fotosyntezę w chloroplastach",
+      "barwienie preparatu",
+      "wzrost ściany komórkowej roślin",
+      "transport tlenu przez hemoglobinę",
+      "działanie rewolweru"
+    ],
+    "answer": 0,
+    "image": "r01_fermentacja_drozdzy.jpg",
+    "explanation": "Drożdże mogą oddychać tlenowo, gdy tlenu jest wystarczająco dużo, albo przeprowadzać fermentację alkoholową, gdy tlenu brakuje."
+  },
+  {
+    "id": "R01_ODD_08",
+    "section": "Oddychanie komórkowe",
+    "type": "sort",
+    "prompt": "Przyporządkuj cechy i produkty do rodzaju oddychania komórkowego.",
+    "options": null,
+    "items": [
+      "z udziałem tlenu",
+      "w mitochondriach",
+      "bez udziału tlenu",
+      "w cytozolu",
+      "alkohol etylowy",
+      "woda"
+    ],
+    "categories": [
+      "oddychanie tlenowe",
+      "fermentacja alkoholowa"
+    ],
+    "answer": {
+      "oddychanie tlenowe": [
+        "z udziałem tlenu",
+        "w mitochondriach",
+        "woda"
+      ],
+      "fermentacja alkoholowa": [
+        "bez udziału tlenu",
+        "w cytozolu",
+        "alkohol etylowy"
+      ]
+    },
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Oddychanie tlenowe odbywa się z udziałem tlenu w mitochondriach i daje między innymi wodę. Fermentacja alkoholowa zachodzi bez tlenu w cytozolu i wytwarza alkohol etylowy."
+  },
+  {
+    "id": "R01_ODD_09",
+    "section": "Oddychanie komórkowe",
+    "type": "riddle",
+    "prompt": "Jak nazywa się oddychanie beztlenowe, którego przykładem jest proces zachodzący u drożdży?",
+    "options": null,
+    "answer": "fermentacja",
+    "altAnswers": [
+      "fermentacja",
+      "fermentacja alkoholowa"
+    ],
+    "image": "r01_fermentacja_drozdzy.jpg",
+    "explanation": "Oddychanie beztlenowe nazywa się fermentacją. U drożdży przykładem jest fermentacja alkoholowa."
+  },
+  {
+    "id": "R01_ODD_10",
+    "section": "Oddychanie komórkowe",
+    "type": "sequence",
+    "prompt": "Ułóż uproszczony przebieg oddychania tlenowego.",
+    "options": null,
+    "items": [
+      "powstają dwutlenek węgla i woda",
+      "glukoza trafia do komórki",
+      "uwalnia się energia",
+      "w procesie uczestniczy tlen"
+    ],
+    "answer": [
+      "glukoza trafia do komórki",
+      "w procesie uczestniczy tlen",
+      "powstają dwutlenek węgla i woda",
+      "uwalnia się energia"
+    ],
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "W oddychaniu tlenowym glukoza rozkłada się przy udziale tlenu na dwutlenek węgla i wodę, a w trakcie tego procesu uwalnia się energia."
+  },
+  {
+    "id": "R01_HARD_01",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz związek chemiczny z bardziej szczegółową funkcją podaną w rozdziale.",
+    "options": null,
+    "left": [
+      "białka kurczliwe",
+      "celuloza",
+      "kwas nukleinowy DNA",
+      "sole mineralne"
+    ],
+    "right": [
+      "odpowiadają za skurcz mięśni",
+      "buduje ściany komórkowe roślin",
+      "zawiera informacje o budowie i funkcjonowaniu komórki",
+      "regulują przebieg procesów życiowych"
+    ],
+    "answer": {
+      "białka kurczliwe": "odpowiadają za skurcz mięśni",
+      "celuloza": "buduje ściany komórkowe roślin",
+      "kwas nukleinowy DNA": "zawiera informacje o budowie i funkcjonowaniu komórki",
+      "sole mineralne": "regulują przebieg procesów życiowych"
+    },
+    "image": "r01_sklad_chemiczny.jpg",
+    "explanation": "W rozdziale podano przykłady funkcji związków chemicznych: białka kurczliwe odpowiadają za skurcz mięśni, celuloza buduje ściany komórkowe roślin, DNA zawiera informację, a sole mineralne regulują procesy życiowe."
+  },
+  {
+    "id": "R01_HARD_02",
+    "section": "Super trudne",
+    "type": "multi_select",
+    "prompt": "Zaznacz czynniki, od których według rozdziału zależy intensywność fotosyntezy.",
+    "options": [
+      "ilość światła",
+      "ilość dwutlenku węgla",
+      "odpowiednia temperatura",
+      "sole mineralne",
+      "ilość alkoholu etylowego",
+      "liczba śrub mikroskopu"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image": "r01_fotosynteza_schemat.jpg",
+    "explanation": "Intensywność fotosyntezy zależy między innymi od ilości dostępnego światła, dwutlenku węgla, soli mineralnych i odpowiedniej temperatury."
+  },
+  {
+    "id": "R01_HARD_03",
+    "section": "Super trudne",
+    "type": "sequence",
+    "prompt": "Ułóż etapy obserwacji mikroskopowej zgodnie z instrukcją z rozdziału.",
+    "options": null,
+    "items": [
+      "wyreguluj ostrość śrubą mikrometryczną",
+      "połóż preparat na stoliku",
+      "oświetl preparat",
+      "ustaw obiektyw o najmniejszym powiększeniu",
+      "ustaw obiektyw jak najniżej i oddalaj go do uzyskania ostrości"
+    ],
+    "answer": [
+      "połóż preparat na stoliku",
+      "ustaw obiektyw o najmniejszym powiększeniu",
+      "oświetl preparat",
+      "ustaw obiektyw jak najniżej i oddalaj go do uzyskania ostrości",
+      "wyreguluj ostrość śrubą mikrometryczną"
+    ],
+    "image": "r01_preparat_mikroskopowy.jpg",
+    "explanation": "Instrukcja nakazuje zacząć od położenia preparatu, ustawienia najmniejszego powiększenia i oświetlenia, a potem stopniowo ustawiać ostrość śrubami."
+  },
+  {
+    "id": "R01_HARD_04",
+    "section": "Super trudne",
+    "type": "sort",
+    "prompt": "Przyporządkuj przykłady do poziomów budowy lub typów komórek.",
+    "options": null,
+    "items": [
+      "komórka mięśniowa",
+      "tkanka przewodząca",
+      "liść",
+      "układ krwionośny",
+      "substancja jądrowa",
+      "chloroplast"
+    ],
+    "categories": [
+      "poziomy budowy",
+      "elementy komórki bakteryjnej",
+      "elementy komórki roślinnej"
+    ],
+    "answer": {
+      "poziomy budowy": [
+        "komórka mięśniowa",
+        "tkanka przewodząca",
+        "liść",
+        "układ krwionośny"
+      ],
+      "elementy komórki bakteryjnej": [
+        "substancja jądrowa"
+      ],
+      "elementy komórki roślinnej": [
+        "chloroplast"
+      ]
+    },
+    "image": "r01_poziomy_budowy.jpg",
+    "explanation": "Komórka mięśniowa, tkanka przewodząca, liść i układ krwionośny są przykładami poziomów budowy. Substancja jądrowa wyróżnia komórkę bakteryjną, a chloroplast jest elementem komórki roślinnej."
+  },
+  {
+    "id": "R01_HARD_05",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Oddychanie tlenowe zachodzi w __________, a fermentacja alkoholowa w __________ komórek.",
+    "options": null,
+    "answer": [
       "mitochondriach",
       "cytozolu"
     ],
-    altAnswers: [
+    "altAnswers": [
       [
         "mitochondriach",
-        "mitochondrium",
         "mitochondria"
       ],
       [
         "cytozolu",
-        "cytozol",
-        "cytozole"
-      ]
-    ],
-    explanation: "Oddychanie tlenowe przebiega w mitochondriach, a fermentacja alkoholowa w cytozolu komórki."
-  },
-  {
-    id: "R01_ODD_05",
-    section: "Jak organizmy oddychają?",
-    type: "match",
-    prompt: "Połącz proces z miejscem lub produktem, który do niego pasuje.",
-    options: null,
-    left: [
-      "oddychanie tlenowe",
-      "fermentacja alkoholowa",
-      "mitochondrium",
-      "alkohol etylowy"
-    ],
-    right: [
-      "daje dużo energii",
-      "zachodzi bez udziału tlenu",
-      "miejsce oddychania tlenowego",
-      "produkt fermentacji"
-    ],
-    answer: {
-      "oddychanie tlenowe": "daje dużo energii",
-      "fermentacja alkoholowa": "zachodzi bez udziału tlenu",
-      mitochondrium: "miejsce oddychania tlenowego",
-      "alkohol etylowy": "produkt fermentacji"
-    },
-    explanation: "Oddychanie tlenowe wymaga tlenu i daje dużo energii. Fermentacja zachodzi bez tlenu, a jej produktem może być alkohol etylowy."
-  },
-  {
-    id: "R01_ODD_06",
-    section: "Jak organizmy oddychają?",
-    type: "scenario",
-    prompt: "Ciasto drożdżowe rośnie. Co powoduje powstawanie pęcherzyków i unoszenie się ciasta?",
-    image: "/img/bbt_r01_fermentacja_drozdzy.jpg",
-    options: [
-      "powstający dwutlenek węgla",
-      "powstająca woda",
-      "chlorofil",
-      "mikroskop"
-    ],
-    answer: 0,
-    explanation: "W czasie fermentacji alkoholowej drożdży wydziela się dwutlenek węgla. To właśnie ten gaz tworzy pęcherzyki w cieście."
-  },
-  {
-    id: "R01_ODD_07",
-    section: "Jak organizmy oddychają?",
-    type: "sort",
-    prompt: "Posortuj wyrazy do odpowiedniego procesu.",
-    image: "/img/bbt_r01_porownanie_oddychania.jpg",
-    options: null,
-    items: [
-      "tlen",
-      "alkohol etylowy",
-      "mitochondria",
-      "cytozol",
-      "woda",
-      "dużo energii"
-    ],
-    categories: [
-      "oddychanie tlenowe",
-      "fermentacja"
-    ],
-    answer: {
-      "oddychanie tlenowe": [
-        "tlen",
-        "mitochondria",
-        "woda",
-        "dużo energii"
-      ],
-      fermentacja: [
-        "alkohol etylowy",
         "cytozol"
       ]
-    },
-    explanation: "Oddychanie tlenowe wymaga tlenu, zachodzi w mitochondriach i daje dużo energii. Fermentacja zachodzi w cytozolu i może prowadzić do powstania alkoholu etylowego."
+    ],
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Oddychanie tlenowe przebiega w mitochondriach, natomiast fermentacja alkoholowa zachodzi w cytozolu komórek."
   },
   {
-    id: "R01_ODD_08",
-    section: "Jak organizmy oddychają?",
-    type: "riddle",
-    prompt: "Jestem gazem potrzebnym w oddychaniu tlenowym, a rośliny oddają mnie podczas fotosyntezy. Kim jestem?",
-    options: null,
-    answer: "tlen",
-    altAnswers: [
-      "tlen",
-      "tlenu",
-      "tlenem"
+    "id": "R01_HARD_06",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "W doświadczeniu z drożdżami gaz z pierwszego naczynia trafia rurką do wody wapiennej, a ona mętnieje. Co pokazuje taki wynik?",
+    "options": [
+      "Podczas fermentacji drożdży wydziela się dwutlenek węgla",
+      "Drożdże wytwarzają chlorofil w chloroplastach",
+      "Woda wapienna zamienia się w glukozę",
+      "Światło jest produktem fermentacji",
+      "W mitochondriach powstaje szkiełko nakrywkowe",
+      "Błona komórkowa znika w wodzie wapiennej"
     ],
-    explanation: "Tlen jest potrzebny do oddychania tlenowego. Rośliny uwalniają go w czasie fotosyntezy."
+    "answer": 0,
+    "image": "r01_fermentacja_drozdzy.jpg",
+    "explanation": "Woda wapienna mętnieje w zetknięciu z dwutlenkiem węgla. Doświadczenie ma wykazać, że podczas fermentacji drożdży wydziela się ten gaz."
   },
   {
-    id: "R01_ODD_09",
-    section: "Jak organizmy oddychają?",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do oddychania tlenowego: tlen, woda, dwutlenek węgla, alkohol etylowy.",
-    options: null,
-    answer: "alkohol etylowy",
-    explanation: "Alkohol etylowy jest związany z fermentacją alkoholową, a nie z oddychaniem tlenowym."
+    "id": "R01_HARD_07",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Drożdże mogą oddychać tlenowo, gdy jest wystarczająco dużo tlenu, a przy braku tlenu przeprowadzać fermentację alkoholową.",
+    "options": null,
+    "answer": true,
+    "image": "r01_fermentacja_drozdzy.jpg",
+    "explanation": "Rozdział podaje, że drożdże przystosowują się do warunków: przy dostępie tlenu oddychają tlenowo, a gdy tlenu brakuje, przeprowadzają fermentację alkoholową."
   },
   {
-    id: "R01_HARD_01",
-    section: "Super trudne",
-    type: "sequence",
-    prompt: "Na ilustracji pokazano poziomy budowy. Ułóż przykłady od najprostszego do najbardziej złożonego.",
-    image: "/img/bbt_r01_roslina_zwierze_poziomy.jpg",
-    options: null,
-    items: [
-      "układ krwionośny",
-      "kot domowy",
-      "serce",
-      "tkanka mięśniowa",
-      "komórka mięśniowa"
-    ],
-    answer: [
-      "komórka mięśniowa",
-      "tkanka mięśniowa",
-      "serce",
-      "układ krwionośny",
-      "kot domowy"
-    ],
-    explanation: "Najpierw jest komórka, potem tkanka, narząd, układ narządów i cały organizm."
+    "id": "R01_HARD_08",
+    "section": "Super trudne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż, co nie pasuje do elementów związanych z oddychaniem komórkowym lub jego miejscem: glukoza, mitochondrium, cytozol, wakuola.",
+    "options": null,
+    "answer": "wakuola",
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Glukoza jest rozkładana w oddychaniu, mitochondrium jest miejscem oddychania tlenowego, a cytozol miejscem fermentacji. Wakuola utrzymuje właściwą ilość wody w komórce roślinnej."
   },
   {
-    id: "R01_HARD_02",
-    section: "Super trudne",
-    type: "match",
-    prompt: "Połącz przykład z właściwym poziomem budowy albo typem obiektu.",
-    options: null,
-    left: [
-      "liść",
-      "system korzeniowy",
-      "dąb",
-      "komórka przewodząca"
+    "id": "R01_HARD_09",
+    "section": "Super trudne",
+    "type": "riddle",
+    "prompt": "W którym organellum komórki roślinnej znajduje się chlorofil i przebiega fotosynteza?",
+    "options": null,
+    "answer": "chloroplast",
+    "altAnswers": [
+      "chloroplast",
+      "chloroplasty",
+      "w chloroplaście",
+      "w chloroplastach"
     ],
-    right: [
-      "narząd",
-      "układ organów",
-      "organizm",
-      "komórka"
-    ],
-    answer: {
-      "liść": "narząd",
-      "system korzeniowy": "układ organów",
-      "dąb": "organizm",
-      "komórka przewodząca": "komórka"
-    },
-    explanation: "U roślin też można wyróżnić komórki, narządy, układy organów i cały organizm."
+    "image": "r01_model_komorki_roslinnej.jpg",
+    "explanation": "Fotosynteza zachodzi w chloroplastach, ponieważ zawierają chlorofil pochłaniający światło."
   },
   {
-    id: "R01_HARD_03",
-    section: "Super trudne",
-    type: "sort",
-    prompt: "Posortuj pojęcia do właściwego procesu.",
-    options: null,
-    items: [
-      "chlorofil",
-      "tlen",
-      "alkohol etylowy",
-      "mitochondria",
-      "dwutlenek węgla",
-      "cytozol"
-    ],
-    categories: [
-      "fotosynteza",
-      "oddychanie komórkowe"
-    ],
-    answer: {
-      fotosynteza: [
-        "chlorofil",
-        "tlen",
-        "dwutlenek węgla"
-      ],
-      "oddychanie komórkowe": [
-        "alkohol etylowy",
-        "mitochondria",
-        "cytozol"
-      ]
-    },
-    explanation: "Chlorofil, tlen i dwutlenek węgla kojarzą się z fotosyntezą. Alkohol etylowy, mitochondria i cytozol wiążą się z oddychaniem komórkowym lub jego odmianami."
-  },
-  {
-    id: "R01_HARD_04",
-    section: "Super trudne",
-    type: "scenario",
-    prompt: "Dwie rośliny stoją przy tym samym oknie. Jedna ma zielone liście, druga została szczelnie przykryta czarnym pudełkiem. U której po kilku godzinach fotosynteza będzie słabsza?",
-    options: [
-      "u tej pod pudełkiem",
-      "u tej stojącej przy oknie",
-      "u obu tak samo",
-      "u żadnej"
-    ],
-    answer: 0,
-    explanation: "Bez światła fotosynteza bardzo słabnie albo ustaje. Dlatego roślina przykryta pudełkiem ma gorsze warunki."
-  },
-  {
-    id: "R01_HARD_05",
-    section: "Super trudne",
-    type: "fill_in",
-    prompt: "Bakteria nie ma __________ komórkowego, lecz ma __________ jądrową.",
-    options: null,
-    answer: [
-      "jądra",
-      "substancję"
-    ],
-    altAnswers: [
-      [
-        "jądra",
-        "jądro",
-        "jadra",
-        "jadro"
-      ],
-      [
-        "substancję",
-        "substancja",
-        "substancję jądrową",
-        "substancja jadrowa",
-        "substancję jadrową"
-      ]
-    ],
-    explanation: "Komórka bakteryjna nie ma jądra komórkowego. Zamiast niego ma substancję jądrową."
-  },
-  {
-    id: "R01_HARD_06",
-    section: "Super trudne",
-    type: "multi_select",
-    prompt: "Które zmiany mogą osłabić fotosyntezę u większości roślin?",
-    options: [
-      "mniej światła",
-      "za mało dwutlenku węgla",
-      "odpowiednia temperatura",
-      "zbyt niska temperatura"
-    ],
-    answer: [
-      0,
-      1,
-      3
-    ],
-    explanation: "Fotosynteza słabnie, gdy jest za mało światła, za mało dwutlenku węgla albo temperatura nie jest odpowiednia. Odpowiednia temperatura pomaga, a nie szkodzi."
-  },
-  {
-    id: "R01_HARD_07",
-    section: "Super trudne",
-    type: "single_choice",
-    prompt: "Na ilustracji widzisz trzy typy komórek. Która z nich może mieć chloroplasty?",
-    image: "/img/bbt_r01_porownanie_komorek.jpg",
-    options: [
-      "roślinna",
-      "zwierzęca",
-      "bakteryjna",
-      "żadna"
-    ],
-    answer: 0,
-    explanation: "Chloroplasty występują w komórkach roślinnych. To one pozwalają na fotosyntezę."
-  },
-  {
-    id: "R01_HARD_08",
-    section: "Super trudne",
-    type: "true_false",
-    prompt: "W fermentacji alkoholowej drożdży powstają alkohol etylowy, dwutlenek węgla i energia.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Drożdże rozkładają glukozę bez udziału tlenu i powstają między innymi alkohol etylowy oraz dwutlenek węgla."
-  },
-  {
-    id: "R01_HARD_09",
-    section: "Super trudne",
-    type: "match",
-    prompt: "Połącz proces z pasującym zdaniem.",
-    options: null,
-    left: [
-      "fotosynteza",
+    "id": "R01_HARD_10",
+    "section": "Super trudne",
+    "type": "single_choice",
+    "prompt": "Który sposób oddychania komórkowego pozwala uzyskać najwięcej energii z glukozy?",
+    "options": [
       "oddychanie tlenowe",
       "fermentacja alkoholowa",
-      "woda"
+      "fermentacja bez produktów",
+      "fotosynteza nocna",
+      "wydalanie",
+      "barwienie preparatu"
     ],
-    right: [
-      "wymaga światła",
-      "daje dużo energii",
-      "zachodzi bez tlenu",
-      "jeden ze składników fotosyntezy"
+    "answer": 0,
+    "image": "r01_oddychanie_schemat.jpg",
+    "explanation": "Najwięcej energii uzyskuje się wtedy, gdy w procesie oddychania uczestniczy tlen. Fermentacja uwalnia mniej energii, bo glukoza zostaje rozłożona częściowo."
+  },
+  {
+    "id": "R01_HARD_11",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz organizm lub grupę z typem odżywiania opisanym w rozdziale.",
+    "options": null,
+    "left": [
+      "rośliny",
+      "niektóre bakterie",
+      "zwierzęta",
+      "grzyby"
     ],
-    answer: {
-      fotosynteza: "wymaga światła",
-      "oddychanie tlenowe": "daje dużo energii",
-      "fermentacja alkoholowa": "zachodzi bez tlenu",
-      woda: "jeden ze składników fotosyntezy"
+    "right": [
+      "samożywne rośliny",
+      "bakterie zdolne do fotosyntezy",
+      "cudzożywne zwierzęta",
+      "cudzożywne grzyby"
+    ],
+    "answer": {
+      "rośliny": "samożywne rośliny",
+      "niektóre bakterie": "bakterie zdolne do fotosyntezy",
+      "zwierzęta": "cudzożywne zwierzęta",
+      "grzyby": "cudzożywne grzyby"
     },
-    explanation: "Każdy proces ma inne warunki i produkty. Woda jest ważnym składnikiem fotosyntezy."
+    "explanation": "Rośliny są organizmami samożywnymi, niektóre bakterie także mogą przeprowadzać fotosyntezę, a zwierzęta i grzyby pobierają substancje pokarmowe z otoczenia."
   },
   {
-    id: "R01_HARD_10",
-    section: "Super trudne",
-    type: "riddle",
-    prompt: "Jestem zielonym barwnikiem, który pomaga pochłaniać światło. Bez mnie fotosynteza nie ruszy. Kim jestem?",
-    options: null,
-    answer: "chlorofil",
-    altAnswers: [
-      "chlorofil",
-      "chlorofilu",
-      "chlorofilem"
+    "id": "R01_HARD_12",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Meduza nie ma płuc ani skrzeli, ale według rozdziału może pobierać tlen z otoczenia. Jak to robi?",
+    "options": [
+      "całą powierzchnią ciała",
+      "przez chloroplasty",
+      "rewolwerem mikroskopu",
+      "przez ścianę komórkową roślin",
+      "za pomocą skrobi",
+      "przez wodę wapienną"
     ],
-    explanation: "Chlorofil to zielony barwnik obecny w chloroplastach. To on pomaga pochłaniać światło."
-  },
-  {
-    id: "R01_HARD_11",
-    section: "Super trudne",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: białka, cukry, tłuszcze, jądro komórkowe.",
-    options: null,
-    answer: "jądro komórkowe",
-    explanation: "Białka, cukry i tłuszcze to związki chemiczne. Jądro komórkowe jest elementem komórki."
-  },
-  {
-    id: "R01_HARD_12",
-    section: "Super trudne",
-    type: "scenario",
-    prompt: "Krwinka czerwona ma inny kształt niż komórka nerwowa. Co najlepiej wyjaśnia tę różnicę?",
-    options: [
-      "komórki zawsze mają identyczny kształt",
-      "kształt komórki zależy od jej funkcji",
-      "komórki zmieniają kształt tylko nocą",
-      "krwinka nie jest komórką"
-    ],
-    answer: 1,
-    explanation: "Kształt komórki jest związany z jej zadaniem. Dlatego różne komórki wyglądają inaczej."
-  },
-  {
-    id: "R01_HARD_13",
-    section: "Super trudne",
-    type: "sequence",
-    prompt: "Ułóż czynności podczas obserwacji mikroskopowej w dobrej kolejności.",
-    image: "/img/bbt_r01_obserwacja_mikroskop.jpg",
-    options: null,
-    items: [
-      "zmień na większe powiększenie, jeśli trzeba",
-      "ustaw najmniejszy obiektyw",
-      "połóż preparat na stoliku",
-      "ustaw ostrość",
-      "włącz światło"
-    ],
-    answer: [
-      "połóż preparat na stoliku",
-      "ustaw najmniejszy obiektyw",
-      "włącz światło",
-      "ustaw ostrość",
-      "zmień na większe powiększenie, jeśli trzeba"
-    ],
-    explanation: "Najpierw trzeba położyć preparat, ustawić małe powiększenie i oświetlenie, potem wyostrzyć obraz, a dopiero później można przejść na większe powiększenie."
-  },
-  {
-    id: "R01_HARD_14",
-    section: "Super trudne",
-    type: "multi_select",
-    prompt: "Wybierz prawdziwe zdania o wodzie w organizmach.",
-    options: [
-      "transportuje różne substancje",
-      "pomaga utrzymać temperaturę",
-      "jest zawsze szkodliwa",
-      "jest ważnym składnikiem płynów organizmu"
-    ],
-    answer: [
-      0,
-      1,
-      3
-    ],
-    explanation: "Woda jest bardzo ważna. Pomaga transportować substancje, utrzymywać temperaturę i stanowi dużą część płynów organizmu."
-  },
-  {
-    id: "R01_HARD_15",
-    section: "Super trudne",
-    type: "sort",
-    prompt: "Posortuj związki chemiczne według ich głównej roli.",
-    options: null,
-    items: [
-      "białka",
-      "cukry",
-      "tłuszcze",
-      "kwasy nukleinowe"
-    ],
-    categories: [
-      "budulec",
-      "energia / zapas",
-      "informacja"
-    ],
-    answer: {
-      budulec: [
-        "białka"
-      ],
-      "energia / zapas": [
-        "cukry",
-        "tłuszcze"
-      ],
-      informacja: [
-        "kwasy nukleinowe"
-      ]
-    },
-    explanation: "Białka są głównie budulcem, cukry i tłuszcze wiążą się z energią, a kwasy nukleinowe przechowują informację."
-  },
-  {
-    id: "R01_HARD_16",
-    section: "Super trudne",
-    type: "fill_in",
-    prompt: "Komórka roślinna ma zwykle __________ komórkową, a komórka bakteryjna nie ma prawdziwego __________ komórkowego.",
-    options: null,
-    answer: [
-      "ścianę",
-      "jądra"
-    ],
-    altAnswers: [
-      [
-        "ścianę",
-        "ściana",
-        "ścianę komórkową",
-        "sciane",
-        "sciana"
-      ],
-      [
-        "jądra",
-        "jądro",
-        "jadra",
-        "jadro"
-      ]
-    ],
-    explanation: "Komórka roślinna ma ścianę komórkową. Komórka bakteryjna nie ma prawdziwego jądra komórkowego."
-  },
-  {
-    id: "R01_HARD_17",
-    section: "Super trudne",
-    type: "fill_in",
-    prompt: "Na schemacie fotosyntezy brak dwóch słów. Uzupełnij: dwutlenek węgla + __________ + światło -> glukoza + __________.",
-    image: "/img/bbt_r01_fotosynteza_schemat.jpg",
-    options: null,
-    answer: [
-      "woda",
-      "tlen"
-    ],
-    altAnswers: [
-      [
-        "woda",
-        "wody"
-      ],
-      [
-        "tlen",
-        "tlenu"
-      ]
-    ],
-    explanation: "Roślina wykorzystuje wodę i dwutlenek węgla, a wytwarza glukozę i tlen."
-  },
-  {
-    id: "R01_HARD_18",
-    section: "Super trudne",
-    type: "match",
-    prompt: "Połącz część mikroskopu z pytaniem, na które odpowiada.",
-    image: "/img/bbt_r01_mikroskop_budowa.jpg",
-    options: null,
-    left: [
-      "okular",
-      "stolik",
-      "rewolwer",
-      "źródło światła"
-    ],
-    right: [
-      "gdzie kładę preparat?",
-      "co oświetla preparat?",
-      "co zmienia obiektywy?",
-      "co pomaga powiększyć obraz?"
-    ],
-    answer: {
-      okular: "co pomaga powiększyć obraz?",
-      stolik: "gdzie kładę preparat?",
-      rewolwer: "co zmienia obiektywy?",
-      "źródło światła": "co oświetla preparat?"
-    },
-    explanation: "Dobra znajomość części mikroskopu pomaga sprawnie wykonywać obserwacje."
-  },
-  {
-    id: "R01_HARD_19",
-    section: "Super trudne",
-    type: "scenario",
-    prompt: "Przygotowano dwa naczynia z drożdżami i ciepłą wodą. Do jednego dodano cukier, do drugiego nie. W którym naczyniu szybciej pojawią się pęcherzyki gazu?",
-    image: "/img/bbt_r01_fermentacja_drozdzy.jpg",
-    options: [
-      "w tym z cukrem",
-      "w tym bez cukru",
-      "w obu tak samo",
-      "w żadnym"
-    ],
-    answer: 0,
-    explanation: "Drożdże potrzebują glukozy jako źródła energii. Gdy dostają cukier, fermentacja zachodzi łatwiej i szybciej pojawiają się pęcherzyki dwutlenku węgla."
-  },
-  {
-    id: "R01_HARD_20",
-    section: "Super trudne",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: chloroplast, mitochondrium, jądro komórkowe, płuca.",
-    image: "/img/bbt_r01_funkcje_organelli.jpg",
-    options: null,
-    answer: "płuca",
-    explanation: "Chloroplast, mitochondrium i jądro komórkowe są elementami komórki. Płuca są narządem organizmu."
+    "answer": 0,
+    "explanation": "Rozdział podaje, że organizmy mogą pobierać tlen różnymi narządami, na przykład płucami lub skrzelami, a meduzy pobierają go całą powierzchnią ciała."
   }
 ];
+
 const KID_PROMPTS = {};
+
 const chapter = {
-  id: "r01",
-  number: 1,
-  title: "Budowa i czynności organizmów",
-  icon: "🧫",
-  sectionOrder: [
-    "Jak są zbudowane organizmy?",
-    "Jaki jest skład chemiczny organizmów?",
-    "Jak zajrzeć do wnętrza komórki?",
-    "Z jakich elementów są zbudowane komórki?",
-    "Co to jest fotosynteza?",
-    "Jak organizmy oddychają?"
+  "id": "r01",
+  "number": 1,
+  "title": "Budowa i czynności organizmów",
+  "icon": "🧬",
+  "sectionOrder": [
+    "Organizm i poziomy budowy",
+    "Skład chemiczny organizmów",
+    "Mikroskop i preparaty",
+    "Budowa komórek",
+    "Fotosynteza",
+    "Oddychanie komórkowe"
   ],
-  sectionIcons: {
-    "Jak są zbudowane organizmy?": "🧩",
-    "Jaki jest skład chemiczny organizmów?": "⚗️",
-    "Jak zajrzeć do wnętrza komórki?": "🔬",
-    "Z jakich elementów są zbudowane komórki?": "🦠",
-    "Co to jest fotosynteza?": "🌿",
-    "Jak organizmy oddychają?": "💨"
+  "sectionIcons": {
+    "Organizm i poziomy budowy": "🌱",
+    "Skład chemiczny organizmów": "⚗️",
+    "Mikroskop i preparaty": "🔬",
+    "Budowa komórek": "🧫",
+    "Fotosynteza": "☀️",
+    "Oddychanie komórkowe": "💨"
   },
-  exercises: ALL_EXERCISES,
-  kidPrompts: KID_PROMPTS,
+  "exercises": ALL_EXERCISES,
+  "kidPrompts": KID_PROMPTS
 };
 
 export default chapter;

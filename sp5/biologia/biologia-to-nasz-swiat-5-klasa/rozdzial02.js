@@ -1,572 +1,821 @@
+// Skróty sekcji (do identyfikatorów ćwiczeń):
+//   KLA  = Klasyfikacja organizmów
+//   KLU  = Klucze do oznaczania
+//   WIR  = Wirusy
+//   BAK  = Bakterie
+//   PRO  = Protisty
+//   GRZ  = Grzyby i porosty
+//   HARD = Super trudne
+
 const ALL_EXERCISES = [
   {
-    "id": "TNS_R02_W_01",
-    "section": "Wirusy",
+    "id": "R02_KLA_01",
+    "section": "Klasyfikacja organizmów",
     "type": "single_choice",
-    "prompt": "Spójrz na rysunek. Jak nazywa się białkowa warstwa otaczająca materiał genetyczny wirusa?",
-    "image": "/img/tns_r02_wirus_budowa.jpg",
+    "prompt": "Czym zajmuje się systematyka?",
     "options": [
-      "otoczka białkowa",
-      "cytozol",
-      "ściana komórkowa",
-      "jądro komórkowe"
+      "Klasyfikowaniem organizmów oraz nadawaniem im nazw",
+      "Tylko leczeniem chorób ludzi",
+      "Wyłącznie obserwacją pogody",
+      "Tylko hodowlą roślin ozdobnych",
+      "Badaniem składu powietrza",
+      "Mierzeniem temperatury gleby"
     ],
     "answer": 0,
-    "explanation": "Wirus nie ma komórki. Jego materiał genetyczny otacza otoczka białkowa, a nie jądro czy ściana komórkowa."
+    "explanation": "Systematyka to dział biologii, który opisuje organizmy, nadaje im nazwy i przydziela je do określonych grup."
   },
   {
-    "id": "TNS_R02_W_02",
-    "section": "Wirusy",
-    "type": "true_false",
-    "prompt": "Wirusy są organizmami, bo potrafią same oddychać i rosnąć.",
-    "options": null,
-    "answer": false,
-    "explanation": "To fałsz. Wirusy nie oddychają, nie rosną i nie mają budowy komórkowej, więc nie uznaje się ich za organizmy."
-  },
-  {
-    "id": "TNS_R02_W_03",
-    "section": "Wirusy",
+    "id": "R02_KLA_02",
+    "section": "Klasyfikacja organizmów",
     "type": "multi_select",
-    "prompt": "Zaznacz to, czego wirusy nie potrafią robić samodzielnie.",
+    "prompt": "Zaznacz cechy wykorzystywane we współczesnej klasyfikacji organizmów.",
     "options": [
-      "oddychać",
-      "rosnąć",
-      "wykonywać fotosyntezę",
-      "rozmnażać się poza komórką gospodarza",
-      "kichać"
+      "Budowa zewnętrzna i wewnętrzna",
+      "Sposób odżywiania",
+      "Środowisko życia",
+      "Pokrewieństwo potwierdzane badaniami DNA",
+      "Przydatność w zabawie",
+      "Kolor okładki atlasu"
     ],
     "answer": [
       0,
       1,
+      2,
       3
     ],
-    "explanation": "Wirusy nie oddychają, nie rosną i nie namnażają się samodzielnie. W podręczniku mowa właśnie o tych podstawowych czynnościach życiowych."
+    "explanation": "Obecna klasyfikacja opiera się na wielu cechach organizmów oraz na ich pokrewieństwie potwierdzanym badaniami DNA."
   },
   {
-    "id": "TNS_R02_W_04",
-    "section": "Wirusy",
+    "id": "R02_KLA_03",
+    "section": "Klasyfikacja organizmów",
+    "type": "true_false",
+    "prompt": "Świat organizmów podzielono w podręczniku na trzy domeny i sześć królestw.",
+    "options": null,
+    "answer": true,
+    "explanation": "W rozdziale podano trzy domeny: archeowce, bakterie i eukarionty, a w nich łącznie sześć królestw.",
+    "image": "r02_domeny_krolestwa.jpg"
+  },
+  {
+    "id": "R02_KLA_04",
+    "section": "Klasyfikacja organizmów",
     "type": "fill_in",
-    "prompt": "Wirus składa się z kwasu __________ i otoczki __________.",
+    "prompt": "Świat organizmów podzielono na trzy __________ i sześć __________.",
     "options": null,
     "answer": [
-      "nukleinowego",
-      "białkowej"
+      "domeny",
+      "królestw"
     ],
     "altAnswers": [
       [
-        "nukleinowego",
-        "nukleinowy",
-        "kwasu nukleinowego"
+        "domeny",
+        "domeny"
       ],
       [
-        "białkowej",
-        "białkowa",
-        "otoczki białkowej"
+        "królestw",
+        "krolestw"
       ]
     ],
-    "explanation": "Najprostszy opis wirusa to: kwas nukleinowy otoczony warstwą białek."
+    "explanation": "Trzy domeny to archeowce, bakterie i eukarionty; w ich obrębie wyróżniono sześć królestw.",
+    "image": "r02_domeny_krolestwa.jpg"
   },
   {
-    "id": "TNS_R02_W_05",
-    "section": "Wirusy",
-    "type": "single_choice",
-    "prompt": "Na ilustracji pokazano trzy kształty wirusów. Który z nich atakuje bakterie?",
-    "image": "/img/tns_r02_wirus_ksztalty.jpg",
-    "options": [
-      "wirus mozaiki tytoniu",
-      "wirus HIV",
-      "bakteriofag",
-      "żaden z nich"
-    ],
-    "answer": 2,
-    "explanation": "Bakteriofag zakaża bakterie. Pozostałe wirusy atakują inne organizmy."
-  },
-  {
-    "id": "TNS_R02_W_06",
-    "section": "Wirusy",
-    "type": "scenario",
-    "prompt": "Olek ma gorączkę, kaszel i katar. Chce mimo tego iść do szkoły, bo nie chce opuścić kartkówki. Co najbardziej pomaga ograniczyć rozprzestrzenianie wirusów?",
-    "options": [
-      "pójście do szkoły, ale w czapce",
-      "zostanie w domu i unikanie kontaktu z innymi",
-      "pożyczenie koledze butelki z wodą",
-      "podanie ręki wszystkim na wejściu"
-    ],
-    "answer": 1,
-    "explanation": "Najlepiej unikać kontaktu z innymi osobami, gdy są objawy choroby. To ogranicza zakażenia."
-  },
-  {
-    "id": "TNS_R02_W_07",
-    "section": "Wirusy",
+    "id": "R02_KLA_05",
+    "section": "Klasyfikacja organizmów",
     "type": "sequence",
-    "prompt": "Ułóż etapy tego sposobu opanowywania komórki przez wirusa w dobrej kolejności.",
-    "image": "/img/tns_r02_wirus_zakazenie.jpg",
+    "prompt": "Ułóż jednostki klasyfikacji od najmniejszej do największej.",
     "options": null,
     "items": [
-      "kwas nukleinowy wirusa wnika do komórki",
-      "wirus przytwierdza się do powierzchni komórki",
-      "powstają liczne kopie wirusa",
-      "nowe wirusy opuszczają komórkę"
+      "rodzina",
+      "gatunek",
+      "klasa",
+      "rodzaj",
+      "królestwo",
+      "rząd",
+      "gromada"
     ],
     "answer": [
-      "wirus przytwierdza się do powierzchni komórki",
-      "kwas nukleinowy wirusa wnika do komórki",
-      "powstają liczne kopie wirusa",
-      "nowe wirusy opuszczają komórkę"
+      "gatunek",
+      "rodzaj",
+      "rodzina",
+      "rząd",
+      "klasa",
+      "gromada",
+      "królestwo"
     ],
-    "explanation": "Najpierw wirus przyczepia się do komórki, potem wprowadza materiał genetyczny, następnie powstają kopie wirusa i na końcu opuszczają one komórkę."
+    "explanation": "Gatunki tworzą rodzaj, rodzaje rodzinę, rodziny rząd, rzędy klasę, klasy gromadę, a gromady królestwo.",
+    "image": "r02_systematyka_borowika.jpg"
   },
   {
-    "id": "TNS_R02_W_08",
-    "section": "Wirusy",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: grypa, COVID-19, odra, angina.",
-    "options": null,
-    "answer": "angina",
-    "explanation": "Angina jest zwykle wywoływana przez bakterie, a pozostałe choroby są wirusowe."
-  },
-  {
-    "id": "TNS_R02_W_09",
-    "section": "Wirusy",
+    "id": "R02_KLA_06",
+    "section": "Klasyfikacja organizmów",
     "type": "match",
-    "prompt": "Połącz sposób zakażenia wirusem z przykładem.",
+    "prompt": "Połącz królestwo z charakterystyczną cechą.",
     "options": null,
     "left": [
-      "droga kropelkowa",
-      "kontakt z krwią lub śliną",
-      "bezpośredni kontakt z chorym"
+      "bakterie właściwe",
+      "protisty",
+      "grzyby",
+      "zwierzęta"
     ],
     "right": [
-      "kichanie obok innych osób",
-      "wspólny kontakt z zakażoną krwią",
-      "dotykanie chorej osoby i przeniesienie wirusa z dłoni do nosa"
+      "jednokomórkowe bez jądra komórkowego",
+      "jedno- lub wielokomórkowe z jądrem komórkowym",
+      "ściana komórkowa z chityną i cudzożywność",
+      "wielokomórkowe bez ściany komórkowej"
     ],
     "answer": {
-      "droga kropelkowa": "kichanie obok innych osób",
-      "kontakt z krwią lub śliną": "wspólny kontakt z zakażoną krwią",
-      "bezpośredni kontakt z chorym": "dotykanie chorej osoby i przeniesienie wirusa z dłoni do nosa"
+      "bakterie właściwe": "jednokomórkowe bez jądra komórkowego",
+      "protisty": "jedno- lub wielokomórkowe z jądrem komórkowym",
+      "grzyby": "ściana komórkowa z chityną i cudzożywność",
+      "zwierzęta": "wielokomórkowe bez ściany komórkowej"
     },
-    "explanation": "Wirusy mogą szerzyć się na kilka sposobów: przez kropelki, przez kontakt z wydzielinami oraz przez bliski kontakt z chorym."
+    "explanation": "Królestwa różnią się między innymi obecnością jądra komórkowego, ściany komórkowej i sposobem odżywiania.",
+    "image": "r02_domeny_krolestwa.jpg"
   },
   {
-    "id": "TNS_R02_W_10",
-    "section": "Wirusy",
-    "type": "sort",
-    "prompt": "Przyporządkuj zachowania do właściwej grupy.",
+    "id": "R02_KLA_07",
+    "section": "Klasyfikacja organizmów",
+    "type": "odd_one_out",
+    "prompt": "Co nie pasuje do domen organizmów: archeowce, bakterie, eukarionty, grzyby.",
     "options": null,
-    "items": [
-      "mycie rąk",
-      "kichanie bez zasłaniania ust",
-      "szczepienie ochronne",
-      "trzymanie dystansu od chorego",
-      "pójście na lekcje mimo gorączki"
-    ],
-    "categories": [
-      "pomaga się chronić",
-      "sprzyja zakażeniu"
-    ],
-    "answer": {
-      "pomaga się chronić": [
-        "mycie rąk",
-        "szczepienie ochronne",
-        "trzymanie dystansu od chorego"
-      ],
-      "sprzyja zakażeniu": [
-        "kichanie bez zasłaniania ust",
-        "pójście na lekcje mimo gorączki"
-      ]
-    },
-    "explanation": "Higiena, dystans i szczepienia zmniejszają ryzyko zakażenia. Z kolei kaszel czy obecność chorej osoby w grupie zwiększają ryzyko."
+    "answer": "grzyby",
+    "explanation": "Grzyby są królestwem należącym do eukariontów, a nie domeną."
   },
   {
-    "id": "TNS_R02_W_11",
-    "section": "Wirusy",
+    "id": "R02_KLA_08",
+    "section": "Klasyfikacja organizmów",
     "type": "riddle",
-    "prompt": "Nie mam budowy komórkowej. Sam nie oddycham ani nie rosnę, ale potrafię namnażać się w cudzej komórce. Kim jestem?",
+    "prompt": "Podstawowa jednostka klasyfikacji organizmów to...",
     "options": null,
-    "answer": "wirus",
+    "answer": "gatunek",
     "altAnswers": [
-      "wirus",
-      "wirusem",
-      "wirusa",
-      "wirusy"
+      "gatunek"
     ],
-    "explanation": "To opis wirusa: działa tylko w zakażonej komórce i nie ma własnej budowy komórkowej."
+    "explanation": "Gatunek obejmuje organizmy o podobnych cechach budowy, zdolne do wydawania płodnego potomstwa."
   },
   {
-    "id": "TNS_R02_W_12",
-    "section": "Wirusy",
+    "id": "R02_KLA_09",
+    "section": "Klasyfikacja organizmów",
     "type": "scenario",
-    "prompt": "Mama mówi: „Nie podchodź blisko do chorego kuzyna, bo może cię zarazić kaszlem”. O jakiej drodze zakażenia mówi?",
+    "prompt": "Uczeń widzi nazwę „borowik szlachetny”. O czym informuje pierwszy wyraz tej nazwy?",
     "options": [
-      "drodze kropelkowej",
-      "drodze pokarmowej",
-      "przez ukąszenie owada",
-      "przez korzenie roślin"
+      "O rodzaju organizmu",
+      "O królestwie organizmu",
+      "O wieku organizmu",
+      "O miejscu znalezienia organizmu",
+      "O wielkości organizmu",
+      "O sposobie oddychania"
     ],
     "answer": 0,
-    "explanation": "Kaszel i kichanie rozsiewają drobne kropelki. To właśnie droga kropelkowa."
+    "explanation": "W dwuwyrazowej nazwie gatunkowej pierwszy wyraz oznacza rodzaj, a drugi doprecyzowuje gatunek.",
+    "image": "r02_systematyka_borowika.jpg"
   },
   {
-    "id": "TNS_R02_B_01",
-    "section": "Bakterie",
+    "id": "R02_KLU_01",
+    "section": "Klucze do oznaczania",
     "type": "single_choice",
-    "prompt": "Spójrz na model komórki bakteryjnej. Jak nazywa się długi element pomagający bakterii się poruszać?",
-    "image": "/img/tns_r02_bakteria_budowa.jpg",
+    "prompt": "Do czego służy klucz do oznaczania gatunków?",
     "options": [
-      "rzęska",
-      "witka",
-      "jądro",
-      "chloroplast"
+      "Do ustalania nazw gatunkowych organizmów na podstawie cech",
+      "Do mierzenia szybkości wzrostu roślin",
+      "Do leczenia chorób roślin i grzybów",
+      "Do przechowywania próbek wody",
+      "Do liczenia komórek krwi",
+      "Do produkcji map pogodowych"
     ],
-    "answer": 1,
-    "explanation": "U wielu bakterii ruch umożliwia witka. Bakterie nie mają jądra ani chloroplastów."
+    "answer": 0,
+    "explanation": "Klucz zawiera uporządkowane cechy, które pozwalają rozpoznać organizm i ustalić jego nazwę gatunkową."
   },
   {
-    "id": "TNS_R02_B_02",
-    "section": "Bakterie",
+    "id": "R02_KLU_02",
+    "section": "Klucze do oznaczania",
+    "type": "true_false",
+    "prompt": "W kluczu dwudzielnym najczęściej wybiera się jedno z dwóch przeciwstawnych stwierdzeń.",
+    "options": null,
+    "answer": true,
+    "explanation": "Najpopularniejsze klucze są dwudzielne, czyli prowadzą użytkownika przez kolejne wybory między dwiema cechami."
+  },
+  {
+    "id": "R02_KLU_03",
+    "section": "Klucze do oznaczania",
+    "type": "sequence",
+    "prompt": "Ułóż działania podczas korzystania z prostego klucza do oznaczania drzewa iglastego.",
+    "options": null,
+    "items": [
+      "ustalenie nazwy gatunkowej",
+      "sprawdzenie czy igły są pojedyncze czy w grupach",
+      "sprawdzenie kształtu liścia",
+      "wybranie pasującej cechy w kolejnym rozgałęzieniu"
+    ],
+    "answer": [
+      "sprawdzenie kształtu liścia",
+      "sprawdzenie czy igły są pojedyncze czy w grupach",
+      "wybranie pasującej cechy w kolejnym rozgałęzieniu",
+      "ustalenie nazwy gatunkowej"
+    ],
+    "explanation": "Klucz prowadzi od cech ogólnych do coraz bardziej szczegółowych, aż do nazwy gatunkowej.",
+    "image": "r02_klucz_iglaste.jpg"
+  },
+  {
+    "id": "R02_KLU_04",
+    "section": "Klucze do oznaczania",
+    "type": "match",
+    "prompt": "Połącz drzewo iglaste z cechą podaną w przykładzie klucza.",
+    "options": null,
+    "left": [
+      "jodła pospolita",
+      "świerk pospolity",
+      "sosna zwyczajna",
+      "modrzew europejski"
+    ],
+    "right": [
+      "igły płaskie z białymi paskami od spodu",
+      "igły pojedyncze kanciaste i kłujące",
+      "igły wyrastają po dwie",
+      "igły zebrane w pęczki"
+    ],
+    "answer": {
+      "jodła pospolita": "igły płaskie z białymi paskami od spodu",
+      "świerk pospolity": "igły pojedyncze kanciaste i kłujące",
+      "sosna zwyczajna": "igły wyrastają po dwie",
+      "modrzew europejski": "igły zebrane w pęczki"
+    },
+    "explanation": "W przykładzie klucza rozpoznawano gatunki po ułożeniu i kształcie igieł.",
+    "image": "r02_klucz_iglaste.jpg"
+  },
+  {
+    "id": "R02_KLU_05",
+    "section": "Klucze do oznaczania",
     "type": "multi_select",
-    "prompt": "Na ilustracji pokazano znaczenie bakterii. Zaznacz przykłady pożytecznej roli bakterii.",
-    "image": "/img/tns_r02_znaczenie_bakterii.jpg",
+    "prompt": "Co warto zrobić po ustaleniu nazwy gatunkowej organizmu?",
     "options": [
-      "produkcja jogurtu i kiszonek",
-      "rozkład szczątków organizmów",
-      "wywoływanie anginy",
-      "pomoc organizmom w przewodzie pokarmowym",
-      "psucie żywności"
+      "Sprawdzić rozpoznanie w innych źródłach",
+      "Zachować ostrożność przy grzybach i roślinach jadalnych",
+      "Bez wahania zjeść nieznany grzyb",
+      "Porównać cechy z atlasem lub kluczem",
+      "Zignorować możliwość pomyłki aplikacji"
     ],
     "answer": [
       0,
       1,
       3
     ],
-    "explanation": "Bakterie mogą pomagać w produkcji żywności, rozkładać szczątki i wspierać organizmy. Choroby i psucie żywności to przykłady ich szkodliwego działania."
+    "explanation": "Podręcznik podkreśla zasadę ograniczonego zaufania: rozpoznanie trzeba potwierdzić, zwłaszcza gdy organizm mógłby być trujący."
   },
   {
-    "id": "TNS_R02_B_03",
-    "section": "Bakterie",
-    "type": "true_false",
-    "prompt": "Bakterie żyją tylko w ciepłej wodzie i w ciałach zwierząt.",
+    "id": "R02_KLU_06",
+    "section": "Klucze do oznaczania",
+    "type": "odd_one_out",
+    "prompt": "Co nie jest narzędziem do ustalania nazwy organizmu: klucz, atlas, aplikacja, termometr.",
     "options": null,
-    "answer": false,
-    "explanation": "To fałsz. Bakterie żyją prawie wszędzie: w wodzie, glebie, powietrzu, na organizmach i nawet w bardzo trudnych warunkach."
+    "answer": "termometr",
+    "explanation": "Klucze, atlasy i aplikacje mogą pomóc w rozpoznawaniu organizmów; termometr służy do pomiaru temperatury."
   },
   {
-    "id": "TNS_R02_B_04",
-    "section": "Bakterie",
+    "id": "R02_KLU_07",
+    "section": "Klucze do oznaczania",
     "type": "fill_in",
-    "prompt": "Bakterie są organizmami __________, a ich komórki nie mają __________ komórkowego.",
+    "prompt": "Najpopularniejsze klucze są __________ i prowadzą przez wybór między dwiema __________ cechami.",
     "options": null,
     "answer": [
-      "jednokomórkowymi",
-      "jądra"
+      "dwudzielne",
+      "przeciwstawnymi"
     ],
     "altAnswers": [
       [
-        "jednokomórkowymi",
-        "jednokomórkowe",
-        "jednokomórkowy",
-        "jednokomórkowa"
+        "dwudzielne",
+        "dwudzielnymi"
       ],
       [
-        "jądra",
-        "jądro",
-        "jądra komórkowego"
+        "przeciwstawnymi",
+        "przeciwstawnymi"
       ]
     ],
-    "explanation": "Bakterie to organizmy jednokomórkowe. Ich komórki nie mają jądra komórkowego."
+    "explanation": "Klucz dwudzielny zestawia po dwie przeciwstawne cechy i za każdym razem wybiera się tę pasującą do organizmu."
   },
   {
-    "id": "TNS_R02_B_05",
+    "id": "R02_KLU_08",
+    "section": "Klucze do oznaczania",
+    "type": "scenario",
+    "prompt": "Aplikacja rozpoznała owoce dzikiej rośliny jako jadalne. Co jest najbezpieczniejszym zachowaniem zgodnym z rozdziałem?",
+    "options": [
+      "Sprawdzić rozpoznanie w innych źródłach i nie jeść bez pewności",
+      "Natychmiast spróbować owoców",
+      "Uznać aplikację za zawsze nieomylną",
+      "Zjeść owoce tylko dlatego że są kolorowe",
+      "Podać owoce młodszemu dziecku do testu",
+      "Zebrać wszystkie owoce bez sprawdzania"
+    ],
+    "answer": 0,
+    "explanation": "Nawet po użyciu aplikacji należy upewnić się w innych źródłach, bo rośliny i grzyby mogą być trujące."
+  },
+  {
+    "id": "R02_KLU_09",
+    "section": "Klucze do oznaczania",
+    "type": "sort",
+    "prompt": "Rozdziel zachowania na bezpieczne i ryzykowne podczas rozpoznawania organizmów.",
+    "options": null,
+    "items": [
+      "sprawdzenie nazwy w atlasie",
+      "korzystanie z klucza",
+      "zjedzenie nieznanego grzyba",
+      "zaufanie jednej aplikacji bez sprawdzenia"
+    ],
+    "categories": [
+      "bezpieczne",
+      "ryzykowne"
+    ],
+    "answer": {
+      "bezpieczne": [
+        "sprawdzenie nazwy w atlasie",
+        "korzystanie z klucza"
+      ],
+      "ryzykowne": [
+        "zjedzenie nieznanego grzyba",
+        "zaufanie jednej aplikacji bez sprawdzenia"
+      ]
+    },
+    "explanation": "Bezpieczne rozpoznawanie wymaga porównywania źródeł i ostrożności, szczególnie wobec organizmów trujących."
+  },
+  {
+    "id": "R02_WIR_01",
+    "section": "Wirusy",
+    "type": "single_choice",
+    "prompt": "Z czego składa się cząstka wirusa według rozdziału?",
+    "options": [
+      "Z kwasu nukleinowego w otoczce białkowej",
+      "Z jądra komórkowego i chloroplastów",
+      "Z cytoplazmy i ściany z chityny",
+      "Z wielu komórek połączonych w tkanki",
+      "Z grzybni i owocnika",
+      "Z wodniczek i rzęsek"
+    ],
+    "answer": 0,
+    "explanation": "Wirusy nie mają budowy komórkowej; są zbudowane z kwasu nukleinowego otoczonego białkami.",
+    "image": "r02_model_wirusa.jpg"
+  },
+  {
+    "id": "R02_WIR_02",
+    "section": "Wirusy",
+    "type": "true_false",
+    "prompt": "Wirusy są organizmami, ponieważ samodzielnie wykonują wszystkie czynności życiowe.",
+    "options": null,
+    "answer": false,
+    "explanation": "Wirusy nie wykonują czynności życiowych i nie mają budowy komórkowej, dlatego w rozdziale nie są uznane za organizmy."
+  },
+  {
+    "id": "R02_WIR_03",
+    "section": "Wirusy",
+    "type": "multi_select",
+    "prompt": "Zaznacz czynności, których wirusy nie wykonują samodzielnie.",
+    "options": [
+      "Oddychanie",
+      "Odżywianie",
+      "Wydalanie",
+      "Wzrost i rozwój",
+      "Tworzenie kopii wewnątrz zaatakowanej komórki"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Wirusy nie oddychają, nie odżywiają się, nie wydalają, nie rosną i nie rozwijają się; mogą jedynie namnażać się w zakażonych komórkach."
+  },
+  {
+    "id": "R02_WIR_04",
+    "section": "Wirusy",
+    "type": "fill_in",
+    "prompt": "Wirusy nie mają budowy __________, a ich jedyną formą aktywności jest __________ w zakażonych komórkach.",
+    "options": null,
+    "answer": [
+      "komórkowej",
+      "namnażanie"
+    ],
+    "altAnswers": [
+      [
+        "komórkowej",
+        "komorkowej"
+      ],
+      [
+        "namnażanie",
+        "namnazanie"
+      ]
+    ],
+    "explanation": "Brak budowy komórkowej i brak czynności życiowych odróżniają wirusy od organizmów.",
+    "image": "r02_model_wirusa.jpg"
+  },
+  {
+    "id": "R02_WIR_05",
+    "section": "Wirusy",
+    "type": "sequence",
+    "prompt": "Ułóż etapy jednego ze sposobów namnażania się wirusa.",
+    "options": null,
+    "items": [
+      "powstają kopie cząstek wirusa",
+      "cząstka wirusa przytwierdza się do komórki",
+      "nowe cząstki opuszczają komórkę",
+      "kwas nukleinowy wirusa wnika do komórki"
+    ],
+    "answer": [
+      "cząstka wirusa przytwierdza się do komórki",
+      "kwas nukleinowy wirusa wnika do komórki",
+      "powstają kopie cząstek wirusa",
+      "nowe cząstki opuszczają komórkę"
+    ],
+    "explanation": "Najpierw wirus przytwierdza się do komórki i wprowadza materiał genetyczny, potem powstają kopie, które opuszczają komórkę.",
+    "image": "r02_cykl_wirusa.jpg"
+  },
+  {
+    "id": "R02_WIR_06",
+    "section": "Wirusy",
+    "type": "match",
+    "prompt": "Połącz element cząstki wirusa z opisem.",
+    "options": null,
+    "left": [
+      "kwas nukleinowy",
+      "otoczka białkowa",
+      "osłonka z wyrostkami"
+    ],
+    "right": [
+      "materiał znajdujący się wewnątrz wirusa",
+      "białkowa warstwa otaczająca materiał wirusa",
+      "dodatkowa warstwa obecna u niektórych wirusów"
+    ],
+    "answer": {
+      "kwas nukleinowy": "materiał znajdujący się wewnątrz wirusa",
+      "otoczka białkowa": "białkowa warstwa otaczająca materiał wirusa",
+      "osłonka z wyrostkami": "dodatkowa warstwa obecna u niektórych wirusów"
+    },
+    "explanation": "Model wirusa HIV w podręczniku pokazuje kwas nukleinowy, otoczkę białkową oraz osłonkę z wyrostkami.",
+    "image": "r02_model_wirusa.jpg"
+  },
+  {
+    "id": "R02_WIR_07",
+    "section": "Wirusy",
+    "type": "odd_one_out",
+    "prompt": "Co nie jest chorobą wirusową: grypa, COVID-19, odra, borelioza.",
+    "options": null,
+    "answer": "borelioza",
+    "explanation": "Borelioza jest wymieniona w rozdziale jako choroba bakteryjna, a pozostałe choroby są wirusowe."
+  },
+  {
+    "id": "R02_WIR_08",
+    "section": "Wirusy",
+    "type": "scenario",
+    "prompt": "Kasia ma kaszel i katar, ale idzie do szkoły. Które zachowanie najlepiej ograniczyłoby rozprzestrzenianie wirusów?",
+    "options": [
+      "Pozostanie w domu do wyzdrowienia",
+      "Podanie ręki wszystkim kolegom",
+      "Kichanie bez zasłaniania ust",
+      "Pożyczenie chusteczki wielorazowej",
+      "Siedzenie blisko innych osób",
+      "Rezygnacja z mycia rąk"
+    ],
+    "answer": 0,
+    "explanation": "Unikanie kontaktu z osobami chorymi i izolacja podczas objawów zmniejszają ryzyko zakażenia.",
+    "image": "r02_zapobieganie_wirusom.jpg"
+  },
+  {
+    "id": "R02_WIR_09",
+    "section": "Wirusy",
+    "type": "sort",
+    "prompt": "Rozdziel przykłady na drogi zakażenia wirusami i sposoby ochrony.",
+    "options": null,
+    "items": [
+      "kaszel chorej osoby",
+      "kontakt z krwią chorego",
+      "częste mycie rąk",
+      "szczepienia ochronne",
+      "izolacja osoby z objawami"
+    ],
+    "categories": [
+      "drogi zakażenia",
+      "sposoby ochrony"
+    ],
+    "answer": {
+      "drogi zakażenia": [
+        "kaszel chorej osoby",
+        "kontakt z krwią chorego"
+      ],
+      "sposoby ochrony": [
+        "częste mycie rąk",
+        "szczepienia ochronne",
+        "izolacja osoby z objawami"
+      ]
+    },
+    "explanation": "Wirusy mogą szerzyć się drogą kropelkową i przez kontakt z krwią lub śliną, a ochronę dają higiena, szczepienia i unikanie kontaktu z chorymi.",
+    "image": "r02_zapobieganie_wirusom.jpg"
+  },
+  {
+    "id": "R02_BAK_01",
     "section": "Bakterie",
     "type": "single_choice",
-    "prompt": "Spójrz na rysunek kształtów bakterii. Która nazwa pasuje do długiej, spiralnie skręconej komórki?",
-    "image": "/img/tns_r02_bakterie_ksztalty.jpg",
+    "prompt": "Gdzie według rozdziału występują bakterie?",
     "options": [
+      "Niemal w każdym środowisku na Ziemi",
+      "Wyłącznie w gorących źródłach",
+      "Tylko w organizmach ludzi",
+      "Wyłącznie na pustyniach",
+      "Tylko w wodach słonych",
+      "Wyłącznie w kosmosie"
+    ],
+    "answer": 0,
+    "explanation": "Bakterie występują w wodzie, glebie, powietrzu, na powierzchni organizmów i w ich wnętrzu."
+  },
+  {
+    "id": "R02_BAK_02",
+    "section": "Bakterie",
+    "type": "true_false",
+    "prompt": "Bakterie są organizmami jednokomórkowymi.",
+    "options": null,
+    "answer": true,
+    "explanation": "Rozdział opisuje bakterie jako organizmy jednokomórkowe, zwykle mikroskopijne."
+  },
+  {
+    "id": "R02_BAK_03",
+    "section": "Bakterie",
+    "type": "multi_select",
+    "prompt": "Zaznacz elementy pokazane w modelu komórki bakteryjnej.",
+    "options": [
+      "cytozol",
+      "błona komórkowa",
+      "ściana komórkowa",
+      "otoczka śluzowa",
+      "substancja jądrowa",
+      "chloroplasty"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Model komórki bakteryjnej obejmuje cytozol, błonę, ścianę, otoczkę śluzową i substancję jądrową; bakterie nie mają chloroplastów w tym schemacie.",
+    "image": "r02_komorka_bakteryjna.jpg"
+  },
+  {
+    "id": "R02_BAK_04",
+    "section": "Bakterie",
+    "type": "fill_in",
+    "prompt": "Głównym sposobem rozmnażania bakterii jest __________ komórki, a w dobrych warunkach ich liczba może podwoić się nawet co __________ minut.",
+    "options": null,
+    "answer": [
+      "podział",
+      "20"
+    ],
+    "altAnswers": [
+      [
+        "podział",
+        "podzial"
+      ],
+      [
+        "20",
+        "dwadzieścia",
+        "dwadzieścia minut",
+        "20 minut"
+      ]
+    ],
+    "explanation": "Dojrzała komórka bakteryjna zwiększa rozmiary i dzieli się na dwie identyczne komórki."
+  },
+  {
+    "id": "R02_BAK_05",
+    "section": "Bakterie",
+    "type": "match",
+    "prompt": "Połącz kształt komórki bakterii z opisem.",
+    "options": null,
+    "left": [
       "ziarenkowiec",
       "pałeczka",
       "krętek",
-      "drożdżak"
-    ],
-    "answer": 2,
-    "explanation": "Krętek ma wydłużony, skręcony kształt. Ziarenkowiec jest kulisty, a pałeczka podłużna i walcowata."
-  },
-  {
-    "id": "TNS_R02_B_06",
-    "section": "Bakterie",
-    "type": "scenario",
-    "prompt": "Ktoś zjadł niedogotowane jajko i potem bardzo rozbolał go brzuch. Jaką drogą mogło dojść do zakażenia bakteriami?",
-    "options": [
-      "pokarmową",
-      "kropelkową",
-      "przez skórę",
-      "przez światło słoneczne"
-    ],
-    "answer": 0,
-    "explanation": "Bakterie mogą dostać się do organizmu wraz z zakażonym jedzeniem lub wodą. To droga pokarmowa."
-  },
-  {
-    "id": "TNS_R02_B_07",
-    "section": "Bakterie",
-    "type": "match",
-    "prompt": "Połącz drogę rozprzestrzeniania bakterii z najlepszym przykładem ochrony.",
-    "options": null,
-    "left": [
-      "droga kropelkowa",
-      "droga pokarmowa",
-      "przez krew",
-      "kontakt płciowy"
+      "dwoinka"
     ],
     "right": [
-      "częste mycie rąk i dobre przygotowanie posiłków",
-      "szczepienia i odzież chroniąca przed kleszczami",
-      "wietrzenie pomieszczeń i izolowanie chorych",
-      "stosowanie zabezpieczeń"
+      "komórka kulista",
+      "podłużna walcowata komórka",
+      "długa spiralnie skręcona komórka",
+      "dwie połączone komórki"
     ],
     "answer": {
-      "droga kropelkowa": "wietrzenie pomieszczeń i izolowanie chorych",
-      "droga pokarmowa": "częste mycie rąk i dobre przygotowanie posiłków",
-      "przez krew": "szczepienia i odzież chroniąca przed kleszczami",
-      "kontakt płciowy": "stosowanie zabezpieczeń"
+      "ziarenkowiec": "komórka kulista",
+      "pałeczka": "podłużna walcowata komórka",
+      "krętek": "długa spiralnie skręcona komórka",
+      "dwoinka": "dwie połączone komórki"
     },
-    "explanation": "Różne drogi zakażenia wymagają różnych sposobów ochrony.",
-    "image": "/img/tns_r02_bakterie_drogi_zakazen.jpg"
+    "explanation": "W rozdziale pokazano różne kształty bakterii: ziarenkowce, pałeczki, krętki oraz komórki połączone w pary."
   },
   {
-    "id": "TNS_R02_B_08",
-    "section": "Bakterie",
-    "type": "sort",
-    "prompt": "Posortuj przykłady działania bakterii.",
-    "options": null,
-    "items": [
-      "produkcja kefiru",
-      "rozkład szczątków organizmów",
-      "zapalenie płuc",
-      "wspieranie pracy przewodu pokarmowego",
-      "psucie żywności"
-    ],
-    "categories": [
-      "pożyteczne",
-      "szkodliwe"
-    ],
-    "answer": {
-      "pożyteczne": [
-        "produkcja kefiru",
-        "rozkład szczątków organizmów",
-        "wspieranie pracy przewodu pokarmowego"
-      ],
-      "szkodliwe": [
-        "zapalenie płuc",
-        "psucie żywności"
-      ]
-    },
-    "explanation": "Niektóre bakterie są dla nas bardzo pożyteczne, ale inne wywołują choroby lub psują jedzenie."
-  },
-  {
-    "id": "TNS_R02_B_09",
+    "id": "R02_BAK_06",
     "section": "Bakterie",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: gruźlica, borelioza, salmonelloza, odra.",
+    "prompt": "Co nie jest chorobą bakteryjną: gruźlica, salmonelloza, angina, ospa wietrzna.",
     "options": null,
-    "answer": "odra",
-    "explanation": "Odra jest chorobą wirusową. Pozostałe choroby wywołują bakterie."
+    "answer": "ospa wietrzna",
+    "explanation": "Ospa wietrzna jest chorobą wirusową, a gruźlica, salmonelloza i angina są w rozdziale przykładami chorób bakteryjnych."
   },
   {
-    "id": "TNS_R02_B_10",
-    "section": "Bakterie",
-    "type": "true_false",
-    "prompt": "Niektóre bakterie potrafią wytwarzać tlen w czasie fotosyntezy.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. W podręczniku podano, że samożywne bakterie, na przykład sinice, produkują tlen."
-  },
-  {
-    "id": "TNS_R02_B_11",
-    "section": "Bakterie",
-    "type": "sequence",
-    "prompt": "Ułóż prosty opis rozmnażania się bakterii przez podział komórki.",
-    "options": null,
-    "items": [
-      "powstają dwie identyczne komórki",
-      "komórka bakteryjna rośnie",
-      "zawartość komórki rozdziela się na dwie części"
-    ],
-    "answer": [
-      "komórka bakteryjna rośnie",
-      "zawartość komórki rozdziela się na dwie części",
-      "powstają dwie identyczne komórki"
-    ],
-    "explanation": "Najpierw komórka rośnie, potem się dzieli, a na końcu powstają dwie komórki potomne."
-  },
-  {
-    "id": "TNS_R02_B_12",
-    "section": "Bakterie",
-    "type": "riddle",
-    "prompt": "Jestem bakterią o długim, spiralnym kształcie. Jak mnie nazywają?",
-    "options": null,
-    "answer": "krętek",
-    "altAnswers": [
-      "krętek",
-      "krętki",
-      "krętkiem"
-    ],
-    "explanation": "Spiralnie skręcona bakteria to krętek."
-  },
-  {
-    "id": "TNS_R02_B_13",
+    "id": "R02_BAK_07",
     "section": "Bakterie",
     "type": "scenario",
-    "prompt": "Po spacerze w lesie tata mówi, żeby obejrzeć skórę i uważać na kleszcze, bo mogą przenosić bakterie. O jaką chorobę chodziło w podręczniku?",
+    "prompt": "Jacek zjadł posiłek z mięsem drobiowym, a potem zachorował na salmonellozę. Jaką drogą rozprzestrzeniły się bakterie?",
     "options": [
-      "malarię",
-      "boreliozę",
-      "świnkę",
-      "grypę"
+      "Drogą pokarmową",
+      "Drogą kropelkową",
+      "Przez ukłucie komara",
+      "Przez światło słoneczne",
+      "Przez dotknięcie porostu",
+      "Przez rozmowę telefoniczną"
     ],
-    "answer": 1,
-    "explanation": "Borelioza może szerzyć się po ukąszeniu przez kleszcza będącego nosicielem bakterii."
+    "answer": 0,
+    "explanation": "Salmonelloza w opisanej sytuacji wiąże się ze spożyciem pokarmu zawierającego bakterie.",
+    "image": "r02_drogi_bakterii.jpg"
   },
   {
-    "id": "TNS_R02_P_01",
+    "id": "R02_BAK_08",
+    "section": "Bakterie",
+    "type": "sort",
+    "prompt": "Rozdziel znaczenie bakterii na pozytywne i negatywne.",
+    "options": null,
+    "items": [
+      "produkcja jogurtów",
+      "rozkład szczątków organizmów",
+      "wywoływanie anginy",
+      "psucie się żywności",
+      "oczyszczanie ścieków"
+    ],
+    "categories": [
+      "pozytywne",
+      "negatywne"
+    ],
+    "answer": {
+      "pozytywne": [
+        "produkcja jogurtów",
+        "rozkład szczątków organizmów",
+        "oczyszczanie ścieków"
+      ],
+      "negatywne": [
+        "wywoływanie anginy",
+        "psucie się żywności"
+      ]
+    },
+    "explanation": "Bakterie pomagają w obiegu materii i produkcji żywności, ale niektóre wywołują choroby oraz psują pokarm."
+  },
+  {
+    "id": "R02_BAK_09",
+    "section": "Bakterie",
+    "type": "multi_select",
+    "prompt": "Zaznacz sposoby zapobiegania chorobom bakteryjnym opisane w rozdziale.",
+    "options": [
+      "higiena i właściwe przygotowanie pokarmów",
+      "szczepienia ochronne",
+      "odzież ochronna w terenie i środki odstraszające kleszcze",
+      "używanie jednorazowych strzykawek",
+      "celowe jedzenie surowych jaj",
+      "unikanie leczenia chorych"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Zapobieganie obejmuje higienę, szczepienia, zabezpieczenia przed kontaktem z krwią oraz ochronę przed kleszczami.",
+    "image": "r02_drogi_bakterii.jpg"
+  },
+  {
+    "id": "R02_PRO_01",
     "section": "Protisty",
     "type": "single_choice",
-    "prompt": "Jaka wspólna cecha łączy wszystkie protisty?",
+    "prompt": "Jaka cecha jest wspólna dla protistów według rozdziału?",
     "options": [
-      "mają korzenie",
-      "mają jądro w komórce",
-      "wszystkie mają kapelusze",
-      "wszystkie są zwierzętami"
+      "Obecność jądra w komórkach",
+      "Brak jądra komórkowego",
+      "Ściana komórkowa zawsze z chityny",
+      "Wyłącznie wielokomórkowa budowa",
+      "Życie tylko na pustyniach",
+      "Brak możliwości oddychania"
     ],
-    "answer": 1,
-    "explanation": "Protisty są bardzo różne, ale wspólną cechą ich komórek jest obecność jądra komórkowego."
+    "answer": 0,
+    "explanation": "Protisty są bardzo różnorodne, ale ich wspólną cechą jest obecność jądra komórkowego."
   },
   {
-    "id": "TNS_R02_P_02",
+    "id": "R02_PRO_02",
     "section": "Protisty",
     "type": "true_false",
-    "prompt": "Wszystkie protisty są jednokomórkowe.",
+    "prompt": "Protisty tworzą bardzo zróżnicowaną grupę, której przedstawicieli często więcej dzieli niż łączy.",
     "options": null,
-    "answer": false,
-    "explanation": "To fałsz. Są wśród nich zarówno organizmy jednokomórkowe, jak i wielokomórkowe."
+    "answer": true,
+    "explanation": "W rozdziale podkreślono, że protisty nie są blisko spokrewnione i mogą przypominać rośliny, zwierzęta albo grzyby."
   },
   {
-    "id": "TNS_R02_P_03",
+    "id": "R02_PRO_03",
     "section": "Protisty",
     "type": "multi_select",
-    "prompt": "Na podstawie ilustracji wybierz miejsca, w których często spotyka się protisty.",
-    "image": "/img/tns_r02_protisty_srodowiska.jpg",
+    "prompt": "Gdzie najczęściej żyją protisty?",
     "options": [
-      "woda",
-      "wilgotne miejsca",
-      "wnętrze organizmów",
-      "rozgrzane żelazko",
-      "księżyc"
+      "w środowisku wodnym",
+      "w środowisku wilgotnym",
+      "wewnątrz innych organizmów",
+      "wyłącznie w suchym piasku pustyni",
+      "wyłącznie na gorących skałach wulkanicznych"
     ],
     "answer": [
       0,
       1,
       2
     ],
-    "explanation": "Protisty żyją przede wszystkim w wodzie, wilgotnych miejscach i wewnątrz innych organizmów."
+    "explanation": "Protisty występują przede wszystkim w wodzie, wilgotnych miejscach oraz jako pasożyty w innych organizmach."
   },
   {
-    "id": "TNS_R02_P_04",
-    "section": "Protisty",
-    "type": "single_choice",
-    "prompt": "Spójrz na rysunki trzech protistów. Który z nich ma chloroplasty i porusza się za pomocą wici?",
-    "image": "/img/tns_r02_euglena_pantofelek_morszczyn.jpg",
-    "options": [
-      "pantofelek",
-      "morszczyn pęcherzykowaty",
-      "euglena zielona",
-      "żaden"
-    ],
-    "answer": 2,
-    "explanation": "Euglena zielona ma chloroplasty i porusza się za pomocą wici."
-  },
-  {
-    "id": "TNS_R02_P_05",
+    "id": "R02_PRO_04",
     "section": "Protisty",
     "type": "fill_in",
-    "prompt": "Euglena zielona może odżywiać się __________ i __________.",
+    "prompt": "Euglena zielona ma __________, dzięki którym może być samożywna, oraz __________ służącą do ruchu.",
     "options": null,
     "answer": [
-      "samożywnie",
-      "cudzożywnie"
+      "chloroplasty",
+      "wić"
     ],
     "altAnswers": [
       [
-        "samożywnie",
-        "samożywny",
-        "samożywna",
-        "samożywne"
+        "chloroplasty",
+        "chloroplasty"
       ],
       [
-        "cudzożywnie",
-        "cudzożywny",
-        "cudzożywna",
-        "cudzożywne"
+        "wić",
+        "wic"
       ]
     ],
-    "explanation": "Euglena jest wyjątkowa, bo może zdobywać pokarm na dwa sposoby: samożywnie i cudzożywnie."
+    "explanation": "Euglena łączy cechy roślin i zwierząt: ma chloroplasty, a porusza się za pomocą wici.",
+    "image": "r02_euglena_pantofelek.jpg"
   },
   {
-    "id": "TNS_R02_P_06",
+    "id": "R02_PRO_05",
     "section": "Protisty",
     "type": "match",
-    "prompt": "Połącz protista z pasującą cechą.",
+    "prompt": "Połącz protista z cechą.",
     "options": null,
     "left": [
       "euglena zielona",
       "pantofelek",
-      "morszczyn pęcherzykowaty"
+      "morszczyn pęcherzykowaty",
+      "ameba"
     ],
     "right": [
-      "żyje w morzu i tworzy podwodne zarośla",
-      "porusza się dzięki rzęskom",
-      "ma chloroplasty i wić"
+      "ma chloroplasty i wić",
+      "porusza się rzęskami",
+      "wielokomórkowy protist morski",
+      "porusza się wypustkami komórki"
     ],
     "answer": {
       "euglena zielona": "ma chloroplasty i wić",
-      "pantofelek": "porusza się dzięki rzęskom",
-      "morszczyn pęcherzykowaty": "żyje w morzu i tworzy podwodne zarośla"
+      "pantofelek": "porusza się rzęskami",
+      "morszczyn pęcherzykowaty": "wielokomórkowy protist morski",
+      "ameba": "porusza się wypustkami komórki"
     },
-    "explanation": "Każdy z tych protistów wygląda i żyje inaczej, dlatego łatwo je odróżnić po ważnej cesze."
+    "explanation": "Rozdział opisuje kilka protistów: euglenę, pantofelka, morszczyn, amebę i okrzemki.",
+    "image": "r02_euglena_pantofelek.jpg"
   },
   {
-    "id": "TNS_R02_P_07",
-    "section": "Protisty",
-    "type": "scenario",
-    "prompt": "W kropli wody z kałuży uczeń widzi zielony organizm z wicią. Co najpewniej obserwuje?",
-    "options": [
-      "euglenę zieloną",
-      "borowika",
-      "wirus HIV",
-      "bakterię w kształcie pałeczki"
-    ],
-    "answer": 0,
-    "explanation": "Zielony organizm z chloroplastami i wicią to euglena zielona."
-  },
-  {
-    "id": "TNS_R02_P_08",
+    "id": "R02_PRO_06",
     "section": "Protisty",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: ameba, pantofelek, morszczyn pęcherzykowaty, borowik szlachetny.",
+    "prompt": "Co nie należy do protistów: ameba, pantofelek, euglena zielona, drożdże.",
     "options": null,
-    "answer": "borowik szlachetny",
-    "explanation": "Borowik to grzyb, a pozostałe przykłady należą do protistów."
+    "answer": "drożdże",
+    "explanation": "Drożdże są grzybami jednokomórkowymi, a pozostałe przykłady należą do protistów."
   },
   {
-    "id": "TNS_R02_P_09",
+    "id": "R02_PRO_07",
+    "section": "Protisty",
+    "type": "scenario",
+    "prompt": "Podróżny jedzie do gorącego kraju, gdzie występuje malaria. Które działanie pomaga ograniczyć ryzyko zakażenia opisane w rozdziale?",
+    "options": [
+      "Stosowanie środków odstraszających komary",
+      "Jedzenie surowego mięsa",
+      "Dotykanie odchodów chorego kota",
+      "Picie wody z kałuży",
+      "Unikanie mycia rąk",
+      "Przebywanie bez ochrony przy komarach"
+    ],
+    "answer": 0,
+    "explanation": "Malaria jest przenoszona przez samicę komara widliszka, dlatego ważna jest ochrona przed ukąszeniami.",
+    "image": "r02_malaria_toksoplazmoza.jpg"
+  },
+  {
+    "id": "R02_PRO_08",
     "section": "Protisty",
     "type": "sort",
-    "prompt": "Posortuj organizmy do odpowiedniej grupy.",
+    "prompt": "Rozdziel protisty według budowy ciała.",
     "options": null,
     "items": [
       "euglena zielona",
       "pantofelek",
-      "morszczyn pęcherzykowaty",
-      "ameba"
+      "ameba",
+      "okrzemka",
+      "morszczyn pęcherzykowaty"
     ],
     "categories": [
       "jednokomórkowe",
@@ -576,650 +825,176 @@ const ALL_EXERCISES = [
       "jednokomórkowe": [
         "euglena zielona",
         "pantofelek",
-        "ameba"
+        "ameba",
+        "okrzemka"
       ],
       "wielokomórkowe": [
         "morszczyn pęcherzykowaty"
       ]
     },
-    "explanation": "Większość przykładów z tej listy to protisty jednokomórkowe. Morszczyn jest wielokomórkowy."
+    "explanation": "Wśród protistów są organizmy jednokomórkowe i wielokomórkowe; morszczyn jest przykładem protista wielokomórkowego."
   },
   {
-    "id": "TNS_R02_P_10",
-    "section": "Protisty",
-    "type": "single_choice",
-    "prompt": "Spójrz na ilustrację chorób protistycznych. Jak człowiek może zarazić się malarią?",
-    "image": "/img/tns_r02_protisty_choroby.jpg",
-    "options": [
-      "po zjedzeniu kiszonego ogórka",
-      "przez ukłucie samicy komara widliszka",
-      "przez kichanie",
-      "przez spacer po lesie bez czapki"
-    ],
-    "answer": 1,
-    "explanation": "Malarię przenosi samica komara widliszka, która wprowadza pasożyta do krwi."
-  },
-  {
-    "id": "TNS_R02_P_11",
-    "section": "Protisty",
-    "type": "scenario",
-    "prompt": "Ciocia jest w ciąży i ma posprzątać kocią kuwetę. Jaka choroba opisana w podręczniku jest wtedy szczególnie niebezpieczna?",
-    "options": [
-      "angina",
-      "borelioza",
-      "toksoplazmoza",
-      "odra"
-    ],
-    "answer": 2,
-    "explanation": "Toksoplazmoza jest groźna zwłaszcza dla kobiet w ciąży."
-  },
-  {
-    "id": "TNS_R02_P_12",
+    "id": "R02_PRO_09",
     "section": "Protisty",
     "type": "sequence",
-    "prompt": "Ułóż kolejne czynności przy przygotowaniu prostego preparatu do obserwacji protistów.",
-    "image": "/img/tns_r02_hodowla_protistow.jpg",
+    "prompt": "Ułóż etapy przygotowania obserwacji mikroskopowej protistów z hodowli.",
     "options": null,
     "items": [
       "położyć preparat na stoliku mikroskopu",
-      "umieścić kroplę wody na szkiełku podstawowym",
-      "nakryć kroplę szkiełkiem nakrywkowym",
-      "wyregulować ostrość obrazu"
+      "pobrać kroplę wody ze słoika",
+      "wykonać rysunek zaobserwowanego protista",
+      "położyć szkiełko nakrywkowe na kropli",
+      "ustawić ostrość obrazu"
     ],
     "answer": [
-      "umieścić kroplę wody na szkiełku podstawowym",
-      "nakryć kroplę szkiełkiem nakrywkowym",
+      "pobrać kroplę wody ze słoika",
+      "położyć szkiełko nakrywkowe na kropli",
       "położyć preparat na stoliku mikroskopu",
-      "wyregulować ostrość obrazu"
+      "ustawić ostrość obrazu",
+      "wykonać rysunek zaobserwowanego protista"
     ],
-    "explanation": "Najpierw przygotowuje się kroplę na szkiełku, potem się ją przykrywa, ustawia preparat w mikroskopie i dopiero wtedy reguluje ostrość."
+    "explanation": "Instrukcja doświadczenia prowadzi od pobrania kropli z hodowli, przez przygotowanie preparatu, do obserwacji i rysunku."
   },
   {
-    "id": "TNS_R02_G_01",
-    "section": "Grzyby",
+    "id": "R02_GRZ_01",
+    "section": "Grzyby i porosty",
     "type": "single_choice",
-    "prompt": "Które zdanie o grzybach jest prawdziwe?",
+    "prompt": "Która cecha pasuje do komórek grzybów?",
     "options": [
-      "wszystkie grzyby mają kapelusz",
-      "każdy grzyb jest zielony",
-      "wśród grzybów są także organizmy jednokomórkowe",
-      "grzyby mają chloroplasty"
+      "Mają ścianę komórkową z chityny i nie mają chloroplastów",
+      "Nie mają jądra komórkowego",
+      "Zawsze mają ścianę z celulozy i chloroplasty",
+      "Są zbudowane wyłącznie z jednej komórki",
+      "Nie oddychają i nie pobierają pokarmu",
+      "Zawsze żyją tylko w wodzie"
     ],
-    "answer": 2,
-    "explanation": "Do grzybów należą też organizmy jednokomórkowe, na przykład drożdże."
+    "answer": 0,
+    "explanation": "Komórki grzybów mają ścianę z chityny, mogą mieć jedno lub więcej jąder i nie zawierają chloroplastów."
   },
   {
-    "id": "TNS_R02_G_02",
-    "section": "Grzyby",
+    "id": "R02_GRZ_02",
+    "section": "Grzyby i porosty",
     "type": "true_false",
-    "prompt": "Grzyby mają chloroplasty, dlatego same produkują pokarm jak rośliny.",
+    "prompt": "Wszystkie grzyby mają kapelusze i są wielokomórkowe.",
     "options": null,
     "answer": false,
-    "explanation": "To fałsz. W komórkach grzybów nie ma chloroplastów, więc są one cudzożywne."
+    "explanation": "Nie wszystkie grzyby mają kapelusze; istnieją również grzyby jednokomórkowe, na przykład drożdże."
   },
   {
-    "id": "TNS_R02_G_03",
-    "section": "Grzyby",
+    "id": "R02_GRZ_03",
+    "section": "Grzyby i porosty",
     "type": "multi_select",
-    "prompt": "Na ilustracji pokazano znaczenie grzybów. Zaznacz przykłady pożytecznej roli grzybów.",
-    "image": "/img/tns_r02_znaczenie_grzybow.jpg",
+    "prompt": "Zaznacz miejsca, w których według rozdziału można spotkać grzyby.",
     "options": [
-      "produkcja pieczywa i serów",
-      "rozkład szczątków organizmów",
-      "wywoływanie grzybic i zatruć",
-      "pomoc roślinom żyjącym z nimi w symbiozie",
-      "niszczenie ścian budynków"
+      "w ściółce leśnej",
+      "na drewnie i pniach drzew",
+      "na skałach",
+      "na wilgotnych ścianach budynków",
+      "wewnątrz innych organizmów",
+      "wyłącznie w wodzie morskiej"
     ],
     "answer": [
       0,
       1,
-      3
+      2,
+      3,
+      4
     ],
-    "explanation": "Grzyby mogą pomagać w produkcji żywności, rozkładzie martwej materii i wspierać rośliny. Grzybice i niszczenie budynków to działania szkodliwe."
+    "explanation": "Grzyby żyją głównie na lądzie, często w miejscach wilgotnych i zacienionych, także na lub w innych organizmach."
   },
   {
-    "id": "TNS_R02_G_04",
-    "section": "Grzyby",
-    "type": "single_choice",
-    "prompt": "Spójrz na model komórki grzybowej. Z czego zbudowana jest ściana komórkowa grzyba?",
-    "image": "/img/tns_r02_grzyb_komorka.jpg",
-    "options": [
-      "z celulozy",
-      "z chityny",
-      "z wapnia",
-      "z chlorofilu"
-    ],
-    "answer": 1,
-    "explanation": "Ściana komórkowa grzybów zawiera chitynę."
-  },
-  {
-    "id": "TNS_R02_G_05",
-    "section": "Grzyby",
+    "id": "R02_GRZ_04",
+    "section": "Grzyby i porosty",
     "type": "fill_in",
-    "prompt": "Ciało grzyba wielokomórkowego jest zbudowane ze __________, a ich luźna sieć tworzy __________.",
+    "prompt": "Ciało grzyba wielokomórkowego tworzą nitkowate __________. Luźno ułożone tworzą __________, a ciasno splecione mogą tworzyć __________.",
     "options": null,
     "answer": [
-      "strzępek",
-      "grzybnię"
+      "strzępki",
+      "grzybnię",
+      "owocnik"
     ],
     "altAnswers": [
       [
-        "strzępek",
         "strzępki",
-        "strzępków",
-        "strzępkami"
+        "strzepki"
       ],
       [
         "grzybnię",
-        "grzybnia",
-        "grzybni"
+        "grzybnie"
+      ],
+      [
+        "owocnik",
+        "owocnik"
       ]
     ],
-    "explanation": "Ciało grzyba tworzą cienkie strzępki. Gdy tworzą luźną sieć, powstaje grzybnia."
+    "explanation": "Strzępki tworzą grzybnię w podłożu, a u niektórych grzybów ciasno splecione strzępki budują owocnik.",
+    "image": "r02_budowa_grzyba.jpg"
   },
   {
-    "id": "TNS_R02_G_06",
-    "section": "Grzyby",
+    "id": "R02_GRZ_05",
+    "section": "Grzyby i porosty",
     "type": "match",
-    "prompt": "Połącz przykład z właściwą grupą.",
+    "prompt": "Połącz pojęcie z opisem.",
     "options": null,
     "left": [
-      "drożdże",
-      "borowik szlachetny",
-      "grzyby pleśniowe"
-    ],
-    "right": [
-      "grzyb jednokomórkowy",
-      "duży grzyb z owocnikiem",
-      "często powodują psucie żywności"
-    ],
-    "answer": {
-      "drożdże": "grzyb jednokomórkowy",
-      "borowik szlachetny": "duży grzyb z owocnikiem",
-      "grzyby pleśniowe": "często powodują psucie żywności"
-    },
-    "explanation": "Drożdże są jednokomórkowe, borowik ma owocnik, a pleśnie często pojawiają się na psującym się jedzeniu."
-  },
-  {
-    "id": "TNS_R02_G_07",
-    "section": "Grzyby",
-    "type": "scenario",
-    "prompt": "Na wilgotnej ścianie w piwnicy pojawił się ciemny nalot. Co najbardziej pasuje do tej sytuacji?",
-    "options": [
-      "to zwykłe nasiona roślin",
-      "to mogą być grzyby pleśniowe",
-      "to znak, że ściana produkuje tlen",
-      "to bakterie z chloroplastami"
-    ],
-    "answer": 1,
-    "explanation": "Wilgotne ściany mogą zostać zasiedlone przez grzyby pleśniowe."
-  },
-  {
-    "id": "TNS_R02_G_08",
-    "section": "Grzyby",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: drożdże, borowik, grzyb pleśniowy, bakteria.",
-    "options": null,
-    "answer": "bakteria",
-    "explanation": "Drożdże, borowik i grzyb pleśniowy należą do królestwa grzybów. Bakteria nie."
-  },
-  {
-    "id": "TNS_R02_G_09",
-    "section": "Grzyby",
-    "type": "sort",
-    "prompt": "Posortuj nazwy grzybów do odpowiednich grup.",
-    "options": null,
-    "items": [
-      "smardz jadalny",
-      "piestrzenica kasztanowata",
-      "gwiazdosz brodawkowy",
-      "tęgoskór cytrynowy"
-    ],
-    "categories": [
-      "jadalne",
-      "trujące lub niejadalne",
-      "chronione"
-    ],
-    "answer": {
-      "jadalne": [
-        "smardz jadalny"
-      ],
-      "trujące lub niejadalne": [
-        "piestrzenica kasztanowata",
-        "tęgoskór cytrynowy"
-      ],
-      "chronione": [
-        "gwiazdosz brodawkowy"
-      ]
-    },
-    "explanation": "Na ilustracji pokazano, że grzyby różnią się nie tylko wyglądem, ale też tym, czy są jadalne, szkodliwe lub chronione."
-  },
-  {
-    "id": "TNS_R02_G_10",
-    "section": "Grzyby",
-    "type": "single_choice",
-    "prompt": "Spójrz na rysunek porostu. Czym jest porost?",
-    "image": "/img/tns_r02_porost_budowa.jpg",
-    "options": [
-      "samym grzybem",
-      "symbiozą grzyba i organizmu samożywnego",
-      "odmianą bakterii",
-      "młodym owocnikiem"
-    ],
-    "answer": 1,
-    "explanation": "Porost to wspólne życie dwóch organizmów: grzyba i organizmu samożywnego, na przykład glonu lub sinicy."
-  },
-  {
-    "id": "TNS_R02_G_11",
-    "section": "Grzyby",
-    "type": "scenario",
-    "prompt": "Na pniach drzew w centrum miasta prawie nie widać porostów. Co może to oznaczać?",
-    "options": [
-      "powietrze jest mocno zanieczyszczone",
-      "drzewa są za młode",
-      "jest za dużo deszczu",
-      "w lesie nie ma grzybów"
-    ],
-    "answer": 0,
-    "explanation": "Brak porostów na drzewach może wskazywać na duże zanieczyszczenie powietrza."
-  },
-  {
-    "id": "TNS_R02_G_12",
-    "section": "Grzyby",
-    "type": "single_choice",
-    "prompt": "Spójrz na budowę grzyba wielokomórkowego. Jak nazywa się część znajdująca się zwykle nad ziemią?",
-    "image": "/img/tns_r02_grzyb_budowa.jpg",
-    "options": [
+      "strzępki",
       "grzybnia",
       "owocnik",
-      "wodniczka",
-      "otoczka śluzowa"
-    ],
-    "answer": 1,
-    "explanation": "Widoczna część wielu grzybów to owocnik. Grzybnia zwykle znajduje się w podłożu."
-  },
-  {
-    "id": "TNS_R02_G_13",
-    "section": "Grzyby",
-    "type": "true_false",
-    "prompt": "Drożdże potrafią oddychać beztlenowo i przeprowadzać fermentację alkoholową.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Właśnie dlatego drożdże wykorzystuje się między innymi przy produkcji pieczywa i napojów."
-  },
-  {
-    "id": "TNS_R02_S_01",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Spójrz na rysunek wirusa i wybierz wszystkie zdania, które dobrze go opisują.",
-    "image": "/img/tns_r02_wirus_budowa.jpg",
-    "options": [
-      "ma materiał genetyczny",
-      "ma jądro komórkowe",
-      "może mieć osłonkę z wyrostkami",
-      "jest zbudowany z wielu komórek",
-      "nie ma budowy komórkowej"
-    ],
-    "answer": [
-      0,
-      2,
-      4
-    ],
-    "explanation": "Wirus zawiera materiał genetyczny, może mieć osłonkę z wyrostkami i nie ma budowy komórkowej. Nie ma jądra i nie jest wielokomórkowy."
-  },
-  {
-    "id": "TNS_R02_S_02",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "U jednego chorego wirus po wniknięciu do komórki od razu zaczął tworzyć liczne kopie. U drugiego przez długi czas pozostawał utajony. Co było wspólne dla obu sytuacji?",
-    "options": [
-      "wirus rozmnażał się poza komórką",
-      "w obu przypadkach wirus znalazł się w komórce gospodarza",
-      "w obu przypadkach wirus miał chloroplasty",
-      "w obu przypadkach wirus zamienił się w bakterię"
-    ],
-    "answer": 1,
-    "explanation": "Niezależnie od tego, czy wirus od razu się namnaża, czy pozostaje utajony, działa dopiero po dostaniu się do komórki gospodarza."
-  },
-  {
-    "id": "TNS_R02_S_03",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Posortuj cechy do właściwej grupy.",
-    "options": null,
-    "items": [
-      "nie ma budowy komórkowej",
-      "ma ścianę komórkową",
-      "może rozmnażać się przez podział komórki",
-      "namnaża się tylko w zakażonej komórce",
-      "jest organizmem jednokomórkowym"
-    ],
-    "categories": [
-      "wirus",
-      "bakteria"
-    ],
-    "answer": {
-      "wirus": [
-        "nie ma budowy komórkowej",
-        "namnaża się tylko w zakażonej komórce"
-      ],
-      "bakteria": [
-        "ma ścianę komórkową",
-        "może rozmnażać się przez podział komórki",
-        "jest organizmem jednokomórkowym"
-      ]
-    },
-    "explanation": "Wirusy i bakterie są bardzo różne. Bakteria jest komórką, a wirus nią nie jest."
-  },
-  {
-    "id": "TNS_R02_S_04",
-    "section": "Super trudne",
-    "type": "sequence",
-    "prompt": "Na ilustracji pokazano pewien sposób zakażania komórki przez wirusa. Ułóż etapy od najwcześniejszego do najpóźniejszego.",
-    "image": "/img/tns_r02_wirus_zakazenie.jpg",
-    "options": null,
-    "items": [
-      "nowe cząstki wirusa zakażają kolejne komórki",
-      "wirus przyczepia się do komórki",
-      "materiał genetyczny wirusa dostaje się do wnętrza",
-      "komórka zaczyna produkować elementy wirusa"
-    ],
-    "answer": [
-      "wirus przyczepia się do komórki",
-      "materiał genetyczny wirusa dostaje się do wnętrza",
-      "komórka zaczyna produkować elementy wirusa",
-      "nowe cząstki wirusa zakażają kolejne komórki"
-    ],
-    "explanation": "To pełniejszy opis etapów pokazanych na schemacie: przyczepienie, wniknięcie materiału genetycznego, powielanie i dalsze zakażanie."
-  },
-  {
-    "id": "TNS_R02_S_05",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Na podstawie schematu dróg zakażenia bakteriami wybierz sytuacje, w których ryzyko zakażenia jest dobrze dopasowane do opisanej drogi.",
-    "image": "/img/tns_r02_bakterie_drogi_zakazen.jpg",
-    "options": [
-      "ktoś zjada źle przechowywane mięso - droga pokarmowa",
-      "kleszcz przenosi bakterie do krwi - zakażenie przez krew",
-      "kaszel chorego - kontakt płciowy",
-      "bliski kontakt seksualny - kontakt płciowy",
-      "wypicie czystej wody - droga pokarmowa"
-    ],
-    "answer": [
-      0,
-      1,
-      3
-    ],
-    "explanation": "Źle przechowywana żywność to droga pokarmowa, kleszcz może doprowadzić do zakażenia przez krew, a kontakty seksualne to osobna droga rozprzestrzeniania bakterii."
-  },
-  {
-    "id": "TNS_R02_S_06",
-    "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz rodzaj bakterii lub jej rolę z pasującym opisem.",
-    "options": null,
-    "left": [
-      "ziarenkowiec",
-      "krętek",
-      "sinice",
-      "bakterie gnilne"
+      "chityna"
     ],
     "right": [
-      "bakterie rozkładające szczątki organizmów",
-      "bakterie samożywne wytwarzające tlen",
-      "kulista komórka",
-      "spiralnie skręcona komórka"
+      "nitkowate elementy ciała grzyba",
+      "luźno ułożona sieć strzępek",
+      "ściśle spleciona część nadziemna wielu grzybów",
+      "substancja w ścianie komórkowej grzybów"
     ],
     "answer": {
-      "ziarenkowiec": "kulista komórka",
-      "krętek": "spiralnie skręcona komórka",
-      "sinice": "bakterie samożywne wytwarzające tlen",
-      "bakterie gnilne": "bakterie rozkładające szczątki organizmów"
+      "strzępki": "nitkowate elementy ciała grzyba",
+      "grzybnia": "luźno ułożona sieć strzępek",
+      "owocnik": "ściśle spleciona część nadziemna wielu grzybów",
+      "chityna": "substancja w ścianie komórkowej grzybów"
     },
-    "explanation": "To pytanie łączy budowę bakterii z ich rolą w przyrodzie."
+    "explanation": "Budowa grzybów wielokomórkowych opiera się na strzępkach tworzących grzybnię i czasem owocnik.",
+    "image": "r02_budowa_grzyba.jpg"
   },
   {
-    "id": "TNS_R02_S_07",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "Dwie bakterie trafiły do różnych miejsc. Jedna do jelita człowieka, gdzie pomaga mu funkcjonować. Druga do gardła, gdzie wywołuje chorobę. Jak najlepiej opisać tę różnicę?",
-    "options": [
-      "obie bakterie są zawsze szkodliwe",
-      "pierwsza może żyć w symbiozie, a druga pasożytuje",
-      "pierwsza jest wirusem, a druga bakterią",
-      "pierwsza nie oddycha, a druga nie ma komórki"
-    ],
-    "answer": 1,
-    "explanation": "Niektóre bakterie żyją z innymi organizmami w symbiozie, a inne pasożytują i wywołują choroby."
-  },
-  {
-    "id": "TNS_R02_S_08",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji o znaczeniu bakterii wskaż przykład, który pokazuje jednocześnie korzyść dla człowieka i dla środowiska.",
-    "image": "/img/tns_r02_znaczenie_bakterii.jpg",
-    "options": [
-      "produkcja jogurtu",
-      "rozkład szczątków organizmów i odchodów",
-      "angina",
-      "psucie się żywności"
-    ],
-    "answer": 1,
-    "explanation": "Rozkład szczątków wzbogaca środowisko, a pośrednio pomaga też człowiekowi, bo bez tego obieg materii byłby zaburzony."
-  },
-  {
-    "id": "TNS_R02_S_09",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji pokazano bardzo różne protisty. Które stwierdzenie najlepiej wyjaśnia, dlaczego wszystkie nadal zalicza się do jednego królestwa?",
-    "options": [
-      "bo wszystkie są zwierzętami",
-      "bo wszystkie mają jądro w komórce",
-      "bo wszystkie są zielone",
-      "bo wszystkie mają kapelusze"
-    ],
-    "answer": 1,
-    "explanation": "Protisty bardzo się różnią, ale ich wspólną cechą jest obecność jądra komórkowego."
-  },
-  {
-    "id": "TNS_R02_S_10",
-    "section": "Super trudne",
+    "id": "R02_GRZ_06",
+    "section": "Grzyby i porosty",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: euglena zielona, pantofelek, morszczyn pęcherzykowaty, bakteriofag.",
+    "prompt": "Co nie należy do grzybów: drożdże, borowik, opieńka, pantofelek.",
     "options": null,
-    "answer": "bakteriofag",
-    "explanation": "Bakteriofag to wirus. Pozostałe przykłady należą do protistów."
+    "answer": "pantofelek",
+    "explanation": "Pantofelek jest protistem, a drożdże, borowik i opieńka należą do grzybów."
   },
   {
-    "id": "TNS_R02_S_11",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "Protisty pasożytnicze mogą wywoływać choroby, na przykład __________ i __________.",
-    "options": null,
-    "answer": [
-      "malarię",
-      "toksoplazmozę"
-    ],
-    "altAnswers": [
-      [
-        "malarię",
-        "malaria",
-        "malarią"
-      ],
-      [
-        "toksoplazmozę",
-        "toksoplazmoza",
-        "toksoplazmozę"
-      ]
-    ],
-    "explanation": "W podręczniku jako przykłady chorób wywoływanych przez protisty pasożytnicze podano malarię i toksoplazmozę."
-  },
-  {
-    "id": "TNS_R02_S_12",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Spójrz na ilustrację chorób protistycznych. Zaznacz działania, które pasują do ochrony przed tymi chorobami.",
-    "image": "/img/tns_r02_protisty_choroby.jpg",
-    "options": [
-      "stosowanie moskitiery",
-      "mycie rąk po kontakcie z kuwetą kota",
-      "jedzenie surowego mięsa",
-      "noszenie ubrań chroniących przed ukąszeniami",
-      "celowe zbliżanie się do chorych zwierząt"
-    ],
-    "answer": [
-      0,
-      1,
-      3
-    ],
-    "explanation": "Moskitiera i odzież ochronna pomagają ograniczać ryzyko malarii, a higiena po kontakcie z kotem zmniejsza ryzyko toksoplazmozy."
-  },
-  {
-    "id": "TNS_R02_S_13",
-    "section": "Super trudne",
+    "id": "R02_GRZ_07",
+    "section": "Grzyby i porosty",
     "type": "scenario",
-    "prompt": "W probówce znaleziono organizm z chloroplastami, ale potrafiący też pobierać pokarm z otoczenia. Do którego przykładu z rozdziału jest najbardziej podobny?",
+    "prompt": "Drożdże w cieście wykorzystują oddychanie beztlenowe opisane w rozdziale. Jak nazywa się ten proces?",
     "options": [
-      "do eugleny zielonej",
-      "do pantofelka",
-      "do drożdży",
-      "do bakteriofaga"
+      "fermentacja alkoholowa",
+      "fotosynteza",
+      "podział komórki bakterii",
+      "zakażenie wirusowe",
+      "tworzenie porostu",
+      "kiełkowanie nasion"
     ],
     "answer": 0,
-    "explanation": "Taką mieszaną strategię odżywiania opisano u eugleny zielonej."
+    "explanation": "Niektóre grzyby, na przykład drożdże, mogą oddychać beztlenowo i przeprowadzać fermentację alkoholową."
   },
   {
-    "id": "TNS_R02_S_14",
-    "section": "Super trudne",
+    "id": "R02_GRZ_08",
+    "section": "Grzyby i porosty",
     "type": "sort",
-    "prompt": "Posortuj przykłady do odpowiedniej grupy odżywiania.",
+    "prompt": "Rozdziel znaczenie grzybów na pozytywne i negatywne.",
     "options": null,
     "items": [
-      "euglena zielona",
-      "morszczyn pęcherzykowaty",
-      "pantofelek",
-      "toksoplazma"
-    ],
-    "categories": [
-      "zawsze samożywne",
-      "zawsze cudzożywne",
-      "może odżywiać się na dwa sposoby"
-    ],
-    "answer": {
-      "zawsze samożywne": [
-        "morszczyn pęcherzykowaty"
-      ],
-      "zawsze cudzożywne": [
-        "pantofelek",
-        "toksoplazma"
-      ],
-      "może odżywiać się na dwa sposoby": [
-        "euglena zielona"
-      ]
-    },
-    "explanation": "Morszczyn jest samożywny, pantofelek i pasożytnicza toksoplazma są cudzożywne, a euglena może łączyć oba sposoby."
-  },
-  {
-    "id": "TNS_R02_S_15",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Zaznacz wszystkie cechy pasujące do grzybów.",
-    "options": [
-      "ściana komórkowa z chityny",
-      "brak chloroplastów",
-      "zawsze wielokomórkowe",
-      "mogą być pasożytami",
-      "wszystkie żyją tylko w lesie"
-    ],
-    "answer": [
-      0,
-      1,
-      3
-    ],
-    "explanation": "Grzyby mają ścianę komórkową z chityny, nie mają chloroplastów i część z nich pasożytuje. Nie wszystkie są wielokomórkowe i nie żyją wyłącznie w lesie."
-  },
-  {
-    "id": "TNS_R02_S_16",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Spójrz na schemat porostu. Co otrzymuje grzyb od organizmu samożywnego żyjącego z nim w symbiozie?",
-    "image": "/img/tns_r02_porost_budowa.jpg",
-    "options": [
-      "gotowe substancje pokarmowe powstałe w fotosyntezie",
-      "jądro komórkowe",
-      "witki do poruszania się",
-      "ścianę komórkową z celulozy"
-    ],
-    "answer": 0,
-    "explanation": "Organizm samożywny w poroście wytwarza pokarm w fotosyntezie, a grzyb z niego korzysta."
-  },
-  {
-    "id": "TNS_R02_S_17",
-    "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz przykład z rodzajem zależności lub sposobem życia grzyba.",
-    "options": null,
-    "left": [
-      "grzybnia przy korzeniach roślin",
-      "buławinka czerwona na zbożach",
-      "grzyb pleśniowy na chlebie",
-      "porost"
-    ],
-    "right": [
-      "symbioza z rośliną",
-      "pasożyt",
-      "cudzożywne pobieranie pokarmu z podłoża",
-      "symbioza grzyba z organizmem samożywnym"
-    ],
-    "answer": {
-      "grzybnia przy korzeniach roślin": "symbioza z rośliną",
-      "buławinka czerwona na zbożach": "pasożyt",
-      "grzyb pleśniowy na chlebie": "cudzożywne pobieranie pokarmu z podłoża",
-      "porost": "symbioza grzyba z organizmem samożywnym"
-    },
-    "explanation": "To pytanie łączy kilka ważnych sposobów życia grzybów: pasożytnictwo, saprotrofię i dwa rodzaje symbiozy."
-  },
-  {
-    "id": "TNS_R02_S_18",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "Uczeń znalazł organizm, który jest jednokomórkowy, nie ma chloroplastów i ścianę komórkową z chityny. Do którego królestwa najlepiej go zaliczyć?",
-    "options": [
-      "wirusów",
-      "bakterii",
-      "protistów",
-      "grzybów"
-    ],
-    "answer": 3,
-    "explanation": "Taki opis pasuje do grzyba jednokomórkowego, na przykład drożdży."
-  },
-  {
-    "id": "TNS_R02_S_19",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji różnorodności grzybów wskaż zdanie, które najlepiej podsumowuje pokazane przykłady.",
-    "image": "/img/tns_r02_grzyby_roznorodnosc.jpg",
-    "options": [
-      "wszystkie grzyby są jadalne",
-      "grzyby mogą być jadalne, niejadalne, trujące albo chronione",
-      "grzyby zawsze rosną tylko na trawie",
-      "wszystkie grzyby są pasożytami"
-    ],
-    "answer": 1,
-    "explanation": "Schemat pokazuje, że świat grzybów jest bardzo różnorodny i nie wolno oceniać wszystkich tak samo."
-  },
-  {
-    "id": "TNS_R02_S_20",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Posortuj przykłady znaczenia grzybów.",
-    "options": null,
-    "items": [
-      "produkcja antybiotyków",
-      "ciężkie zatrucia po zjedzeniu niektórych gatunków",
-      "powstawanie gleby dzięki porostom",
-      "grzybice",
-      "pomoc roślinom w pobieraniu wody"
+      "rozkład szczątków organizmów",
+      "produkcja pieczywa",
+      "wywoływanie grzybic",
+      "psucie żywności przez pleśnie",
+      "porosty jako organizmy pionierskie"
     ],
     "categories": [
       "pozytywne",
@@ -1227,16 +1002,305 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "pozytywne": [
-        "produkcja antybiotyków",
-        "powstawanie gleby dzięki porostom",
-        "pomoc roślinom w pobieraniu wody"
+        "rozkład szczątków organizmów",
+        "produkcja pieczywa",
+        "porosty jako organizmy pionierskie"
       ],
       "negatywne": [
-        "ciężkie zatrucia po zjedzeniu niektórych gatunków",
-        "grzybice"
+        "wywoływanie grzybic",
+        "psucie żywności przez pleśnie"
       ]
     },
-    "explanation": "Grzyby potrafią jednocześnie pomagać ludziom i środowisku, ale część z nich stanowi też realne zagrożenie."
+    "explanation": "Grzyby są ważnymi reducentami i pomagają człowiekowi, ale mogą też wywoływać choroby i niszczyć żywność."
+  },
+  {
+    "id": "R02_GRZ_09",
+    "section": "Grzyby i porosty",
+    "type": "single_choice",
+    "prompt": "Czym są porosty?",
+    "options": [
+      "Symbiozą grzyba i organizmu samożywnego",
+      "Rodzajem wirusa z osłonką",
+      "Bakteriami bez ściany komórkowej",
+      "Zwierzętami bez tkanek",
+      "Wyłącznie owocnikami borowika",
+      "Chorobą bakteryjną roślin"
+    ],
+    "answer": 0,
+    "explanation": "Porost jest przykładem symbiozy grzyba i organizmu samożywnego, którego komórki zawierają chlorofil.",
+    "image": "r02_porost_przekroj.jpg"
+  },
+  {
+    "id": "R02_HARD_01",
+    "section": "Super trudne",
+    "type": "multi_select",
+    "prompt": "Które królestwa należą w rozdziale do domeny eukariontów?",
+    "options": [
+      "protisty",
+      "grzyby",
+      "rośliny",
+      "zwierzęta",
+      "archeobakterie",
+      "bakterie właściwe"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Eukarionty obejmują protisty, grzyby, rośliny i zwierzęta; archeobakterie i bakterie właściwe należą do innych domen.",
+    "image": "r02_domeny_krolestwa.jpg"
+  },
+  {
+    "id": "R02_HARD_02",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz domenę z królestwem lub królestwami opisanymi w rozdziale.",
+    "options": null,
+    "left": [
+      "archeowce",
+      "bakterie",
+      "eukarionty"
+    ],
+    "right": [
+      "archeobakterie",
+      "bakterie właściwe",
+      "protisty grzyby rośliny i zwierzęta"
+    ],
+    "answer": {
+      "archeowce": "archeobakterie",
+      "bakterie": "bakterie właściwe",
+      "eukarionty": "protisty grzyby rośliny i zwierzęta"
+    },
+    "explanation": "Domeny porządkują królestwa: archeowce obejmują archeobakterie, bakterie obejmują bakterie właściwe, a eukarionty obejmują cztery królestwa."
+  },
+  {
+    "id": "R02_HARD_03",
+    "section": "Super trudne",
+    "type": "sequence",
+    "prompt": "Ułóż jednostki klasyfikacji grzyba od gatunku do królestwa.",
+    "options": null,
+    "items": [
+      "klasa",
+      "rodzaj",
+      "gatunek",
+      "królestwo",
+      "rodzina",
+      "gromada",
+      "rząd"
+    ],
+    "answer": [
+      "gatunek",
+      "rodzaj",
+      "rodzina",
+      "rząd",
+      "klasa",
+      "gromada",
+      "królestwo"
+    ],
+    "explanation": "Kolejność jednostek od najmniejszej do największej jest taka sama niezależnie od przykładowego organizmu.",
+    "image": "r02_systematyka_borowika.jpg"
+  },
+  {
+    "id": "R02_HARD_04",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Archeobakterie są jednokomórkowe, nie mają jądra komórkowego i mogą żyć w ekstremalnych warunkach.",
+    "options": null,
+    "answer": true,
+    "explanation": "W tabeli królestw podano, że archeobakterie nie mają jądra komórkowego, mają ścianę komórkową i żyją m.in. w gorących źródłach."
+  },
+  {
+    "id": "R02_HARD_05",
+    "section": "Super trudne",
+    "type": "single_choice",
+    "prompt": "Która para cech najlepiej odróżnia grzyby od roślin w rozdziale?",
+    "options": [
+      "Brak chloroplastów i cudzożywność",
+      "Obecność chloroplastów i samożywność",
+      "Brak jądra komórkowego i brak ściany",
+      "Wyłącznie życie w wodzie i ruch rzęskami",
+      "Budowa z kwasu nukleinowego i białek",
+      "Zawsze jednokomórkowa budowa"
+    ],
+    "answer": 0,
+    "explanation": "Grzyby nie mają chloroplastów i są cudzożywne, a rośliny są głównie samożywne i mają komórki ze ścianą zawierającą celulozę."
+  },
+  {
+    "id": "R02_HARD_06",
+    "section": "Super trudne",
+    "type": "riddle",
+    "prompt": "Wielokomórkowy protist żyjący w wodach słonych, także w Morzu Bałtyckim, to...",
+    "options": null,
+    "answer": "morszczyn pęcherzykowaty",
+    "altAnswers": [
+      "morszczyn pęcherzykowaty",
+      "morszczyn pecherzykowaty",
+      "morszczyn"
+    ],
+    "explanation": "Morszczyn pęcherzykowaty jest opisany jako wielokomórkowy protist osiągający do 100 cm długości i żyjący w wodach słonych."
+  },
+  {
+    "id": "R02_HARD_07",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Malaria może przenosić się przez __________ po ukłuciu samicy komara widliszka, a toksoplazmozą można zarazić się między innymi przez kontakt z odchodami chorego __________.",
+    "options": null,
+    "answer": [
+      "krew",
+      "kota"
+    ],
+    "altAnswers": [
+      [
+        "krew",
+        "krew"
+      ],
+      [
+        "kota",
+        "kotem",
+        "chorego kota"
+      ]
+    ],
+    "explanation": "Zarodźca malarii przenosi samica komara widliszka, a toksoplazmoza może szerzyć się przez kontakt z odchodami chorego kota.",
+    "image": "r02_malaria_toksoplazmoza.jpg"
+  },
+  {
+    "id": "R02_HARD_08",
+    "section": "Super trudne",
+    "type": "odd_one_out",
+    "prompt": "Co nie jest przykładem związanym z grzybami pasożytniczymi lub pleśniowymi: gronkowiec szary, buławinka czerwona, czerniak klonowy, sinice.",
+    "options": null,
+    "answer": "sinice",
+    "explanation": "Sinice są samożywnymi bakteriami, a pozostałe przykłady w rozdziale dotyczą grzybów wywołujących choroby lub pleśnie."
+  },
+  {
+    "id": "R02_HARD_09",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Po spacerze w terenie ktoś zauważył kleszcza. Jakie działanie najlepiej pasuje do profilaktyki chorób bakteryjnych opisanej w rozdziale?",
+    "options": [
+      "Noszenie odzieży ochronnej i stosowanie środków odstraszających kleszcze",
+      "Celowe chodzenie po wysokiej trawie bez ochrony",
+      "Rezygnacja z oglądania skóry po spacerze",
+      "Jedzenie surowych jaj po powrocie",
+      "Unikanie szczepień i badań kontrolnych",
+      "Przykładanie rany do ziemi"
+    ],
+    "answer": 0,
+    "explanation": "Bakterie mogą dostać się do krwi m.in. przez ukąszenie kleszcza, dlatego wskazana jest odzież ochronna i środki odstraszające.",
+    "image": "r02_drogi_bakterii.jpg"
+  },
+  {
+    "id": "R02_HARD_10",
+    "section": "Super trudne",
+    "type": "sort",
+    "prompt": "Przyporządkuj choroby do czynnika lub grupy organizmów.",
+    "options": null,
+    "items": [
+      "grypa",
+      "tężec",
+      "malaria",
+      "grzybica"
+    ],
+    "categories": [
+      "wirusy",
+      "bakterie",
+      "protisty pasożytnicze",
+      "grzyby"
+    ],
+    "answer": {
+      "wirusy": [
+        "grypa"
+      ],
+      "bakterie": [
+        "tężec"
+      ],
+      "protisty pasożytnicze": [
+        "malaria"
+      ],
+      "grzyby": [
+        "grzybica"
+      ]
+    },
+    "explanation": "Rozdział zestawia choroby wywoływane przez różne czynniki: wirusy, bakterie, protisty pasożytnicze i grzyby."
+  },
+  {
+    "id": "R02_HARD_11",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz element lub substancję z grupą, dla której jest najbardziej charakterystyczna w rozdziale.",
+    "options": null,
+    "left": [
+      "kwas nukleinowy w otoczce białkowej",
+      "substancja jądrowa",
+      "chloroplasty eugleny",
+      "ściana komórkowa z chityny"
+    ],
+    "right": [
+      "wirusy",
+      "bakterie",
+      "protisty",
+      "grzyby"
+    ],
+    "answer": {
+      "kwas nukleinowy w otoczce białkowej": "wirusy",
+      "substancja jądrowa": "bakterie",
+      "chloroplasty eugleny": "protisty",
+      "ściana komórkowa z chityny": "grzyby"
+    },
+    "explanation": "Każda z tych cech pomaga odróżniać grupy omawiane w rozdziale: wirusy, bakterie, protisty i grzyby."
+  },
+  {
+    "id": "R02_HARD_12",
+    "section": "Super trudne",
+    "type": "single_choice",
+    "prompt": "Dlaczego euglena zielona jest przykładem protista łączącego cechy różnych grup?",
+    "options": [
+      "Ma chloroplasty, ale nie ma ściany komórkowej",
+      "Nie ma jądra komórkowego i żyje w glebie",
+      "Jest grzybem zbudowanym ze strzępek",
+      "Ma owocnik i kapelusz",
+      "Jest bakterią o kształcie pałeczki",
+      "Nie wykonuje żadnych czynności życiowych"
+    ],
+    "answer": 0,
+    "explanation": "Euglena ma chloroplasty jak organizmy samożywne, ale brak ściany komórkowej upodabnia ją do zwierząt.",
+    "image": "r02_euglena_pantofelek.jpg"
+  },
+  {
+    "id": "R02_HARD_13",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "W poroście grzyb dostarcza wodę z solami mineralnymi, a organizm samożywny wytwarza w procesie __________ substancje __________.",
+    "options": null,
+    "answer": [
+      "fotosyntezy",
+      "pokarmowe"
+    ],
+    "altAnswers": [
+      [
+        "fotosyntezy",
+        "fotosynteza"
+      ],
+      [
+        "pokarmowe",
+        "odżywcze",
+        "pokarmowe"
+      ]
+    ],
+    "explanation": "Porost działa dzięki współpracy: grzyb zapewnia wodę i sole mineralne, a organizm samożywny produkuje substancje pokarmowe.",
+    "image": "r02_porost_przekroj.jpg"
+  },
+  {
+    "id": "R02_HARD_14",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Brak porostów na drzewach może wskazywać na duże zanieczyszczenie powietrza.",
+    "options": null,
+    "answer": true,
+    "explanation": "W rozdziale podano, że porosty mogą być wskaźnikiem czystości powietrza, a ich brak na drzewach wskazuje na duże zanieczyszczenie.",
+    "image": "r02_porost_przekroj.jpg"
   }
 ];
 
@@ -1248,19 +1312,23 @@ const chapter = {
   title: "Wirusy, bakterie, protisty i grzyby",
   icon: "🦠",
   sectionOrder: [
-  "Wirusy",
-  "Bakterie",
-  "Protisty",
-  "Grzyby"
-],
+    "Klasyfikacja organizmów",
+    "Klucze do oznaczania",
+    "Wirusy",
+    "Bakterie",
+    "Protisty",
+    "Grzyby i porosty"
+  ],
   sectionIcons: {
-  "Wirusy": "🧫",
-  "Bakterie": "🔬",
-  "Protisty": "💧",
-  "Grzyby": "🍄"
-},
+    "Klasyfikacja organizmów": "🧬",
+    "Klucze do oznaczania": "🔎",
+    "Wirusy": "🦠",
+    "Bakterie": "🔬",
+    "Protisty": "💧",
+    "Grzyby i porosty": "🍄"
+  },
   exercises: ALL_EXERCISES,
-  kidPrompts: KID_PROMPTS,
+  kidPrompts: KID_PROMPTS
 };
 
 export default chapter;
