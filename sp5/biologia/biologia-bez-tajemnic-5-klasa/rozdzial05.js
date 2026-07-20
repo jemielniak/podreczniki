@@ -1,9 +1,8 @@
 // Skróty sekcji (do identyfikatorów ćwiczeń):
 //   MCH  = Mchy
 //   PAP  = Paprociowe, widłakowe i skrzypowe
-//   NAG  = Nagonasienne
-//   OKR  = Okrytonasienne
-//   POR  = Porównanie grup roślin
+//   NAG  = Rośliny nagonasienne
+//   OKR  = Rośliny okrytonasienne
 //   HARD = Super trudne
 
 const ALL_EXERCISES = [
@@ -11,169 +10,163 @@ const ALL_EXERCISES = [
     "id": "R05_MCH_01",
     "section": "Mchy",
     "type": "single_choice",
-    "prompt": "Gdzie najczęściej można spotkać mchy opisane w rozdziale?",
+    "prompt": "Jakie miejsca najczęściej wybierają mchy?",
     "options": [
-      "W zacienionych i wilgotnych miejscach",
-      "Na suchych pustyniach bez cienia",
-      "Wyłącznie w sadach owocowych",
-      "Tylko na polach uprawnych",
-      "W koronach wysokich drzew iglastych",
-      "Wyłącznie w doniczkach domowych"
+      "Zacienione i wilgotne",
+      "Suche i silnie nasłonecznione",
+      "Wyłącznie słone wody",
+      "Gorące pustynie",
+      "Tylko pola uprawne",
+      "Wyłącznie korony wysokich drzew"
     ],
     "answer": 0,
-    "explanation": "Mchy preferują miejsca zacienione i wilgotne, na przykład lasy, okolice strumieni, wilgotne łąki i bagna."
+    "explanation": "Mchy preferują miejsca zacienione i wilgotne. Można je spotkać między kamieniami, na powalonych drzewach, przy strumieniach, na wilgotnych łąkach i bagnach."
   },
   {
     "id": "R05_MCH_02",
     "section": "Mchy",
-    "type": "multi_select",
-    "prompt": "Zaznacz elementy budowy mchu płonnika wymienione w rozdziale.",
-    "options": [
+    "type": "match",
+    "prompt": "Połącz element budowy mchu z jego funkcją.",
+    "options": null,
+    "left": [
       "chwytniki",
-      "łodyżka",
-      "listki",
-      "zarodnia",
-      "czapeczka",
-      "owoc"
+      "ulistniona łodyżka",
+      "bezlistna łodyżka",
+      "zarodnia"
+    ],
+    "right": [
+      "umocowanie w podłożu i pobieranie wody",
+      "prowadzenie fotosyntezy",
+      "wynoszenie zarodni ku górze",
+      "wytwarzanie zarodników"
+    ],
+    "answer": {
+      "chwytniki": "umocowanie w podłożu i pobieranie wody",
+      "ulistniona łodyżka": "prowadzenie fotosyntezy",
+      "bezlistna łodyżka": "wynoszenie zarodni ku górze",
+      "zarodnia": "wytwarzanie zarodników"
+    },
+    "explanation": "Chwytniki mocują mech i pobierają wodę z solami mineralnymi, listki na ulistnionej łodyżce prowadzą fotosyntezę, bezlistna łodyżka unosi zarodnię, a w zarodni powstają zarodniki.",
+    "image": "r05_budowa_mchu.jpg"
+  },
+  {
+    "id": "R05_MCH_03",
+    "section": "Mchy",
+    "type": "true_false",
+    "prompt": "Mchy mają takie same organy jak typowe rośliny naczyniowe: korzenie, łodygi i liście.",
+    "options": null,
+    "answer": false,
+    "explanation": "Mchy mają prostą budowę i nie wykształcają właściwych organów. W ich opisie używa się nazw chwytniki, łodyżka i listki, których budowa różni się od korzeni, łodyg i liści."
+  },
+  {
+    "id": "R05_MCH_04",
+    "section": "Mchy",
+    "type": "fill_in",
+    "prompt": "Mchy są przytwierdzane do podłoża przez __________, a zarodniki powstają w __________.",
+    "options": null,
+    "answer": [
+      "chwytniki",
+      "zarodni"
+    ],
+    "altAnswers": [
+      [
+        "chwytniki",
+        "chwytniki mchu"
+      ],
+      [
+        "zarodni",
+        "zarodnia"
+      ]
+    ],
+    "explanation": "Chwytniki przytwierdzają mech do podłoża, a zarodnia jest miejscem powstawania zarodników.",
+    "image": "r05_budowa_mchu.jpg"
+  },
+  {
+    "id": "R05_MCH_05",
+    "section": "Mchy",
+    "type": "riddle",
+    "prompt": "Powstają w zarodni, służą do rozmnażania bezpłciowego i są rozsiewane przez wiatr. Co to?",
+    "options": null,
+    "answer": "zarodniki",
+    "altAnswers": [
+      "zarodniki",
+      "zarodnik"
+    ],
+    "explanation": "Zarodniki mchów powstają w zarodniach i mogą być przenoszone przez wiatr."
+  },
+  {
+    "id": "R05_MCH_06",
+    "section": "Mchy",
+    "type": "odd_one_out",
+    "prompt": "Wskaż gatunek, który nie jest mchem: płonnik pospolity, widłoząb miotłasty, torfowiec błotny, zdrojek pospolity, sosna zwyczajna.",
+    "options": null,
+    "answer": "sosna zwyczajna",
+    "explanation": "Płonnik, widłoząb, torfowiec i zdrojek są mchami. Sosna zwyczajna jest rośliną nagonasienną."
+  },
+  {
+    "id": "R05_MCH_07",
+    "section": "Mchy",
+    "type": "scenario",
+    "prompt": "Na nagiej skale, na której nie ma jeszcze innych roślin, pojawiają się pierwsze niewielkie skupiska. Która cecha mchów najlepiej wyjaśnia tę obserwację?",
+    "options": [
+      "Są organizmami pionierskimi",
+      "Wytwarzają owoce",
+      "Mają głębokie korzenie",
+      "Są wyłącznie wodne",
+      "Rozmnażają się nasionami",
+      "Zawsze tworzą drzewa"
+    ],
+    "answer": 0,
+    "explanation": "Mchy mają małe wymagania i mogą zasiedlać nieporośnięte obszary jako jedne z pierwszych organizmów, dlatego zalicza się je do organizmów pionierskich.",
+    "image": "r05_mchy_na_skale.jpg"
+  },
+  {
+    "id": "R05_MCH_08",
+    "section": "Mchy",
+    "type": "multi_select",
+    "prompt": "Zaznacz znaczenie mchów opisane w rozdziale.",
+    "options": [
+      "Regulują wilgotność gleby",
+      "Są organizmami pionierskimi",
+      "Tworzą składnik torfowisk",
+      "Ich szczątki mogą przekształcać się w torf",
+      "Wytwarzają nasiona w owocach",
+      "Są schronieniem dla zwierząt"
     ],
     "answer": [
       0,
       1,
       2,
       3,
-      4
+      5
     ],
-    "image": "r05_budowa_mchu_plonnika.jpg",
-    "explanation": "W budowie mchu wyróżniono chwytniki, łodyżkę, listki, zarodnię z zarodnikami oraz czapeczkę. Owoc nie jest elementem budowy mchu."
-  },
-  {
-    "id": "R05_MCH_03",
-    "section": "Mchy",
-    "type": "true_false",
-    "prompt": "Mchy są organizmami pionierskimi, ponieważ mają małe wymagania i mogą pojawiać się jako jedne z pierwszych organizmów na niezasiedlonym obszarze.",
-    "options": null,
-    "answer": true,
-    "explanation": "W rozdziale podano, że mchy mogą zasiedlać na przykład skały jako jedne z pierwszych organizmów."
-  },
-  {
-    "id": "R05_MCH_04",
-    "section": "Mchy",
-    "type": "fill_in",
-    "prompt": "Zarodniki mchów powstają w __________ i służą do rozmnażania __________.",
-    "options": null,
-    "answer": [
-      "zarodni",
-      "bezpłciowego"
-    ],
-    "altAnswers": [
-      [
-        "zarodni",
-        "zarodnia"
-      ],
-      [
-        "bezpłciowego",
-        "bezpłciowe"
-      ]
-    ],
-    "explanation": "Zarodnia to struktura, w której powstają zarodniki. Zarodniki służą do rozmnażania bezpłciowego."
-  },
-  {
-    "id": "R05_MCH_05",
-    "section": "Mchy",
-    "type": "riddle",
-    "prompt": "Cienkie wyrostki, które umocowują mech w podłożu i pobierają z niego wodę z solami mineralnymi, to...",
-    "options": null,
-    "answer": "chwytniki",
-    "altAnswers": [
-      "chwytniki",
-      "chwytnik"
-    ],
-    "explanation": "Chwytniki pełnią u mchów funkcje podobne do korzeni, ale nie są prawdziwymi korzeniami."
-  },
-  {
-    "id": "R05_MCH_06",
-    "section": "Mchy",
-    "type": "match",
-    "prompt": "Połącz element budowy mchu z jego funkcją.",
-    "options": null,
-    "left": [
-      "czapeczka",
-      "bezlistna łodyżka",
-      "ulistniona łodyżka",
-      "zarodnia"
-    ],
-    "right": [
-      "chroni znajdującą się pod nią zarodnię",
-      "wynosi zarodnię ku górze",
-      "jest pokryta listkami prowadzącymi fotosyntezę",
-      "wytwarza zarodniki"
-    ],
-    "answer": {
-      "czapeczka": "chroni znajdującą się pod nią zarodnię",
-      "bezlistna łodyżka": "wynosi zarodnię ku górze",
-      "ulistniona łodyżka": "jest pokryta listkami prowadzącymi fotosyntezę",
-      "zarodnia": "wytwarza zarodniki"
-    },
-    "image": "r05_budowa_mchu_plonnika.jpg",
-    "explanation": "Schemat płonnika pokazuje, że różne części mchu pełnią różne funkcje: mocują, unoszą zarodnię, chronią ją albo prowadzą fotosyntezę."
-  },
-  {
-    "id": "R05_MCH_07",
-    "section": "Mchy",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: płonnik pospolity, widłoząb miotłasty, torfowiec błotny, sosna zwyczajna.",
-    "options": null,
-    "answer": "sosna zwyczajna",
-    "explanation": "Płonnik, widłoząb i torfowiec to mchy, a sosna zwyczajna jest rośliną nagonasienną."
-  },
-  {
-    "id": "R05_MCH_08",
-    "section": "Mchy",
-    "type": "single_choice",
-    "prompt": "Czego nie mają dorosłe osobniki torfowca błotnego?",
-    "options": [
-      "chwytników",
-      "rozgałęzionych łodyżek",
-      "małych płaskich listków",
-      "kulistych zarodni",
-      "dolnych części łodyżek",
-      "zdolności występowania na torfowiskach"
-    ],
-    "answer": 0,
-    "image": "r05_torfowiec_torfowisko.jpg",
-    "explanation": "W rozdziale podano, że dorosłe osobniki torfowca błotnego nie mają chwytników, ponieważ dolne części ich łodyżek zamierają."
+    "explanation": "Mchy zatrzymują wodę, zasiedlają nowe obszary, budują torfowiska, uczestniczą w powstawaniu torfu i mogą stanowić schronienie dla zwierząt. Nie tworzą nasion ani owoców."
   },
   {
     "id": "R05_MCH_09",
     "section": "Mchy",
-    "type": "scenario",
-    "prompt": "Uczeń sprawdza, czy wysuszony mech wchłania wodę z otoczenia. Który zestaw jest próbą badawczą w tym doświadczeniu?",
-    "options": [
-      "Słoik z mokrą watą lub bibułą i grupą mchów",
-      "Słoik z suchą watą i grupą mchów",
-      "Słoik z wodą bez mchów",
-      "Słoik z nasionami fasoli na gazie",
-      "Słoik z ziemią i szyszką",
-      "Pusty słoik zamknięty korkiem"
+    "type": "sequence",
+    "prompt": "Ułóż czynności doświadczenia badającego wchłanianie wody przez mchy.",
+    "options": null,
+    "items": [
+      "Porównanie wyglądu i masy mchów",
+      "Umieszczenie mchu w zestawie z wilgotną watą",
+      "Przygotowanie zestawu kontrolnego bez wody",
+      "Odczekanie około dwóch godzin"
     ],
-    "answer": 0,
-    "image": "r05_doswiadczenie_mchy_woda.jpg",
-    "explanation": "W próbie badawczej mech umieszcza się w słoiku z wilgotną watą lub bibułą. Próba kontrolna nie zawiera wody."
+    "answer": [
+      "Umieszczenie mchu w zestawie z wilgotną watą",
+      "Przygotowanie zestawu kontrolnego bez wody",
+      "Odczekanie około dwóch godzin",
+      "Porównanie wyglądu i masy mchów"
+    ],
+    "explanation": "W próbie badawczej mech ma kontakt z wilgotnym środowiskiem, a w kontrolnej nie. Po około dwóch godzinach porównuje się wygląd, elastyczność, barwę i ewentualnie masę okazów."
   },
   {
     "id": "R05_MCH_10",
     "section": "Mchy",
-    "type": "true_false",
-    "prompt": "Gatunków chronionych mchów nie wolno zbierać, przechowywać ani sprzedawać.",
-    "options": null,
-    "answer": true,
-    "explanation": "Rozdział wyjaśnia, że pozyskiwanie chronionych gatunków ze środowiska naturalnego jest nielegalne."
-  },
-  {
-    "id": "R05_MCH_11",
-    "section": "Mchy",
     "type": "sort",
-    "prompt": "Przyporządkuj przedstawicieli mchów do miejsca występowania podanego w rozdziale.",
+    "prompt": "Przyporządkuj mchy do typowego środowiska podanego w rozdziale.",
     "options": null,
     "items": [
       "płonnik pospolity",
@@ -182,185 +175,116 @@ const ALL_EXERCISES = [
       "zdrojek pospolity"
     ],
     "categories": [
-      "lasy i torfowiska",
-      "zbiorniki słodkowodne"
+      "środowiska lądowe",
+      "zbiorniki wodne"
     ],
     "answer": {
-      "lasy i torfowiska": [
+      "środowiska lądowe": [
         "płonnik pospolity",
         "widłoząb miotłasty",
         "torfowiec błotny"
       ],
-      "zbiorniki słodkowodne": [
+      "zbiorniki wodne": [
         "zdrojek pospolity"
       ]
     },
-    "explanation": "Płonnik, widłoząb i torfowiec opisano jako gatunki związane z lasami lub torfowiskami. Zdrojek pospolity występuje w jeziorach, stawach i rzekach."
+    "explanation": "Płonnik, widłoząb i torfowiec występują na lądzie, między innymi w lasach, na łąkach i torfowiskach. Zdrojek pospolity rośnie w jeziorach, stawach i rzekach."
+  },
+  {
+    "id": "R05_MCH_11",
+    "section": "Mchy",
+    "type": "single_choice",
+    "prompt": "Który opis dotyczy dorosłego torfowca błotnego?",
+    "options": [
+      "Nie ma chwytników, a dolne części łodyżek zamierają",
+      "Ma liście ułożone w trzech rzędach i żyje w rzekach",
+      "Ma widlasto zakończone listki i zakrzywioną zarodnię",
+      "Ma złotawą czapeczkę i zawsze osiąga 40 cm",
+      "Wytwarza owoce z nasionami",
+      "Ma korzenie wyrastające z kłącza"
+    ],
+    "answer": 0,
+    "explanation": "Dorosłe torfowce błotne nie mają chwytników. Ich dolne części łodyżek zamierają, a szczątki mogą uczestniczyć w powstawaniu torfu.",
+    "image": "r05_torfowiec_blotny.jpg"
   },
   {
     "id": "R05_MCH_12",
     "section": "Mchy",
-    "type": "sequence",
-    "prompt": "Ułóż etapy doświadczenia z wysuszonym mchem w poprawnej kolejności.",
+    "type": "true_false",
+    "prompt": "Zarodniki mchów mogą być rozsiewane przez wiatr.",
     "options": null,
-    "items": [
-      "Po około dwóch godzinach porównaj wygląd mchów",
-      "Włóż grupę wysuszonych mchów do słoika",
-      "Wyłóż dno słoika watą lub bibułą",
-      "Dodaj tyle wody, aby została wchłonięta przez watę lub bibułę"
+    "answer": true,
+    "explanation": "Zarodniki powstają w zarodni i służą do rozmnażania bezpłciowego; wiatr pomaga je rozprzestrzeniać."
+  },
+  {
+    "id": "R05_MCH_13",
+    "section": "Mchy",
+    "type": "scenario",
+    "prompt": "Wysuszony mech po pobycie w zamkniętym słoiku z wilgotną watą staje się bardziej elastyczny i intensywniej zielony niż mech w zestawie kontrolnym. Jaki wniosek najlepiej pasuje do obserwacji?",
+    "options": [
+      "Mchy wchłaniają wodę z otoczenia",
+      "Mchy wytwarzają nasiona",
+      "Mchy nie reagują na wilgoć",
+      "Mchy pobierają wodę wyłącznie korzeniami",
+      "Mchy rosną tylko w wodzie",
+      "Wilgoć niszczy listki mchów"
     ],
-    "answer": [
-      "Wyłóż dno słoika watą lub bibułą",
-      "Dodaj tyle wody, aby została wchłonięta przez watę lub bibułę",
-      "Włóż grupę wysuszonych mchów do słoika",
-      "Po około dwóch godzinach porównaj wygląd mchów"
-    ],
-    "image": "r05_doswiadczenie_mchy_woda.jpg",
-    "explanation": "Najpierw przygotowuje się wilgotne podłoże, potem wkłada mech i po wyznaczonym czasie porównuje wyniki z próbą kontrolną."
+    "answer": 0,
+    "explanation": "Zmiana wyglądu i elastyczności mchu w wilgotnym zestawie potwierdza jego zdolność do wchłaniania wody z otoczenia."
   },
   {
     "id": "R05_PAP_01",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "single_choice",
-    "prompt": "Jak zwyczajowo nazywa się rośliny paprociowe, widłakowe i skrzypowe?",
+    "prompt": "Dlaczego paprociowe, widłakowe i skrzypowe zalicza się do organowców?",
     "options": [
-      "paprotnikami",
-      "mszakami",
-      "nagonasiennymi",
-      "okrytonasiennymi",
-      "krzewinkami",
-      "roślinami iglastymi"
+      "Mają korzenie, łodygi i liście",
+      "Wytwarzają owoce",
+      "Nie mają żadnych tkanek",
+      "Mają tylko chwytniki",
+      "Są zawsze drzewami",
+      "Rozmnażają się wyłącznie nasionami"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że rośliny należące do tych trzech grup są zwyczajowo nazywane paprotnikami."
+    "explanation": "W budowie tych roślin można wyróżnić organy: korzenie, łodygi i liście."
   },
   {
     "id": "R05_PAP_02",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "true_false",
-    "prompt": "Paprociowe, widłakowe i skrzypowe rozmnażają się przez zarodniki.",
+    "prompt": "Paprociowe, widłakowe i skrzypowe są roślinami wieloletnimi rozmnażającymi się przez zarodniki.",
     "options": null,
     "answer": true,
-    "image": "r05_lisc_paproci_kupki_zarodni.jpg",
-    "explanation": "W rozdziale wskazano, że te rośliny są wieloletnie i rozmnażają się przez zarodniki."
+    "explanation": "Rośliny z tych grup żyją wiele lat i wytwarzają zarodniki służące do rozmnażania bezpłciowego."
   },
   {
     "id": "R05_PAP_03",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "fill_in",
-    "prompt": "W budowie paproci łatwo wyróżnić korzenie, __________ i __________.",
+    "prompt": "Podziemna łodyga paproci to __________, a brązowe kupki na spodzie liści zawierają __________.",
     "options": null,
     "answer": [
-      "łodygi",
-      "liście"
+      "kłącze",
+      "zarodnie"
     ],
     "altAnswers": [
       [
-        "łodygi",
-        "łodygę",
-        "łodyga"
+        "kłącze",
+        "klacze"
       ],
       [
-        "liście",
-        "liść"
+        "zarodnie",
+        "zarodnie paproci"
       ]
     ],
-    "explanation": "Paprocie są organowcami, więc mają korzenie, łodygi i liście."
+    "explanation": "Kłącze jest podziemną łodygą magazynującą substancje zapasowe. Na spodzie liści paproci znajdują się kupki zarodni, w których powstają zarodniki.",
+    "image": "r05_paprocia_spod_liscia.jpg"
   },
   {
     "id": "R05_PAP_04",
     "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "riddle",
-    "prompt": "Podziemna łodyga paproci lub skrzypu, która magazynuje substancje zapasowe, to...",
-    "options": null,
-    "answer": "kłącze",
-    "altAnswers": [
-      "kłącze",
-      "klacze"
-    ],
-    "explanation": "Kłącze jest łodygą rosnącą pod ziemią i pozwala roślinie przetrwać okres, gdy części nadziemne zamierają."
-  },
-  {
-    "id": "R05_PAP_05",
-    "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "match",
-    "prompt": "Połącz element budowy paproci z opisem.",
-    "options": null,
-    "left": [
-      "liście paproci",
-      "młode liście",
-      "kłącze",
-      "kupki zarodni"
-    ],
-    "right": [
-      "są duże i prowadzą fotosyntezę",
-      "są charakterystycznie zwinięte",
-      "jest podziemną łodygą",
-      "rozwijają się na spodzie liści"
-    ],
-    "answer": {
-      "liście paproci": "są duże i prowadzą fotosyntezę",
-      "młode liście": "są charakterystycznie zwinięte",
-      "kłącze": "jest podziemną łodygą",
-      "kupki zarodni": "rozwijają się na spodzie liści"
-    },
-    "image": "r05_lisc_paproci_kupki_zarodni.jpg",
-    "explanation": "Budowa paproci obejmuje podziemne kłącze, korzenie oraz duże liście, na których od spodu mogą rozwijać się kupki zarodni."
-  },
-  {
-    "id": "R05_PAP_06",
-    "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "single_choice",
-    "prompt": "Jaki jest pęd wiosenny skrzypu polnego opisany w rozdziale?",
-    "options": [
-      "brunatny i zakończony kłosem zarodnionośnym",
-      "zielony i rozgałęziony jak choinka",
-      "zdrewniały i tworzący pień",
-      "płożący się i okryty igłami",
-      "pokryty owocami",
-      "zawsze podziemny"
-    ],
-    "answer": 0,
-    "image": "r05_budowa_skrzypu_polnego.jpg",
-    "explanation": "Skrzyp polny ma brunatny pęd wiosenny, na którego szczycie powstają zarodnie zebrane w kłos."
-  },
-  {
-    "id": "R05_PAP_07",
-    "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "multi_select",
-    "prompt": "Zaznacz przedstawicieli paprociowych, widłakowych i skrzypowych wymienionych w rozdziale.",
-    "options": [
-      "nerecznica samcza",
-      "salwinia pływająca",
-      "pióropusznik strusi",
-      "widłak jałowcowaty",
-      "skrzyp olbrzymi",
-      "grusza pospolita"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
-    "image": "r05_przedstawiciele_paprotnikow.jpg",
-    "explanation": "Wśród przedstawicieli wymieniono nerecznicę, salwinię, pióropusznika, widłaka jałowcowatego i skrzyp olbrzymi. Grusza należy do okrytonasiennych."
-  },
-  {
-    "id": "R05_PAP_08",
-    "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: nerecznica samcza, salwinia pływająca, pióropusznik strusi, cis pospolity.",
-    "options": null,
-    "answer": "cis pospolity",
-    "explanation": "Nerecznica, salwinia i pióropusznik to paprocie. Cis pospolity jest rośliną nagonasienną."
-  },
-  {
-    "id": "R05_PAP_09",
-    "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "match",
-    "prompt": "Połącz grupę roślin z cechą budowy podaną w rozdziale.",
+    "prompt": "Połącz grupę roślin z charakterystyczną cechą budowy.",
     "options": null,
     "left": [
       "paprocie",
@@ -368,281 +292,315 @@ const ALL_EXERCISES = [
       "skrzypy"
     ],
     "right": [
-      "mają duże liście i kłącze",
-      "mają długie płożące się łodygi",
-      "mają pęd wiosenny i pęd letni"
+      "brązowe kupki zarodni na spodzie liści",
+      "długie płożące się łodygi z widlastymi odgałęzieniami",
+      "pęd wiosenny i zielony pęd letni"
     ],
     "answer": {
-      "paprocie": "mają duże liście i kłącze",
-      "widłaki": "mają długie płożące się łodygi",
-      "skrzypy": "mają pęd wiosenny i pęd letni"
+      "paprocie": "brązowe kupki zarodni na spodzie liści",
+      "widłaki": "długie płożące się łodygi z widlastymi odgałęzieniami",
+      "skrzypy": "pęd wiosenny i zielony pęd letni"
     },
-    "image": "r05_przedstawiciele_paprotnikow.jpg",
-    "explanation": "Paprocie, widłaki i skrzypy mają różną budowę, choć wszystkie rozmnażają się przez zarodniki."
+    "explanation": "Paprocie tworzą kupki zarodni pod liśćmi, widłaki mają płożące się i widlasto rozgałęzione łodygi, a skrzyp polny wytwarza dwa różne rodzaje pędów.",
+    "image": "r05_paprocia_spod_liscia.jpg"
+  },
+  {
+    "id": "R05_PAP_05",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie należy do paprociowych, widłakowych ani skrzypowych: nerecznica samcza, salwinia pływająca, pióropusznik strusi, widłak jałowcowaty, skrzyp olbrzymi, jodła pospolita.",
+    "options": null,
+    "answer": "jodła pospolita",
+    "explanation": "Nerecznica, salwinia i pióropusznik są paprociami, widłak jałowcowaty jest widłakiem, a skrzyp olbrzymi skrzypem. Jodła jest rośliną nagonasienną."
+  },
+  {
+    "id": "R05_PAP_06",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "sort",
+    "prompt": "Przyporządkuj przedstawicieli do właściwej grupy.",
+    "options": null,
+    "items": [
+      "nerecznica samcza",
+      "salwinia pływająca",
+      "pióropusznik strusi",
+      "widłak jałowcowaty",
+      "skrzyp olbrzymi"
+    ],
+    "categories": [
+      "paprocie",
+      "widłaki",
+      "skrzypy"
+    ],
+    "answer": {
+      "paprocie": [
+        "nerecznica samcza",
+        "salwinia pływająca",
+        "pióropusznik strusi"
+      ],
+      "widłaki": [
+        "widłak jałowcowaty"
+      ],
+      "skrzypy": [
+        "skrzyp olbrzymi"
+      ]
+    },
+    "explanation": "Pierwsze trzy gatunki są paprociami, widłak jałowcowaty należy do widłaków, a skrzyp olbrzymi do skrzypów."
+  },
+  {
+    "id": "R05_PAP_07",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "scenario",
+    "prompt": "Na łące widzisz dwa pędy tej samej rośliny: brunatny pęd z kłosem zarodni oraz zielony, rozgałęziony pęd prowadzący fotosyntezę. Co to za roślina?",
+    "options": [
+      "skrzyp polny",
+      "paprotka zwyczajna",
+      "widłak goździsty",
+      "płonnik pospolity",
+      "sosna zwyczajna",
+      "łubin trwały"
+    ],
+    "answer": 0,
+    "explanation": "Skrzyp polny ma brunatny pęd wiosenny zakończony kłosem zarodni oraz zielony pęd letni prowadzący fotosyntezę.",
+    "image": "r05_skrzyp_polny_pedy.jpg"
+  },
+  {
+    "id": "R05_PAP_08",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "sequence",
+    "prompt": "Ułóż etapy prowadzące do powstania złóż węgla kamiennego z dawnych roślin.",
+    "options": null,
+    "items": [
+      "Powstanie złóż węgla kamiennego",
+      "Dominacja wielkich paprociowych, widłakowych i skrzypowych",
+      "Obumieranie roślin",
+      "Przekształcanie szczątków przez bardzo długi czas"
+    ],
+    "answer": [
+      "Dominacja wielkich paprociowych, widłakowych i skrzypowych",
+      "Obumieranie roślin",
+      "Przekształcanie szczątków przez bardzo długi czas",
+      "Powstanie złóż węgla kamiennego"
+    ],
+    "explanation": "W karbonie dominowały duże, nieraz drzewiaste paprociowe, widłakowe i skrzypowe. Ze szczątków tych roślin, przekształcanych przez bardzo długi czas, powstał węgiel kamienny.",
+    "image": "r05_rosliny_karbonu.jpg"
+  },
+  {
+    "id": "R05_PAP_09",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "multi_select",
+    "prompt": "Zaznacz znaczenie paprociowych, widłakowych i skrzypowych w środowisku.",
+    "options": [
+      "Wchodzą w skład runa leśnego",
+      "Są schronieniem dla zwierząt",
+      "Są pokarmem dla zwierząt",
+      "Wytwarzają owoce",
+      "Tworzą wyłącznie pustynne zbiorowiska"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Rośliny te są składnikiem runa, a wiele z nich zapewnia zwierzętom pokarm i schronienie."
   },
   {
     "id": "R05_PAP_10",
     "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "sort",
-    "prompt": "Przyporządkuj cechy do pędów skrzypu polnego.",
+    "type": "riddle",
+    "prompt": "Jest wieloletnim podziemnym pędem, magazynuje substancje zapasowe i występuje między innymi u paproci oraz skrzypów. Co to?",
     "options": null,
-    "items": [
-      "brunatny",
-      "na jego szczycie powstają zarodnie",
-      "zielony",
-      "prowadzi fotosyntezę"
+    "answer": "kłącze",
+    "altAnswers": [
+      "kłącze",
+      "klacze"
     ],
-    "categories": [
-      "pęd wiosenny",
-      "pęd letni"
-    ],
-    "answer": {
-      "pęd wiosenny": [
-        "brunatny",
-        "na jego szczycie powstają zarodnie"
-      ],
-      "pęd letni": [
-        "zielony",
-        "prowadzi fotosyntezę"
-      ]
-    },
-    "image": "r05_budowa_skrzypu_polnego.jpg",
-    "explanation": "Pęd wiosenny służy rozmnażaniu, a pęd letni jest zielony i prowadzi fotosyntezę."
+    "explanation": "Kłącze to podziemna łodyga. Umożliwia przetrwanie zimy i wyrastanie nowych części nadziemnych."
   },
   {
     "id": "R05_PAP_11",
     "section": "Paprociowe, widłakowe i skrzypowe",
-    "type": "scenario",
-    "prompt": "Na spacerze uczeń znajduje zielony, rozgałęziony pęd skrzypu polnego. Jaka jest główna rola tego pędu według rozdziału?",
+    "type": "single_choice",
+    "prompt": "Która paproć żyje w zbiornikach wodnych, a jej liście unoszą się na powierzchni wody?",
     "options": [
-      "prowadzenie fotosyntezy",
-      "wytwarzanie owoców",
-      "tworzenie szyszek",
-      "ochrona zarodni czapeczką",
-      "zrzucanie igieł na zimę",
-      "powstawanie nasion w owocu"
+      "salwinia pływająca",
+      "nerecznica samcza",
+      "pióropusznik strusi",
+      "paprotka zwyczajna",
+      "widłak jałowcowaty",
+      "skrzyp olbrzymi"
     ],
     "answer": 0,
-    "explanation": "Zielony pęd letni skrzypu prowadzi fotosyntezę."
+    "explanation": "Salwinia pływająca występuje w zbiornikach wodnych i ma liście unoszące się na powierzchni."
   },
   {
     "id": "R05_PAP_12",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "true_false",
-    "prompt": "Ze szczątków dawnych paprociowych, widłakowych i skrzypowych powstały złoża węgla kamiennego.",
+    "prompt": "U widłaka goździstego korzenie mogą wyrastać na całej długości płożącej się łodygi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział opisuje, że ponad 300 mln lat temu te rośliny dominowały na lądzie, a ze szczątków dawnych form powstał węgiel kamienny."
+    "explanation": "Widłaki mają długie płożące się łodygi, a korzenie wyrastają wzdłuż ich długości."
+  },
+  {
+    "id": "R05_PAP_13",
+    "section": "Paprociowe, widłakowe i skrzypowe",
+    "type": "match",
+    "prompt": "Połącz gatunek z miejscem występowania opisanym w rozdziale.",
+    "options": null,
+    "left": [
+      "nerecznica samcza",
+      "salwinia pływająca",
+      "pióropusznik strusi",
+      "skrzyp olbrzymi"
+    ],
+    "right": [
+      "cieniste lasy i okolice strumieni",
+      "zbiorniki wodne",
+      "leśne polany, łąki i okolice strumieni",
+      "wilgotne lasy głównie na pogórzu"
+    ],
+    "answer": {
+      "nerecznica samcza": "cieniste lasy i okolice strumieni",
+      "salwinia pływająca": "zbiorniki wodne",
+      "pióropusznik strusi": "leśne polany, łąki i okolice strumieni",
+      "skrzyp olbrzymi": "wilgotne lasy głównie na pogórzu"
+    },
+    "explanation": "Gatunki te różnią się wymaganiami siedliskowymi: od zbiorników wodnych po wilgotne lasy i polany."
   },
   {
     "id": "R05_NAG_01",
-    "section": "Nagonasienne",
+    "section": "Rośliny nagonasienne",
     "type": "single_choice",
-    "prompt": "Który zestaw zawiera wyłącznie rośliny nagonasienne wymienione w rozdziale?",
+    "prompt": "Skąd pochodzi nazwa roślin nagonasiennych?",
     "options": [
-      "sosna, świerk, jodła, cis",
-      "grusza, łubin, klon, lipa",
-      "płonnik, torfowiec, widłoząb, zdrojek",
-      "nerecznica, salwinia, pióropusznik, skrzyp",
-      "brzoza, jarząb, topola, buk",
-      "pokrzywa, wrzos, borówka, berberys"
+      "Ich nasiona nie są osłonięte owocem",
+      "Nie mają łodyg",
+      "Nie wytwarzają kwiatów",
+      "Rosną tylko na nagich skałach",
+      "Mają wyłącznie nagie korzenie",
+      "Ich nasiona zawsze są pod ziemią"
     ],
     "answer": 0,
-    "explanation": "Sosna, świerk, jodła i cis zostały przedstawione jako rośliny nagonasienne."
+    "explanation": "Nasiona roślin nagonasiennych nie są zamknięte w owocu, lecz leżą odsłonięte na łuskach szyszki lub są otoczone inną strukturą, jak osnówka cisa."
   },
   {
     "id": "R05_NAG_02",
-    "section": "Nagonasienne",
-    "type": "fill_in",
-    "prompt": "Nasiona roślin nagonasiennych nie są __________, dlatego tę grupę nazwano __________.",
+    "section": "Rośliny nagonasienne",
+    "type": "true_false",
+    "prompt": "Rośliny nagonasienne są organowcami mającymi korzenie, łodygi, liście i kwiaty.",
     "options": null,
-    "answer": [
-      "osłonięte",
-      "nagonasiennymi"
-    ],
-    "altAnswers": [
-      [
-        "osłonięte",
-        "osloniete"
-      ],
-      [
-        "nagonasiennymi",
-        "nagonasienne"
-      ]
-    ],
-    "image": "r05_sosna_szyszka_nasiona.jpg",
-    "explanation": "Nasiona leżą na łuskach szyszki i nie są niczym osłonięte, stąd nazwa rośliny nagonasienne."
+    "answer": true,
+    "explanation": "W budowie roślin nagonasiennych wyróżnia się korzenie, łodygi, liście oraz kwiaty."
   },
   {
     "id": "R05_NAG_03",
-    "section": "Nagonasienne",
-    "type": "true_false",
-    "prompt": "Szyszki to zdrewniałe kwiatostany roślin nagonasiennych.",
+    "section": "Rośliny nagonasienne",
+    "type": "fill_in",
+    "prompt": "Kwiatostan męski sosny produkuje __________, a kwiatostan żeński zawiera __________.",
     "options": null,
-    "answer": true,
-    "explanation": "W rozdziale szyszki opisano jako zdrewniałe kwiatostany roślin nagonasiennych."
+    "answer": [
+      "pyłek",
+      "komórki jajowe"
+    ],
+    "altAnswers": [
+      [
+        "pyłek",
+        "pylek"
+      ],
+      [
+        "komórki jajowe",
+        "komorki jajowe"
+      ]
+    ],
+    "explanation": "W pyłku znajdują się komórki plemnikowe, natomiast kwiatostan żeński zawiera komórki jajowe.",
+    "image": "r05_budowa_sosny.jpg"
   },
   {
     "id": "R05_NAG_04",
-    "section": "Nagonasienne",
-    "type": "match",
-    "prompt": "Połącz element sosny z opisem funkcji lub cechy.",
+    "section": "Rośliny nagonasienne",
+    "type": "sequence",
+    "prompt": "Ułóż etapy powstawania i rozsiewania nasion sosny.",
     "options": null,
-    "left": [
-      "kwiatostan męski",
-      "kwiatostan żeński",
-      "igły",
-      "skrzydełko nasiona"
+    "items": [
+      "Rozsiewanie nasion przez wiatr",
+      "Zapłodnienie komórek jajowych",
+      "Rozwój nasion",
+      "Wzrost i drewnienie kwiatostanu żeńskiego"
     ],
-    "right": [
-      "produkuje pyłek",
-      "zawiera zalążki z komórkami jajowymi",
-      "są liśćmi sosny",
-      "ułatwia rozsiewanie przez wiatr"
+    "answer": [
+      "Zapłodnienie komórek jajowych",
+      "Wzrost i drewnienie kwiatostanu żeńskiego",
+      "Rozwój nasion",
+      "Rozsiewanie nasion przez wiatr"
     ],
-    "answer": {
-      "kwiatostan męski": "produkuje pyłek",
-      "kwiatostan żeński": "zawiera zalążki z komórkami jajowymi",
-      "igły": "są liśćmi sosny",
-      "skrzydełko nasiona": "ułatwia rozsiewanie przez wiatr"
-    },
-    "image": "r05_sosna_szyszka_nasiona.jpg",
-    "explanation": "Budowa sosny obejmuje kwiatostany męskie i żeńskie, igły oraz nasiona ze skrzydełkiem ułatwiającym rozsiewanie."
+    "explanation": "Po zapłodnieniu kwiatostan żeński rośnie i drewnieje, rozwijają się w nim nasiona, a skrzydełka ułatwiają ich rozsiewanie przez wiatr.",
+    "image": "r05_budowa_sosny.jpg"
   },
   {
     "id": "R05_NAG_05",
-    "section": "Nagonasienne",
-    "type": "riddle",
-    "prompt": "Przekształcone liście roślin iglastych to...",
+    "section": "Rośliny nagonasienne",
+    "type": "match",
+    "prompt": "Połącz gatunek nagonasienny z charakterystyczną cechą.",
     "options": null,
-    "answer": "igły",
-    "altAnswers": [
-      "igły",
-      "szpilki",
-      "igla",
-      "igły szpilki"
+    "left": [
+      "świerk pospolity",
+      "jodła pospolita",
+      "modrzew europejski",
+      "cis pospolity"
     ],
-    "explanation": "Igły, nazywane też szpilkami, są liśćmi roślin iglastych."
+    "right": [
+      "zwisające szyszki opadające w całości",
+      "pionowe szyszki rozpadające się na drzewie",
+      "delikatne igły zrzucane na zimę",
+      "brak szyszek i czerwona osnówka nasion"
+    ],
+    "answer": {
+      "świerk pospolity": "zwisające szyszki opadające w całości",
+      "jodła pospolita": "pionowe szyszki rozpadające się na drzewie",
+      "modrzew europejski": "delikatne igły zrzucane na zimę",
+      "cis pospolity": "brak szyszek i czerwona osnówka nasion"
+    },
+    "explanation": "Świerk ma szyszki zwisające, jodła pionowe i rozpadające się, modrzew zrzuca igły, a cis nie tworzy szyszek i ma nasiona otoczone czerwoną osnówką.",
+    "image": "r05_przedstawiciele_nagonasiennych.jpg"
   },
   {
     "id": "R05_NAG_06",
-    "section": "Nagonasienne",
-    "type": "multi_select",
-    "prompt": "Zaznacz organy roślin nagonasiennych wymienione w ramce z rozdziału.",
-    "options": [
-      "korzenie",
-      "łodygi",
-      "liście",
-      "kwiaty",
-      "owoce",
-      "zarodnie mchów"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Rośliny nagonasienne są organowcami. W ich budowie wyróżniono korzenie, łodygi, liście i kwiaty."
+    "section": "Rośliny nagonasienne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie jest nagonasienna: sosna zwyczajna, świerk pospolity, jodła pospolita, modrzew europejski, cis pospolity, grusza pospolita.",
+    "options": null,
+    "answer": "grusza pospolita",
+    "explanation": "Sosna, świerk, jodła, modrzew i cis są nagonasienne. Grusza jest rośliną okrytonasienną i wytwarza owoce."
   },
   {
     "id": "R05_NAG_07",
-    "section": "Nagonasienne",
+    "section": "Rośliny nagonasienne",
     "type": "scenario",
-    "prompt": "Wiosną na samochodach pojawia się żółty pył z drzew iglastych. Który element sosny jest źródłem tego pyłku?",
+    "prompt": "Rozpoznajesz roślinę po miękkich, spłaszczonych, niekłujących igłach oraz nasionach otoczonych czerwoną osnówką. Roślina jest trująca i nie tworzy szyszek. Co to?",
     "options": [
-      "kwiatostan męski",
-      "kwiatostan żeński",
-      "skrzydełko nasiona",
-      "czerwona osnówka",
-      "kłącze",
-      "owoc"
+      "cis pospolity",
+      "świerk pospolity",
+      "jodła pospolita",
+      "modrzew europejski",
+      "sosna zwyczajna",
+      "miłorząb dwuklapowy"
     ],
     "answer": 0,
-    "explanation": "Kwiatostan męski sosny jest miejscem produkcji pyłku."
+    "explanation": "Takie cechy ma cis pospolity: nie tworzy szyszek, jego nasiona otacza czerwona osnówka, a roślina jest trująca.",
+    "image": "r05_przedstawiciele_nagonasiennych.jpg"
   },
   {
     "id": "R05_NAG_08",
-    "section": "Nagonasienne",
-    "type": "single_choice",
-    "prompt": "Która roślina nagonasienna zrzuca igły na zimę?",
-    "options": [
-      "modrzew europejski",
-      "sosna zwyczajna",
-      "świerk pospolity",
-      "jodła pospolita",
-      "cis pospolity",
-      "jałowiec"
-    ],
-    "answer": 0,
-    "image": "r05_porownanie_iglastych.jpg",
-    "explanation": "Modrzew europejski ma delikatne, niekłujące igły osadzone w pęczkach i zrzuca je na zimę."
-  },
-  {
-    "id": "R05_NAG_09",
-    "section": "Nagonasienne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: sosna zwyczajna, świerk pospolity, jodła pospolita, lipa drobnolistna.",
-    "options": null,
-    "answer": "lipa drobnolistna",
-    "explanation": "Sosna, świerk i jodła są nagonasienne, a lipa drobnolistna jest okrytonasiennym drzewem liściastym."
-  },
-  {
-    "id": "R05_NAG_10",
-    "section": "Nagonasienne",
-    "type": "sort",
-    "prompt": "Przyporządkuj cechy do roślin nagonasiennych.",
-    "options": null,
-    "items": [
-      "zrzuca igły na zimę",
-      "nie tworzy szyszek",
-      "szyszki zwisają i opadają w całości",
-      "szyszki stoją pionowo i rozpadają się na drzewie"
-    ],
-    "categories": [
-      "modrzew europejski",
-      "cis pospolity",
-      "świerk pospolity",
-      "jodła pospolita"
-    ],
-    "answer": {
-      "modrzew europejski": [
-        "zrzuca igły na zimę"
-      ],
-      "cis pospolity": [
-        "nie tworzy szyszek"
-      ],
-      "świerk pospolity": [
-        "szyszki zwisają i opadają w całości"
-      ],
-      "jodła pospolita": [
-        "szyszki stoją pionowo i rozpadają się na drzewie"
-      ]
-    },
-    "image": "r05_porownanie_iglastych.jpg",
-    "explanation": "Rozdział porównuje przedstawicieli nagonasiennych między innymi po igłach i szyszkach."
-  },
-  {
-    "id": "R05_NAG_11",
-    "section": "Nagonasienne",
-    "type": "true_false",
-    "prompt": "Sosna, podobnie jak większość roślin iglastych, zachowuje igły podczas zimy i może wtedy prowadzić fotosyntezę.",
-    "options": null,
-    "answer": true,
-    "explanation": "W rozdziale podkreślono, że zachowanie igieł zimą odróżnia większość iglastych od roślin liściastych."
-  },
-  {
-    "id": "R05_NAG_12",
-    "section": "Nagonasienne",
+    "section": "Rośliny nagonasienne",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie roślin nagonasiennych opisane w rozdziale.",
+    "prompt": "Zaznacz znaczenie roślin nagonasiennych w przyrodzie.",
     "options": [
-      "są składnikiem lasów",
-      "są źródłem tlenu",
-      "regulują gospodarkę wodną",
-      "zatrzymują wiatr",
-      "drewno wykorzystuje się do produkcji papieru",
-      "tworzą owoce z nasionami"
+      "Tworzą lasy iglaste i mieszane",
+      "Dają zwierzętom pokarm i schronienie",
+      "Prowadzą fotosyntezę także zimą u większości gatunków",
+      "Wpływają na gospodarkę wodną",
+      "Zatrzymują wiatr",
+      "Wytwarzają owoce"
     ],
     "answer": [
       0,
@@ -651,52 +609,126 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Rośliny nagonasienne są ważne w lasach, wytwarzają tlen, wpływają na wodę w środowisku, zatrzymują wiatr i dostarczają drewna. Nie tworzą owoców."
+    "explanation": "Nagonasienne budują lasy, wspierają zwierzęta, produkują tlen, regulują obieg wody i ograniczają działanie wiatru. Nie tworzą owoców."
+  },
+  {
+    "id": "R05_NAG_09",
+    "section": "Rośliny nagonasienne",
+    "type": "sort",
+    "prompt": "Przyporządkuj znaczenie roślin nagonasiennych do właściwej kategorii.",
+    "options": null,
+    "items": [
+      "schronienie dla zwierząt",
+      "produkcja tlenu",
+      "regulacja gospodarki wodnej",
+      "surowiec do produkcji papieru",
+      "produkcja leków",
+      "architektura krajobrazu"
+    ],
+    "categories": [
+      "w przyrodzie",
+      "dla człowieka"
+    ],
+    "answer": {
+      "w przyrodzie": [
+        "schronienie dla zwierząt",
+        "produkcja tlenu",
+        "regulacja gospodarki wodnej"
+      ],
+      "dla człowieka": [
+        "surowiec do produkcji papieru",
+        "produkcja leków",
+        "architektura krajobrazu"
+      ]
+    },
+    "explanation": "W środowisku nagonasienne zapewniają schronienie, tlen i regulują wodę. Człowiek wykorzystuje ich drewno, właściwości lecznicze i walory ozdobne."
+  },
+  {
+    "id": "R05_NAG_10",
+    "section": "Rośliny nagonasienne",
+    "type": "single_choice",
+    "prompt": "Jak są ułożone igły sosny zwyczajnej opisanej w rozdziale?",
+    "options": [
+      "W pęczkach po dwie",
+      "Pojedynczo po jednej",
+      "W pęczkach po dziesięć",
+      "W okółkach po trzy",
+      "Wyłącznie parami na korzeniu",
+      "Sosna nie ma igieł"
+    ],
+    "answer": 0,
+    "explanation": "Igły sosny zwyczajnej wyrastają w pęczkach po dwie."
+  },
+  {
+    "id": "R05_NAG_11",
+    "section": "Rośliny nagonasienne",
+    "type": "true_false",
+    "prompt": "Modrzew europejski zrzuca igły na zimę.",
+    "options": null,
+    "answer": true,
+    "explanation": "Modrzew ma delikatne, niekłujące igły osadzone w pęczkach i zrzuca je przed zimą."
+  },
+  {
+    "id": "R05_NAG_12",
+    "section": "Rośliny nagonasienne",
+    "type": "riddle",
+    "prompt": "Ta nagonasienna roślina pochodzi z południowo-wschodnich Chin, ma spłaszczone liście zamiast typowych igieł i zrzuca je na zimę. Co to?",
+    "options": null,
+    "answer": "miłorząb dwuklapowy",
+    "altAnswers": [
+      "miłorząb dwuklapowy",
+      "milorzab dwuklapowy",
+      "miłorząb",
+      "milorzab"
+    ],
+    "explanation": "Miłorząb dwuklapowy jest nagonasienny, ale jego liście są spłaszczone i opadają na zimę. W Polsce sadzi się go jako drzewo ozdobne."
+  },
+  {
+    "id": "R05_NAG_13",
+    "section": "Rośliny nagonasienne",
+    "type": "scenario",
+    "prompt": "Dwie sosny rosną w różnych miejscach. Jedna stoi samotnie, druga w gęstym lesie. Które stwierdzenie jest zgodne z rozdziałem?",
+    "options": [
+      "Samotna sosna ma koronę rozwiniętą od niższej wysokości",
+      "Sosna leśna ma koronę zaczynającą się przy ziemi",
+      "Obie muszą mieć identyczny kształt korony",
+      "Sosna samotna nie wytwarza gałęzi",
+      "Sosna leśna nie ma pnia",
+      "Kształt korony nie zależy od miejsca wzrostu"
+    ],
+    "answer": 0,
+    "explanation": "Kształt korony sosny zależy od warunków. Drzewo rosnące samotnie ma rozłożystą koronę, a w lesie korony zaczynają się wyżej, ponieważ drzewa rosną blisko siebie."
   },
   {
     "id": "R05_OKR_01",
-    "section": "Okrytonasienne",
+    "section": "Rośliny okrytonasienne",
     "type": "single_choice",
-    "prompt": "Jak rozdział opisuje rośliny okrytonasienne pod względem liczebności i różnorodności?",
+    "prompt": "Jaka cecha jest typowa dla roślin okrytonasiennych?",
     "options": [
-      "jako najliczniejszą i najbardziej różnorodną grupę roślin",
-      "jako najmniej liczną grupę roślin lądowych",
-      "jako grupę występującą wyłącznie w wodzie",
-      "jako rośliny pozbawione kwiatów",
-      "jako rośliny rozmnażające się wyłącznie przez zarodniki",
-      "jako rośliny bez owoców"
+      "Obecność owocu otaczającego nasiona",
+      "Brak nasion",
+      "Wyłącznie igłowe liście",
+      "Rozmnażanie tylko przez zarodniki",
+      "Brak kwiatów",
+      "Występowanie tylko w wodzie"
     ],
     "answer": 0,
-    "explanation": "Okrytonasienne można spotkać w większości środowisk na Ziemi i są najliczniejszą oraz najbardziej różnorodną grupą roślin."
+    "explanation": "Tkanki owocu otaczają nasiona, dlatego rośliny te nazywa się okrytonasiennymi."
   },
   {
     "id": "R05_OKR_02",
-    "section": "Okrytonasienne",
-    "type": "fill_in",
-    "prompt": "Cechą typową roślin okrytonasiennych jest obecność __________, którego tkanki otaczają __________.",
+    "section": "Rośliny okrytonasienne",
+    "type": "true_false",
+    "prompt": "Rośliny okrytonasienne są najliczniejszą i najbardziej różnorodną grupą roślin.",
     "options": null,
-    "answer": [
-      "owocu",
-      "nasiona"
-    ],
-    "altAnswers": [
-      [
-        "owocu",
-        "owoc"
-      ],
-      [
-        "nasiona",
-        "nasiono"
-      ]
-    ],
-    "image": "r05_grusza_lubin_okrytonasienne.jpg",
-    "explanation": "U okrytonasiennych nasiona są osłonięte przez tkanki owocu."
+    "answer": true,
+    "explanation": "Okrytonasienne występują w większości środowisk na Ziemi i tworzą bardzo liczną, różnorodną grupę."
   },
   {
     "id": "R05_OKR_03",
-    "section": "Okrytonasienne",
+    "section": "Rośliny okrytonasienne",
     "type": "match",
-    "prompt": "Połącz formę morfologiczną okrytonasiennych z opisem.",
+    "prompt": "Połącz formę morfologiczną z jej opisem.",
     "options": null,
     "left": [
       "drzewa",
@@ -705,57 +737,123 @@ const ALL_EXERCISES = [
       "rośliny zielne"
     ],
     "right": [
-      "mają pień i koronę",
+      "mają pień i boczne gałęzie tworzące koronę",
       "mają zdrewniałe łodygi bez wyraźnego pędu głównego",
       "są niskimi krzewami do 60 cm",
-      "mają zielone i wiotkie łodygi"
+      "mają zielone i wiotkie niezdrewniałe łodygi"
     ],
     "answer": {
-      "drzewa": "mają pień i koronę",
+      "drzewa": "mają pień i boczne gałęzie tworzące koronę",
       "krzewy": "mają zdrewniałe łodygi bez wyraźnego pędu głównego",
       "krzewinki": "są niskimi krzewami do 60 cm",
-      "rośliny zielne": "mają zielone i wiotkie łodygi"
+      "rośliny zielne": "mają zielone i wiotkie niezdrewniałe łodygi"
     },
-    "explanation": "Formy morfologiczne dotyczą kształtu i budowy roślin. W rozdziale wyróżniono drzewa, krzewy, krzewinki i rośliny zielne."
+    "explanation": "Formy morfologiczne różnią się budową i stopniem zdrewnienia łodyg oraz obecnością wyraźnego pnia.",
+    "image": "r05_formy_okrytonasiennych.jpg"
   },
   {
     "id": "R05_OKR_04",
-    "section": "Okrytonasienne",
-    "type": "true_false",
-    "prompt": "Krzewinki to niskie krzewy o wysokości do 60 cm.",
+    "section": "Rośliny okrytonasienne",
+    "type": "fill_in",
+    "prompt": "Owoc gruszy zawiera wewnątrz __________, a suche owoce łubinu nazywają się __________.",
     "options": null,
-    "answer": true,
-    "explanation": "Taka definicja krzewinek pojawia się w opisie form morfologicznych roślin okrytonasiennych."
+    "answer": [
+      "nasiona",
+      "strąki"
+    ],
+    "altAnswers": [
+      [
+        "nasiona",
+        "nasiono"
+      ],
+      [
+        "strąki",
+        "strak",
+        "strąk"
+      ]
+    ],
+    "explanation": "Nasiona gruszy są zamknięte w owocu, natomiast owoce łubinu to suche strąki zawierające nasiona."
   },
   {
     "id": "R05_OKR_05",
-    "section": "Okrytonasienne",
-    "type": "single_choice",
-    "prompt": "Jakie owoce ma łubin trwały w przykładzie budowy roślin okrytonasiennych?",
-    "options": [
-      "suche strąki z nasionami",
-      "szyszki z łuskami",
-      "czerwone osnówki",
-      "orzeszki ze skrzydełkiem",
-      "owoce z puchem",
-      "trójgraniaste orzeszki w kolczastej torebce"
+    "section": "Rośliny okrytonasienne",
+    "type": "sort",
+    "prompt": "Przyporządkuj przedstawicieli okrytonasiennych do form morfologicznych.",
+    "options": null,
+    "items": [
+      "dąb szypułkowy",
+      "lipa drobnolistna",
+      "kalina koralowa",
+      "berberys zwyczajny",
+      "wrzos zwyczajny",
+      "borówka brusznica",
+      "pokrzywa zwyczajna",
+      "łubin trwały"
     ],
-    "answer": 0,
-    "image": "r05_grusza_lubin_okrytonasienne.jpg",
-    "explanation": "Na przykładzie łubinu pokazano suche strąki, wewnątrz których znajdują się nasiona."
+    "categories": [
+      "drzewa",
+      "krzewy",
+      "krzewinki",
+      "rośliny zielne"
+    ],
+    "answer": {
+      "drzewa": [
+        "dąb szypułkowy",
+        "lipa drobnolistna"
+      ],
+      "krzewy": [
+        "kalina koralowa",
+        "berberys zwyczajny"
+      ],
+      "krzewinki": [
+        "wrzos zwyczajny",
+        "borówka brusznica"
+      ],
+      "rośliny zielne": [
+        "pokrzywa zwyczajna",
+        "łubin trwały"
+      ]
+    },
+    "explanation": "Dąb i lipa są drzewami, kalina i berberys krzewami, wrzos i borówka brusznica krzewinkami, a pokrzywa i łubin roślinami zielnymi."
   },
   {
     "id": "R05_OKR_06",
-    "section": "Okrytonasienne",
-    "type": "multi_select",
-    "prompt": "Zaznacz organy roślin okrytonasiennych wymienione w podsumowaniu rozdziału.",
+    "section": "Rośliny okrytonasienne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie jest drzewem liściastym opisanym w części o okrytonasiennych: wierzba biała, buk zwyczajny, dąb szypułkowy, klon zwyczajny, lipa drobnolistna, świerk pospolity.",
+    "options": null,
+    "answer": "świerk pospolity",
+    "explanation": "Wierzba, buk, dąb, klon i lipa są drzewami okrytonasiennymi. Świerk jest nagonasienny."
+  },
+  {
+    "id": "R05_OKR_07",
+    "section": "Rośliny okrytonasienne",
+    "type": "single_choice",
+    "prompt": "Które drzewo ma liście dłoniaste, jesienią przebarwiające się na żółto, oraz owoce ze skrzydełkami?",
     "options": [
-      "korzenie",
-      "łodygi",
-      "liście",
-      "kwiaty",
-      "owoce",
-      "chwytniki"
+      "klon zwyczajny",
+      "buk zwyczajny",
+      "wierzba biała",
+      "dąb szypułkowy",
+      "topola osika",
+      "jarząb pospolity"
+    ],
+    "answer": 0,
+    "explanation": "Klon zwyczajny ma dłoniaste liście i charakterystyczne skrzydlaki.",
+    "image": "r05_liscie_i_owoce_drzew.jpg"
+  },
+  {
+    "id": "R05_OKR_08",
+    "section": "Rośliny okrytonasienne",
+    "type": "multi_select",
+    "prompt": "Zaznacz znaczenie roślin okrytonasiennych wymienione w rozdziale.",
+    "options": [
+      "Są składnikiem lasów liściastych i mieszanych",
+      "Produkują tlen",
+      "Regulują gospodarkę wodną",
+      "Dostarczają pokarmu ludziom i zwierzętom",
+      "Mogą poprawiać jakość powietrza w mieście",
+      "Wszystkie zachowują liście zimą"
     ],
     "answer": [
       0,
@@ -764,521 +862,309 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Okrytonasienne są organowcami. W ich budowie można wyróżnić korzenie, łodygi, liście, kwiaty i owoce."
+    "explanation": "Okrytonasienne budują lasy, produkują tlen, wpływają na wodę, są pokarmem i ograniczają zanieczyszczenie powietrza. Wiele gatunków zrzuca liście na zimę."
   },
   {
-    "id": "R05_OKR_07",
-    "section": "Okrytonasienne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: wierzba biała, buk zwyczajny, klon zwyczajny, świerk pospolity.",
+    "id": "R05_OKR_09",
+    "section": "Rośliny okrytonasienne",
+    "type": "scenario",
+    "prompt": "W doświadczeniu trzy nasiona fasoli leżą na gazie dotykającej wody, a trzy na suchej gazie. Po kilku dniach kiełkują tylko nasiona mające dostęp do wody. Jaki wniosek jest poprawny?",
+    "options": [
+      "Woda jest potrzebna do kiełkowania nasion fasoli",
+      "Woda zatrzymuje kiełkowanie",
+      "Nasiona kiełkują wyłącznie bez wody",
+      "Światło jest jedynym badanym czynnikiem",
+      "Fasola rozmnaża się przez zarodniki",
+      "Sucha gaza dostarcza więcej wody"
+    ],
+    "answer": 0,
+    "explanation": "Porównanie próby badawczej i kontrolnej pokazuje, że obecność wody jest konieczna do kiełkowania nasion fasoli.",
+    "image": "r05_kielkowanie_fasoli.jpg"
+  },
+  {
+    "id": "R05_OKR_10",
+    "section": "Rośliny okrytonasienne",
+    "type": "sequence",
+    "prompt": "Ułóż czynności w doświadczeniu badającym wpływ wody na kiełkowanie fasoli.",
     "options": null,
-    "answer": "świerk pospolity",
-    "explanation": "Wierzba, buk i klon to przedstawiciele polskich drzew liściastych, czyli okrytonasiennych. Świerk jest nagonasienny."
+    "items": [
+      "Prowadzenie obserwacji przez siedem dni",
+      "Umieszczenie nasion na suchej gazie w próbie kontrolnej",
+      "Przymocowanie gazy do dwóch słoików",
+      "Umieszczenie nasion na wilgotnej gazie w próbie badawczej"
+    ],
+    "answer": [
+      "Przymocowanie gazy do dwóch słoików",
+      "Umieszczenie nasion na wilgotnej gazie w próbie badawczej",
+      "Umieszczenie nasion na suchej gazie w próbie kontrolnej",
+      "Prowadzenie obserwacji przez siedem dni"
+    ],
+    "explanation": "Najpierw przygotowuje się dwa podobne zestawy, następnie różnicuje dostęp do wody i przez siedem dni porównuje kiełkowanie nasion.",
+    "image": "r05_kielkowanie_fasoli.jpg"
   },
   {
-    "id": "R05_OKR_08",
-    "section": "Okrytonasienne",
+    "id": "R05_OKR_11",
+    "section": "Rośliny okrytonasienne",
     "type": "match",
-    "prompt": "Połącz drzewo liściaste z cechą podaną w rozdziale.",
+    "prompt": "Połącz drzewo z cechą liści lub owoców.",
     "options": null,
     "left": [
-      "wierzba biała",
       "lipa drobnolistna",
+      "topola osika",
       "jarząb pospolity",
       "brzoza brodawkowata"
     ],
     "right": [
-      "ma długie wąskie owłosione liście",
-      "ma sercowate liście",
-      "ma czerwone owoce zwane jarzębiną",
-      "ma liście w kształcie rombu"
-    ],
-    "answer": {
-      "wierzba biała": "ma długie wąskie owłosione liście",
-      "lipa drobnolistna": "ma sercowate liście",
-      "jarząb pospolity": "ma czerwone owoce zwane jarzębiną",
-      "brzoza brodawkowata": "ma liście w kształcie rombu"
-    },
-    "image": "r05_drzewa_lisciaste_liscie_owoce.jpg",
-    "explanation": "Rozdział przedstawia polskie drzewa liściaste i ich rozpoznawalne liście lub owoce."
-  },
-  {
-    "id": "R05_OKR_09",
-    "section": "Okrytonasienne",
-    "type": "scenario",
-    "prompt": "Miasto sadzi drzewa i krzewy przy ulicy. Który opis najlepiej oddaje znaczenie takich roślin podane w rozdziale?",
-    "options": [
-      "zmniejszają zanieczyszczenie powietrza pyłami i obniżają temperaturę latem",
-      "zawsze wytwarzają szyszki z nagimi nasionami",
-      "powodują brak gleby przez zrzucanie liści",
-      "nie mają znaczenia dla gospodarki wodnej",
-      "nie prowadzą fotosyntezy",
-      "służą tylko jako ozdoba"
-    ],
-    "answer": 0,
-    "explanation": "W rozdziale wskazano, że miejskie drzewa i krzewy ograniczają pyły i wpływają na niższą temperaturę powietrza latem."
-  },
-  {
-    "id": "R05_OKR_10",
-    "section": "Okrytonasienne",
-    "type": "sort",
-    "prompt": "Przyporządkuj cechy do drzew liściastych.",
-    "options": null,
-    "items": [
-      "dłoniaste liście i owoce ze skrzydełkami",
       "sercowate liście i małe orzeszki ze skrzydełkiem",
-      "liście złożone pierzasto i czerwone owoce",
-      "liście w kształcie rombu i drobne orzeszki ze skrzydełkami"
-    ],
-    "categories": [
-      "klon zwyczajny",
-      "lipa drobnolistna",
-      "jarząb pospolity",
-      "brzoza brodawkowata"
+      "prawie okrągłe liście i owoce z puchem",
+      "pierzasto złożone liście i czerwone owoce",
+      "rombowe liście i drobne orzeszki ze skrzydełkami"
     ],
     "answer": {
-      "klon zwyczajny": [
-        "dłoniaste liście i owoce ze skrzydełkami"
-      ],
-      "lipa drobnolistna": [
-        "sercowate liście i małe orzeszki ze skrzydełkiem"
-      ],
-      "jarząb pospolity": [
-        "liście złożone pierzasto i czerwone owoce"
-      ],
-      "brzoza brodawkowata": [
-        "liście w kształcie rombu i drobne orzeszki ze skrzydełkami"
-      ]
+      "lipa drobnolistna": "sercowate liście i małe orzeszki ze skrzydełkiem",
+      "topola osika": "prawie okrągłe liście i owoce z puchem",
+      "jarząb pospolity": "pierzasto złożone liście i czerwone owoce",
+      "brzoza brodawkowata": "rombowe liście i drobne orzeszki ze skrzydełkami"
     },
-    "image": "r05_drzewa_lisciaste_liscie_owoce.jpg",
-    "explanation": "Cechy liści i owoców pomagają odróżniać przedstawicieli drzew liściastych."
-  },
-  {
-    "id": "R05_OKR_11",
-    "section": "Okrytonasienne",
-    "type": "scenario",
-    "prompt": "W doświadczeniu trzy nasiona fasoli leżą na gazie nad wodą, a trzy na takiej samej gazie bez dostępu do wody. Po 7 dniach kiełkują tylko nasiona z wodą. Jaki wniosek wynika z doświadczenia?",
-    "options": [
-      "woda jest konieczna do kiełkowania nasion fasoli",
-      "światło jest jedynym warunkiem kiełkowania",
-      "brak wody przyspiesza kiełkowanie",
-      "fasola kiełkuje tylko w ziemi",
-      "nasiona nie reagują na warunki otoczenia",
-      "gaza uniemożliwia kiełkowanie"
-    ],
-    "answer": 0,
-    "image": "r05_kielkowanie_fasoli.jpg",
-    "explanation": "Hipoteza doświadczenia zakłada, że woda jest konieczna do procesu kiełkowania nasion fasoli."
+    "explanation": "Opis kształtu liści i rodzaju owoców pozwala rozpoznawać pospolite polskie drzewa liściaste.",
+    "image": "r05_liscie_i_owoce_drzew.jpg"
   },
   {
     "id": "R05_OKR_12",
-    "section": "Okrytonasienne",
-    "type": "sequence",
-    "prompt": "Ułóż etapy doświadczenia z kiełkowaniem nasion fasoli w poprawnej kolejności.",
+    "section": "Rośliny okrytonasienne",
+    "type": "riddle",
+    "prompt": "Mam liście z wycięciami, a moje owoce są potocznie nazywane żołędziami. Jakim drzewem jestem?",
     "options": null,
-    "items": [
-      "Umieść po trzy nasiona fasoli na gazie w każdym słoiku",
-      "Przymocuj gazę do obu słoików",
-      "Przez 7 dni obserwuj nasiona",
-      "W jednym słoiku utrzymuj wodę sięgającą do gazy"
+    "answer": "dąb szypułkowy",
+    "altAnswers": [
+      "dąb szypułkowy",
+      "dab szypulkowy",
+      "dąb",
+      "dab"
     ],
-    "answer": [
-      "Przymocuj gazę do obu słoików",
-      "W jednym słoiku utrzymuj wodę sięgającą do gazy",
-      "Umieść po trzy nasiona fasoli na gazie w każdym słoiku",
-      "Przez 7 dni obserwuj nasiona"
-    ],
-    "image": "r05_kielkowanie_fasoli.jpg",
-    "explanation": "Najpierw przygotowuje się słoiki z gazą, następnie tworzy próbę z wodą i próbę kontrolną, umieszcza nasiona i prowadzi obserwację przez 7 dni."
+    "explanation": "Dąb szypułkowy ma liście z wycięciami i wytwarza owoce nazywane żołędziami."
   },
   {
-    "id": "R05_POR_01",
-    "section": "Porównanie grup roślin",
-    "type": "sort",
-    "prompt": "Przyporządkuj grupy roślin do sposobu rozmnażania omawianego w rozdziale.",
-    "options": null,
-    "items": [
-      "mchy",
-      "paprociowe",
-      "widłakowe",
-      "skrzypowe",
-      "nagonasienne",
-      "okrytonasienne"
-    ],
-    "categories": [
-      "rozmnażanie przez zarodniki",
-      "rozmnażanie przez nasiona"
-    ],
-    "answer": {
-      "rozmnażanie przez zarodniki": [
-        "mchy",
-        "paprociowe",
-        "widłakowe",
-        "skrzypowe"
-      ],
-      "rozmnażanie przez nasiona": [
-        "nagonasienne",
-        "okrytonasienne"
-      ]
-    },
-    "explanation": "Mchy oraz paprociowe, widłakowe i skrzypowe rozmnażają się przez zarodniki. Nagonasienne i okrytonasienne są roślinami nasiennymi."
-  },
-  {
-    "id": "R05_POR_02",
-    "section": "Porównanie grup roślin",
-    "type": "multi_select",
-    "prompt": "Zaznacz grupy, które w rozdziale opisano jako organowce.",
-    "options": [
-      "mchy",
-      "paprociowe",
-      "widłakowe",
-      "skrzypowe",
-      "nagonasienne",
-      "okrytonasienne"
-    ],
-    "answer": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "explanation": "Mchy nie mają organów. Paprociowe, widłakowe, skrzypowe, nagonasienne i okrytonasienne mają organy."
-  },
-  {
-    "id": "R05_POR_03",
-    "section": "Porównanie grup roślin",
+    "id": "R05_OKR_13",
+    "section": "Rośliny okrytonasienne",
     "type": "true_false",
-    "prompt": "Mchy nie są organowcami, ponieważ chwytniki, łodyżka i listki nie są prawdziwymi organami.",
+    "prompt": "Drzewa i krzewy w mieście mogą zmniejszać zapylenie powietrza i obniżać temperaturę latem.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale zwrócono uwagę, że w przypadku mchów używa się określeń łodyżka i listki, bo ich budowa jest inna niż budowa łodyg i liści organowców."
+    "explanation": "Roślinność miejska zatrzymuje pyły, poprawia jakość powietrza i pomaga obniżać temperaturę podczas lata."
   },
   {
-    "id": "R05_POR_04",
-    "section": "Porównanie grup roślin",
+    "id": "R05_HARD_01",
+    "section": "Super trudne",
+    "type": "multi_select",
+    "prompt": "Zaznacz cechy, które według podsumowania odróżniają typowe okrytonasienne od typowych nagonasiennych.",
+    "options": [
+      "Nasiona okryte owocnią",
+      "Obecność owoców",
+      "Często barwny okwiat i owadopylność",
+      "Wyłącznie igłowe liście",
+      "Brak korzeni",
+      "Występowanie również jako rośliny zielne"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "explanation": "Okrytonasienne mają nasiona zamknięte w owocach, mogą być owadopylne i często mają barwny okwiat. Występują jako drzewa, krzewy, krzewinki i rośliny zielne."
+  },
+  {
+    "id": "R05_HARD_02",
+    "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz pojęcie ze znaczeniem.",
+    "prompt": "Połącz strukturę z grupą roślin, dla której jest charakterystyczna w tym rozdziale.",
     "options": null,
     "left": [
       "chwytniki",
       "kłącze",
       "szyszka",
-      "owoc",
-      "zarodnia"
+      "owoc"
     ],
     "right": [
-      "mocują mchy w podłożu",
-      "jest wieloletnim podziemnym pędem",
-      "jest zdrewniałym kwiatostanem iglastych",
-      "otacza nasiona u okrytonasiennych",
-      "w niej powstają zarodniki"
-    ],
-    "answer": {
-      "chwytniki": "mocują mchy w podłożu",
-      "kłącze": "jest wieloletnim podziemnym pędem",
-      "szyszka": "jest zdrewniałym kwiatostanem iglastych",
-      "owoc": "otacza nasiona u okrytonasiennych",
-      "zarodnia": "w niej powstają zarodniki"
-    },
-    "image": "r05_porownanie_nasion.jpg",
-    "explanation": "Te pojęcia porządkują różnice między grupami roślin omawianymi w rozdziale."
-  },
-  {
-    "id": "R05_POR_05",
-    "section": "Porównanie grup roślin",
-    "type": "fill_in",
-    "prompt": "Nasiona nagonasiennych są __________, a nasiona okrytonasiennych są __________ owocnią.",
-    "options": null,
-    "answer": [
-      "nieosłonięte",
-      "okryte"
-    ],
-    "altAnswers": [
-      [
-        "nieosłonięte",
-        "nieosloniete",
-        "nagie"
-      ],
-      [
-        "okryte",
-        "osłonięte",
-        "osloniete"
-      ]
-    ],
-    "explanation": "Nagonasienne mają nasiona niczym nieosłonięte, a u okrytonasiennych nasiona znajdują się w owocu."
-  },
-  {
-    "id": "R05_POR_06",
-    "section": "Porównanie grup roślin",
-    "type": "single_choice",
-    "prompt": "Która cecha odróżnia rośliny nagonasienne od okrytonasiennych?",
-    "options": [
-      "obecność lub brak owocu osłaniającego nasiona",
-      "obecność korzeni u wszystkich okazów",
-      "prowadzenie fotosyntezy",
-      "występowanie w środowisku lądowym",
-      "pobieranie wody z podłoża",
-      "obecność łodygi u każdej grupy roślin"
-    ],
-    "answer": 0,
-    "image": "r05_porownanie_nasion.jpg",
-    "explanation": "U nagonasiennych nasiona nie są osłonięte, a u okrytonasiennych znajdują się w owocu."
-  },
-  {
-    "id": "R05_POR_07",
-    "section": "Porównanie grup roślin",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: zarodnik, zarodnia, kupki zarodni, owoc.",
-    "options": null,
-    "answer": "owoc",
-    "explanation": "Zarodnik, zarodnia i kupki zarodni wiążą się z rozmnażaniem przez zarodniki. Owoc jest cechą okrytonasiennych."
-  },
-  {
-    "id": "R05_POR_08",
-    "section": "Porównanie grup roślin",
-    "type": "scenario",
-    "prompt": "Uczennica widzi roślinę z kwiatami oraz owocem, w którego wnętrzu są nasiona. Do której grupy powinna ją zaliczyć?",
-    "options": [
-      "okrytonasiennych",
-      "nagonasiennych",
-      "mchów",
-      "widłakowych",
-      "skrzypowych",
-      "paprociowych"
-    ],
-    "answer": 0,
-    "explanation": "Obecność owocu z nasionami wewnątrz jest typową cechą roślin okrytonasiennych."
-  },
-  {
-    "id": "R05_POR_09",
-    "section": "Porównanie grup roślin",
-    "type": "sort",
-    "prompt": "Przyporządkuj elementy budowy do grup roślin.",
-    "options": null,
-    "items": [
-      "chwytniki",
-      "listki",
-      "kłącze",
-      "kupki zarodni",
-      "igły",
-      "szyszki",
-      "owoce",
-      "kwiaty łubinu"
-    ],
-    "categories": [
       "mchy",
-      "paprocie",
-      "nagonasienne",
-      "okrytonasienne"
+      "paprocie i skrzypy",
+      "rośliny nagonasienne",
+      "rośliny okrytonasienne"
     ],
     "answer": {
-      "mchy": [
-        "chwytniki",
-        "listki"
-      ],
-      "paprocie": [
-        "kłącze",
-        "kupki zarodni"
-      ],
-      "nagonasienne": [
-        "igły",
-        "szyszki"
-      ],
-      "okrytonasienne": [
-        "owoce",
-        "kwiaty łubinu"
-      ]
+      "chwytniki": "mchy",
+      "kłącze": "paprocie i skrzypy",
+      "szyszka": "rośliny nagonasienne",
+      "owoc": "rośliny okrytonasienne"
     },
-    "explanation": "Elementy budowy pozwalają rozpoznać, do której grupy należy roślina."
-  },
-  {
-    "id": "R05_POR_10",
-    "section": "Porównanie grup roślin",
-    "type": "true_false",
-    "prompt": "Rośliny nagonasienne tworzą owoce, w których znajdują się nasiona.",
-    "options": null,
-    "answer": false,
-    "explanation": "Owoce są typowe dla okrytonasiennych. U nagonasiennych nasiona nie są okryte owocnią."
-  },
-  {
-    "id": "R05_POR_11",
-    "section": "Porównanie grup roślin",
-    "type": "riddle",
-    "prompt": "Struktura, w której powstają zarodniki u mchów, paproci, widłaków i skrzypów, to...",
-    "options": null,
-    "answer": "zarodnia",
-    "altAnswers": [
-      "zarodnia",
-      "zarodni"
-    ],
-    "explanation": "Zarodnia występuje u roślin rozmnażających się przez zarodniki i jest miejscem ich powstawania."
-  },
-  {
-    "id": "R05_POR_12",
-    "section": "Porównanie grup roślin",
-    "type": "multi_select",
-    "prompt": "Zaznacz znaczenie wspólne lub podobne dla roślin nagonasiennych i okrytonasiennych opisane w rozdziale.",
-    "options": [
-      "są składnikami lasów",
-      "są źródłem tlenu",
-      "wpływają na gospodarkę wodną",
-      "dostarczają drewna",
-      "mogą mieć zastosowanie w ogrodnictwie",
-      "rozmnażają się przez zarodniki"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
-    "explanation": "Dla obu grup opisano znaczenie w lasach, produkcji tlenu, gospodarce wodnej oraz wykorzystanie przez człowieka. Rozmnażanie przez zarodniki dotyczy innych grup roślin."
-  },
-  {
-    "id": "R05_HARD_01",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "Bloger napisał o mchu: ma łodygę i liście. Zosia poprawia go po lekcji. Która odpowiedź najlepiej uzasadnia poprawkę?",
-    "options": [
-      "U mchów używa się określeń łodyżka i listki, bo nie są to prawdziwe organy",
-      "Mchy nie mają żadnych części zielonych",
-      "Mchy są zawsze roślinami nasiennymi",
-      "Mchy mają owoce, ale nie mają listków",
-      "Mchy mają tylko korzenie",
-      "Mchy są grzybami"
-    ],
-    "answer": 0,
-    "image": "r05_budowa_mchu_plonnika.jpg",
-    "explanation": "Rozdział wyraźnie odróżnia łodyżkę i listki mchów od łodyg i liści organowców."
-  },
-  {
-    "id": "R05_HARD_02",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "U dorosłego torfowca dolne części łodyżek __________, a ze szczątków mchów może powstawać __________.",
-    "options": null,
-    "answer": [
-      "zamierają",
-      "torf"
-    ],
-    "altAnswers": [
-      [
-        "zamierają",
-        "obumierają"
-      ],
-      [
-        "torf"
-      ]
-    ],
-    "image": "r05_torfowiec_torfowisko.jpg",
-    "explanation": "Torfowiec ma specyficzną budowę: dorosłe osobniki nie mają chwytników, dolne części łodyżek zamierają, a szczątki mchów przekształcają się w torf."
+    "explanation": "Mchy mają chwytniki, paprocie i skrzypy podziemne kłącza, u nagonasiennych występują szyszki, a owoc jest cechą okrytonasiennych."
   },
   {
     "id": "R05_HARD_03",
     "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Który przedstawiciel mchów z rozdziału występuje w jeziorach, stawach i rzekach?",
-    "options": [
-      "zdrojek pospolity",
-      "torfowiec błotny",
-      "płonnik pospolity",
-      "widłoząb miotłasty",
-      "nerecznica samcza",
-      "salwinia pływająca"
+    "type": "sequence",
+    "prompt": "Ułóż grupy według podanych cech: od roślin bez właściwych organów i nasion do roślin mających nasiona zamknięte w owocach.",
+    "options": null,
+    "items": [
+      "rośliny okrytonasienne",
+      "mchy",
+      "rośliny nagonasienne",
+      "paprociowe, widłakowe i skrzypowe"
     ],
-    "answer": 0,
-    "explanation": "Zdrojek pospolity opisano jako mech słodkowodny występujący w jeziorach, stawach i rzekach."
+    "answer": [
+      "mchy",
+      "paprociowe, widłakowe i skrzypowe",
+      "rośliny nagonasienne",
+      "rośliny okrytonasienne"
+    ],
+    "explanation": "Mchy nie mają właściwych organów ani nasion. Paprotniki mają organy, lecz rozmnażają się przez zarodniki. Nagonasienne tworzą nieosłonięte nasiona, a okrytonasienne zamykają nasiona w owocach."
   },
   {
     "id": "R05_HARD_04",
     "section": "Super trudne",
-    "type": "riddle",
-    "prompt": "Brązowe skupiska na spodniej stronie liścia paproci, w których znajdują się zarodnie, to...",
-    "options": null,
-    "answer": "kupki zarodni",
-    "altAnswers": [
-      "kupki zarodni",
-      "kupka zarodni"
+    "type": "single_choice",
+    "prompt": "Który przedstawiciel nagonasiennych opisany w rozdziale osiąga wysokość do 45 m i zrzuca igły na zimę?",
+    "options": [
+      "modrzew europejski",
+      "sosna zwyczajna",
+      "świerk pospolity",
+      "jodła pospolita",
+      "cis pospolity",
+      "miłorząb dwuklapowy"
     ],
-    "image": "r05_lisc_paproci_kupki_zarodni.jpg",
-    "explanation": "W obserwacji liścia paproci uczeń ogląda kupki zarodni znajdujące się po spodniej stronie liścia."
+    "answer": 0,
+    "explanation": "Modrzew europejski osiąga do 45 m, ma delikatne igły w pęczkach i zrzuca je na zimę.",
+    "image": "r05_przedstawiciele_nagonasiennych.jpg"
   },
   {
     "id": "R05_HARD_05",
     "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz element skrzypu polnego z opisem.",
+    "type": "fill_in",
+    "prompt": "Ponad __________ milionów lat temu, w okresie __________, ze szczątków wielkich paprociowych, widłakowych i skrzypowych zaczęły powstawać złoża węgla kamiennego.",
     "options": null,
-    "left": [
-      "pęd wiosenny",
-      "pęd letni",
-      "liście skrzypu",
-      "korzenie skrzypu"
+    "answer": [
+      "300",
+      "karbonu"
     ],
-    "right": [
-      "jest brunatny i wytwarza zarodnie",
-      "jest zielony i prowadzi fotosyntezę",
-      "są zredukowane i wyglądają jak małe łuski",
-      "wyrastają z kłącza"
+    "altAnswers": [
+      [
+        "300",
+        "ponad 300"
+      ],
+      [
+        "karbonu",
+        "karbon"
+      ]
     ],
-    "answer": {
-      "pęd wiosenny": "jest brunatny i wytwarza zarodnie",
-      "pęd letni": "jest zielony i prowadzi fotosyntezę",
-      "liście skrzypu": "są zredukowane i wyglądają jak małe łuski",
-      "korzenie skrzypu": "wyrastają z kłącza"
-    },
-    "image": "r05_budowa_skrzypu_polnego.jpg",
-    "explanation": "Skrzyp polny ma dwa rodzaje pędów oraz kłącze, z którego wyrastają korzenie."
+    "explanation": "W karbonie, ponad 300 milionów lat temu, dominowały duże rośliny zarodnikowe. Z ich szczątków powstały złoża węgla kamiennego.",
+    "image": "r05_rosliny_karbonu.jpg"
   },
   {
     "id": "R05_HARD_06",
     "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "W szyszce sosny po zapłodnieniu zachodzi zmiana. Co dzieje się z kwiatostanem żeńskim?",
-    "options": [
-      "rośnie i drewnieje, a w nim rozwijają się nasiona",
-      "zanika i tworzy kupki zarodni",
-      "zmienia się w zielny pęd letni",
-      "wytwarza chwytniki",
-      "tworzy owoc gruszy",
-      "odpada przed powstaniem nasion"
-    ],
-    "answer": 0,
-    "image": "r05_sosna_szyszka_nasiona.jpg",
-    "explanation": "Po zapłodnieniu komórek jajowych kwiatostan żeński sosny rośnie i drewnieje, a w nim rozwijają się nasiona."
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie jest związany z rozmnażaniem przez zarodniki: zarodnia, zarodnik, kupka zarodni, kłos zarodni, owoc.",
+    "options": null,
+    "answer": "owoc",
+    "explanation": "Zarodnie, zarodniki, kupki zarodni i kłosy zarodni dotyczą rozmnażania mchów lub paprotników. Owoc otacza nasiona roślin okrytonasiennych."
   },
   {
     "id": "R05_HARD_07",
     "section": "Super trudne",
-    "type": "true_false",
-    "prompt": "Miłorząb dwuklapowy jest rośliną nagonasienną, mimo że jego liście nie mają kształtu igieł i opadają na zimę.",
-    "options": null,
-    "answer": true,
-    "explanation": "Rozdział przedstawia miłorząb jako niezwykłego przedstawiciela nagonasiennych, ponieważ ma spłaszczone liście opadające na zimę."
+    "type": "scenario",
+    "prompt": "Badana roślina nie ma właściwych korzeni, łodyg ani liści. Przytwierdza się chwytnikami, wytwarza zarodniki i może jako pierwsza zasiedlić nagą skałę. Do której grupy należy?",
+    "options": [
+      "mchy",
+      "paprocie",
+      "widłaki",
+      "skrzypy",
+      "nagonasienne",
+      "okrytonasienne"
+    ],
+    "answer": 0,
+    "explanation": "Zestaw cech: chwytniki, brak właściwych organów, zarodniki i pionierski tryb życia wskazuje na mchy."
   },
   {
     "id": "R05_HARD_08",
     "section": "Super trudne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: świerk pospolity, jodła pospolita, modrzew europejski, torfowiec błotny.",
+    "type": "sort",
+    "prompt": "Przyporządkuj elementy rozmnażania do roślin zarodnikowych i nasiennych.",
     "options": null,
-    "answer": "torfowiec błotny",
-    "explanation": "Świerk, jodła i modrzew to rośliny nagonasienne. Torfowiec błotny jest mchem."
+    "items": [
+      "zarodnia mchu",
+      "kupki zarodni paproci",
+      "kłos zarodni skrzypu",
+      "nasiona na łuskach szyszki",
+      "nasiona w owocu",
+      "pyłek sosny"
+    ],
+    "categories": [
+      "rośliny zarodnikowe",
+      "rośliny nasienne"
+    ],
+    "answer": {
+      "rośliny zarodnikowe": [
+        "zarodnia mchu",
+        "kupki zarodni paproci",
+        "kłos zarodni skrzypu"
+      ],
+      "rośliny nasienne": [
+        "nasiona na łuskach szyszki",
+        "nasiona w owocu",
+        "pyłek sosny"
+      ]
+    },
+    "explanation": "Mchy, paprocie i skrzypy wytwarzają zarodniki. Nagonasienne i okrytonasienne tworzą nasiona, a u sosny w rozmnażaniu uczestniczy pyłek."
   },
   {
     "id": "R05_HARD_09",
     "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Listek i łodyżka mchu nie mają tkanek przewodzących.",
+    "options": null,
+    "answer": true,
+    "explanation": "Zgodnie ze słowniczkiem pojęć listek i łodyżka mchu są odpowiednikami liścia i łodygi, ale nie zawierają tkanek przewodzących."
+  },
+  {
+    "id": "R05_HARD_10",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz drzewo z dokładnym opisem owocu podanym w rozdziale.",
+    "options": null,
+    "left": [
+      "buk zwyczajny",
+      "dąb szypułkowy",
+      "wierzba biała",
+      "klon zwyczajny"
+    ],
+    "right": [
+      "trójgraniaste orzeszki w kolczastej torebce",
+      "żołędzie",
+      "owoce z puchem rozsiewane przez wiatr",
+      "owoce z charakterystycznymi skrzydełkami"
+    ],
+    "answer": {
+      "buk zwyczajny": "trójgraniaste orzeszki w kolczastej torebce",
+      "dąb szypułkowy": "żołędzie",
+      "wierzba biała": "owoce z puchem rozsiewane przez wiatr",
+      "klon zwyczajny": "owoce z charakterystycznymi skrzydełkami"
+    },
+    "explanation": "Różnice w budowie owoców są ważną cechą rozpoznawczą drzew liściastych.",
+    "image": "r05_liscie_i_owoce_drzew.jpg"
+  },
+  {
+    "id": "R05_HARD_11",
+    "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz prawdziwe informacje z porównania gruszy i łubinu w rozdziale.",
+    "prompt": "Zaznacz rośliny, których nasiona lub owoce mają opisane w rozdziale przystosowania do rozsiewania przez wiatr.",
     "options": [
-      "grusza jest drzewem",
-      "kwiaty gruszy są pojedyncze",
-      "łubin jest rośliną zielną",
-      "liście łubinu są złożone z wielu małych listków",
-      "owoce łubinu to suche strąki",
-      "grusza tworzy szyszki"
+      "sosna zwyczajna",
+      "wierzba biała",
+      "klon zwyczajny",
+      "topola osika",
+      "brzoza brodawkowata",
+      "jarząb pospolity"
     ],
     "answer": [
       0,
@@ -1287,106 +1173,89 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "image": "r05_grusza_lubin_okrytonasienne.jpg",
-    "explanation": "Schemat budowy okrytonasiennych pokazuje gruszę jako drzewo z pojedynczymi kwiatami oraz łubin jako roślinę zielną z liśćmi złożonymi i suchymi strąkami."
-  },
-  {
-    "id": "R05_HARD_10",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Przyporządkuj cechy nasion i owoców do grup roślin.",
-    "options": null,
-    "items": [
-      "nasiona niczym nieosłonięte",
-      "brak owoców",
-      "nasiona okryte owocnią",
-      "owoce obecne"
-    ],
-    "categories": [
-      "nagonasienne",
-      "okrytonasienne"
-    ],
-    "answer": {
-      "nagonasienne": [
-        "nasiona niczym nieosłonięte",
-        "brak owoców"
-      ],
-      "okrytonasienne": [
-        "nasiona okryte owocnią",
-        "owoce obecne"
-      ]
-    },
-    "image": "r05_porownanie_nasion.jpg",
-    "explanation": "To podstawowa różnica między nagonasiennymi i okrytonasiennymi opisana w podsumowaniu działu."
-  },
-  {
-    "id": "R05_HARD_11",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "Dwie sosny tego samego gatunku mają różny pokrój: jedna rośnie samotnie, druga w gęstym lesie. Dlaczego sosna leśna ma koronę zaczynającą się wyżej i bardziej zwartą?",
-    "options": [
-      "konkuruje z innymi drzewami o dostęp do światła",
-      "nie ma igieł w miesiącach zimowych",
-      "wytwarza owoce z nasionami",
-      "należy do roślin zielnych",
-      "nie prowadzi fotosyntezy",
-      "rośnie zawsze na torfowisku"
-    ],
-    "answer": 0,
-    "explanation": "W lesie sosny rosną blisko siebie i konkurują o światło, dlatego ich korony zaczynają się na znacznej wysokości i mają zwarty pokrój."
+    "explanation": "Sosna ma nasiona ze skrzydełkiem; wierzba i topola owoce z puchem; klon i brzoza owoce ze skrzydełkami. Jarząb ma czerwone owoce, ale w tym rozdziale nie opisano ich jako wiatrosiewnych.",
+    "image": "r05_liscie_i_owoce_drzew.jpg"
   },
   {
     "id": "R05_HARD_12",
     "section": "Super trudne",
-    "type": "sequence",
-    "prompt": "Ułóż zdarzenia prowadzące do powstania złóż węgla kamiennego według opisu z rozdziału.",
+    "type": "riddle",
+    "prompt": "Powstaję z obumarłych szczątków roślinnych, głównie mchów, a człowiek wykorzystuje mnie między innymi w kosmetyce i jako opał. Co to?",
     "options": null,
-    "items": [
-      "ze szczątków roślin powstały złoża węgla kamiennego",
-      "ponad 300 mln lat temu na lądzie dominowały paprociowe, widłakowe i skrzypowe",
-      "niektóre dawne gatunki miały pokrój drzewiasty",
-      "szczątki tych roślin gromadziły się w środowisku"
+    "answer": "torf",
+    "altAnswers": [
+      "torf"
     ],
-    "answer": [
-      "ponad 300 mln lat temu na lądzie dominowały paprociowe, widłakowe i skrzypowe",
-      "niektóre dawne gatunki miały pokrój drzewiasty",
-      "szczątki tych roślin gromadziły się w środowisku",
-      "ze szczątków roślin powstały złoża węgla kamiennego"
+    "explanation": "Torf powstaje przede wszystkim ze szczątków mchów, zwłaszcza torfowców, na podmokłych terenach.",
+    "image": "r05_torfowiec_blotny.jpg"
+  },
+  {
+    "id": "R05_HARD_13",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Roślina ma podziemne kłącze. Wiosną wyrasta z niego brunatny pęd zakończony kłosem zarodni, a później zielony pęd prowadzący fotosyntezę. Jak nazywa się ta roślina?",
+    "options": [
+      "skrzyp polny",
+      "widłak goździsty",
+      "nerecznica samcza",
+      "płonnik pospolity",
+      "modrzew europejski",
+      "łubin trwały"
     ],
-    "explanation": "Rozdział łączy dawne, często drzewiaste paprociowe, widłakowe i skrzypowe z powstaniem złóż węgla kamiennego."
+    "answer": 0,
+    "explanation": "Dwa rodzaje pędów i podziemne kłącze są charakterystyczne dla skrzypu polnego.",
+    "image": "r05_skrzyp_polny_pedy.jpg"
+  },
+  {
+    "id": "R05_HARD_14",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Po usunięciu dużej liczby drzew z obszaru zmniejsza się pobieranie wody z gleby i jej parowanie z liści lub igieł. Która funkcja roślin została bezpośrednio osłabiona?",
+    "options": [
+      "Regulacja gospodarki wodnej",
+      "Wytwarzanie zarodników",
+      "Tworzenie torfu",
+      "Rozpad szyszek jodły",
+      "Kiełkowanie fasoli",
+      "Powstawanie chwytników"
+    ],
+    "answer": 0,
+    "explanation": "Drzewa pobierają duże ilości wody, która następnie paruje z liści lub igieł. Proces ten pomaga regulować ilość wody w środowisku."
   }
 ];
 
 const KID_PROMPTS = {
-  "R05_MCH_05": "Jak nazywają się wyrostki, które trzymają mech w podłożu?",
-  "R05_PAP_04": "Jak nazywa się podziemna łodyga paproci?",
-  "R05_NAG_08": "Które drzewo iglaste zrzuca igły na zimę?",
-  "R05_OKR_02": "Co otacza nasiona u okrytonasiennych?",
-  "R05_POR_06": "Czym różnią się nasiona nagonasiennych i okrytonasiennych?",
-  "R05_HARD_04": "Jak nazywają się brązowe skupiska na spodzie liścia paproci?"
+  "R05_MCH_02": "Połącz części mchu z tym, do czego służą.",
+  "R05_MCH_09": "Ułóż po kolei doświadczenie z mchem i wodą.",
+  "R05_PAP_04": "Połącz grupę roślin z jej wyglądem.",
+  "R05_PAP_08": "Ułóż, jak z dawnych roślin powstał węgiel.",
+  "R05_NAG_04": "Ułóż, jak u sosny powstają i rozsiewają się nasiona.",
+  "R05_NAG_09": "Podziel znaczenie nagonasiennych na przyrodę i zastosowania człowieka.",
+  "R05_OKR_03": "Połącz formę rośliny z opisem.",
+  "R05_OKR_10": "Ułóż po kolei doświadczenie z fasolą i wodą.",
+  "R05_HARD_03": "Ułóż grupy roślin od najprostszej budowy do nasion w owocu.",
+  "R05_HARD_08": "Podziel elementy na związane z zarodnikami i z nasionami."
 };
 
 const chapter = {
-  "id": "r05",
-  "number": 5,
-  "title": "Mchy, paprotniki, nagonasienne, okrytonasienne",
-  "icon": "🌿",
-  "sectionOrder": [
+  id: "r05",
+  number: 5,
+  title: "Mchy, paprotniki, nagonasienne, okrytonasienne",
+  icon: "🌿",
+  sectionOrder: [
     "Mchy",
     "Paprociowe, widłakowe i skrzypowe",
-    "Nagonasienne",
-    "Okrytonasienne",
-    "Porównanie grup roślin"
+    "Rośliny nagonasienne",
+    "Rośliny okrytonasienne"
   ],
-  "sectionIcons": {
+  sectionIcons: {
     "Mchy": "🌿",
     "Paprociowe, widłakowe i skrzypowe": "🌱",
-    "Nagonasienne": "🌲",
-    "Okrytonasienne": "🌸",
-    "Porównanie grup roślin": "🔍"
+    "Rośliny nagonasienne": "🌲",
+    "Rośliny okrytonasienne": "🌸"
   },
-  "exercises": ALL_EXERCISES,
-  "kidPrompts": KID_PROMPTS
+  exercises: ALL_EXERCISES,
+  kidPrompts: KID_PROMPTS
 };
 
 export default chapter;

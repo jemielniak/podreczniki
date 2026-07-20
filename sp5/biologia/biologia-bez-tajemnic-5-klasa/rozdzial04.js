@@ -1,406 +1,755 @@
+// Skróty sekcji (do identyfikatorów ćwiczeń):
+//   TKA  = Tkanki roślinne
+//   FUN  = Budowa i funkcje tkanek
+//   ORG  = Korzeń, łodyga i liść
+//   MOD  = Modyfikacje organów
+//   KNO  = Kwiat, nasiono i owoc
+//   HARD = Super trudne
+
 const ALL_EXERCISES = [
   {
-    "id": "R04_TKANKI_01",
-    "section": "Czym są tkanki roślinne?",
+    "id": "R04_TKA_01",
+    "section": "Tkanki roślinne",
     "type": "single_choice",
-    "prompt": "Co to jest tkanka?",
+    "prompt": "Czym jest tkanka?",
     "options": [
-      "zespół podobnych komórek pełniących tę samą funkcję",
-      "pojedyncza komórka liścia",
-      "cała roślina",
-      "tylko część korzenia"
+      "Zespołem komórek o podobnej budowie pełniących te same funkcje",
+      "Pojedynczą komórką zdolną do fotosyntezy",
+      "Zespołem wszystkich organów rośliny",
+      "Częścią rośliny występującą tylko w korzeniu",
+      "Warstwą substancji zapasowych",
+      "Układem korzeni bocznych"
     ],
     "answer": 0,
-    "explanation": "Tkanka to zespół komórek o podobnej budowie, które wykonują tę samą funkcję."
+    "explanation": "Tkanka to zespół komórek o podobnej budowie, które pełnią te same funkcje w organizmie.",
+    "image": "r04_hierarchia_budowy_rosliny.jpg"
   },
   {
-    "id": "R04_TKANKI_02",
-    "section": "Czym są tkanki roślinne?",
-    "type": "true_false",
-    "prompt": "Mchy nie mają wszystkich typowych tkanek roślinnych.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. W rozdziale podano, że mchy są wyjątkiem i nie mają wszystkich typowych tkanek roślinnych."
-  },
-  {
-    "id": "R04_TKANKI_03",
-    "section": "Czym są tkanki roślinne?",
+    "id": "R04_TKA_02",
+    "section": "Tkanki roślinne",
     "type": "sequence",
-    "prompt": "Ułóż poziomy budowy rośliny od najmniejszego do największego.",
+    "prompt": "Ułóż poziomy organizacji rośliny od najmniejszego do największego.",
     "options": null,
     "items": [
-      "organ",
       "organizm",
+      "tkanka",
+      "system organów",
       "komórka",
-      "tkanka"
+      "organ"
     ],
     "answer": [
       "komórka",
       "tkanka",
       "organ",
+      "system organów",
       "organizm"
     ],
-    "image": "/img/bbt_r04_hierarchiczna_budowa_rosliny.jpg",
-    "explanation": "Najpierw jest komórka. Z komórek powstaje tkanka, z tkanek organ, a z organów cały organizm."
+    "explanation": "Komórki tworzą tkanki, tkanki budują organy, organy mogą tworzyć systemy organów, a wszystkie razem składają się na organizm.",
+    "image": "r04_hierarchia_budowy_rosliny.jpg"
   },
   {
-    "id": "R04_TKANKI_04",
-    "section": "Czym są tkanki roślinne?",
+    "id": "R04_TKA_03",
+    "section": "Tkanki roślinne",
+    "type": "true_false",
+    "prompt": "Mchy mają wszystkie typowe tkanki roślin lądowych.",
+    "options": null,
+    "answer": false,
+    "explanation": "Mchy są wyjątkiem wśród roślin lądowych, ponieważ nie mają wszystkich typowych tkanek roślinnych."
+  },
+  {
+    "id": "R04_TKA_04",
+    "section": "Tkanki roślinne",
     "type": "multi_select",
-    "prompt": "Zaznacz organy rośliny wymienione w rozdziale.",
+    "prompt": "Zaznacz znaczenie tkanek dla roślin lądowych.",
     "options": [
-      "korzeń",
-      "łodyga",
-      "liść",
-      "jądro",
-      "kwiat",
-      "owoc"
+      "Transport wody i substancji odżywczych wewnątrz rośliny",
+      "Ochrona przed niekorzystnymi warunkami otoczenia",
+      "Wytwarzanie gleby wokół korzeni",
+      "Zamiana wszystkich organów w liście",
+      "Utrzymywanie stałej temperatury ciała"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Tkanki umożliwiają sprawny transport substancji w organizmie rośliny oraz chronią ją przed takimi czynnikami jak niedobór wody, wiatr czy skrajne temperatury.",
+    "image": "r04_rozmieszczenie_tkanek.jpg"
+  },
+  {
+    "id": "R04_TKA_05",
+    "section": "Tkanki roślinne",
+    "type": "match",
+    "prompt": "Połącz rodzaj tkanki z jej ogólną rolą.",
+    "options": null,
+    "left": [
+      "tkanka twórcza",
+      "tkanka okrywająca",
+      "tkanka miękiszowa",
+      "tkanka przewodząca",
+      "tkanka wzmacniająca"
+    ],
+    "right": [
+      "umożliwia wzrost rośliny",
+      "chroni przed czynnikami zewnętrznymi",
+      "magazynuje substancje lub prowadzi fotosyntezę",
+      "transportuje substancje",
+      "nadaje sztywność i chroni przed uszkodzeniami"
+    ],
+    "answer": {
+      "tkanka twórcza": "umożliwia wzrost rośliny",
+      "tkanka okrywająca": "chroni przed czynnikami zewnętrznymi",
+      "tkanka miękiszowa": "magazynuje substancje lub prowadzi fotosyntezę",
+      "tkanka przewodząca": "transportuje substancje",
+      "tkanka wzmacniająca": "nadaje sztywność i chroni przed uszkodzeniami"
+    },
+    "explanation": "Każdy rodzaj tkanki ma charakterystyczną funkcję wynikającą z budowy tworzących go komórek.",
+    "image": "r04_rozmieszczenie_tkanek.jpg"
+  },
+  {
+    "id": "R04_TKA_06",
+    "section": "Tkanki roślinne",
+    "type": "fill_in",
+    "prompt": "Tkanki roślinne dzielimy na tkanki __________ i tkanki __________.",
+    "options": null,
+    "answer": [
+      "twórcze",
+      "stałe"
+    ],
+    "altAnswers": [
+      [
+        "twórcze",
+        "twórcza"
+      ],
+      [
+        "stałe",
+        "stała"
+      ]
+    ],
+    "explanation": "Ze względu na budowę i zdolność komórek do podziałów wyróżnia się tkanki twórcze oraz stałe."
+  },
+  {
+    "id": "R04_TKA_07",
+    "section": "Tkanki roślinne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element niebędący tkanką roślinną: tkanka okrywająca, tkanka przewodząca, tkanka wzmacniająca, liść.",
+    "options": null,
+    "answer": "liść",
+    "explanation": "Liść jest organem roślinnym, a pozostałe elementy są rodzajami tkanek."
+  },
+  {
+    "id": "R04_TKA_08",
+    "section": "Tkanki roślinne",
+    "type": "scenario",
+    "prompt": "Roślina została zraniona. W miejscu uszkodzenia powstała tkanka, której komórki intensywnie się dzielą i odbudowują uszkodzone części. Jak nazywa się ta tkanka?",
+    "options": [
+      "kalus",
+      "korek",
+      "łyko",
+      "drewno",
+      "miękisz spichrzowy",
+      "skórka"
+    ],
+    "answer": 0,
+    "explanation": "W miejscu zranienia roślina wytwarza tkankę przyranną, czyli kalus. Jej komórki intensywnie się dzielą."
+  },
+  {
+    "id": "R04_TKA_09",
+    "section": "Tkanki roślinne",
+    "type": "single_choice",
+    "prompt": "Która grupa zawiera wyłącznie tkanki stałe?",
+    "options": [
+      "okrywająca, miękiszowa, przewodząca, wzmacniająca",
+      "twórcza, okrywająca, miękiszowa, przewodząca",
+      "twórcza, wzmacniająca, przewodząca, miękiszowa",
+      "okrywająca, twórcza, wzmacniająca, przewodząca",
+      "miękiszowa, twórcza, okrywająca, przewodząca",
+      "twórcza, okrywająca, przewodząca, wzmacniająca"
+    ],
+    "answer": 0,
+    "explanation": "Do tkanek stałych należą tkanki: okrywająca, miękiszowa, przewodząca i wzmacniająca."
+  },
+  {
+    "id": "R04_TKA_10",
+    "section": "Tkanki roślinne",
+    "type": "riddle",
+    "prompt": "Tkanka przyranna powstająca w miejscu uszkodzenia rośliny to...",
+    "options": null,
+    "answer": "kalus",
+    "altAnswers": [
+      "kalus",
+      "tkanka przyranna"
+    ],
+    "explanation": "Kalus tworzy się w miejscu zranienia, a jego intensywnie dzielące się komórki pomagają odbudować uszkodzone części."
+  },
+  {
+    "id": "R04_TKA_11",
+    "section": "Tkanki roślinne",
+    "type": "sort",
+    "prompt": "Przyporządkuj cechy do tkanek twórczych i stałych.",
+    "options": null,
+    "items": [
+      "komórki dzielą się intensywnie",
+      "umożliwiają wzrost rośliny",
+      "z ich komórek powstają tkanki stałe",
+      "komórki dzielą się rzadko lub wcale",
+      "są wyspecjalizowane w pełnieniu określonych funkcji",
+      "mogą być zbudowane z komórek żywych lub martwych"
+    ],
+    "categories": [
+      "tkanki twórcze",
+      "tkanki stałe"
+    ],
+    "answer": {
+      "tkanki twórcze": [
+        "komórki dzielą się intensywnie",
+        "umożliwiają wzrost rośliny",
+        "z ich komórek powstają tkanki stałe"
+      ],
+      "tkanki stałe": [
+        "komórki dzielą się rzadko lub wcale",
+        "są wyspecjalizowane w pełnieniu określonych funkcji",
+        "mogą być zbudowane z komórek żywych lub martwych"
+      ]
+    },
+    "explanation": "Tkanki twórcze zachowują zdolność intensywnych podziałów, natomiast tkanki stałe są wyspecjalizowane i dzielą się rzadko lub wcale."
+  },
+  {
+    "id": "R04_TKA_12",
+    "section": "Tkanki roślinne",
+    "type": "true_false",
+    "prompt": "Tkanki stałe mogą być zbudowane zarówno z komórek żywych, jak i martwych.",
+    "options": null,
+    "answer": true,
+    "explanation": "Wśród tkanek stałych występują tkanki zbudowane z komórek żywych oraz takie, których komórki są martwe."
+  },
+  {
+    "id": "R04_FUN_01",
+    "section": "Budowa i funkcje tkanek",
+    "type": "single_choice",
+    "prompt": "Gdzie znajdują się tkanki twórcze umożliwiające wzrost rośliny na długość?",
+    "options": [
+      "na wierzchołkach łodyg i korzeni",
+      "wyłącznie w skórce liścia",
+      "w środku owocu",
+      "tylko w kwiatach",
+      "w korku starszych łodyg",
+      "w bielmie nasion"
+    ],
+    "answer": 0,
+    "explanation": "Tkanki twórcze na wierzchołkach łodyg i korzeni odpowiadają za wzrost rośliny na długość."
+  },
+  {
+    "id": "R04_FUN_02",
+    "section": "Budowa i funkcje tkanek",
+    "type": "true_false",
+    "prompt": "Tkanki twórcze ułożone wzdłuż łodyg i korzeni umożliwiają przyrost rośliny na grubość.",
+    "options": null,
+    "answer": true,
+    "explanation": "Tkanki twórcze położone wzdłuż łodyg i korzeni odpowiadają za wzrost tych organów na grubość."
+  },
+  {
+    "id": "R04_FUN_03",
+    "section": "Budowa i funkcje tkanek",
+    "type": "match",
+    "prompt": "Połącz tkankę lub jej element z funkcją.",
+    "options": null,
+    "left": [
+      "skórka",
+      "korek",
+      "miękisz asymilacyjny",
+      "miękisz spichrzowy",
+      "tkanka wzmacniająca"
+    ],
+    "right": [
+      "ochrona młodych organów",
+      "ochrona starszych łodyg i korzeni",
+      "fotosynteza",
+      "gromadzenie substancji zapasowych",
+      "usztywnianie organów"
+    ],
+    "answer": {
+      "skórka": "ochrona młodych organów",
+      "korek": "ochrona starszych łodyg i korzeni",
+      "miękisz asymilacyjny": "fotosynteza",
+      "miękisz spichrzowy": "gromadzenie substancji zapasowych",
+      "tkanka wzmacniająca": "usztywnianie organów"
+    },
+    "explanation": "Budowa każdej z tych tkanek jest przystosowana do pełnionej funkcji."
+  },
+  {
+    "id": "R04_FUN_04",
+    "section": "Budowa i funkcje tkanek",
+    "type": "multi_select",
+    "prompt": "Zaznacz prawidłowe informacje o skórce rośliny.",
+    "options": [
+      "Jej komórki są żywe",
+      "Komórki ściśle do siebie przylegają",
+      "Może być pokryta kutykulą",
+      "Zawsze składa się z martwych komórek",
+      "Transportuje cukry z liści",
+      "W liściach może zawierać aparaty szparkowe"
     ],
     "answer": [
       0,
       1,
       2,
-      4,
       5
     ],
-    "explanation": "Do organów roślin należą korzeń, łodyga, liść, kwiat i owoc. Jądro nie jest organem rośliny."
+    "explanation": "Skórka jest zbudowana z żywych, ściśle przylegających komórek, może być pokryta kutykulą, a w liściach zawiera aparaty szparkowe.",
+    "image": "r04_aparat_szparkowy.jpg"
   },
   {
-    "id": "R04_TKANKI_05",
-    "section": "Czym są tkanki roślinne?",
+    "id": "R04_FUN_05",
+    "section": "Budowa i funkcje tkanek",
     "type": "fill_in",
-    "prompt": "Uzupełnij: Tkanka to zespół __________ o podobnej budowie, które pełnią tę samą __________.",
+    "prompt": "Warstwa ograniczająca parowanie wody z powierzchni skórki to __________.",
     "options": null,
     "answer": [
-      "komórek",
-      "funkcję"
+      "kutykula"
     ],
     "altAnswers": [
       [
-        "komórek",
-        "komórki",
-        "komórka"
-      ],
-      [
-        "funkcję",
-        "funkcja",
-        "funkcje"
+        "kutykula",
+        "kutykulą"
       ]
     ],
-    "explanation": "Tkanka składa się z komórek i wykonuje określoną funkcję w organizmie."
+    "explanation": "Kutykula jest warstwą substancji nieprzepuszczającej wody, dlatego ogranicza jej parowanie."
   },
   {
-    "id": "R04_TKANKI_06",
-    "section": "Czym są tkanki roślinne?",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: korzeń, łodyga, liść, tkanka.",
-    "options": null,
-    "answer": "tkanka",
-    "explanation": "Korzeń, łodyga i liść to organy. Tkanka jest poziomem budowy niższym niż organ."
-  },
-  {
-    "id": "R04_TKANKI_07",
-    "section": "Czym są tkanki roślinne?",
-    "type": "single_choice",
-    "prompt": "Po co roślinom lądowym potrzebne są tkanki?",
-    "options": [
-      "pomagają transportować substancje i chronią przed warunkami otoczenia",
-      "sprawiają, że roślina może świecić w ciemności",
-      "zamieniają roślinę w zwierzę",
-      "służą tylko do ozdoby"
-    ],
-    "answer": 0,
-    "explanation": "Tkanki pomagają roślinom żyć na lądzie - przewodzą substancje i chronią przed trudnymi warunkami."
-  },
-  {
-    "id": "R04_TKANKI_08",
-    "section": "Czym są tkanki roślinne?",
+    "id": "R04_FUN_06",
+    "section": "Budowa i funkcje tkanek",
     "type": "scenario",
-    "prompt": "Ola patrzy na ilustrację poziomów budowy rośliny. Widzi element znajdujący się między komórką a organem. Co to jest?",
+    "prompt": "Uczeń ogląda fragment skórki korzenia. Widzi liczne cienkie wypustki zwiększające powierzchnię pobierania wody i soli mineralnych. Co obserwuje?",
     "options": [
-      "tkanka",
-      "owoc",
-      "kwiat",
-      "kora"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_hierarchiczna_budowa_rosliny.jpg",
-    "explanation": "Między komórką a organem znajduje się tkanka."
-  },
-  {
-    "id": "R04_TKANKI_09",
-    "section": "Czym są tkanki roślinne?",
-    "type": "match",
-    "prompt": "Połącz poziom budowy z przykładem.",
-    "options": null,
-    "left": [
-      "komórka",
-      "tkanka",
-      "organ",
-      "organizm"
-    ],
-    "right": [
-      "pojedyncza komórka liścia",
-      "grupa podobnych komórek",
-      "np. liść",
-      "cała roślina"
-    ],
-    "answer": {
-      "komórka": "pojedyncza komórka liścia",
-      "tkanka": "grupa podobnych komórek",
-      "organ": "np. liść",
-      "organizm": "cała roślina"
-    },
-    "explanation": "Poziomy budowy rośliny układają się od komórki do całego organizmu."
-  },
-  {
-    "id": "R04_TKANKI_10",
-    "section": "Czym są tkanki roślinne?",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się część rośliny wyspecjalizowana w pełnieniu określonej funkcji, zbudowana z różnych tkanek?",
-    "options": [
-      "organ",
-      "chloroplast",
-      "włośnik",
-      "gatunek"
-    ],
-    "answer": 0,
-    "explanation": "Zespoły tkanek tworzą organy, które pełnią określone funkcje."
-  },
-  {
-    "id": "R04_BUDOWA_01",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "single_choice",
-    "prompt": "Które tkanki umożliwiają roślinie wzrost?",
-    "options": [
-      "tkanki twórcze",
-      "tkanki okrywające",
-      "tkanki wzmacniające",
-      "tkanki miękiszowe"
-    ],
-    "answer": 0,
-    "explanation": "Tkanki twórcze mają komórki, które intensywnie się dzielą, dlatego roślina rośnie."
-  },
-  {
-    "id": "R04_BUDOWA_02",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "scenario",
-    "prompt": "Na ilustracji zaznaczono miejsca, w których roślina rośnie na długość i na grubość. Jakie tkanki tam działają?",
-    "options": [
-      "tkanki twórcze",
-      "tkanki wzmacniające",
-      "tkanki okrywające",
-      "tkanki miękiszowe"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_tkanka_tworcza_wzrost.jpg",
-    "explanation": "Wzrost rośliny umożliwiają tkanki twórcze."
-  },
-  {
-    "id": "R04_BUDOWA_03",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "single_choice",
-    "prompt": "Która tkanka znajduje się na powierzchni łodyg, korzeni i liści?",
-    "options": [
-      "okrywająca",
-      "przewodząca",
-      "miękiszowa",
-      "twórcza"
-    ],
-    "answer": 0,
-    "explanation": "Tkanka okrywająca leży na powierzchni organów i chroni roślinę."
-  },
-  {
-    "id": "R04_BUDOWA_04",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "true_false",
-    "prompt": "Kutykula na skórce ogranicza parowanie wody.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Kutykula jest warstwą, która ogranicza utratę wody."
-  },
-  {
-    "id": "R04_BUDOWA_05",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "single_choice",
-    "prompt": "Co w skórce liścia umożliwia wymianę tlenu i dwutlenku węgla?",
-    "options": [
+      "włośniki",
       "aparaty szparkowe",
-      "włośniki",
-      "bulwy",
-      "stożek wzrostu"
-    ],
-    "answer": 0,
-    "explanation": "Wymiana gazowa odbywa się przez aparaty szparkowe."
-  },
-  {
-    "id": "R04_BUDOWA_06",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "single_choice",
-    "prompt": "Która struktura zwiększa powierzchnię, przez którą korzeń pobiera wodę?",
-    "options": [
-      "włośniki",
-      "korek",
+      "pylniki",
+      "wiązki przewodzące",
       "ciernie",
-      "kłącze"
+      "zalążki"
     ],
     "answer": 0,
-    "image": "/img/bbt_r04_skorka_korek_wlosniki.jpg",
-    "explanation": "Włośniki zwiększają powierzchnię chłonną korzenia."
+    "explanation": "Włośniki są cienkimi wypustkami skórki korzenia i zwiększają powierzchnię chłonną."
   },
   {
-    "id": "R04_BUDOWA_07",
-    "section": "Jak budowa tkanek pomaga roślinie?",
+    "id": "R04_FUN_07",
+    "section": "Budowa i funkcje tkanek",
     "type": "single_choice",
-    "prompt": "W której tkance zachodzi fotosynteza?",
+    "prompt": "Która tkanka zawiera chloroplasty i prowadzi fotosyntezę?",
     "options": [
-      "w miękiszu asymilacyjnym",
-      "w korku",
-      "w drewnie",
-      "w tkance wzmacniającej"
-    ],
-    "answer": 0,
-    "explanation": "Miękisz asymilacyjny zawiera chloroplasty, dlatego zachodzi w nim fotosynteza."
-  },
-  {
-    "id": "R04_BUDOWA_08",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "single_choice",
-    "prompt": "Która tkanka gromadzi substancje zapasowe?",
-    "options": [
+      "miękisz asymilacyjny",
       "miękisz spichrzowy",
-      "drewno",
       "korek",
+      "drewno",
+      "łyko",
+      "tkanka twórcza"
+    ],
+    "answer": 0,
+    "explanation": "Miękisz asymilacyjny występuje w zielonych częściach roślin, a jego komórki zawierają chloroplasty."
+  },
+  {
+    "id": "R04_FUN_08",
+    "section": "Budowa i funkcje tkanek",
+    "type": "sort",
+    "prompt": "Przyporządkuj cechy do drewna i łyka.",
+    "options": null,
+    "items": [
+      "transportuje wodę i sole mineralne",
+      "transportuje substancje pokarmowe",
+      "jest zbudowane z martwych komórek",
+      "jest zbudowane z żywych komórek",
+      "komórki tworzą długie rurki bez ścian poprzecznych",
+      "komórki mają sita w ścianach poprzecznych"
+    ],
+    "categories": [
+      "drewno",
       "łyko"
     ],
-    "answer": 0,
-    "image": "/img/bbt_r04_tkanki_miekiszowe.jpg",
-    "explanation": "Miękisz spichrzowy magazynuje substancje zapasowe, na przykład skrobię."
+    "answer": {
+      "drewno": [
+        "transportuje wodę i sole mineralne",
+        "jest zbudowane z martwych komórek",
+        "komórki tworzą długie rurki bez ścian poprzecznych"
+      ],
+      "łyko": [
+        "transportuje substancje pokarmowe",
+        "jest zbudowane z żywych komórek",
+        "komórki mają sita w ścianach poprzecznych"
+      ]
+    },
+    "explanation": "Drewno przewodzi wodę z solami mineralnymi, a łyko przenosi substancje pokarmowe powstałe w fotosyntezie.",
+    "image": "r04_wiazka_przewodzaca.jpg"
   },
   {
-    "id": "R04_BUDOWA_09",
-    "section": "Jak budowa tkanek pomaga roślinie?",
+    "id": "R04_FUN_09",
+    "section": "Budowa i funkcje tkanek",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element niepasujący do tkanek przewodzących: drewno, łyko, wiązka przewodząca, kutykula.",
+    "options": null,
+    "answer": "kutykula",
+    "explanation": "Kutykula jest warstwą na powierzchni skórki, natomiast drewno i łyko tworzą tkanki przewodzące łączące się w wiązki."
+  },
+  {
+    "id": "R04_FUN_10",
+    "section": "Budowa i funkcje tkanek",
     "type": "match",
-    "prompt": "Połącz tkankę przewodzącą z tym, co transportuje.",
+    "prompt": "Połącz tkankę z charakterystyczną cechą jej komórek.",
     "options": null,
     "left": [
-      "łyko",
-      "drewno"
+      "tkanka twórcza",
+      "skórka",
+      "korek",
+      "miękisz",
+      "tkanka wzmacniająca"
     ],
     "right": [
-      "substancje pokarmowe",
-      "woda i sole mineralne"
+      "żywe komórki intensywnie się dzielą",
+      "żywe komórki ściśle do siebie przylegają",
+      "martwe komórki mają grube ściany",
+      "komórki mają cienkie ściany i duże wakuole",
+      "komórki mają silnie zgrubiałe ściany"
     ],
     "answer": {
-      "łyko": "substancje pokarmowe",
-      "drewno": "woda i sole mineralne"
+      "tkanka twórcza": "żywe komórki intensywnie się dzielą",
+      "skórka": "żywe komórki ściśle do siebie przylegają",
+      "korek": "martwe komórki mają grube ściany",
+      "miękisz": "komórki mają cienkie ściany i duże wakuole",
+      "tkanka wzmacniająca": "komórki mają silnie zgrubiałe ściany"
     },
-    "image": "/img/bbt_r04_tkanki_przewodzace_lyko_drewno.jpg",
-    "explanation": "Łyko przewodzi substancje pokarmowe, a drewno wodę z solami mineralnymi."
+    "explanation": "Cechy komórek są bezpośrednio związane z funkcją pełnioną przez daną tkankę."
   },
   {
-    "id": "R04_BUDOWA_10",
-    "section": "Jak budowa tkanek pomaga roślinie?",
-    "type": "single_choice",
-    "prompt": "Która tkanka pomaga liściowi utrzymać kształt i chroni roślinę przed uszkodzeniami?",
-    "options": [
-      "wzmacniająca",
-      "okrywająca",
-      "miękiszowa",
-      "twórcza"
+    "id": "R04_FUN_11",
+    "section": "Budowa i funkcje tkanek",
+    "type": "riddle",
+    "prompt": "Struktury w skórce liścia umożliwiające wymianę gazową i parowanie wody to...",
+    "options": null,
+    "answer": "aparaty szparkowe",
+    "altAnswers": [
+      "aparaty szparkowe",
+      "aparat szparkowy",
+      "szparki"
     ],
-    "answer": 0,
-    "image": "/img/bbt_r04_tkanki_wzmacniajace_lisc.jpg",
-    "explanation": "Tkanka wzmacniająca usztywnia organy rośliny i chroni je przed uszkodzeniami."
+    "explanation": "Aparaty szparkowe umożliwiają wymianę tlenu i dwutlenku węgla oraz parowanie wody.",
+    "image": "r04_aparat_szparkowy.jpg"
   },
   {
-    "id": "R04_ORGANY_01",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "single_choice",
-    "prompt": "Które organy nazywamy wegetatywnymi?",
-    "options": [
-      "korzeń, łodyga i liść",
-      "kwiat i owoc",
-      "nasiono i zarodek",
-      "tylko liść"
-    ],
-    "answer": 0,
-    "explanation": "Organami wegetatywnymi są korzeń, łodyga i liść."
+    "id": "R04_FUN_12",
+    "section": "Budowa i funkcje tkanek",
+    "type": "true_false",
+    "prompt": "Silnie zgrubiałe ściany komórek tkanek wzmacniających pomagają roślinie zachować sztywność i chronią ją przed uszkodzeniami.",
+    "options": null,
+    "answer": true,
+    "explanation": "Grube ściany sprawiają, że tkanki wzmacniające są wytrzymałe i mogą pełnić funkcję rusztowania."
   },
   {
-    "id": "R04_ORGANY_02",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "single_choice",
-    "prompt": "Który organ najczęściej przeprowadza fotosyntezę?",
-    "options": [
-      "liść",
-      "korzeń",
-      "nasiono",
-      "korek"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_funkcje_organow_rosliny.jpg",
-    "explanation": "Głównym miejscem fotosyntezy jest liść."
-  },
-  {
-    "id": "R04_ORGANY_03",
-    "section": "Korzeń, łodyga i liść - co robią?",
+    "id": "R04_ORG_01",
+    "section": "Korzeń, łodyga i liść",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje liścia.",
+    "prompt": "Zaznacz organy wegetatywne rośliny.",
     "options": [
-      "fotosynteza",
-      "wymiana gazowa",
-      "parowanie wody",
-      "utrzymywanie rośliny w podłożu"
+      "korzeń",
+      "łodyga",
+      "liść",
+      "kwiat",
+      "owoc",
+      "nasiono"
     ],
     "answer": [
       0,
       1,
       2
     ],
-    "explanation": "Liść przeprowadza fotosyntezę, wymianę gazową i parowanie wody. Utrzymywanie rośliny w podłożu to zadanie korzenia."
+    "explanation": "Organy wegetatywne to korzeń oraz pęd, który składa się z łodygi i liści."
   },
   {
-    "id": "R04_ORGANY_04",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "single_choice",
-    "prompt": "Który organ transportuje wodę z korzenia do innych części rośliny?",
-    "options": [
-      "łodyga",
-      "liść",
-      "owoc",
-      "nasiono"
-    ],
-    "answer": 0,
-    "explanation": "Łodyga pośredniczy w transporcie wody i soli mineralnych z korzenia."
-  },
-  {
-    "id": "R04_ORGANY_05",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "single_choice",
-    "prompt": "Który organ utrzymuje roślinę w podłożu?",
-    "options": [
+    "id": "R04_ORG_02",
+    "section": "Korzeń, łodyga i liść",
+    "type": "match",
+    "prompt": "Połącz organ z jego charakterystyczną funkcją.",
+    "options": null,
+    "left": [
       "korzeń",
       "łodyga",
-      "liść",
-      "kwiat"
+      "liść"
     ],
-    "answer": 0,
-    "explanation": "Korzeń utrzymuje roślinę w glebie."
+    "right": [
+      "pobieranie wody i soli mineralnych z gleby",
+      "transport substancji i utrzymywanie kształtu rośliny",
+      "fotosynteza i wymiana gazowa"
+    ],
+    "answer": {
+      "korzeń": "pobieranie wody i soli mineralnych z gleby",
+      "łodyga": "transport substancji i utrzymywanie kształtu rośliny",
+      "liść": "fotosynteza i wymiana gazowa"
+    },
+    "explanation": "Korzeń pobiera wodę, łodyga przewodzi substancje i podtrzymuje roślinę, a liść prowadzi fotosyntezę oraz wymianę gazową."
   },
   {
-    "id": "R04_ORGANY_06",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "sort",
-    "prompt": "Przyporządkuj funkcje do właściwego organu rośliny.",
+    "id": "R04_ORG_03",
+    "section": "Korzeń, łodyga i liść",
+    "type": "single_choice",
+    "prompt": "Który opis dotyczy systemu palowego?",
+    "options": [
+      "Ma gruby i długi korzeń główny oraz cieńsze korzenie boczne",
+      "Składa się z licznych korzeni podobnej wielkości",
+      "Występuje wyłącznie u traw",
+      "Nie ma korzeni bocznych",
+      "Tworzą go tylko włośniki",
+      "Zawsze rozwija się nad ziemią"
+    ],
+    "answer": 0,
+    "explanation": "System palowy ma wyraźny korzeń główny, od którego odrastają cieńsze korzenie boczne.",
+    "image": "r04_systemy_korzeniowe.jpg"
+  },
+  {
+    "id": "R04_ORG_04",
+    "section": "Korzeń, łodyga i liść",
+    "type": "fill_in",
+    "prompt": "Odcinek korzenia pokryty włośnikami to strefa __________.",
+    "options": null,
+    "answer": [
+      "włośnikowa"
+    ],
+    "altAnswers": [
+      [
+        "włośnikowa",
+        "włośnikowej"
+      ]
+    ],
+    "explanation": "Strefa włośnikowa jest pokryta włośnikami zwiększającymi powierzchnię chłonną korzenia.",
+    "image": "r04_strefy_korzenia.jpg"
+  },
+  {
+    "id": "R04_ORG_05",
+    "section": "Korzeń, łodyga i liść",
+    "type": "sequence",
+    "prompt": "Ułóż strefy korzenia od jego wierzchołka ku górze.",
     "options": null,
     "items": [
+      "strefa włośnikowa",
+      "strefa korzeni bocznych",
+      "stożek wzrostu",
+      "strefa wydłużania"
+    ],
+    "answer": [
+      "stożek wzrostu",
+      "strefa wydłużania",
+      "strefa włośnikowa",
+      "strefa korzeni bocznych"
+    ],
+    "explanation": "Najniżej znajduje się stożek wzrostu, następnie strefa wydłużania, strefa włośnikowa i strefa korzeni bocznych.",
+    "image": "r04_strefy_korzenia.jpg"
+  },
+  {
+    "id": "R04_ORG_06",
+    "section": "Korzeń, łodyga i liść",
+    "type": "true_false",
+    "prompt": "Włośniki zwiększają powierzchnię, przez którą korzeń pobiera wodę i sole mineralne.",
+    "options": null,
+    "answer": true,
+    "explanation": "Liczne cienkie włośniki znacznie zwiększają powierzchnię chłonną korzenia."
+  },
+  {
+    "id": "R04_ORG_07",
+    "section": "Korzeń, łodyga i liść",
+    "type": "scenario",
+    "prompt": "Uczeń wykopał kępę trawy i zauważył wiele korzeni podobnej wielkości bez wyraźnego korzenia głównego. Jaki system korzeniowy obserwuje?",
+    "options": [
+      "wiązkowy",
+      "palowy",
+      "powietrzny",
+      "czepny",
+      "podporowy",
+      "spichrzowy"
+    ],
+    "answer": 0,
+    "explanation": "System wiązkowy składa się z licznych korzeni o podobnych rozmiarach i występuje między innymi u traw.",
+    "image": "r04_systemy_korzeniowe.jpg"
+  },
+  {
+    "id": "R04_ORG_08",
+    "section": "Korzeń, łodyga i liść",
+    "type": "single_choice",
+    "prompt": "Jak nazywa się bezlistny odcinek łodygi między dwoma węzłami?",
+    "options": [
+      "międzywęźle",
+      "węzeł",
+      "pąk wierzchołkowy",
+      "pąk boczny",
+      "blaszka liściowa",
+      "nerwacja"
+    ],
+    "answer": 0,
+    "explanation": "Międzywęźle jest odcinkiem łodygi położonym między kolejnymi węzłami."
+  },
+  {
+    "id": "R04_ORG_09",
+    "section": "Korzeń, łodyga i liść",
+    "type": "riddle",
+    "prompt": "Nadziemna część rośliny złożona z łodygi i liści to...",
+    "options": null,
+    "answer": "pęd",
+    "altAnswers": [
+      "pęd",
+      "ped"
+    ],
+    "explanation": "Pęd składa się z łodygi i liści, a u części roślin także z kwiatów i owoców."
+  },
+  {
+    "id": "R04_ORG_10",
+    "section": "Korzeń, łodyga i liść",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element niebędący częścią liścia: blaszka liściowa, ogonek liściowy, nerwacja, stożek wzrostu.",
+    "options": null,
+    "answer": "stożek wzrostu",
+    "explanation": "Stożek wzrostu jest częścią wierzchołka korzenia lub pędu, a pozostałe elementy opisują budowę liścia."
+  },
+  {
+    "id": "R04_ORG_11",
+    "section": "Korzeń, łodyga i liść",
+    "type": "multi_select",
+    "prompt": "Zaznacz funkcje liścia wymienione w rozdziale.",
+    "options": [
       "fotosynteza",
-      "utrzymywanie w podłożu",
-      "transport wody",
+      "wymiana gazowa",
       "parowanie wody",
-      "pobieranie wody i soli mineralnych",
-      "utrzymanie kształtu rośliny"
+      "pobieranie soli mineralnych z gleby",
+      "wytwarzanie pyłku",
+      "tworzenie korzeni bocznych"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Liść przeprowadza fotosyntezę, wymianę gazową oraz parowanie wody."
+  },
+  {
+    "id": "R04_ORG_12",
+    "section": "Korzeń, łodyga i liść",
+    "type": "true_false",
+    "prompt": "Łodyga transportuje wodę z solami mineralnymi z korzenia oraz substancje pokarmowe z liści do innych części rośliny.",
+    "options": null,
+    "answer": true,
+    "explanation": "Łodyga pośredniczy w transporcie obu rodzajów substancji między organami rośliny."
+  },
+  {
+    "id": "R04_MOD_01",
+    "section": "Modyfikacje organów",
+    "type": "match",
+    "prompt": "Połącz modyfikację korzenia z przykładem rośliny.",
+    "options": null,
+    "left": [
+      "korzenie spichrzowe",
+      "korzenie powietrzne",
+      "korzenie czepne",
+      "korzenie podporowe",
+      "ssawki"
+    ],
+    "right": [
+      "marchew",
+      "storczyk",
+      "bluszcz",
+      "kukurydza",
+      "jemioła"
+    ],
+    "answer": {
+      "korzenie spichrzowe": "marchew",
+      "korzenie powietrzne": "storczyk",
+      "korzenie czepne": "bluszcz",
+      "korzenie podporowe": "kukurydza",
+      "ssawki": "jemioła"
+    },
+    "explanation": "Rozdział podaje te rośliny jako przykłady poszczególnych modyfikacji korzeni.",
+    "image": "r04_modyfikacje_korzeni.jpg"
+  },
+  {
+    "id": "R04_MOD_02",
+    "section": "Modyfikacje organów",
+    "type": "single_choice",
+    "prompt": "Jaką funkcję pełnią korzenie powietrzne storczyków?",
+    "options": [
+      "wchłaniają parę wodną z powietrza",
+      "przytwierdzają roślinę do podpory",
+      "magazynują skrobię",
+      "wytwarzają pyłek",
+      "zmniejszają parowanie wody",
+      "transportują cukry z liści"
+    ],
+    "answer": 0,
+    "explanation": "Korzenie powietrzne storczyków umożliwiają pobieranie pary wodnej z powietrza.",
+    "image": "r04_modyfikacje_korzeni.jpg"
+  },
+  {
+    "id": "R04_MOD_03",
+    "section": "Modyfikacje organów",
+    "type": "scenario",
+    "prompt": "Pnącze wspina się po pniu dzięki korzeniom, które przytwierdzają je do podpory. Jaki to typ korzeni?",
+    "options": [
+      "czepne",
+      "spichrzowe",
+      "powietrzne",
+      "podporowe",
+      "boczne",
+      "wiązki korzeniowe"
+    ],
+    "answer": 0,
+    "explanation": "Korzenie czepne, występujące na przykład u bluszczu, umożliwiają przymocowanie rośliny do podpory."
+  },
+  {
+    "id": "R04_MOD_04",
+    "section": "Modyfikacje organów",
+    "type": "fill_in",
+    "prompt": "Korzenie jemioły są przekształcone w __________, które wrastają w gałęzie drzewa żywiciela.",
+    "options": null,
+    "answer": [
+      "ssawki"
+    ],
+    "altAnswers": [
+      [
+        "ssawki",
+        "ssawkę",
+        "ssawkami"
+      ]
+    ],
+    "explanation": "Ssawki jemioły wrastają w gałęzie żywiciela i pobierają z nich wodę oraz sole mineralne."
+  },
+  {
+    "id": "R04_MOD_05",
+    "section": "Modyfikacje organów",
+    "type": "multi_select",
+    "prompt": "Zaznacz modyfikacje łodyg uczestniczące w rozmnażaniu wegetatywnym.",
+    "options": [
+      "rozłogi truskawki",
+      "kłącze imbiru",
+      "bulwy ziemniaka",
+      "korzenie powietrzne storczyka",
+      "aparaty szparkowe liścia",
+      "pylniki kwiatu"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Rozłogi, kłącza i bulwy są przekształconymi łodygami, które mogą brać udział w rozmnażaniu wegetatywnym.",
+    "image": "r04_modyfikacje_lodyg_lisci.jpg"
+  },
+  {
+    "id": "R04_MOD_06",
+    "section": "Modyfikacje organów",
+    "type": "sort",
+    "prompt": "Przyporządkuj modyfikacje do organów, z których powstały.",
+    "options": null,
+    "items": [
+      "korzenie spichrzowe marchwi",
+      "korzenie podporowe kukurydzy",
+      "rozłogi truskawki",
+      "kłącze imbiru",
+      "bulwy ziemniaka",
+      "liście spichrzowe cebuli",
+      "ciernie kaktusa"
     ],
     "categories": [
       "korzeń",
@@ -409,552 +758,425 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "korzeń": [
-        "utrzymywanie w podłożu",
-        "pobieranie wody i soli mineralnych"
+        "korzenie spichrzowe marchwi",
+        "korzenie podporowe kukurydzy"
       ],
       "łodyga": [
-        "transport wody",
-        "utrzymanie kształtu rośliny"
+        "rozłogi truskawki",
+        "kłącze imbiru",
+        "bulwy ziemniaka"
       ],
       "liść": [
-        "fotosynteza",
-        "parowanie wody"
+        "liście spichrzowe cebuli",
+        "ciernie kaktusa"
       ]
     },
-    "explanation": "Korzeń pobiera i utrzymuje, łodyga transportuje i podtrzymuje, a liść prowadzi fotosyntezę i paruje wodę."
+    "explanation": "Modyfikacje mogą dotyczyć korzeni, łodyg lub liści, a ich budowa pozwala pełnić dodatkowe funkcje.",
+    "image": "r04_modyfikacje_lodyg_lisci.jpg"
   },
   {
-    "id": "R04_ORGANY_07",
-    "section": "Korzeń, łodyga i liść - co robią?",
+    "id": "R04_MOD_07",
+    "section": "Modyfikacje organów",
     "type": "true_false",
-    "prompt": "Łodyga może brać udział w rozmnażaniu wegetatywnym.",
+    "prompt": "Wąsy czepne mogą być przekształconymi łodygami u winorośli albo liśćmi u grochu.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. W rozdziale podano, że łodyga może uczestniczyć w rozmnażaniu wegetatywnym."
+    "explanation": "W zależności od gatunku wąsy czepne mogą powstawać z różnych organów."
   },
   {
-    "id": "R04_ORGANY_08",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "fill_in",
-    "prompt": "Uzupełnij: Korzeń pobiera z gleby __________ i __________.",
-    "options": null,
-    "answer": [
-      "wodę",
-      "sole mineralne"
-    ],
-    "altAnswers": [
-      [
-        "wodę",
-        "woda"
-      ],
-      [
-        "sole mineralne",
-        "soli mineralne",
-        "sole",
-        "sole mineralne z gleby"
-      ]
-    ],
-    "explanation": "Korzeń pobiera z gleby wodę i sole mineralne."
-  },
-  {
-    "id": "R04_ORGANY_09",
-    "section": "Korzeń, łodyga i liść - co robią?",
-    "type": "scenario",
-    "prompt": "Na ilustracji widać trzy główne organy rośliny. Który z nich najczęściej gromadzi substancje zapasowe?",
-    "options": [
-      "korzeń",
-      "kwiat",
-      "aparat szparkowy",
-      "kutykula"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_funkcje_organow_rosliny.jpg",
-    "explanation": "Jedną z funkcji korzenia jest gromadzenie substancji zapasowych."
-  },
-  {
-    "id": "R04_ORGANY_10",
-    "section": "Korzeń, łodyga i liść - co robią?",
+    "id": "R04_MOD_08",
+    "section": "Modyfikacje organów",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: korzeń, łodyga, liść, kutykula.",
+    "prompt": "Wskaż element niebędący modyfikacją łodygi: rozłóg, kłącze, bulwa ziemniaka, korzeń czepny.",
     "options": null,
-    "answer": "kutykula",
-    "explanation": "Korzeń, łodyga i liść to organy. Kutykula jest warstwą na skórce."
+    "answer": "korzeń czepny",
+    "explanation": "Korzeń czepny jest modyfikacją korzenia, a rozłóg, kłącze i bulwa ziemniaka są modyfikacjami łodygi."
   },
   {
-    "id": "R04_KORZEN_01",
-    "section": "Korzeń i jego modyfikacje",
+    "id": "R04_MOD_09",
+    "section": "Modyfikacje organów",
     "type": "single_choice",
-    "prompt": "W którym systemie korzeniowym jest jeden gruby korzeń główny?",
+    "prompt": "Która część cebuli magazynuje substancje zapasowe?",
     "options": [
-      "w palowym",
-      "w wiązkowym",
-      "w żadnym",
-      "w obu tak samo"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_systemy_korzeniowe.jpg",
-    "explanation": "System palowy ma korzeń główny oraz cieńsze korzenie boczne."
-  },
-  {
-    "id": "R04_KORZEN_02",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "single_choice",
-    "prompt": "Który system korzeniowy występuje na przykład u traw?",
-    "options": [
-      "wiązkowy",
-      "palowy",
-      "powietrzny",
-      "spichrzowy"
-    ],
-    "answer": 0,
-    "explanation": "W rozdziale podano, że system wiązkowy występuje na przykład u traw."
-  },
-  {
-    "id": "R04_KORZEN_03",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "single_choice",
-    "prompt": "Od czego odrastają korzenie boczne w systemie palowym?",
-    "options": [
-      "od korzenia głównego",
-      "od liścia",
-      "od owocu",
-      "od aparatu szparkowego"
-    ],
-    "answer": 0,
-    "explanation": "Korzenie boczne odrastają od korzenia głównego."
-  },
-  {
-    "id": "R04_KORZEN_04",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "single_choice",
-    "prompt": "W której strefie korzenia znajdują się włośniki?",
-    "options": [
-      "w strefie włośnikowej",
-      "w stożku wzrostu",
-      "w strefie kwiatowej",
-      "w pąku bocznym"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_budowa_korzenia_strefy.jpg",
-    "explanation": "Włośniki występują w strefie włośnikowej."
-  },
-  {
-    "id": "R04_KORZEN_05",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "true_false",
-    "prompt": "Czapeczka chroni stożek wzrostu korzenia przed uszkodzeniami.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Czapeczka osłania delikatny stożek wzrostu."
-  },
-  {
-    "id": "R04_KORZEN_06",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "fill_in",
-    "prompt": "Uzupełnij: Stożek wzrostu jest miejscem intensywnych podziałów __________.",
-    "options": null,
-    "answer": [
-      "komórek"
-    ],
-    "altAnswers": [
-      [
-        "komórek",
-        "komórki",
-        "komórka"
-      ]
-    ],
-    "explanation": "W stożku wzrostu komórki intensywnie się dzielą, dlatego korzeń rośnie."
-  },
-  {
-    "id": "R04_KORZEN_07",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się modyfikacja korzenia marchwi, która magazynuje substancje odżywcze?",
-    "options": [
-      "korzeń spichrzowy",
-      "korzeń czepny",
-      "korzeń powietrzny",
-      "ssawka"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_modyfikacje_korzeni.jpg",
-    "explanation": "Korzeń marchwi jest korzeniem spichrzowym i magazynuje zapasy."
-  },
-  {
-    "id": "R04_KORZEN_08",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "single_choice",
-    "prompt": "Jakie korzenie ma storczyk, gdy pobiera parę wodną z powietrza?",
-    "options": [
-      "powietrzne",
-      "spichrzowe",
-      "podporowe",
-      "boczne"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_modyfikacje_korzeni.jpg",
-    "explanation": "Storczyki mają korzenie powietrzne, które pomagają pobierać wodę z powietrza."
-  },
-  {
-    "id": "R04_KORZEN_09",
-    "section": "Korzeń i jego modyfikacje",
-    "type": "single_choice",
-    "prompt": "Która modyfikacja korzenia pomaga kukurydzy stać stabilnie w glebie?",
-    "options": [
+      "liście spichrzowe",
       "korzenie podporowe",
-      "korzenie czepne",
-      "ssawki",
-      "korzenie powietrzne"
+      "wąsy czepne",
+      "korek",
+      "aparaty szparkowe",
+      "pylniki"
     ],
     "answer": 0,
-    "image": "/img/bbt_r04_modyfikacje_korzeni.jpg",
-    "explanation": "Korzenie podporowe podpierają roślinę i stabilizują ją w glebie."
+    "explanation": "Mięsiste łuski cebuli są liśćmi spichrzowymi osadzonymi na skróconej łodydze zwanej piętką."
   },
   {
-    "id": "R04_KORZEN_10",
-    "section": "Korzeń i jego modyfikacje",
+    "id": "R04_MOD_10",
+    "section": "Modyfikacje organów",
     "type": "scenario",
-    "prompt": "Jemioła wrasta w gałęzie drzewa i pobiera z niego wodę oraz sole mineralne. Jak nazywają się takie korzenie?",
+    "prompt": "Roślina żyje w suchym środowisku. Jej liście przekształciły się w ciernie, które ograniczają utratę wody i chronią przed zjedzeniem. O jakiej roślinie mówi przykład z rozdziału?",
     "options": [
-      "ssawki",
-      "włośniki",
-      "korzenie boczne",
-      "rozłogi"
+      "kaktus",
+      "truskawka",
+      "storczyk",
+      "kukurydza",
+      "marchew",
+      "jemioła"
     ],
     "answer": 0,
-    "explanation": "Korzenie jemioły są przekształcone w ssawki."
+    "explanation": "U kaktusów ciernie są przekształconymi liśćmi, zmniejszają parowanie wody i chronią roślinę."
   },
   {
-    "id": "R04_LISC_01",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się pąk na szczycie łodygi, dzięki któremu roślina rośnie na długość?",
-    "options": [
-      "pąk wierzchołkowy",
-      "pąk boczny",
-      "węzeł",
-      "międzywęźle"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_budowa_lodygi.jpg",
-    "explanation": "Pąk wierzchołkowy znajduje się na szczycie łodygi i odpowiada za wzrost na długość."
-  },
-  {
-    "id": "R04_LISC_02",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się miejsce na łodydze, z którego wyrastają liście?",
-    "options": [
-      "węzeł",
-      "międzywęźle",
-      "stożek wzrostu",
-      "ssawka"
-    ],
-    "answer": 0,
-    "explanation": "Węzeł to miejsce, w którym z łodygi wyrastają liście."
-  },
-  {
-    "id": "R04_LISC_03",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się bezlistny odcinek łodygi między węzłami?",
-    "options": [
-      "międzywęźle",
-      "pąk boczny",
-      "nerwacja",
-      "kutykula"
-    ],
-    "answer": 0,
-    "explanation": "Międzywęźle to odcinek łodygi między dwoma węzłami."
-  },
-  {
-    "id": "R04_LISC_04",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Która część liścia łączy go z łodygą?",
-    "options": [
-      "ogonek liściowy",
-      "blaszka liściowa",
-      "nerwacja",
-      "włośnik"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_budowa_liscia.jpg",
-    "explanation": "Liść z łodygą łączy ogonek liściowy."
-  },
-  {
-    "id": "R04_LISC_05",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się system wiązek przewodzących w liściu?",
-    "options": [
-      "nerwacja",
-      "kutykula",
-      "czapeczka",
-      "korek"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_budowa_liscia.jpg",
-    "explanation": "System wiązek przewodzących w liściu to nerwacja."
-  },
-  {
-    "id": "R04_LISC_06",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "true_false",
-    "prompt": "Aparaty szparkowe umożliwiają wymianę gazową i parowanie wody.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Przez aparaty szparkowe roślina wymienia gazy i traci część wody."
-  },
-  {
-    "id": "R04_LISC_07",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Do czego służą rozłogi truskawki?",
-    "options": [
-      "do rozmnażania wegetatywnego",
-      "do pobierania wody z powietrza",
-      "do ochrony przed zimnem",
-      "do wymiany gazowej"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_modyfikacje_lodyg_lisci.jpg",
-    "explanation": "Rozłogi truskawki pomagają roślinie rozmnażać się wegetatywnie."
-  },
-  {
-    "id": "R04_LISC_08",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Co robią wąsy czepne roślin pnących?",
-    "options": [
-      "owijają się wokół podpory",
-      "zamieniają się w kwiaty",
-      "pobierają sole mineralne z gleby",
-      "chronią stożek wzrostu"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_modyfikacje_lodyg_lisci.jpg",
-    "explanation": "Wąsy czepne pomagają roślinie wspinać się po podporze."
-  },
-  {
-    "id": "R04_LISC_09",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "single_choice",
-    "prompt": "Bulwy ziemniaka są zmodyfikowanymi...",
-    "options": [
-      "łodygami",
-      "liśćmi",
-      "korzeniami bocznymi",
-      "włośnikami"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_modyfikacje_lodyg_lisci.jpg",
-    "explanation": "Bulwy ziemniaka to podziemne łodygi."
-  },
-  {
-    "id": "R04_LISC_10",
-    "section": "Łodyga, liść i ich modyfikacje",
-    "type": "riddle",
-    "prompt": "Jestem przekształconym liściem albo pędem. Zmniejszam parowanie wody i chronię roślinę przed zjedzeniem. Kim jestem?",
-    "options": null,
-    "answer": "cierń",
-    "altAnswers": [
-      "cierń",
-      "ciernie",
-      "cierniem",
-      "ciernia",
-      "cierniami"
-    ],
-    "explanation": "Ciernie ograniczają utratę wody i chronią roślinę przed roślinożercami."
-  },
-  {
-    "id": "R04_SUPER_01",
-    "section": "Super trudne",
+    "id": "R04_MOD_11",
+    "section": "Modyfikacje organów",
     "type": "match",
-    "prompt": "Połącz tkankę z najlepiej pasującą informacją.",
+    "prompt": "Połącz modyfikację z funkcją.",
     "options": null,
     "left": [
-      "twórcza",
-      "okrywająca",
-      "przewodząca",
-      "wzmacniająca",
-      "miękiszowa"
+      "korzenie spichrzowe",
+      "korzenie podporowe",
+      "wąsy czepne",
+      "liście spichrzowe",
+      "ciernie"
     ],
     "right": [
-      "transportuje substancje",
-      "chroni powierzchnię organów",
-      "wypełnia większość organów",
-      "dzieli się intensywnie",
-      "usztywnia roślinę"
+      "magazynowanie substancji odżywczych",
+      "stabilizowanie rośliny w glebie",
+      "owijanie się wokół podpory",
+      "gromadzenie substancji zapasowych w cebuli",
+      "ograniczanie parowania i ochrona przed zjedzeniem"
     ],
     "answer": {
-      "twórcza": "dzieli się intensywnie",
-      "okrywająca": "chroni powierzchnię organów",
-      "przewodząca": "transportuje substancje",
-      "wzmacniająca": "usztywnia roślinę",
-      "miękiszowa": "wypełnia większość organów"
+      "korzenie spichrzowe": "magazynowanie substancji odżywczych",
+      "korzenie podporowe": "stabilizowanie rośliny w glebie",
+      "wąsy czepne": "owijanie się wokół podpory",
+      "liście spichrzowe": "gromadzenie substancji zapasowych w cebuli",
+      "ciernie": "ograniczanie parowania i ochrona przed zjedzeniem"
     },
-    "explanation": "Każdy rodzaj tkanki ma swoją budowę i zadanie: jedne rosną, inne chronią, przewodzą, wzmacniają albo wypełniają."
+    "explanation": "Każda modyfikacja zwiększa przystosowanie rośliny do warunków życia."
   },
   {
-    "id": "R04_SUPER_02",
-    "section": "Super trudne",
+    "id": "R04_MOD_12",
+    "section": "Modyfikacje organów",
+    "type": "riddle",
+    "prompt": "Rozmnażanie bez udziału komórek rozrodczych, na przykład za pomocą rozłogów lub bulw, to rozmnażanie...",
+    "options": null,
+    "answer": "wegetatywne",
+    "altAnswers": [
+      "wegetatywne",
+      "bezpłciowe",
+      "rozmnażanie wegetatywne"
+    ],
+    "explanation": "Rozmnażanie wegetatywne jest rodzajem rozmnażania bezpłciowego i może zachodzić z udziałem zmodyfikowanych organów."
+  },
+  {
+    "id": "R04_KNO_01",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "single_choice",
+    "prompt": "Jaka jest główna funkcja kwiatu roślin okrytonasiennych?",
+    "options": [
+      "udział w rozmnażaniu płciowym",
+      "pobieranie wody z gleby",
+      "transport cukrów",
+      "magazynowanie soli mineralnych",
+      "utrzymywanie rośliny w podłożu",
+      "ochrona korzenia"
+    ],
+    "answer": 0,
+    "explanation": "Kwiaty są organami służącymi do rozmnażania płciowego."
+  },
+  {
+    "id": "R04_KNO_02",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "multi_select",
+    "prompt": "Zaznacz elementy tworzące okwiat.",
+    "options": [
+      "płatki korony",
+      "działki kielicha",
+      "pręciki",
+      "słupek",
+      "zalążnia",
+      "pylniki"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Okwiat tworzą płatki korony oraz działki kielicha.",
+    "image": "r04_budowa_kwiatu.jpg"
+  },
+  {
+    "id": "R04_KNO_03",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "match",
+    "prompt": "Połącz część kwiatu z jej funkcją lub cechą.",
+    "options": null,
+    "left": [
+      "znamię słupka",
+      "szyjka słupka",
+      "zalążnia",
+      "pylnik",
+      "nitka pręcika"
+    ],
+    "right": [
+      "przyjmuje pyłek",
+      "łączy znamię z zalążnią",
+      "zawiera zalążek",
+      "wytwarza pyłek",
+      "podtrzymuje pylniki"
+    ],
+    "answer": {
+      "znamię słupka": "przyjmuje pyłek",
+      "szyjka słupka": "łączy znamię z zalążnią",
+      "zalążnia": "zawiera zalążek",
+      "pylnik": "wytwarza pyłek",
+      "nitka pręcika": "podtrzymuje pylniki"
+    },
+    "explanation": "Elementy słupka i pręcika pełnią różne role w rozmnażaniu płciowym roślin.",
+    "image": "r04_budowa_kwiatu.jpg"
+  },
+  {
+    "id": "R04_KNO_04",
+    "section": "Kwiat, nasiono i owoc",
     "type": "fill_in",
-    "prompt": "Uzupełnij ciąg poziomów budowy rośliny: __________ → tkanka → __________ → organizm.",
+    "prompt": "Męskim elementem kwiatu jest __________, a żeńskim elementem kwiatu jest __________.",
     "options": null,
     "answer": [
-      "komórka",
-      "organ"
+      "pręcik",
+      "słupek"
     ],
     "altAnswers": [
       [
-        "komórka",
-        "komorka",
-        "komórki"
+        "pręcik",
+        "pręciki"
       ],
       [
-        "organ",
-        "organy"
+        "słupek",
+        "słupki"
       ]
     ],
-    "explanation": "Poziomy budowy to: komórka, tkanka, organ, organizm."
+    "explanation": "Pręciki są elementami męskimi kwiatu, a słupek jest elementem żeńskim."
   },
   {
-    "id": "R04_SUPER_03",
-    "section": "Super trudne",
+    "id": "R04_KNO_05",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "sequence",
+    "prompt": "Ułóż etapy rozmnażania płciowego rośliny w prawidłowej kolejności.",
+    "options": null,
+    "items": [
+      "rozwój nasiona i owocu",
+      "zapłodnienie",
+      "zapylenie"
+    ],
+    "answer": [
+      "zapylenie",
+      "zapłodnienie",
+      "rozwój nasiona i owocu"
+    ],
+    "explanation": "Najpierw pyłek trafia na znamię słupka, potem dochodzi do zapłodnienia, a następnie rozwijają się nasiono i owoc."
+  },
+  {
+    "id": "R04_KNO_06",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "true_false",
+    "prompt": "Zapylenie polega na przeniesieniu ziarna pyłku na znamię słupka.",
+    "options": null,
+    "answer": true,
+    "explanation": "Zapylenie jest pierwszym etapem rozmnażania płciowego roślin."
+  },
+  {
+    "id": "R04_KNO_07",
+    "section": "Kwiat, nasiono i owoc",
     "type": "scenario",
-    "prompt": "Na ilustracji pokazano dwa systemy korzeniowe. Który z nich pasuje do mniszka lekarskiego?",
+    "prompt": "Kwiat ma barwny i pachnący okwiat, wytwarza nektar oraz lepki i ciężki pyłek. Do jakiej grupy należy?",
     "options": [
-      "system A",
-      "system B",
-      "oba tak samo",
-      "żaden"
+      "rośliny owadopylne",
+      "rośliny wiatropylne",
+      "rośliny bezkwiatowe",
+      "rośliny wodne",
+      "rośliny pasożytnicze",
+      "rośliny zarodnikowe"
     ],
     "answer": 0,
-    "image": "/img/bbt_r04_systemy_korzeniowe.jpg",
-    "explanation": "Mniszek ma system palowy, czyli taki z jednym grubym korzeniem głównym - na ilustracji to system A."
+    "explanation": "Barwny zapachowy okwiat, nektar oraz lepki ciężki pyłek to cechy roślin owadopylnych."
   },
   {
-    "id": "R04_SUPER_04",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Zaznacz wszystkie prawdziwe zdania o tkankach przewodzących.",
+    "id": "R04_KNO_08",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "sort",
+    "prompt": "Przyporządkuj cechy do roślin owadopylnych i wiatropylnych.",
+    "options": null,
+    "items": [
+      "barwny i pachnący okwiat",
+      "lepki i ciężki pyłek",
+      "wytwarzanie nektaru",
+      "prosty zredukowany okwiat",
+      "duża ilość lekkiego pyłku"
+    ],
+    "categories": [
+      "rośliny owadopylne",
+      "rośliny wiatropylne"
+    ],
+    "answer": {
+      "rośliny owadopylne": [
+        "barwny i pachnący okwiat",
+        "lepki i ciężki pyłek",
+        "wytwarzanie nektaru"
+      ],
+      "rośliny wiatropylne": [
+        "prosty zredukowany okwiat",
+        "duża ilość lekkiego pyłku"
+      ]
+    },
+    "explanation": "Cechy kwiatów są przystosowaniem do sposobu przenoszenia pyłku."
+  },
+  {
+    "id": "R04_KNO_09",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "riddle",
+    "prompt": "Roślina na wczesnym etapie rozwoju znajdująca się wewnątrz nasiona to...",
+    "options": null,
+    "answer": "zarodek",
+    "altAnswers": [
+      "zarodek",
+      "zarodek rośliny"
+    ],
+    "explanation": "Zarodek powstaje z połączenia komórki jajowej z komórką plemnikową.",
+    "image": "r04_budowa_nasiona_owocu.jpg"
+  },
+  {
+    "id": "R04_KNO_10",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "single_choice",
+    "prompt": "W co przekształcają się zalążek i zalążnia po zapłodnieniu?",
     "options": [
-      "łyko transportuje substancje pokarmowe",
-      "drewno przewodzi wodę i sole mineralne",
-      "komórki drewna są martwe",
-      "komórki łyka są martwe",
-      "tkanki przewodzące łączą się w wiązki przewodzące"
+      "zalążek w nasiono, zalążnia w owoc",
+      "zalążek w owoc, zalążnia w nasiono",
+      "oba w korzeń",
+      "oba w liść",
+      "zalążek w pyłek, zalążnia w pręcik",
+      "zalążek w bielmo, zalążnia w łupinę"
+    ],
+    "answer": 0,
+    "explanation": "Po zapłodnieniu zalążek rozwija się w nasiono, a zalążnia w owoc.",
+    "image": "r04_budowa_nasiona_owocu.jpg"
+  },
+  {
+    "id": "R04_KNO_11",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "match",
+    "prompt": "Połącz część nasiona z jej funkcją.",
+    "options": null,
+    "left": [
+      "łupina nasienna",
+      "zarodek",
+      "bielmo"
+    ],
+    "right": [
+      "chroni wnętrze nasiona",
+      "jest rośliną na wczesnym etapie rozwoju",
+      "stanowi materiał zapasowy"
+    ],
+    "answer": {
+      "łupina nasienna": "chroni wnętrze nasiona",
+      "zarodek": "jest rośliną na wczesnym etapie rozwoju",
+      "bielmo": "stanowi materiał zapasowy"
+    },
+    "explanation": "Łupina chroni, zarodek daje początek nowej roślinie, a bielmo dostarcza materiałów zapasowych.",
+    "image": "r04_budowa_nasiona_owocu.jpg"
+  },
+  {
+    "id": "R04_KNO_12",
+    "section": "Kwiat, nasiono i owoc",
+    "type": "multi_select",
+    "prompt": "Zaznacz przykłady przystosowań owoców do rozsiewania nasion opisane w rozdziale.",
+    "options": [
+      "aparat lotny mniszka",
+      "haczyki owoców ostu",
+      "mięsista owocnia czereśni",
+      "pękające strąki soi i fasoli",
+      "włośniki korzenia",
+      "kutykula liścia"
     ],
     "answer": [
       0,
       1,
       2,
-      4
+      3
     ],
-    "explanation": "Prawdziwe są informacje o łyku, drewnie i wiązkach przewodzących. Martwe są komórki drewna, a nie łyka."
+    "explanation": "Nasiona mogą być przenoszone przez wiatr, zwierzęta albo wyrzucane z pękających owoców.",
+    "image": "r04_rozsiewanie_nasion.jpg"
   },
   {
-    "id": "R04_SUPER_05",
+    "id": "R04_HARD_01",
     "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Dlaczego brak ścian poprzecznych w komórkach drewna ułatwia ich działanie?",
-    "options": [
-      "bo woda może płynąć bez większych przeszkód",
-      "bo komórki wtedy przeprowadzają fotosyntezę",
-      "bo dzięki temu powstają kwiaty",
-      "bo korzeń może się wspinać"
-    ],
-    "answer": 0,
-    "explanation": "Komórki drewna tworzą długie rurki. Brak ścian poprzecznych ułatwia przepływ wody."
-  },
-  {
-    "id": "R04_SUPER_06",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Stara łodyga drzewa potrzebuje ochrony przed uszkodzeniami i zimnem. Która tkanka najlepiej spełnia to zadanie?",
-    "options": [
-      "korek",
-      "miękisz asymilacyjny",
-      "łyko",
-      "stożek wzrostu"
-    ],
-    "answer": 0,
-    "explanation": "Na starszych łodygach skórka jest zastępowana przez korek, który chroni i izoluje."
-  },
-  {
-    "id": "R04_SUPER_07",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Na podstawie ilustracji przyporządkuj modyfikacje do ich głównej roli.",
+    "type": "sequence",
+    "prompt": "Ułóż elementy od poziomu budowy organizmu do procesu zachodzącego w liściu.",
     "options": null,
     "items": [
-      "rozłogi truskawki",
-      "wąsy czepne",
-      "kłącze imbiru",
-      "bulwy ziemniaka",
-      "liście spichrzowe cebuli",
-      "ciernie"
+      "miękisz asymilacyjny",
+      "fotosynteza",
+      "liść",
+      "komórka miękiszu",
+      "organizm rośliny"
     ],
-    "categories": [
-      "rozmnażanie",
-      "wspinanie się",
-      "magazynowanie zapasów",
-      "ochrona i ograniczanie parowania"
+    "answer": [
+      "organizm rośliny",
+      "liść",
+      "miękisz asymilacyjny",
+      "komórka miękiszu",
+      "fotosynteza"
+    ],
+    "explanation": "Liść jest organem organizmu rośliny, zawiera miękisz asymilacyjny, którego komórki prowadzą fotosyntezę."
+  },
+  {
+    "id": "R04_HARD_02",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz element z informacją o żywotności komórek lub transportowanej substancji.",
+    "options": null,
+    "left": [
+      "drewno",
+      "łyko",
+      "skórka",
+      "korek",
+      "tkanka twórcza"
+    ],
+    "right": [
+      "martwe komórki przewodzą wodę i sole",
+      "żywe komórki przewodzą substancje pokarmowe",
+      "żywe ściśle przylegające komórki",
+      "martwe komórki wypełnione powietrzem",
+      "żywe komórki intensywnie się dzielą"
     ],
     "answer": {
-      "rozmnażanie": [
-        "rozłogi truskawki"
-      ],
-      "wspinanie się": [
-        "wąsy czepne"
-      ],
-      "magazynowanie zapasów": [
-        "kłącze imbiru",
-        "bulwy ziemniaka",
-        "liście spichrzowe cebuli"
-      ],
-      "ochrona i ograniczanie parowania": [
-        "ciernie"
-      ]
+      "drewno": "martwe komórki przewodzą wodę i sole",
+      "łyko": "żywe komórki przewodzą substancje pokarmowe",
+      "skórka": "żywe ściśle przylegające komórki",
+      "korek": "martwe komórki wypełnione powietrzem",
+      "tkanka twórcza": "żywe komórki intensywnie się dzielą"
     },
-    "image": "/img/bbt_r04_modyfikacje_lodyg_lisci.jpg",
-    "explanation": "Rozłogi pomagają w rozmnażaniu, wąsy w wspinaniu, kłącze, bulwy i liście spichrzowe magazynują zapasy, a ciernie chronią i zmniejszają parowanie."
+    "explanation": "Rozpoznanie tkanki wymaga połączenia jej budowy z funkcją."
   },
   {
-    "id": "R04_SUPER_08",
+    "id": "R04_HARD_03",
     "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Jak nazywa się tkanka przyranna, która powstaje w miejscu zranienia rośliny?",
+    "type": "scenario",
+    "prompt": "Powierzchnia liścia została pozbawiona warstwy ograniczającej utratę wody. Roślina zaczęła szybciej wysychać. Której struktury zabrakło?",
     "options": [
-      "kalus",
-      "korek",
-      "łyko",
-      "skórka"
+      "kutykuli",
+      "łyka",
+      "bielma",
+      "zalążni",
+      "stożka wzrostu",
+      "miękiszu spichrzowego"
     ],
     "answer": 0,
-    "explanation": "W miejscu zranienia roślina wytwarza kalus, który pomaga odbudować uszkodzone fragmenty."
+    "explanation": "Kutykula jest nieprzepuszczalną dla wody warstwą na skórce i ogranicza parowanie."
   },
   {
-    "id": "R04_SUPER_09",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji są dwie tkanki miękiszowe. Która z nich prowadzi fotosyntezę?",
-    "options": [
-      "miękisz asymilacyjny",
-      "miękisz spichrzowy",
-      "obie tak samo",
-      "żadna"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_tkanki_miekiszowe.jpg",
-    "explanation": "Fotosyntezę prowadzi miękisz asymilacyjny, bo ma chloroplasty."
-  },
-  {
-    "id": "R04_SUPER_10",
+    "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Uzupełnij: Drewno przewodzi __________ i __________, a łyko przewodzi __________.",
+    "prompt": "Drewno przewodzi __________ i __________, natomiast łyko przewodzi __________.",
     "options": null,
     "answer": [
       "wodę",
@@ -968,195 +1190,222 @@ const ALL_EXERCISES = [
       ],
       [
         "sole mineralne",
-        "sole"
+        "soli mineralnych"
       ],
       [
         "substancje pokarmowe",
         "cukry",
-        "cukier",
-        "pokarm"
+        "cukier"
       ]
     ],
-    "explanation": "Drewno przewodzi wodę z solami mineralnymi, a łyko substancje pokarmowe."
+    "explanation": "Drewno transportuje wodę z solami mineralnymi, a łyko substancje pokarmowe powstałe w fotosyntezie."
   },
   {
-    "id": "R04_SUPER_11",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Liść stracił sztywność, bo uszkodzono tkankę biegnącą wzdłuż wiązek przewodzących. Która tkanka została uszkodzona?",
-    "options": [
-      "wzmacniająca",
-      "twórcza",
-      "skórka",
-      "miękisz spichrzowy"
-    ],
-    "answer": 0,
-    "explanation": "Tkanka wzmacniająca tworzy w liściu rusztowanie i pomaga mu zachować kształt."
-  },
-  {
-    "id": "R04_SUPER_12",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji łodygi wskaż nazwę bezlistnego odcinka między dwoma węzłami.",
-    "options": [
-      "międzywęźle",
-      "pąk boczny",
-      "pąk wierzchołkowy",
-      "korzeń boczny"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_budowa_lodygi.jpg",
-    "explanation": "Bezlistny odcinek między węzłami to międzywęźle."
-  },
-  {
-    "id": "R04_SUPER_13",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji liścia wybierz nazwę części, w której przede wszystkim zachodzi fotosynteza.",
-    "options": [
-      "blaszka liściowa",
-      "ogonek liściowy",
-      "węzeł",
-      "czapeczka"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_budowa_liscia.jpg",
-    "explanation": "Głównym miejscem fotosyntezy w liściu jest blaszka liściowa."
-  },
-  {
-    "id": "R04_SUPER_14",
+    "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje, które mogą pełnić zarówno korzeń, jak i łodyga.",
+    "prompt": "Zaznacz zestawienia, w których budowa tkanki poprawnie wyjaśnia jej funkcję.",
     "options": [
-      "rozmnażanie wegetatywne",
-      "gromadzenie substancji zapasowych",
-      "utrzymywanie rośliny w podłożu",
-      "transport wody do innych części rośliny"
+      "Brak ścian poprzecznych w drewnie ułatwia przepływ wody",
+      "Sita w ścianach komórek łyka umożliwiają transport substancji pokarmowych",
+      "Grube ściany komórek wzmacniających zwiększają wytrzymałość organów",
+      "Duże wakuole miękiszu uniemożliwiają magazynowanie",
+      "Martwe komórki korka tworzą warstwę ochronną",
+      "Intensywne podziały komórek twórczych zatrzymują wzrost"
     ],
     "answer": [
       0,
-      1
+      1,
+      2,
+      4
     ],
-    "explanation": "Zarówno korzeń, jak i łodyga mogą brać udział w rozmnażaniu wegetatywnym i magazynować zapasy. Pozostałe funkcje nie dotyczą obu organów jednocześnie."
+    "explanation": "Właściwości komórek drewna, łyka, tkanek wzmacniających i korka są przystosowaniem do ich funkcji."
   },
   {
-    "id": "R04_SUPER_15",
+    "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: korzenie spichrzowe, korzenie powietrzne, korzenie podporowe, tkanka wzmacniająca.",
+    "prompt": "Wskaż element niepasujący do drogi wody od gleby do liścia: włośnik, korzeń, drewno, łyko.",
     "options": null,
-    "answer": "tkanka wzmacniająca",
-    "explanation": "Trzy pierwsze przykłady to modyfikacje korzeni. Tkanka wzmacniająca jest rodzajem tkanki."
+    "answer": "łyko",
+    "explanation": "Woda jest pobierana przez włośniki, przechodzi przez korzeń i jest transportowana drewnem. Łyko przewodzi substancje pokarmowe."
   },
   {
-    "id": "R04_SUPER_16",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Dlaczego włośniki są tak ważne dla korzenia?",
-    "options": [
-      "zwiększają powierzchnię chłonną",
-      "zamieniają się w kwiaty",
-      "wytwarzają nasiona",
-      "chronią stożek wzrostu"
-    ],
-    "answer": 0,
-    "explanation": "Dzięki włośnikom korzeń może pobierać więcej wody i soli mineralnych."
-  },
-  {
-    "id": "R04_SUPER_17",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji pokazano różne tkanki w roślinie. Która z nich leży na powierzchni organów?",
-    "options": [
-      "okrywająca",
-      "miękiszowa",
-      "przewodząca",
-      "wzmacniająca"
-    ],
-    "answer": 0,
-    "image": "/img/bbt_r04_tkanki_w_roslinie_mapa.jpg",
-    "explanation": "Tkanka okrywająca leży na powierzchni łodyg, korzeni i liści."
-  },
-  {
-    "id": "R04_SUPER_18",
+    "id": "R04_HARD_07",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz strefę korzenia z jej rolą.",
+    "prompt": "Połącz przykład z typem modyfikacji i jej funkcją.",
     "options": null,
     "left": [
-      "strefa korzeni bocznych",
-      "strefa włośnikowa",
-      "strefa wydłużania",
-      "stożek wzrostu"
+      "marchew",
+      "storczyk",
+      "bluszcz",
+      "kukurydza",
+      "jemioła"
     ],
     "right": [
-      "powstają korzenie boczne",
-      "pobieranie wody i soli",
-      "komórki się wydłużają",
-      "intensywne podziały komórek"
+      "korzeń spichrzowy magazynujący substancje",
+      "korzeń powietrzny pobierający parę wodną",
+      "korzeń czepny mocujący do podpory",
+      "korzeń podporowy stabilizujący roślinę",
+      "ssawka pobierająca wodę i sole z żywiciela"
     ],
     "answer": {
-      "strefa korzeni bocznych": "powstają korzenie boczne",
-      "strefa włośnikowa": "pobieranie wody i soli",
-      "strefa wydłużania": "komórki się wydłużają",
-      "stożek wzrostu": "intensywne podziały komórek"
+      "marchew": "korzeń spichrzowy magazynujący substancje",
+      "storczyk": "korzeń powietrzny pobierający parę wodną",
+      "bluszcz": "korzeń czepny mocujący do podpory",
+      "kukurydza": "korzeń podporowy stabilizujący roślinę",
+      "jemioła": "ssawka pobierająca wodę i sole z żywiciela"
     },
-    "image": "/img/bbt_r04_budowa_korzenia_strefy.jpg",
-    "explanation": "Każda strefa korzenia ma inne zadanie: boczne tworzą odgałęzienia, włośniki pobierają, wydłużania rośnie na długość, a stożek wzrostu dzieli komórki."
+    "explanation": "Każdy przykład łączy konkretną roślinę, typ modyfikacji korzenia i jej znaczenie.",
+    "image": "r04_modyfikacje_korzeni.jpg"
   },
   {
-    "id": "R04_SUPER_19",
-    "section": "Super trudne",
-    "type": "true_false",
-    "prompt": "Bulwy ziemniaka i kłącze imbiru są zmodyfikowanymi łodygami.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Obie te struktury są modyfikacjami łodygi."
-  },
-  {
-    "id": "R04_SUPER_20",
+    "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Wkładasz fragment łodygi grubosza do wody. Po pewnym czasie pojawiają się korzenie i nowa roślina. Jaki to sposób rozmnażania?",
+    "prompt": "Roślina rośnie na gałęzi innego drzewa i pobiera z niego wodę oraz sole mineralne za pomocą korzeni wrastających w tkanki żywiciela. Jak nazywają się te przekształcone korzenie?",
     "options": [
-      "rozmnażanie wegetatywne",
-      "rozmnażanie płciowe",
-      "kiełkowanie nasion",
-      "oddychanie"
+      "ssawki",
+      "korzenie powietrzne",
+      "korzenie podporowe",
+      "korzenie boczne",
+      "włośniki",
+      "rozłogi"
     ],
     "answer": 0,
-    "explanation": "Powstanie nowej rośliny z fragmentu łodygi to rozmnażanie wegetatywne."
+    "explanation": "U jemioły korzenie są przekształcone w ssawki wrastające w gałęzie drzewa żywiciela."
+  },
+  {
+    "id": "R04_HARD_09",
+    "section": "Super trudne",
+    "type": "sequence",
+    "prompt": "Ułóż drogę prowadzącą od powstania pyłku do powstania owocu.",
+    "options": null,
+    "items": [
+      "zalążnia przekształca się w owoc",
+      "pyłek powstaje w pylniku",
+      "komórka plemnikowa łączy się z komórką jajową",
+      "ziarno pyłku trafia na znamię słupka"
+    ],
+    "answer": [
+      "pyłek powstaje w pylniku",
+      "ziarno pyłku trafia na znamię słupka",
+      "komórka plemnikowa łączy się z komórką jajową",
+      "zalążnia przekształca się w owoc"
+    ],
+    "explanation": "Pyłek powstaje w pylniku, potem dochodzi do zapylenia i zapłodnienia, a po nim zalążnia rozwija się w owoc."
+  },
+  {
+    "id": "R04_HARD_10",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Po zapłodnieniu zalążek przekształca się w __________, a zalążnia w __________. Materiałem zapasowym dla zarodka jest __________.",
+    "options": null,
+    "answer": [
+      "nasiono",
+      "owoc",
+      "bielmo"
+    ],
+    "altAnswers": [
+      [
+        "nasiono",
+        "nasiona"
+      ],
+      [
+        "owoc",
+        "owocu"
+      ],
+      [
+        "bielmo",
+        "bielma"
+      ]
+    ],
+    "explanation": "Zalążek daje początek nasieniu, zalążnia owocowi, a bielmo jest materiałem zapasowym dla zarodka."
+  },
+  {
+    "id": "R04_HARD_11",
+    "section": "Super trudne",
+    "type": "sort",
+    "prompt": "Przyporządkuj sposoby rozsiewania nasion do odpowiednich czynników.",
+    "options": null,
+    "items": [
+      "aparat lotny mniszka",
+      "mięsista owocnia czereśni",
+      "haczyki owoców ostu",
+      "pękający strąk fasoli"
+    ],
+    "categories": [
+      "wiatr",
+      "zwierzęta",
+      "samoczynne wyrzucanie"
+    ],
+    "answer": {
+      "wiatr": [
+        "aparat lotny mniszka"
+      ],
+      "zwierzęta": [
+        "mięsista owocnia czereśni",
+        "haczyki owoców ostu"
+      ],
+      "samoczynne wyrzucanie": [
+        "pękający strąk fasoli"
+      ]
+    },
+    "explanation": "Wiatr unosi lekkie owoce, zwierzęta zjadają lub przenoszą owoce, a suche strąki mogą samoczynnie wyrzucać nasiona.",
+    "image": "r04_rozsiewanie_nasion.jpg"
+  },
+  {
+    "id": "R04_HARD_12",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "W kwiacie usunięto pylniki, ale pozostawiono słupek i okwiat. Czego ten kwiat nie będzie już wytwarzał?",
+    "options": [
+      "pyłku",
+      "nektaru",
+      "zalążków",
+      "płatków korony",
+      "działek kielicha",
+      "dna kwiatowego"
+    ],
+    "answer": 0,
+    "explanation": "W pylnikach powstaje pyłek zawierający komórki plemnikowe.",
+    "image": "r04_budowa_kwiatu.jpg"
   }
 ];
+
 const KID_PROMPTS = {
-  "R04_TKANKI_08": "Co jest między komórką a organem?",
-  "R04_BUDOWA_02": "Która tkanka odpowiada za wzrost rośliny?",
-  "R04_ORGANY_09": "Który organ gromadzi zapasy?",
-  "R04_KORZEN_10": "Jak nazywają się korzenie jemioły?",
-  "R04_LISC_10": "Jak nazywa się ostry twór chroniący roślinę?"
+  "R04_TKA_01": "Co to jest tkanka?",
+  "R04_FUN_08": "Podziel cechy na drewno i łyko.",
+  "R04_ORG_05": "Ułóż części korzenia od czubka ku górze.",
+  "R04_MOD_06": "Podziel modyfikacje na korzeń, łodygę i liść.",
+  "R04_KNO_03": "Połącz część kwiatu z jej zadaniem.",
+  "R04_KNO_05": "Ułóż kolejno zapylenie, zapłodnienie i rozwój owocu.",
+  "R04_HARD_04": "Uzupełnij, co przewodzi drewno i co przewodzi łyko.",
+  "R04_HARD_11": "Podziel przykłady według sposobu rozsiewania nasion."
 };
+
 const chapter = {
   id: "r04",
   number: 4,
   title: "Tkanki i organy roślinne",
   icon: "🌿",
   sectionOrder: [
-    "Czym są tkanki roślinne?",
-    "Jak budowa tkanek pomaga roślinie?",
-    "Korzeń, łodyga i liść - co robią?",
-    "Korzeń i jego modyfikacje",
-    "Łodyga, liść i ich modyfikacje"
+    "Tkanki roślinne",
+    "Budowa i funkcje tkanek",
+    "Korzeń, łodyga i liść",
+    "Modyfikacje organów",
+    "Kwiat, nasiono i owoc"
   ],
   sectionIcons: {
-    "Czym są tkanki roślinne?": "🧩",
-    "Jak budowa tkanek pomaga roślinie?": "🔬",
-    "Korzeń, łodyga i liść - co robią?": "🌱",
-    "Korzeń i jego modyfikacje": "🟤",
-    "Łodyga, liść i ich modyfikacje": "🍃"
+    "Tkanki roślinne": "🧫",
+    "Budowa i funkcje tkanek": "🔬",
+    "Korzeń, łodyga i liść": "🌱",
+    "Modyfikacje organów": "🧩",
+    "Kwiat, nasiono i owoc": "🌸"
   },
   exercises: ALL_EXERCISES,
-  kidPrompts: KID_PROMPTS,
+  kidPrompts: KID_PROMPTS
 };
 
 export default chapter;
