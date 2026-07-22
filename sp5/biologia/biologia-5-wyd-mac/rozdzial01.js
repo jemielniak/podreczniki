@@ -1,880 +1,1194 @@
+// Skróty sekcji (do identyfikatorów ćwiczeń):
+//   ORG  = Cechy organizmów i komórki
+//   MIK  = Mikroskop i doświadczenia
+//   FOT  = Odżywianie i fotosynteza
+//   ODD  = Oddychanie i fermentacja
+//   KLW  = Klasyfikacja i wirusy
+//   HARD = Super trudne
+
 const ALL_EXERCISES = [
   {
-    id: "R01_WSO_01",
-    section: "W świecie organizmów",
-    type: "single_choice",
-    prompt: "Na ilustracji widać bobra. Który dział biologii zajmuje się badaniem życia takich zwierząt?",
-    image: "/img/bbt_r01_bobr_organizm.jpg",
-    options: ["zoologia", "botanika", "mikrobiologia", "systematyka"],
-    answer: 0,
-    explanation: "Zoologia zajmuje się zwierzętami. Bóbr jest zwierzęciem, więc bada go zoolog."
+    "id": "R01_ORG_01",
+    "section": "Cechy organizmów i komórki",
+    "type": "single_choice",
+    "prompt": "Czym zajmuje się biologia?",
+    "options": [
+      "Badaniem organizmów",
+      "Badaniem wyłącznie skał",
+      "Projektowaniem maszyn",
+      "Badaniem tylko pogody",
+      "Opisem planet",
+      "Tworzeniem map politycznych"
+    ],
+    "answer": 0,
+    "image": "r01_bobr_biolog.jpg",
+    "explanation": "Biologia jest nauką o życiu, czyli zajmuje się organizmami żyjącymi obecnie oraz wymarłymi."
   },
   {
-    id: "R01_WSO_02",
-    section: "W świecie organizmów",
-    type: "match",
-    prompt: "Połącz dział biologii z tym, czym się zajmuje.",
-    options: null,
-    left: ["zoolog", "botanik", "ekolog", "mikrobiolog", "paleobiolog"],
-    right: [
+    "id": "R01_ORG_02",
+    "section": "Cechy organizmów i komórki",
+    "type": "match",
+    "prompt": "Połącz specjalistę z obiektem jego badań.",
+    "options": null,
+    "left": [
+      "zoolog",
+      "botanik",
+      "mikrobiolog",
+      "ekolog"
+    ],
+    "right": [
       "zwierzęta",
       "rośliny",
-      "zależności między organizmami i środowiskiem",
-      "bardzo małe organizmy, np. bakterie",
-      "organizmy dawno wymarłe"
+      "bakterie",
+      "zależności między organizmami i środowiskiem"
     ],
-    answer: {
-      zoolog: "zwierzęta",
-      botanik: "rośliny",
-      ekolog: "zależności między organizmami i środowiskiem",
-      mikrobiolog: "bardzo małe organizmy, np. bakterie",
-      paleobiolog: "organizmy dawno wymarłe"
+    "answer": {
+      "zoolog": "zwierzęta",
+      "botanik": "rośliny",
+      "mikrobiolog": "bakterie",
+      "ekolog": "zależności między organizmami i środowiskiem"
     },
-    explanation: "Różni biolodzy badają różne grupy organizmów albo zależności między nimi."
+    "explanation": "Różne działy biologii skupiają się na różnych grupach organizmów lub zależnościach w przyrodzie."
   },
   {
-    id: "R01_WSO_03",
-    section: "W świecie organizmów",
-    type: "true_false",
-    prompt: "Biologia zdobywa wiedzę głównie dzięki doświadczeniom i obserwacjom.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Biologia jest nauką doświadczalną, a obserwacje też są w niej bardzo ważne."
-  },
-  {
-    id: "R01_WSO_04",
-    section: "W świecie organizmów",
-    type: "fill_in",
-    prompt: "Biologia bada organizmy __________ i __________.",
-    options: null,
-    answer: ["wymarłe", "żyjące obecnie"],
-    altAnswers: [
-      ["wymarłe", "wymarłych", "wymarłymi"],
-      ["żyjące obecnie", "żyjące", "obecnie żyjące", "współczesne"]
+    "id": "R01_ORG_03",
+    "section": "Cechy organizmów i komórki",
+    "type": "multi_select",
+    "prompt": "Zaznacz podstawowe czynności życiowe organizmów.",
+    "options": [
+      "odżywianie",
+      "oddychanie",
+      "wydalanie",
+      "drukowanie",
+      "rozmnażanie",
+      "reagowanie na zmiany"
     ],
-    explanation: "Biologów interesują organizmy, które żyły dawniej, i te, które żyją teraz."
-  },
-  {
-    id: "R01_WSO_05",
-    section: "W świecie organizmów",
-    type: "single_choice",
-    prompt: "Który zestaw najlepiej pokazuje wspólne potrzeby życiowe organizmów?",
-    options: [
-      "woda, pokarm i odpowiednie warunki otoczenia",
-      "telefon, prąd i internet",
-      "farby, papier i nożyczki",
-      "piłka, rower i hulajnoga"
+    "answer": [
+      0,
+      1,
+      2,
+      4,
+      5
     ],
-    answer: 0,
-    explanation: "Wszystkie organizmy potrzebują wody, pokarmu i odpowiednich warunków, żeby przeżyć i działać."
+    "explanation": "Do podstawowych czynności życiowych należą między innymi odżywianie, oddychanie, wydalanie, wzrost, rozmnażanie i reagowanie na zmiany."
   },
   {
-    id: "R01_WSO_06",
-    section: "W świecie organizmów",
-    type: "multi_select",
-    prompt: "Zaznacz czynności, które należą do podstawowych czynności życiowych organizmów.",
-    image: "/img/bbt_r01_czynnosci_zyciowe_kot.jpg",
-    options: ["odżywianie", "oddychanie", "wzrost", "rozmnażanie", "wysyłanie wiadomości"],
-    answer: [0, 1, 2, 3],
-    explanation: "Organizmy odżywiają się, oddychają, rosną i rozmnażają. Wysyłanie wiadomości nie jest czynnością życiową."
+    "id": "R01_ORG_04",
+    "section": "Cechy organizmów i komórki",
+    "type": "true_false",
+    "prompt": "Budowa komórkowa jest wspólną cechą wszystkich organizmów.",
+    "options": null,
+    "answer": true,
+    "explanation": "W podręczniku podkreślono, że wszystkie organizmy są zbudowane z komórek."
   },
   {
-    id: "R01_WSO_07",
-    section: "W świecie organizmów",
-    type: "scenario",
-    prompt: "Kasia ogląda ilustrację z eugleną i zwierzętami domowymi. Chce wskazać organizm zbudowany tylko z jednej komórki. Co powinna wybrać?",
-    image: "/img/bbt_r01_jedno_i_wielokomorkowe.jpg",
-    options: ["euglenę", "kota", "psa", "królika"],
-    answer: 0,
-    explanation: "Euglena jest organizmem jednokomórkowym. Zwierzęta domowe są wielokomórkowe."
+    "id": "R01_ORG_05",
+    "section": "Cechy organizmów i komórki",
+    "type": "fill_in",
+    "prompt": "Organizm zbudowany z jednej komórki to organizm __________, a organizm zbudowany z wielu komórek to organizm __________.",
+    "options": null,
+    "answer": [
+      "jednokomórkowy",
+      "wielokomórkowy"
+    ],
+    "altAnswers": [
+      [
+        "jednokomórkowy",
+        "jednokomórkowy organizm"
+      ],
+      [
+        "wielokomórkowy",
+        "wielokomórkowy organizm"
+      ]
+    ],
+    "explanation": "Organizmy jednokomórkowe mają jedną komórkę, natomiast wielokomórkowe są zbudowane z wielu komórek."
   },
   {
-    id: "R01_WSO_08",
-    section: "W świecie organizmów",
-    type: "sequence",
-    prompt: "Ułóż od najmniejszego poziomu budowy do największego.",
-    image: "/img/bbt_r01_hierarchia_budowy.jpg",
-    options: null,
-    items: ["układ narządów", "komórka", "narząd", "tkanka"],
-    answer: ["komórka", "tkanka", "narząd", "układ narządów"],
-    explanation: "W organizmie wielokomórkowym komórki tworzą tkanki, tkanki tworzą narządy, a narządy tworzą układy narządów."
-  },
-  {
-    id: "R01_BO_01",
-    section: "Budowa organizmów",
-    type: "scenario",
-    prompt: "Na ilustracji pokazano kilka typów komórek. Które komórki mają charakterystyczne wypustki i rozgałęzienia?",
-    image: "/img/bbt_r01_ksztalty_komorek.jpg",
-    options: ["komórki nerwowe", "komórki jelita", "komórki wątroby", "komórki serca"],
-    answer: 0,
-    explanation: "Komórki nerwowe mają długie wypustki i rozgałęzienia, dzięki którym mogą przekazywać informacje."
-  },
-  {
-    id: "R01_BO_02",
-    section: "Budowa organizmów",
-    type: "multi_select",
-    prompt: "Zaznacz elementy charakterystyczne dla komórki roślinnej.",
-    options: ["chloroplast", "ściana komórkowa", "duża wakuola", "rzęska"],
-    answer: [0, 1, 2],
-    explanation: "Komórkę roślinną wyróżniają chloroplasty, ściana komórkowa i duża wakuola."
-  },
-  {
-    id: "R01_BO_03",
-    section: "Budowa organizmów",
-    type: "sort",
-    prompt: "Przyporządkuj elementy do właściwej kategorii.",
-    options: null,
-    items: ["błona komórkowa", "cytoplazma", "materiał genetyczny", "jądro komórkowe", "mitochondrium", "chloroplast"],
-    categories: ["występuje w komórce bakteryjnej", "brak w komórce bakteryjnej"],
-    answer: {
-      "występuje w komórce bakteryjnej": ["błona komórkowa", "cytoplazma", "materiał genetyczny"],
-      "brak w komórce bakteryjnej": ["jądro komórkowe", "mitochondrium", "chloroplast"]
+    "id": "R01_ORG_06",
+    "section": "Cechy organizmów i komórki",
+    "type": "sort",
+    "prompt": "Przyporządkuj przykłady do czynności życiowych.",
+    "options": null,
+    "items": [
+      "kot zjada pokarm",
+      "organizm usuwa zbędne substancje",
+      "zwierzę ucieka przed zagrożeniem",
+      "siewka zwiększa rozmiary"
+    ],
+    "categories": [
+      "odżywianie",
+      "wydalanie",
+      "reagowanie na zmiany",
+      "wzrost"
+    ],
+    "answer": {
+      "odżywianie": [
+        "kot zjada pokarm"
+      ],
+      "wydalanie": [
+        "organizm usuwa zbędne substancje"
+      ],
+      "reagowanie na zmiany": [
+        "zwierzę ucieka przed zagrożeniem"
+      ],
+      "wzrost": [
+        "siewka zwiększa rozmiary"
+      ]
     },
-    explanation: "Komórka bakteryjna ma błonę, cytoplazmę i materiał genetyczny, ale nie ma jądra, mitochondriów ani chloroplastów."
+    "explanation": "Każdy przykład opisuje inną czynność życiową: zdobywanie substancji, usuwanie zbędnych substancji albo reakcję na bodziec."
   },
   {
-    id: "R01_BO_04",
-    section: "Budowa organizmów",
-    type: "fill_in",
-    prompt: "We wszystkich rodzajach komórek występują __________, __________ i materiał genetyczny.",
-    options: null,
-    answer: ["cytoplazma", "błona komórkowa"],
-    altAnswers: [
-      ["cytoplazma", "cytoplazmę", "cytoplazmie"],
-      ["błona komórkowa", "błona", "błonę komórkową", "błonie komórkowej"]
+    "id": "R01_ORG_07",
+    "section": "Cechy organizmów i komórki",
+    "type": "sequence",
+    "prompt": "Ułóż poziomy budowy organizmu wielokomórkowego od najmniejszego do największego.",
+    "options": null,
+    "items": [
+      "układ narządów",
+      "tkanka",
+      "organizm",
+      "komórka",
+      "narząd"
     ],
-    explanation: "Komórki roślinne, zwierzęce i bakteryjne mają cytoplazmę, błonę komórkową oraz materiał genetyczny."
-  },
-  {
-    id: "R01_BO_05",
-    section: "Budowa organizmów",
-    type: "single_choice",
-    prompt: "Który element komórki roślinnej pomaga roślinie wykorzystywać energię światła?",
-    image: "/img/bbt_r01_komorka_roslinna.jpg",
-    options: ["chloroplast", "mitochondrium", "wakuola", "ściana komórkowa"],
-    answer: 0,
-    explanation: "Chloroplast to miejsce fotosyntezy. To w nim roślina wykorzystuje energię światła."
-  },
-  {
-    id: "R01_BO_06",
-    section: "Budowa organizmów",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: chloroplast, mitochondrium, wakuola, skrzela.",
-    options: null,
-    answer: "skrzela",
-    explanation: "Skrzela są narządem, a pozostałe wyrazy oznaczają elementy komórki."
-  },
-  {
-    id: "R01_BO_07",
-    section: "Budowa organizmów",
-    type: "true_false",
-    prompt: "W komórce bakteryjnej materiał genetyczny znajduje się bezpośrednio w cytoplazmie.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Komórka bakteryjna nie ma jądra komórkowego, więc materiał genetyczny leży w cytoplazmie."
-  },
-  {
-    id: "R01_BO_08",
-    section: "Budowa organizmów",
-    type: "single_choice",
-    prompt: "Spójrz na ilustrację. Która komórka nie ma jądra komórkowego?",
-    image: "/img/bbt_r01_komorka_zwierzeca_i_bakteryjna.jpg",
-    options: ["komórka bakteryjna", "komórka zwierzęca", "obie komórki", "żadna z nich"],
-    answer: 0,
-    explanation: "Jądra komórkowego nie ma komórka bakteryjna. Komórka zwierzęca ma jądro."
-  },
-  {
-    id: "R01_BO_09",
-    section: "Budowa organizmów",
-    type: "match",
-    prompt: "Połącz substancję z jej główną rolą.",
-    options: null,
-    left: ["białka", "cukry", "tłuszcze", "kwasy nukleinowe", "woda", "sole mineralne"],
-    right: [
-      "podstawowy budulec organizmu",
-      "podstawowe źródło energii",
-      "zapas energii i ochrona przed utratą ciepła",
-      "instrukcja budowy i działania komórki",
-      "ułatwia transport substancji i przebieg procesów życiowych",
-      "między innymi budują kości"
+    "answer": [
+      "komórka",
+      "tkanka",
+      "narząd",
+      "układ narządów",
+      "organizm"
     ],
-    answer: {
-      "białka": "podstawowy budulec organizmu",
-      cukry: "podstawowe źródło energii",
-      "tłuszcze": "zapas energii i ochrona przed utratą ciepła",
-      "kwasy nukleinowe": "instrukcja budowy i działania komórki",
-      woda: "ułatwia transport substancji i przebieg procesów życiowych",
-      "sole mineralne": "między innymi budują kości"
+    "image": "r01_hierarchia_organizmu.jpg",
+    "explanation": "W budowie hierarchicznej mniejsze elementy tworzą większe struktury: komórki tworzą tkanki, tkanki narządy, a narządy układy narządów."
+  },
+  {
+    "id": "R01_ORG_08",
+    "section": "Cechy organizmów i komórki",
+    "type": "single_choice",
+    "prompt": "Który element komórki zawiera materiał genetyczny w komórkach roślinnych i zwierzęcych?",
+    "options": [
+      "jądro komórkowe",
+      "ściana komórkowa",
+      "chloroplast",
+      "wakuola",
+      "błona komórkowa",
+      "cytoplazma"
+    ],
+    "answer": 0,
+    "image": "r01_komorka_roslinna_schemat.jpg",
+    "explanation": "W jądrze komórkowym zgromadzony jest materiał genetyczny zawierający instrukcje dotyczące budowy i działania komórki."
+  },
+  {
+    "id": "R01_ORG_09",
+    "section": "Cechy organizmów i komórki",
+    "type": "multi_select",
+    "prompt": "Zaznacz elementy, które pozwalają odróżnić typową komórkę roślinną od zwierzęcej.",
+    "options": [
+      "chloroplast",
+      "ściana komórkowa",
+      "jądro komórkowe",
+      "mitochondrium",
+      "błona komórkowa"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "image": "r01_komorka_roslinna_schemat.jpg",
+    "explanation": "Komórka roślinna ma chloroplasty oraz ścianę komórkową, których nie ma typowa komórka zwierzęca."
+  },
+  {
+    "id": "R01_ORG_10",
+    "section": "Cechy organizmów i komórki",
+    "type": "riddle",
+    "prompt": "Jak nazywa się organellum, które odpowiada za powstawanie energii niezbędnej do życia komórki?",
+    "options": null,
+    "answer": "mitochondrium",
+    "altAnswers": [
+      "mitochondrium",
+      "mitochondria"
+    ],
+    "explanation": "Mitochondria są w podręczniku porównane do małych elektrowni komórki."
+  },
+  {
+    "id": "R01_ORG_11",
+    "section": "Cechy organizmów i komórki",
+    "type": "odd_one_out",
+    "prompt": "Wskaż pierwiastek, który nie należy do pierwiastków biogennych wymienionych w rozdziale: węgiel, wodór, tlen, złoto.",
+    "options": null,
+    "answer": "złoto",
+    "explanation": "Do pierwiastków biogennych zaliczono węgiel, wodór, tlen, azot, siarkę i fosfor. Złoto nie znalazło się na tej liście."
+  },
+  {
+    "id": "R01_ORG_12",
+    "section": "Cechy organizmów i komórki",
+    "type": "scenario",
+    "prompt": "Uczeń ogląda komórkę, w której materiał genetyczny znajduje się bezpośrednio w cytoplazmie, a nie w jądrze komórkowym. Jakiego typu komórkę najpewniej obserwuje?",
+    "options": [
+      "komórkę bakteryjną",
+      "komórkę mięśniową człowieka",
+      "komórkę nerwową kota",
+      "komórkę liścia z chloroplastami"
+    ],
+    "answer": 0,
+    "image": "r01_komorka_bakteryjna.jpg",
+    "explanation": "W komórce bakteryjnej nie ma jądra komórkowego, a materiał genetyczny znajduje się bezpośrednio w cytoplazmie."
+  },
+  {
+    "id": "R01_MIK_01",
+    "section": "Mikroskop i doświadczenia",
+    "type": "single_choice",
+    "prompt": "Między jakimi elementami znajduje się obiekt w preparacie mikroskopowym?",
+    "options": [
+      "między szkiełkiem podstawowym a nakrywkowym",
+      "między dwoma obiektywami",
+      "między okularem a tubusem",
+      "między statywem a rewolwerem",
+      "między dwoma źródłami światła"
+    ],
+    "answer": 0,
+    "image": "r01_preparat_mikroskopowy.jpg",
+    "explanation": "W prostym preparacie obiekt umieszcza się między szkiełkiem podstawowym a szkiełkiem nakrywkowym."
+  },
+  {
+    "id": "R01_MIK_02",
+    "section": "Mikroskop i doświadczenia",
+    "type": "match",
+    "prompt": "Połącz element mikroskopu z jego funkcją.",
+    "options": null,
+    "left": [
+      "okular",
+      "obiektyw",
+      "stolik",
+      "rewolwer"
+    ],
+    "right": [
+      "umożliwia obserwację powiększonego obrazu",
+      "powiększa oglądany obiekt",
+      "miejsce ułożenia preparatu",
+      "pozwala zmienić obiektyw"
+    ],
+    "answer": {
+      "okular": "umożliwia obserwację powiększonego obrazu",
+      "obiektyw": "powiększa oglądany obiekt",
+      "stolik": "miejsce ułożenia preparatu",
+      "rewolwer": "pozwala zmienić obiektyw"
     },
-    explanation: "Różne związki chemiczne pełnią w organizmie różne zadania: jedne budują, inne dostarczają energii albo pomagają w działaniu komórek."
+    "image": "r01_mikroskop_swietlny.jpg",
+    "explanation": "Każdy element mikroskopu pełni określoną rolę podczas obserwacji preparatu."
   },
   {
-    id: "R01_BO_10",
-    section: "Budowa organizmów",
-    type: "multi_select",
-    prompt: "Zaznacz pierwiastki biogenne.",
-    options: [
-      "węgiel",
-      "tlen",
-      "wodór",
-      "azot",
-      "siarka",
-      "fosfor",
-      "złoto",
-      "srebro"
-    ],
-    answer: [0, 1, 2, 3, 4, 5],
-    explanation: "Do pierwiastków biogennych należą węgiel, tlen, wodór, azot, siarka i fosfor. To one budują najważniejsze związki chemiczne organizmów."
+    "id": "R01_MIK_03",
+    "section": "Mikroskop i doświadczenia",
+    "type": "true_false",
+    "prompt": "Szkolne mikroskopy świetlne umożliwiają oglądanie obiektów w powiększeniu od około 100 do 1200 razy.",
+    "options": null,
+    "answer": true,
+    "explanation": "Rozdział podaje taki zakres powiększeń dla mikroskopów świetlnych używanych w pracowniach szkolnych."
   },
   {
-    id: "R01_OM_01",
-    section: "Obserwacje mikroskopowe",
-    type: "single_choice",
-    prompt: "Jak nazywa się przyrząd pokazany na ilustracji?",
-    image: "/img/bbt_r01_mikroskop_swietlny.jpg",
-    options: ["mikroskop", "teleskop", "termometr", "waga"],
-    answer: 0,
-    explanation: "To mikroskop świetlny. Używa się go do oglądania bardzo małych obiektów."
-  },
-  {
-    id: "R01_OM_02",
-    section: "Obserwacje mikroskopowe",
-    type: "match",
-    prompt: "Połącz element mikroskopu z jego funkcją.",
-    options: null,
-    left: ["okular", "obiektyw", "stolik", "źródło światła"],
-    right: ["umożliwia obserwację obrazu", "powiększa oglądany obiekt", "tu umieszcza się preparat", "oświetla preparat"],
-    answer: {
-      okular: "umożliwia obserwację obrazu",
-      obiektyw: "powiększa oglądany obiekt",
-      stolik: "tu umieszcza się preparat",
-      "źródło światła": "oświetla preparat"
-    },
-    explanation: "Każda część mikroskopu ma inne zadanie. Dzięki nim obraz jest widoczny i ostry."
-  },
-  {
-    id: "R01_OM_03",
-    section: "Obserwacje mikroskopowe",
-    type: "sequence",
-    prompt: "Ułóż podstawowe kroki korzystania z mikroskopu we właściwej kolejności.",
-    options: null,
-    items: [
-      "włącz światło i ustaw preparat w polu widzenia",
+    "id": "R01_MIK_04",
+    "section": "Mikroskop i doświadczenia",
+    "type": "sequence",
+    "prompt": "Ułóż podstawowe czynności korzystania z mikroskopu we właściwej kolejności.",
+    "options": null,
+    "items": [
+      "ustaw ostrość obrazu",
+      "umieść preparat na stoliku",
       "ustaw obiektyw o najmniejszym powiększeniu",
-      "połóż preparat na stoliku",
-      "wyostrz obraz śrubą mikrometryczną",
-      "najpierw znajdź obraz śrubą makrometryczną"
+      "włącz światło i ustaw preparat w polu widzenia",
+      "w razie potrzeby zmień obiektyw"
     ],
-    answer: [
-      "połóż preparat na stoliku",
+    "answer": [
+      "umieść preparat na stoliku",
       "ustaw obiektyw o najmniejszym powiększeniu",
       "włącz światło i ustaw preparat w polu widzenia",
-      "najpierw znajdź obraz śrubą makrometryczną",
-      "wyostrz obraz śrubą mikrometryczną"
+      "ustaw ostrość obrazu",
+      "w razie potrzeby zmień obiektyw"
     ],
-    explanation: "Najpierw przygotowuje się mikroskop i preparat, potem znajduje obraz, a na końcu ustawia go dokładnie."
+    "explanation": "Najpierw przygotowuje się mikroskop do obserwacji na najmniejszym powiększeniu, a dopiero później ustawia ostrość i ewentualnie zwiększa powiększenie."
   },
   {
-    id: "R01_OM_04",
-    section: "Obserwacje mikroskopowe",
-    type: "true_false",
-    prompt: "W preparacie mikroskopowym oglądany obiekt znajduje się między szkiełkiem podstawowym a nakrywkowym.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Tak właśnie przygotowuje się prosty preparat do obserwacji."
-  },
-  {
-    id: "R01_OM_05",
-    section: "Obserwacje mikroskopowe",
-    type: "fill_in",
-    prompt: "Do prostego preparatu mikroskopowego potrzebne są szkiełko __________ i szkiełko __________.",
-    options: null,
-    answer: ["podstawowe", "nakrywkowe"],
-    altAnswers: [
-      ["podstawowe", "podstawowym", "podstawowego"],
-      ["nakrywkowe", "nakrywkowym", "nakrywkowego"]
+    "id": "R01_MIK_05",
+    "section": "Mikroskop i doświadczenia",
+    "type": "fill_in",
+    "prompt": "Do wykonania preparatu potrzebne są szkiełko __________ oraz szkiełko __________.",
+    "options": null,
+    "answer": [
+      "podstawowe",
+      "nakrywkowe"
     ],
-    explanation: "Obiekt kładzie się na szkiełku podstawowym, a potem przykrywa szkiełkiem nakrywkowym."
-  },
-  {
-    id: "R01_OM_06",
-    section: "Obserwacje mikroskopowe",
-    type: "scenario",
-    prompt: "Na ilustracji widać dwa rodzaje szkiełek. Które z nich przykrywa obiekt i jest mniejsze?",
-    image: "/img/bbt_r01_preparat_mikroskopowy.jpg",
-    options: ["szkiełko nakrywkowe", "szkiełko podstawowe", "obiektyw", "okular"],
-    answer: 0,
-    explanation: "Mniejsze szkiełko nakrywkowe przykrywa obiekt umieszczony na szkiełku podstawowym."
-  },
-  {
-    id: "R01_OM_07",
-    section: "Obserwacje mikroskopowe",
-    type: "multi_select",
-    prompt: "Zaznacz zasady bezpiecznego i poprawnego korzystania z mikroskopu.",
-    options: [
-      "obchodzę się z nim delikatnie",
-      "zaczynam od największego powiększenia",
-      "na początku ustawiam najmniejszy obiektyw",
-      "ostrożnie reguluję ostrość śrubami",
-      "kręcę wszystkim naraz bardzo szybko"
+    "altAnswers": [
+      [
+        "podstawowe",
+        "podstawowym"
+      ],
+      [
+        "nakrywkowe",
+        "nakrywkowym"
+      ]
     ],
-    answer: [0, 2, 3],
-    explanation: "Z mikroskopem trzeba obchodzić się delikatnie, zaczynać od najmniejszego powiększenia i spokojnie ustawiać ostrość."
+    "image": "r01_preparat_mikroskopowy.jpg",
+    "explanation": "Podstawowy preparat wykonuje się na szkiełku podstawowym i przykrywa szkiełkiem nakrywkowym."
   },
   {
-    id: "R01_ODZ_01",
-    section: "Odżywianie się organizmów",
-    type: "single_choice",
-    prompt: "Człowiek należy do organizmów:",
-    options: ["cudzożywnych", "samożywnych", "jednokomórkowych", "beztlenowych"],
-    answer: 0,
-    explanation: "Człowiek nie wytwarza sam pokarmu z prostych substancji. Musi go pobierać, więc jest cudzożywny."
+    "id": "R01_MIK_06",
+    "section": "Mikroskop i doświadczenia",
+    "type": "multi_select",
+    "prompt": "Zaznacz materiały potrzebne do wykonania prostego preparatu mikroskopowego.",
+    "options": [
+      "szkiełko podstawowe",
+      "szkiełko nakrywkowe",
+      "kropla wody",
+      "obserwowany obiekt",
+      "rewolwer mikroskopu",
+      "futro niedźwiedzia"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Do wykonania preparatu potrzeba szkiełka podstawowego, szkiełka nakrywkowego, kropli wody i obserwowanego obiektu."
   },
   {
-    id: "R01_ODZ_02",
-    section: "Odżywianie się organizmów",
-    type: "match",
-    prompt: "Połącz pojęcie z właściwym opisem.",
-    options: null,
-    left: ["organizm samożywny", "organizm cudzożywny", "chlorofil", "chloroplast"],
-    right: [
-      "sam wytwarza pokarm",
-      "pobiera pokarm z otoczenia",
+    "id": "R01_MIK_07",
+    "section": "Mikroskop i doświadczenia",
+    "type": "scenario",
+    "prompt": "Podczas obserwacji uczeń widzi preparat, ale obraz jest jeszcze nieostry. Którym elementem powinien delikatnie doprecyzować ostrość?",
+    "options": [
+      "śrubą mikrometryczną",
+      "szkiełkiem nakrywkowym",
+      "źródłem światła trzymanym w dłoni",
+      "preparatem w zlewce"
+    ],
+    "answer": 0,
+    "explanation": "Po wstępnym ustawieniu obrazu ostrość dopracowuje się śrubą mikrometryczną."
+  },
+  {
+    "id": "R01_MIK_08",
+    "section": "Mikroskop i doświadczenia",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie jest częścią mikroskopu świetlnego: okular, obiektyw, kondensor, pajęczyna.",
+    "options": null,
+    "answer": "pajęczyna",
+    "explanation": "Okular, obiektyw i kondensor to elementy mikroskopu. Pajęczyna może być obiektem przyrodniczym, ale nie jest częścią mikroskopu."
+  },
+  {
+    "id": "R01_MIK_09",
+    "section": "Mikroskop i doświadczenia",
+    "type": "riddle",
+    "prompt": "Jak nazywa się przyrząd, który pozwala obserwować komórki i bardzo małe obiekty dzięki powiększeniu obrazu?",
+    "options": null,
+    "answer": "mikroskop",
+    "altAnswers": [
+      "mikroskop",
+      "mikroskop świetlny"
+    ],
+    "explanation": "Do obserwacji komórek używa się mikroskopu świetlnego."
+  },
+  {
+    "id": "R01_FOT_01",
+    "section": "Odżywianie i fotosynteza",
+    "type": "single_choice",
+    "prompt": "Które organizmy są samożywne?",
+    "options": [
+      "organizmy wytwarzające pokarm",
+      "organizmy zjadające wyłącznie zwierzęta",
+      "organizmy bez komórek",
+      "organizmy żyjące tylko w ciemności",
+      "organizmy przeprowadzające tylko fermentację"
+    ],
+    "answer": 0,
+    "explanation": "Organizmy samożywne same wytwarzają pokarm, na przykład rośliny w procesie fotosyntezy."
+  },
+  {
+    "id": "R01_FOT_02",
+    "section": "Odżywianie i fotosynteza",
+    "type": "true_false",
+    "prompt": "Człowiek jest organizmem cudzożywnym.",
+    "options": null,
+    "answer": true,
+    "explanation": "Człowiek uzyskuje potrzebne związki chemiczne z pokarmu, dlatego należy do organizmów cudzożywnych."
+  },
+  {
+    "id": "R01_FOT_03",
+    "section": "Odżywianie i fotosynteza",
+    "type": "fill_in",
+    "prompt": "W fotosyntezie z dwutlenku węgla i wody, przy udziale energii świetlnej, powstają __________ i __________.",
+    "options": null,
+    "answer": [
+      "cukier",
+      "tlen"
+    ],
+    "altAnswers": [
+      [
+        "cukier",
+        "glukoza"
+      ],
+      [
+        "tlen"
+      ]
+    ],
+    "image": "r01_fotosynteza_roslina.jpg",
+    "explanation": "Produktami fotosyntezy są cukier oraz tlen."
+  },
+  {
+    "id": "R01_FOT_04",
+    "section": "Odżywianie i fotosynteza",
+    "type": "multi_select",
+    "prompt": "Zaznacz czynniki lub substancje potrzebne do przebiegu fotosyntezy.",
+    "options": [
+      "woda",
+      "dwutlenek węgla",
+      "energia świetlna",
+      "tlen jako produkt",
+      "alkohol etylowy",
+      "chlorofil"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "image": "r01_fotosynteza_roslina.jpg",
+    "explanation": "Do fotosyntezy potrzebne są woda, dwutlenek węgla i energia światła; światło pochłaniają barwniki fotosyntetyczne, przede wszystkim chlorofil."
+  },
+  {
+    "id": "R01_FOT_05",
+    "section": "Odżywianie i fotosynteza",
+    "type": "riddle",
+    "prompt": "Jak nazywa się najważniejszy barwnik fotosyntetyczny pochłaniający światło?",
+    "options": null,
+    "answer": "chlorofil",
+    "altAnswers": [
+      "chlorofil"
+    ],
+    "explanation": "Najważniejszym barwnikiem fotosyntetycznym jest chlorofil."
+  },
+  {
+    "id": "R01_FOT_06",
+    "section": "Odżywianie i fotosynteza",
+    "type": "scenario",
+    "prompt": "W doświadczeniu z moczarką jedna roślina stoi w ciemności, druga w słabym świetle, a trzecia w silnym świetle. W której próbie powinno powstać najwięcej tlenu?",
+    "options": [
+      "w silnym świetle",
+      "w ciemności",
+      "w każdej próbie tyle samo",
+      "tylko w probówce bez rośliny"
+    ],
+    "answer": 0,
+    "image": "r01_doswiadczenie_fotosynteza.jpg",
+    "explanation": "Większe natężenie światła zwiększa intensywność fotosyntezy, dlatego w silnym świetle powinno powstać najwięcej tlenu."
+  },
+  {
+    "id": "R01_FOT_07",
+    "section": "Odżywianie i fotosynteza",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie jest potrzebnym substratem ani warunkiem fotosyntezy: woda, dwutlenek węgla, światło, alkohol etylowy.",
+    "options": null,
+    "answer": "alkohol etylowy",
+    "explanation": "Fotosynteza wymaga wody, dwutlenku węgla i światła. Alkohol etylowy jest związany z fermentacją alkoholową, a nie z fotosyntezą."
+  },
+  {
+    "id": "R01_FOT_08",
+    "section": "Odżywianie i fotosynteza",
+    "type": "match",
+    "prompt": "Połącz pojęcie z opisem.",
+    "options": null,
+    "left": [
+      "chloroplast",
+      "chlorofil",
+      "organizm cudzożywny",
+      "skrobia"
+    ],
+    "right": [
+      "miejsce fotosyntezy w komórce roślinnej",
       "barwnik pochłaniający światło",
-      "miejsce, w którym zachodzi fotosynteza"
+      "pobiera pokarm z otoczenia",
+      "materiał zapasowy roślin"
     ],
-    answer: {
-      "organizm samożywny": "sam wytwarza pokarm",
+    "answer": {
+      "chloroplast": "miejsce fotosyntezy w komórce roślinnej",
+      "chlorofil": "barwnik pochłaniający światło",
       "organizm cudzożywny": "pobiera pokarm z otoczenia",
-      chlorofil: "barwnik pochłaniający światło",
-      chloroplast: "miejsce, w którym zachodzi fotosynteza"
+      "skrobia": "materiał zapasowy roślin"
     },
-    explanation: "Rośliny są samożywne, zwierzęta cudzożywne, a chlorofil i chloroplasty pomagają roślinom w fotosyntezie."
+    "explanation": "Pojęcia dotyczą różnych elementów odżywiania się organizmów i fotosyntezy."
   },
   {
-    id: "R01_ODZ_03",
-    section: "Odżywianie się organizmów",
-    type: "single_choice",
-    prompt: "Który gaz powstaje podczas fotosyntezy i jest uwalniany do otoczenia?",
-    image: "/img/bbt_r01_fotosynteza_schemat.jpg",
-    options: ["tlen", "azot", "dwutlenek węgla", "para wodna"],
-    answer: 0,
-    explanation: "Podczas fotosyntezy roślina wytwarza cukier i tlen. Tlen jest oddawany do otoczenia."
-  },
-  {
-    id: "R01_ODZ_04",
-    section: "Odżywianie się organizmów",
-    type: "fill_in",
-    prompt: "W fotosyntezie z __________ i __________ powstają __________ i __________.",
-    options: null,
-    answer: ["wody", "dwutlenku węgla", "cukier", "tlen"],
-    altAnswers: [
-      ["wody", "woda"],
-      ["dwutlenku węgla", "dwutlenek węgla", "co2"],
-      ["cukier", "cukru", "glukoza", "glukozę"],
-      ["tlen", "tlenu", "o2"]
+    "id": "R01_FOT_09",
+    "section": "Odżywianie i fotosynteza",
+    "type": "sort",
+    "prompt": "Rozdziel przykłady na organizmy samożywne i cudzożywne.",
+    "options": null,
+    "items": [
+      "dąb",
+      "moczarka",
+      "człowiek",
+      "pająk"
     ],
-    explanation: "Roślina pobiera wodę i dwutlenek węgla, a przy udziale światła wytwarza cukier oraz tlen."
-  },
-  {
-    id: "R01_ODZ_05",
-    section: "Odżywianie się organizmów",
-    type: "multi_select",
-    prompt: "Które czynniki mogą wpływać na intensywność fotosyntezy?",
-    options: ["natężenie światła", "temperatura", "dostępność wody", "dostępność soli mineralnych", "kolor zeszytu"],
-    answer: [0, 1, 2, 3],
-    explanation: "Na fotosyntezę wpływają warunki życia rośliny, na przykład światło, temperatura, woda i sole mineralne."
-  },
-  {
-    id: "R01_ODZ_06",
-    section: "Odżywianie się organizmów",
-    type: "scenario",
-    prompt: "W doświadczeniu z trzema zestawami B1, B2 i K roślina miała najwięcej światła w jednym zestawie. W którym powstanie najwięcej tlenu?",
-    image: "/img/bbt_r01_doswiadczenie_fotosynteza_swiatlo.jpg",
-    options: ["w zestawie B2", "w zestawie B1", "w zestawie K", "we wszystkich tyle samo"],
-    answer: 0,
-    explanation: "Im większe natężenie światła, tym intensywniej zachodzi fotosynteza, więc najwięcej tlenu powstanie w dobrze oświetlonym zestawie B2."
-  },
-  {
-    id: "R01_ODZ_07",
-    section: "Odżywianie się organizmów",
-    type: "true_false",
-    prompt: "Chlorofil pomaga roślinie pochłaniać światło potrzebne do fotosyntezy.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Chlorofil jest barwnikiem fotosyntetycznym, który pochłania światło."
-  },
-  {
-    id: "R01_ODZ_08",
-    section: "Odżywianie się organizmów",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: światło, woda, dwutlenek węgla, skóra.",
-    options: null,
-    answer: "skóra",
-    explanation: "Światło, woda i dwutlenek węgla są związane z fotosyntezą. Skóra nie jest potrzebna do tego procesu."
-  },
-  {
-    id: "R01_ODD_01",
-    section: "Oddychanie organizmów",
-    type: "single_choice",
-    prompt: "W którym elemencie komórki zachodzi oddychanie tlenowe?",
-    image: "/img/bbt_r01_oddychanie_tlenowe.jpg",
-    options: ["w mitochondrium", "w chloroplaście", "w ścianie komórkowej", "w wakuoli"],
-    answer: 0,
-    explanation: "Oddychanie tlenowe zachodzi w mitochondriach. To tam komórka uzyskuje energię z cukru."
-  },
-  {
-    id: "R01_ODD_02",
-    section: "Oddychanie organizmów",
-    type: "fill_in",
-    prompt: "W oddychaniu tlenowym cukier łączy się z __________, a powstają energia, __________ i __________.",
-    options: null,
-    answer: ["tlenem", "dwutlenek węgla", "woda"],
-    altAnswers: [
-      ["tlenem", "tlen", "tlenu", "o2"],
-      ["dwutlenek węgla", "dwutlenku węgla", "co2"],
-      ["woda", "wody"]
+    "categories": [
+      "samożywne",
+      "cudzożywne"
     ],
-    explanation: "W oddychaniu tlenowym cukier reaguje z tlenem. Dzięki temu komórka uzyskuje energię, a powstają też dwutlenek węgla i woda."
-  },
-  {
-    id: "R01_ODD_03",
-    section: "Oddychanie organizmów",
-    type: "true_false",
-    prompt: "Fermentacja pozwala uzyskać mniej energii niż oddychanie tlenowe.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Fermentacja uwalnia tylko część energii zawartej w cukrze."
-  },
-  {
-    id: "R01_ODD_04",
-    section: "Oddychanie organizmów",
-    type: "match",
-    prompt: "Połącz przykład z odpowiednim rodzajem fermentacji.",
-    image: "/img/bbt_r01_fermentacja_dwa_typy.jpg",
-    options: null,
-    left: ["mięśnie podczas dużego wysiłku", "drożdże w cieście"],
-    right: ["fermentacja mlekowa", "fermentacja alkoholowa"],
-    answer: {
-      "mięśnie podczas dużego wysiłku": "fermentacja mlekowa",
-      "drożdże w cieście": "fermentacja alkoholowa"
+    "answer": {
+      "samożywne": [
+        "dąb",
+        "moczarka"
+      ],
+      "cudzożywne": [
+        "człowiek",
+        "pająk"
+      ]
     },
-    explanation: "Gdy do mięśni dociera za mało tlenu, może zachodzić fermentacja mlekowa. Drożdże przeprowadzają fermentację alkoholową."
+    "explanation": "Rośliny wytwarzają pokarm w fotosyntezie, a zwierzęta pobierają pokarm z innych organizmów."
   },
   {
-    id: "R01_ODD_05",
-    section: "Oddychanie organizmów",
-    type: "single_choice",
-    prompt: "Co może zachodzić w mięśniach człowieka podczas bardzo dużego wysiłku, gdy brakuje tlenu?",
-    options: ["fermentacja mlekowa", "fotosynteza", "budowa ściany komórkowej", "tworzenie chlorofilu"],
-    answer: 0,
-    explanation: "Przy niedoborze tlenu w mięśniach może zachodzić fermentacja mlekowa."
-  },
-  {
-    id: "R01_ODD_06",
-    section: "Oddychanie organizmów",
-    type: "multi_select",
-    prompt: "Zaznacz produkty fermentacji alkoholowej.",
-    options: ["alkohol etylowy", "dwutlenek węgla", "energia", "chlorofil"],
-    answer: [0, 1, 2],
-    explanation: "W fermentacji alkoholowej powstają alkohol etylowy, dwutlenek węgla i trochę energii."
-  },
-  {
-    id: "R01_ODD_07",
-    section: "Oddychanie organizmów",
-    type: "scenario",
-    prompt: "Zwierzę stałocieplne znalazło się w bardzo zimnym miejscu. Dlaczego jego oddychanie może stać się intensywniejsze?",
-    options: [
-      "żeby wytworzyć więcej energii i ciepła",
-      "żeby przeprowadzać fotosyntezę",
-      "żeby zbudować ścianę komórkową",
-      "żeby zamienić się w organizm jednokomórkowy"
+    "id": "R01_FOT_10",
+    "section": "Odżywianie i fotosynteza",
+    "type": "single_choice",
+    "prompt": "W którym organellum komórki roślinnej zachodzi fotosynteza?",
+    "options": [
+      "chloroplast",
+      "mitochondrium",
+      "jądro komórkowe",
+      "ściana komórkowa",
+      "błona komórkowa",
+      "wakuola"
     ],
-    answer: 0,
-    explanation: "Oddychanie dostarcza energii. Część tej energii ma postać ciepła, więc w chłodzie oddychanie może się nasilać."
+    "answer": 0,
+    "image": "r01_komorka_roslinna_schemat.jpg",
+    "explanation": "Fotosynteza zachodzi w chloroplastach, które zawierają barwniki pochłaniające światło."
   },
   {
-    id: "R01_PSO_01",
-    section: "Podział świata organizmów",
-    type: "single_choice",
-    prompt: "Które zdanie najlepiej wyjaśnia, czym jest gatunek?",
-    image: "/img/bbt_r01_gatunek_i_podobienstwo.jpg",
-    options: [
-      "to grupa organizmów o wielu wspólnych cechach, przekazujących je potomstwu",
-      "to każdy organizm, który potrafi latać",
-      "to tylko zwierzęta mieszkające w lesie",
-      "to nazwa wszystkich organizmów jednokomórkowych"
+    "id": "R01_ODD_01",
+    "section": "Oddychanie i fermentacja",
+    "type": "single_choice",
+    "prompt": "Które związki chemiczne są podstawowym źródłem energii dla organizmów?",
+    "options": [
+      "cukry",
+      "sole mineralne",
+      "woda",
+      "chlorofil",
+      "materiał genetyczny",
+      "ściana komórkowa"
     ],
-    answer: 0,
-    explanation: "Gatunek to grupa organizmów podobnych do siebie, które przekazują swoje cechy potomstwu."
+    "answer": 0,
+    "explanation": "W rozdziale wskazano, że podstawowe źródło energii stanowią cukry."
   },
   {
-    id: "R01_PSO_02",
-    section: "Podział świata organizmów",
-    type: "sort",
-    prompt: "Przyporządkuj organizmy do królestw.",
-    options: null,
-    items: ["brzoza", "muchomor", "kot", "euglena", "bakteria glebowa"],
-    categories: ["rośliny", "grzyby", "zwierzęta", "protisty", "bakterie"],
-    answer: {
-      "rośliny": ["brzoza"],
-      grzyby: ["muchomor"],
-      "zwierzęta": ["kot"],
-      protisty: ["euglena"],
-      bakterie: ["bakteria glebowa"]
+    "id": "R01_ODD_02",
+    "section": "Oddychanie i fermentacja",
+    "type": "fill_in",
+    "prompt": "W oddychaniu tlenowym cukier i tlen przekształcają się w energię, dwutlenek węgla oraz __________.",
+    "options": null,
+    "answer": [
+      "wodę"
+    ],
+    "altAnswers": [
+      [
+        "wodę",
+        "woda"
+      ]
+    ],
+    "image": "r01_oddychanie_tlenowe_schemat.jpg",
+    "explanation": "Podczas oddychania tlenowego powstają energia, dwutlenek węgla i woda."
+  },
+  {
+    "id": "R01_ODD_03",
+    "section": "Oddychanie i fermentacja",
+    "type": "true_false",
+    "prompt": "Oddychanie tlenowe zachodzi w mitochondriach.",
+    "options": null,
+    "answer": true,
+    "image": "r01_oddychanie_tlenowe_schemat.jpg",
+    "explanation": "Mitochondria są organellami, w których zachodzi oddychanie tlenowe."
+  },
+  {
+    "id": "R01_ODD_04",
+    "section": "Oddychanie i fermentacja",
+    "type": "match",
+    "prompt": "Połącz proces z charakterystyczną informacją.",
+    "options": null,
+    "left": [
+      "oddychanie tlenowe",
+      "fermentacja mlekowa",
+      "fermentacja alkoholowa"
+    ],
+    "right": [
+      "zachodzi w mitochondriach",
+      "powstaje kwas mlekowy",
+      "powstaje alkohol etylowy i dwutlenek węgla"
+    ],
+    "answer": {
+      "oddychanie tlenowe": "zachodzi w mitochondriach",
+      "fermentacja mlekowa": "powstaje kwas mlekowy",
+      "fermentacja alkoholowa": "powstaje alkohol etylowy i dwutlenek węgla"
     },
-    explanation: "Organizmy dzieli się na królestwa według ich cech i pokrewieństwa."
+    "explanation": "Oddychanie tlenowe i fermentacje różnią się udziałem tlenu, miejscem zachodzenia i produktami."
   },
   {
-    id: "R01_PSO_03",
-    section: "Podział świata organizmów",
-    type: "fill_in",
-    prompt: "Największą grupą w tej klasyfikacji jest __________, a dział biologii zajmujący się klasyfikacją organizmów to __________.",
-    options: null,
-    answer: ["królestwo", "systematyka"],
-    altAnswers: [
-      ["królestwo", "królestwem", "królestwa"],
-      ["systematyka", "systematykę", "systematyce"]
+    "id": "R01_ODD_05",
+    "section": "Oddychanie i fermentacja",
+    "type": "multi_select",
+    "prompt": "Zaznacz produkty fermentacji alkoholowej.",
+    "options": [
+      "alkohol etylowy",
+      "dwutlenek węgla",
+      "energia",
+      "tlen",
+      "chlorofil",
+      "ściana komórkowa"
     ],
-    explanation: "Królestwo to największa grupa w tym szkolnym podziale, a systematyka zajmuje się porządkowaniem organizmów."
-  },
-  {
-    id: "R01_PSO_04",
-    section: "Podział świata organizmów",
-    type: "sequence",
-    prompt: "Ułóż poziomy klasyfikacji od najmniejszego do największego.",
-    options: null,
-    items: ["rodzaj", "królestwo", "gatunek", "gromada", "rząd", "rodzina"],
-    answer: ["gatunek", "rodzaj", "rodzina", "rząd", "gromada", "królestwo"],
-    explanation: "Najpierw jest gatunek, a potem kolejne coraz większe grupy: rodzaj, rodzina, rząd, gromada i królestwo."
-  },
-  {
-    id: "R01_PSO_05",
-    section: "Podział świata organizmów",
-    type: "true_false",
-    prompt: "Wszystkie gatunki żyjące dziś na Ziemi pochodzą od wspólnego przodka.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Gatunki są ze sobą bliżej lub dalej spokrewnione, bo pochodzą od dawnych wspólnych przodków."
-  },
-  {
-    id: "R01_PSO_06",
-    section: "Podział świata organizmów",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: lis, nietoperz, delfin, brzoza.",
-    options: null,
-    answer: "brzoza",
-    explanation: "Lis, nietoperz i delfin to zwierzęta. Brzoza jest rośliną."
-  },
-  {
-    id: "R01_WIR_01",
-    section: "Wirusy",
-    type: "single_choice",
-    prompt: "Dlaczego wirusów nie zalicza się do organizmów?",
-    image: "/img/bbt_r01_wirusy_ksztalty.jpg",
-    options: [
-      "bo nie mają budowy komórkowej i nie wykonują samodzielnie czynności życiowych",
-      "bo są za małe, by je nazwać organizmami",
-      "bo mają tylko jeden kolor",
-      "bo żyją wyłącznie w wodzie"
+    "answer": [
+      0,
+      1,
+      2
     ],
-    answer: 0,
-    explanation: "Wirusy nie mają budowy komórkowej i same nie wykonują czynności życiowych, dlatego nie zalicza się ich do organizmów."
+    "image": "r01_fermentacja_drozdze.jpg",
+    "explanation": "Podczas fermentacji alkoholowej cukier przekształca się w alkohol etylowy i dwutlenek węgla, a uwalniana jest część energii."
   },
   {
-    id: "R01_WIR_02",
-    section: "Wirusy",
-    type: "fill_in",
-    prompt: "Wirus jest zbudowany z materiału __________ i osłonki __________.",
-    options: null,
-    answer: ["genetycznego", "białkowej"],
-    altAnswers: [
-      ["genetycznego", "genetyczny", "genetyczna"],
-      ["białkowej", "białkowa", "z białek", "białkowej osłonki"]
+    "id": "R01_ODD_06",
+    "section": "Oddychanie i fermentacja",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie pasuje do pozostałych jako produkt lub efekt fermentacji: kwas mlekowy, alkohol etylowy, dwutlenek węgla, chlorofil.",
+    "options": null,
+    "answer": "chlorofil",
+    "explanation": "Kwas mlekowy, alkohol etylowy i dwutlenek węgla są związane z fermentacją. Chlorofil jest barwnikiem fotosyntetycznym."
+  },
+  {
+    "id": "R01_ODD_07",
+    "section": "Oddychanie i fermentacja",
+    "type": "scenario",
+    "prompt": "Podczas bardzo intensywnego wysiłku do mięśni dociera zbyt mało tlenu. Jaki proces może wtedy zachodzić w mięśniach szkieletowych?",
+    "options": [
+      "fermentacja mlekowa",
+      "fotosynteza",
+      "fermentacja alkoholowa drożdży",
+      "klasyfikacja biologiczna"
     ],
-    explanation: "Wirus ma materiał genetyczny otoczony osłonką z białek."
+    "answer": 0,
+    "explanation": "Gdy do mięśni nie dociera odpowiednia ilość tlenu, może zachodzić w nich fermentacja mlekowa."
   },
   {
-    id: "R01_WIR_03",
-    section: "Wirusy",
-    type: "multi_select",
-    prompt: "Zaznacz drogi, którymi mogą rozprzestrzeniać się wirusy.",
-    options: [
-      "drogą powietrzno-kropelkową",
-      "drogą pokarmową",
-      "przez kontakt z zakażoną krwią lub drogą płciową",
+    "id": "R01_ODD_08",
+    "section": "Oddychanie i fermentacja",
+    "type": "sort",
+    "prompt": "Przyporządkuj procesy do informacji o tlenie.",
+    "options": null,
+    "items": [
+      "oddychanie tlenowe",
+      "fermentacja mlekowa",
+      "fermentacja alkoholowa"
+    ],
+    "categories": [
+      "wymaga tlenu",
+      "zachodzi bez udziału tlenu"
+    ],
+    "answer": {
+      "wymaga tlenu": [
+        "oddychanie tlenowe"
+      ],
+      "zachodzi bez udziału tlenu": [
+        "fermentacja mlekowa",
+        "fermentacja alkoholowa"
+      ]
+    },
+    "explanation": "Oddychanie tlenowe wymaga tlenu, natomiast fermentacja pozwala uzyskiwać energię bez udziału tlenu."
+  },
+  {
+    "id": "R01_ODD_09",
+    "section": "Oddychanie i fermentacja",
+    "type": "riddle",
+    "prompt": "Jak nazywają się mikroskopijne grzyby przeprowadzające fermentację alkoholową?",
+    "options": null,
+    "answer": "drożdże",
+    "altAnswers": [
+      "drożdże",
+      "drozdze"
+    ],
+    "explanation": "Drożdże przeprowadzają fermentację alkoholową, dzięki której powstaje między innymi dwutlenek węgla spulchniający ciasto."
+  },
+  {
+    "id": "R01_ODD_10",
+    "section": "Oddychanie i fermentacja",
+    "type": "true_false",
+    "prompt": "Z tej samej ilości cukru fermentacja daje mniej energii niż oddychanie tlenowe.",
+    "options": null,
+    "answer": true,
+    "explanation": "Podręcznik wyjaśnia, że fermentacja uwalnia tylko część energii zmagazynowanej w cukrze."
+  },
+  {
+    "id": "R01_ODD_11",
+    "section": "Oddychanie i fermentacja",
+    "type": "sequence",
+    "prompt": "Ułóż etapy uzyskiwania energii z pokarmu przez człowieka.",
+    "options": null,
+    "items": [
+      "tlen i cukier docierają do komórek",
+      "pokarm jest trawiony",
+      "w mitochondriach zachodzi oddychanie tlenowe",
+      "proste związki są wchłaniane do krwi",
+      "uwalnia się energia"
+    ],
+    "answer": [
+      "pokarm jest trawiony",
+      "proste związki są wchłaniane do krwi",
+      "tlen i cukier docierają do komórek",
+      "w mitochondriach zachodzi oddychanie tlenowe",
+      "uwalnia się energia"
+    ],
+    "explanation": "Pokarm jest trawiony do prostych związków, które trafiają z krwią do komórek. Tam z udziałem tlenu może zachodzić oddychanie tlenowe."
+  },
+  {
+    "id": "R01_KLW_01",
+    "section": "Klasyfikacja i wirusy",
+    "type": "single_choice",
+    "prompt": "Czym jest gatunek?",
+    "options": [
+      "grupą organizmów o wielu wspólnych cechach przekazywanych potomstwu",
+      "dowolną grupą zwierząt żyjących w jednym miejscu",
+      "nazwą wszystkich organizmów jednokomórkowych",
+      "zestawem narządów w ciele zwierzęcia"
+    ],
+    "answer": 0,
+    "explanation": "Gatunek to grupa organizmów mających wiele wspólnych cech i przekazujących je potomstwu."
+  },
+  {
+    "id": "R01_KLW_02",
+    "section": "Klasyfikacja i wirusy",
+    "type": "fill_in",
+    "prompt": "Wszystkie gatunki na Ziemi pochodzą od wspólnego __________.",
+    "options": null,
+    "answer": [
+      "przodka"
+    ],
+    "altAnswers": [
+      [
+        "przodka",
+        "wspólnego przodka"
+      ]
+    ],
+    "image": "r01_drzewo_zycia.jpg",
+    "explanation": "Podręcznik przedstawia organizmy jako jedną wielką rodzinę pochodzącą od wspólnego przodka."
+  },
+  {
+    "id": "R01_KLW_03",
+    "section": "Klasyfikacja i wirusy",
+    "type": "sequence",
+    "prompt": "Ułóż poziomy klasyfikacji biologicznej od najmniejszego do największego.",
+    "options": null,
+    "items": [
+      "rodzina",
+      "królestwo",
+      "gatunek",
+      "gromada",
+      "rodzaj",
+      "rząd"
+    ],
+    "answer": [
+      "gatunek",
+      "rodzaj",
+      "rodzina",
+      "rząd",
+      "gromada",
+      "królestwo"
+    ],
+    "explanation": "Gatunki łączy się w rodzaje, rodzaje w rodziny, rodziny w rzędy, rzędy w gromady, a gromady w królestwa."
+  },
+  {
+    "id": "R01_KLW_04",
+    "section": "Klasyfikacja i wirusy",
+    "type": "multi_select",
+    "prompt": "Zaznacz królestwa organizmów wymienione w rozdziale.",
+    "options": [
+      "rośliny",
+      "zwierzęta",
+      "grzyby",
+      "bakterie",
+      "protisty",
+      "wirusy"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "r01_drzewo_zycia.jpg",
+    "explanation": "W rozdziale wyróżniono pięć królestw: rośliny, zwierzęta, grzyby, bakterie i protisty."
+  },
+  {
+    "id": "R01_KLW_05",
+    "section": "Klasyfikacja i wirusy",
+    "type": "match",
+    "prompt": "Połącz królestwo lub grupę z cechą opisaną w rozdziale.",
+    "options": null,
+    "left": [
+      "bakterie",
+      "zwierzęta",
+      "protisty",
+      "rośliny"
+    ],
+    "right": [
+      "nie mają jądra komórkowego",
+      "cudzożywne organizmy wielokomórkowe o tkankach",
+      "mogą być samożywne lub cudzożywne",
+      "wytwarzają pokarm w fotosyntezie"
+    ],
+    "answer": {
+      "bakterie": "nie mają jądra komórkowego",
+      "zwierzęta": "cudzożywne organizmy wielokomórkowe o tkankach",
+      "protisty": "mogą być samożywne lub cudzożywne",
+      "rośliny": "wytwarzają pokarm w fotosyntezie"
+    },
+    "explanation": "Królestwa różnią się między innymi budową komórek, liczbą komórek i sposobem odżywiania."
+  },
+  {
+    "id": "R01_KLW_06",
+    "section": "Klasyfikacja i wirusy",
+    "type": "odd_one_out",
+    "prompt": "Wskaż pojęcie, które nie jest poziomem klasyfikacji biologicznej: gatunek, rodzaj, rodzina, mikroskop.",
+    "options": null,
+    "answer": "mikroskop",
+    "explanation": "Gatunek, rodzaj i rodzina to poziomy klasyfikacji. Mikroskop jest przyrządem do obserwacji."
+  },
+  {
+    "id": "R01_KLW_07",
+    "section": "Klasyfikacja i wirusy",
+    "type": "true_false",
+    "prompt": "Dział biologii zajmujący się klasyfikacją organizmów to systematyka.",
+    "options": null,
+    "answer": true,
+    "explanation": "Systematyka zajmuje się porządkowaniem i klasyfikacją organizmów."
+  },
+  {
+    "id": "R01_KLW_08",
+    "section": "Klasyfikacja i wirusy",
+    "type": "single_choice",
+    "prompt": "Dlaczego wirusy nie są zaliczane do organizmów?",
+    "options": [
+      "bo nie mają budowy komórkowej ani czynności życiowych",
+      "bo zawsze są większe od komórek",
+      "bo zawierają chloroplasty",
+      "bo są wyłącznie roślinami",
+      "bo oddychają tlenowo w mitochondriach"
+    ],
+    "answer": 0,
+    "image": "r01_wirusy_budowa.jpg",
+    "explanation": "Wirusy nie mają budowy komórkowej i nie wykazują czynności życiowych, dlatego nie są organizmami."
+  },
+  {
+    "id": "R01_KLW_09",
+    "section": "Klasyfikacja i wirusy",
+    "type": "riddle",
+    "prompt": "Jak nazywa się wirus atakujący bakterie, przedstawiany jako kształt przypominający małego robota?",
+    "options": null,
+    "answer": "bakteriofag",
+    "altAnswers": [
+      "bakteriofag",
+      "bakteriofagi"
+    ],
+    "explanation": "Bakteriofagi to wirusy atakujące bakterie."
+  },
+  {
+    "id": "R01_KLW_10",
+    "section": "Klasyfikacja i wirusy",
+    "type": "multi_select",
+    "prompt": "Zaznacz drogi zakażenia wirusami opisane w rozdziale.",
+    "options": [
+      "bezpośredni kontakt z chorym",
+      "droga powietrzno-kropelkowa",
+      "droga pokarmowa",
       "za pośrednictwem zwierząt",
-      "przez czytanie książek"
+      "kontakt z zakażoną krwią",
+      "samo czytanie o wirusach"
     ],
-    answer: [0, 1, 2, 3],
-    explanation: "Wirusy mogą przenosić się na kilka sposobów, na przykład drogą kropelkową, pokarmową, przez krew i przez zwierzęta."
-  },
-  {
-    id: "R01_WIR_04",
-    section: "Wirusy",
-    type: "true_false",
-    prompt: "Szczepionki pomagają organizmowi przygotować się do walki z niektórymi wirusami.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Szczepionki pobudzają organizm do wytworzenia odporności przeciwko określonym wirusom."
-  },
-  {
-    id: "R01_ST_01",
-    section: "Super trudne",
-    type: "single_choice",
-    prompt: "Na ilustracji pokazano pierwiastki ważne podczas wysiłku. Który z nich sportowiec szczególnie traci wraz z potem?",
-    image: "/img/bbt_r01_pierwiastki_dla_sportowca.jpg",
-    options: ["sód", "wapń", "magnez", "fosfor"],
-    answer: 0,
-    explanation: "Sód jest tracony z potem, dlatego przy dużym wysiłku jego uzupełnianie może być ważne."
-  },
-  {
-    id: "R01_ST_02",
-    section: "Super trudne",
-    type: "multi_select",
-    prompt: "Spójrz na ilustrację i zaznacz zdania prawdziwe.",
-    image: "/img/bbt_r01_fermentacja_dwa_typy.jpg",
-    options: [
-      "Fermentacja mlekowa może zachodzić w mięśniach podczas dużego wysiłku.",
-      "Drożdże przeprowadzają fermentację alkoholową.",
-      "Oba typy fermentacji zachodzą bez udziału tlenu.",
-      "W obu typach fermentacji powstaje chlorofil."
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
     ],
-    answer: [0, 1, 2],
-    explanation: "Fermentacja mlekowa może zachodzić w mięśniach, drożdże przeprowadzają fermentację alkoholową, a obie fermentacje zachodzą bez tlenu. Chlorofil nie ma z nimi związku."
+    "image": "r01_drogi_zakazenia.jpg",
+    "explanation": "Wirusy mogą przenosić się między innymi przez kontakt z chorym, drogą kropelkową, pokarmową, przez zwierzęta, drogą płciową lub przez zakażoną krew."
   },
   {
-    id: "R01_ST_03",
-    section: "Super trudne",
-    type: "single_choice",
-    prompt: "Który zapis pokazuje poprawną kolejność poziomów klasyfikacji od najmniejszego do największego?",
-    image: "/img/bbt_r01_klasyfikacja_organizmow.jpg",
-    options: [
-      "gatunek → rodzaj → rodzina → rząd → gromada → królestwo",
-      "królestwo → gromada → rząd → rodzina → rodzaj → gatunek",
-      "rodzina → gatunek → królestwo → rząd → rodzaj → gromada",
-      "gatunek → rodzina → rodzaj → rząd → królestwo → gromada"
+    "id": "R01_KLW_11",
+    "section": "Klasyfikacja i wirusy",
+    "type": "scenario",
+    "prompt": "Po szczepieniu białe krwinki uczą się rozpoznawać określone wirusy lub bakterie i wytwarzają przeciwciała. Jaki jest cel szczepienia?",
+    "options": [
+      "wspomóc odporność organizmu",
+      "zastąpić wszystkie czynności życiowe",
+      "umożliwić wirusom rozmnażanie",
+      "zahamować pracę białych krwinek"
     ],
-    answer: 0,
-    explanation: "W klasyfikacji zaczyna się od najmniejszej grupy, czyli gatunku, a kończy na coraz większych grupach."
+    "answer": 0,
+    "image": "r01_szczepionka_odpornosc.jpg",
+    "explanation": "Szczepienie ma przygotować układ odpornościowy do szybkiej reakcji przy kolejnym kontakcie z danym czynnikiem chorobotwórczym."
   },
   {
-    id: "R01_ST_04",
-    section: "Super trudne",
-    type: "single_choice",
-    prompt: "Na ilustracji są ptaki i ssaki. Która para jest zwykle bliżej spokrewniona?",
-    image: "/img/bbt_r01_gatunek_i_podobienstwo.jpg",
-    options: ["dwa ptaki", "ptak i ssak", "brzoza i ptak", "bakteria i ssak"],
-    answer: 0,
-    explanation: "Organizmy należące do tej samej dużej grupy, na przykład do ptaków, są zwykle bliżej spokrewnione niż organizmy z bardzo różnych grup."
+    "id": "R01_KLW_12",
+    "section": "Klasyfikacja i wirusy",
+    "type": "true_false",
+    "prompt": "Wirus HIV atakuje i niszczy białe krwinki, osłabiając zdolność organizmu do walki z chorobami.",
+    "options": null,
+    "answer": true,
+    "explanation": "Podręcznik podaje, że HIV niszczy białe krwinki i ogranicza zdolność organizmu do obrony przed chorobami."
   },
   {
-    id: "R01_ST_05",
-    section: "Super trudne",
-    type: "sort",
-    prompt: "Przyporządkuj organizmy do właściwego królestwa.",
-    image: "/img/bbt_r01_krolestwa_organizmow.jpg",
-    options: null,
-    items: ["sarna", "pałeczka okrężnicy", "morszczyn", "koźlarz", "koniczyna"],
-    categories: ["zwierzęta", "bakterie", "protisty", "grzyby", "rośliny"],
-    answer: {
-      "zwierzęta": ["sarna"],
-      bakterie: ["pałeczka okrężnicy"],
-      protisty: ["morszczyn"],
-      grzyby: ["koźlarz"],
-      "rośliny": ["koniczyna"]
+    "id": "R01_KLW_13",
+    "section": "Klasyfikacja i wirusy",
+    "type": "match",
+    "prompt": "Połącz chorobę lub wirusa z opisem z rozdziału.",
+    "options": null,
+    "left": [
+      "wścieklizna",
+      "grypa",
+      "AIDS",
+      "półpasiec"
+    ],
+    "right": [
+      "może być przenoszona przez ślinę chorego zwierzęcia",
+      "jej wirus szybko się zmienia",
+      "choroba wywoływana przez HIV",
+      "może pojawić się po uaktywnieniu wirusa ospy wietrznej"
+    ],
+    "answer": {
+      "wścieklizna": "może być przenoszona przez ślinę chorego zwierzęcia",
+      "grypa": "jej wirus szybko się zmienia",
+      "AIDS": "choroba wywoływana przez HIV",
+      "półpasiec": "może pojawić się po uaktywnieniu wirusa ospy wietrznej"
     },
-    explanation: "Każdy z tych organizmów należy do innego królestwa."
+    "explanation": "Rozdział omawia przykłady chorób wirusowych i sposoby ich przenoszenia."
   },
   {
-    id: "R01_ST_06",
-    section: "Super trudne",
-    type: "sequence",
-    prompt: "Ułóż etapy namnażania się wirusa w komórce we właściwej kolejności.",
-    image: "/img/bbt_r01_cykl_infekcji_wirusa.jpg",
-    options: null,
-    items: [
-      "z komórki wydostają się nowe wirusy",
+    "id": "R01_HARD_01",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Nazwa biologia pochodzi od greckich słów bios oznaczającego __________ oraz logos oznaczającego __________.",
+    "options": null,
+    "answer": [
+      "życie",
+      "nauka"
+    ],
+    "altAnswers": [
+      [
+        "życie",
+        "zycie"
+      ],
+      [
+        "nauka",
+        "naukę",
+        "nauke"
+      ]
+    ],
+    "explanation": "Z połączenia słów bios i logos powstała nazwa nauki o życiu."
+  },
+  {
+    "id": "R01_HARD_02",
+    "section": "Super trudne",
+    "type": "multi_select",
+    "prompt": "Zaznacz sposoby zdobywania wiedzy biologicznej opisane w rozdziale.",
+    "options": [
+      "doświadczenia",
+      "obserwacje",
+      "precyzyjne pomiary",
+      "gromadzenie danych",
+      "wróżenie",
+      "zgadywanie bez sprawdzania"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Biologia jest nauką doświadczalną, a ważną rolę w poznawaniu organizmów odgrywają doświadczenia i obserwacje."
+  },
+  {
+    "id": "R01_HARD_03",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Toczek tworzy kolonię z wielu pojedynczych organizmów. Dlaczego nie jest to to samo co typowy organizm wielokomórkowy z tkankami?",
+    "options": [
+      "bo kolonia składa się z wielu pojedynczych organizmów",
+      "bo nie zawiera żadnych komórek",
+      "bo zawsze jest zwierzęciem",
+      "bo przeprowadza wyłącznie fotosyntezę"
+    ],
+    "answer": 0,
+    "explanation": "W organizmie wielokomórkowym komórki tworzą tkanki, narządy i układy narządów oraz dzielą się funkcjami. Kolonia składa się z pojedynczych organizmów."
+  },
+  {
+    "id": "R01_HARD_04",
+    "section": "Super trudne",
+    "type": "sort",
+    "prompt": "Przyporządkuj związki chemiczne do głównej roli opisanej w rozdziale.",
+    "options": null,
+    "items": [
+      "białka",
+      "glukoza",
+      "kwasy nukleinowe",
+      "woda"
+    ],
+    "categories": [
+      "budulec",
+      "źródło energii",
+      "materiał genetyczny",
+      "transport i przebieg procesów"
+    ],
+    "answer": {
+      "budulec": [
+        "białka"
+      ],
+      "źródło energii": [
+        "glukoza"
+      ],
+      "materiał genetyczny": [
+        "kwasy nukleinowe"
+      ],
+      "transport i przebieg procesów": [
+        "woda"
+      ]
+    },
+    "explanation": "Różne związki chemiczne pełnią w organizmie różne funkcje: są budulcem, źródłem energii, materiałem genetycznym albo środowiskiem transportu i reakcji."
+  },
+  {
+    "id": "R01_HARD_05",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz pierwiastek ważny dla aktywnych osób z informacją z rozdziału.",
+    "options": null,
+    "left": [
+      "sód",
+      "potas",
+      "wapń",
+      "magnez"
+    ],
+    "right": [
+      "reguluje poziom wody w organizmie",
+      "jest potrzebny do pracy serca",
+      "buduje kości i szkliwo",
+      "wchodzi w skład kości i zębów"
+    ],
+    "answer": {
+      "sód": "reguluje poziom wody w organizmie",
+      "potas": "jest potrzebny do pracy serca",
+      "wapń": "buduje kości i szkliwo",
+      "magnez": "wchodzi w skład kości i zębów"
+    },
+    "explanation": "Na stronach o pierwiastkach dla aktywnych opisano znaczenie sodu, potasu, wapnia i magnezu."
+  },
+  {
+    "id": "R01_HARD_06",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Zbyt niski poziom ferrytyny może wskazywać na niedobór żelaza.",
+    "options": null,
+    "answer": true,
+    "explanation": "Rozdział wyjaśnia, że ferrytyna odpowiada za magazynowanie żelaza, a jej zbyt niski poziom wskazuje na niedobór tego pierwiastka."
+  },
+  {
+    "id": "R01_HARD_07",
+    "section": "Super trudne",
+    "type": "single_choice",
+    "prompt": "Według rozdziału w ciele człowieka znajduje się około 30 bilionów komórek, a około 25 bilionów to krwinki czerwone. Który wniosek najlepiej wynika z tych danych?",
+    "options": [
+      "krwinki czerwone stanowią bardzo dużą część komórek ciała",
+      "komórek nerwowych jest dokładnie 25 bilionów",
+      "człowiek ma tylko 30 komórek",
+      "krwinki czerwone odpowiadają za fotosyntezę"
+    ],
+    "answer": 0,
+    "explanation": "Skoro 25 z około 30 bilionów komórek to krwinki czerwone, stanowią one bardzo dużą część komórek ciała człowieka."
+  },
+  {
+    "id": "R01_HARD_08",
+    "section": "Super trudne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie pasuje do pozostałych jako pierwiastek ważny dla organizmu: sód, potas, wapń, chloroplast.",
+    "options": null,
+    "answer": "chloroplast",
+    "explanation": "Sód, potas i wapń to pierwiastki. Chloroplast jest organellum komórki roślinnej."
+  },
+  {
+    "id": "R01_HARD_09",
+    "section": "Super trudne",
+    "type": "sequence",
+    "prompt": "Ułóż uproszczone etapy namnażania wirusa w komórce.",
+    "options": null,
+    "items": [
+      "powstają elementy nowych wirusów",
       "wirus wnika do komórki",
-      "komórka zaczyna produkować części wirusa",
-      "materiał wirusa przejmuje kontrolę nad komórką"
+      "nowe wirusy wydostają się po zniszczeniu komórki",
+      "materiał genetyczny wirusa przejmuje kontrolę",
+      "składane są nowe wirusy"
     ],
-    answer: [
+    "answer": [
       "wirus wnika do komórki",
-      "materiał wirusa przejmuje kontrolę nad komórką",
-      "komórka zaczyna produkować części wirusa",
-      "z komórki wydostają się nowe wirusy"
+      "materiał genetyczny wirusa przejmuje kontrolę",
+      "powstają elementy nowych wirusów",
+      "składane są nowe wirusy",
+      "nowe wirusy wydostają się po zniszczeniu komórki"
     ],
-    explanation: "Najpierw wirus wnika do komórki, potem przejmuje nad nią kontrolę, komórka produkuje nowe wirusy, a na końcu wirusy się wydostają."
+    "image": "r01_namnazanie_wirusa.jpg",
+    "explanation": "Wirus wnika do komórki, przejmuje nad nią kontrolę, doprowadza do powstania swoich kopii, a nowe wirusy wydostają się do otoczenia."
   },
   {
-    id: "R01_ST_07",
-    section: "Super trudne",
-    type: "multi_select",
-    prompt: "Na ilustracji pokazano trzy różne komórki. Co mają wspólnego wszystkie te komórki?",
-    image: "/img/bbt_r01_wspolne_elementy_komorki.jpg",
-    options: ["błona komórkowa", "cytoplazma", "materiał genetyczny", "chloroplasty"],
-    answer: [0, 1, 2],
-    explanation: "Wspólne dla komórek roślinnych, zwierzęcych i bakteryjnych są błona komórkowa, cytoplazma oraz materiał genetyczny. Chloroplasty mają tylko komórki roślinne."
-  },
-  {
-    id: "R01_ST_08",
-    section: "Super trudne",
-    type: "true_false",
-    prompt: "Wirus może namnażać się całkowicie sam, bez żadnej komórki gospodarza.",
-    options: null,
-    answer: false,
-    explanation: "To fałsz. Wirus potrzebuje zaatakowanej komórki, bo sam nie potrafi się namnażać."
-  },
-  {
-    id: "R01_ST_09",
-    section: "Super trudne",
-    type: "fill_in",
-    prompt: "W organizmie jednokomórkowym wszystkie podstawowe czynności życiowe zachodzą w __________ komórce.",
-    options: null,
-    answer: ["jednej"],
-    altAnswers: [
-      ["jednej", "jedna", "tej samej", "pojedynczej"]
+    "id": "R01_HARD_10",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Fermentacja zachodzi w __________, a oddychanie tlenowe zachodzi w __________.",
+    "options": null,
+    "answer": [
+      "cytoplazmie",
+      "mitochondriach"
     ],
-    explanation: "Organizm jednokomórkowy składa się tylko z jednej komórki, więc właśnie w niej zachodzą wszystkie czynności życiowe."
-  },
-  {
-    id: "R01_ST_10",
-    section: "Super trudne",
-    type: "match",
-    prompt: "Połącz proces z miejscem, w którym zachodzi.",
-    options: null,
-    left: ["fotosynteza", "oddychanie tlenowe", "fermentacja", "obserwacja pod mikroskopem"],
-    right: ["chloroplast", "mitochondrium", "cytoplazma", "preparat mikroskopowy"],
-    answer: {
-      fotosynteza: "chloroplast",
-      "oddychanie tlenowe": "mitochondrium",
-      fermentacja: "cytoplazma",
-      "obserwacja pod mikroskopem": "preparat mikroskopowy"
-    },
-    explanation: "Każdy z tych procesów ma swoje typowe miejsce: fotosynteza w chloroplaście, oddychanie tlenowe w mitochondrium, fermentacja w cytoplazmie, a obserwacja w preparacie."
-  },
-  {
-    id: "R01_ST_11",
-    section: "Super trudne",
-    type: "odd_one_out",
-    prompt: "Wskaż, co nie pasuje do pozostałych: węgiel, tlen, azot, złoto.",
-    options: null,
-    answer: "złoto",
-    explanation: "Węgiel, tlen i azot to pierwiastki biogenne. Złoto do nich nie należy."
-  },
-  {
-    id: "R01_ST_12",
-    section: "Super trudne",
-    type: "scenario",
-    prompt: "Ola chce obejrzeć pod mikroskopem komórki skórki cebuli. Który zestaw rzeczy będzie najbardziej potrzebny?",
-    options: [
-      "mikroskop, skórka cebuli, szkiełko podstawowe, szkiełko nakrywkowe i kropla wody",
-      "linijka, nożyczki i kredki",
-      "mikroskop i piłka",
-      "tylko zeszyt i długopis"
+    "altAnswers": [
+      [
+        "cytoplazmie",
+        "cytoplazma"
+      ],
+      [
+        "mitochondriach",
+        "mitochondrium"
+      ]
     ],
-    answer: 0,
-    explanation: "Do wykonania prostego preparatu potrzeba obiektu do obserwacji, mikroskopu, szkiełek i zwykle kropli wody."
+    "explanation": "Fermentacja zachodzi w cytoplazmie, natomiast oddychanie tlenowe zachodzi w mitochondriach."
   },
   {
-    id: "R01_ST_13",
-    section: "Super trudne",
-    type: "multi_select",
-    prompt: "W doświadczeniu z fotosyntezą wybierz zdania prawdziwe.",
-    options: [
-      "B1 i B2 to próby badawcze.",
-      "K to próba kontrolna.",
-      "Im więcej światła, tym zwykle więcej tlenu powstaje w probówce.",
-      "W ciemności fotosynteza zachodzi najintensywniej."
+    "id": "R01_HARD_11",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Roślina cierpi na niedobór wody, przez co zamykają się aparaty szparkowe i do liścia dociera mniej dwutlenku węgla. Jaki będzie skutek dla fotosyntezy?",
+    "options": [
+      "fotosynteza może zostać zahamowana",
+      "fotosynteza zawsze przyspieszy",
+      "roślina zacznie przeprowadzać fermentację alkoholową",
+      "chloroplasty znikną z komórek"
     ],
-    answer: [0, 1, 2],
-    explanation: "W doświadczeniu B1 i B2 są próbami badawczymi, K jest próbą kontrolną, a większe natężenie światła zwykle zwiększa intensywność fotosyntezy."
+    "answer": 0,
+    "explanation": "Niedobór wody może hamować fotosyntezę, między innymi dlatego, że zamknięcie aparatów szparkowych ogranicza dostęp dwutlenku węgla."
   },
   {
-    id: "R01_ST_14",
-    section: "Super trudne",
-    type: "fill_in",
-    prompt: "Kilka podobnych gatunków tworzy __________, a kilka podobnych rodzajów tworzy __________.",
-    options: null,
-    answer: ["rodzaj", "rodzinę"],
-    altAnswers: [
-      ["rodzaj", "rodzaju"],
-      ["rodzinę", "rodzina", "rodziny"]
+    "id": "R01_HARD_12",
+    "section": "Super trudne",
+    "type": "riddle",
+    "prompt": "Jak nazywają się cząsteczki, które przyłączają się do wirusów lub zakażonych nimi komórek?",
+    "options": null,
+    "answer": "przeciwciała",
+    "altAnswers": [
+      "przeciwciała",
+      "przeciwciala"
     ],
-    explanation: "W klasyfikacji kilka podobnych gatunków łączy się w rodzaj, a kilka podobnych rodzajów w rodzinę."
-  },
-  {
-    id: "R01_ST_15",
-    section: "Super trudne",
-    type: "riddle",
-    prompt: "Nie mam budowy komórkowej. Żeby się rozmnożyć, muszę przejąć cudzą komórkę. Kim jestem?",
-    options: null,
-    answer: "wirus",
-    altAnswers: ["wirus", "wirusem", "wirusa", "wirusy"],
-    explanation: "Tak działa wirus. Sam nie rozmnaża się, tylko wykorzystuje zaatakowaną komórkę."
-  },
-  {
-    id: "R01_ST_16",
-    section: "Super trudne",
-    type: "riddle",
-    prompt: "Jestem zielonym organellum. To we mnie roślina wytwarza cukier z udziałem światła. Kim jestem?",
-    options: null,
-    answer: "chloroplast",
-    altAnswers: ["chloroplast", "chloroplasty", "chloroplaście", "chloroplastem"],
-    explanation: "Chloroplast jest miejscem fotosyntezy w komórce roślinnej."
-  },
-  {
-    id: "R01_ST_17",
-    section: "Super trudne",
-    type: "scenario",
-    prompt: "Roślina przez długi czas nie ma wody. Dlaczego jej fotosynteza może wyraźnie osłabnąć?",
-    options: [
-      "bo do życia i do fotosyntezy potrzebuje wody",
-      "bo woda zmienia się wtedy w kości",
-      "bo bez wody roślina staje się wirusem",
-      "bo woda jest potrzebna tylko zwierzętom"
-    ],
-    answer: 0,
-    explanation: "Woda jest jednym z substratów fotosyntezy i jest roślinie potrzebna do prawidłowego działania."
-  },
-  {
-    id: "R01_ST_18",
-    section: "Super trudne",
-    type: "true_false",
-    prompt: "W bardzo silnym świetle chloroplasty mogą zmieniać położenie w komórce, żeby ograniczyć pobieranie energii.",
-    options: null,
-    answer: true,
-    explanation: "To prawda. Chloroplasty mogą przemieszczać się w komórce zależnie od natężenia światła."
-  },
-  {
-    id: "R01_ST_19",
-    section: "Super trudne",
-    type: "match",
-    prompt: "Połącz proces z produktami, które wtedy powstają.",
-    options: null,
-    left: ["oddychanie tlenowe", "fermentacja mlekowa", "fermentacja alkoholowa"],
-    right: ["energia, dwutlenek węgla i woda", "kwas mlekowy i energia", "alkohol etylowy, dwutlenek węgla i energia"],
-    answer: {
-      "oddychanie tlenowe": "energia, dwutlenek węgla i woda",
-      "fermentacja mlekowa": "kwas mlekowy i energia",
-      "fermentacja alkoholowa": "alkohol etylowy, dwutlenek węgla i energia"
-    },
-    explanation: "Produkty zależą od procesu. Właśnie po nich można odróżnić oddychanie tlenowe i dwa typy fermentacji."
-  },
-  {
-    id: "R01_ST_20",
-    section: "Super trudne",
-    type: "single_choice",
-    prompt: "Które zachowanie najmniej pomaga ograniczać rozprzestrzenianie się chorób wirusowych?",
-    options: [
-      "częste mycie rąk",
-      "szczepienia",
-      "używanie tej samej butelki po napoju z osobą chorą",
-      "unikanie bliskiego kontaktu z chorym"
-    ],
-    answer: 2,
-    explanation: "Wspólne używanie butelki z osobą chorą może ułatwiać przenoszenie wirusów, więc nie pomaga ograniczać zakażeń."
+    "explanation": "Przeciwciała to białka wytwarzane przez białe krwinki i uczestniczące w obronie organizmu."
   }
 ];
 
@@ -884,27 +1198,23 @@ const chapter = {
   id: "r01",
   number: 1,
   title: "Podstawy biologii",
-  icon: "🧬",
+  icon: "🔬",
   sectionOrder: [
-    "W świecie organizmów",
-    "Budowa organizmów",
-    "Obserwacje mikroskopowe",
-    "Odżywianie się organizmów",
-    "Oddychanie organizmów",
-    "Podział świata organizmów",
-    "Wirusy"
-  ],
+  "Cechy organizmów i komórki",
+  "Mikroskop i doświadczenia",
+  "Odżywianie i fotosynteza",
+  "Oddychanie i fermentacja",
+  "Klasyfikacja i wirusy"
+],
   sectionIcons: {
-    "W świecie organizmów": "🌍",
-    "Budowa organizmów": "🧫",
-    "Obserwacje mikroskopowe": "🔬",
-    "Odżywianie się organizmów": "🌿",
-    "Oddychanie organizmów": "💨",
-    "Podział świata organizmów": "🌳",
-    Wirusy: "🦠"
-  },
+  "Cechy organizmów i komórki": "🧬",
+  "Mikroskop i doświadczenia": "🔬",
+  "Odżywianie i fotosynteza": "🌿",
+  "Oddychanie i fermentacja": "⚡",
+  "Klasyfikacja i wirusy": "🦠"
+},
   exercises: ALL_EXERCISES,
-  kidPrompts: KID_PROMPTS,
+  kidPrompts: KID_PROMPTS
 };
 
 export default chapter;

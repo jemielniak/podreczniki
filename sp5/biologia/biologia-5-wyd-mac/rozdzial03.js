@@ -1,152 +1,170 @@
+// Skróty sekcji (do identyfikatorów ćwiczeń):
+//   RTK  = Rośliny i tkanki roślinne
+//   MCH  = Mchy
+//   PSW  = Paprocie, skrzypy i widłaki
+//   NAG  = Rośliny nagonasienne
+//   ZNA  = Znaczenie nagonasiennych
+//   HARD = Super trudne
+
 const ALL_EXERCISES = [
   {
-    "id": "R03_RT_01",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
+    "id": "R03_RTK_01",
+    "section": "Rośliny i tkanki roślinne",
     "type": "single_choice",
-    "prompt": "Na ilustracji pokazano budowę hierarchiczną rośliny. Która kolejność jest poprawna - od najmniejszego do największego poziomu?",
-    "image": "/img/bbt_r03_hierarchia_rosliny.jpg",
+    "prompt": "Który zestaw cech najlepiej opisuje większość roślin?",
     "options": [
-      "komórka - tkanka - organ - organizm",
-      "tkanka - komórka - organ - organizm",
-      "komórka - organ - tkanka - organizm",
-      "organ - tkanka - komórka - organizm"
+      "Są samożywne, mają chloroplasty i ścianę komórkową z celulozy",
+      "Są cudzożywne i nie mają jądra komórkowego",
+      "Żyją wyłącznie w wodzie i nie tworzą tkanek",
+      "Mają komórki bez ściany komórkowej",
+      "Nie zawierają mitochondriów",
+      "Wszystkie są jednokomórkowe"
     ],
     "answer": 0,
-    "explanation": "Najpierw jest komórka. Z podobnych komórek powstaje tkanka, z tkanek organ, a z organów cały organizm."
+    "explanation": "Rośliny są zwykle wielokomórkowe i samożywne. Ich komórki mają jądro, chloroplasty oraz ścianę komórkową z celulozy.",
+    "image": "r03_budowa_hierarchiczna_rosliny.jpg"
   },
   {
-    "id": "R03_RT_02",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
-    "type": "multi_select",
-    "prompt": "Spójrz na rysunek rośliny i zaznacz jej organy.",
-    "image": "/img/bbt_r03_organy_i_tkanki_rosliny.jpg",
-    "options": [
-      "liść",
-      "łodyga",
-      "korzeń",
-      "chlorofil",
-      "skórka"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Organami rośliny są między innymi liść, łodyga i korzeń. Chlorofil to barwnik, a skórka jest tkanką."
-  },
-  {
-    "id": "R03_RT_03",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
+    "id": "R03_RTK_02",
+    "section": "Rośliny i tkanki roślinne",
     "type": "true_false",
-    "prompt": "Większość roślin sama wytwarza pokarm dzięki fotosyntezie.",
+    "prompt": "Komórki roślin mają ścianę komórkową zbudowaną z celulozy.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Rośliny są zwykle samożywne, bo potrafią przeprowadzać fotosyntezę."
+    "explanation": "Ściana komórkowa z celulozy jest jedną z cech komórek roślinnych."
   },
   {
-    "id": "R03_RT_04",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
+    "id": "R03_RTK_03",
+    "section": "Rośliny i tkanki roślinne",
     "type": "fill_in",
-    "prompt": "Komórki roślin zwykle mają __________, dzięki którym mogą przeprowadzać fotosyntezę, oraz __________ zbudowaną z celulozy.",
+    "prompt": "W budowie hierarchicznej roślin komórki tworzą __________, a tkanki tworzą __________.",
     "options": null,
     "answer": [
-      "chloroplasty",
-      "ścianę komórkową"
+      "tkanki",
+      "organy"
     ],
     "altAnswers": [
       [
-        "chloroplasty",
-        "chloroplast",
-        "chloroplastach",
-        "chloroplastami"
+        "tkanki",
+        "tkankę"
       ],
       [
-        "ścianę komórkową",
-        "ściana komórkowa",
-        "ścianie komórkowej",
-        "ścianą komórkową"
+        "organy",
+        "organ"
       ]
     ],
-    "explanation": "Chloroplasty biorą udział w fotosyntezie, a ściana komórkowa z celulozy nadaje komórce roślinnej kształt i chroni ją."
+    "explanation": "Rośliny mają budowę hierarchiczną: komórki łączą się w tkanki, a tkanki budują organy.",
+    "image": "r03_budowa_hierarchiczna_rosliny.jpg"
   },
   {
-    "id": "R03_RT_05",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: liść, łodyga, korzeń, chlorofil.",
-    "options": null,
-    "answer": "chlorofil",
-    "explanation": "Liść, łodyga i korzeń to organy rośliny. Chlorofil jest zielonym barwnikiem."
-  },
-  {
-    "id": "R03_RT_06",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
-    "type": "scenario",
-    "prompt": "Ola patrzy na ilustrację tkanek roślinnych i chce wskazać tkankę twórczą. Co powinna wybrać?",
-    "image": "/img/bbt_r03_klasyfikacja_tkanek.jpg",
-    "options": [
-      "stożek wzrostu pędu",
-      "łyko",
-      "drewno",
-      "skórkę"
-    ],
-    "answer": 0,
-    "explanation": "Do tkanek twórczych należą między innymi stożki wzrostu. Dzięki nim roślina może rosnąć."
-  },
-  {
-    "id": "R03_RT_07",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
+    "id": "R03_RTK_04",
+    "section": "Rośliny i tkanki roślinne",
     "type": "match",
-    "prompt": "Połącz tkankę z jej głównym zadaniem.",
+    "prompt": "Połącz tkankę stałą z jej główną funkcją.",
     "options": null,
     "left": [
-      "skórka",
-      "miękisz",
-      "łyko",
-      "drewno"
+      "tkanka okrywająca",
+      "tkanka przewodząca",
+      "tkanka miękiszowa",
+      "tkanka wzmacniająca"
     ],
     "right": [
       "ochrona rośliny",
+      "transport substancji",
       "fotosynteza lub magazynowanie",
-      "przewodzenie substancji pokarmowych",
-      "przewodzenie wody i soli mineralnych"
+      "usztywnianie rośliny"
     ],
     "answer": {
-      "skórka": "ochrona rośliny",
-      "miękisz": "fotosynteza lub magazynowanie",
-      "łyko": "przewodzenie substancji pokarmowych",
-      "drewno": "przewodzenie wody i soli mineralnych"
+      "tkanka okrywająca": "ochrona rośliny",
+      "tkanka przewodząca": "transport substancji",
+      "tkanka miękiszowa": "fotosynteza lub magazynowanie",
+      "tkanka wzmacniająca": "usztywnianie rośliny"
     },
-    "explanation": "Każda tkanka ma własną pracę - skórka chroni, miękisz wytwarza lub gromadzi, łyko przewodzi pokarm, a drewno wodę i sole."
+    "explanation": "Tkanki stałe różnią się budową i zadaniami: okrywają, przewodzą, wypełniają lub wzmacniają ciało rośliny."
   },
   {
-    "id": "R03_RT_08",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
+    "id": "R03_RTK_05",
+    "section": "Rośliny i tkanki roślinne",
     "type": "single_choice",
-    "prompt": "Na ilustracji widać skórkę korzenia z włośnikami. Po co roślinie włośniki?",
-    "image": "/img/bbt_r03_skorka_i_wlosniki.jpg",
+    "prompt": "Która tkanka okrywa młode organy roślin i zwykle składa się z jednej warstwy żywych komórek?",
     "options": [
-      "zwiększają powierzchnię pobierania wody",
-      "pomagają roślinie latać",
-      "zamieniają się w kwiaty",
-      "wytwarzają nasiona"
+      "skórka",
+      "korek",
+      "łyko",
+      "drewno",
+      "twardzica",
+      "miazga"
     ],
     "answer": 0,
-    "explanation": "Włośniki zwiększają powierzchnię korzenia, więc roślina może pobrać więcej wody i soli mineralnych."
+    "explanation": "Skórka okrywa młode organy roślin. Chroni je i uczestniczy w wymianie substancji z otoczeniem.",
+    "image": "r03_aparat_szparkowy_i_wlosniki.jpg"
   },
   {
-    "id": "R03_RT_09",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
+    "id": "R03_RTK_06",
+    "section": "Rośliny i tkanki roślinne",
+    "type": "multi_select",
+    "prompt": "Zaznacz wytwory skórki opisane w rozdziale.",
+    "options": [
+      "aparaty szparkowe",
+      "włośniki",
+      "naczynia drewna",
+      "sita łyka",
+      "miazga",
+      "stożek wzrostu"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Do wytworów skórki należą aparaty szparkowe i włośniki. Aparaty szparkowe umożliwiają wymianę gazową, a włośniki zwiększają powierzchnię pobierania wody z solami mineralnymi.",
+    "image": "r03_aparat_szparkowy_i_wlosniki.jpg"
+  },
+  {
+    "id": "R03_RTK_07",
+    "section": "Rośliny i tkanki roślinne",
+    "type": "true_false",
+    "prompt": "Korek chroniący starsze części drzew i krzewów jest zbudowany z martwych komórek o grubych ścianach.",
+    "options": null,
+    "answer": true,
+    "explanation": "Korek zabezpiecza starsze części rośliny przed utratą wody i wahaniami temperatury."
+  },
+  {
+    "id": "R03_RTK_08",
+    "section": "Rośliny i tkanki roślinne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż element, który nie należy do tkanki okrywającej ani jej wytworów: skórka, korek, aparat szparkowy, łyko.",
+    "options": null,
+    "answer": "łyko",
+    "explanation": "Łyko należy do tkanki przewodzącej. Skórka i korek są tkankami okrywającymi, a aparat szparkowy jest wytworem skórki."
+  },
+  {
+    "id": "R03_RTK_09",
+    "section": "Rośliny i tkanki roślinne",
+    "type": "riddle",
+    "prompt": "Jak nazywa się tkanka przewodząca wodę z solami mineralnymi z korzeni do pozostałych organów rośliny?",
+    "options": null,
+    "answer": "drewno",
+    "altAnswers": [
+      "drewno",
+      "tkanka drewna",
+      "naczynia"
+    ],
+    "explanation": "Drewno przewodzi wodę z solami mineralnymi. Tworzą je martwe komórki w postaci rur nazywanych naczyniami.",
+    "image": "r03_miekisz_przewodzace_lisc.jpg"
+  },
+  {
+    "id": "R03_RTK_10",
+    "section": "Rośliny i tkanki roślinne",
     "type": "sort",
-    "prompt": "Posortuj tkanki do odpowiednich grup.",
+    "prompt": "Przyporządkuj przykłady do typu tkanek.",
     "options": null,
     "items": [
       "skórka",
-      "miękisz",
       "łyko",
       "drewno",
-      "stożek wzrostu korzenia",
-      "miazga"
+      "stożek wzrostu pędu",
+      "miazga",
+      "korek"
     ],
     "categories": [
       "tkanki stałe",
@@ -155,293 +173,328 @@ const ALL_EXERCISES = [
     "answer": {
       "tkanki stałe": [
         "skórka",
-        "miękisz",
         "łyko",
-        "drewno"
+        "drewno",
+        "korek"
       ],
       "tkanki twórcze": [
-        "stożek wzrostu korzenia",
+        "stożek wzrostu pędu",
         "miazga"
       ]
     },
-    "explanation": "Tkanki stałe wykonują określone zadania, a tkanki twórcze stale się dzielą i pozwalają roślinie rosnąć."
-  },
-  {
-    "id": "R03_RT_10",
-    "section": "Królestwo: rośliny. Tkanki roślinne",
-    "type": "single_choice",
-    "prompt": "Na schemacie liścia zaznaczono różne tkanki. Która tkanka rozprowadza wodę i sole mineralne?",
-    "image": "/img/bbt_r03_miekisz_i_przewodzenie.jpg",
-    "options": [
-      "drewno",
-      "łyko",
-      "miękisz palisadowy",
-      "skórka"
-    ],
-    "answer": 0,
-    "explanation": "Drewno przewodzi wodę i sole mineralne z korzeni do innych części rośliny."
+    "explanation": "Tkanki stałe pełnią określone funkcje w organach, a tkanki twórcze umożliwiają powstawanie tkanek stałych i wzrost rośliny."
   },
   {
     "id": "R03_MCH_01",
     "section": "Mchy",
     "type": "single_choice",
-    "prompt": "Gdzie mchy rosną najchętniej?",
-    "image": "/img/bbt_r03_mchy_siedliska.jpg",
+    "prompt": "Gdzie najczęściej występują mchy?",
     "options": [
       "w miejscach wilgotnych",
-      "na bardzo suchych pustyniach",
+      "wyłącznie na suchych pustyniach",
       "tylko w słonej wodzie",
-      "wyłącznie na wysokich drzewach"
+      "tylko na korzeniach drzew",
+      "wyłącznie na polach uprawnych",
+      "tylko w lodzie"
     ],
     "answer": 0,
-    "explanation": "Mchy najlepiej rosną tam, gdzie jest wilgotno - na przykład w lesie, przy wodzie albo na wilgotnych skałach."
+    "explanation": "Mchy najlepiej rosną w wilgotnych środowiskach, często tworząc zwarte darnie w runie leśnym.",
+    "image": "r03_plonnik_pospolity_budowa.jpg"
   },
   {
     "id": "R03_MCH_02",
     "section": "Mchy",
     "type": "true_false",
-    "prompt": "Mchy mają prawdziwe korzenie, łodygi i liście takie jak paprocie.",
+    "prompt": "Mchy mają typowe organy: liście, łodygi i korzenie z tkanką przewodzącą oraz wzmacniającą.",
     "options": null,
     "answer": false,
-    "explanation": "To fałsz. Mchy nie mają prawdziwych korzeni, łodyg i liści. Mają chwytniki, łodyżki i listki."
+    "explanation": "Mchy nie mają typowych organów. Zamiast nich występują listki, łodyżki i nitkowate chwytniki."
   },
   {
     "id": "R03_MCH_03",
     "section": "Mchy",
-    "type": "fill_in",
-    "prompt": "U mchu wodę chłoną głównie __________, a do podłoża przytwierdzają go __________.",
+    "type": "match",
+    "prompt": "Połącz część płonnika pospolitego z jej funkcją.",
     "options": null,
-    "image": "/img/bbt_r03_budowa_mchu.jpg",
-    "answer": [
+    "left": [
+      "zarodnia",
+      "łodyżka nieulistniona",
       "listki",
       "chwytniki"
     ],
-    "altAnswers": [
-      [
-        "listki",
-        "listek",
-        "liście",
-        "listkach"
-      ],
-      [
-        "chwytniki",
-        "chwytnik",
-        "chwytnikami",
-        "chwytnikach"
-      ]
+    "right": [
+      "wytwarzanie zarodników",
+      "uniesienie zarodni",
+      "fotosynteza i wchłanianie wody",
+      "utrzymywanie rośliny w glebie"
     ],
-    "explanation": "Listki mchu pobierają wodę, a chwytniki pomagają utrzymać roślinę w podłożu."
+    "answer": {
+      "zarodnia": "wytwarzanie zarodników",
+      "łodyżka nieulistniona": "uniesienie zarodni",
+      "listki": "fotosynteza i wchłanianie wody",
+      "chwytniki": "utrzymywanie rośliny w glebie"
+    },
+    "explanation": "Budowa mchu jest przystosowana do pobierania wody, rozprzestrzeniania zarodników i utrzymywania rośliny w podłożu.",
+    "image": "r03_plonnik_pospolity_budowa.jpg"
   },
   {
     "id": "R03_MCH_04",
     "section": "Mchy",
-    "type": "riddle",
-    "prompt": "Jestem małą częścią mchu na końcu łodyżki. Powstają we mnie zarodniki. Kim jestem?",
-    "options": null,
-    "answer": "zarodnia",
-    "altAnswers": [
-      "zarodnia",
-      "zarodnią",
-      "zarodni",
-      "zarodnie"
+    "type": "multi_select",
+    "prompt": "Zaznacz znaczenie mchów w przyrodzie.",
+    "options": [
+      "zatrzymują duże ilości wody",
+      "zmniejszają zagrożenie powodziowe",
+      "uczestniczą w tworzeniu gleby",
+      "wytwarzają owoce z nasionami",
+      "niszczą każdą glebę",
+      "zawsze rosną pojedynczo"
     ],
-    "explanation": "Zarodnia to część mchu, w której powstają zarodniki służące do rozmnażania."
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Mchy gromadzą wodę, ograniczają zagrożenie powodziowe, chronią glebę i jako organizmy pionierskie pomagają tworzyć podłoże dla innych roślin."
   },
   {
     "id": "R03_MCH_05",
     "section": "Mchy",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: chwytniki, listki, łodyżka, nasiona.",
+    "type": "fill_in",
+    "prompt": "Mchy rozmnażają się przez __________, a zwarte skupiska mchów nazywa się __________.",
     "options": null,
-    "answer": "nasiona",
-    "explanation": "Mchy nie wytwarzają nasion. Rozmnażają się za pomocą zarodników."
+    "answer": [
+      "zarodniki",
+      "darnie"
+    ],
+    "altAnswers": [
+      [
+        "zarodniki",
+        "zarodników"
+      ],
+      [
+        "darnie",
+        "darń"
+      ]
+    ],
+    "explanation": "Mchy wytwarzają zarodniki, a osobniki rosnące blisko siebie tworzą darnie."
   },
   {
     "id": "R03_MCH_06",
     "section": "Mchy",
     "type": "single_choice",
-    "prompt": "Na ilustracji pokazano torfowiec i torfowisko. Dlaczego takie miejsca są zwykle bardzo mokre?",
-    "image": "/img/bbt_r03_torfowiec_torfowisko.jpg",
+    "prompt": "Co oznacza, że mchy są organizmami pionierskimi?",
     "options": [
-      "bo torfowce magazynują dużo wody",
-      "bo codziennie ktoś je podlewa",
-      "bo mchy oddają całą wodę do powietrza",
-      "bo nie rosną tam żadne rośliny"
+      "jako jedne z pierwszych zasiedlają trudne podłoża",
+      "rosną wyłącznie w gotowej żyznej glebie",
+      "zawsze są najwyższymi roślinami w lesie",
+      "wytwarzają największe nasiona",
+      "żyją tylko w głębokiej wodzie",
+      "nie obumierają"
     ],
     "answer": 0,
-    "explanation": "Torfowce potrafią zgromadzić bardzo dużo wody, dlatego torfowiska są wilgotne."
+    "explanation": "Organizmy pionierskie jako jedne z pierwszych zasiedlają podłoża mało gościnne dla innych roślin i przygotowują je dla kolejnych gatunków."
   },
   {
     "id": "R03_MCH_07",
     "section": "Mchy",
     "type": "scenario",
-    "prompt": "Na nagiej skale pojawiły się najpierw mchy, a dopiero później inne rośliny. Jak nazywamy takie rośliny jak mchy?",
+    "prompt": "Po silnym deszczu zauważasz, że kępa mchu w lesie działa jak miękka gąbka. Co najlepiej wyjaśnia to zjawisko?",
     "options": [
-      "organizmy pionierskie",
-      "pasożyty",
-      "rośliny nasienne",
-      "grzyby kapeluszowe"
+      "listki mchów pochłaniają i zatrzymują wodę",
+      "mchy mają grube owoce pełne wody",
+      "mchy pobierają wodę tylko głębokim korzeniem głównym",
+      "mchy magazynują wodę w szyszkach"
     ],
     "answer": 0,
-    "explanation": "Mchy są organizmami pionierskimi - potrafią zasiedlać trudne miejsca i przygotowywać je dla innych roślin."
+    "explanation": "Listki mchów pochłaniają wilgoć i zatrzymują wodę, co pomaga mchom przetrwać okresy przesuszenia podłoża.",
+    "image": "r03_plonnik_pospolity_budowa.jpg"
   },
   {
     "id": "R03_MCH_08",
     "section": "Mchy",
-    "type": "multi_select",
-    "prompt": "Zaznacz zdania opisujące znaczenie mchów w przyrodzie.",
-    "options": [
-      "zatrzymują wodę",
-      "chronią glebę przed wysychaniem",
-      "pomagają tworzyć glebę",
-      "wytwarzają szyszki",
-      "są schronieniem dla małych organizmów"
+    "type": "riddle",
+    "prompt": "Jak nazywa się mech, którego budowa pozwala szczególnie silnie chłonąć wodę i który tworzy torfowiska?",
+    "options": null,
+    "answer": "torfowiec",
+    "altAnswers": [
+      "torfowiec",
+      "torfowce",
+      "mech torfowiec"
     ],
-    "answer": [
-      0,
-      1,
-      2,
-      4
-    ],
-    "explanation": "Mchy zatrzymują wodę, chronią podłoże, pomagają w tworzeniu gleby i dają schronienie małym organizmom."
+    "explanation": "Torfowce mogą tworzyć grube poduchy mchu. Ich szczątki w warunkach utrudnionego dostępu powietrza przyczyniają się do powstawania torfu.",
+    "image": "r03_torfowiec_torfowisko.jpg"
   },
   {
     "id": "R03_MCH_09",
     "section": "Mchy",
-    "type": "single_choice",
-    "prompt": "Na ilustracji porównano mech i paproć. Która z tych roślin ma chwytniki zamiast prawdziwych korzeni?",
-    "image": "/img/bbt_r03_porownanie_mchu_i_paproci.jpg",
-    "options": [
-      "mech",
-      "paproć",
-      "obie",
-      "żadna"
-    ],
-    "answer": 0,
-    "explanation": "To mech ma chwytniki. Paproć ma prawdziwe korzenie."
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie jest mchem: płonnik pospolity, torfowiec kończysty, merzyk fałdowany, sosna zwyczajna.",
+    "options": null,
+    "answer": "sosna zwyczajna",
+    "explanation": "Sosna zwyczajna jest rośliną nagonasienną, a pozostałe przykłady to mchy wymienione w rozdziale."
   },
   {
     "id": "R03_MCH_10",
     "section": "Mchy",
-    "type": "true_false",
-    "prompt": "Mchy rozmnażają się za pomocą zarodników.",
+    "type": "sequence",
+    "prompt": "Ułóż etapy pionierskiego znaczenia mchów w poprawnej kolejności.",
     "options": null,
-    "answer": true,
-    "explanation": "To prawda. Mchy nie tworzą nasion, tylko zarodniki."
+    "items": [
+      "obumierające części tworzą grubszą warstwę podłoża",
+      "podłoże zasiedlają rośliny wymagające żyźniejszej gleby",
+      "mchy jako jedne z pierwszych pojawiają się na skałach lub murach",
+      "mchy rosną i zatrzymują wilgoć"
+    ],
+    "answer": [
+      "mchy jako jedne z pierwszych pojawiają się na skałach lub murach",
+      "mchy rosną i zatrzymują wilgoć",
+      "obumierające części tworzą grubszą warstwę podłoża",
+      "podłoże zasiedlają rośliny wymagające żyźniejszej gleby"
+    ],
+    "explanation": "Mchy zasiedlają trudne podłoża, rosną tam, obumierają częściowo i tworzą warstwę podłoża, którą mogą później zasiedlić bardziej wymagające rośliny."
   },
   {
-    "id": "R03_PPW_01",
+    "id": "R03_PSW_01",
     "section": "Paprocie, skrzypy i widłaki",
     "type": "multi_select",
-    "prompt": "Spójrz na schemat i zaznacz cechy wspólne paproci, skrzypów i widłaków.",
-    "image": "/img/bbt_r03_wspolne_cechy_paprotnikow.jpg",
+    "prompt": "Zaznacz wspólne cechy paproci, skrzypów i widłaków.",
     "options": [
-      "mają tkanki",
-      "mają korzenie, łodygi i liście",
-      "rozmnażają się przez zarodniki",
+      "mają łodygi, liście i korzenie",
+      "wytwarzają zarodniki w zarodniach",
+      "mają tkankę przewodzącą i wzmacniającą",
       "wytwarzają owoce",
-      "często rosną w miejscach wilgotnych"
+      "nie mają tkanek",
+      "są wyłącznie jednokomórkowe"
     ],
     "answer": [
       0,
       1,
-      2,
-      4
+      2
     ],
-    "explanation": "Paprocie, skrzypy i widłaki mają tkanki oraz organy, wytwarzają zarodniki i często rosną tam, gdzie jest wilgotno."
+    "explanation": "Paprocie, skrzypy i widłaki mają tkanki oraz organy: łodygi, liście i korzenie. Rozmnażają się przez zarodniki wytwarzane w zarodniach."
   },
   {
-    "id": "R03_PPW_02",
+    "id": "R03_PSW_02",
     "section": "Paprocie, skrzypy i widłaki",
     "type": "single_choice",
-    "prompt": "Na ilustracji budowy paproci wskaż nazwę podziemnej łodygi.",
-    "image": "/img/bbt_r03_budowa_paproci.jpg",
+    "prompt": "Czym jest kłącze paproci?",
     "options": [
-      "kłącze",
-      "szyszka",
-      "zarodnia",
-      "chwytnik"
+      "podziemną łodygą",
+      "nasionem paproci",
+      "kwiatem żeńskim",
+      "owocem z zarodnikami",
+      "rodzajem włośnika",
+      "drewnem paproci"
     ],
     "answer": 0,
-    "explanation": "Podziemna łodyga paproci to kłącze. Wyrastają z niej liście i korzenie."
+    "explanation": "Kłącze paproci to łodyga ukryta w ziemi. Wyrastają z niego pęki liści oraz liczne korzenie.",
+    "image": "r03_paproc_kupki_zarodniane.jpg"
   },
   {
-    "id": "R03_PPW_03",
+    "id": "R03_PSW_03",
     "section": "Paprocie, skrzypy i widłaki",
     "type": "true_false",
-    "prompt": "Na spodniej stronie liści niektórych paproci znajdują się skupienia zarodni.",
+    "prompt": "Rozwijający się młody liść paproci może przypominać kształtem laskę św. Mikołaja, czyli pastorał.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Na spodniej stronie liści mogą znajdować się kupki z zarodniami."
+    "explanation": "W rozdziale opisano, że młody rozwijający się liść paproci jest zwinięty i przypomina pastorał."
   },
   {
-    "id": "R03_PPW_04",
+    "id": "R03_PSW_04",
     "section": "Paprocie, skrzypy i widłaki",
-    "type": "single_choice",
-    "prompt": "Która roślina ma dwa rodzaje pędów - wiosenny i letni?",
-    "image": "/img/bbt_r03_budowa_skrzypu.jpg",
-    "options": [
-      "skrzyp",
-      "paproć",
-      "widłak",
-      "mech"
+    "type": "match",
+    "prompt": "Połącz grupę roślin z cechą budowy.",
+    "options": null,
+    "left": [
+      "paprocie",
+      "skrzypy",
+      "widłaki"
     ],
-    "answer": 0,
-    "explanation": "U skrzypu występują pędy wiosenne i letnie, które wyglądają inaczej."
+    "right": [
+      "duże liście wyrastające z kłącza",
+      "pędy wiosenne i letnie u skrzypu polnego",
+      "widlasto rozgałęzione łodygi"
+    ],
+    "answer": {
+      "paprocie": "duże liście wyrastające z kłącza",
+      "skrzypy": "pędy wiosenne i letnie u skrzypu polnego",
+      "widłaki": "widlasto rozgałęzione łodygi"
+    },
+    "explanation": "Paprocie, skrzypy i widłaki różnią się wyglądem, mimo że wszystkie mają tkanki, organy i rozmnażają się przez zarodniki."
   },
   {
-    "id": "R03_PPW_05",
+    "id": "R03_PSW_05",
     "section": "Paprocie, skrzypy i widłaki",
-    "type": "scenario",
-    "prompt": "Kuba zobaczył roślinę z płożącą łodygą i rozgałęzieniami jak małe widelce. Którą grupę roślin obserwował?",
-    "image": "/img/bbt_r03_budowa_widlaka.jpg",
-    "options": [
-      "widłaki",
-      "mchy",
-      "iglaki",
-      "kaktusy"
-    ],
-    "answer": 0,
-    "explanation": "Widłaki mają płożące łodygi i charakterystyczne widlaste rozgałęzienia."
+    "type": "odd_one_out",
+    "prompt": "Wskaż grupę, która nie pasuje do pozostałych: paprocie, skrzypy, widłaki, mchy.",
+    "options": null,
+    "answer": "mchy",
+    "explanation": "Mchy nie mają typowych organów z tkankami przewodzącymi i wzmacniającymi, a paprocie, skrzypy i widłaki mają takie organy."
   },
   {
-    "id": "R03_PPW_06",
+    "id": "R03_PSW_06",
     "section": "Paprocie, skrzypy i widłaki",
     "type": "fill_in",
-    "prompt": "Paprocie, skrzypy i widłaki rozmnażają się za pomocą __________, a nie wytwarzają __________.",
+    "prompt": "U paproci z kłącza wyrastają pęki __________ i liczne __________.",
     "options": null,
     "answer": [
-      "zarodników",
-      "nasion"
+      "liści",
+      "korzenie"
     ],
     "altAnswers": [
       [
-        "zarodników",
-        "zarodniki",
-        "zarodnikow",
-        "zarodnikami"
+        "liści",
+        "liście"
       ],
       [
-        "nasion",
-        "nasiona",
-        "nasionami",
-        "nasionek"
+        "korzenie",
+        "korzeni"
       ]
     ],
-    "explanation": "Te rośliny nie tworzą nasion. Rozmnażają się przez zarodniki."
+    "explanation": "Kłącze to podziemna łodyga paproci, z której wyrastają liście oraz korzenie."
   },
   {
-    "id": "R03_PPW_07",
+    "id": "R03_PSW_07",
+    "section": "Paprocie, skrzypy i widłaki",
+    "type": "scenario",
+    "prompt": "Wiosną widzisz brązowy pęd zakończony skupieniem liści z zarodniami, a później zielony silnie rozgałęziony pęd. Do której grupy należy ta roślina?",
+    "options": [
+      "skrzypy",
+      "mchy",
+      "rośliny okrytonasienne",
+      "glony"
+    ],
+    "answer": 0,
+    "explanation": "Opis pasuje do skrzypu polnego, u którego występują pędy wiosenne i pędy letnie pojawiające się w różnych porach roku.",
+    "image": "r03_skrzyp_pedy.jpg"
+  },
+  {
+    "id": "R03_PSW_08",
+    "section": "Paprocie, skrzypy i widłaki",
+    "type": "riddle",
+    "prompt": "Jak nazywa się grupa roślin, której łodygi rozgałęziają się widlasto, a liście są drobne, łuskowate i zimozielone?",
+    "options": null,
+    "answer": "widłaki",
+    "altAnswers": [
+      "widłaki",
+      "widłak"
+    ],
+    "explanation": "Widłaki mają łodygi rozgałęzione widlasto oraz drobne, łuskowate, zimozielone liście.",
+    "image": "r03_widlak_ped.jpg"
+  },
+  {
+    "id": "R03_PSW_09",
     "section": "Paprocie, skrzypy i widłaki",
     "type": "sort",
-    "prompt": "Przyporządkuj cechy do właściwej grupy roślin.",
+    "prompt": "Przyporządkuj cechy do grup roślin.",
     "options": null,
     "items": [
-      "kłącze i duże liście",
-      "pędy wiosenne i letnie",
-      "widlaste rozgałęzienia",
-      "kupki zarodni pod liśćmi",
-      "drobne łuskowate liście"
+      "liście przypominające duże pióra",
+      "pędy z podłużnymi bruzdami",
+      "łodygi rozgałęzione widlasto",
+      "kłącze ukryte w ziemi",
+      "liście łuskowate i zrośnięte"
     ],
     "categories": [
       "paprocie",
@@ -450,93 +503,66 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "paprocie": [
-        "kłącze i duże liście",
-        "kupki zarodni pod liśćmi"
+        "liście przypominające duże pióra",
+        "kłącze ukryte w ziemi"
       ],
       "skrzypy": [
-        "pędy wiosenne i letnie"
+        "pędy z podłużnymi bruzdami",
+        "liście łuskowate i zrośnięte"
       ],
       "widłaki": [
-        "widlaste rozgałęzienia",
-        "drobne łuskowate liście"
+        "łodygi rozgałęzione widlasto"
       ]
     },
-    "explanation": "Paprocie mają kłącze i duże liście, skrzypy - dwa typy pędów, a widłaki - widlaste pędy i drobne liście."
+    "explanation": "Każda z tych grup ma własne charakterystyczne cechy wyglądu, przy zachowaniu wspólnej cechy rozmnażania przez zarodniki."
   },
   {
-    "id": "R03_PPW_08",
+    "id": "R03_PSW_10",
     "section": "Paprocie, skrzypy i widłaki",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: kłącze, zarodnia, pastorał, szyszka nasienna.",
-    "options": null,
-    "answer": "szyszka nasienna",
-    "explanation": "Kłącze, zarodnia i pastorał wiążą się z paprotnikami. Szyszka nasienna należy do roślin nagonasiennych."
-  },
-  {
-    "id": "R03_PPW_09",
-    "section": "Paprocie, skrzypy i widłaki",
-    "type": "single_choice",
-    "prompt": "Na obrazku porównano mech i paproć. Która roślina może zwykle urosnąć większa, bo ma tkanki przewodzące i wzmacniające?",
-    "image": "/img/bbt_r03_porownanie_mchu_i_paproci.jpg",
-    "options": [
-      "paproć",
-      "mech",
-      "obie rosną tak samo",
-      "żadna"
-    ],
-    "answer": 0,
-    "explanation": "Paproć ma tkanki i prawdziwe organy, dlatego zwykle osiąga większe rozmiary niż mech."
-  },
-  {
-    "id": "R03_PPW_10",
-    "section": "Paprocie, skrzypy i widłaki",
-    "type": "scenario",
-    "prompt": "Nauczyciel powiedział, że ze szczątków dawnych paproci, skrzypów i widłaków powstał ważny surowiec. Jaki?",
-    "options": [
-      "węgiel kamienny",
-      "sól kamienna",
-      "kreda",
-      "piasek"
-    ],
-    "answer": 0,
-    "explanation": "Ze szczątków dawnych roślin, w tym paprotników, powstał węgiel kamienny."
-  },
-  {
-    "id": "R03_NG_01",
-    "section": "Rośliny nagonasienne",
-    "type": "single_choice",
-    "prompt": "Dlaczego te rośliny nazywamy nagonasiennymi?",
-    "image": "/img/bbt_r03_cechy_nagonasiennych.jpg",
-    "options": [
-      "bo ich nasiona nie są zamknięte w owocu",
-      "bo mają nagie łodygi",
-      "bo nie mają liści",
-      "bo rosną tylko zimą"
-    ],
-    "answer": 0,
-    "explanation": "Nasiona roślin nagonasiennych nie są osłonięte owocem, dlatego nazywa się je nagonasiennymi."
-  },
-  {
-    "id": "R03_NG_02",
-    "section": "Rośliny nagonasienne",
     "type": "true_false",
-    "prompt": "Rośliny nagonasienne to głównie drzewa i krzewy.",
+    "prompt": "Węgiel kamienny powstał ze szczątków dawnych paproci, skrzypów i widłaków.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Do roślin nagonasiennych należą przede wszystkim drzewa i krzewy."
+    "explanation": "Rozdział wskazuje, że przed milionami lat rośliny te tworzyły bujne lasy, a z ich szczątków powstał węgiel kamienny."
   },
   {
-    "id": "R03_NG_03",
+    "id": "R03_NAG_01",
+    "section": "Rośliny nagonasienne",
+    "type": "single_choice",
+    "prompt": "Co oznacza nazwa rośliny nagonasienne?",
+    "options": [
+      "mają nieosłonięte nasiona i nie wytwarzają owoców",
+      "nie wytwarzają żadnych nasion",
+      "mają nasiona zawsze ukryte w jabłku",
+      "rozmnażają się tylko przez zarodniki",
+      "nie mają kwiatów",
+      "żyją wyłącznie w wodzie"
+    ],
+    "answer": 0,
+    "explanation": "Rośliny nagonasienne mają nasiona nieosłonięte, czyli nieumieszczone wewnątrz owocu.",
+    "image": "r03_sosna_kwiaty_szyszki.jpg"
+  },
+  {
+    "id": "R03_NAG_02",
+    "section": "Rośliny nagonasienne",
+    "type": "true_false",
+    "prompt": "Rośliny nagonasienne wytwarzają owoce, w których znajdują się nasiona.",
+    "options": null,
+    "answer": false,
+    "explanation": "Nasiona roślin nagonasiennych są nieosłonięte, dlatego rośliny te nie wytwarzają owoców."
+  },
+  {
+    "id": "R03_NAG_03",
     "section": "Rośliny nagonasienne",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy budowy sosny pokazane na ilustracji.",
-    "image": "/img/bbt_r03_budowa_sosny.jpg",
+    "prompt": "Zaznacz organy wytwarzane przez rośliny nagonasienne według rozdziału.",
     "options": [
-      "pień",
-      "igły",
-      "korzeń",
-      "kora",
-      "owoc"
+      "korzenie",
+      "łodygi",
+      "liście",
+      "kwiaty",
+      "owoce",
+      "zarodnie na liściach paproci"
     ],
     "answer": [
       0,
@@ -544,159 +570,155 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Sosna ma pień, korzenie, korę i igły, ale nie tworzy owoców."
+    "explanation": "Rośliny nagonasienne wytwarzają korzenie, łodygi, liście i kwiaty. Nie wytwarzają owoców."
   },
   {
-    "id": "R03_NG_04",
+    "id": "R03_NAG_04",
     "section": "Rośliny nagonasienne",
     "type": "fill_in",
-    "prompt": "Mech i paproć tworzą __________, a sosna tworzy __________.",
+    "prompt": "Liście roślin nagonasiennych mają najczęściej postać __________ lub __________.",
     "options": null,
-    "image": "/img/bbt_r03_zarodniki_i_nasiona.jpg",
     "answer": [
-      "zarodniki",
-      "nasiona"
+      "igieł",
+      "łusek"
     ],
     "altAnswers": [
       [
-        "zarodniki",
-        "zarodnik",
-        "zarodników",
-        "zarodnikami"
+        "igieł",
+        "igły"
       ],
       [
-        "nasiona",
-        "nasion",
-        "nasionami",
-        "nasionko",
-        "nasionka"
+        "łusek",
+        "łuski"
       ]
     ],
-    "explanation": "Mchy i paprotniki rozmnażają się przez zarodniki, a sosna jest rośliną nasienną."
+    "explanation": "U roślin nagonasiennych liście są zwykle igłami albo łuskami, często zimozielonymi i wieloletnimi.",
+    "image": "r03_porownanie_szyszek_igiel.jpg"
   },
   {
-    "id": "R03_NG_05",
-    "section": "Rośliny nagonasienne",
-    "type": "sequence",
-    "prompt": "Ułóż etapy rozmnażania sosny we właściwej kolejności.",
-    "options": null,
-    "image": "/img/bbt_r03_rozmnazanie_sosny.jpg",
-    "items": [
-      "z nasiona wyrasta młoda roślina",
-      "dochodzi do zapylenia",
-      "powstaje ziarno pyłku",
-      "rozwija się nasiono"
-    ],
-    "answer": [
-      "powstaje ziarno pyłku",
-      "dochodzi do zapylenia",
-      "rozwija się nasiono",
-      "z nasiona wyrasta młoda roślina"
-    ],
-    "explanation": "Najpierw powstaje pyłek, potem następuje zapylenie, rozwija się nasiono, a na końcu rośnie nowa roślina."
-  },
-  {
-    "id": "R03_NG_06",
-    "section": "Rośliny nagonasienne",
-    "type": "scenario",
-    "prompt": "Sosna rośnie na suchej, piaszczystej glebie. Która cecha najbardziej pomaga jej ograniczać utratę wody?",
-    "options": [
-      "wąskie igły",
-      "duże miękkie liście",
-      "brak kory",
-      "kwiaty o dużych płatkach"
-    ],
-    "answer": 0,
-    "explanation": "Wąskie igły mają małą powierzchnię, więc roślina traci mniej wody."
-  },
-  {
-    "id": "R03_NG_07",
-    "section": "Rośliny nagonasienne",
-    "type": "riddle",
-    "prompt": "Jestem drobinką przenoszoną przez wiatr z kwiatu męskiego do żeńskiego. Kim jestem?",
-    "options": null,
-    "answer": "ziarno pyłku",
-    "altAnswers": [
-      "ziarno pyłku",
-      "pyłek",
-      "ziarna pyłku",
-      "ziarnem pyłku"
-    ],
-    "explanation": "Wiatr przenosi ziarna pyłku. Dzięki temu może dojść do zapylenia."
-  },
-  {
-    "id": "R03_NG_08",
-    "section": "Rośliny nagonasienne",
-    "type": "single_choice",
-    "prompt": "Którego organu sosna nie wytwarza?",
-    "options": [
-      "owocu",
-      "korzenia",
-      "łodygi",
-      "liści"
-    ],
-    "answer": 0,
-    "explanation": "Sosna nie tworzy owoców. Nasiona leżą na łuskach szyszki."
-  },
-  {
-    "id": "R03_NG_09",
+    "id": "R03_NAG_05",
     "section": "Rośliny nagonasienne",
     "type": "match",
-    "prompt": "Połącz cechę z odpowiednią częścią rośliny nagonasiennej.",
+    "prompt": "Połącz część sosny zwyczajnej z opisem.",
     "options": null,
     "left": [
-      "liście",
-      "nasiona",
-      "łodyga i korzeń"
+      "pień",
+      "igły",
+      "korzenie",
+      "szyszka"
     ],
     "right": [
-      "mają postać igieł lub łusek",
-      "leżą na łuskach szyszki",
-      "są zdrewniałe i mogą przyrastać na grubość"
+      "wieloletnia łodyga",
+      "liście sosny",
+      "pobieranie wody i soli mineralnych",
+      "struktura związana z nasionami"
     ],
     "answer": {
-      "liście": "mają postać igieł lub łusek",
-      "nasiona": "leżą na łuskach szyszki",
-      "łodyga i korzeń": "są zdrewniałe i mogą przyrastać na grubość"
+      "pień": "wieloletnia łodyga",
+      "igły": "liście sosny",
+      "korzenie": "pobieranie wody i soli mineralnych",
+      "szyszka": "struktura związana z nasionami"
     },
-    "explanation": "U większości nagonasiennych liście mają formę igieł lub łusek, nasiona leżą na łuskach szyszki, a łodygi i korzenie są zdrewniałe."
+    "explanation": "Sosna zwyczajna ma silny system korzeniowy, pień jako wieloletnią łodygę oraz igły będące liśćmi.",
+    "image": "r03_sosna_kwiaty_szyszki.jpg"
   },
   {
-    "id": "R03_NG_10",
+    "id": "R03_NAG_06",
     "section": "Rośliny nagonasienne",
-    "type": "true_false",
-    "prompt": "Igły wielu roślin nagonasiennych są wieloletnie i pozostają zielone także zimą.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Wiele nagonasiennych jest zimozielonych."
-  },
-  {
-    "id": "R03_NZ_01",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "single_choice",
-    "prompt": "Które zdanie najlepiej opisuje jedno z ważnych zadań lasów iglastych?",
-    "image": "/img/bbt_r03_znaczenie_iglastego_lasu.jpg",
+    "type": "scenario",
+    "prompt": "Na gałązce sosny zauważasz małe czerwone szyszeczki. Według opisu z rozdziału co one tworzą?",
     "options": [
-      "chronią glebę i są domem wielu organizmów",
-      "zamieniają się co roku w łąkę",
-      "rosną tylko w doniczkach",
-      "nie mają znaczenia dla zwierząt"
+      "kwiatostany żeńskie",
+      "pędy letnie skrzypu",
+      "zarodnie mchu",
+      "owoce sosny"
     ],
     "answer": 0,
-    "explanation": "Lasy iglaste chronią glebę, zatrzymują wodę i są miejscem życia wielu organizmów."
+    "explanation": "Kwiaty żeńskie sosny tworzą kwiatostan w postaci małej czerwonej szyszeczki.",
+    "image": "r03_sosna_kwiaty_szyszki.jpg"
   },
   {
-    "id": "R03_NZ_02",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "multi_select",
-    "prompt": "Na ilustracji pokazano kilka drzew iglastych. Zaznacz gatunki omawiane w tym rozdziale.",
-    "image": "/img/bbt_r03_szyszki_i_igly_gatunkow.jpg",
+    "id": "R03_NAG_07",
+    "section": "Rośliny nagonasienne",
+    "type": "riddle",
+    "prompt": "Jak nazywa się przeniesienie ziarna pyłku na kwiat żeński?",
+    "options": null,
+    "answer": "zapylenie",
+    "altAnswers": [
+      "zapylenie",
+      "zapylanie"
+    ],
+    "explanation": "Gdy ziarno pyłku zostanie przeniesione na kwiat żeński, następuje zapylenie."
+  },
+  {
+    "id": "R03_NAG_08",
+    "section": "Rośliny nagonasienne",
+    "type": "sequence",
+    "prompt": "Ułóż etapy rozmnażania sosny w poprawnej kolejności.",
+    "options": null,
+    "items": [
+      "powstają nasiona",
+      "ziarna pyłku przenosi wiatr",
+      "dochodzi do zapłodnienia",
+      "powstają kwiaty męskie i żeńskie",
+      "następuje zapylenie"
+    ],
+    "answer": [
+      "powstają kwiaty męskie i żeńskie",
+      "ziarna pyłku przenosi wiatr",
+      "następuje zapylenie",
+      "dochodzi do zapłodnienia",
+      "powstają nasiona"
+    ],
+    "explanation": "U sosny najpierw powstają kwiaty męskie i żeńskie, pyłek jest przenoszony przez wiatr, następuje zapylenie i zapłodnienie, a potem powstają nasiona."
+  },
+  {
+    "id": "R03_NAG_09",
+    "section": "Rośliny nagonasienne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie należy do nagonasiennych: sosna zwyczajna, świerk pospolity, jodła pospolita, jabłoń zwyczajna.",
+    "options": null,
+    "answer": "jabłoń zwyczajna",
+    "explanation": "Jabłoń zwyczajna jest rośliną okrytonasienną, ponieważ jej nasiona znajdują się wewnątrz owocu."
+  },
+  {
+    "id": "R03_NAG_10",
+    "section": "Rośliny nagonasienne",
+    "type": "true_false",
+    "prompt": "Igły sosny zwyczajnej wyrastają po dwie obok siebie.",
+    "options": null,
+    "answer": true,
+    "explanation": "W opisie sosny zwyczajnej podano, że jej igły są osadzone po dwie."
+  },
+  {
+    "id": "R03_ZNA_01",
+    "section": "Znaczenie nagonasiennych",
+    "type": "single_choice",
+    "prompt": "Jak nazywa się las iglasty?",
     "options": [
-      "sosna",
-      "świerk",
-      "jodła",
-      "modrzew",
-      "dąb"
+      "bór",
+      "sad",
+      "łąka",
+      "torfowisko",
+      "runo",
+      "plantacja"
+    ],
+    "answer": 0,
+    "explanation": "Lasy iglaste są nazywane borami. W Polsce występują między innymi bory sosnowe.",
+    "image": "r03_bor_sosnowy.jpg"
+  },
+  {
+    "id": "R03_ZNA_02",
+    "section": "Znaczenie nagonasiennych",
+    "type": "multi_select",
+    "prompt": "Zaznacz rośliny nagonasienne naturalnie występujące w Polsce wymienione w rozdziale.",
+    "options": [
+      "sosna zwyczajna",
+      "świerk pospolity",
+      "jodła pospolita",
+      "modrzew europejski",
+      "jabłoń zwyczajna",
+      "płonnik pospolity"
     ],
     "answer": [
       0,
@@ -704,53 +726,49 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Sosna, świerk, jodła i modrzew to przykłady drzew nagonasiennych opisanych w rozdziale. Dąb jest okrytonasienny."
+    "explanation": "Wśród polskich nagonasiennych wymieniono między innymi sosnę zwyczajną, świerk pospolity, jodłę pospolitą i modrzew europejski."
   },
   {
-    "id": "R03_NZ_03",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "scenario",
-    "prompt": "Nad morzem sadzi się sosny na piaszczystych terenach. Po co to się robi?",
-    "options": [
-      "żeby umacniały wydmy i podłoże",
-      "żeby zamieniały piasek w śnieg",
-      "żeby odstraszały wszystkie zwierzęta",
-      "żeby rosły tylko przez jeden miesiąc"
-    ],
-    "answer": 0,
-    "explanation": "Sosny pomagają umacniać piaszczyste podłoże, dlatego sadzi się je między innymi na wydmach."
-  },
-  {
-    "id": "R03_NZ_04",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
+    "id": "R03_ZNA_03",
+    "section": "Znaczenie nagonasiennych",
     "type": "match",
-    "prompt": "Połącz drzewo z cechą, która pomaga je rozpoznać.",
+    "prompt": "Połącz gatunek nagonasienny z cechą wskazaną w rozdziale lub kluczu.",
     "options": null,
     "left": [
-      "sosna",
-      "świerk",
-      "jodła",
-      "modrzew"
+      "modrzew europejski",
+      "jałowiec pospolity",
+      "cis pospolity",
+      "sosna limba"
     ],
     "right": [
-      "igły po dwie",
-      "zwisające szyszki",
-      "szyszki stojące do góry",
-      "gubi igły na zimę"
+      "gubi liście na zimę",
+      "ma igły wyrastające po trzy",
+      "ma nasiona z czerwoną osnówką",
+      "ma igły wyrastające po pięć"
     ],
     "answer": {
-      "sosna": "igły po dwie",
-      "świerk": "zwisające szyszki",
-      "jodła": "szyszki stojące do góry",
-      "modrzew": "gubi igły na zimę"
+      "modrzew europejski": "gubi liście na zimę",
+      "jałowiec pospolity": "ma igły wyrastające po trzy",
+      "cis pospolity": "ma nasiona z czerwoną osnówką",
+      "sosna limba": "ma igły wyrastające po pięć"
     },
-    "explanation": "Te cechy są bardzo pomocne przy rozpoznawaniu popularnych drzew iglastych."
+    "explanation": "Gatunki nagonasienne można rozpoznawać między innymi po igłach, szyszkach i szczególnych cechach pędów.",
+    "image": "r03_porownanie_szyszek_igiel.jpg"
   },
   {
-    "id": "R03_NZ_05",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
+    "id": "R03_ZNA_04",
+    "section": "Znaczenie nagonasiennych",
+    "type": "true_false",
+    "prompt": "Drewno sosnowe jest wykorzystywane w stolarstwie, ponieważ łatwo poddaje się obróbce.",
+    "options": null,
+    "answer": true,
+    "explanation": "Rozdział podaje drewno sosnowe jako przykład surowca chętnie wykorzystywanego w stolarstwie."
+  },
+  {
+    "id": "R03_ZNA_05",
+    "section": "Znaczenie nagonasiennych",
     "type": "fill_in",
-    "prompt": "Drewno roślin nagonasiennych wykorzystuje się między innymi do produkcji __________ i __________.",
+    "prompt": "Drewno roślin nagonasiennych wykorzystuje się m.in. do wyrobu __________ i __________.",
     "options": null,
     "answer": [
       "mebli",
@@ -759,48 +777,41 @@ const ALL_EXERCISES = [
     "altAnswers": [
       [
         "mebli",
-        "meble",
-        "mebel"
+        "meble"
       ],
       [
         "papieru",
-        "papier",
-        "papierów"
+        "papier"
       ]
     ],
-    "explanation": "Drewno drzew iglastych jest ważnym surowcem do produkcji mebli i papieru."
+    "explanation": "Drewno nagonasiennych jest cennym surowcem, używanym między innymi w meblarstwie i do produkcji papieru."
   },
   {
-    "id": "R03_NZ_06",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "true_false",
-    "prompt": "Modrzew jest wyjątkiem wśród wielu iglaków, bo gubi igły na zimę.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Modrzew nie jest zimozielony - zrzuca igły na zimę."
+    "id": "R03_ZNA_06",
+    "section": "Znaczenie nagonasiennych",
+    "type": "scenario",
+    "prompt": "Oznaczasz drzewo z miękkimi igłami zebranymi w pęczki, które opadają na zimę. Do jakiego gatunku prowadzi klucz z rozdziału?",
+    "options": [
+      "modrzew europejski",
+      "cis pospolity",
+      "jodła pospolita",
+      "świerk pospolity"
+    ],
+    "answer": 0,
+    "explanation": "Klucz do oznaczania wskazuje, że miękkie igły zebrane w pęczki i opadające na zimę prowadzą do modrzewia europejskiego."
   },
   {
-    "id": "R03_NZ_07",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: sosna, świerk, jodła, dąb.",
-    "options": null,
-    "answer": "dąb",
-    "explanation": "Sosna, świerk i jodła to rośliny nagonasienne. Dąb należy do roślin okrytonasiennych."
-  },
-  {
-    "id": "R03_NZ_08",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
+    "id": "R03_ZNA_07",
+    "section": "Znaczenie nagonasiennych",
     "type": "sort",
-    "prompt": "Posortuj przykłady znaczenia roślin nagonasiennych.",
+    "prompt": "Przyporządkuj przykłady znaczenia nagonasiennych do kategorii.",
     "options": null,
     "items": [
-      "dają schronienie zwierzętom",
-      "oczyszczają powietrze",
-      "drewno do budowy i stolarstwa",
-      "surowiec do papieru",
-      "umacniają wydmy",
-      "wykorzystuje się je do leków i kosmetyków"
+      "są producentami tlenu",
+      "tworzą środowisko życia organizmów",
+      "dostarczają drewna na papier",
+      "ich żywica bywa surowcem przemysłowym",
+      "kształtują mikroklimat"
     ],
     "categories": [
       "znaczenie w przyrodzie",
@@ -808,465 +819,309 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "znaczenie w przyrodzie": [
-        "dają schronienie zwierzętom",
-        "oczyszczają powietrze",
-        "umacniają wydmy"
+        "są producentami tlenu",
+        "tworzą środowisko życia organizmów",
+        "kształtują mikroklimat"
       ],
       "znaczenie dla człowieka": [
-        "drewno do budowy i stolarstwa",
-        "surowiec do papieru",
-        "wykorzystuje się je do leków i kosmetyków"
+        "dostarczają drewna na papier",
+        "ich żywica bywa surowcem przemysłowym"
       ]
     },
-    "explanation": "Rośliny nagonasienne są ważne zarówno dla przyrody, jak i dla ludzi."
+    "explanation": "Rośliny nagonasienne są ważne w przyrodzie, a także dostarczają człowiekowi drewna, żywicy i surowców dla przemysłu."
   },
   {
-    "id": "R03_NZ_09",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "single_choice",
-    "prompt": "Na ilustracji z igłami i szyszkami które drzewo ma szyszki stojące do góry?",
-    "image": "/img/bbt_r03_szyszki_i_igly_gatunkow.jpg",
-    "options": [
-      "jodła",
-      "świerk",
-      "sosna",
-      "modrzew"
+    "id": "R03_ZNA_08",
+    "section": "Znaczenie nagonasiennych",
+    "type": "riddle",
+    "prompt": "Jak nazywa się ceniona w jubilerstwie skamieniała żywica dawnych drzew?",
+    "options": null,
+    "answer": "bursztyn",
+    "altAnswers": [
+      "bursztyn",
+      "jantar"
     ],
-    "answer": 0,
-    "explanation": "Szyszki jodły stoją do góry. U świerka zwykle zwisają."
+    "explanation": "Bursztyn powstał z żywicy drzew rosnących przed milionami lat i jest ceniony w jubilerstwie."
   },
   {
-    "id": "R03_NZ_10",
-    "section": "Rośliny nagonasienne w przyrodzie i w życiu człowieka",
-    "type": "scenario",
-    "prompt": "Wiewiórka wyjada nasiona z szyszek. Jaką rolę pełnią tu rośliny nagonasienne?",
-    "options": [
-      "są pokarmem dla zwierząt",
-      "są chorobą drzew",
-      "zjadają zwierzęta",
-      "zamieniają nasiona w zarodniki"
-    ],
-    "answer": 0,
-    "explanation": "Nasiona wielu drzew iglastych są pokarmem dla zwierząt."
+    "id": "R03_ZNA_09",
+    "section": "Znaczenie nagonasiennych",
+    "type": "odd_one_out",
+    "prompt": "Wskaż przykład, który nie jest typem boru sosnowego z rozdziału: bór sosnowy świeży, bór sosnowy suchy, bór sosnowy bagienny, sad jabłoniowy.",
+    "options": null,
+    "answer": "sad jabłoniowy",
+    "explanation": "Sad jabłoniowy nie jest borem sosnowym. Rozdział opisuje bór sosnowy świeży, suchy i bagienny."
   },
   {
-    "id": "R03_ST_01",
+    "id": "R03_ZNA_10",
+    "section": "Znaczenie nagonasiennych",
+    "type": "true_false",
+    "prompt": "Pod jodłami łatwo znaleźć całe, dojrzałe szyszki leżące na ziemi.",
+    "options": null,
+    "answer": false,
+    "explanation": "Szyszki jodły rosną do góry i rozpadają się, dlatego pod jodłami nie znajduje się całych szyszek tak jak pod wieloma innymi drzewami iglastymi."
+  },
+  {
+    "id": "R03_HARD_01",
     "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji porównano główne grupy roślin lądowych. Która grupa rozmnaża się przez nasiona, a nie przez zarodniki?",
-    "image": "/img/bbt_r03_grupy_roslin_ladowych.jpg",
-    "options": [
-      "rośliny nagonasienne",
-      "mchy",
-      "paprocie",
-      "skrzypy i widłaki"
+    "type": "match",
+    "prompt": "Połącz strukturę z dokładną funkcją lub cechą.",
+    "options": null,
+    "left": [
+      "włośniki",
+      "aparaty szparkowe",
+      "przetchlinki",
+      "sita",
+      "naczynia"
     ],
-    "answer": 0,
-    "explanation": "W tym rozdziale tylko rośliny nagonasienne są roślinami nasiennymi. Pozostałe grupy rozmnażają się przez zarodniki."
+    "right": [
+      "zwiększają powierzchnię pobierania wody",
+      "umożliwiają wymianę gazową w skórce",
+      "umożliwiają wymianę gazową w korku",
+      "tworzą przewody łyka",
+      "tworzą przewody drewna"
+    ],
+    "answer": {
+      "włośniki": "zwiększają powierzchnię pobierania wody",
+      "aparaty szparkowe": "umożliwiają wymianę gazową w skórce",
+      "przetchlinki": "umożliwiają wymianę gazową w korku",
+      "sita": "tworzą przewody łyka",
+      "naczynia": "tworzą przewody drewna"
+    },
+    "explanation": "Włośniki, aparaty szparkowe, przetchlinki, sita i naczynia pełnią różne zadania związane z pobieraniem, wymianą i transportem substancji."
   },
   {
-    "id": "R03_ST_02",
+    "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Na schemacie podziału tkanek zaznacz tylko tkanki twórcze.",
-    "image": "/img/bbt_r03_klasyfikacja_tkanek.jpg",
+    "prompt": "Zaznacz elementy zbudowane w rozdziale z martwych komórek.",
     "options": [
-      "stożek wzrostu pędu",
-      "stożek wzrostu korzenia",
-      "miazga",
-      "miękisz",
-      "drewno"
+      "korek",
+      "drewno",
+      "twardzica",
+      "łyko",
+      "zwarcica",
+      "miękisz palisadowy"
     ],
     "answer": [
       0,
       1,
       2
     ],
-    "explanation": "Do tkanek twórczych należą stożki wzrostu i miazga. Miękisz i drewno to tkanki stałe."
+    "explanation": "Korek, drewno i twardzica są opisane jako zbudowane z martwych komórek. Łyko i zwarcica tworzą komórki żywe."
   },
   {
-    "id": "R03_ST_03",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "Dwutlenek węgla trafia do wnętrza liścia głównie przez __________, a najwięcej chloroplastów ma zwykle __________.",
-    "options": null,
-    "image": "/img/bbt_r03_przekroj_liscia_tkanki.jpg",
-    "answer": [
-      "aparaty szparkowe",
-      "miękisz palisadowy"
-    ],
-    "altAnswers": [
-      [
-        "aparaty szparkowe",
-        "aparaty szparkowe",
-        "aparat szparkowy",
-        "szparki"
-      ],
-      [
-        "miękisz palisadowy",
-        "miekisz palisadowy",
-        "miękisz",
-        "palisadowy miękisz"
-      ]
-    ],
-    "explanation": "Wymiana gazowa zachodzi głównie przez aparaty szparkowe, a miękisz palisadowy zawiera dużo chloroplastów i intensywnie przeprowadza fotosyntezę."
-  },
-  {
-    "id": "R03_ST_04",
+    "id": "R03_HARD_03",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Sosna dobrze radzi sobie na suchej, piaszczystej glebie. Który zestaw cech najlepiej to wyjaśnia?",
+    "prompt": "Łodyga i korzeń pewnej rośliny z roku na rok stają się coraz grubsze. Która tkanka twórcza odpowiada za taki przyrost?",
     "options": [
-      "wąskie igły i dobrze rozwinięty system korzeniowy",
-      "duże miękkie liście i płytkie korzenie",
-      "brak kory i bardzo cienki pień",
-      "owoce pełne wody i chwytniki"
-    ],
-    "answer": 0,
-    "explanation": "Wąskie igły ograniczają utratę wody, a rozbudowany system korzeniowy pomaga pobierać wodę z gleby."
-  },
-  {
-    "id": "R03_ST_05",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Posortuj rośliny według sposobu rozmnażania.",
-    "options": null,
-    "items": [
-      "mech",
-      "paproć",
-      "skrzyp",
-      "widłak",
-      "sosna",
-      "świerk",
-      "jodła"
-    ],
-    "categories": [
-      "zarodniki",
-      "nasiona"
-    ],
-    "answer": {
-      "zarodniki": [
-        "mech",
-        "paproć",
-        "skrzyp",
-        "widłak"
-      ],
-      "nasiona": [
-        "sosna",
-        "świerk",
-        "jodła"
-      ]
-    },
-    "explanation": "Mchy i paprotniki tworzą zarodniki. Sosna, świerk i jodła są roślinami nasiennymi."
-  },
-  {
-    "id": "R03_ST_06",
-    "section": "Super trudne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: łyko, drewno, naczynia, chwytniki.",
-    "options": null,
-    "answer": "chwytniki",
-    "explanation": "Łyko, drewno i naczynia wiążą się z przewodzeniem substancji. Chwytniki służą mchom głównie do umocowania w podłożu."
-  },
-  {
-    "id": "R03_ST_07",
-    "section": "Super trudne",
-    "type": "sequence",
-    "prompt": "Ułóż etapy rozmnażania sosny od zapylenia do młodej rośliny.",
-    "options": null,
-    "image": "/img/bbt_r03_rozmnazanie_sosny.jpg",
-    "items": [
-      "wyrasta siewka",
-      "rozwija się nasiono",
-      "ziarno pyłku trafia na kwiat żeński",
-      "nasiono spada lub jest roznoszone"
-    ],
-    "answer": [
-      "ziarno pyłku trafia na kwiat żeński",
-      "rozwija się nasiono",
-      "nasiono spada lub jest roznoszone",
-      "wyrasta siewka"
-    ],
-    "explanation": "Po zapyleniu rozwija się nasiono, potem może zostać rozprzestrzenione i w dobrych warunkach wyrasta z niego siewka."
-  },
-  {
-    "id": "R03_ST_08",
-    "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz grupę roślin z wyróżniającą ją cechą.",
-    "options": null,
-    "left": [
-      "mchy",
-      "paprocie",
-      "skrzypy",
-      "widłaki",
-      "sosna"
-    ],
-    "right": [
-      "chwytniki zamiast korzeni",
-      "duże liście wyrastające z kłącza",
-      "pędy wiosenne i letnie",
-      "widlaste rozgałęzienia",
-      "nasiona na łuskach szyszki"
-    ],
-    "answer": {
-      "mchy": "chwytniki zamiast korzeni",
-      "paprocie": "duże liście wyrastające z kłącza",
-      "skrzypy": "pędy wiosenne i letnie",
-      "widłaki": "widlaste rozgałęzienia",
-      "sosna": "nasiona na łuskach szyszki"
-    },
-    "explanation": "Każda z tych grup ma cechę, która pomaga ją rozpoznać."
-  },
-  {
-    "id": "R03_ST_09",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "Na ilustracji widać dwie rośliny. Jedna ma chwytniki, druga prawdziwe korzenie i kłącze. Która roślina lepiej poradzi sobie, gdy ma urosnąć wyżej?",
-    "image": "/img/bbt_r03_porownanie_mchu_i_paproci.jpg",
-    "options": [
-      "paproć",
-      "mech",
-      "obie tak samo",
-      "żadna"
-    ],
-    "answer": 0,
-    "explanation": "Paproć ma tkanki przewodzące i wzmacniające oraz prawdziwe organy, więc może osiągać większe rozmiary."
-  },
-  {
-    "id": "R03_ST_10",
-    "section": "Super trudne",
-    "type": "true_false",
-    "prompt": "To, że mchy zwykle są niskie, ma związek z tym, że nie mają dobrze rozwiniętych tkanek przewodzących i wzmacniających.",
-    "options": null,
-    "answer": true,
-    "explanation": "To prawda. Brak takich tkanek ogranicza rozmiary mchów."
-  },
-  {
-    "id": "R03_ST_11",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "Łyko przewodzi w roślinie głównie __________, a drewno przewodzi __________.",
-    "options": null,
-    "answer": [
-      "substancje pokarmowe",
-      "wodę i sole mineralne"
-    ],
-    "altAnswers": [
-      [
-        "substancje pokarmowe",
-        "pokarm",
-        "substancję pokarmową",
-        "substancji pokarmowych"
-      ],
-      [
-        "wodę i sole mineralne",
-        "wodę",
-        "wode i sole mineralne",
-        "wodę z solami mineralnymi"
-      ]
-    ],
-    "explanation": "Łyko rozprowadza pokarm wytworzony w fotosyntezie, a drewno wodę i sole mineralne."
-  },
-  {
-    "id": "R03_ST_12",
-    "section": "Super trudne",
-    "type": "multi_select",
-    "prompt": "Patrz na ilustrację z drzewami iglastymi. Zaznacz zdania prawdziwe.",
-    "image": "/img/bbt_r03_szyszki_i_igly_gatunkow.jpg",
-    "options": [
-      "jodła ma szyszki stojące do góry",
-      "świerk ma szyszki zwisające",
-      "modrzew gubi igły na zimę",
-      "sosna ma liście szerokie jak dąb",
-      "jodła i świerk to rośliny nagonasienne"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      4
-    ],
-    "explanation": "Jodłę rozpoznaje się po szyszkach stojących, świerk po zwisających, a modrzew po zrzucaniu igieł. Sosna nie ma szerokich liści."
-  },
-  {
-    "id": "R03_ST_13",
-    "section": "Super trudne",
-    "type": "scenario",
-    "prompt": "W rozdziale podano, że jodła źle znosi zanieczyszczone powietrze. Gdzie więc będzie jej trudniej rosnąć?",
-    "options": [
-      "blisko mocno uczęszczanej drogi w dużym mieście",
-      "w wilgotnym lesie z czystym powietrzem",
-      "w górach z dużą wilgotnością",
-      "w parku narodowym z małym ruchem"
-    ],
-    "answer": 0,
-    "explanation": "Skoro jodła źle znosi zanieczyszczenia, najtrudniej będzie jej w miejscu z zanieczyszczonym powietrzem."
-  },
-  {
-    "id": "R03_ST_14",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Na ilustracji pokazano torfowiec i torfowisko. Co może powstać z obumarłych szczątków torfowców gromadzących się przez długi czas?",
-    "image": "/img/bbt_r03_torfowiec_torfowisko.jpg",
-    "options": [
-      "torf",
-      "wapień",
-      "bursztyn",
-      "piasek"
-    ],
-    "answer": 0,
-    "explanation": "Nagromadzone szczątki torfowców tworzą torf."
-  },
-  {
-    "id": "R03_ST_15",
-    "section": "Super trudne",
-    "type": "match",
-    "prompt": "Połącz część sosny z jej rolą.",
-    "options": null,
-    "image": "/img/bbt_r03_budowa_sosny.jpg",
-    "left": [
-      "igły",
-      "kora",
-      "korzeń główny",
-      "korzenie boczne"
-    ],
-    "right": [
-      "ograniczają utratę wody i prowadzą fotosyntezę",
-      "chroni pień",
-      "sięga głębiej w glebę",
-      "rozrastają się na boki i umacniają roślinę"
-    ],
-    "answer": {
-      "igły": "ograniczają utratę wody i prowadzą fotosyntezę",
-      "kora": "chroni pień",
-      "korzeń główny": "sięga głębiej w glebę",
-      "korzenie boczne": "rozrastają się na boki i umacniają roślinę"
-    },
-    "explanation": "Poszczególne części sosny pomagają jej chronić się, pobierać wodę i utrzymać w podłożu."
-  },
-  {
-    "id": "R03_ST_16",
-    "section": "Super trudne",
-    "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: sosna, świerk, modrzew, paproć.",
-    "options": null,
-    "answer": "paproć",
-    "explanation": "Sosna, świerk i modrzew to rośliny nagonasienne. Paproć należy do paprotników."
-  },
-  {
-    "id": "R03_ST_17",
-    "section": "Super trudne",
-    "type": "single_choice",
-    "prompt": "Które zdanie najlepiej łączy znaczenie lasów iglastych dla przyrody i dla człowieka?",
-    "image": "/img/bbt_r03_znaczenie_iglastego_lasu.jpg",
-    "options": [
-      "dają schronienie organizmom i dostarczają drewna",
-      "są tylko ozdobą w parkach",
-      "rosną jedynie tam, gdzie nikt nie mieszka",
-      "nie mają związku z przemysłem"
-    ],
-    "answer": 0,
-    "explanation": "Lasy iglaste są ważne dla ekosystemów, a jednocześnie dostarczają cennego drewna."
-  },
-  {
-    "id": "R03_ST_18",
-    "section": "Super trudne",
-    "type": "fill_in",
-    "prompt": "Roślina, która jako jedna z pierwszych zasiedla trudne podłoże, to organizm __________, a roślina wytwarzająca nasiona bez owocu jest rośliną __________.",
-    "options": null,
-    "answer": [
-      "pionierski",
-      "nagonasienną"
-    ],
-    "altAnswers": [
-      [
-        "pionierski",
-        "pionierska",
-        "pionierskie",
-        "organizm pionierski"
-      ],
-      [
-        "nagonasienną",
-        "nagonasienna",
-        "nagonasiennych",
-        "nagonasienną rośliną"
-      ]
-    ],
-    "explanation": "Mchy są przykładami organizmów pionierskich, a sosna i inne iglaki są roślinami nagonasiennymi."
-  },
-  {
-    "id": "R03_ST_19",
-    "section": "Super trudne",
-    "type": "sort",
-    "prompt": "Posortuj przykłady według tego, czy dotyczą głównie ochrony rośliny, czy przewodzenia substancji.",
-    "options": null,
-    "items": [
+      "miazga",
       "skórka",
       "korek",
-      "łyko",
-      "drewno",
-      "włośniki",
-      "naczynia"
+      "miękisz gąbczasty"
     ],
-    "categories": [
-      "ochrona",
-      "przewodzenie lub pobieranie"
-    ],
-    "answer": {
-      "ochrona": [
-        "skórka",
-        "korek"
-      ],
-      "przewodzenie lub pobieranie": [
-        "łyko",
-        "drewno",
-        "włośniki",
-        "naczynia"
-      ]
-    },
-    "explanation": "Skórka i korek chronią roślinę, a łyko, drewno, naczynia i włośniki pomagają w pobieraniu lub transportowaniu substancji."
+    "answer": 0,
+    "explanation": "Miazga występuje wewnątrz łodyg i korzeni niektórych roślin. Podziały jej komórek powodują przyrost na grubość."
   },
   {
-    "id": "R03_ST_20",
+    "id": "R03_HARD_04",
     "section": "Super trudne",
-    "type": "riddle",
-    "prompt": "Jestem miejscem intensywnego wzrostu na końcu pędu albo korzenia. Dzięki mnie roślina wydłuża się. Kim jestem?",
+    "type": "sequence",
+    "prompt": "Ułóż proces powstawania tkanki stałej w najwłaściwszej kolejności.",
     "options": null,
-    "answer": "stożek wzrostu",
-    "altAnswers": [
-      "stożek wzrostu",
-      "stożek wzrostu pędu",
-      "stożek wzrostu korzenia",
-      "stożkiem wzrostu"
+    "items": [
+      "komórki różnicują się",
+      "tkanka pełni określoną funkcję w organie",
+      "komórki tkanki twórczej dzielą się",
+      "powstaje tkanka stała"
     ],
-    "explanation": "Stożki wzrostu należą do tkanek twórczych. Dzięki nim pęd i korzeń rosną na długość."
+    "answer": [
+      "komórki tkanki twórczej dzielą się",
+      "komórki różnicują się",
+      "powstaje tkanka stała",
+      "tkanka pełni określoną funkcję w organie"
+    ],
+    "explanation": "Tkanki stałe powstają dzięki podziałom komórek tkanki twórczej, po których komórki różnicują się i zaczynają pełnić określone funkcje w organie."
+  },
+  {
+    "id": "R03_HARD_05",
+    "section": "Super trudne",
+    "type": "fill_in",
+    "prompt": "Zwarcica jest zbudowana z komórek __________, a twardzica z komórek __________.",
+    "options": null,
+    "answer": [
+      "żywych",
+      "martwych"
+    ],
+    "altAnswers": [
+      [
+        "żywych",
+        "żywe"
+      ],
+      [
+        "martwych",
+        "martwe"
+      ]
+    ],
+    "explanation": "Zwarcica występuje w rosnących organach i tworzą ją żywe komórki. Twardzica występuje w organach, które zakończyły wzrost, i składa się z martwych komórek."
+  },
+  {
+    "id": "R03_HARD_06",
+    "section": "Super trudne",
+    "type": "single_choice",
+    "prompt": "W jakich warunkach ze szczątków torfowców powstaje torf?",
+    "options": [
+      "przy utrudnionym dostępie powietrza",
+      "wyłącznie na suchych piaskach",
+      "tylko w pełnym słońcu i bez wody",
+      "w dojrzałych owocach",
+      "w szyszkach sosny",
+      "w korku starych drzew"
+    ],
+    "answer": 0,
+    "explanation": "Torf powstaje ze szczątków torfowców przy utrudnionym dostępie powietrza, w bardzo wilgotnych warunkach torfowiska.",
+    "image": "r03_torfowiec_torfowisko.jpg"
+  },
+  {
+    "id": "R03_HARD_07",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Salwinia pływająca jest przykładem paproci żyjącej w środowisku wodnym.",
+    "options": null,
+    "answer": true,
+    "explanation": "W rozdziale podano salwinię pływającą jako nieliczny przykład paproci spotykanej w stawach i wolno płynących rzekach."
+  },
+  {
+    "id": "R03_HARD_08",
+    "section": "Super trudne",
+    "type": "odd_one_out",
+    "prompt": "Wskaż roślinę, która nie jest paprocią: pióropusznik strusi, języcznik zwyczajny, długosz królewski, skrzyp polny.",
+    "options": null,
+    "answer": "skrzyp polny",
+    "explanation": "Skrzyp polny należy do skrzypów, a pióropusznik strusi, języcznik zwyczajny i długosz królewski to paprocie wymienione w rozdziale."
+  },
+  {
+    "id": "R03_HARD_09",
+    "section": "Super trudne",
+    "type": "sort",
+    "prompt": "Przyporządkuj gatunki do liczby lub ułożenia igieł z klucza.",
+    "options": null,
+    "items": [
+      "sosna zwyczajna",
+      "sosna limba",
+      "jałowiec pospolity",
+      "świerk pospolity",
+      "jodła pospolita"
+    ],
+    "categories": [
+      "igły po dwie",
+      "igły po pięć",
+      "igły po trzy",
+      "igły pojedyncze"
+    ],
+    "answer": {
+      "igły po dwie": [
+        "sosna zwyczajna"
+      ],
+      "igły po pięć": [
+        "sosna limba"
+      ],
+      "igły po trzy": [
+        "jałowiec pospolity"
+      ],
+      "igły pojedyncze": [
+        "świerk pospolity",
+        "jodła pospolita"
+      ]
+    },
+    "explanation": "Klucz rozpoznawania iglastych wykorzystuje między innymi liczbę igieł wyrastających z jednego miejsca oraz kształt igieł."
+  },
+  {
+    "id": "R03_HARD_10",
+    "section": "Super trudne",
+    "type": "true_false",
+    "prompt": "Szyszki jodły pospolitej rosną do góry i rozpadają się po dojrzeniu.",
+    "options": null,
+    "answer": true,
+    "explanation": "Opis jodły pospolitej wskazuje, że jej szyszki są walcowate, rosną do góry i po dojrzeniu rozpadają się."
+  },
+  {
+    "id": "R03_HARD_11",
+    "section": "Super trudne",
+    "type": "scenario",
+    "prompt": "Oznaczasz drzewo iglaste. Ma płaskie, tępo zakończone igły z białymi paskami od spodu, a szyszki sterczą do góry. Co to za gatunek?",
+    "options": [
+      "jodła pospolita",
+      "świerk pospolity",
+      "jałowiec pospolity",
+      "sosna limba"
+    ],
+    "answer": 0,
+    "explanation": "W kluczu cechy: płaskie, tępo zakończone igły z białymi paskami od spodu oraz szyszki skierowane do góry prowadzą do jodły pospolitej."
+  },
+  {
+    "id": "R03_HARD_12",
+    "section": "Super trudne",
+    "type": "match",
+    "prompt": "Połącz typ boru lub lasu z rośliną albo cechą wskazaną w rozdziale.",
+    "options": null,
+    "left": [
+      "bór sosnowy świeży",
+      "bór sosnowy suchy",
+      "bór sosnowy bagienny",
+      "las świerkowy"
+    ],
+    "right": [
+      "borówka czernica i wrzos",
+      "warstwa porostów z chrobotkami",
+      "borówka bagienna i bagno zwyczajne",
+      "częste występowanie w górach"
+    ],
+    "answer": {
+      "bór sosnowy świeży": "borówka czernica i wrzos",
+      "bór sosnowy suchy": "warstwa porostów z chrobotkami",
+      "bór sosnowy bagienny": "borówka bagienna i bagno zwyczajne",
+      "las świerkowy": "częste występowanie w górach"
+    },
+    "explanation": "Rozdział opisuje różne bory i lasy iglaste: sosnowe świeże, suche, bagienne oraz świerkowe występujące często w górach.",
+    "image": "r03_bor_sosnowy.jpg"
   }
 ];
 
-const KID_PROMPTS = {};
+const KID_PROMPTS = {
+  "R03_RTK_01": "Jakie cechy ma większość roślin?",
+  "R03_RTK_04": "Połącz tkankę roślinną z jej zadaniem.",
+  "R03_MCH_03": "Połącz część mchu z jej zadaniem.",
+  "R03_MCH_06": "Co znaczy, że mchy są pionierskie?",
+  "R03_PSW_04": "Połącz grupę roślin z jej wyglądem.",
+  "R03_NAG_01": "Co znaczy, że roślina jest nagonasienna?",
+  "R03_NAG_05": "Połącz część sosny z opisem.",
+  "R03_ZNA_01": "Jak nazywa się las iglasty?",
+  "R03_ZNA_07": "Podziel przykłady na znaczenie w przyrodzie i dla człowieka."
+};
 
 const chapter = {
-  "id": "r03",
-  "number": 3,
-  "title": "Rośliny - od mchów do roślin nagonasiennych",
-  "icon": "🌿",
-  "sectionOrder": [
-  "Królestwo: rośliny. Tkanki roślinne",
-  "Mchy",
-  "Paprocie, skrzypy i widłaki",
-  "Rośliny nagonasienne",
-  "Rośliny nagonasienne w przyrodzie i w życiu człowieka"
-],
-  "sectionIcons": {
-  "Królestwo: rośliny. Tkanki roślinne": "🌿",
-  "Mchy": "🌱",
-  "Paprocie, skrzypy i widłaki": "🍃",
-  "Rośliny nagonasienne": "🌲",
-  "Rośliny nagonasienne w przyrodzie i w życiu człowieka": "🏞️"
-},
-  "exercises": ALL_EXERCISES,
-  "kidPrompts": KID_PROMPTS
+  id: "r03",
+  number: 3,
+  title: "Rośliny. Od mchów do roślin nagonasiennych",
+  icon: "🌿",
+  sectionOrder: [
+    "Rośliny i tkanki roślinne",
+    "Mchy",
+    "Paprocie, skrzypy i widłaki",
+    "Rośliny nagonasienne",
+    "Znaczenie nagonasiennych"
+  ],
+  sectionIcons: {
+    "Rośliny i tkanki roślinne": "🌱",
+    "Mchy": "🟩",
+    "Paprocie, skrzypy i widłaki": "🌿",
+    "Rośliny nagonasienne": "🌲",
+    "Znaczenie nagonasiennych": "🪵"
+  },
+  exercises: ALL_EXERCISES,
+  kidPrompts: KID_PROMPTS
 };
 
 export default chapter;
