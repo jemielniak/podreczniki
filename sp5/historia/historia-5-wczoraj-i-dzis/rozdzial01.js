@@ -1224,7 +1224,7 @@ const ALL_EXERCISES = [
       "kamień z Rosetty",
       "Rosetta"
     ],
-    "image": "/img/r01_kamien_z_rosetty.png"
+    "image": "/img/r01_kamien_z_rosetty.jpg"
   },
   {
     "id": "R01_HARD_08",
