@@ -22,7 +22,7 @@ const ALL_EXERCISES = [
       "półkula"
     ],
     "answer": 1,
-    "image": "/img/r03_globus_os_ziemska.png"
+    "image": "/img/r03_globus_os_ziemska.jpg"
   },
   {
     "id": "R03_ZIE_02",
@@ -32,7 +32,7 @@ const ALL_EXERCISES = [
     "explanation": "Oś ziemska to prosta przechodząca przez środek Ziemi i oba bieguny.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_globus_os_ziemska.png"
+    "image": "/img/r03_globus_os_ziemska.jpg"
   },
   {
     "id": "R03_ZIE_03",
@@ -75,7 +75,7 @@ const ALL_EXERCISES = [
     "explanation": "Ruch obrotowy Ziemi odbywa się wokół osi ziemskiej.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_globus_os_ziemska.png"
+    "image": "/img/r03_globus_os_ziemska.jpg"
   },
   {
     "id": "R03_ZIE_06",
@@ -156,7 +156,7 @@ const ALL_EXERCISES = [
       "atlas samochodowy"
     ],
     "answer": 2,
-    "image": "/img/r03_globus_os_ziemska.png"
+    "image": "/img/r03_globus_os_ziemska.jpg"
   },
   {
     "id": "R03_ZIE_11",
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
       "granice kontynentów"
     ],
     "answer": 1,
-    "image": "/img/r03_siatka_geograficzna.png"
+    "image": "/img/r03_siatka_geograficzna.jpg"
   },
   {
     "id": "R03_SIA_02",
@@ -229,7 +229,7 @@ const ALL_EXERCISES = [
       "południk zerowy"
     ],
     "answer": 2,
-    "image": "/img/r03_siatka_geograficzna.png"
+    "image": "/img/r03_siatka_geograficzna.jpg"
   },
   {
     "id": "R03_SIA_03",
@@ -248,7 +248,7 @@ const ALL_EXERCISES = [
     "explanation": "Równoleżniki przecinają południki pod kątem prostym.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_siatka_geograficzna.png"
+    "image": "/img/r03_siatka_geograficzna.jpg"
   },
   {
     "id": "R03_SIA_05",
@@ -442,7 +442,7 @@ const ALL_EXERCISES = [
       "dziesięć"
     ],
     "answer": 2,
-    "image": "/img/r03_kontynenty_oceany_mapa.png"
+    "image": "/img/r03_kontynenty_oceany_mapa.jpg"
   },
   {
     "id": "R03_KON_02",
@@ -480,7 +480,7 @@ const ALL_EXERCISES = [
       "dwa"
     ],
     "answer": 2,
-    "image": "/img/r03_kontynenty_oceany_mapa.png"
+    "image": "/img/r03_kontynenty_oceany_mapa.jpg"
   },
   {
     "id": "R03_KON_04",
@@ -589,7 +589,7 @@ const ALL_EXERCISES = [
       "Europa"
     ],
     "answer": 1,
-    "image": "/img/r03_kontynenty_oceany_mapa.png"
+    "image": "/img/r03_kontynenty_oceany_mapa.jpg"
   },
   {
     "id": "R03_KON_11",
@@ -631,7 +631,7 @@ const ALL_EXERCISES = [
     "explanation": "Pod mapą w rozdziale podano, że rozmieszczenie kontynentów nie jest równomierne i więcej lądów znajduje się na półkuli północnej.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_kontynenty_oceany_mapa.png"
+    "image": "/img/r03_kontynenty_oceany_mapa.jpg"
   },
   {
     "id": "R03_KON_13",
@@ -745,7 +745,7 @@ const ALL_EXERCISES = [
     "explanation": "Portugalczycy szukali drogi do Azji wokół Afryki.",
     "options": null,
     "answer": true,
-    "image": "/img/r03_karawela_ocean.png"
+    "image": "/img/r03_karawela_ocean.jpg"
   },
   {
     "id": "R03_ODK_07",
@@ -817,7 +817,7 @@ const ALL_EXERCISES = [
       "Robert Peary"
     ],
     "answer": 0,
-    "image": "/img/r03_karawela_ocean.png"
+    "image": "/img/r03_karawela_ocean.jpg"
   },
   {
     "id": "R03_ODK_12",
@@ -889,7 +889,7 @@ const ALL_EXERCISES = [
       "czas wielkich bitew"
     ],
     "answer": 0,
-    "image": "/img/r03_karawela_ocean.png"
+    "image": "/img/r03_karawela_ocean.jpg"
   },
   {
     "id": "R03_BAD_01",
@@ -906,7 +906,7 @@ const ALL_EXERCISES = [
       "Robert Peary"
     ],
     "answer": 0,
-    "image": "/img/r03_magellan_ciesnina.png"
+    "image": "/img/r03_magellan_ciesnina.jpg"
   },
   {
     "id": "R03_BAD_02",
@@ -1012,7 +1012,7 @@ const ALL_EXERCISES = [
       "Robert Peary": "zdobył biegun północny",
       "Roald Amundsen": "zdobył biegun południowy"
     },
-    "image": "/img/r03_wodospady_wiktorii.png"
+    "image": "/img/r03_wodospady_wiktorii.jpg"
   },
   {
     "id": "R03_BAD_08",
@@ -1029,7 +1029,7 @@ const ALL_EXERCISES = [
       "Willem Janszoon i Amerigo Vespucci"
     ],
     "answer": 0,
-    "image": "/img/r03_bieguny_everest_row_marianski.png"
+    "image": "/img/r03_bieguny_everest_row_marianski.jpg"
   },
   {
     "id": "R03_BAD_09",
@@ -1046,7 +1046,7 @@ const ALL_EXERCISES = [
       "Zatoki Hudsona"
     ],
     "answer": 0,
-    "image": "/img/r03_bieguny_everest_row_marianski.png"
+    "image": "/img/r03_bieguny_everest_row_marianski.jpg"
   },
   {
     "id": "R03_BAD_10",
@@ -1067,7 +1067,7 @@ const ALL_EXERCISES = [
       "Zdobycie Mount Everestu",
       "Zejście na dno Rowu Mariańskiego"
     ],
-    "image": "/img/r03_bieguny_everest_row_marianski.png"
+    "image": "/img/r03_bieguny_everest_row_marianski.jpg"
   },
   {
     "id": "R03_HARD_01",
@@ -1084,7 +1084,7 @@ const ALL_EXERCISES = [
       "Ocean Światowy"
     ],
     "answer": 0,
-    "image": "/img/r03_magellan_ciesnina.png"
+    "image": "/img/r03_magellan_ciesnina.jpg"
   },
   {
     "id": "R03_HARD_02",
@@ -1179,7 +1179,7 @@ const ALL_EXERCISES = [
         "południowego"
       ]
     ],
-    "image": "/img/r03_bieguny_everest_row_marianski.png"
+    "image": "/img/r03_bieguny_everest_row_marianski.jpg"
   },
   {
     "id": "R03_HARD_07",
@@ -1195,7 +1195,7 @@ const ALL_EXERCISES = [
       "Roald Amundsen"
     ],
     "answer": 0,
-    "image": "/img/r03_wodospady_wiktorii.png"
+    "image": "/img/r03_wodospady_wiktorii.jpg"
   },
   {
     "id": "R03_HARD_08",

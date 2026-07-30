@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "Opisem pogody na danym obszarze"
     ],
     "answer": 1,
-    "image": "/img/r01_elementy_mapy_schemat.png",
+    "image": "/img/r01_elementy_mapy_schemat.jpg",
     "explanation": "Mapa jest obrazem powierzchni Ziemi lub jej fragmentu widzianym z góry, przedstawionym na płaszczyźnie i w pomniejszeniu."
   },
   {
@@ -43,7 +43,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "image": "/img/r01_elementy_mapy_schemat.png",
+    "image": "/img/r01_elementy_mapy_schemat.jpg",
     "explanation": "Aby obraz mógł być mapą, powinien zawierać treść, skalę, legendę oraz tytuł."
   },
   {
@@ -160,7 +160,7 @@ const ALL_EXERCISES = [
         "jednemu kilometrowi"
       ]
     ],
-    "image": "/img/r01_podzialka_liniowa.png",
+    "image": "/img/r01_podzialka_liniowa.jpg",
     "explanation": "100 000 cm to 1000 m, czyli 1 km."
   },
   {
@@ -270,7 +270,7 @@ const ALL_EXERCISES = [
       "siatki kartograficznej bez pomiaru"
     ],
     "answer": 0,
-    "image": "/img/r01_podzialka_liniowa.png",
+    "image": "/img/r01_podzialka_liniowa.jpg",
     "explanation": "Przy nieregularnej trasie najlepiej użyć nitki oraz podziałki liniowej."
   },
   {
@@ -399,7 +399,7 @@ const ALL_EXERCISES = [
       "poziomice",
       "izohipsy"
     ],
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Poziomica, czyli izohipsa, łączy punkty o tej samej wysokości bezwzględnej."
   },
   {
@@ -418,7 +418,7 @@ const ALL_EXERCISES = [
         "poziomicowej"
       ]
     ],
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Mapa poziomicowa przedstawia ukształtowanie terenu za pomocą poziomic."
   },
   {
@@ -435,7 +435,7 @@ const ALL_EXERCISES = [
       "tylko na obszarach zielonych"
     ],
     "answer": 0,
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Im bliżej siebie leżą poziomice, tym teren jest bardziej stromy."
   },
   {
@@ -519,7 +519,7 @@ const ALL_EXERCISES = [
         "niebieski"
       ]
     },
-    "image": "/img/r01_barwy_hipsometryczne.png",
+    "image": "/img/r01_barwy_hipsometryczne.jpg",
     "explanation": "Na mapach hipsometrycznych niziny, wyżyny, góry, depresje i wody oznacza się różnymi barwami."
   },
   {
@@ -625,7 +625,7 @@ const ALL_EXERCISES = [
         "terenie."
       ]
     ],
-    "image": "/img/r01_orientowanie_mapy.png",
+    "image": "/img/r01_orientowanie_mapy.jpg",
     "explanation": "Mapę orientuje się po to, aby jej kierunki zgadzały się z kierunkami w terenie."
   },
   {
@@ -646,7 +646,7 @@ const ALL_EXERCISES = [
       "Odczekaj, aż igła magnetyczna wskaże północ",
       "Obracaj mapę, aż północ na mapie pokryje się z północą wskazywaną przez kompas"
     ],
-    "image": "/img/r01_orientowanie_mapy.png",
+    "image": "/img/r01_orientowanie_mapy.jpg",
     "explanation": "Najpierw rozkłada się mapę, następnie przykłada kompas, czeka na igłę i obraca mapę zgodnie z kierunkiem północnym."
   },
   {
@@ -688,7 +688,7 @@ const ALL_EXERCISES = [
       "policzyć wszystkie ulice w mieście"
     ],
     "answer": 0,
-    "image": "/img/r01_orientowanie_mapy.png",
+    "image": "/img/r01_orientowanie_mapy.jpg",
     "explanation": "Mapę można zorientować za pomocą obiektów w terenie, odnajdując je na mapie i obracając mapę tak, aby kierunki się zgadzały."
   },
   {
@@ -928,7 +928,7 @@ const ALL_EXERCISES = [
       "to znak liniowy drogi krajowej"
     ],
     "answer": 0,
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "Tam, gdzie poziomice są daleko od siebie, teren jest nachylony łagodnie."
   },
   {
@@ -961,7 +961,7 @@ const ALL_EXERCISES = [
       "najwyższą poziomicę na mapie"
     ],
     "answer": 0,
-    "image": "/img/r01_podzialka_liniowa.png",
+    "image": "/img/r01_podzialka_liniowa.jpg",
     "explanation": "Odcinek wsteczny jest podzielony na mniejsze części i umożliwia dokładniejsze odczytywanie odległości."
   },
   {
@@ -990,7 +990,7 @@ const ALL_EXERCISES = [
     "prompt": "Na mapie hipsometrycznej poziomice nie muszą być opisane, ponieważ wysokości można odczytywać ze skali barw w legendzie.",
     "options": null,
     "answer": true,
-    "image": "/img/r01_barwy_hipsometryczne.png",
+    "image": "/img/r01_barwy_hipsometryczne.jpg",
     "explanation": "Skala barw pomaga odczytywać zakresy wysokości na mapie hipsometrycznej."
   },
   {
@@ -1036,7 +1036,7 @@ const ALL_EXERCISES = [
       "wyłącznie wysokość 0 m n.p.m."
     ],
     "answer": 0,
-    "image": "/img/r01_poziomice_wzniesienie.png",
+    "image": "/img/r01_poziomice_wzniesienie.jpg",
     "explanation": "W kotlinie poziomice otaczają dno niemal ze wszystkich stron, a w dolinie przebiegają prawie równolegle do rzeki."
   },
   {
@@ -1086,7 +1086,7 @@ const ALL_EXERCISES = [
         "obracaj mapę, aż kierunki do obiektów się pokryją"
       ]
     },
-    "image": "/img/r01_orientowanie_mapy.png",
+    "image": "/img/r01_orientowanie_mapy.jpg",
     "explanation": "Mapę można orientować kompasem albo przez porównanie kierunków do obiektów w terenie i na mapie."
   },
   {

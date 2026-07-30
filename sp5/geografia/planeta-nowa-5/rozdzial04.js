@@ -59,7 +59,7 @@ const ALL_EXERCISES = [
       "Wysokość gór"
     ],
     "answer": 0,
-    "image": "/img/r04_klimatogram_schemat.png",
+    "image": "/img/r04_klimatogram_schemat.jpg",
     "explanation": "Klimatogram pokazuje średnie miesięczne wartości temperatury powietrza i miesięczne sumy opadów."
   },
   {
@@ -103,7 +103,7 @@ const ALL_EXERCISES = [
       "kierunek wiatru"
     ],
     "answer": 0,
-    "image": "/img/r04_klimatogram_schemat.png",
+    "image": "/img/r04_klimatogram_schemat.jpg",
     "explanation": "Na klimatogramach słupki przedstawiają miesięczne sumy opadów."
   },
   {
@@ -196,7 +196,7 @@ const ALL_EXERCISES = [
     "prompt": "Strefy krajobrazowe wydzielono przede wszystkim na podstawie zróżnicowania roślinności.",
     "options": null,
     "answer": true,
-    "image": "/img/r04_strefy_krajobrazowe_pas.png",
+    "image": "/img/r04_strefy_krajobrazowe_pas.jpg",
     "explanation": "Roślinność jest charakterystycznym elementem krajobrazu, dlatego była podstawą wydzielenia stref krajobrazowych."
   },
   {
@@ -287,7 +287,7 @@ const ALL_EXERCISES = [
         "zimą niższa temperatura niż na wybrzeżu"
       ]
     },
-    "image": "/img/r04_strefy_krajobrazowe_pas.png",
+    "image": "/img/r04_strefy_krajobrazowe_pas.jpg",
     "explanation": "Klimat morski łagodzi temperatury, a kontynentalny ma skąpe opady, cieplejsze lata i chłodniejsze zimy."
   },
   {
@@ -360,7 +360,7 @@ const ALL_EXERCISES = [
     "prompt": "W strefie wilgotnych lasów równikowych występują wyraźne cztery pory roku.",
     "options": null,
     "answer": false,
-    "image": "/img/r04_wilgotny_las_warstwy.png",
+    "image": "/img/r04_wilgotny_las_warstwy.jpg",
     "explanation": "Duża ilość opadów i wysoka temperatura utrzymują się tam przez cały rok, dlatego nie ma wyraźnych pór roku."
   },
   {
@@ -425,7 +425,7 @@ const ALL_EXERCISES = [
       "drzewa 5–20 m": "niższe drzewa, np. kakaowce",
       "krzewy i runo": "półmrok i rośliny cieniolubne"
     },
-    "image": "/img/r04_wilgotny_las_warstwy.png",
+    "image": "/img/r04_wilgotny_las_warstwy.jpg",
     "explanation": "W wilgotnym lesie równikowym drzewa tworzą kilka pięter, od pojedynczych najwyższych drzew po warstwę krzewów i runa."
   },
   {
@@ -529,7 +529,7 @@ const ALL_EXERCISES = [
     "prompt": "Na sawannie występują pora deszczowa i pora sucha.",
     "options": null,
     "answer": true,
-    "image": "/img/r04_sawanna_pora_sucha.png",
+    "image": "/img/r04_sawanna_pora_sucha.jpg",
     "explanation": "Klimat sawanny cechuje się naprzemiennym występowaniem pory deszczowej i suchej."
   },
   {
@@ -605,7 +605,7 @@ const ALL_EXERCISES = [
       "oaza",
       "oazy"
     ],
-    "image": "/img/r04_pustynia_oaza_wydmy.png",
+    "image": "/img/r04_pustynia_oaza_wydmy.jpg",
     "explanation": "Oazy umożliwiają uprawę roślin w strefie pustyń gorących."
   },
   {
@@ -622,7 +622,7 @@ const ALL_EXERCISES = [
       "runo leśne"
     ],
     "answer": 0,
-    "image": "/img/r04_pustynia_oaza_wydmy.png",
+    "image": "/img/r04_pustynia_oaza_wydmy.jpg",
     "explanation": "Na pustyniach piaszczystych wiatr usypuje wydmy."
   },
   {
@@ -767,7 +767,7 @@ const ALL_EXERCISES = [
       "makia",
       "makią"
     ],
-    "image": "/img/r04_makia_roslinnosc.png",
+    "image": "/img/r04_makia_roslinnosc.jpg",
     "explanation": "Roślinność występująca w krajobrazie śródziemnomorskim jest nazywana makią."
   },
   {
@@ -879,7 +879,7 @@ const ALL_EXERCISES = [
         "zmarzliny"
       ]
     ],
-    "image": "/img/r04_tajga_tundra_porownanie.png",
+    "image": "/img/r04_tajga_tundra_porownanie.jpg",
     "explanation": "Wieloletnia zmarzlina jest wspólną cechą tajgi i tundry."
   },
   {
@@ -949,7 +949,7 @@ const ALL_EXERCISES = [
         "karłowate wierzby"
       ]
     },
-    "image": "/img/r04_tajga_tundra_porownanie.png",
+    "image": "/img/r04_tajga_tundra_porownanie.jpg",
     "explanation": "Tajga to lasy iglaste z dużymi ssakami, a tundra ma niską roślinność, mchy, porosty i zwierzęta przystosowane do zimna."
   },
   {
@@ -999,7 +999,7 @@ const ALL_EXERCISES = [
       "piętro górskich łąk",
       "piętro śnieżne"
     ],
-    "image": "/img/r04_pietra_roslinnosci_himalaje.png",
+    "image": "/img/r04_pietra_roslinnosci_himalaje.jpg",
     "explanation": "W Himalajach kolejne piętra to wiecznie zielone lasy, lasy liściaste, lasy iglaste, krzewy, górskie łąki i piętro śnieżne."
   },
   {
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
       "górskie łąki": "trawy, zioła i krzewinki",
       "piętro śnieżne": "lodowce górskie i brak roślin na stokach"
     },
-    "image": "/img/r04_pietra_roslinnosci_himalaje.png",
+    "image": "/img/r04_pietra_roslinnosci_himalaje.jpg",
     "explanation": "Wraz z wysokością w Himalajach zmieniają się piętra roślinności od lasów po piętro śnieżne."
   },
   {
@@ -1085,7 +1085,7 @@ const ALL_EXERCISES = [
       "lipiec"
     ],
     "answer": 0,
-    "image": "/img/r04_klimatogram_schemat.png",
+    "image": "/img/r04_klimatogram_schemat.jpg",
     "explanation": "W przykładzie z Oslo najniższa średnia temperatura występuje w lutym."
   },
   {
@@ -1206,7 +1206,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "image": "/img/r04_pietra_roslinnosci_himalaje.png",
+    "image": "/img/r04_pietra_roslinnosci_himalaje.jpg",
     "explanation": "Himalaje mają najwyższe szczyty Ziemi, lodowce górskie i wyraźne piętra roślinności szczególnie na stokach południowych."
   },
   {

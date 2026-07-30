@@ -75,7 +75,7 @@ const ALL_EXERCISES = [
       "grzyby",
       "wirusy"
     ],
-    "image": "/img/08_karty_choroby.jpg"
+    "image": "/img/r03_karty_choroby.jpg"
   },
   {
     "id": "WB_01",
@@ -90,7 +90,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "explanation": "To najważniejsza cecha odróżniająca wirusy od organizmów.",
-    "image": "/img/01_schemat_wirusa.jpg"
+    "image": "/img/r03_schemat_wirusa.jpg"
   },
   {
     "id": "WB_02",
@@ -103,7 +103,7 @@ const ALL_EXERCISES = [
       "białek"
     ],
     "explanation": "Podręcznik opisuje wirusa jako cząstkę z kwasem nukleinowym i otoczką białkową.",
-    "image": "/img/01_schemat_wirusa.jpg",
+    "image": "/img/r03_schemat_wirusa.jpg",
     "altAnswers": [["nukleinowego", "nukleinowy", "nukleinowym"], ["białek", "białka", "białko", "białkowej"]]
   },
   {
@@ -132,7 +132,7 @@ const ALL_EXERCISES = [
       2
     ],
     "explanation": "Na ilustracjach pokazano bakterie kuliste, podłużne i spiralne.",
-    "image": "/img/02_ksztalty_bakterii.jpg"
+    "image": "/img/r03_ksztalty_bakterii.jpg"
   },
   {
     "id": "WB_05",
@@ -173,7 +173,7 @@ const ALL_EXERCISES = [
       "wirusowe",
       "bakteryjne"
     ],
-    "image": "/img/08_karty_choroby.jpg"
+    "image": "/img/r03_karty_choroby.jpg"
   },
   {
     "id": "WB_06",
@@ -200,7 +200,7 @@ const ALL_EXERCISES = [
       "borelioza lub AIDS",
       "AIDS"
     ],
-    "image": "/img/03_drogi_zakazen.jpg"
+    "image": "/img/r03_drogi_zakazen.jpg"
   },
   {
     "id": "WB_07",
@@ -233,7 +233,7 @@ const ALL_EXERCISES = [
       2
     ],
     "explanation": "Podręcznik wymienia te zastosowania jako pożyteczne.",
-    "image": "/img/04_bakterie_dobre_i_zle.jpg"
+    "image": "/img/r03_bakterie_dobre_i_zle.jpg"
   },
   {
     "id": "WB_09",
@@ -335,7 +335,7 @@ const ALL_EXERCISES = [
       "ma chloroplasty i witkę",
       "jest protistem wielokomórkowym żyjącym w morzu"
     ],
-    "image": "/img/05_pantofelek_i_euglena.jpg"
+    "image": "/img/r03_pantofelek_i_euglena.jpg"
   },
   {
     "id": "PRO_04",
@@ -389,7 +389,7 @@ const ALL_EXERCISES = [
       "protisty",
       "nie_protisty"
     ],
-    "image": "/img/08_karty_choroby.jpg"
+    "image": "/img/r03_karty_choroby.jpg"
   },
   {
     "id": "PRO_07",
@@ -427,7 +427,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "euglena",
     "explanation": "To klasyczny opis eugleny.",
-    "image": "/img/05_pantofelek_i_euglena.jpg",
+    "image": "/img/r03_pantofelek_i_euglena.jpg",
     "altAnswers": ["euglena", "eugleny", "euglenę", "euglenie", "euglen", "eugleną"]
   },
   {
@@ -438,7 +438,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "pantofelek",
     "explanation": "To opis pantofelka.",
-    "image": "/img/05_pantofelek_i_euglena.jpg",
+    "image": "/img/r03_pantofelek_i_euglena.jpg",
     "altAnswers": ["pantofelek", "pantofelka", "pantofelki", "pantofelkiem", "pantofelków", "pantofelku"]
   },
   {
@@ -485,7 +485,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 2,
     "explanation": "Grzybnia tworzy część podziemną.",
-    "image": "/img/06_budowa_grzyba.jpg"
+    "image": "/img/r03_budowa_grzyba.jpg"
   },
   {
     "id": "GRZ_04",
@@ -553,7 +553,7 @@ const ALL_EXERCISES = [
       "powstają pod kapeluszem",
       "sieć strzępek w podłożu"
     ],
-    "image": "/img/06_budowa_grzyba.jpg"
+    "image": "/img/r03_budowa_grzyba.jpg"
   },
   {
     "id": "GRZ_08",
@@ -568,7 +568,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "explanation": "Ciało porostu składa się ze strzępek grzyba i komórek glonu.",
-    "image": "/img/07_porost_budowa.jpg"
+    "image": "/img/r03_porost_budowa.jpg"
   },
   {
     "id": "GRZ_09",
@@ -583,7 +583,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "explanation": "Glon w poroście przeprowadza fotosyntezę i przekazuje grzybowi pokarm.",
-    "image": "/img/07_porost_budowa.jpg"
+    "image": "/img/r03_porost_budowa.jpg"
   },
   {
     "id": "GRZ_10",
@@ -598,7 +598,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "explanation": "Porosty potrafią rosnąć tam, gdzie innym organizmom jest bardzo trudno.",
-    "image": "/img/07_porost_budowa.jpg"
+    "image": "/img/r03_porost_budowa.jpg"
   },
   {
     "id": "GRZ_11",
@@ -716,7 +716,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "explanation": "Na schemacie oznaczono trzy elementy: kwas nukleinowy, otoczkę białkową i kolce białkowe.",
-    "image": "/img/01_schemat_wirusa.jpg"
+    "image": "/img/r03_schemat_wirusa.jpg"
   },
   {
     "id": "IMG_02",
@@ -731,7 +731,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 3,
     "explanation": "Na ilustracji pokazano trzy kształty: kuliste, podłużne i spiralne. Sześciennych nie ma.",
-    "image": "/img/02_ksztalty_bakterii.jpg"
+    "image": "/img/r03_ksztalty_bakterii.jpg"
   },
   {
     "id": "IMG_03",
@@ -746,7 +746,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "explanation": "Chloroplasty (zielone owalki na rysunku) widać tylko u eugleny. Pantofelek ich nie ma.",
-    "image": "/img/05_pantofelek_i_euglena.jpg"
+    "image": "/img/r03_pantofelek_i_euglena.jpg"
   },
   {
     "id": "IMG_04",
@@ -761,7 +761,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 3,
     "explanation": "Na rysunku widać, że grzybnia (sieć strzępek) rozchodzi się pod powierzchnią ziemi.",
-    "image": "/img/06_budowa_grzyba.jpg"
+    "image": "/img/r03_budowa_grzyba.jpg"
   },
   {
     "id": "IMG_05",
@@ -776,7 +776,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "explanation": "Na przekroju widać strzępki grzyba i komórki glonu - to z nich składa się porost.",
-    "image": "/img/07_porost_budowa.jpg"
+    "image": "/img/r03_porost_budowa.jpg"
   },
   {
     "id": "IMG_06",
@@ -795,7 +795,7 @@ const ALL_EXERCISES = [
       2
     ],
     "explanation": "Na ilustracji widać cztery drogi: kropelkową, pokarmową, przez krew i płciową. \"Przez dotyk\" nie jest żadną z nich.",
-    "image": "/img/03_drogi_zakazen.jpg"
+    "image": "/img/r03_drogi_zakazen.jpg"
   },
   {
     "id": "IMG_07",
@@ -805,7 +805,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": false,
     "explanation": "Na rysunku widać, że pantofelek ma rzęski (krótkie wypustki dookoła ciała), a nie witkę. To euglena ma witkę.",
-    "image": "/img/05_pantofelek_i_euglena.jpg"
+    "image": "/img/r03_pantofelek_i_euglena.jpg"
   },
   {
     "id": "SYS_EASY_01",

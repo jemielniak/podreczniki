@@ -158,7 +158,7 @@ const ALL_EXERCISES = [
       "Kotliny Podkarpackie",
       "góry"
     ],
-    "image": "/img/r02_pasy_rzezby_polski.png",
+    "image": "/img/r02_pasy_rzezby_polski.jpg",
     "explanation": "Pasy rzeźby terenu układają się w Polsce mniej więcej równoleżnikowo od pobrzeży po góry."
   },
   {
@@ -225,7 +225,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "image": "/img/r02_wydmy_plaza.png",
+    "image": "/img/r02_wydmy_plaza.jpg",
     "explanation": "Wybrzeże Słowińskie ma piaszczyste plaże, wydmy, jeziora przybrzeżne i nadmorskie równiny."
   },
   {
@@ -235,7 +235,7 @@ const ALL_EXERCISES = [
     "prompt": "Ruchome wydmy mogą zmieniać położenie pod wpływem przewiewania piasku przez wiatr.",
     "options": null,
     "answer": true,
-    "image": "/img/r02_wydmy_plaza.png",
+    "image": "/img/r02_wydmy_plaza.jpg",
     "explanation": "Podręcznik podaje, że stałe przewiewanie piasku powoduje przemieszczanie się wydm."
   },
   {
@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
       "Czorsztyńskie i Żywieckie"
     ],
     "answer": 0,
-    "image": "/img/r02_jeziora_mazurskie.png",
+    "image": "/img/r02_jeziora_mazurskie.jpg",
     "explanation": "W Krainie Wielkich Jezior Mazurskich znajdują się Śniardwy i Mamry."
   },
   {
@@ -374,7 +374,7 @@ const ALL_EXERCISES = [
       "Wybrzeże Słowińskie"
     ],
     "answer": 0,
-    "image": "/img/r02_jeziora_mazurskie.png",
+    "image": "/img/r02_jeziora_mazurskie.jpg",
     "explanation": "Pojezierze Mazurskie jest opisane jako dobre miejsce do uprawiania żeglarstwa i kajakarstwa."
   },
   {
@@ -421,7 +421,7 @@ const ALL_EXERCISES = [
     "prompt": "Warszawa leży po obu brzegach Wisły.",
     "options": null,
     "answer": true,
-    "image": "/img/r02_warszawa_panorama.png",
+    "image": "/img/r02_warszawa_panorama.jpg",
     "explanation": "Podręcznik podaje, że Warszawa leży w centralnej części kraju, po obu brzegach Wisły."
   },
   {
@@ -467,7 +467,7 @@ const ALL_EXERCISES = [
       "Centrum Nauki Kopernik": "centrum popularyzujące naukę",
       "Stadion Narodowy": "arena wydarzeń sportowych i kulturalnych"
     },
-    "image": "/img/r02_warszawa_panorama.png",
+    "image": "/img/r02_warszawa_panorama.jpg",
     "explanation": "Rozdział przedstawia kilka znanych atrakcji Warszawy."
   },
   {
@@ -571,7 +571,7 @@ const ALL_EXERCISES = [
       "wapień jurajski"
     ],
     "answer": 0,
-    "image": "/img/r02_kopalnia_halda.png",
+    "image": "/img/r02_kopalnia_halda.jpg",
     "explanation": "Do rozwoju przemysłu na Wyżynie Śląskiej przyczyniły się bogate złoża węgla kamiennego."
   },
   {
@@ -593,7 +593,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "image": "/img/r02_kopalnia_halda.png",
+    "image": "/img/r02_kopalnia_halda.jpg",
     "explanation": "Rozwój przemysłu spowodował przekształcenie środowiska, hałdy, zanieczyszczenie powietrza i szkody górnicze."
   },
   {
@@ -603,7 +603,7 @@ const ALL_EXERCISES = [
     "prompt": "Hałdy to wzniesienia utworzone z odpadów przemysłowych.",
     "options": null,
     "answer": true,
-    "image": "/img/r02_kopalnia_halda.png",
+    "image": "/img/r02_kopalnia_halda.jpg",
     "explanation": "Podręcznik definiuje hałdy jako wzniesienia z odpadów przemysłowych."
   },
   {
@@ -749,7 +749,7 @@ const ALL_EXERCISES = [
       "Nizina Mazowiecka"
     ],
     "answer": 0,
-    "image": "/img/r02_wawoz_lessowy.png",
+    "image": "/img/r02_wawoz_lessowy.jpg",
     "explanation": "Tak opisano rolniczy krajobraz Wyżyny Lubelskiej."
   },
   {
@@ -766,7 +766,7 @@ const ALL_EXERCISES = [
       "ilastych"
     ],
     "answer": 0,
-    "image": "/img/r02_jaskinia_krasowa.png",
+    "image": "/img/r02_jaskinia_krasowa.jpg",
     "explanation": "Wyżynę Krakowsko-Częstochowską budują głównie skały wapienne."
   },
   {
@@ -810,7 +810,7 @@ const ALL_EXERCISES = [
       "stalagnat": "powstaje z połączenia stalaktytu i stalagmitu",
       "wywierzysko": "źródło krasowe"
     },
-    "image": "/img/r02_jaskinia_krasowa.png",
+    "image": "/img/r02_jaskinia_krasowa.jpg",
     "explanation": "Stalaktyt zwisa ze stropu, stalagmit narasta od dna, a stalagnat jest kolumną z połączenia obu form."
   },
   {
@@ -836,7 +836,7 @@ const ALL_EXERCISES = [
       "Kotliny Podkarpackie"
     ],
     "answer": 0,
-    "image": "/img/r02_tatry_wysokie.png",
+    "image": "/img/r02_tatry_wysokie.jpg",
     "explanation": "Tatry Wysokie są zbudowane głównie z granitu i tworzą najwyższą część Tatr."
   },
   {
@@ -858,7 +858,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "image": "/img/r02_tatry_wysokie.png",
+    "image": "/img/r02_tatry_wysokie.jpg",
     "explanation": "Tatry Wysokie cechują duże wysokości, głębokie doliny, strome stoki, turnie, granie, żleby i piargi."
   },
   {
@@ -883,7 +883,7 @@ const ALL_EXERCISES = [
       "hale",
       "turnie"
     ],
-    "image": "/img/r02_pietra_roslinnosci_tatr.png",
+    "image": "/img/r02_pietra_roslinnosci_tatr.jpg",
     "explanation": "Piętra roślinne w Tatrach to kolejno: pogórze, regiel dolny, regiel górny, kosodrzewina, hale, turnie."
   },
   {
@@ -1049,7 +1049,7 @@ const ALL_EXERCISES = [
       "Nizina Mazowiecka",
       "Tatry"
     ],
-    "image": "/img/r02_pasy_rzezby_polski.png",
+    "image": "/img/r02_pasy_rzezby_polski.jpg",
     "explanation": "Wybrzeże Słowińskie leży nad Bałtykiem, Pojezierze Mazurskie na północnym wschodzie, Nizina Mazowiecka w centrum, a Tatry na południu."
   },
   {
@@ -1101,7 +1101,7 @@ const ALL_EXERCISES = [
       "metro, Sejm, Senat, plaża"
     ],
     "answer": 0,
-    "image": "/img/r02_jaskinia_krasowa.png",
+    "image": "/img/r02_jaskinia_krasowa.jpg",
     "explanation": "Do form krasowych należą m.in. skałki wapienne, jaskinie, stalaktyty i wywierzyska."
   },
   {
