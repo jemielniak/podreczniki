@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   ROZ = Różnorodność krajobrazów
-//   NAD = Krajobraz nadmorski
-//   POJ = Krajobraz pojezierny
-//   NIZ = Niziny środkowej Polski
-//   MIA = Krajobraz wielkomiejski
-//   HARD = Super trudne
+// ROZ = Różnorodność krajobrazów
+// NAD = Krajobraz nadmorski
+// POJ = Krajobraz pojezierny
+// NIZ = Niziny środkowej Polski
+// MIA = Krajobraz wielkomiejski
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -291,7 +291,7 @@ const ALL_EXERCISES = [
     "id": "R02_NAD_06",
     "section": "Krajobraz nadmorski",
     "type": "fill_in",
-    "prompt": "Najniżej położony punkt Polski według podręcznika znajduje się we wsi __________ i ma wysokość __________ m n.p.m.",
+    "prompt": "Najniżej położony punkt Polski znajduje się we wsi __________ i ma wysokość __________ m n.p.m.",
     "options": null,
     "answer": [
       "Marzęcino",
@@ -639,7 +639,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIZ_01",
     "section": "Niziny środkowej Polski",
     "type": "single_choice",
-    "prompt": "Która kraina jest największą niziną w Polsce według podręcznika?",
+    "prompt": "Która kraina jest największą niziną w Polsce?",
     "options": [
       "Nizina Mazowiecka",
       "Nizina Śląska",

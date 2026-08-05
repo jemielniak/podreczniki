@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   RDZ = Rozbicie dzielnicowe
-//   GOS = Społeczeństwo i gospodarka
-//   ODB = Odbudowa Królestwa Polskiego
-//   KAZ = Polska Kazimierza Wielkiego
-//   UNI = Unie i Grunwald
-//   JAG = Jagiellonowie i monarchia stanowa
-//   HARD = Super trudne
+// RDZ = Rozbicie dzielnicowe
+// GOS = Społeczeństwo i gospodarka
+// ODB = Odbudowa Królestwa Polskiego
+// KAZ = Polska Kazimierza Wielkiego
+// UNI = Unie i Grunwald
+// JAG = Jagiellonowie i monarchia stanowa
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -171,7 +171,7 @@ const ALL_EXERCISES = [
     "id": "R07_RDZ_10",
     "section": "Rozbicie dzielnicowe",
     "type": "single_choice",
-    "prompt": "Co według podręcznika dawało Mongołom szczególną przewagę militarną?",
+    "prompt": "Co dawało Mongołom szczególną przewagę militarną?",
     "options": [
       "Świetnie zorganizowane konne oddziały łuczników",
       "Sieć zamków z czerwonej cegły",

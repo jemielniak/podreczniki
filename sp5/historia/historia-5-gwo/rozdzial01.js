@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   CZA = Czas i epoki
-//   PAL = Paleolit
-//   NEO = Neolit
-//   CYW = Pierwsze cywilizacje
-//   EGI = Egipt
-//   HARD = Super trudne
+// CZA = Czas i epoki
+// PAL = Paleolit
+// NEO = Neolit
+// CYW = Pierwsze cywilizacje
+// EGI = Egipt
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -135,7 +135,7 @@ const ALL_EXERCISES = [
     "id": "R01_CZA_09",
     "section": "Czas i epoki",
     "type": "single_choice",
-    "prompt": "Kiedy według podręcznika zaczyna się historia ludzkości?",
+    "prompt": "Kiedy zaczyna się historia ludzkości?",
     "options": [
       "około 200 tysięcy lat temu",
       "około 40 tysięcy lat temu",
@@ -292,7 +292,7 @@ const ALL_EXERCISES = [
     "id": "R01_PAL_07",
     "section": "Paleolit",
     "type": "multi_select",
-    "prompt": "Co jedli lub zdobywali ludzie paleolitu według podręcznika?",
+    "prompt": "Co jedli lub zdobywali ludzie paleolitu?",
     "options": [
       "mięso mamutów i reniferów",
       "ryby",
@@ -328,7 +328,7 @@ const ALL_EXERCISES = [
     "id": "R01_PAL_09",
     "section": "Paleolit",
     "type": "single_choice",
-    "prompt": "Jak ludzie paleolitu rozpalali ogień według podręcznika?",
+    "prompt": "Jak ludzie paleolitu rozpalali ogień?",
     "options": [
       "pocierali dwa kawałki papirusu",
       "uderzali krzemieniem w piryt",
@@ -568,7 +568,7 @@ const ALL_EXERCISES = [
     "id": "R01_NEO_10",
     "section": "Neolit",
     "type": "multi_select",
-    "prompt": "Które zwierzęta udomowili ludzie neolitu według podręcznika?",
+    "prompt": "Które zwierzęta udomowili ludzie neolitu?",
     "options": [
       "kozy",
       "owce",
@@ -618,7 +618,7 @@ const ALL_EXERCISES = [
     "id": "R01_CYW_01",
     "section": "Pierwsze cywilizacje",
     "type": "single_choice",
-    "prompt": "Czym według podręcznika jest cywilizacja?",
+    "prompt": "Czym jest cywilizacja?",
     "options": [
       "poziom rozwoju społeczeństwa znającego osady lub miasta, rolnictwo, rzemiosło i pismo",
       "każda mała gromada myśliwych",
@@ -907,7 +907,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_05",
     "section": "Egipt",
     "type": "multi_select",
-    "prompt": "Jakie uprawnienia i role miał faraon według podręcznika?",
+    "prompt": "Jakie uprawnienia i role miał faraon?",
     "options": [
       "uważano go za syna boga słońca Ra",
       "miał prawo decydować o życiu i śmierci mieszkańców",
@@ -1067,7 +1067,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które lata obejmuje pierwsza połowa II wieku p.n.e. według podręcznika?",
+    "prompt": "Które lata obejmuje pierwsza połowa II wieku p.n.e.?",
     "options": [
       "200-151 p.n.e.",
       "150-101 p.n.e.",
@@ -1175,7 +1175,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile znaków liczyło pismo hieroglificzne według podręcznika?",
+    "prompt": "Ile znaków liczyło pismo hieroglificzne?",
     "options": [
       "około 80",
       "około 800",

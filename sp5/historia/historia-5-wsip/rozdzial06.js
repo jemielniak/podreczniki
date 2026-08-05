@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   NAR = Narodziny państwa polskiego
-//   CHR = Panowanie Bolesława Chrobrego
-//   ODB = Upadek i odbudowa państwa Piastów
-//   KRZ = Panowanie Bolesława Krzywoustego
-//   SPO = Społeczeństwo pierwszych Piastów
-//   HARD = Super trudne
+// NAR = Narodziny państwa polskiego
+// CHR = Panowanie Bolesława Chrobrego
+// ODB = Upadek i odbudowa państwa Piastów
+// KRZ = Panowanie Bolesława Krzywoustego
+// SPO = Społeczeństwo pierwszych Piastów
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R06_NAR_02",
     "section": "Narodziny państwa polskiego",
     "type": "multi_select",
-    "prompt": "Zaznacz sprawy, o których według podręcznika decydowano na wiecu.",
+    "prompt": "Zaznacz sprawy, o których decydowano na wiecu.",
     "options": [
       "Rozpoczęcie wojny",
       "Budowa grodu",
@@ -789,7 +789,7 @@ const ALL_EXERCISES = [
     "id": "R06_KRZ_09",
     "section": "Panowanie Bolesława Krzywoustego",
     "type": "multi_select",
-    "prompt": "Zaznacz ziemie wchodzące w skład dzielnicy senioralnej według podręcznika.",
+    "prompt": "Zaznacz ziemie wchodzące w skład dzielnicy senioralnej.",
     "options": [
       "Małopolska",
       "Ziemia sieradzka i łęczycka",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które państwo podbiło państwo Wiślan według podręcznika?",
+    "prompt": "Które państwo podbiło państwo Wiślan?",
     "options": [
       "Państwo Wielkomorawskie",
       "Ruś Kijowska",

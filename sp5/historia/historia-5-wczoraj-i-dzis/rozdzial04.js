@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   BIZ = Bizancjum
-//   ARA = Arabowie i początki islamu
-//   FRA = Nowe państwa w Europie (Frankowie)
-//   KON = Konflikt papiestwa z cesarstwem
-//   WYP = Wyprawy krzyżowe
-//   HARD = Super trudne
+// BIZ = Bizancjum
+// ARA = Arabowie i początki islamu
+// FRA = Nowe państwa w Europie (Frankowie)
+// KON = Konflikt papiestwa z cesarstwem
+// WYP = Wyprawy krzyżowe
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -255,7 +255,7 @@ const ALL_EXERCISES = [
     "id": "R04_ARA_04",
     "section": "Arabowie i początki islamu",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy należące do pięciu filarów islamu według podręcznika.",
+    "prompt": "Zaznacz elementy należące do pięciu filarów islamu.",
     "options": [
       "publiczne wyznanie wiary",
       "modlitwa pięć razy dziennie",

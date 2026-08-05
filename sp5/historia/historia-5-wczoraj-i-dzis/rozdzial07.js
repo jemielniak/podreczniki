@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   ROZ = Rozbicie dzielnicowe
-//   ZJE = Zjednoczenie Polski
-//   KAZ = Czasy Kazimierza Wielkiego
-//   UNI = Unia polsko-litewska
-//   JAG = Czasy świetności dynastii Jagiellonów
-//   MON = Monarchia stanowa w Polsce
-//   HARD = Super trudne
+// ROZ = Rozbicie dzielnicowe
+// ZJE = Zjednoczenie Polski
+// KAZ = Czasy Kazimierza Wielkiego
+// UNI = Unia polsko-litewska
+// JAG = Czasy świetności dynastii Jagiellonów
+// MON = Monarchia stanowa w Polsce
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -820,7 +820,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": false,
     "image": "/img/r07_krzyzacy_malbork.jpg",
-    "explanation": "Według podręcznika Malbork nie został zdobyty zbrojnie; Polacy wykupili go od wojsk najemnych, którym Krzyżacy zalegali z żołdem."
+    "explanation": "Malbork nie został zdobyty zbrojnie; Polacy wykupili go od wojsk najemnych, którym Krzyżacy zalegali z żołdem."
   },
   {
     "id": "R07_JAG_07",
@@ -1133,7 +1133,7 @@ const ALL_EXERCISES = [
     "id": "R07_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz ziemie, które według podręcznika pozostały poza granicami państwa odbudowanego przez Władysława Łokietka.",
+    "prompt": "Zaznacz ziemie, które pozostały poza granicami państwa odbudowanego przez Władysława Łokietka.",
     "options": [
       "Pomorze Gdańskie",
       "księstwa śląskie",

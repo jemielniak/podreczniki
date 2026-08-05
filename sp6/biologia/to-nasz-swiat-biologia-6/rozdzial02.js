@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   PLA = Płazińce
-//   NIC = Nicienie
-//   PIE = Pierścienice
-//   PRO = Profilaktyka pasożytów
-//   POR = Porównanie bezkręgowców
-//   HARD = Super trudne
+// PLA = Płazińce
+// NIC = Nicienie
+// PIE = Pierścienice
+// PRO = Profilaktyka pasożytów
+// POR = Porównanie bezkręgowców
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -497,7 +497,7 @@ const ALL_EXERCISES = [
     "id": "R02_PIE_04",
     "section": "Pierścienice",
     "type": "single_choice",
-    "prompt": "Ile mniej więcej pierścieni ma ciało dżdżownicy według podręcznika?",
+    "prompt": "Ile mniej więcej pierścieni ma ciało dżdżownicy?",
     "image": "/img/r02_dzdzownica_budowa.jpg",
     "options": [
       "około 100",
@@ -668,7 +668,7 @@ const ALL_EXERCISES = [
     "id": "R02_PRO_01",
     "section": "Profilaktyka pasożytów",
     "type": "single_choice",
-    "prompt": "Jak najczęściej dochodzi do zakażenia tasiemcem według podręcznika?",
+    "prompt": "Jak najczęściej dochodzi do zakażenia tasiemcem?",
     "options": [
       "Po zjedzeniu surowego zakażonego mięsa",
       "Po wejściu do czystej rzeki",

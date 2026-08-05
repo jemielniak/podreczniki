@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   NDC = Najdawniejsze dzieje człowieka
-//   MEZ = Mezopotamia
-//   EGI = Starożytny Egipt
-//   IZR = Starożytny Izrael
-//   IND = Starożytne Indie i Chiny
-//   HARD = Super trudne
+// NDC = Najdawniejsze dzieje człowieka
+// MEZ = Mezopotamia
+// EGI = Starożytny Egipt
+// IZR = Starożytny Izrael
+// IND = Starożytne Indie i Chiny
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -733,7 +733,7 @@ const ALL_EXERCISES = [
     "id": "R01_IZR_06",
     "section": "Starożytny Izrael",
     "type": "match",
-    "prompt": "Połącz postać z jej rolą w dziejach Izraela według podręcznika.",
+    "prompt": "Połącz postać z jej rolą w dziejach Izraela.",
     "options": null,
     "left": [
       "Abraham",

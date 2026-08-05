@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   POC = Początki Polski
-//   CHR = Polska Bolesława Chrobrego
-//   NAJ = W najdawniejszej Polsce
-//   UPA = Upadek i odbudowa państwa
-//   KRZ = Polska Bolesława Krzywoustego
-//   HARD = Super trudne
+// POC = Początki Polski
+// CHR = Polska Bolesława Chrobrego
+// NAJ = W najdawniejszej Polsce
+// UPA = Upadek i odbudowa państwa
+// KRZ = Polska Bolesława Krzywoustego
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -28,7 +28,7 @@ const ALL_EXERCISES = [
     "id": "R06_POC_02",
     "section": "Początki Polski",
     "type": "multi_select",
-    "prompt": "Zaznacz plemiona słowiańskie mieszkające w IX wieku między Odrą a Bugiem według podręcznika.",
+    "prompt": "Zaznacz plemiona słowiańskie mieszkające w IX wieku między Odrą a Bugiem.",
     "options": [
       "Polanie",
       "Wiślanie",
@@ -512,7 +512,7 @@ const ALL_EXERCISES = [
     "id": "R06_NAJ_07",
     "section": "W najdawniejszej Polsce",
     "type": "scenario",
-    "prompt": "Kupiec przyjeżdża do grodu około 1000 roku. Mieszkaniec nie ma wielu monet, ale chce coś kupić. Czym według podręcznika mógł zapłacić?",
+    "prompt": "Kupiec przyjeżdża do grodu około 1000 roku. Mieszkaniec nie ma wielu monet, ale chce coś kupić. Czym mógł zapłacić?",
     "options": [
       "płatami lnu, skórkami kun albo solą",
       "banknotami papierowymi",
@@ -646,7 +646,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_02",
     "section": "Upadek i odbudowa państwa",
     "type": "multi_select",
-    "prompt": "Zaznacz państwa, które wystąpiły przeciwko Polsce za panowania Mieszka II według podręcznika.",
+    "prompt": "Zaznacz państwa, które wystąpiły przeciwko Polsce za panowania Mieszka II.",
     "options": [
       "Niemcy",
       "Czechy",
@@ -923,7 +923,7 @@ const ALL_EXERCISES = [
     "id": "R06_KRZ_07",
     "section": "Polska Bolesława Krzywoustego",
     "type": "scenario",
-    "prompt": "Henryk V żąda od Bolesława oddania połowy państwa Zbigniewowi oraz płacenia trybutu albo wysyłania 300 rycerzy. Co robi Bolesław według podręcznika?",
+    "prompt": "Henryk V żąda od Bolesława oddania połowy państwa Zbigniewowi oraz płacenia trybutu albo wysyłania 300 rycerzy. Co robi Bolesław?",
     "options": [
       "odrzuca żądania, bo uzależniłyby Polskę od Niemiec",
       "oddaje całą Polskę Zbigniewowi",

@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   HEL = Świat Hellenów
-//   POL = Demokratyczne Ateny i Sparta
-//   MIT = Wierzenia i mitologia
-//   IGR = Teatr i igrzyska
-//   KUL = Nauka, literatura i sztuka
-//   WOJ = Wojny i Aleksander
-//   HARD = Super trudne
+// HEL = Świat Hellenów
+// POL = Demokratyczne Ateny i Sparta
+// MIT = Wierzenia i mitologia
+// IGR = Teatr i igrzyska
+// KUL = Nauka, literatura i sztuka
+// WOJ = Wojny i Aleksander
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -1107,7 +1107,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak Grecy według podręcznika określali 429 rok p.n.e., czyli rok śmierci Peryklesa?",
+    "prompt": "Jak Grecy określali 429 rok p.n.e., czyli rok śmierci Peryklesa?",
     "options": [
       "4 rok 87 olimpiady",
       "1 rok 1 olimpiady",

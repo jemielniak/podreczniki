@@ -1,18 +1,18 @@
 // Skróty sekcji:
-//   ZYC = Życie pierwszych ludzi
-//   MEZ = Miasta-państwa Mezopotamii
-//   EGI = W Egipcie faraonów
-//   IZR = W starożytnym Izraelu
-//   IND = Cywilizacje Indii i Chin
-//   PIS = Od hieroglifów do alfabetu
-//   HARD = Super trudne
+// ZYC = Życie pierwszych ludzi
+// MEZ = Miasta-państwa Mezopotamii
+// EGI = W Egipcie faraonów
+// IZR = W starożytnym Izraelu
+// IND = Cywilizacje Indii i Chin
+// PIS = Od hieroglifów do alfabetu
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
     "id": "R01_ZYC_01",
     "section": "Życie pierwszych ludzi",
     "type": "single_choice",
-    "prompt": "Gdzie według podręcznika żyli najstarsi przodkowie człowieka współczesnego?",
+    "prompt": "Gdzie żyli najstarsi przodkowie człowieka współczesnego?",
     "options": [
       "w Afryce",
       "w Australii",
@@ -726,7 +726,7 @@ const ALL_EXERCISES = [
     "id": "R01_IZR_10",
     "section": "W starożytnym Izraelu",
     "type": "single_choice",
-    "prompt": "Czym jest Tora według podręcznika?",
+    "prompt": "Czym jest Tora?",
     "options": [
       "pierwszymi pięcioma najważniejszymi księgami Biblii hebrajskiej",
       "zbiorem praw Hammurabiego",

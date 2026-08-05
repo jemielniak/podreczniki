@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   UNI = Unia Polski z Litwą
-//   WOJ = Wielka wojna z zakonem krzyżackim
-//   SYN = Synowie Jagiełły
-//   SZL = Od rycerstwa do szlachty
-//   KUL = Polska i Litwa w XV wieku
-//   HARD = Super trudne
+// UNI = Unia Polski z Litwą
+// WOJ = Wielka wojna z zakonem krzyżackim
+// SYN = Synowie Jagiełły
+// SZL = Od rycerstwa do szlachty
+// KUL = Polska i Litwa w XV wieku
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -387,7 +387,7 @@ const ALL_EXERCISES = [
     "id": "R08_WOJ_10",
     "section": "Wielka wojna z zakonem krzyżackim",
     "type": "single_choice",
-    "prompt": "Co przesądziło o wyniku bitwy pod Grunwaldem według podręcznika?",
+    "prompt": "Co przesądziło o wyniku bitwy pod Grunwaldem?",
     "explanation": "Wynik bitwy przesądziło natarcie jazdy i piechoty, które Jagiełło trzymał w odwodzie.",
     "options": [
       "Natarcie jazdy i piechoty trzymanych w odwodzie",

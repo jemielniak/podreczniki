@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   ROZ = Rozbicie dzielnicowe
-//   SLA = Polska w XIII wieku (Śląsk, kolonizacja, gospodarka)
-//   JED = Dążenie do jedności
-//   ZJE = Zjednoczona Polska
-//   KAZ = Polska Kazimierza Wielkiego
-//   HARD = Super trudne
+// ROZ = Rozbicie dzielnicowe
+// SLA = Polska w XIII wieku (Śląsk, kolonizacja, gospodarka)
+// JED = Dążenie do jedności
+// ZJE = Zjednoczona Polska
+// KAZ = Polska Kazimierza Wielkiego
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -1281,7 +1281,7 @@ const ALL_EXERCISES = [
     "id": "R07_HARD_10",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Według podręcznika Kazimierz Wielki wzmocnił Polskę głównie przez jednorazowe zwycięstwo militarne nad Krzyżakami.",
+    "prompt": "Kazimierz Wielki wzmocnił Polskę głównie przez jednorazowe zwycięstwo militarne nad Krzyżakami.",
     "options": null,
     "answer": false,
     "explanation": "Kazimierz wzmocnił państwo przede wszystkim przez dyplomację, reformy, budowę obronności, lokacje, prawo i rozwój nauki."

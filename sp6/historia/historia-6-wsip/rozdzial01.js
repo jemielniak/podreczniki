@@ -1,11 +1,11 @@
 // Skróty sekcji (do identyfikatorów ćwiczeń):
-//   WOG  = Wielkie odkrycia geograficzne
-//   KOG  = Konsekwencje wielkich odkryć geograficznych
-//   ODR  = Kultura odrodzenia we Włoszech
-//   HUM  = Humanizm i przewrót kopernikański
-//   REF  = Reformacja
-//   KAT  = Reforma katolicka
-//   HARD = Super trudne
+// WOG = Wielkie odkrycia geograficzne
+// KOG = Konsekwencje wielkich odkryć geograficznych
+// ODR = Kultura odrodzenia we Włoszech
+// HUM = Humanizm i przewrót kopernikański
+// REF = Reformacja
+// KAT = Reforma katolicka
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -348,7 +348,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOG_10",
     "section": "Konsekwencje wielkich odkryć geograficznych",
     "type": "single_choice",
-    "prompt": "Kto według podręcznika był jednym z pierwszych obrońców Indian i doprowadził do wydania w 1542 roku zakazu brania ich w niewolę w koloniach hiszpańskich?",
+    "prompt": "Kto był jednym z pierwszych obrońców Indian i doprowadził do wydania w 1542 roku zakazu brania ich w niewolę w koloniach hiszpańskich?",
     "image": "r01_handel_niewolnikami.jpg",
     "options": [
       "Bartolomé de Las Casas",
@@ -468,7 +468,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODR_07",
     "section": "Kultura odrodzenia we Włoszech",
     "type": "single_choice",
-    "prompt": "Co według podręcznika oznacza określenie człowiek renesansu?",
+    "prompt": "Co oznacza określenie człowiek renesansu?",
     "options": [
       "osobę o dużej wiedzy i wielu zainteresowaniach",
       "osobę, która nie umie czytać po łacinie",

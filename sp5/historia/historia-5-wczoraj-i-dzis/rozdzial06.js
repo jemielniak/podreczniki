@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   ZAN = Zanim powstała Polska
-//   MIE = Mieszko I i początki Polski
-//   CHR = Polska Bolesława Chrobrego
-//   KRY = Kryzys i odbudowa państwa
-//   KRZ = Rządy Bolesława Krzywoustego
-//   SPO = Społeczeństwo i kronikarze
-//   HARD = Super trudne
+// ZAN = Zanim powstała Polska
+// MIE = Mieszko I i początki Polski
+// CHR = Polska Bolesława Chrobrego
+// KRY = Kryzys i odbudowa państwa
+// KRZ = Rządy Bolesława Krzywoustego
+// SPO = Społeczeństwo i kronikarze
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -185,7 +185,7 @@ const ALL_EXERCISES = [
     "id": "R06_ZAN_10",
     "section": "Zanim powstała Polska",
     "type": "scenario",
-    "prompt": "Archeolog bada kamienne kręgi w Odrach na Kaszubach. Zgodnie z podręcznikiem są one pozostałością po plemionach żyjących na ziemiach polskich przed przybyciem Słowian. O jakie plemiona chodzi?",
+    "prompt": "Archeolog bada kamienne kręgi w Odrach na Kaszubach. Są one pozostałością po plemionach żyjących na ziemiach polskich przed przybyciem Słowian. O jakie plemiona chodzi?",
     "options": [
       "Gotów",
       "Polan",
@@ -265,7 +265,7 @@ const ALL_EXERCISES = [
     "id": "R06_MIE_03",
     "section": "Mieszko I i początki Polski",
     "type": "multi_select",
-    "prompt": "Które ziemie lub plemiona podporządkował sobie Mieszko I według podręcznika?",
+    "prompt": "Które ziemie lub plemiona podporządkował sobie Mieszko I?",
     "options": [
       "Pomorzan",
       "Wiślan",
@@ -741,7 +741,7 @@ const ALL_EXERCISES = [
     "id": "R06_KRY_07",
     "section": "Kryzys i odbudowa państwa",
     "type": "multi_select",
-    "prompt": "Które ziemie odzyskał lub miał pod swoją władzą Kazimierz Odnowiciel według podręcznika?",
+    "prompt": "Które ziemie odzyskał lub miał pod swoją władzą Kazimierz Odnowiciel?",
     "options": [
       "Wielkopolska",
       "Małopolska",

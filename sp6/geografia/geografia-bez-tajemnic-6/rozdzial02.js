@@ -1,10 +1,10 @@
 // Skróty sekcji (do identyfikatorów ćwiczeń):
-//   ZWS  = Ziemia we Wszechświecie
-//   ROB  = Ruch obrotowy Ziemi
-//   CZA  = Czas na Ziemi
-//   ROG  = Ruch obiegowy Ziemi
-//   STO  = Strefy oświetlenia Ziemi
-//   HARD = Super trudne
+// ZWS = Ziemia we Wszechświecie
+// ROB = Ruch obrotowy Ziemi
+// CZA = Czas na Ziemi
+// ROG = Ruch obiegowy Ziemi
+// STO = Strefy oświetlenia Ziemi
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -1031,7 +1031,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_08",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Przekraczasz międzynarodową linię zmiany daty z zachodu na wschód. Co dzieje się z datą według podręcznika?",
+    "prompt": "Przekraczasz międzynarodową linię zmiany daty z zachodu na wschód. Co dzieje się z datą?",
     "options": [
       "zyskujesz jeden dzień",
       "tracisz jeden dzień",

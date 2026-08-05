@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   POL = Starożytna Grecja i polis
-//   DEM = Demokracja ateńska
-//   MIT = Mitologia grecka
-//   OSI = Osiągnięcia Greków
-//   MIE = Powtórka mieszana
-//   HARD = Super trudne
+// POL = Starożytna Grecja i polis
+// DEM = Demokracja ateńska
+// MIT = Mitologia grecka
+// OSI = Osiągnięcia Greków
+// MIE = Powtórka mieszana
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -225,7 +225,7 @@ const ALL_EXERCISES = [
     "id": "R02_DEM_02",
     "section": "Demokracja ateńska",
     "type": "single_choice",
-    "prompt": "Która polis była według podręcznika pierwszą demokracją w dziejach świata?",
+    "prompt": "Która polis była pierwszą demokracją w dziejach świata?",
     "options": [
       "Ateny",
       "Sparta",
@@ -349,7 +349,7 @@ const ALL_EXERCISES = [
     "id": "R02_DEM_10",
     "section": "Demokracja ateńska",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy demokracji ateńskiej różniące ją od dzisiejszej demokracji w Polsce według podręcznika.",
+    "prompt": "Zaznacz cechy demokracji ateńskiej różniące ją od dzisiejszej demokracji w Polsce.",
     "options": [
       "Kobiety, niewolnicy i cudzoziemcy nie mieli prawa głosu.",
       "Była demokracją bezpośrednią.",
@@ -551,7 +551,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIT_06",
     "section": "Mitologia grecka",
     "type": "single_choice",
-    "prompt": "Co według podręcznika jest mitem?",
+    "prompt": "Co jest mitem?",
     "options": [
       "wymyślona opowieść o bogach i bohaterach",
       "urzędowy spis obywateli",
@@ -816,7 +816,7 @@ const ALL_EXERCISES = [
     "id": "R02_OSI_09",
     "section": "Osiągnięcia Greków",
     "type": "single_choice",
-    "prompt": "Czym była komedia według podręcznika?",
+    "prompt": "Czym była komedia?",
     "options": [
       "wesołym przedstawieniem z pomyślnym zakończeniem",
       "sztuką zawsze kończącą się śmiercią bohatera",
@@ -1172,7 +1172,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak długo, według podręcznika, zajęłaby recytacja całej Iliady?",
+    "prompt": "Jak długo zajęłaby recytacja całej Iliady?",
     "options": [
       "około 24 godzin",
       "około 10 minut",
@@ -1203,7 +1203,7 @@ const ALL_EXERCISES = [
 
 const KID_PROMPTS = {
   "R02_POL_01": "Gdzie leży Grecja?",
-  "R02_POL_02": "Zaznacz elementy krajobrazu i warunków życia w starożytnej Grecji .",
+  "R02_POL_02": "Zaznacz elementy krajobrazu i warunków życia w starożytnej Grecji.",
   "R02_POL_03": "Starożytni Grecy utworzyli jedno wspólne państwo obejmujące całą Helladę.",
   "R02_POL_04": "Miasta-państwa w starożytnej Grecji nazywano __________.",
   "R02_POL_05": "Jak Grecy nazywali swój kraj?",
@@ -1215,7 +1215,7 @@ const KID_PROMPTS = {
   "R02_POL_11": "Przyporządkuj nazwy do kategorii.",
   "R02_POL_12": "Słowo „antyczny” oznacza w podręczniku „starożytny” w odniesieniu do Grecji i Rzymu.",
   "R02_DEM_01": "Co oznacza greckie słowo „demokracja”?",
-  "R02_DEM_02": "Która polis była  pierwszą demokracją w dziejach świata?",
+  "R02_DEM_02": "Która polis była pierwszą demokracją w dziejach świata?",
   "R02_DEM_03": "Zaznacz trzy podstawowe instytucje demokracji ateńskiej.",
   "R02_DEM_04": "W zgromadzeniu ludowym mogli brać udział wszyscy mieszkańcy Aten, także kobiety, niewolnicy i cudzoziemcy.",
   "R02_DEM_05": "Rada pięciuset składała się z __________ Ateńczyków wylosowanych na jeden rok.",
@@ -1223,8 +1223,8 @@ const KID_PROMPTS = {
   "R02_DEM_07": "Ilu sędziów liczył ateński sąd ludowy?",
   "R02_DEM_08": "Praktyka zapisywania na glinianych skorupkach imienia osoby zagrażającej demokracji to...",
   "R02_DEM_09": "Na ile lat musiała opuścić Ateny osoba wskazana w ostracyzmie?",
-  "R02_DEM_10": "Zaznacz cechy demokracji ateńskiej różniące ją od dzisiejszej demokracji w Polsce .",
-  "R02_DEM_11": "Ateńczyk chce zabrać głos na zgromadzeniu ludowym. Jest wolnym mężczyzną, a jego rodzice są Ateńczykami. Czy spełnia warunki ?",
+  "R02_DEM_10": "Zaznacz cechy demokracji ateńskiej różniące ją od dzisiejszej demokracji w Polsce.",
+  "R02_DEM_11": "Ateńczyk chce zabrać głos na zgromadzeniu ludowym. Jest wolnym mężczyzną, a jego rodzice są Ateńczykami. Czy spełnia warunki?",
   "R02_DEM_12": "Połącz instytucję z funkcją.",
   "R02_DEM_13": "Przyporządkuj grupy mieszkańców Aten do kategorii.",
   "R02_DEM_14": "Jaką część mieszkańców ateńskiej polis stanowili niewolnicy?",
@@ -1233,14 +1233,14 @@ const KID_PROMPTS = {
   "R02_MIT_03": "Zaznacz cechy greckich bogów odróżniające ich od ludzi.",
   "R02_MIT_04": "Połącz bóstwo z opisem z podręcznika.",
   "R02_MIT_05": "Zbiór mitów nazywamy __________.",
-  "R02_MIT_06": "Co  jest mitem?",
+  "R02_MIT_06": "Co jest mitem?",
   "R02_MIT_07": "Prometeusz wykrada dla ludzi ogień z Olimpu. Jaka kara spotyka go według mitu opisanego w podręczniku?",
   "R02_MIT_08": "Kim byli herosi?",
   "R02_MIT_09": "Herakles był przykładem herosa.",
   "R02_MIT_10": "Kto według wierzeń greckich przewoził dusze zmarłych przez Styks?",
   "R02_MIT_11": "Jak nazywało się podziemne królestwo zmarłych?",
   "R02_MIT_12": "Syzyf próbuje wtoczyć kamień na stromą górę, ale kamień za każdym razem stacza się w dół. Za co został ukarany?",
-  "R02_MIT_13": "Zaznacz sposoby czczenia bogów przez Hellenów .",
+  "R02_MIT_13": "Zaznacz sposoby czczenia bogów przez Hellenów.",
   "R02_MIT_14": "Miejsce, w którym według Greków bogowie udzielali rad i przepowiadali przyszłość, to...",
   "R02_OSI_01": "Czym był Akropol w Atenach?",
   "R02_OSI_02": "Jak nazywała się najważniejsza świątynia na Akropolu?",
@@ -1250,17 +1250,17 @@ const KID_PROMPTS = {
   "R02_OSI_06": "Kto wyrzeźbił Dyskobola?",
   "R02_OSI_07": "Z jakimi występami wiążą się początki greckiego teatru?",
   "R02_OSI_08": "Czym była tragedia w teatrze greckim?",
-  "R02_OSI_09": "Czym była komedia ?",
+  "R02_OSI_09": "Czym była komedia?",
   "R02_OSI_10": "Połącz postać z osiągnięciem.",
   "R02_OSI_11": "Dwa wielkie poematy powstałe w Helladzie w VIII w. p.n.e. to __________ i __________.",
   "R02_OSI_12": "O czym opowiada Iliada?",
   "R02_OSI_13": "Co oznacza greckie słowo „filozofia”?",
-  "R02_OSI_14": "Zaznacz osiągnięcia naukowe Greków .",
-  "R02_MIE_01": "Ułóż wydarzenia lub zjawiska w porządku chronologicznym według dat .",
+  "R02_OSI_14": "Zaznacz osiągnięcia naukowe Greków.",
+  "R02_MIE_01": "Ułóż wydarzenia lub zjawiska w porządku chronologicznym według dat.",
   "R02_MIE_02": "Przyporządkuj pojęcia do lekcji, z którą najbardziej się łączą.",
   "R02_MIE_03": "Wskaż, co nie pasuje do pozostałych: Zeus, Posejdon, Hades, Sokrates.",
   "R02_MIE_04": "Wskaż, co nie pasuje do pozostałych: zgromadzenie ludowe, rada pięciuset, sąd ludowy, Partenon.",
-  "R02_MIE_05": "Połącz liczbę z informacją .",
+  "R02_MIE_05": "Połącz liczbę z informacją.",
   "R02_MIE_06": "W rozdziale Akropol, Olimp i Pnyks oznaczają to samo miejsce.",
   "R02_MIE_07": "Który zestaw zawiera wyłącznie postacie wymienione w części o osiągnięciach Greków?",
   "R02_MIE_08": "Przewodnik pokazuje turystom ruiny świątyni Ateny na Akropolu. Którą nazwę powinien podać?",
@@ -1270,7 +1270,7 @@ const KID_PROMPTS = {
   "R02_HARD_04": "Ateński ostracyzm zawsze pozbawiał wygnanego majątku.",
   "R02_HARD_05": "Kto w wyroczni delfickiej wypowiadał słowa uznawane za pochodzące od Apollina?",
   "R02_HARD_06": "Zaznacz stwierdzenia zgodne z opisem Partenonu.",
-  "R02_HARD_07": "Jak długo, , zajęłaby recytacja całej Iliady?",
+  "R02_HARD_07": "Jak długo,, zajęłaby recytacja całej Iliady?",
   "R02_HARD_08": "Sokrates chodzi po Atenach w podartym ubraniu, dyskutuje o prawdzie i dobru oraz powtarza, że wie, iż nic nie wie. Co najlepiej opisuje jego zainteresowania?"
 };
 

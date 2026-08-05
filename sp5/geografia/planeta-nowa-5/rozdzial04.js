@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   POG = Pogoda i klimat
-//   STR = Strefy klimatyczne i krajobrazowe
-//   LAS = Lasy świata
-//   SPS = Sawanny, stepy i pustynie
-//   SRO = Krajobraz śródziemnomorski
-//   TTG = Tajga, tundra i góry
-//   HARD = Super trudne
+// POG = Pogoda i klimat
+// STR = Strefy klimatyczne i krajobrazowe
+// LAS = Lasy świata
+// SPS = Sawanny, stepy i pustynie
+// SRO = Krajobraz śródziemnomorski
+// TTG = Tajga, tundra i góry
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -1109,7 +1109,7 @@ const ALL_EXERCISES = [
         "845 mm"
       ]
     ],
-    "explanation": "Podręcznik pokazuje obliczenia: 47,6 : 12 ≈ 4,0°C oraz suma opadów 845 mm."
+    "explanation": "Podręcznik pokazuje obliczenia: 47,6: 12 ≈ 4,0°C oraz suma opadów 845 mm."
   },
   {
     "id": "R04_HARD_03",
@@ -1192,7 +1192,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz zdania prawdziwe o Himalajach według podręcznika.",
+    "prompt": "Zaznacz zdania prawdziwe o Himalajach.",
     "options": [
       "Mount Everest ma 8848 m n.p.m.",
       "w najwyższych partiach pada prawie wyłącznie śnieg",

@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   PTL = Ptaki – budowa i lot
-//   PTR = Rozmnażanie i znaczenie ptaków
-//   SSB = Ssaki – środowisko i budowa
-//   SSR = Rozmnażanie i różnorodność ssaków
-//   MIE = Powtórka mieszana
-//   HARD = Super trudne
+// PTL = Ptaki – budowa i lot
+// PTR = Rozmnażanie i znaczenie ptaków
+// SSB = Ssaki – środowisko i budowa
+// SSR = Rozmnażanie i różnorodność ssaków
+// MIE = Powtórka mieszana
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -408,7 +408,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTR_11",
     "section": "Rozmnażanie i znaczenie ptaków",
     "type": "fill_in",
-    "prompt": "Według podręcznika ptaki zjadają rocznie __________ mln ton __________, w tym wiele uznawanych za szkodniki.",
+    "prompt": "Ptaki zjadają rocznie __________ mln ton __________, w tym wiele uznawanych za szkodniki.",
     "options": null,
     "answer": [
       "400-500",

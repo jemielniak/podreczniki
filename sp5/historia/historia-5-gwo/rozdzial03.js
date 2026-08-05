@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   POC = Początki i armia Rzymu
-//   UST = Republika i cesarstwo
-//   SPO = Społeczeństwo rzymskie
-//   OSI = Osiągnięcia i rozrywki
-//   CHR = Narodziny chrześcijaństwa
-//   HARD = Super trudne
+// POC = Początki i armia Rzymu
+// UST = Republika i cesarstwo
+// SPO = Społeczeństwo rzymskie
+// OSI = Osiągnięcia i rozrywki
+// CHR = Narodziny chrześcijaństwa
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -204,7 +204,7 @@ const ALL_EXERCISES = [
     "id": "R03_POC_12",
     "section": "Początki i armia Rzymu",
     "type": "scenario",
-    "prompt": "Rzymski żołnierz ucieka z pola walki. Dowódcy uznają to za dezercję. Jaka kara według podręcznika groziła za taki czyn?",
+    "prompt": "Rzymski żołnierz ucieka z pola walki. Dowódcy uznają to za dezercję. Jaka kara groziła za taki czyn?",
     "options": [
       "kara śmierci",
       "awans",
@@ -486,7 +486,7 @@ const ALL_EXERCISES = [
     "id": "R03_SPO_05",
     "section": "Społeczeństwo rzymskie",
     "type": "multi_select",
-    "prompt": "Kto według podręcznika mógł zostać rzymskim niewolnikiem?",
+    "prompt": "Kto mógł zostać rzymskim niewolnikiem?",
     "options": [
       "jeniec wojenny",
       "człowiek porwany przez piratów",
@@ -778,7 +778,7 @@ const ALL_EXERCISES = [
     "id": "R03_OSI_10",
     "section": "Osiągnięcia i rozrywki",
     "type": "single_choice",
-    "prompt": "Co było prawdziwą namiętnością Rzymian według podręcznika?",
+    "prompt": "Co było prawdziwą namiętnością Rzymian?",
     "image": "/img/r03_wyscigi_rydwanow.jpg",
     "options": [
       "wyścigi rydwanów",
@@ -964,7 +964,7 @@ const ALL_EXERCISES = [
     "id": "R03_CHR_06",
     "section": "Narodziny chrześcijaństwa",
     "type": "multi_select",
-    "prompt": "Co według podręcznika głosił Jezus Chrystus?",
+    "prompt": "Co głosił Jezus Chrystus?",
     "options": [
       "miłość Boga i bliźniego",
       "że jest Synem Bożym",

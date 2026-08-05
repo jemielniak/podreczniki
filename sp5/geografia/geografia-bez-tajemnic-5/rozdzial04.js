@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   STR = Strefowość i piętrowość klimatyczno-roślinna
-//   ROW = Wilgotne lasy równikowe
-//   LAS = Lasy strefy umiarkowanej
-//   SAW = Sawanna i step
-//   MIE = Powtórka mieszana
-//   HARD = Super trudne
+// STR = Strefowość i piętrowość klimatyczno-roślinna
+// ROW = Wilgotne lasy równikowe
+// LAS = Lasy strefy umiarkowanej
+// SAW = Sawanna i step
+// MIE = Powtórka mieszana
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -451,7 +451,7 @@ const ALL_EXERCISES = [
     "id": "R04_LAS_01",
     "section": "Lasy strefy umiarkowanej",
     "type": "single_choice",
-    "prompt": "W których częściach świata występują lasy strefy umiarkowanej według podręcznika?",
+    "prompt": "W których częściach świata występują lasy strefy umiarkowanej?",
     "options": [
       "W Europie, Azji i Ameryce Północnej",
       "Wyłącznie w Amazonii",

@@ -1,10 +1,10 @@
 // Skróty sekcji (do identyfikatorów ćwiczeń):
-//   POL  = Jagiellonowie i unia lubelska
-//   SEJ  = Demokracja szlachecka i wolne elekcje
-//   WOJ  = Wojny i polityka nad Bałtykiem
-//   GOS  = Gospodarka i folwarki
-//   KUL  = Wiele narodów i kultura renesansu
-//   HARD = Super trudne
+// POL = Jagiellonowie i unia lubelska
+// SEJ = Demokracja szlachecka i wolne elekcje
+// WOJ = Wojny i polityka nad Bałtykiem
+// GOS = Gospodarka i folwarki
+// KUL = Wiele narodów i kultura renesansu
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -743,7 +743,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_01",
     "section": "Wiele narodów i kultura renesansu",
     "type": "single_choice",
-    "prompt": "Jak duże było terytorium Rzeczypospolitej po unii z 1569 roku według podręcznika?",
+    "prompt": "Jak duże było terytorium Rzeczypospolitej po unii z 1569 roku?",
     "options": [
       "Około 800 tysięcy kilometrów kwadratowych",
       "Około 80 tysięcy kilometrów kwadratowych",

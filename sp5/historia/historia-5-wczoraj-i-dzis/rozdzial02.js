@@ -1,10 +1,10 @@
 // Skróty sekcji:
-//   ATE = Demokratyczne Ateny
-//   SPA = Sparta i wojny z Persami
-//   BOG = Bogowie i mity
-//   KUL = Kultura starożytnej Grecji
-//   ALE = Imperium Aleksandra Wielkiego
-//   HARD = Super trudne
+// ATE = Demokratyczne Ateny
+// SPA = Sparta i wojny z Persami
+// BOG = Bogowie i mity
+// KUL = Kultura starożytnej Grecji
+// ALE = Imperium Aleksandra Wielkiego
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R02_ATE_02",
     "section": "Demokratyczne Ateny",
     "type": "multi_select",
-    "prompt": "Zaznacz zajęcia i uprawy typowe dla mieszkańców Hellady według podręcznika.",
+    "prompt": "Zaznacz zajęcia i uprawy typowe dla mieszkańców Hellady.",
     "options": [
       "uprawa oliwek",
       "uprawa winorośli",
@@ -180,7 +180,7 @@ const ALL_EXERCISES = [
     "id": "R02_ATE_11",
     "section": "Demokratyczne Ateny",
     "type": "multi_select",
-    "prompt": "Jakie sprawy mogły być omawiane na ateńskim zgromadzeniu ludowym według podręcznika?",
+    "prompt": "Jakie sprawy mogły być omawiane na ateńskim zgromadzeniu ludowym?",
     "options": [
       "wypowiedzenie wojny",
       "zawarcie pokoju",
@@ -630,7 +630,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_01",
     "section": "Kultura starożytnej Grecji",
     "type": "multi_select",
-    "prompt": "Zaznacz dziedziny kultury i aktywności, które według podręcznika szczególnie rozwinęli Grecy.",
+    "prompt": "Zaznacz dziedziny kultury i aktywności, które szczególnie rozwinęli Grecy.",
     "options": [
       "malarstwo wazowe",
       "rzeźba",
@@ -831,7 +831,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_12",
     "section": "Kultura starożytnej Grecji",
     "type": "scenario",
-    "prompt": "Zawodnik zwycięża w starożytnych igrzyskach w Olimpii. Jaką symboliczną nagrodę otrzymuje według podręcznika?",
+    "prompt": "Zawodnik zwycięża w starożytnych igrzyskach w Olimpii. Jaką symboliczną nagrodę otrzymuje?",
     "options": [
       "wieniec z gałązek drzewa oliwnego",
       "złotą koronę królewską",

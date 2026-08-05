@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   UST = Ustrój starożytnego Rzymu
-//   IMP = Imperium Rzymskie
-//   ZYC = Życie w Wiecznym Mieście
-//   DOK = Dokonania starożytnych Rzymian
-//   CHR = Początki chrześcijaństwa
-//   BUR = Bursztynowy szlak
-//   HARD = Super trudne
+// UST = Ustrój starożytnego Rzymu
+// IMP = Imperium Rzymskie
+// ZYC = Życie w Wiecznym Mieście
+// DOK = Dokonania starożytnych Rzymian
+// CHR = Początki chrześcijaństwa
+// BUR = Bursztynowy szlak
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -223,7 +223,7 @@ const ALL_EXERCISES = [
     "id": "R03_IMP_03",
     "section": "Imperium Rzymskie",
     "type": "multi_select",
-    "prompt": "Zaznacz ziemie, które według podręcznika znalazły się pod panowaniem Rzymu do I wieku n.e.",
+    "prompt": "Zaznacz ziemie, które znalazły się pod panowaniem Rzymu do I wieku n.e.",
     "explanation": "Do I wieku n.e. Rzymianie opanowali między innymi Grecję, Egipt, Syrię, Hiszpanię, Galię i Brytanię.",
     "options": [
       "Grecja",
@@ -777,7 +777,7 @@ const ALL_EXERCISES = [
     "id": "R03_CHR_03",
     "section": "Początki chrześcijaństwa",
     "type": "true_false",
-    "prompt": "Według podręcznika Jezus został około 33 roku n.e. skazany na śmierć przez ukrzyżowanie.",
+    "prompt": "Jezus został około 33 roku n.e. skazany na śmierć przez ukrzyżowanie.",
     "explanation": "Śmierć Jezusa przez ukrzyżowanie około 33 roku n.e. podręcznik łączy z początkami chrześcijaństwa.",
     "options": null,
     "answer": true
@@ -912,7 +912,7 @@ const ALL_EXERCISES = [
     "id": "R03_BUR_01",
     "section": "Bursztynowy szlak",
     "type": "single_choice",
-    "prompt": "Czym jest bursztyn według podręcznika?",
+    "prompt": "Czym jest bursztyn?",
     "explanation": "Bursztyn to skamieniała żywica drzew iglastych.",
     "options": [
       "skamieniała żywica drzew iglastych",
@@ -1163,7 +1163,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_04",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Jesteś rzymskim obywatelem w V wieku p.n.e. Chcesz, aby przepisy nie zależały tylko od pamięci i zwyczaju, lecz były dostępne dla wszystkich. Gdzie zgodnie z podręcznikiem należało wystawić spisane prawa?",
+    "prompt": "Jesteś rzymskim obywatelem w V wieku p.n.e. Chcesz, aby przepisy nie zależały tylko od pamięci i zwyczaju, lecz były dostępne dla wszystkich. Gdzie należało wystawić spisane prawa?",
     "explanation": "Prawo XII tablic wystawiono na Forum Romanum, aby każdy mógł zapoznać się z obowiązującymi przepisami.",
     "options": [
       "na Forum Romanum",

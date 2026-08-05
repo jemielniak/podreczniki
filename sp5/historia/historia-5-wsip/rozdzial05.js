@@ -1,11 +1,11 @@
 // Skróty sekcji:
-//   RYC = Rycerstwo i system lenny
-//   WIE = Średniowieczna wieś i stany
-//   MIA = Średniowieczne miasto
-//   KOS = Kościół, zakony i kultura
-//   SPO = Spór cesarstwa z papiestwem
-//   WYP = Wyprawy krzyżowe
-//   HARD = Super trudne
+// RYC = Rycerstwo i system lenny
+// WIE = Średniowieczna wieś i stany
+// MIA = Średniowieczne miasto
+// KOS = Kościół, zakony i kultura
+// SPO = Spór cesarstwa z papiestwem
+// WYP = Wyprawy krzyżowe
+// HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -630,7 +630,7 @@ const ALL_EXERCISES = [
     "id": "R05_KOS_05",
     "section": "Kościół, zakony i kultura",
     "type": "multi_select",
-    "prompt": "Zaznacz dziedziny wykładane na średniowiecznych uniwersytetach według podręcznika.",
+    "prompt": "Zaznacz dziedziny wykładane na średniowiecznych uniwersytetach.",
     "options": [
       "teologia",
       "filozofia",
