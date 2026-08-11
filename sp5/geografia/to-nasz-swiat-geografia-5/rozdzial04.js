@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R04_WIE_01",
     "section": "Krajobraz wielkomiejski",
     "type": "single_choice",
-    "prompt": "Co oznaczają korki, trąbienie, tłumy na chodnikach i wysokie budynki opisane w rozdziale?",
+    "prompt": "Co oznaczają korki, trąbienie, tłumy na chodnikach i wysokie budynki?",
     "explanation": "Taki opis wskazuje na wielkie miasto: dużo samochodów, gęsta zabudowa i tłumy ludzi to cechy krajobrazu wielkomiejskiego.",
     "options": [
       "Wielkie miasto",
@@ -28,7 +28,7 @@ const ALL_EXERCISES = [
     "section": "Krajobraz wielkomiejski",
     "type": "true_false",
     "prompt": "Wielkie miasto jest przykładem krajobrazu antropogenicznego.",
-    "explanation": "W rozdziale wielkie miasto opisano jako teren o krajobrazie antropogenicznym, czyli silnie przekształconym przez człowieka.",
+    "explanation": "Wielkie miasto opisano jako teren o krajobrazie antropogenicznym, czyli silnie przekształconym przez człowieka.",
     "options": null,
     "answer": true
   },
@@ -58,8 +58,8 @@ const ALL_EXERCISES = [
     "id": "R04_WIE_04",
     "section": "Krajobraz wielkomiejski",
     "type": "multi_select",
-    "prompt": "Zaznacz typy dzielnic wymienione w rozdziale.",
-    "explanation": "W rozdziale podano dzielnice mieszkaniowe, przemysłowe i handlowe jako przykłady części dużego miasta.",
+    "prompt": "Zaznacz typy dzielnic.",
+    "explanation": "Podano dzielnice mieszkaniowe, przemysłowe i handlowe jako przykłady części dużego miasta.",
     "options": [
       "mieszkaniowe",
       "przemysłowe",
@@ -178,7 +178,7 @@ const ALL_EXERCISES = [
     "section": "Krajobraz wielkomiejski",
     "type": "true_false",
     "prompt": "Dalej od centrum dużego miasta dominuje niska zabudowa domów jednorodzinnych.",
-    "explanation": "Rozdział podaje, że dalej od centrum dominuje niska zabudowa domów jednorodzinnych.",
+    "explanation": "Dalej od centrum dominuje niska zabudowa domów jednorodzinnych.",
     "options": null,
     "answer": true
   },
@@ -186,7 +186,7 @@ const ALL_EXERCISES = [
     "id": "R04_WIE_11",
     "section": "Krajobraz wielkomiejski",
     "type": "multi_select",
-    "prompt": "Co może znajdować się na terenie osiedla mieszkaniowego według rozdziału?",
+    "prompt": "Co może znajdować się na terenie osiedla mieszkaniowego?",
     "explanation": "Na osiedlach oprócz budynków mieszkalnych mogą być szkoły, przedszkola, place zabaw, tereny rekreacyjne, przychodnie, sklepy i inne punkty usługowe.",
     "options": [
       "szkoły",
@@ -222,7 +222,7 @@ const ALL_EXERCISES = [
     "section": "Warszawa",
     "type": "single_choice",
     "prompt": "Które miasto jest największym miastem Polski i jej stolicą?",
-    "explanation": "Rozdział wskazuje Warszawę jako największe miasto Polski i zarazem stolicę państwa.",
+    "explanation": "Wskazuje się Warszawę jako największe miasto Polski i zarazem stolicę państwa.",
     "options": [
       "Warszawa",
       "Kraków",
@@ -251,8 +251,8 @@ const ALL_EXERCISES = [
     "id": "R04_WAR_03",
     "section": "Warszawa",
     "type": "multi_select",
-    "prompt": "Zaznacz duże miasta Polski wymienione w rozdziale poza Warszawą.",
-    "explanation": "Jako inne duże miasta rozdział wymienia Kraków, Wrocław, Łódź, Poznań i Gdańsk.",
+    "prompt": "Zaznacz duże miasta Polski poza Warszawą.",
+    "explanation": "Jako inne duże miasta wymienia się Kraków, Wrocław, Łódź, Poznań i Gdańsk.",
     "options": [
       "Kraków",
       "Wrocław",
@@ -274,7 +274,7 @@ const ALL_EXERCISES = [
     "section": "Warszawa",
     "type": "true_false",
     "prompt": "W Warszawie mieszka prawie 1,9 mln osób.",
-    "explanation": "Rozdział podaje, że w Warszawie mieszka prawie 1,9 mln osób.",
+    "explanation": "W Warszawie mieszka prawie 1,9 mln osób.",
     "options": null,
     "answer": true
   },
@@ -300,8 +300,8 @@ const ALL_EXERCISES = [
     "id": "R04_WAR_06",
     "section": "Warszawa",
     "type": "single_choice",
-    "prompt": "Ile metrów wysokości wraz z iglicą ma Varso Tower według rozdziału?",
-    "explanation": "W rozdziale podano, że Varso Tower ma 310 metrów wysokości wraz z iglicą.",
+    "prompt": "Ile metrów wysokości wraz z iglicą ma Varso Tower?",
+    "explanation": "Varso Tower ma 310 metrów wysokości wraz z iglicą.",
     "options": [
       "310 metrów",
       "408 metrów",
@@ -326,7 +326,7 @@ const ALL_EXERCISES = [
     "id": "R04_WAR_08",
     "section": "Warszawa",
     "type": "multi_select",
-    "prompt": "Co wchodzi w skład rozwiniętej sieci komunikacyjnej dużego miasta opisanej w rozdziale?",
+    "prompt": "Co wchodzi w skład rozwiniętej sieci komunikacyjnej dużego miasta?",
     "explanation": "Sieć komunikacyjna obejmuje ulice i aleje, autobusy miejskie, linie tramwajowe, linie kolejowe oraz metro.",
     "options": [
       "ulice i aleje",
@@ -350,7 +350,7 @@ const ALL_EXERCISES = [
     "section": "Warszawa",
     "type": "true_false",
     "prompt": "Warszawa jest jedynym miastem w Polsce, w którym funkcjonuje metro.",
-    "explanation": "Rozdział wyraźnie podaje, że Warszawa to jedyne miasto w Polsce z metrem.",
+    "explanation": "Warszawa to jedyne miasto w Polsce z metrem.",
     "options": null,
     "answer": true
   },
@@ -374,8 +374,8 @@ const ALL_EXERCISES = [
     "id": "R04_WAR_11",
     "section": "Warszawa",
     "type": "match",
-    "prompt": "Połącz atrakcję Warszawy z opisem z rozdziału.",
-    "explanation": "Rozdział wymienia najważniejsze atrakcje turystyczne Warszawy i krótko opisuje, co można z nimi kojarzyć.",
+    "prompt": "Połącz atrakcję Warszawy z opisem.",
+    "explanation": "Wymienia się najważniejsze atrakcje turystyczne Warszawy i krótko opisuje, co można z nimi kojarzyć.",
     "options": null,
     "left": [
       "Stare Miasto",
@@ -417,7 +417,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Śląska",
     "type": "single_choice",
     "prompt": "Który region opisano jako jeden z najbardziej przekształconych przez człowieka w Polsce?",
-    "explanation": "Rozdział wskazuje Wyżynę Śląską jako region silnie przekształcony przez człowieka.",
+    "explanation": "Wskazuje się Wyżynę Śląską jako region silnie przekształcony przez człowieka.",
     "options": [
       "Wyżyna Śląska",
       "Wyżyna Lubelska",
@@ -432,7 +432,7 @@ const ALL_EXERCISES = [
     "id": "R04_SLA_02",
     "section": "Wyżyna Śląska",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy krajobrazu miejsko-przemysłowego Wyżyny Śląskiej wymienione w rozdziale.",
+    "prompt": "Zaznacz elementy krajobrazu miejsko-przemysłowego Wyżyny Śląskiej.",
     "explanation": "W krajobrazie Wyżyny Śląskiej dominują między innymi zabudowa mieszkaniowa, kopalnie, fabryki i duże zakłady przetwórcze lub produkcyjne.",
     "options": [
       "zabudowa mieszkaniowa",
@@ -454,7 +454,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Śląska",
     "type": "true_false",
     "prompt": "Teren Wyżyny Śląskiej jest lekko pofałdowany.",
-    "explanation": "W rozdziale zapisano, że teren Wyżyny Śląskiej jest lekko pofałdowany.",
+    "explanation": "Teren Wyżyny Śląskiej jest lekko pofałdowany.",
     "options": null,
     "answer": true
   },
@@ -485,7 +485,7 @@ const ALL_EXERCISES = [
     "id": "R04_SLA_05",
     "section": "Wyżyna Śląska",
     "type": "single_choice",
-    "prompt": "Czym według rozdziału jest Góra Świętej Anny?",
+    "prompt": "Czym jest Góra Świętej Anny?",
     "explanation": "Góra Świętej Anny jest pozostałością po wulkanie sprzed około 27 mln lat.",
     "options": [
       "pozostałością po wulkanie",
@@ -537,7 +537,7 @@ const ALL_EXERCISES = [
     "id": "R04_SLA_08",
     "section": "Wyżyna Śląska",
     "type": "multi_select",
-    "prompt": "Do czego wykorzystuje się węgiel kamienny według rozdziału?",
+    "prompt": "Do czego wykorzystuje się węgiel kamienny?",
     "explanation": "Węgiel kamienny wykorzystuje się do wytwarzania energii elektrycznej, ogrzewania domów oraz produkcji tworzyw sztucznych, barwników, leków i kosmetyków.",
     "options": [
       "wytwarzanie energii elektrycznej",
@@ -561,7 +561,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Śląska",
     "type": "true_false",
     "prompt": "Węgiel kamienny jest wykorzystywany wyłącznie do ogrzewania domów.",
-    "explanation": "To fałsz, ponieważ rozdział wymienia także energię elektryczną, tworzywa sztuczne, barwniki, leki i kosmetyki.",
+    "explanation": "To fałsz, ponieważ wymienia się także energię elektryczną, tworzywa sztuczne, barwniki, leki i kosmetyki.",
     "options": null,
     "answer": false
   },
@@ -601,7 +601,7 @@ const ALL_EXERCISES = [
     "id": "R04_SLA_12",
     "section": "Wyżyna Śląska",
     "type": "scenario",
-    "prompt": "Zwiedzasz podziemny korytarz dawnej kopalni i widzisz ekspozycję węgla kamiennego. Który region rozdziału najlepiej pasuje do tej sytuacji?",
+    "prompt": "Zwiedzasz podziemny korytarz dawnej kopalni i widzisz ekspozycję węgla kamiennego. Który region najlepiej pasuje do tej sytuacji?",
     "explanation": "Podziemne korytarze kopalń węgla kamiennego są związane z Wyżyną Śląską.",
     "options": [
       "Wyżyna Śląska",
@@ -648,8 +648,8 @@ const ALL_EXERCISES = [
     "id": "R04_KON_03",
     "section": "Konurbacja i Śląsk",
     "type": "multi_select",
-    "prompt": "Zaznacz miasta należące do największych miast konurbacji górnośląskiej wymienionych w rozdziale.",
-    "explanation": "Do największych miast konurbacji górnośląskiej rozdział zalicza Katowice, Chorzów, Zabrze, Bytom, Gliwice i Dąbrowę Górniczą.",
+    "prompt": "Zaznacz miasta należące do największych miast konurbacji górnośląskiej.",
+    "explanation": "Do największych miast konurbacji górnośląskiej zalicza się Katowice, Chorzów, Zabrze, Bytom, Gliwice i Dąbrowę Górniczą.",
     "options": [
       "Katowice",
       "Chorzów",
@@ -672,7 +672,7 @@ const ALL_EXERCISES = [
     "section": "Konurbacja i Śląsk",
     "type": "fill_in",
     "prompt": "Konurbacja górnośląska jest złożona z __________ miast, a mieszka w niej około __________ osób.",
-    "explanation": "W rozdziale podano, że konurbacja górnośląska składa się z 19 miast i mieszka w niej około 3 mln osób.",
+    "explanation": "Konurbacja górnośląska składa się z 19 miast i mieszka w niej około 3 mln osób.",
     "options": null,
     "answer": [
       "19",
@@ -695,7 +695,7 @@ const ALL_EXERCISES = [
     "section": "Konurbacja i Śląsk",
     "type": "true_false",
     "prompt": "Niektóre miasta konurbacji górnośląskiej leżą tak blisko siebie, że z pozoru tworzą jedno miasto.",
-    "explanation": "Rozdział opisuje, że część miast konurbacji jest położona bardzo blisko siebie.",
+    "explanation": "Część miast konurbacji jest położona bardzo blisko siebie.",
     "options": null,
     "answer": true
   },
@@ -738,7 +738,7 @@ const ALL_EXERCISES = [
     "section": "Konurbacja i Śląsk",
     "type": "sort",
     "prompt": "Przyporządkuj przykłady do właściwych grup.",
-    "explanation": "Rozdział pokazuje zarówno problemy środowiskowe, zmiany dawnych obiektów przemysłowych, jak i elementy kultury śląskiej.",
+    "explanation": "Pokazuje się zarówno problemy środowiskowe, zmiany dawnych obiektów przemysłowych, jak i elementy kultury śląskiej.",
     "options": null,
     "items": [
       "smog",
@@ -821,7 +821,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Lubelska",
     "type": "true_false",
     "prompt": "Teren Wyżyny Lubelskiej jest lekko pagórkowaty, a wysokości bezwzględne nieznacznie przekraczają 300 m n.p.m.",
-    "explanation": "Tak opisano ukształtowanie terenu Wyżyny Lubelskiej w rozdziale.",
+    "explanation": "Tak opisano ukształtowanie terenu Wyżyny Lubelskiej.",
     "options": null,
     "answer": true
   },
@@ -830,7 +830,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Lubelska",
     "type": "fill_in",
     "prompt": "Jedną z najważniejszych rzek przepływających przez Wyżynę Lubelską jest __________.",
-    "explanation": "W rozdziale wskazano Wieprz jako jedną z najważniejszych rzek regionu.",
+    "explanation": "Wskazano Wieprz jako jedną z najważniejszych rzek regionu.",
     "options": null,
     "answer": [
       "Wieprz"
@@ -862,7 +862,7 @@ const ALL_EXERCISES = [
     "id": "R04_LUB_05",
     "section": "Wyżyna Lubelska",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny uprawiane na Wyżynie Lubelskiej według rozdziału.",
+    "prompt": "Zaznacz rośliny uprawiane na Wyżynie Lubelskiej.",
     "explanation": "W regionie uprawia się wymagające rośliny, między innymi buraki cukrowe, pszenicę, rzepak i chmiel.",
     "options": [
       "buraki cukrowe",
@@ -885,7 +885,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Lubelska",
     "type": "true_false",
     "prompt": "Czarnoziemy Wyżyny Lubelskiej utworzyły się na skałach lessowych.",
-    "explanation": "Rozdział podaje, że czarnoziemy powstały na skałach lessowych.",
+    "explanation": "Czarnoziemy powstały na skałach lessowych.",
     "options": null,
     "answer": true
   },
@@ -917,7 +917,7 @@ const ALL_EXERCISES = [
     "id": "R04_LUB_09",
     "section": "Wyżyna Lubelska",
     "type": "multi_select",
-    "prompt": "Gdzie według rozdziału można zobaczyć wąwozy lessowe?",
+    "prompt": "Gdzie można zobaczyć wąwozy lessowe?",
     "explanation": "Wąwozy lessowe można zobaczyć w okolicach Kraśnika, Kazimierza Dolnego i Nałęczowa.",
     "options": [
       "Kraśnik",
@@ -938,7 +938,7 @@ const ALL_EXERCISES = [
     "id": "R04_LUB_10",
     "section": "Wyżyna Lubelska",
     "type": "single_choice",
-    "prompt": "Jakie jest największe miasto Wyżyny Lubelskiej wymienione w rozdziale?",
+    "prompt": "Jakie jest największe miasto Wyżyny Lubelskiej?",
     "explanation": "Największym miastem regionu jest Lublin.",
     "options": [
       "Lublin",
@@ -955,7 +955,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Lubelska",
     "type": "match",
     "prompt": "Połącz miejsce lub pojęcie z informacją.",
-    "explanation": "Rozdział opisuje Lublin, Zamość, rolniczy charakter regionu i czarnoziemy.",
+    "explanation": "Opisuje się Lublin, Zamość, rolniczy charakter regionu i czarnoziemy.",
     "options": null,
     "left": [
       "Lublin",
@@ -1013,7 +1013,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "true_false",
     "prompt": "Góra Świętej Anny jest pozostałością po wulkanie sprzed około 27 mln lat.",
-    "explanation": "Rozdział podaje, że Góra Świętej Anny jest pozostałością po dawnym wulkanie.",
+    "explanation": "Góra Świętej Anny jest pozostałością po dawnym wulkanie.",
     "options": null,
     "answer": true
   },
@@ -1022,7 +1022,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "fill_in",
     "prompt": "Węgiel kamienny powstał z obumarłych szczątków __________ żyjących tu około __________ lat temu.",
-    "explanation": "Według rozdziału węgiel kamienny powstał ze szczątków roślin żyjących około 300 mln lat temu.",
+    "explanation": "Węgiel kamienny powstał ze szczątków roślin żyjących około 300 mln lat temu.",
     "options": null,
     "answer": [
       "roślin",
@@ -1064,7 +1064,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz trudniejsze pojęcia z wyjaśnieniami z rozdziału.",
+    "prompt": "Połącz trudniejsze pojęcia z wyjaśnieniami.",
     "explanation": "Pojęcia te pojawiają się w częściach o Wyżynie Śląskiej i jej kulturze.",
     "options": null,
     "left": [
@@ -1093,8 +1093,8 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który obiekt rozdział nazywa najwyższym budynkiem w Polsce i całej Unii Europejskiej?",
-    "explanation": "W rozdziale tak opisano Varso Tower w śródmieściu Warszawy.",
+    "prompt": "Który obiekt nazywa się najwyższym budynkiem w Polsce i całej Unii Europejskiej?",
+    "explanation": "Tak opisano Varso Tower w śródmieściu Warszawy.",
     "options": [
       "Varso Tower",
       "Pałac Prezydencki",
@@ -1111,7 +1111,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "multi_select",
     "prompt": "Zaznacz atrakcje turystyczne Warszawy wymienione razem w części o atrakcjach stolicy.",
-    "explanation": "Rozdział wymienia Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie oraz Stadion Narodowy.",
+    "explanation": "Wymienia się Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie oraz Stadion Narodowy.",
     "options": [
       "Stare Miasto",
       "Pałac Kultury i Nauki",
@@ -1132,7 +1132,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do atrakcji turystycznych Warszawy z rozdziału: Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie, Królowa Luiza.",
+    "prompt": "Co nie pasuje do atrakcji turystycznych Warszawy: Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie, Królowa Luiza.",
     "explanation": "Królowa Luiza to dawna kopalnia w Zabrzu, a pozostałe obiekty są atrakcjami Warszawy.",
     "options": null,
     "answer": "Królowa Luiza"
@@ -1141,8 +1141,8 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_09",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Stare Miasto w __________ wpisano na listę światowego dziedzictwa UNESCO, a według rozdziału w Polsce było na niej __________ obiektów.",
-    "explanation": "Rozdział podaje, że Stare Miasto w Zamościu wpisano na listę UNESCO oraz że w Polsce wpisano na nią 17 obiektów.",
+    "prompt": "Stare Miasto w __________ wpisano na listę światowego dziedzictwa UNESCO, a w Polsce było na niej __________ obiektów.",
+    "explanation": "Stare Miasto w Zamościu wpisano na listę UNESCO oraz że w Polsce wpisano na nią 17 obiektów.",
     "options": null,
     "answer": [
       "Zamościu",
@@ -1208,8 +1208,8 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_12",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W regionie widzisz górniczą orkiestrę, obchody Barbórki i rodzinną tradycję wręczania tyty pierwszoklasistom. O której grupie mieszkańców mówi rozdział?",
-    "explanation": "Rozdział opisuje te elementy jako część kultury Ślązaków.",
+    "prompt": "W regionie widzisz górniczą orkiestrę, obchody Barbórki i rodzinną tradycję wręczania tyty pierwszoklasistom. O której grupie mieszkańców mówi się?",
+    "explanation": "Opisuje się te elementy jako część kultury Ślązaków.",
     "options": [
       "Ślązacy",
       "Warszawiacy",
@@ -1224,7 +1224,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "riddle",
     "prompt": "Dawna kopalnia w Zabrzu, w której część trasy turyści pokonują łodziami, to...",
-    "explanation": "Rozdział podaje przykład dawnej kopalni Królowa Luiza w Zabrzu.",
+    "explanation": "Podaje się przykład dawnej kopalni Królowa Luiza w Zabrzu.",
     "options": null,
     "answer": "Królowa Luiza",
     "altAnswers": [
@@ -1238,7 +1238,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_14",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz powody, dla których duże miasta przyciągają ludzi z całego kraju według rozdziału.",
+    "prompt": "Zaznacz powody, dla których duże miasta przyciągają ludzi z całego kraju.",
     "explanation": "Duże miasta przyciągają ludzi różnorodnością usług, licznymi miejscami pracy, uczelniami wyższymi oraz miejscami kultury i rozrywki.",
     "options": [
       "różnorodność usług",

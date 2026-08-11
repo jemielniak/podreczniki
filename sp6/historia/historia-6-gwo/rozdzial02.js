@@ -43,7 +43,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik podkreśla potęgę Polski i Litwy, wzrost eksportu zboża, rozwój kultury i tolerancję religijną. Wojny nie niszczyły wówczas państwa.",
+    "explanation": "Podkreśla się potęgę Polski i Litwy, wzrost eksportu zboża, rozwój kultury i tolerancję religijną. Wojny nie niszczyły wówczas państwa.",
     "image": "r02_zloty_wiek_dworska_scena.jpg"
   },
   {
@@ -53,7 +53,7 @@ const ALL_EXERCISES = [
     "prompt": "Złoty wiek Polski i Litwy obejmował czasy zygmuntowskie oraz kilkanaście następnych lat, aż do śmierci Stefana Batorego w 1586 r.",
     "options": null,
     "answer": true,
-    "explanation": "Tak. W podręczniku złoty wiek obejmuje czasy zygmuntowskie i okres do śmierci Stefana Batorego w 1586 r."
+    "explanation": "Tak. Złoty wiek obejmuje czasy zygmuntowskie i okres do śmierci Stefana Batorego w 1586 r."
   },
   {
     "id": "R02_ZYG_04",
@@ -99,7 +99,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do działań Zygmunta Starego: zwiększanie dochodów skarbu, dobór doradców spośród senatorów, zapewnianie bezpieczeństwa granicom, koronacja Barbary Radziwiłłówny.",
     "options": null,
     "answer": "koronacja Barbary Radziwiłłówny",
-    "explanation": "Koronację Barbary Radziwiłłówny przeprowadził Zygmunt II August. Pozostałe działania podręcznik przypisuje Zygmuntowi Staremu.",
+    "explanation": "Koronację Barbary Radziwiłłówny przeprowadził Zygmunt II August. Pozostałe działania przypisuje się Zygmuntowi Staremu.",
     "image": "r02_zygmunt_stary_portret.jpg"
   },
   {
@@ -523,14 +523,14 @@ const ALL_EXERCISES = [
     "id": "R02_TUR_08",
     "section": "Turcja i Mazowsze",
     "type": "riddle",
-    "prompt": "Tytuł władcy Imperium Osmańskiego używany w rozdziale to...",
+    "prompt": "Tytuł władcy Imperium Osmańskiego używany to...",
     "options": null,
     "answer": "sułtan",
     "altAnswers": [
       "sułtan",
       "sultan"
     ],
-    "explanation": "Podręcznik wyjaśnia, że sułtan był władcą Imperium Osmańskiego."
+    "explanation": "Sułtan był władcą Imperium Osmańskiego."
   },
   {
     "id": "R02_TUR_09",
@@ -659,7 +659,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż element niepasujący do zestawu języków, w których Zygmunt August swobodnie rozmawiał: łacina, włoski, niemiecki, turecki.",
     "options": null,
     "answer": "turecki",
-    "explanation": "Podręcznik podaje, że Zygmunt August swobodnie rozmawiał po łacinie, włosku i niemiecku."
+    "explanation": "Zygmunt August swobodnie rozmawiał po łacinie, włosku i niemiecku."
   },
   {
     "id": "R02_AUG_07",
@@ -855,7 +855,7 @@ const ALL_EXERCISES = [
       "Połock",
       "Polock"
     ],
-    "explanation": "W 1563 r. wojska moskiewskie zdobyły Połock, wydarzenie pokazane na ilustracji w rozdziale.",
+    "explanation": "W 1563 r. wojska moskiewskie zdobyły Połock, wydarzenie pokazane na ilustracji.",
     "image": "r02_polock_szturm_1563.jpg"
   },
   {
@@ -865,7 +865,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż państwo, które nie należało do czterech rywali o Inflanty: Litwa, Moskwa, Dania, Szwecja, Imperium Osmańskie.",
     "options": null,
     "answer": "Imperium Osmańskie",
-    "explanation": "O Inflanty rywalizowały Litwa, Moskwa, Dania i Szwecja. Imperium Osmańskie występuje w rozdziale w innym kontekście."
+    "explanation": "O Inflanty rywalizowały Litwa, Moskwa, Dania i Szwecja. Imperium Osmańskie występuje w innym kontekście."
   },
   {
     "id": "R02_INF_07",
@@ -1108,7 +1108,7 @@ const ALL_EXERCISES = [
       "Rozbiory nastąpiły za życia Zygmunta Augusta"
     ],
     "answer": 0,
-    "explanation": "Rozdział zwraca uwagę na 247 lat dzielących hołd pruski od pierwszego rozbioru i ostrzega przed ocenianiem dawnych decyzji z wiedzą o bardzo odległych skutkach."
+    "explanation": "Zwraca uwagę się na 247 lat dzielących hołd pruski od pierwszego rozbioru i ostrzega przed ocenianiem dawnych decyzji z wiedzą o bardzo odległych skutkach."
   },
   {
     "id": "R02_HARD_07",
@@ -1187,7 +1187,7 @@ const ALL_EXERCISES = [
       "Barbara Jagiellonka"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że była to Katarzyna Jagiellonka. W czasie uwięzienia na Gripsholm urodził się jej syn Zygmunt Waza."
+    "explanation": "Była to Katarzyna Jagiellonka. W czasie uwięzienia na Gripsholm urodził się jej syn Zygmunt Waza."
   },
   {
     "id": "R02_HARD_12",

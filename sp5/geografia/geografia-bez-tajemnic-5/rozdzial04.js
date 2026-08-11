@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Strefy klimatyczne i roślinne na Ziemi układają się równoleżnikowo, czyli ze wschodu na zachód.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że strefy klimatyczne i roślinne rozciągają się wzdłuż równoleżników."
+    "explanation": "Strefy klimatyczne i roślinne rozciągają się wzdłuż równoleżników."
   },
   {
     "id": "R04_STR_03",
@@ -157,7 +157,7 @@ const ALL_EXERCISES = [
       "tundra",
       "Tundra"
     ],
-    "explanation": "Taką formację roślinną podręcznik nazywa tundrą."
+    "explanation": "Taką formację roślinną nazywa się tundrą."
   },
   {
     "id": "R04_STR_10",
@@ -208,7 +208,7 @@ const ALL_EXERCISES = [
     "prompt": "Na obszarach o najzimniejszych klimatach na Ziemi nie występują rośliny, a grunt jest stale zamarznięty.",
     "options": null,
     "answer": true,
-    "explanation": "Takie obszary podręcznik opisuje jako pustynie lodowe."
+    "explanation": "Takie obszary opisuje się jako pustynie lodowe."
   },
   {
     "id": "R04_STR_12",
@@ -240,7 +240,7 @@ const ALL_EXERCISES = [
     "id": "R04_ROW_01",
     "section": "Wilgotne lasy równikowe",
     "type": "single_choice",
-    "prompt": "Który zestaw obejmuje trzy główne obszary występowania wilgotnych lasów równikowych wymienione w podręczniku?",
+    "prompt": "Który zestaw obejmuje trzy główne obszary występowania wilgotnych lasów równikowych?",
     "options": [
       "Amazonia, Kotlina Konga, Archipelag Malajski",
       "Sahara, Himalaje, Grenlandia",
@@ -250,7 +250,7 @@ const ALL_EXERCISES = [
       "Amazonia, tundra, tajga"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wskazuje Amazonię, Kotlinę Konga i Archipelag Malajski."
+    "explanation": "Wskazuje się Amazonię, Kotlinę Konga i Archipelag Malajski."
   },
   {
     "id": "R04_ROW_02",
@@ -283,7 +283,7 @@ const ALL_EXERCISES = [
     "id": "R04_ROW_04",
     "section": "Wilgotne lasy równikowe",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy klimatu równikowego opisane w podręczniku.",
+    "prompt": "Zaznacz cechy klimatu równikowego.",
     "options": [
       "Bardzo wysoka wilgotność.",
       "Częste burze.",
@@ -431,7 +431,7 @@ const ALL_EXERCISES = [
     "prompt": "Wilgotne lasy równikowe w różnych częściach świata mają identyczny skład gatunkowy.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik zaznacza, że lasy równikowe w różnych częściach świata nie są identyczne pod względem składu gatunkowego."
+    "explanation": "Lasy równikowe w różnych częściach świata nie są identyczne pod względem składu gatunkowego."
   },
   {
     "id": "R04_ROW_12",
@@ -667,7 +667,7 @@ const ALL_EXERCISES = [
         "tajgę"
       ]
     ],
-    "explanation": "Podręcznik odróżnia lasy liściaste i mieszane od lasów iglastych nazywanych tajgą."
+    "explanation": "Odróżnia się lasy liściaste i mieszane od lasów iglastych nazywanych tajgą."
   },
   {
     "id": "R04_SAW_01",
@@ -809,7 +809,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r04_step_jurta_i_pasterstwo.jpg",
-    "explanation": "Ludzi prowadzących koczowniczy, wędrowny tryb życia podręcznik nazywa nomadami."
+    "explanation": "Ludzi prowadzących koczowniczy, wędrowny tryb życia nazywa się nomadami."
   },
   {
     "id": "R04_SAW_09",
@@ -890,7 +890,7 @@ const ALL_EXERCISES = [
     "prompt": "Stepy w Europie zostały w większości przekształcone w pola uprawne.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że europejskie stepy w dużej części zamieniono w pola, m.in. dzięki żyznym czarnoziemom."
+    "explanation": "Europejskie stepy w dużej części zamieniono w pola, m.in. dzięki żyznym czarnoziemom."
   },
   {
     "id": "R04_MIE_01",
@@ -917,7 +917,7 @@ const ALL_EXERCISES = [
       "step": "czarnoziemy i obszary trawiaste"
     },
     "image": "/img/r04_formacje_porownanie.jpg",
-    "explanation": "Powtórka łączy najważniejsze cechy krajobrazów opisanych w rozdziale."
+    "explanation": "Powtórka łączy najważniejsze cechy krajobrazów."
   },
   {
     "id": "R04_MIE_02",
@@ -959,7 +959,7 @@ const ALL_EXERCISES = [
         "jurta"
       ]
     },
-    "explanation": "Każde pojęcie pochodzi z jednej z czterech głównych lekcji rozdziału."
+    "explanation": "Każde pojęcie dotyczy innego z czterech głównych zagadnień."
   },
   {
     "id": "R04_MIE_03",
@@ -1001,7 +1001,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_05",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki, które w rozdziale wpływają na zróżnicowanie klimatu i roślinności.",
+    "prompt": "Zaznacz czynniki, które wpływają na zróżnicowanie klimatu i roślinności.",
     "options": [
       "Ilość energii słonecznej docierającej do powierzchni Ziemi.",
       "Temperatura powietrza.",
@@ -1017,7 +1017,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Rozdział opisuje wpływ energii słonecznej, temperatury, opadów, wysokości nad poziomem morza oraz położenia względem wybrzeży."
+    "explanation": "Opisuje się wpływ energii słonecznej, temperatury, opadów, wysokości nad poziomem morza oraz położenia względem wybrzeży."
   },
   {
     "id": "R04_MIE_06",
@@ -1116,7 +1116,7 @@ const ALL_EXERCISES = [
       "lowiectwo",
       "Łowiectwo"
     ],
-    "explanation": "Słowniczek rozdziału definiuje łowiectwo jako zdobywanie pożywienia dzięki polowaniu na zwierzęta."
+    "explanation": "Definiuje się łowiectwo jako zdobywanie pożywienia dzięki polowaniu na zwierzęta."
   },
   {
     "id": "R04_MIE_12",
@@ -1157,7 +1157,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które dwa miejsca podręcznik wymienia jako należące do najbardziej suchych na Ziemi?",
+    "prompt": "Które dwa miejsca wymienia się jako należące do najbardziej suchych na Ziemi?",
     "options": [
       "Pustynia Atacama i Antarktyda",
       "Amazonia i Kotlina Konga",
@@ -1289,7 +1289,7 @@ const ALL_EXERCISES = [
       "żyzność",
       "zyznosc"
     ],
-    "explanation": "Słowniczek rozdziału definiuje tę właściwość jako żyzność gleby."
+    "explanation": "Definiuje się tę właściwość jako żyzność gleby."
   },
   {
     "id": "R04_HARD_09",
@@ -1363,13 +1363,13 @@ const ALL_EXERCISES = [
         "nomadzi"
       ]
     },
-    "explanation": "To zadanie łączy słowniczek i porównania z kilku miejsc rozdziału."
+    "explanation": "To zadanie łączy pojęcia ze słowniczka z porównaniami."
   },
   {
     "id": "R04_HARD_12",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz nazwę z regionem lub kontynentem wskazanym w rozdziale.",
+    "prompt": "Połącz nazwę z regionem lub kontynentem.",
     "options": null,
     "left": [
       "Amazonia",
@@ -1392,7 +1392,7 @@ const ALL_EXERCISES = [
       "Serengeti": "wschodnia Afryka",
       "Ułan Bator": "Mongolia"
     },
-    "explanation": "Rozdział podaje przykłady miejsc występowania lasów równikowych, sawann i stepów."
+    "explanation": "Podaje się przykłady miejsc występowania lasów równikowych, sawann i stepów."
   }
 ];
 

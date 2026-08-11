@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość płazińców to pasożyty żyjące wewnątrz innych organizmów.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że większość płazińców prowadzi pasożytniczy tryb życia wewnątrz żywicieli."
+    "explanation": "Większość płazińców prowadzi pasożytniczy tryb życia wewnątrz żywicieli."
   },
   {
     "id": "R02_PLA_03",
@@ -52,7 +52,7 @@ const ALL_EXERCISES = [
     "id": "R02_PLA_04",
     "section": "Płazińce",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy budowy ciała płazińców opisane w podręczniku.",
+    "prompt": "Zaznacz cechy budowy ciała płazińców.",
     "options": [
       "ciało podłużne",
       "ciało spłaszczone",
@@ -136,7 +136,7 @@ const ALL_EXERCISES = [
     "id": "R02_PLA_08",
     "section": "Płazińce",
     "type": "single_choice",
-    "prompt": "Czym tasiemiec uzbrojony różni się od tasiemca nieuzbrojonego według schematu z podręcznika?",
+    "prompt": "Czym tasiemiec uzbrojony różni się od tasiemca nieuzbrojonego według schematu?",
     "image": "/img/r02_tasiemiec_budowa.jpg",
     "options": [
       "Ma haczyki i przyssawki na główce",
@@ -302,13 +302,13 @@ const ALL_EXERCISES = [
         "czlowieka"
       ]
     ],
-    "explanation": "Podręcznik podkreśla, że większość nicieni to pasożyty wewnętrzne roślin i zwierząt, także człowieka."
+    "explanation": "Większość nicieni to pasożyty wewnętrzne roślin i zwierząt, także człowieka."
   },
   {
     "id": "R02_NIC_05",
     "section": "Nicienie",
     "type": "single_choice",
-    "prompt": "Który nicień został podany w podręczniku jako pasożyt człowieka?",
+    "prompt": "Który nicień został jako pasożyt człowieka?",
     "image": "/img/r02_owsik_budowa.jpg",
     "options": [
       "owsik ludzki",
@@ -328,7 +328,7 @@ const ALL_EXERCISES = [
     "prompt": "Owsik ludzki występuje w jelicie grubym człowieka, głównie u dzieci.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku owsik ludzki opisano jako pasożyta jelita grubego, częstego szczególnie u dzieci."
+    "explanation": "Owsik ludzki opisano jako pasożyta jelita grubego, częstego szczególnie u dzieci."
   },
   {
     "id": "R02_NIC_07",
@@ -364,7 +364,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_09",
     "section": "Nicienie",
     "type": "multi_select",
-    "prompt": "Wybierz objawy lub skutki obecności owsików opisane w podręczniku.",
+    "prompt": "Wybierz objawy lub skutki obecności owsików.",
     "options": [
       "zaczerwienienie skóry w okolicach odbytu",
       "swędzenie skóry, szczególnie nocą",
@@ -508,7 +508,7 @@ const ALL_EXERCISES = [
       "około 5"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że ciało dżdżownicy składa się z około 100 pierścieni."
+    "explanation": "Ciało dżdżownicy składa się z około 100 pierścieni."
   },
   {
     "id": "R02_PIE_05",
@@ -592,7 +592,7 @@ const ALL_EXERCISES = [
     "id": "R02_PIE_09",
     "section": "Pierścienice",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy pijawki opisane w podręczniku.",
+    "prompt": "Zaznacz cechy pijawki.",
     "image": "/img/r02_pijawka_budowa.jpg",
     "options": [
       "przyssawki na pierwszym i ostatnim segmencie",
@@ -700,7 +700,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik zaleca jedzenie mięsa ze znanego, przebadanego źródła oraz unikanie mięsa surowego i niedogotowanego."
+    "explanation": "Zaleca się jedzenie mięsa ze znanego, przebadanego źródła oraz unikanie mięsa surowego i niedogotowanego."
   },
   {
     "id": "R02_PRO_03",
@@ -853,7 +853,7 @@ const ALL_EXERCISES = [
     "prompt": "Utrzymywanie toalety w czystości należy do sposobów zapobiegania zakażeniu owsikami.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wymienia czystość toalety jako jedną z zasad higieny pomagających uniknąć owsicy."
+    "explanation": "Wymienia się czystość toalety jako jedną z zasad higieny pomagających uniknąć owsicy."
   },
   {
     "id": "R02_PRO_12",
@@ -932,7 +932,7 @@ const ALL_EXERCISES = [
     "id": "R02_POR_03",
     "section": "Porównanie bezkręgowców",
     "type": "single_choice",
-    "prompt": "Które dwie grupy obejmują pasożyty wewnętrzne opisane w podręczniku?",
+    "prompt": "Które dwie grupy obejmują pasożyty wewnętrzne?",
     "options": [
       "płazińce i nicienie",
       "płazińce i pierścienice",
@@ -948,7 +948,7 @@ const ALL_EXERCISES = [
     "id": "R02_POR_04",
     "section": "Porównanie bezkręgowców",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady zwierząt wolno żyjących opisanych w rozdziale.",
+    "prompt": "Zaznacz przykłady zwierząt wolno żyjących.",
     "options": [
       "wypławek biały",
       "nicienie glebowe",
@@ -962,7 +962,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "W rozdziale jako wolno żyjące opisano m.in. wypławka, niektóre nicienie glebowe i dżdżownice; pijawki też należą do pierścienic, choć wiele z nich jest pasożytami zewnętrznymi."
+    "explanation": "Jako wolno żyjące opisano m.in. wypławka, niektóre nicienie glebowe i dżdżownice; pijawki też należą do pierścienic, choć wiele z nich jest pasożytami zewnętrznymi."
   },
   {
     "id": "R02_POR_05",
@@ -971,7 +971,7 @@ const ALL_EXERCISES = [
     "prompt": "Płazińce, nicienie i pierścienice należą do bezkręgowców.",
     "options": null,
     "answer": true,
-    "explanation": "Cały rozdział omawia te trzy grupy jako zwierzęta bezkręgowe."
+    "explanation": "Wszystkie trzy grupy to zwierzęta bezkręgowe."
   },
   {
     "id": "R02_POR_06",
@@ -1108,7 +1108,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który płaziniec opisany w rozdziale może osiągać do 10 m długości?",
+    "prompt": "Który płaziniec może osiągać do 10 m długości?",
     "options": [
       "tasiemiec nieuzbrojony",
       "tasiemiec uzbrojony",
@@ -1118,13 +1118,13 @@ const ALL_EXERCISES = [
       "pijawka"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że tasiemiec nieuzbrojony może osiągać do 10 m długości."
+    "explanation": "Tasiemiec nieuzbrojony może osiągać do 10 m długości."
   },
   {
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który płaziniec opisany w rozdziale osiąga zwykle 2–4 m długości?",
+    "prompt": "Który płaziniec osiąga zwykle 2–4 m długości?",
     "options": [
       "tasiemiec uzbrojony",
       "tasiemiec nieuzbrojony",
@@ -1134,7 +1134,7 @@ const ALL_EXERCISES = [
       "rurówka"
     ],
     "answer": 0,
-    "explanation": "W rozdziale wskazano, że tasiemiec uzbrojony osiąga 2–4 m długości."
+    "explanation": "Tasiemiec uzbrojony osiąga 2–4 m długości."
   },
   {
     "id": "R02_HARD_03",
@@ -1159,13 +1159,13 @@ const ALL_EXERCISES = [
       "C. elegans",
       "c elegans"
     ],
-    "explanation": "Podręcznik podaje jako ciekawostkę gatunek Caenorhabditis elegans."
+    "explanation": "Podaje się jako ciekawostkę gatunek Caenorhabditis elegans."
   },
   {
     "id": "R02_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Do czego mogą być wykorzystywane pożyteczne nicienie w rolnictwie według rozdziału?",
+    "prompt": "Do czego mogą być wykorzystywane pożyteczne nicienie w rolnictwie?",
     "options": [
       "do zwalczania szkodników upraw",
       "do zapylania kwiatów",
@@ -1175,13 +1175,13 @@ const ALL_EXERCISES = [
       "do badania mięsa przez weterynarza"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że nicienie mogą być używane do zwalczania szkodników upraw, głównie owadów."
+    "explanation": "Nicienie mogą być używane do zwalczania szkodników upraw, głównie owadów."
   },
   {
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy przygotowania hodowli nicieni zgodnie z opisem w rozdziale.",
+    "prompt": "Ułóż etapy przygotowania hodowli nicieni zgodnie z opisem.",
     "options": null,
     "items": [
       "dodaj drożdże, rozgniecionego banana i porcję startową nicieni",
@@ -1201,7 +1201,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz korzyści wynikające z działalności pierścienic wymienione w rozdziale.",
+    "prompt": "Zaznacz korzyści wynikające z działalności pierścienic.",
     "options": [
       "spulchnianie i użyźnianie gleby",
       "oczyszczanie środowiska",
@@ -1249,7 +1249,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_10",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Podczas porządkowania ogrodu uczeń chce wrzucić do kompostu kości, mięso i nabiał. Co powinien zrobić zgodnie z instrukcją z rozdziału?",
+    "prompt": "Podczas porządkowania ogrodu uczeń chce wrzucić do kompostu kości, mięso i nabiał. Co powinien zrobić zgodnie z instrukcją?",
     "options": [
       "nie wrzucać tych produktów do kompostu",
       "wrzucić je jako odpadki zielone",

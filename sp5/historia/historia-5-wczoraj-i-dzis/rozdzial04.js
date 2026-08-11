@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Cesarstwo wschodniorzymskie powstało w 395 roku po podziale Imperium Rzymskiego.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku podano, że Bizancjum powstało w 395 roku wskutek podziału Imperium Rzymskiego na część zachodnią i wschodnią."
+    "explanation": "Bizancjum powstało w 395 roku wskutek podziału Imperium Rzymskiego na część zachodnią i wschodnią."
   },
   {
     "id": "R04_BIZ_03",
@@ -157,7 +157,7 @@ const ALL_EXERCISES = [
     "prompt": "Wnętrza kościołów i pałaców bizantyjskich zdobiono freskami oraz mozaikami.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje freski i mozaiki jako charakterystyczne dekoracje wnętrz bizantyjskich."
+    "explanation": "Wskazuje się freski i mozaiki jako charakterystyczne dekoracje wnętrz bizantyjskich."
   },
   {
     "id": "R04_BIZ_10",
@@ -206,7 +206,7 @@ const ALL_EXERCISES = [
     "id": "R04_ARA_01",
     "section": "Arabowie i początki islamu",
     "type": "single_choice",
-    "prompt": "Gdzie początkowo zamieszkiwali Arabowie opisani w rozdziale?",
+    "prompt": "Gdzie początkowo zamieszkiwali Arabowie?",
     "options": [
       "Na Półwyspie Arabskim",
       "W Galii",
@@ -343,7 +343,7 @@ const ALL_EXERCISES = [
       "Koronację Ottona I"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że za pośrednictwem Arabów do Europy trafiały różne osiągnięcia cywilizacji Wschodu."
+    "explanation": "Za pośrednictwem Arabów do Europy trafiały różne osiągnięcia cywilizacji Wschodu."
   },
   {
     "id": "R04_ARA_09",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "prompt": "W VIII wieku Arabowie opanowali ziemie od Indii po Morze Śródziemne, północną Afrykę i część dzisiejszej Hiszpanii.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje taki zasięg podbojów arabskich w VIII wieku.",
+    "explanation": "Wskazuje się taki zasięg podbojów arabskich w VIII wieku.",
     "image": "/img/r04_wojownik_arabski.jpg"
   },
   {
@@ -482,7 +482,7 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_05",
     "section": "Nowe państwa w Europie",
     "type": "multi_select",
-    "prompt": "Zaznacz działania lub osiągnięcia Karola Wielkiego opisane w rozdziale.",
+    "prompt": "Zaznacz działania lub osiągnięcia Karola Wielkiego.",
     "options": [
       "rozszerzył granice państwa Franków",
       "wspierał rozwój szkół przy kościołach i klasztorach",
@@ -628,7 +628,7 @@ const ALL_EXERCISES = [
     "id": "R04_KON_01",
     "section": "Konflikt papiestwa z cesarstwem",
     "type": "single_choice",
-    "prompt": "Jak nazywa się rozłam chrześcijaństwa z 1054 roku opisany w rozdziale?",
+    "prompt": "Jak nazywa się rozłam chrześcijaństwa z 1054 roku?",
     "options": [
       "wielka schizma wschodnia",
       "układ w Verdun",
@@ -690,7 +690,7 @@ const ALL_EXERCISES = [
     "prompt": "Ekskomunika oznaczała największą karę kościelną, czyli wykluczenie ze wspólnoty wiernych.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale ekskomunikę objaśniono jako klątwę i największą karę w Kościele."
+    "explanation": "Ekskomunikę objaśniono jako klątwę i największą karę w Kościele."
   },
   {
     "id": "R04_KON_05",
@@ -811,7 +811,7 @@ const ALL_EXERCISES = [
     "id": "R04_KON_12",
     "section": "Konflikt papiestwa z cesarstwem",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do chrześcijaństwa zachodniego lub wschodniego według rozdziału.",
+    "prompt": "Przyporządkuj elementy do chrześcijaństwa zachodniego lub wschodniego.",
     "options": null,
     "items": [
       "uznanie zwierzchnictwa papieża",
@@ -869,7 +869,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wymienia Jerozolimę, Betlejem i Nazaret jako najważniejsze miejsca związane z życiem Jezusa."
+    "explanation": "Wymienia się Jerozolimę, Betlejem i Nazaret jako najważniejsze miejsca związane z życiem Jezusa."
   },
   {
     "id": "R04_WYP_03",
@@ -901,7 +901,7 @@ const ALL_EXERCISES = [
     "prompt": "Nazwa krucjata pochodzi od łacińskiego słowa oznaczającego krzyż.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale wyjaśniono, że nazwa krucjata pochodzi od łacińskiego crux, czyli krzyż."
+    "explanation": "Nazwa krucjata pochodzi od łacińskiego crux, czyli krzyż."
   },
   {
     "id": "R04_WYP_05",
@@ -956,7 +956,7 @@ const ALL_EXERCISES = [
       "joannici": "Zakon Szpitalników świętego Jana z Jerozolimy",
       "templariusze": "Zakon Ubogich Rycerzy Chrystusa i Świątyni Salomona"
     },
-    "explanation": "Rozdział wymienia trzy główne zakony rycerskie oraz ich pełne nazwy.",
+    "explanation": "Wymienia się trzy główne zakony rycerskie oraz ich pełne nazwy.",
     "image": "/img/r04_rycerze_zakonni.jpg"
   },
   {
@@ -1009,7 +1009,7 @@ const ALL_EXERCISES = [
     "id": "R04_WYP_11",
     "section": "Wyprawy krzyżowe",
     "type": "sort",
-    "prompt": "Podziel skutki wypraw krzyżowych na pozytywne i negatywne dla Europy według rozdziału.",
+    "prompt": "Podziel skutki wypraw krzyżowych na pozytywne i negatywne dla Europy.",
     "options": null,
     "items": [
       "poznanie kultury Bliskiego Wschodu",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
       "900 lat"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że Turcy zdobyli Konstantynopol po 53 dniach oblężenia."
+    "explanation": "Turcy zdobyli Konstantynopol po 53 dniach oblężenia."
   },
   {
     "id": "R04_HARD_02",
@@ -1099,7 +1099,7 @@ const ALL_EXERCISES = [
     "prompt": "Dziecko cesarskie urodzone w komnacie wyłożonej porfirem mogło nosić tytuł Porfirogenety.",
     "options": null,
     "answer": true,
-    "explanation": "Ciekawostka w rozdziale wyjaśnia, że Porfirogeneta znaczył „zrodzony w purpurze” i dawał prawo do tronu."
+    "explanation": "Ciekawostka wyjaśnia, że Porfirogeneta znaczył „zrodzony w purpurze” i dawał prawo do tronu."
   },
   {
     "id": "R04_HARD_04",
@@ -1119,7 +1119,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz ustalenia konkordatu w Wormacji według rozdziału.",
+    "prompt": "Zaznacz ustalenia konkordatu w Wormacji.",
     "options": [
       "biskupi mieli być wybierani zgodnie z przepisami kościelnymi",
       "wybór biskupów zatwierdzał papież",
@@ -1140,7 +1140,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż zakony rycerskie według dat powstania podanych w rozdziale, od najwcześniejszego.",
+    "prompt": "Ułóż zakony rycerskie według dat powstania, od najwcześniejszego.",
     "options": null,
     "items": [
       "templariusze",
@@ -1175,7 +1175,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz osobę z wydarzeniem lub rolą opisaną w rozdziale.",
+    "prompt": "Połącz osobę z wydarzeniem lub rolą.",
     "options": null,
     "left": [
       "al-Mansur",
@@ -1220,7 +1220,7 @@ const ALL_EXERCISES = [
       "Konkordat wormacki"
     ],
     "answer": 0,
-    "explanation": "W rozdziale o skarbie templariuszy opisano Pergamin z Chinon odnaleziony w Tajnym Archiwum Watykanu."
+    "explanation": "O skarbie templariuszy opisano Pergamin z Chinon odnaleziony w Tajnym Archiwum Watykanu."
   }
 ];
 

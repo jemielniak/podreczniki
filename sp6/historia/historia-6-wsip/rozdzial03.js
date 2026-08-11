@@ -12,7 +12,7 @@ const ALL_EXERCISES = [
     "id": "R03_EUR_01",
     "section": "Europa Zachodnia",
     "type": "single_choice",
-    "prompt": "Kogo podręcznik nazywa architektem potęgi Francji w XVII wieku?",
+    "prompt": "Kogo nazywa się architektem potęgi Francji w XVII wieku?",
     "options": [
       "Armanda de Richelieu",
       "Olivera Cromwella",
@@ -61,7 +61,7 @@ const ALL_EXERCISES = [
     "id": "R03_EUR_04",
     "section": "Europa Zachodnia",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy władcy absolutnego opisane w rozdziale.",
+    "prompt": "Zaznacz cechy władcy absolutnego.",
     "options": [
       "Stanowi prawa bez przyzwolenia stanów",
       "Nakłada nowe podatki bez zgody stanów",
@@ -221,7 +221,7 @@ const ALL_EXERCISES = [
     "prompt": "Od 1573 roku królowie Rzeczypospolitej byli wybierani przez szlachtę w wolnej elekcji.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że od 1573 roku aż do upadku państwa wszyscy polscy królowie byli władcami elekcyjnymi."
+    "explanation": "Od 1573 roku aż do upadku państwa wszyscy polscy królowie byli władcami elekcyjnymi."
   },
   {
     "id": "R03_WAZ_03",
@@ -352,7 +352,7 @@ const ALL_EXERCISES = [
     "id": "R03_WAZ_09",
     "section": "Wazowie i wojny z Rosją",
     "type": "sort",
-    "prompt": "Przyporządkuj postacie do państwa lub spraw, z którymi są w rozdziale najmocniej związane.",
+    "prompt": "Przyporządkuj postacie do państwa lub spraw, z którymi są najmocniej związane.",
     "options": null,
     "items": [
       "Zygmunt III Waza",
@@ -408,7 +408,7 @@ const ALL_EXERCISES = [
     "prompt": "Kozacy wywodzili się głównie z chłopstwa lub drobnej szlachty, wyznawali prawosławie i posługiwali się językiem ruskim.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik tak opisuje społeczne, religijne i językowe cechy Kozaków na Zaporożu."
+    "explanation": "Opisuje się społeczne, religijne i językowe cechy Kozaków na Zaporożu."
   },
   {
     "id": "R03_KOZ_03",
@@ -817,7 +817,7 @@ const ALL_EXERCISES = [
     "id": "R03_TUR_04",
     "section": "Wojny z Turcją",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy husarii opisane w rozdziale.",
+    "prompt": "Zaznacz cechy husarii.",
     "options": [
       "Była najcięższą i najsłynniejszą formacją wojskową Rzeczypospolitej",
       "Zmasowaną szarżą rozbijała szeregi przeciwnika",
@@ -918,7 +918,7 @@ const ALL_EXERCISES = [
     "id": "R03_TUR_09",
     "section": "Wojny z Turcją",
     "type": "sort",
-    "prompt": "Przyporządkuj formacje do sposobu walki opisanego w rozdziale.",
+    "prompt": "Przyporządkuj formacje do sposobu walki.",
     "options": null,
     "items": [
       "husaria",
@@ -968,7 +968,7 @@ const ALL_EXERCISES = [
       "Holandia"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wskazuje Włochy jako miejsce narodzin kolejnej po renesansie epoki sztuki, literatury i muzyki."
+    "explanation": "Wskazuje się Włochy jako miejsce narodzin kolejnej po renesansie epoki sztuki, literatury i muzyki."
   },
   {
     "id": "R03_BAR_02",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "id": "R03_BAR_04",
     "section": "Barok i sarmatyzm",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy sztuki barokowej opisane w rozdziale.",
+    "prompt": "Zaznacz cechy sztuki barokowej.",
     "options": [
       "Formy pełne ruchu",
       "Dążenie do realistycznego przedstawienia ciała i natury",
@@ -1238,7 +1238,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_06",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz układ pokojowy lub rozejm ze skutkiem opisanym w rozdziale.",
+    "prompt": "Połącz układ pokojowy lub rozejm ze skutkiem.",
     "options": null,
     "left": [
       "Polanów 1634",
@@ -1264,7 +1264,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Według ramki z podręcznika Władysław Siciński w 1652 roku od razu zerwał cały sejm na samym początku obrad.",
+    "prompt": "Według ramki Władysław Siciński w 1652 roku od razu zerwał cały sejm na samym początku obrad.",
     "options": null,
     "answer": false,
     "explanation": "Ramka wyjaśnia, że Siciński zawetował przedłużenie obrad poza określony prawem czas; dopiero później zaczęto zrywać sejmy coraz częściej i nawet na początku obrad."
@@ -1324,7 +1324,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy kultury sarmatyzmu opisane w rozdziale.",
+    "prompt": "Zaznacz cechy kultury sarmatyzmu.",
     "options": [
       "Pochwała złotej wolności szlacheckiej",
       "Przywiązanie do rodzimych instytucji politycznych",

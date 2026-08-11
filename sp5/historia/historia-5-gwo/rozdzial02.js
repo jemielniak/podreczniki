@@ -21,13 +21,13 @@ const ALL_EXERCISES = [
       "Na Wyspach Brytyjskich"
     ],
     "answer": 1,
-    "explanation": "Podręcznik podaje, że Grecja leży na południu Europy."
+    "explanation": "Grecja leży na południu Europy."
   },
   {
     "id": "R02_POL_02",
     "section": "Starożytna Grecja i polis",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy krajobrazu i warunków życia w starożytnej Grecji opisane w podręczniku.",
+    "prompt": "Zaznacz elementy krajobrazu i warunków życia w starożytnej Grecji.",
     "options": [
       "Górzysty kraj",
       "Ubogie, skaliste ziemie",
@@ -100,7 +100,7 @@ const ALL_EXERCISES = [
       "Fenicianami"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że Grecy nazywali siebie Hellenami."
+    "explanation": "Grecy nazywali siebie Hellenami."
   },
   {
     "id": "R02_POL_07",
@@ -154,7 +154,7 @@ const ALL_EXERCISES = [
     "id": "R02_POL_10",
     "section": "Starożytna Grecja i polis",
     "type": "scenario",
-    "prompt": "Uczeń tłumaczy, dlaczego w Helladzie powstało wiele niezależnych polis. Które wyjaśnienie najlepiej pasuje do podręcznika?",
+    "prompt": "Uczeń tłumaczy, dlaczego w Helladzie powstało wiele niezależnych polis. Które wyjaśnienie jest najtrafniejsze?",
     "options": [
       "Doliny oddzielały góry, więc mieszkańcy spotykali się rzadko.",
       "Grecy mieszkali wyłącznie na pustyni.",
@@ -163,7 +163,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r02_greckie_polis_krajobraz.jpg",
-    "explanation": "Podręcznik wyjaśnia, że górzysty teren oddzielał doliny i utrudniał częste kontakty."
+    "explanation": "Górzysty teren oddzielał doliny i utrudniał częste kontakty."
   },
   {
     "id": "R02_POL_11",
@@ -200,7 +200,7 @@ const ALL_EXERCISES = [
     "id": "R02_POL_12",
     "section": "Starożytna Grecja i polis",
     "type": "true_false",
-    "prompt": "Słowo „antyczny” oznacza w podręczniku „starożytny” w odniesieniu do Grecji i Rzymu.",
+    "prompt": "Słowo „antyczny” oznacza „starożytny” w odniesieniu do Grecji i Rzymu.",
     "options": null,
     "answer": true,
     "explanation": "W przypisie wyjaśniono, że antyczny znaczy starożytny w odniesieniu do Grecji i Rzymu."
@@ -235,7 +235,7 @@ const ALL_EXERCISES = [
       "Bizancjum"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że pierwszą demokracją w dziejach świata były Ateny."
+    "explanation": "Pierwszą demokracją w dziejach świata były Ateny."
   },
   {
     "id": "R02_DEM_03",
@@ -362,13 +362,13 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wskazuje m.in. brak praw głosu kobiet, niewolników i cudzoziemców, demokrację bezpośrednią oraz losowanie wielu urzędów."
+    "explanation": "Wskazuje się m.in. brak praw głosu kobiet, niewolników i cudzoziemców, demokrację bezpośrednią oraz losowanie wielu urzędów."
   },
   {
     "id": "R02_DEM_11",
     "section": "Demokracja ateńska",
     "type": "scenario",
-    "prompt": "Ateńczyk chce zabrać głos na zgromadzeniu ludowym. Jest wolnym mężczyzną, a jego rodzice są Ateńczykami. Czy spełnia warunki opisane w podręczniku?",
+    "prompt": "Ateńczyk chce zabrać głos na zgromadzeniu ludowym. Jest wolnym mężczyzną, a jego rodzice są Ateńczykami. Czy spełnia warunki?",
     "options": [
       "Tak, spełnia warunki obywatela.",
       "Nie, bo głosować mogli tylko niewolnicy.",
@@ -444,7 +444,7 @@ const ALL_EXERCISES = [
       "jedną setną"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że niewolnicy stanowili jedną trzecią mieszkańców ateńskiej polis."
+    "explanation": "Niewolnicy stanowili jedną trzecią mieszkańców ateńskiej polis."
   },
   {
     "id": "R02_MIT_01",
@@ -502,7 +502,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIT_04",
     "section": "Mitologia grecka",
     "type": "match",
-    "prompt": "Połącz bóstwo z opisem z podręcznika.",
+    "prompt": "Połącz bóstwo z opisem.",
     "options": null,
     "left": [
       "Zeus",
@@ -528,7 +528,7 @@ const ALL_EXERCISES = [
       "Hera": "opiekunka małżeństw",
       "Afrodyta": "bogini miłości i piękności"
     },
-    "explanation": "Podręcznik wymienia funkcje najważniejszych bogów i bogiń olimpijskich."
+    "explanation": "Wymienia się funkcje najważniejszych bogów i bogiń olimpijskich."
   },
   {
     "id": "R02_MIT_05",
@@ -567,7 +567,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIT_07",
     "section": "Mitologia grecka",
     "type": "scenario",
-    "prompt": "Prometeusz wykrada dla ludzi ogień z Olimpu. Jaka kara spotyka go według mitu opisanego w podręczniku?",
+    "prompt": "Prometeusz wykrada dla ludzi ogień z Olimpu. Jaka kara spotyka go według mitu?",
     "options": [
       "Został przykuty do skały, a orzeł rozszarpywał mu wątrobę.",
       "Musiał na zawsze wtaczać kamień pod górę.",
@@ -601,7 +601,7 @@ const ALL_EXERCISES = [
     "prompt": "Herakles był przykładem herosa.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje Heraklesa jako herosa, syna Zeusa i ziemskiej kobiety."
+    "explanation": "Podaje się Heraklesa jako herosa, syna Zeusa i ziemskiej kobiety."
   },
   {
     "id": "R02_MIT_10",
@@ -648,13 +648,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r02_syzyf_kamien.jpg",
-    "explanation": "Podręcznik podaje, że Syzyf został ukarany za próbę oszukania śmierci."
+    "explanation": "Syzyf został ukarany za próbę oszukania śmierci."
   },
   {
     "id": "R02_MIT_13",
     "section": "Mitologia grecka",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby czczenia bogów przez Hellenów opisane w podręczniku.",
+    "prompt": "Zaznacz sposoby czczenia bogów przez Hellenów.",
     "options": [
       "modły",
       "ofiary",
@@ -748,7 +748,7 @@ const ALL_EXERCISES = [
     "id": "R02_OSI_05",
     "section": "Osiągnięcia Greków",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o rzeźbach Fidiasza podane w podręczniku.",
+    "prompt": "Zaznacz informacje o rzeźbach Fidiasza.",
     "options": [
       "Posąg Ateny miał 12 metrów.",
       "Posąg Zeusa miał 13 metrów.",
@@ -858,7 +858,7 @@ const ALL_EXERCISES = [
       "Hipokrates": "ojciec medycyny",
       "Fidiasz": "twórca posągów Ateny i Zeusa"
     },
-    "explanation": "Podręcznik wymienia najważniejsze greckie osiągnięcia i związane z nimi postacie."
+    "explanation": "Wymienia się najważniejsze greckie osiągnięcia i związane z nimi postacie."
   },
   {
     "id": "R02_OSI_11",
@@ -880,7 +880,7 @@ const ALL_EXERCISES = [
         "Odyseję"
       ]
     ],
-    "explanation": "Podręcznik wymienia Iliadę i Odyseję."
+    "explanation": "Wymienia się Iliadę i Odyseję."
   },
   {
     "id": "R02_OSI_12",
@@ -918,7 +918,7 @@ const ALL_EXERCISES = [
     "id": "R02_OSI_14",
     "section": "Osiągnięcia Greków",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia naukowe Greków opisane w podręczniku.",
+    "prompt": "Zaznacz osiągnięcia naukowe Greków.",
     "options": [
       "Archimedes ułożył wzór na pole i obwód koła.",
       "Uczeni dowiedli, że Ziemia jest kulą.",
@@ -931,13 +931,13 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wymienia m.in. wzory Archimedesa, dowód kulistości Ziemi i dokonania Hipokratesa."
+    "explanation": "Wymienia się m.in. wzory Archimedesa, dowód kulistości Ziemi i dokonania Hipokratesa."
   },
   {
     "id": "R02_MIE_01",
     "section": "Powtórka mieszana",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia lub zjawiska w porządku chronologicznym według dat z rozdziału.",
+    "prompt": "Ułóż wydarzenia lub zjawiska w porządku chronologicznym według dat.",
     "options": null,
     "items": [
       "śmierć Sokratesa",
@@ -986,7 +986,7 @@ const ALL_EXERCISES = [
         "Sofokles"
       ]
     },
-    "explanation": "Pojęcia pochodzą z trzech głównych części rozdziału: demokracji, mitologii oraz osiągnięć Greków."
+    "explanation": "Pojęcia dotyczą trzech tematów: demokracji, mitologii oraz osiągnięć Greków."
   },
   {
     "id": "R02_MIE_03",
@@ -1010,7 +1010,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIE_05",
     "section": "Powtórka mieszana",
     "type": "match",
-    "prompt": "Połącz liczbę z informacją z rozdziału.",
+    "prompt": "Połącz liczbę z informacją.",
     "options": null,
     "left": [
       "500",
@@ -1033,13 +1033,13 @@ const ALL_EXERCISES = [
       "12 metrów": "posąg Ateny w Partenonie",
       "24 godziny": "recytacja całej Iliady"
     },
-    "explanation": "Rozdział zawiera kilka ważnych liczb dotyczących Aten, ostracyzmu i literatury."
+    "explanation": "To ważne liczby dotyczące Aten, ostracyzmu i literatury."
   },
   {
     "id": "R02_MIE_06",
     "section": "Powtórka mieszana",
     "type": "true_false",
-    "prompt": "W rozdziale Akropol, Olimp i Pnyks oznaczają to samo miejsce.",
+    "prompt": "Akropol, Olimp i Pnyks oznaczają to samo miejsce.",
     "options": null,
     "answer": false,
     "explanation": "To różne miejsca: Akropol był wzgórzem z budowlami Aten, Olimp siedzibą bogów, a Pnyks miejscem zgromadzeń."
@@ -1079,7 +1079,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "W jakich latach Perykles był przywódcą Aten według osi czasu w rozdziale?",
+    "prompt": "W jakich latach Perykles był przywódcą Aten według osi czasu?",
     "options": [
       "ok. 461–429 p.n.e.",
       "594–508/507 p.n.e.",
@@ -1182,7 +1182,7 @@ const ALL_EXERCISES = [
       "około 500 godzin"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że recytacja całej Iliady zajmuje około 24 godzin."
+    "explanation": "Recytacja całej Iliady zajmuje około 24 godzin."
   },
   {
     "id": "R02_HARD_08",
@@ -1211,9 +1211,9 @@ const KID_PROMPTS = {
   "R02_POL_07": "Jedno greckie miasto-państwo, czyli miasto z okolicą albo wyspa, to...",
   "R02_POL_08": "Wskaż, co nie pasuje do pozostałych: zboże, oliwki, winorośl, piramidy.",
   "R02_POL_09": "Połącz pojęcie z wyjaśnieniem.",
-  "R02_POL_10": "Uczeń tłumaczy, dlaczego w Helladzie powstało wiele niezależnych polis. Które wyjaśnienie najlepiej pasuje do podręcznika?",
+  "R02_POL_10": "Uczeń tłumaczy, dlaczego w Helladzie powstało wiele niezależnych polis. Które wyjaśnienie jest najtrafniejsze?",
   "R02_POL_11": "Przyporządkuj nazwy do kategorii.",
-  "R02_POL_12": "Słowo „antyczny” oznacza w podręczniku „starożytny” w odniesieniu do Grecji i Rzymu.",
+  "R02_POL_12": "Słowo „antyczny” oznacza „starożytny” w odniesieniu do Grecji i Rzymu.",
   "R02_DEM_01": "Co oznacza greckie słowo „demokracja”?",
   "R02_DEM_02": "Która polis była pierwszą demokracją w dziejach świata?",
   "R02_DEM_03": "Zaznacz trzy podstawowe instytucje demokracji ateńskiej.",
@@ -1231,10 +1231,10 @@ const KID_PROMPTS = {
   "R02_MIT_01": "Jaką religię wyznawali starożytni Grecy?",
   "R02_MIT_02": "Gdzie według Greków mieszkali bogowie olimpijscy?",
   "R02_MIT_03": "Zaznacz cechy greckich bogów odróżniające ich od ludzi.",
-  "R02_MIT_04": "Połącz bóstwo z opisem z podręcznika.",
+  "R02_MIT_04": "Połącz bóstwo z opisem.",
   "R02_MIT_05": "Zbiór mitów nazywamy __________.",
   "R02_MIT_06": "Co jest mitem?",
-  "R02_MIT_07": "Prometeusz wykrada dla ludzi ogień z Olimpu. Jaka kara spotyka go według mitu opisanego w podręczniku?",
+  "R02_MIT_07": "Prometeusz wykrada dla ludzi ogień z Olimpu. Jaka kara spotyka go według mitu?",
   "R02_MIT_08": "Kim byli herosi?",
   "R02_MIT_09": "Herakles był przykładem herosa.",
   "R02_MIT_10": "Kto według wierzeń greckich przewoził dusze zmarłych przez Styks?",
@@ -1246,7 +1246,7 @@ const KID_PROMPTS = {
   "R02_OSI_02": "Jak nazywała się najważniejsza świątynia na Akropolu?",
   "R02_OSI_03": "Partenon był świątynią bogini Ateny.",
   "R02_OSI_04": "Co zrobili architekci, aby Partenon wydawał się lekki i harmonijny?",
-  "R02_OSI_05": "Zaznacz informacje o rzeźbach Fidiasza podane w podręczniku.",
+  "R02_OSI_05": "Zaznacz informacje o rzeźbach Fidiasza.",
   "R02_OSI_06": "Kto wyrzeźbił Dyskobola?",
   "R02_OSI_07": "Z jakimi występami wiążą się początki greckiego teatru?",
   "R02_OSI_08": "Czym była tragedia w teatrze greckim?",
@@ -1261,10 +1261,10 @@ const KID_PROMPTS = {
   "R02_MIE_03": "Wskaż, co nie pasuje do pozostałych: Zeus, Posejdon, Hades, Sokrates.",
   "R02_MIE_04": "Wskaż, co nie pasuje do pozostałych: zgromadzenie ludowe, rada pięciuset, sąd ludowy, Partenon.",
   "R02_MIE_05": "Połącz liczbę z informacją.",
-  "R02_MIE_06": "W rozdziale Akropol, Olimp i Pnyks oznaczają to samo miejsce.",
+  "R02_MIE_06": "Akropol, Olimp i Pnyks oznaczają to samo miejsce.",
   "R02_MIE_07": "Który zestaw zawiera wyłącznie postacie wymienione w części o osiągnięciach Greków?",
   "R02_MIE_08": "Przewodnik pokazuje turystom ruiny świątyni Ateny na Akropolu. Którą nazwę powinien podać?",
-  "R02_HARD_01": "W jakich latach Perykles był przywódcą Aten według osi czasu w rozdziale?",
+  "R02_HARD_01": "W jakich latach Perykles był przywódcą Aten według osi czasu?",
   "R02_HARD_02": "Jaki minimalny udział obywateli był potrzebny, aby głosowanie ostracyzmu było ważne?",
   "R02_HARD_03": "Jak zwykle liczne były składy sądu ludowego rozstrzygające sprawy?",
   "R02_HARD_04": "Ateński ostracyzm zawsze pozbawiał wygnanego majątku.",

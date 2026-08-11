@@ -368,7 +368,7 @@ const ALL_EXERCISES = [
     "id": "R04_KR_09",
     "section": "Korzeń - organ podziemny rośliny",
     "type": "multi_select",
-    "prompt": "Wybierz przekształcenia korzeni opisane w rozdziale.",
+    "prompt": "Wybierz przekształcenia korzeni.",
     "options": [
       "korzenie spichrzowe",
       "korzenie podporowe",
@@ -570,7 +570,7 @@ const ALL_EXERCISES = [
     "id": "R04_PE_09",
     "section": "Pęd. Budowa i funkcje łodygi",
     "type": "multi_select",
-    "prompt": "Wybierz przekształcenia łodygi opisane w rozdziale.",
+    "prompt": "Wybierz przekształcenia łodygi.",
     "options": [
       "bulwy",
       "kłącza",
@@ -690,7 +690,7 @@ const ALL_EXERCISES = [
       "Liść mięty"
     ],
     "answer": 0,
-    "explanation": "Liść złożony składa się z kilku blaszek liściowych na wspólnym ogonku. W rozdziale takim przykładem jest kasztanowiec.",
+    "explanation": "Liść złożony składa się z kilku blaszek liściowych na wspólnym ogonku. Takim przykładem jest kasztanowiec.",
     "image": "/img/r04_lisc_prosty_zlozony.jpg"
   },
 
@@ -728,7 +728,7 @@ const ALL_EXERCISES = [
     "prompt": "U większości roślin aparaty szparkowe znajdują się po spodniej stronie blaszki liściowej.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. W rozdziale podano, że u większości roślin aparaty szparkowe są po spodniej stronie blaszki liściowej."
+    "explanation": "To prawda. U większości roślin aparaty szparkowe są po spodniej stronie blaszki liściowej."
   },
 
 {
@@ -750,7 +750,7 @@ const ALL_EXERCISES = [
     "id": "R04_LI_09",
     "section": "Liść - wytwórnia pokarmu",
     "type": "multi_select",
-    "prompt": "Wybierz przekształcenia liści opisane w rozdziale.",
+    "prompt": "Wybierz przekształcenia liści.",
     "options": [
       "liście czepne",
       "liście spichrzowe",
@@ -944,7 +944,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W strefie wydłużania komórki głównie zwiększają swoje rozmiary, a nie dzielą się. Pozostałe trzy zdania są zgodne z rozdziałem."
+    "explanation": "W strefie wydłużania komórki głównie zwiększają swoje rozmiary, a nie dzielą się. Pozostałe trzy zdania są prawdziwe."
   },
 
 {
@@ -1168,7 +1168,7 @@ const ALL_EXERCISES = [
         "miękisz"
       ]
     ],
-    "explanation": "W rozdziale podano, że aparaty szparkowe są zwykle po spodniej stronie blaszki, a wnętrze liścia wypełnia tkanka miękiszowa z chloroplastami."
+    "explanation": "Aparaty szparkowe są zwykle po spodniej stronie blaszki, a wnętrze liścia wypełnia tkanka miękiszowa z chloroplastami."
   },
 
 {

@@ -13,7 +13,7 @@ const ALL_EXERCISES = [
     "section": "Ustrój starożytnego Rzymu",
     "type": "single_choice",
     "prompt": "Według legendy w którym roku założono Rzym?",
-    "explanation": "Podręcznik podaje tradycyjną datę założenia Rzymu: 753 rok p.n.e.",
+    "explanation": "Podaje się tradycyjną datę założenia Rzymu: 753 rok p.n.e.",
     "options": [
       "753 rok p.n.e.",
       "509 rok p.n.e.",
@@ -106,7 +106,7 @@ const ALL_EXERCISES = [
     "id": "R03_UST_06",
     "section": "Ustrój starożytnego Rzymu",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy republiki rzymskiej opisane w podręczniku.",
+    "prompt": "Zaznacz cechy republiki rzymskiej.",
     "explanation": "W republice obywatele wybierali urzędników, kadencje zwykle trwały rok, a ważną rolę odgrywał senat.",
     "options": [
       "Urzędnicy byli wybierani przez obywateli.",
@@ -353,7 +353,7 @@ const ALL_EXERCISES = [
     "id": "R03_IMP_10",
     "section": "Imperium Rzymskie",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny upadku cesarstwa zachodniorzymskiego wymienione w podręczniku.",
+    "prompt": "Zaznacz przyczyny upadku cesarstwa zachodniorzymskiego.",
     "explanation": "Do upadku zachodniej części cesarstwa przyczyniły się kryzys gospodarczy i polityczny, najazdy plemion barbarzyńskich oraz spadek znaczenia Rzymu.",
     "options": [
       "kryzys gospodarczy",
@@ -375,7 +375,7 @@ const ALL_EXERCISES = [
     "section": "Życie w Wiecznym Mieście",
     "type": "single_choice",
     "prompt": "Ilu mieszkańców miał Rzym w okresie świetności w pierwszych wiekach naszej ery?",
-    "explanation": "Podręcznik podaje, że stolica cesarstwa liczyła około miliona mieszkańców.",
+    "explanation": "Stolica cesarstwa liczyła około miliona mieszkańców.",
     "options": [
       "około miliona",
       "około dziesięciu tysięcy",
@@ -431,7 +431,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZYC_04",
     "section": "Życie w Wiecznym Mieście",
     "type": "multi_select",
-    "prompt": "Zaznacz bóstwa zaliczane w podręczniku do najważniejszych bogów rzymskich.",
+    "prompt": "Zaznacz bóstwa zaliczane do najważniejszych bogów rzymskich.",
     "explanation": "Do najważniejszych bogów rzymskich należeli Jowisz, Junona, Minerwa, Neptun i Mars.",
     "options": [
       "Jowisz",
@@ -716,8 +716,8 @@ const ALL_EXERCISES = [
     "id": "R03_DOK_10",
     "section": "Dokonania starożytnych Rzymian",
     "type": "multi_select",
-    "prompt": "Zaznacz rzymskie zasady prawne opisane w podręczniku jako ważne do dziś.",
-    "explanation": "Podręcznik wymienia zasadę, że prawo nie działa wstecz, oraz zasadę wysłuchania obu stron i prawo do obrony.",
+    "prompt": "Zaznacz rzymskie zasady prawne jako ważne do dziś.",
+    "explanation": "Wymienia się zasadę, że prawo nie działa wstecz, oraz zasadę wysłuchania obu stron i prawo do obrony.",
     "options": [
       "prawo nie działa wstecz",
       "należy wysłuchać obydwu stron",
@@ -778,7 +778,7 @@ const ALL_EXERCISES = [
     "section": "Początki chrześcijaństwa",
     "type": "true_false",
     "prompt": "Jezus został około 33 roku n.e. skazany na śmierć przez ukrzyżowanie.",
-    "explanation": "Śmierć Jezusa przez ukrzyżowanie około 33 roku n.e. podręcznik łączy z początkami chrześcijaństwa.",
+    "explanation": "Śmierć Jezusa przez ukrzyżowanie około 33 roku n.e. łączy się z początkami chrześcijaństwa.",
     "options": null,
     "answer": true
   },
@@ -800,7 +800,7 @@ const ALL_EXERCISES = [
     "id": "R03_CHR_05",
     "section": "Początki chrześcijaństwa",
     "type": "multi_select",
-    "prompt": "Zaznacz zdania zgodne z naukami Jezusa opisanymi w rozdziale.",
+    "prompt": "Zaznacz zdania zgodne z naukami Jezusa.",
     "explanation": "Nauki Jezusa podkreślały miłość, przebaczenie i równość ludzi wobec Boga, a nie walkę polityczną z Rzymem.",
     "options": [
       "Należy kochać Boga i bliźnich.",
@@ -837,7 +837,7 @@ const ALL_EXERCISES = [
     "id": "R03_CHR_07",
     "section": "Początki chrześcijaństwa",
     "type": "match",
-    "prompt": "Połącz postać z rolą opisaną w podręczniku.",
+    "prompt": "Połącz postać z rolą.",
     "explanation": "Piotr, Paweł, Konstantyn i Teodozjusz odegrali różne role w dziejach chrześcijaństwa w świecie rzymskim.",
     "options": null,
     "left": [
@@ -1046,7 +1046,7 @@ const ALL_EXERCISES = [
     "section": "Bursztynowy szlak",
     "type": "single_choice",
     "prompt": "W rejonie którego współczesnego miasta Rzymianie przerabiali bursztyn na biżuterię i ozdoby?",
-    "explanation": "Podręcznik podaje, że bursztyn przywożono w rejon dzisiejszej Wenecji, gdzie rzemieślnicy wykonywali z niego ozdoby.",
+    "explanation": "Bursztyn przywożono w rejon dzisiejszej Wenecji, gdzie rzemieślnicy wykonywali z niego ozdoby.",
     "options": [
       "Wenecji",
       "Londynu",
@@ -1117,7 +1117,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz poprawne pary bóstw rzymskich i ich greckich odpowiedników z podręcznika.",
+    "prompt": "Zaznacz poprawne pary bóstw rzymskich i ich greckich odpowiedników.",
     "explanation": "Pod wpływem religii greckiej Rzymianie utożsamiali między innymi Jowisza z Zeusem, Junonę z Herą, Marsa z Aresem, Neptuna z Posejdonem i Wenus z Afrodytą.",
     "options": [
       "Jowisz — Zeus",
@@ -1180,8 +1180,8 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz datę z wydarzeniem opisanym w rozdziale.",
-    "explanation": "Daty te pojawiają się w różnych częściach rozdziału i dotyczą wojen, rozrywek, budowli oraz chrześcijaństwa.",
+    "prompt": "Połącz datę z wydarzeniem.",
+    "explanation": "Daty te pojawiają się i dotyczą wojen, rozrywek, budowli oraz chrześcijaństwa.",
     "options": null,
     "left": [
       "146 rok p.n.e.",
@@ -1210,7 +1210,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "true_false",
     "prompt": "Pozbawienie władzy Romulusa Augustulusa w 476 roku n.e. historycy uznali za symboliczny koniec starożytności.",
-    "explanation": "Podręcznik wskazuje 476 rok n.e. jako upadek cesarstwa zachodniorzymskiego i symboliczny koniec starożytności.",
+    "explanation": "Wskazuje się 476 rok n.e. jako upadek cesarstwa zachodniorzymskiego i symboliczny koniec starożytności.",
     "options": null,
     "answer": true
   },
@@ -1227,7 +1227,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Co w podręczniku oznacza zasada „prawo nie działa wstecz”?",
+    "prompt": "Co oznacza zasada „prawo nie działa wstecz”?",
     "explanation": "Zasada ta oznacza, że można karać tylko za czyn, który w chwili popełnienia był uznawany za przestępstwo.",
     "options": [
       "można karać tylko za czyn uznawany za przestępstwo w chwili popełnienia",

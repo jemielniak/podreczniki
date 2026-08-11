@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R05_FEU_02",
     "section": "Feudalna Europa",
     "type": "multi_select",
-    "prompt": "Zaznacz cztery stany średniowiecza wymienione w podręczniku.",
+    "prompt": "Zaznacz cztery stany średniowiecza.",
     "options": [
       "duchowieństwo",
       "rycerstwo",
@@ -42,7 +42,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale wymieniono duchowieństwo, rycerstwo, mieszczaństwo i chłopstwo."
+    "explanation": "Wymieniono duchowieństwo, rycerstwo, mieszczaństwo i chłopstwo."
   },
   {
     "id": "R05_FEU_03",
@@ -205,7 +205,7 @@ const ALL_EXERCISES = [
     "id": "R05_RYC_01",
     "section": "Na rycerskim zamku",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy uzbrojenia rycerza wymienione w rozdziale.",
+    "prompt": "Zaznacz elementy uzbrojenia rycerza.",
     "options": [
       "kopia",
       "miecz",
@@ -407,7 +407,7 @@ const ALL_EXERCISES = [
         "14 lat"
       ]
     ],
-    "explanation": "Podręcznik podaje, że paź miał około 7 lat, a giermek około 14 lat."
+    "explanation": "Paź miał około 7 lat, a giermek około 14 lat."
   },
   {
     "id": "R05_MCH_01",
@@ -449,7 +449,7 @@ const ALL_EXERCISES = [
     "id": "R05_MCH_03",
     "section": "Mieszczanie i chłopi",
     "type": "single_choice",
-    "prompt": "Które miasto było największe w Polsce pod koniec XV wieku według rozdziału?",
+    "prompt": "Które miasto było największe w Polsce pod koniec XV wieku?",
     "options": [
       "Gdańsk",
       "Kraków",
@@ -633,7 +633,7 @@ const ALL_EXERCISES = [
     "prompt": "Sołtys rządził wsią w imieniu pana i mógł być szczególnie zamożny.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że bogaty był zwłaszcza sołtys, który rządził wsią w imieniu pana."
+    "explanation": "Bogaty był zwłaszcza sołtys, który rządził wsią w imieniu pana."
   },
   {
     "id": "R05_MCH_14",
@@ -671,7 +671,7 @@ const ALL_EXERCISES = [
     "id": "R05_DUK_02",
     "section": "Duchowieństwo i kultura średniowiecza",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy wspólnej kultury chrześcijańskiej Europy wymienione w rozdziale.",
+    "prompt": "Zaznacz elementy wspólnej kultury chrześcijańskiej Europy.",
     "options": [
       "te same święta kościelne",
       "zakony",
@@ -771,7 +771,7 @@ const ALL_EXERCISES = [
     "id": "R05_DUK_08",
     "section": "Duchowieństwo i kultura średniowiecza",
     "type": "single_choice",
-    "prompt": "Czym zakon franciszkański różnił się od benedyktynów według rozdziału?",
+    "prompt": "Czym zakon franciszkański różnił się od benedyktynów?",
     "options": [
       "był zakonem żebraczym bez własnych gospodarstw",
       "skupiał wyłącznie rzemieślników szewskich",
@@ -931,7 +931,7 @@ const ALL_EXERCISES = [
         "ostrołuk"
       ]
     },
-    "explanation": "Ćwiczenie łączy najważniejsze pojęcia z różnych części rozdziału."
+    "explanation": "Ćwiczenie łączy najważniejsze pojęcia."
   },
   {
     "id": "R05_MIE_02",
@@ -1053,7 +1053,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_09",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady instytucji lub organizacji wymienionych w rozdziale.",
+    "prompt": "Zaznacz przykłady instytucji lub organizacji.",
     "options": [
       "cech",
       "rada miejska",
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział omawia m.in. cechy, radę miejską, zakony i uniwersytety."
+    "explanation": "Chodzi m.in. o cechy, radę miejską, zakony i uniwersytety."
   },
   {
     "id": "R05_MIE_10",
@@ -1089,7 +1089,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile mniej więcej kosztował koń bojowy według rozdziału?",
+    "prompt": "Ile mniej więcej kosztował koń bojowy?",
     "options": [
       "tyle co osiem wołów",
       "tyle co jeden snop zboża",
@@ -1099,7 +1099,7 @@ const ALL_EXERCISES = [
       "tyle co jedna rozeta"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że sam koń bojowy kosztował tyle co osiem wołów."
+    "explanation": "Sam koń bojowy kosztował tyle co osiem wołów."
   },
   {
     "id": "R05_HARD_02",
@@ -1125,13 +1125,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r05_drabina_feudalna.jpg",
-    "explanation": "Podręcznik pokazuje, że Edward I był wasalem króla Francji w związku z posiadłością we Francji, ale w Anglii był suzerenem."
+    "explanation": "Edward I był wasalem króla Francji w związku z posiadłością we Francji, ale w Anglii był suzerenem."
   },
   {
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaki plon z jednego ziarna uzyskiwał średnio chłop w XIII-wiecznej Polsce według rozdziału?",
+    "prompt": "Jaki plon z jednego ziarna uzyskiwał średnio chłop w XIII-wiecznej Polsce?",
     "options": [
       "4 ziarna",
       "10 ziaren",
@@ -1141,7 +1141,7 @@ const ALL_EXERCISES = [
       "1 ziarno"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że z jednego zasianego ziarna chłop uzyskiwał średnio 4 ziarna plonu."
+    "explanation": "Z jednego zasianego ziarna chłop uzyskiwał średnio 4 ziarna plonu."
   },
   {
     "id": "R05_HARD_05",
@@ -1185,7 +1185,7 @@ const ALL_EXERCISES = [
       "początek XIII w.": "odnowa zapoczątkowana przez św. Franciszka",
       "schyłek XI w.": "pierwszy uniwersytet w Bolonii"
     },
-    "explanation": "Daty pochodzą z rozdziału i dotyczą feudalizmu, zakonów oraz uniwersytetów."
+    "explanation": "Daty pochodzą i dotyczą feudalizmu, zakonów oraz uniwersytetów."
   },
   {
     "id": "R05_HARD_07",
@@ -1200,7 +1200,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_08",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj osoby do informacji z rozdziału.",
+    "prompt": "Przyporządkuj osoby do informacji.",
     "options": null,
     "items": [
       "św. Benedykt",

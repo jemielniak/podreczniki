@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_02",
     "section": "Położenie i rzeźba Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz akweny wymienione w rozdziale jako oblewające Europę albo oddzielające ją od Afryki.",
+    "prompt": "Zaznacz akweny jako oblewające Europę albo oddzielające ją od Afryki.",
     "options": [
       "Ocean Arktyczny",
       "Ocean Atlantycki",
@@ -101,7 +101,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "Sardynia",
     "image": "r03_fiordy_i_wyspy.jpg",
-    "explanation": "W rozdziale jako największe europejskie wyspy podano Wielką Brytanię, Islandię i Irlandię. Sardynia nie należy do tej trójki."
+    "explanation": "Jako największe europejskie wyspy podano Wielką Brytanię, Islandię i Irlandię. Sardynia nie należy do tej trójki."
   },
   {
     "id": "R03_POL_07",
@@ -121,7 +121,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_08",
     "section": "Położenie i rzeźba Europy",
     "type": "match",
-    "prompt": "Połącz formę ukształtowania powierzchni z przykładem z rozdziału.",
+    "prompt": "Połącz formę ukształtowania powierzchni z przykładem.",
     "options": null,
     "left": [
       "nizina",
@@ -175,7 +175,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "r03_alpy_i_nizina.jpg",
-    "explanation": "Rozdział wymienia niziny, góry i wyżyny Europy oraz podaje ich przykłady."
+    "explanation": "Wymienia się niziny, góry i wyżyny Europy oraz podaje ich przykłady."
   },
   {
     "id": "R03_POL_10",
@@ -197,7 +197,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_11",
     "section": "Położenie i rzeźba Europy",
     "type": "true_false",
-    "prompt": "Góry Skandynawskie są w rozdziale wskazane jako większy łańcuch górski położony na północy Europy.",
+    "prompt": "Góry Skandynawskie są wskazane jako większy łańcuch górski położony na północy Europy.",
     "options": null,
     "answer": true,
     "image": "r03_alpy_i_nizina.jpg",
@@ -207,7 +207,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_12",
     "section": "Położenie i rzeźba Europy",
     "type": "sequence",
-    "prompt": "Ułóż elementy umownej granicy Europy i Azji w kolejności opisanej w rozdziale.",
+    "prompt": "Ułóż elementy umownej granicy Europy i Azji w kolejności.",
     "options": null,
     "items": [
       "Morze Kaspijskie",
@@ -300,7 +300,7 @@ const ALL_EXERCISES = [
     "id": "R03_ISL_06",
     "section": "Islandia, wulkany i litosfera",
     "type": "multi_select",
-    "prompt": "Zaznacz czynne wulkany Islandii wymienione w rozdziale.",
+    "prompt": "Zaznacz czynne wulkany Islandii.",
     "options": [
       "Hekla",
       "Laki",
@@ -318,13 +318,13 @@ const ALL_EXERCISES = [
       6
     ],
     "image": "r03_gejzer_i_wulkan.jpg",
-    "explanation": "W rozdziale wymieniono m.in. czynne wulkany Islandii: Heklę, Laki, Eyjafjallajökull, Barðarbungę i Sundhnukur."
+    "explanation": "Wymieniono m.in. czynne wulkany Islandii: Heklę, Laki, Eyjafjallajökull, Barðarbungę i Sundhnukur."
   },
   {
     "id": "R03_ISL_07",
     "section": "Islandia, wulkany i litosfera",
     "type": "scenario",
-    "prompt": "Turysta na Islandii obserwuje gejzer, który co kilka minut wyrzuca wrzącą wodę na wysokość około 30 m. Jaka nazwa pojawia się przy tym przykładzie w rozdziale?",
+    "prompt": "Turysta na Islandii obserwuje gejzer, który co kilka minut wyrzuca wrzącą wodę na wysokość około 30 m. Jaka nazwa pojawia się przy tym przykładzie?",
     "options": [
       "Strokkur",
       "Hekla",
@@ -335,23 +335,23 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_gejzer_i_wulkan.jpg",
-    "explanation": "W rozdziale podano przykład gejzeru Strokkur, który co kilka minut wyrzuca wodę na wysokość około 30 m."
+    "explanation": "Podano przykład gejzeru Strokkur, który co kilka minut wyrzuca wodę na wysokość około 30 m."
   },
   {
     "id": "R03_ISL_08",
     "section": "Islandia, wulkany i litosfera",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niepasujący do krajobrazu Islandii opisanego w rozdziale: gejzery, gorące źródła, wulkany, pustynia piaszczysta.",
+    "prompt": "Wskaż element niepasujący do krajobrazu Islandii: gejzery, gorące źródła, wulkany, pustynia piaszczysta.",
     "options": null,
     "answer": "pustynia piaszczysta",
     "image": "r03_kraina_lawy_islandia.jpg",
-    "explanation": "W rozdziale krajobraz Islandii tworzą m.in. wulkany, gejzery, gorące źródła, wodospady i lodowce. Pustynia piaszczysta nie jest tam podana jako charakterystyczny element."
+    "explanation": "Krajobraz Islandii tworzą m.in. wulkany, gejzery, gorące źródła, wodospady i lodowce. Pustynia piaszczysta nie jest tam podana jako charakterystyczny element."
   },
   {
     "id": "R03_ISL_09",
     "section": "Islandia, wulkany i litosfera",
     "type": "match",
-    "prompt": "Połącz islandzki obiekt z opisem z rozdziału.",
+    "prompt": "Połącz islandzki obiekt z opisem.",
     "options": null,
     "left": [
       "Hekla",
@@ -372,7 +372,7 @@ const ALL_EXERCISES = [
       "Vatnajökull": "lodowiec przykrywający kilka wulkanów"
     },
     "image": "r03_gejzer_i_wulkan.jpg",
-    "explanation": "Rozdział podaje przykłady islandzkich wulkanów, gejzerów i lodowców oraz opisuje ich cechy."
+    "explanation": "Podaje się przykłady islandzkich wulkanów, gejzerów i lodowców oraz opisuje ich cechy."
   },
   {
     "id": "R03_ISL_10",
@@ -438,7 +438,7 @@ const ALL_EXERCISES = [
     "id": "R03_KLI_01",
     "section": "Klimat i roślinność Europy",
     "type": "single_choice",
-    "prompt": "W ilu strefach klimatycznych znajduje się Europa według rozdziału?",
+    "prompt": "W ilu strefach klimatycznych znajduje się Europa?",
     "options": [
       "w trzech",
       "w jednej",
@@ -563,13 +563,13 @@ const ALL_EXERCISES = [
       "klimaty podzwrotnikowe": "makia"
     },
     "image": "r03_makia_i_tajga.jpg",
-    "explanation": "Rozdział łączy klimat okołobiegunowy z tundrą i lodowcami, umiarkowany chłodny z tajgą, umiarkowany ciepły morski z lasami liściastymi, a podzwrotnikowy z makią."
+    "explanation": "Łączy się klimat okołobiegunowy z tundrą i lodowcami, umiarkowany chłodny z tajgą, umiarkowany ciepły morski z lasami liściastymi, a podzwrotnikowy z makią."
   },
   {
     "id": "R03_KLI_09",
     "section": "Klimat i roślinność Europy",
     "type": "scenario",
-    "prompt": "Miasto w zachodniej Europie ma łagodniejszy klimat niż miejscowość po drugiej stronie Atlantyku na podobnej szerokości geograficznej. Jaki czynnik opisany w rozdziale to wyjaśnia?",
+    "prompt": "Miasto w zachodniej Europie ma łagodniejszy klimat niż miejscowość po drugiej stronie Atlantyku na podobnej szerokości geograficznej. Jaki czynnik to wyjaśnia?",
     "options": [
       "Prąd Północnoatlantycki",
       "lądolód skandynawski",
@@ -649,7 +649,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAN_01",
     "section": "Państwa i Unia Europejska",
     "type": "single_choice",
-    "prompt": "Ile państw leży w Europie według rozdziału?",
+    "prompt": "Ile państw leży w Europie?",
     "options": [
       "47",
       "27",
@@ -668,7 +668,7 @@ const ALL_EXERCISES = [
     "prompt": "Kazachstan, Turcja i Rosja są uwzględnione w liczbie państw Europy, choć większość ich terytorium leży w Azji.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje trzy takie kraje: Kazachstan, Turcję i Rosję. Ich części terytorium znajdują się w Europie."
+    "explanation": "Wskazuje się trzy takie kraje: Kazachstan, Turcję i Rosję. Ich części terytorium znajdują się w Europie."
   },
   {
     "id": "R03_PAN_03",
@@ -721,7 +721,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAN_06",
     "section": "Państwa i Unia Europejska",
     "type": "multi_select",
-    "prompt": "Zaznacz obecnych sąsiadów Polski wymienionych w rozdziale.",
+    "prompt": "Zaznacz obecnych sąsiadów Polski.",
     "options": [
       "Niemcy",
       "Czechy",
@@ -748,7 +748,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAN_07",
     "section": "Państwa i Unia Europejska",
     "type": "single_choice",
-    "prompt": "Które państwo jest w rozdziale nazwane najmłodszym państwem Europy?",
+    "prompt": "Które państwo jest nazwane najmłodszym państwem Europy?",
     "options": [
       "Kosowo",
       "Słowacja",
@@ -758,13 +758,13 @@ const ALL_EXERCISES = [
       "Chorwacja"
     ],
     "answer": 0,
-    "explanation": "Kosowo ogłosiło niepodległość w 2008 roku i jest w rozdziale nazwane najmłodszym państwem Europy."
+    "explanation": "Kosowo ogłosiło niepodległość w 2008 roku i jest nazwane najmłodszym państwem Europy."
   },
   {
     "id": "R03_PAN_08",
     "section": "Państwa i Unia Europejska",
     "type": "match",
-    "prompt": "Połącz wydarzenie związane z integracją Europy z rokiem podanym w rozdziale.",
+    "prompt": "Połącz wydarzenie związane z integracją Europy z rokiem.",
     "options": null,
     "left": [
       "Europejska Wspólnota Węgla i Stali",
@@ -785,7 +785,7 @@ const ALL_EXERCISES = [
       "wystąpienie Wielkiej Brytanii z UE": "2020"
     },
     "image": "r03_parlament_europejski.jpg",
-    "explanation": "Rozdział podaje daty powstania Europejskiej Wspólnoty Węgla i Stali, Unii Europejskiej, wprowadzenia euro do obiegu i wystąpienia Wielkiej Brytanii z UE."
+    "explanation": "Podaje się daty powstania Europejskiej Wspólnoty Węgla i Stali, Unii Europejskiej, wprowadzenia euro do obiegu i wystąpienia Wielkiej Brytanii z UE."
   },
   {
     "id": "R03_PAN_09",
@@ -824,7 +824,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAN_10",
     "section": "Państwa i Unia Europejska",
     "type": "scenario",
-    "prompt": "Uczeń chce studiować lub podjąć pracę w innym kraju członkowskim. Która cecha Unii Europejskiej najbardziej to ułatwia według rozdziału?",
+    "prompt": "Uczeń chce studiować lub podjąć pracę w innym kraju członkowskim. Która cecha Unii Europejskiej najbardziej to ułatwia?",
     "options": [
       "swoboda przemieszczania się osób",
       "obecność lodowców",
@@ -845,22 +845,22 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_parlament_europejski.jpg",
-    "explanation": "Rozdział podaje, że Unia Europejska może działać na rzecz pokoju na świecie i za tę działalność otrzymała Pokojową Nagrodę Nobla w 2012 roku."
+    "explanation": "Unia Europejska może działać na rzecz pokoju na świecie i za tę działalność otrzymała Pokojową Nagrodę Nobla w 2012 roku."
   },
   {
     "id": "R03_PAN_12",
     "section": "Państwa i Unia Europejska",
     "type": "odd_one_out",
-    "prompt": "Wskaż kraj, który nie jest obecnym sąsiadem Polski wymienionym w rozdziale: Niemcy, Słowacja, Litwa, Austria.",
+    "prompt": "Wskaż kraj, który nie jest obecnym sąsiadem Polski: Niemcy, Słowacja, Litwa, Austria.",
     "options": null,
     "answer": "Austria",
-    "explanation": "Obecni sąsiedzi Polski wymienieni w rozdziale to Niemcy, Czechy, Słowacja, Ukraina, Białoruś, Litwa i Rosja. Austria nie jest na tej liście."
+    "explanation": "Obecni sąsiedzi Polski wymienieni to Niemcy, Czechy, Słowacja, Ukraina, Białoruś, Litwa i Rosja. Austria nie jest na tej liście."
   },
   {
     "id": "R03_LUD_01",
     "section": "Ludność, migracje i miasta",
     "type": "single_choice",
-    "prompt": "Ile osób żyje w Europie według rozdziału?",
+    "prompt": "Ile osób żyje w Europie?",
     "options": [
       "około 745 mln",
       "około 4,8 mld",
@@ -871,7 +871,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_gesta_zabudowa_monako.jpg",
-    "explanation": "Rozdział podaje, że w Europie żyje około 745 mln osób."
+    "explanation": "W Europie żyje około 745 mln osób."
   },
   {
     "id": "R03_LUD_02",
@@ -894,13 +894,13 @@ const ALL_EXERCISES = [
     "prompt": "Średnia gęstość zaludnienia Europy wynosi 34 os./km2, jeśli liczy się Rosję razem z jej azjatycką częścią.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano średnią gęstość zaludnienia Europy 34 os./km2, licząc z całą Rosją, także z jej azjatycką częścią."
+    "explanation": "Podano średnią gęstość zaludnienia Europy 34 os./km2, licząc z całą Rosją, także z jej azjatycką częścią."
   },
   {
     "id": "R03_LUD_04",
     "section": "Ludność, migracje i miasta",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki sprzyjające większej gęstości zaludnienia w Europie według rozdziału.",
+    "prompt": "Zaznacz czynniki sprzyjające większej gęstości zaludnienia w Europie.",
     "options": [
       "niziny",
       "łagodny klimat",
@@ -921,7 +921,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_05",
     "section": "Ludność, migracje i miasta",
     "type": "single_choice",
-    "prompt": "W którym zestawie są tylko państwa północnej Europy o gęstości zaludnienia poniżej 20 os./km2 wymienione w rozdziale?",
+    "prompt": "W którym zestawie są tylko państwa północnej Europy o gęstości zaludnienia poniżej 20 os./km2?",
     "options": [
       "Islandia, Norwegia i Finlandia",
       "Belgia, Holandia i Malta",
@@ -975,7 +975,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_08",
     "section": "Ludność, migracje i miasta",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie jest skutkiem starzenia się społeczeństwa opisanym w rozdziale: niższe dochody z podatków, większe wydatki na emerytury, większe wydatki na służbę zdrowia, spadek liczby emerytów.",
+    "prompt": "Wskaż, co nie jest skutkiem starzenia się społeczeństwa: niższe dochody z podatków, większe wydatki na emerytury, większe wydatki na służbę zdrowia, spadek liczby emerytów.",
     "options": null,
     "answer": "spadek liczby emerytów",
     "explanation": "Starzenie społeczeństwa oznacza więcej osób pobierających emerytury, większe wydatki państwa i mniejsze dochody z podatków. Spadek liczby emerytów jest niezgodny z tym opisem."
@@ -1005,13 +1005,13 @@ const ALL_EXERCISES = [
       "kraj imigracyjny": "państwo z większym napływem ludności"
     },
     "image": "r03_migracje_i_wielokulturowosc.jpg",
-    "explanation": "Rozdział rozróżnia emigranta i imigranta oraz kraje emigracyjne i imigracyjne."
+    "explanation": "Rozróżnia się emigranta i imigranta oraz kraje emigracyjne i imigracyjne."
   },
   {
     "id": "R03_LUD_10",
     "section": "Ludność, migracje i miasta",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny migracji wymienione w rozdziale.",
+    "prompt": "Zaznacz przyczyny migracji.",
     "options": [
       "chęć znalezienia lepszej pracy",
       "ucieczka przed wojną",
@@ -1028,13 +1028,13 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "r03_migracje_i_wielokulturowosc.jpg",
-    "explanation": "Rozdział wskazuje m.in. chęć poprawy poziomu życia i pracy, ucieczkę przed wojną i prześladowaniami, dołączenie do rodziny oraz poznawanie innych kultur i języka."
+    "explanation": "Wskazuje się m.in. chęć poprawy poziomu życia i pracy, ucieczkę przed wojną i prześladowaniami, dołączenie do rodziny oraz poznawanie innych kultur i języka."
   },
   {
     "id": "R03_LUD_11",
     "section": "Ludność, migracje i miasta",
     "type": "scenario",
-    "prompt": "Po 2022 roku do Polski przyjechało wielu mieszkańców Ukrainy uciekających przed wojną. Jakim typem kraju stała się w tej sytuacji Polska według rozdziału?",
+    "prompt": "Po 2022 roku do Polski przyjechało wielu mieszkańców Ukrainy uciekających przed wojną. Jakim typem kraju stała się w tej sytuacji Polska?",
     "options": [
       "krajem imigracyjnym",
       "krajem bezludnym",
@@ -1051,7 +1051,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_12",
     "section": "Ludność, migracje i miasta",
     "type": "single_choice",
-    "prompt": "Który zestaw zawiera największe miasta Europy wymienione w podsumowaniu rozdziału?",
+    "prompt": "Który zestaw zawiera największe miasta Europy?",
     "options": [
       "Moskwa, Paryż i Londyn",
       "Warszawa, Rzym i Madryt",
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile wynosi około długość linii brzegowej Europy według rozdziału?",
+    "prompt": "Ile wynosi około długość linii brzegowej Europy?",
     "options": [
       "38 tys. km",
       "14 km",
@@ -1103,7 +1103,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz duży europejski półwysep z powierzchnią podaną na mapie w rozdziale.",
+    "prompt": "Połącz duży europejski półwysep z powierzchnią podaną na mapie.",
     "options": null,
     "left": [
       "Półwysep Skandynawski",
@@ -1173,7 +1173,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz pary klimat lub strefa - roślinność zgodne z rozdziałem.",
+    "prompt": "Zaznacz poprawne pary klimat lub strefa - roślinność.",
     "options": [
       "klimaty podzwrotnikowe - makia",
       "klimaty okołobiegunowe - tundra i lodowce",
@@ -1189,7 +1189,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r03_makia_i_tajga.jpg",
-    "explanation": "Rozdział opisuje związki klimatu z roślinnością: podzwrotnikowy z makią, okołobiegunowy z tundrą i lodowcami, umiarkowany chłodny z tajgą oraz umiarkowany ciepły kontynentalny ze stepami."
+    "explanation": "Opisuje się związki klimatu z roślinnością: podzwrotnikowy z makią, okołobiegunowy z tundrą i lodowcami, umiarkowany chłodny z tajgą oraz umiarkowany ciepły kontynentalny ze stepami."
   },
   {
     "id": "R03_HARD_08",
@@ -1229,13 +1229,13 @@ const ALL_EXERCISES = [
       "wystąpienie Wielkiej Brytanii z UE"
     ],
     "image": "r03_parlament_europejski.jpg",
-    "explanation": "W rozdziale podano kolejno: 1951 - Europejska Wspólnota Węgla i Stali, 1993 - powstanie Unii Europejskiej, 2002 - euro w obiegu, 2008 - niepodległość Kosowa, 2020 - wystąpienie Wielkiej Brytanii z UE."
+    "explanation": "Podano kolejno: 1951 - Europejska Wspólnota Węgla i Stali, 1993 - powstanie Unii Europejskiej, 2002 - euro w obiegu, 2008 - niepodległość Kosowa, 2020 - wystąpienie Wielkiej Brytanii z UE."
   },
   {
     "id": "R03_HARD_10",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż kraj, który w rozdziale nie został podany jako kraj emigracyjny początku XXI wieku: Białoruś, Rumunia, Polska, Szwecja.",
+    "prompt": "Wskaż kraj, który nie został podany jako kraj emigracyjny początku XXI wieku: Białoruś, Rumunia, Polska, Szwecja.",
     "options": null,
     "answer": "Szwecja",
     "image": "r03_migracje_i_wielokulturowosc.jpg",
@@ -1272,13 +1272,13 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "r03_metropolie_zachodniej_europy.jpg",
-    "explanation": "Londyn kojarzy się w rozdziale z finansami, City, Bankiem Anglii i Heathrow. Paryż z kulturą, Montmartrem, Luwrem i Wieżą Eiffla."
+    "explanation": "Londyn kojarzy się z finansami, City, Bankiem Anglii i Heathrow. Paryż z kulturą, Montmartrem, Luwrem i Wieżą Eiffla."
   },
   {
     "id": "R03_HARD_12",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz atrakcję lub miejsce z opisem z rozdziału.",
+    "prompt": "Połącz atrakcję lub miejsce z opisem.",
     "options": null,
     "left": [
       "Tower Bridge",
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
       "City": "dzielnica biznesowa nad Tamizą"
     },
     "image": "r03_metropolie_zachodniej_europy.jpg",
-    "explanation": "Rozdział przedstawia atrakcje i miejsca kojarzone z Paryżem oraz Londynem, m.in. Tower Bridge, Wersal, Luwr i dzielnicę City."
+    "explanation": "Przedstawia się atrakcje i miejsca kojarzone z Paryżem oraz Londynem, m.in. Tower Bridge, Wersal, Luwr i dzielnicę City."
   }
 ];
 

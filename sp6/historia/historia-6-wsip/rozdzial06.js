@@ -47,7 +47,7 @@ const ALL_EXERCISES = [
     "prompt": "Nowa konstytucja po zamachu Napoleona bardziej przypominała dyktaturę jednostki niż rządy republikańskie.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku podkreślono, że konstytucja napisana na życzenie Bonapartego dawała realną pełnię władzy pierwszemu konsulowi."
+    "explanation": "Konstytucja napisana na życzenie Bonapartego dawała realną pełnię władzy pierwszemu konsulowi."
   },
   {
     "id": "R06_WLA_04",
@@ -76,7 +76,7 @@ const ALL_EXERCISES = [
     "id": "R06_WLA_05",
     "section": "Droga Napoleona do władzy",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki, które według rozdziału ułatwiły Napoleonowi objęcie władzy.",
+    "prompt": "Zaznacz czynniki, które ułatwiły Napoleonowi objęcie władzy.",
     "options": [
       "Kłopoty gospodarcze państwa",
       "Konflikty między najwyższymi władzami republiki",
@@ -128,7 +128,7 @@ const ALL_EXERCISES = [
     "id": "R06_WLA_08",
     "section": "Droga Napoleona do władzy",
     "type": "odd_one_out",
-    "prompt": "Wskaż tytuł lub funkcję, która nie pasuje do kariery Napoleona opisanej w rozdziale: generał, pierwszy konsul, cesarz Francuzów, król Francji.",
+    "prompt": "Wskaż tytuł lub funkcję, która nie pasuje do kariery Napoleona: generał, pierwszy konsul, cesarz Francuzów, król Francji.",
     "options": null,
     "answer": "król Francji",
     "explanation": "Napoleon był generałem, pierwszym konsulem i cesarzem Francuzów. Nie był królem Francji."
@@ -137,7 +137,7 @@ const ALL_EXERCISES = [
     "id": "R06_WLA_09",
     "section": "Droga Napoleona do władzy",
     "type": "multi_select",
-    "prompt": "Które zasady wymieniono w rozdziale jako najważniejsze regulacje Kodeksu Napoleona?",
+    "prompt": "Które zasady wymieniono jako najważniejsze regulacje Kodeksu Napoleona?",
     "options": [
       "Równość wobec prawa",
       "Wolność osobista obywateli",
@@ -258,7 +258,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r06_bitwa_pod_austerlitz.jpg",
-    "explanation": "Rozdział podaje, że połączone siły austriacko-rosyjskie były liczniejsze niż wojsko francuskie, mimo to zwyciężyła Wielka Armia Napoleona."
+    "explanation": "Połączone siły austriacko-rosyjskie były liczniejsze niż wojsko francuskie, mimo to zwyciężyła Wielka Armia Napoleona."
   },
   {
     "id": "R06_EUR_03",
@@ -360,7 +360,7 @@ const ALL_EXERCISES = [
     "id": "R06_EUR_09",
     "section": "Nowy ład w Europie",
     "type": "match",
-    "prompt": "Połącz państwo lub dynastię ze skutkiem opisanym w rozdziale.",
+    "prompt": "Połącz państwo lub dynastię ze skutkiem.",
     "options": null,
     "left": [
       "Austria po Austerlitz",
@@ -386,7 +386,7 @@ const ALL_EXERCISES = [
     "id": "R06_EUR_10",
     "section": "Nowy ład w Europie",
     "type": "multi_select",
-    "prompt": "Jakie zjawiska charakteryzowały Europę napoleońską według rozdziału?",
+    "prompt": "Jakie zjawiska charakteryzowały Europę napoleońską?",
     "options": [
       "Osadzanie przez Napoleona krewnych na tronach zależnych państw",
       "Wprowadzanie konstytucji wzorowanych na francuskiej",
@@ -407,7 +407,7 @@ const ALL_EXERCISES = [
     "id": "R06_EUR_11",
     "section": "Nowy ład w Europie",
     "type": "scenario",
-    "prompt": "Na karykaturze premier Wielkiej Brytanii William Pitt młodszy i Napoleon dzielą świat. Jaki sens ma ten obraz według podpisu w rozdziale?",
+    "prompt": "Na karykaturze premier Wielkiej Brytanii William Pitt młodszy i Napoleon dzielą świat. Jaki sens ma ten obraz według podpisu?",
     "options": [
       "Drwi z apetytów Wielkiej Brytanii i Francji na panowanie nad światem",
       "Pokazuje faktyczny traktat o pokojowym podziale Europy",
@@ -431,7 +431,7 @@ const ALL_EXERCISES = [
       "koalicja",
       "koalicją"
     ],
-    "explanation": "Rozdział definiuje koalicję jako związek lub porozumienie państw działających we wspólnym celu."
+    "explanation": "Definiuje się koalicję jako związek lub porozumienie państw działających we wspólnym celu."
   },
   {
     "id": "R06_LEG_01",
@@ -480,7 +480,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r06_legion_dabrowskiego.jpg",
-    "explanation": "Podręcznik podaje, że oddziały miały rekrutować się głównie z kilku tysięcy Polaków wziętych do niewoli z armii austriackiej."
+    "explanation": "Oddziały miały rekrutować się głównie z kilku tysięcy Polaków wziętych do niewoli z armii austriackiej."
   },
   {
     "id": "R06_LEG_04",
@@ -561,7 +561,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Santo Domingo polscy legioniści mieli tłumić rebelię niewolników przeciw francuskim plantatorom.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla tragiczny paradoks: żołnierze z hasłem Ludzie wolni są braćmi zostali zmuszeni do walki przeciw powstaniu uciskanej ludności."
+    "explanation": "Podkreśla się tragiczny paradoks: żołnierze z hasłem Ludzie wolni są braćmi zostali zmuszeni do walki przeciw powstaniu uciskanej ludności."
   },
   {
     "id": "R06_LEG_09",
@@ -586,13 +586,13 @@ const ALL_EXERCISES = [
       "Pius VII"
     ],
     "answer": 0,
-    "explanation": "Odezwa przytoczona w rozdziale pochodziła od generała Jana Henryka Dąbrowskiego, twórcy Legionów Polskich."
+    "explanation": "Odezwa pochodziła od generała Jana Henryka Dąbrowskiego, twórcy Legionów Polskich."
   },
   {
     "id": "R06_LEG_11",
     "section": "Legiony i nadzieje Polaków",
     "type": "match",
-    "prompt": "Połącz postać z rolą opisaną w rozdziale.",
+    "prompt": "Połącz postać z rolą.",
     "options": null,
     "left": [
       "Jan Henryk Dąbrowski",
@@ -666,7 +666,7 @@ const ALL_EXERCISES = [
     "id": "R06_KSI_03",
     "section": "Księstwo Warszawskie",
     "type": "multi_select",
-    "prompt": "Zaznacz postanowienia konstytucji Księstwa Warszawskiego wymienione w rozdziale.",
+    "prompt": "Zaznacz postanowienia konstytucji Księstwa Warszawskiego.",
     "options": [
       "Władzę wykonawczą sprawują monarcha i ministrowie",
       "Sejm ma władzę ustawodawczą, ale ograniczone kompetencje",
@@ -856,7 +856,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_01",
     "section": "Klęska i ocena Napoleona",
     "type": "single_choice",
-    "prompt": "Które państwo rozdział wskazuje jako najbardziej nieugiętego i jedynego niezwyciężonego przeciwnika Napoleona?",
+    "prompt": "Które państwo wskazuje się jako najbardziej nieugiętego i jedynego niezwyciężonego przeciwnika Napoleona?",
     "options": [
       "Wielką Brytanię",
       "Austrię",
@@ -927,7 +927,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_05",
     "section": "Klęska i ocena Napoleona",
     "type": "multi_select",
-    "prompt": "Wybierz przyczyny klęski i zdziesiątkowania Wielkiej Armii podczas odwrotu z Rosji wymienione w rozdziale.",
+    "prompt": "Wybierz przyczyny klęski i zdziesiątkowania Wielkiej Armii podczas odwrotu z Rosji.",
     "options": [
       "Brak żywności",
       "Wyjątkowo ciężka zima",
@@ -949,7 +949,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_06",
     "section": "Klęska i ocena Napoleona",
     "type": "single_choice",
-    "prompt": "Jaka część początkowego stanu Wielkiej Armii wróciła z kampanii rosyjskiej według szacunków podanych w rozdziale?",
+    "prompt": "Jaka część początkowego stanu Wielkiej Armii wróciła z kampanii rosyjskiej według szacunków?",
     "options": [
       "Około 20%",
       "Około 30%",
@@ -959,7 +959,7 @@ const ALL_EXERCISES = [
       "Prawie całość"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że z wyprawy rosyjskiej wróciło zaledwie około 20% początkowego stanu całej Wielkiej Armii."
+    "explanation": "Z wyprawy rosyjskiej wróciło zaledwie około 20% początkowego stanu całej Wielkiej Armii."
   },
   {
     "id": "R06_UPA_07",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r06_smierc_poniatowskiego_elstera.jpg",
-    "explanation": "Za wierność Napoleon mianował Poniatowskiego marszałkiem Francji; rozdział podkreśla, że był on jedynym nie-Francuzem z tym tytułem."
+    "explanation": "Za wierność Napoleon mianował Poniatowskiego marszałkiem Francji; był on jedynym nie-Francuzem z tym tytułem."
   },
   {
     "id": "R06_UPA_10",
@@ -1028,7 +1028,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_11",
     "section": "Klęska i ocena Napoleona",
     "type": "single_choice",
-    "prompt": "Co oznacza określenie sto dni Napoleona w rozdziale?",
+    "prompt": "Co oznacza określenie sto dni Napoleona?",
     "options": [
       "Ostatni okres panowania od powrotu do Francji do klęski pod Waterloo",
       "Sto dni pobytu Napoleona na Elbie",
@@ -1142,7 +1142,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_05",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Prusy sprzeciwiają się zmianom na mapie Niemiec, tworzą z Wielką Brytanią i Rosją koalicję, po czym ponoszą druzgocącą klęskę w błyskawicznej kampanii. Który rok wskazuje rozdział?",
+    "prompt": "Prusy sprzeciwiają się zmianom na mapie Niemiec, tworzą z Wielką Brytanią i Rosją koalicję, po czym ponoszą druzgocącą klęskę w błyskawicznej kampanii. Który rok wskazuje się?",
     "options": [
       "1806",
       "1804",
@@ -1168,7 +1168,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_07",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ilu żołnierzom Legionów udało się powrócić z Santo Domingo według rozdziału?",
+    "prompt": "Ilu żołnierzom Legionów udało się powrócić z Santo Domingo?",
     "options": [
       "Około 300",
       "Około 1000",
@@ -1179,7 +1179,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_santo_domingo_legiony.jpg",
-    "explanation": "Rozdział podaje, że zaledwie trzystu żołnierzom udało się powrócić z Santo Domingo."
+    "explanation": "Zaledwie trzystu żołnierzom udało się powrócić z Santo Domingo."
   },
   {
     "id": "R06_HARD_08",
@@ -1241,7 +1241,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_luk_triumfalny_paryz.jpg",
-    "explanation": "Nazwisko Józefa Poniatowskiego widnieje na Łuku Triumfalnym w Paryżu, a rozdział łączy to z jego wiernością Napoleonowi i śmiercią po bitwie pod Lipskiem."
+    "explanation": "Nazwisko Józefa Poniatowskiego widnieje na Łuku Triumfalnym w Paryżu, a łączy się to z jego wiernością Napoleonowi i śmiercią po bitwie pod Lipskiem."
   },
   {
     "id": "R06_HARD_11",

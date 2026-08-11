@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R01_MAP_01",
     "section": "Mapa i skala",
     "type": "single_choice",
-    "prompt": "Czym jest mapa według rozdziału?",
+    "prompt": "Czym jest mapa?",
     "options": [
       "Zdjęciem krajobrazu z boku",
       "Obrazem powierzchni Ziemi lub jej fragmentu widzianym z góry",
@@ -80,7 +80,7 @@ const ALL_EXERCISES = [
         "powierzchniowe."
       ]
     ],
-    "explanation": "W rozdziale wyróżniono znaki punktowe, liniowe i powierzchniowe."
+    "explanation": "Wyróżniono znaki punktowe, liniowe i powierzchniowe."
   },
   {
     "id": "R01_MAP_05",
@@ -593,7 +593,7 @@ const ALL_EXERCISES = [
     "id": "R01_CZY_03",
     "section": "Czytamy mapę najbliższej okolicy",
     "type": "multi_select",
-    "prompt": "Zaznacz zalety map cyfrowych wymienione w rozdziale.",
+    "prompt": "Zaznacz zalety map cyfrowych.",
     "options": [
       "można je dowolnie powiększać i pomniejszać",
       "można wybierać wyświetlane informacje",
@@ -772,7 +772,7 @@ const ALL_EXERCISES = [
       "legenda": "zestawienie znaków kartograficznych i ich wyjaśnień",
       "poziomica": "linia łącząca punkty na tej samej wysokości nad poziomem morza"
     },
-    "explanation": "W rozdziale zdefiniowano mapę, skalę, legendę i poziomicę jako podstawowe pojęcia pracy z mapą."
+    "explanation": "Zdefiniowano mapę, skalę, legendę i poziomicę jako podstawowe pojęcia pracy z mapą."
   },
   {
     "id": "R01_MIE_03",
@@ -787,7 +787,7 @@ const ALL_EXERCISES = [
     "id": "R01_MIE_04",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z rozdziałem.",
+    "prompt": "Zaznacz prawdziwe informacje.",
     "options": [
       "Mapa jest obrazem widzianym z góry i przedstawionym w pomniejszeniu.",
       "Skalę można zapisać w postaci liczbowej, mianowanej i jako podziałkę liniową.",
@@ -802,7 +802,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział wyjaśnia między innymi definicję mapy, rodzaje skali, użycie nitki i znaczenie poziomic."
+    "explanation": "Wyjaśnia się między innymi definicję mapy, rodzaje skali, użycie nitki i znaczenie poziomic."
   },
   {
     "id": "R01_MIE_05",
@@ -903,7 +903,7 @@ const ALL_EXERCISES = [
         "obiekty w terenie"
       ]
     },
-    "explanation": "Pojęcia z rozdziału można pogrupować według tego, czy dotyczą elementów mapy, pomiaru odległości, ukształtowania terenu czy orientowania mapy."
+    "explanation": "Pojęcia można pogrupować według tego, czy dotyczą elementów mapy, pomiaru odległości, ukształtowania terenu czy orientowania mapy."
   },
   {
     "id": "R01_MIE_09",

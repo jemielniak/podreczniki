@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTL_01",
     "section": "Ptaki: budowa i lot",
     "type": "single_choice",
-    "prompt": "Która cecha jest wspólna wszystkim ptakom według rozdziału?",
+    "prompt": "Która cecha jest wspólna wszystkim ptakom?",
     "options": [
       "Mają pióra",
       "Mają futro",
@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTL_02",
     "section": "Ptaki: budowa i lot",
     "type": "multi_select",
-    "prompt": "Zaznacz przystosowania ptaków do lotu opisane w rozdziale.",
+    "prompt": "Zaznacz przystosowania ptaków do lotu.",
     "options": [
       "Kończyny przednie przekształcone w skrzydła",
       "Opływowy kształt ciała",
@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "prompt": "Stałocieplność oznacza zdolność utrzymywania stałej temperatury ciała niezależnie od temperatury otoczenia.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale stałocieplność zdefiniowano właśnie jako utrzymywanie stałej temperatury ciała mimo zmian temperatury otoczenia."
+    "explanation": "Stałocieplność zdefiniowano właśnie jako utrzymywanie stałej temperatury ciała mimo zmian temperatury otoczenia."
   },
   {
     "id": "R05_PTL_04",
@@ -128,7 +128,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTL_08",
     "section": "Ptaki: budowa i lot",
     "type": "scenario",
-    "prompt": "Uczeń obserwuje ptaka, który unosi się w powietrzu prawie bez poruszania skrzydłami. Który przykład z rozdziału najlepiej pasuje do takiego lotu?",
+    "prompt": "Uczeń obserwuje ptaka, który unosi się w powietrzu prawie bez poruszania skrzydłami. Który przykład najlepiej pasuje do takiego lotu?",
     "options": [
       "myszołów",
       "koliber",
@@ -138,7 +138,7 @@ const ALL_EXERCISES = [
       "perkoz"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że myszołowy mogą unosić się w powietrzu niemal bez poruszania skrzydłami."
+    "explanation": "Myszołowy mogą unosić się w powietrzu niemal bez poruszania skrzydłami."
   },
   {
     "id": "R05_PTL_09",
@@ -232,7 +232,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_01",
     "section": "Ptaki: różnorodność i znaczenie",
     "type": "single_choice",
-    "prompt": "Która para ptaków jest w rozdziale podana jako przykład ptaków nielotnych?",
+    "prompt": "Która para ptaków jest podana jako przykład ptaków nielotnych?",
     "options": [
       "pingwin i struś",
       "jaskółka i koliber",
@@ -242,7 +242,7 @@ const ALL_EXERCISES = [
       "kaczka i łabędź"
     ],
     "answer": 0,
-    "explanation": "Rozdział wskazuje pingwiny i strusie jako skrajne przykłady przystosowań, u których pojawia się brak zdolności do lotu.",
+    "explanation": "Wskazuje się pingwiny i strusie jako skrajne przykłady przystosowań, u których pojawia się brak zdolności do lotu.",
     "image": "r05_ptaki_nielotne.jpg"
   },
   {
@@ -276,7 +276,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_03",
     "section": "Ptaki: różnorodność i znaczenie",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje ptaków w przyrodzie opisane w rozdziale.",
+    "prompt": "Zaznacz funkcje ptaków w przyrodzie.",
     "options": [
       "Regulują liczebność organizmów",
       "Rozsiewają nasiona roślin",
@@ -306,7 +306,7 @@ const ALL_EXERCISES = [
       "do kucia dziupli"
     ],
     "answer": 0,
-    "explanation": "W rozdziale tak opisano dziób łabędzia, który dzięki listewkom odcedza z wody pokarm, głównie roślinny.",
+    "explanation": "Tak opisano dziób łabędzia, który dzięki listewkom odcedza z wody pokarm, głównie roślinny.",
     "image": "r05_dzioby_ptakow.jpg"
   },
   {
@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
     "prompt": "Czaple mają cechy ptaków brodzących w wodzie, na przykład długą szyję i długie cienkie nogi.",
     "options": null,
     "answer": true,
-    "explanation": "Czaple są w rozdziale opisane jako ptaki brodzące w wodzie w poszukiwaniu pokarmu."
+    "explanation": "Czaple są opisane jako ptaki brodzące w wodzie w poszukiwaniu pokarmu."
   },
   {
     "id": "R05_ZPT_06",
@@ -353,14 +353,14 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_08",
     "section": "Ptaki: różnorodność i znaczenie",
     "type": "riddle",
-    "prompt": "Jak nazywa się gatunek ptaka, który według rozdziału uszkadza owoce w sadach, na przykład czereśnie?",
+    "prompt": "Jak nazywa się gatunek ptaka, który uszkadza owoce w sadach, na przykład czereśnie?",
     "options": null,
     "answer": "szpak",
     "altAnswers": [
       "szpak",
       "szpaki"
     ],
-    "explanation": "W rozdziale wskazano szpaki jako ptaki, które uszkadzają owoce w sadach."
+    "explanation": "Wskazano szpaki jako ptaki, które uszkadzają owoce w sadach."
   },
   {
     "id": "R05_ZPT_09",
@@ -399,7 +399,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_10",
     "section": "Ptaki: różnorodność i znaczenie",
     "type": "single_choice",
-    "prompt": "Jaką prędkość podczas ucieczki może osiągać struś według rozdziału?",
+    "prompt": "Jaką prędkość podczas ucieczki może osiągać struś?",
     "options": [
       "około 70 km/godz.",
       "około 10 km/godz.",
@@ -438,7 +438,7 @@ const ALL_EXERCISES = [
     "prompt": "Ptaki drapieżne mogą pomagać człowiekowi, ponieważ zjadają szkodniki pól uprawnych, sadów i lasów.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że ptaki drapieżne zjadają między innymi owady, myszy i inne gryzonie, czyli organizmy szkodzące uprawom."
+    "explanation": "Ptaki drapieżne zjadają między innymi owady, myszy i inne gryzonie, czyli organizmy szkodzące uprawom."
   },
   {
     "id": "R05_SSB_01",
@@ -461,7 +461,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_02",
     "section": "Ssaki: budowa i środowisko",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy budowy lub funkcje skóry charakterystyczne dla ssaków opisane w rozdziale.",
+    "prompt": "Zaznacz elementy budowy lub funkcje skóry charakterystyczne dla ssaków.",
     "options": [
       "Włosy wyrastające ze skóry",
       "Komórki wydzielające łój",
@@ -486,7 +486,7 @@ const ALL_EXERCISES = [
     "prompt": "Ssaki, podobnie jak ptaki, są zwierzętami stałocieplnymi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla, że ssaki są stałocieplne, dlatego mogą żyć w różnych środowiskach na wszystkich kontynentach."
+    "explanation": "Ssaki są stałocieplne, dlatego mogą żyć w różnych środowiskach na wszystkich kontynentach."
   },
   {
     "id": "R05_SSB_04",
@@ -525,7 +525,7 @@ const ALL_EXERCISES = [
         "nietoperz"
       ]
     },
-    "explanation": "Rozdział podaje przykłady ssaków naziemnych, nadrzewnych, podziemnych, wodnych oraz aktywnie latających.",
+    "explanation": "Podaje się przykłady ssaków naziemnych, nadrzewnych, podziemnych, wodnych oraz aktywnie latających.",
     "image": "r05_srodowiska_ssakow.jpg"
   },
   {
@@ -597,7 +597,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_08",
     "section": "Ssaki: budowa i środowisko",
     "type": "scenario",
-    "prompt": "Zwierzę ma przednie kończyny przekształcone w płetwy i jest ssakiem żyjącym w wodzie. Która grupa z rozdziału najlepiej pasuje do tego opisu?",
+    "prompt": "Zwierzę ma przednie kończyny przekształcone w płetwy i jest ssakiem żyjącym w wodzie. Która grupa najlepiej pasuje do tego opisu?",
     "options": [
       "ssaki wodne",
       "ptaki nielotne",
@@ -651,7 +651,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_12",
     "section": "Ssaki: budowa i środowisko",
     "type": "single_choice",
-    "prompt": "Jaki jest największy ssak wodny i zarazem największy ssak na Ziemi według rozdziału?",
+    "prompt": "Jaki jest największy ssak wodny i zarazem największy ssak na Ziemi?",
     "options": [
       "płetwal błękitny",
       "delfin",
@@ -661,7 +661,7 @@ const ALL_EXERCISES = [
       "żubr"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że największym ssakiem wodnym i zarazem największym ssakiem na Ziemi jest płetwal błękitny."
+    "explanation": "Największym ssakiem wodnym i zarazem największym ssakiem na Ziemi jest płetwal błękitny."
   },
   {
     "id": "R05_ZSS_01",
@@ -683,7 +683,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_02",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady pozytywnego znaczenia ssaków dla człowieka opisane w rozdziale.",
+    "prompt": "Zaznacz przykłady pozytywnego znaczenia ssaków dla człowieka.",
     "options": [
       "Dostarczają mięsa, mleka, skór i wełny",
       "Służą jako środek transportu",
@@ -734,7 +734,7 @@ const ALL_EXERCISES = [
     "prompt": "Wśród dorosłych ssaków spotykamy głównie gatunki wszystkożerne.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że wśród dorosłych ssaków najczęstsze są gatunki wszystkożerne, a mniej liczne są typowo roślinożerne i typowo mięsożerne."
+    "explanation": "Wśród dorosłych ssaków najczęstsze są gatunki wszystkożerne, a mniej liczne są typowo roślinożerne i typowo mięsożerne."
   },
   {
     "id": "R05_ZSS_05",
@@ -763,7 +763,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_06",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "riddle",
-    "prompt": "Jaki ssak opisany w rozdziale potrafi biec w pościgu za ofiarą z prędkością około 120 km/godz.?",
+    "prompt": "Jaki ssak potrafi biec w pościgu za ofiarą z prędkością około 120 km/godz.?",
     "options": null,
     "answer": "gepard",
     "altAnswers": [
@@ -809,7 +809,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_08",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "scenario",
-    "prompt": "Rolnik zauważa, że myszy niszczą jego zapasy żywności. Jak rozdział klasyfikuje takie działanie ssaków?",
+    "prompt": "Rolnik zauważa, że myszy niszczą jego zapasy żywności. Jak klasyfikuje się takie działanie ssaków?",
     "options": [
       "jako negatywne znaczenie ssaków dla człowieka",
       "jako zapylanie kwiatów",
@@ -834,7 +834,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_10",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "single_choice",
-    "prompt": "Które ssaki wymieniono w rozdziale jako przenoszące wirusa wścieklizny?",
+    "prompt": "Które ssaki wymieniono jako przenoszące wirusa wścieklizny?",
     "options": [
       "lisy, borsuki, nietoperze, psy i koty",
       "kury, kaczki, gęsi i indyki",
@@ -844,13 +844,13 @@ const ALL_EXERCISES = [
       "żurawie, pawie i altanniki"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że wirusa wścieklizny mogą przenosić lisy, borsuki, nietoperze, psy i koty."
+    "explanation": "Wirusa wścieklizny mogą przenosić lisy, borsuki, nietoperze, psy i koty."
   },
   {
     "id": "R05_ZSS_11",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "sequence",
-    "prompt": "Ułóż drogę nasiona rozsiewanego przez sarnę zgodnie z opisem w rozdziale.",
+    "prompt": "Ułóż drogę nasiona rozsiewanego przez sarnę zgodnie z opisem.",
     "options": null,
     "items": [
       "nasiono zostaje usunięte z kałem",
@@ -873,13 +873,13 @@ const ALL_EXERCISES = [
     "prompt": "Niektóre wieloryby nie mają typowych zębów, lecz fiszbiny służące do odcedzania drobnych skorupiaków z wody.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że u niektórych wielorybów fiszbiny zastępują zęby i umożliwiają odcedzanie drobnych morskich skorupiaków."
+    "explanation": "U niektórych wielorybów fiszbiny zastępują zęby i umożliwiają odcedzanie drobnych morskich skorupiaków."
   },
   {
     "id": "R05_OCH_01",
     "section": "Ochrona zwierząt stałocieplnych",
     "type": "multi_select",
-    "prompt": "Zaznacz działania człowieka zagrażające ptakom wymienione w rozdziale.",
+    "prompt": "Zaznacz działania człowieka zagrażające ptakom.",
     "options": [
       "Wycinka lasów i usuwanie zadrzewień śródpolnych",
       "Osuszanie terenów podmokłych",
@@ -903,13 +903,13 @@ const ALL_EXERCISES = [
     "prompt": "Ropa naftowa niszczy pióra, przez co ptaki mogą mieć trudności z lataniem, zdobywaniem pożywienia i utrzymywaniem temperatury ciała.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że ropa niszczy pióra i utrudnia ptakom podstawowe czynności życiowe."
+    "explanation": "Ropa niszczy pióra i utrudnia ptakom podstawowe czynności życiowe."
   },
   {
     "id": "R05_OCH_03",
     "section": "Ochrona zwierząt stałocieplnych",
     "type": "single_choice",
-    "prompt": "Które działanie jest sposobem ochrony ptaków opisanym w rozdziale?",
+    "prompt": "Które działanie jest sposobem ochrony ptaków?",
     "options": [
       "zakładanie skrzynek lęgowych",
       "zwiększanie liczby przezroczystych ekranów",
@@ -926,7 +926,7 @@ const ALL_EXERCISES = [
     "id": "R05_OCH_04",
     "section": "Ochrona zwierząt stałocieplnych",
     "type": "match",
-    "prompt": "Połącz zagrożenie z grupą zwierząt, której dotyczy w rozdziale.",
+    "prompt": "Połącz zagrożenie z grupą zwierząt, której dotyczy.",
     "options": null,
     "left": [
       "wycieki ropy naftowej",
@@ -976,7 +976,7 @@ const ALL_EXERCISES = [
     "id": "R05_OCH_06",
     "section": "Ochrona zwierząt stałocieplnych",
     "type": "scenario",
-    "prompt": "Zima jest wyjątkowo surowa, a zwierzętom brakuje pokarmu. Które działanie ochronne pojawia się w rozdziale zarówno przy ptakach, jak i ssakach?",
+    "prompt": "Zima jest wyjątkowo surowa, a zwierzętom brakuje pokarmu. Które działanie ochronne pojawia się zarówno przy ptakach, jak i ssakach?",
     "options": [
       "dokarmianie",
       "zwiększanie wycinki drzew",
@@ -986,7 +986,7 @@ const ALL_EXERCISES = [
       "przenoszenie wirusa wścieklizny"
     ],
     "answer": 0,
-    "explanation": "Przy szczególnie surowych zimach rozdział wskazuje dokarmianie jako pomoc dla ptaków i ssaków."
+    "explanation": "Przy szczególnie surowych zimach wskazuje się dokarmianie jako pomoc dla ptaków i ssaków."
   },
   {
     "id": "R05_OCH_07",
@@ -1044,13 +1044,13 @@ const ALL_EXERCISES = [
       "ochrona gatunkowa",
       "gatunkowa"
     ],
-    "explanation": "Rozdział wskazuje, że rzadkie lub zagrożone gatunki obejmuje się ochroną gatunkową."
+    "explanation": "Rzadkie lub zagrożone gatunki obejmuje się ochroną gatunkową."
   },
   {
     "id": "R05_OCH_10",
     "section": "Ochrona zwierząt stałocieplnych",
     "type": "single_choice",
-    "prompt": "Co jest największym zagrożeniem dla ssaków według rozdziału?",
+    "prompt": "Co jest największym zagrożeniem dla ssaków?",
     "options": [
       "niszczenie obszarów ich występowania",
       "brak piór",
@@ -1089,13 +1089,13 @@ const ALL_EXERCISES = [
     "prompt": "Ochrona ptaków i ssaków polega między innymi na dbaniu o miejsca, w których te zwierzęta żyją.",
     "options": null,
     "answer": true,
-    "explanation": "Podsumowanie rozdziału wskazuje ochronę miejsc występowania jako wspólny sposób ochrony ptaków i ssaków."
+    "explanation": "Wskazuje się ochronę miejsc występowania jako wspólny sposób ochrony ptaków i ssaków."
   },
   {
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Badacz śledzi trasę bociana białego lecącego z Europy do Afryki. Jaki zakres długości takiej drogi podaje rozdział?",
+    "prompt": "Badacz śledzi trasę bociana białego lecącego z Europy do Afryki. Jaki zakres długości takiej drogi podaje się?",
     "options": [
       "od 2 tys. do 10 tys. km",
       "od 20 km do 100 km",
@@ -1160,7 +1160,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o pingwinie cesarskim zgodne z tekstem w rozdziale.",
+    "prompt": "Zaznacz informacje o pingwinie cesarskim zgodne z tekstem.",
     "options": [
       "Samica składa w zimie jedno jajo",
       "Samiec ogrzewa jajo na stopach fałdem brzusznym",
@@ -1219,7 +1219,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz grupę ssaków z cechą uzębienia opisaną w rozdziale.",
+    "prompt": "Połącz grupę ssaków z cechą uzębienia.",
     "options": null,
     "left": [
       "ssaki drapieżne",
@@ -1287,7 +1287,7 @@ const ALL_EXERCISES = [
         "skok około 8 m"
       ]
     },
-    "explanation": "Wśród rekordzistów ssaków Polski rozdział wymienia żubra, ryjówkę, zająca szaraka i kozicę z tymi właśnie wartościami."
+    "explanation": "Wśród rekordzistów ssaków Polski wymienia się żubra, ryjówkę, zająca szaraka i kozicę z tymi właśnie wartościami."
   },
   {
     "id": "R05_HARD_11",
@@ -1309,7 +1309,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz pary organizm i rola zgodne z podsumowaniem rozdziału.",
+    "prompt": "Zaznacz pary organizm i rola zgodne.",
     "options": [
       "kolibry biorą udział w zapylaniu kwiatów",
       "niektóre nietoperze biorą udział w zapylaniu kwiatów",

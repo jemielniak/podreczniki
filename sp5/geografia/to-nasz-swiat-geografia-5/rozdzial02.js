@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R02_MAP_01",
     "section": "Mapa i plan",
     "type": "single_choice",
-    "prompt": "Czym jest mapa według rozdziału?",
+    "prompt": "Czym jest mapa?",
     "options": [
       "Bardzo pomniejszonym obrazem powierzchni Ziemi lub jej fragmentu",
       "Modelem Ziemi w kształcie kuli",
@@ -32,7 +32,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r02_zdjecie_z_lotu_ptaka.jpg",
-    "explanation": "W rozdziale podano, że współczesne mapy mogą powstawać ze zdjęć wykonanych z samolotów, balonów, dronów lub satelitów."
+    "explanation": "Współczesne mapy mogą powstawać ze zdjęć wykonanych z samolotów, balonów, dronów lub satelitów."
   },
   {
     "id": "R02_MAP_03",
@@ -88,7 +88,7 @@ const ALL_EXERCISES = [
     "id": "R02_MAP_05",
     "section": "Mapa i plan",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy, które według rozdziału może zawierać mapa.",
+    "prompt": "Zaznacz elementy, które może zawierać mapa.",
     "options": [
       "treść mapy",
       "tytuł mapy",
@@ -292,7 +292,7 @@ const ALL_EXERCISES = [
     "prompt": "Im większa liczba po znaku dzielenia w zapisie skali liczbowej, tym bardziej pomniejszono obszar lub obiekt.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że większa liczba po znaku dzielenia oznacza większe pomniejszenie przedstawionego obszaru."
+    "explanation": "Większa liczba po znaku dzielenia oznacza większe pomniejszenie przedstawionego obszaru."
   },
   {
     "id": "R02_SKA_05",
@@ -409,7 +409,7 @@ const ALL_EXERCISES = [
     "prompt": "Gdy trasa nie biegnie w linii prostej, można podzielić ją na odcinki, zmierzyć je osobno i dodać ich długości.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale opisano, że trasę złożoną z kilku odcinków mierzy się odcinkami, sumuje i dopiero potem przelicza według skali."
+    "explanation": "Trasę złożoną z kilku odcinków mierzy się odcinkami, sumuje i dopiero potem przelicza według skali."
   },
   {
     "id": "R02_SKA_12",
@@ -513,7 +513,7 @@ const ALL_EXERCISES = [
     "prompt": "Poziomice na mapie nigdy się nie przecinają.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że poziomice nigdy się nie przecinają."
+    "explanation": "Poziomice nigdy się nie przecinają."
   },
   {
     "id": "R02_UKS_07",
@@ -686,7 +686,7 @@ const ALL_EXERCISES = [
         "500 m"
       ]
     ],
-    "explanation": "W rozdziale podano, że niziny mają wysokości 0-300 m n.p.m., wyżyny 300-500 m n.p.m., a góry leżą powyżej 500 m n.p.m."
+    "explanation": "Niziny mają wysokości 0-300 m n.p.m., wyżyny 300-500 m n.p.m., a góry leżą powyżej 500 m n.p.m."
   },
   {
     "id": "R02_KRA_04",
@@ -701,7 +701,7 @@ const ALL_EXERCISES = [
     "id": "R02_KRA_05",
     "section": "Krajobraz",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy krajobrazu wymienione w rozdziale.",
+    "prompt": "Zaznacz elementy krajobrazu.",
     "options": [
       "ukształtowanie terenu",
       "wody",
@@ -736,7 +736,7 @@ const ALL_EXERCISES = [
     "id": "R02_KRA_07",
     "section": "Krajobraz",
     "type": "single_choice",
-    "prompt": "Ile pasów krajobrazowych wyróżniono w Polsce w rozdziale?",
+    "prompt": "Ile pasów krajobrazowych wyróżniono w Polsce?",
     "options": [
       "sześć",
       "dwa",
@@ -776,7 +776,7 @@ const ALL_EXERCISES = [
     "id": "R02_KRA_09",
     "section": "Krajobraz",
     "type": "match",
-    "prompt": "Połącz pas krajobrazowy z cechą podaną w rozdziale.",
+    "prompt": "Połącz pas krajobrazowy z cechą.",
     "options": null,
     "left": [
       "pas pobrzeży",
@@ -811,7 +811,7 @@ const ALL_EXERCISES = [
     "id": "R02_KRA_11",
     "section": "Krajobraz",
     "type": "scenario",
-    "prompt": "Na mapie zaznaczono pokrycie terenu lasami, polami uprawnymi, łąkami i zabudową. Jaki to typ mapy opisany w rozdziale?",
+    "prompt": "Na mapie zaznaczono pokrycie terenu lasami, polami uprawnymi, łąkami i zabudową. Jaki to typ mapy?",
     "options": [
       "mapa krajobrazowa",
       "mapa pogody",
@@ -859,7 +859,7 @@ const ALL_EXERCISES = [
     "id": "R02_OCH_01",
     "section": "Ochrona przyrody",
     "type": "multi_select",
-    "prompt": "Zaznacz powody ochrony przyrody wymienione w rozdziale.",
+    "prompt": "Zaznacz powody ochrony przyrody.",
     "options": [
       "zachowanie przyrodniczego bogactwa planety",
       "ocalenie życia zwierząt, roślin i innych organizmów",
@@ -884,7 +884,7 @@ const ALL_EXERCISES = [
     "prompt": "Na łonie natury należy schodzić z wyznaczonych szlaków, aby lepiej poznać teren.",
     "options": null,
     "answer": false,
-    "explanation": "W rozdziale wprost zapisano, że nie należy schodzić z wyznaczonych szlaków."
+    "explanation": "Wprost zapisano, że nie należy schodzić z wyznaczonych szlaków."
   },
   {
     "id": "R02_OCH_03",
@@ -918,7 +918,7 @@ const ALL_EXERCISES = [
     "id": "R02_OCH_04",
     "section": "Ochrona przyrody",
     "type": "single_choice",
-    "prompt": "Czym są parki narodowe według rozdziału?",
+    "prompt": "Czym są parki narodowe?",
     "options": [
       "obszarami najcenniejszymi przyrodniczo, gdzie chroni się przyrodę ożywioną i nieożywioną",
       "miejscami, w których wolno niszczyć rośliny",
@@ -961,7 +961,7 @@ const ALL_EXERCISES = [
     "id": "R02_OCH_06",
     "section": "Ochrona przyrody",
     "type": "riddle",
-    "prompt": "Jaki park narodowy jest największy w Polsce według rozdziału?",
+    "prompt": "Jaki park narodowy jest największy w Polsce?",
     "options": null,
     "answer": "Biebrzański Park Narodowy",
     "altAnswers": [
@@ -970,7 +970,7 @@ const ALL_EXERCISES = [
       "Biebrzanski Park Narodowy",
       "Biebrzanski"
     ],
-    "explanation": "W rozdziale wskazano rozlewiska Biebrzy w Biebrzańskim Parku Narodowym i opisano go jako największy park narodowy w Polsce."
+    "explanation": "Wskazano rozlewiska Biebrzy w Biebrzańskim Parku Narodowym i opisano go jako największy park narodowy w Polsce."
   },
   {
     "id": "R02_OCH_07",
@@ -989,7 +989,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r02_cis_henrykowski.jpg",
-    "explanation": "Rozdział podaje, że Cis Henrykowski liczy około 1250 lat i jest obecnie chroniony specjalnym rusztowaniem."
+    "explanation": "Cis Henrykowski liczy około 1250 lat i jest obecnie chroniony specjalnym rusztowaniem."
   },
   {
     "id": "R02_OCH_08",
@@ -1014,7 +1014,7 @@ const ALL_EXERCISES = [
     "prompt": "Rezerwaty przyrody są mniejsze od parków narodowych, a działalność człowieka jest w nich mocno ograniczona.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale zapisano, że rezerwaty są mniejsze od parków narodowych i że działalność człowieka jest w nich mocno ograniczona."
+    "explanation": "Rezerwaty są mniejsze od parków narodowych i że działalność człowieka jest w nich mocno ograniczona."
   },
   {
     "id": "R02_OCH_10",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
       "powyżej 500 m n.p.m.": "góry według wysokości bezwzględnej",
       "powyżej 300 m wysokości względnej": "góry według wysokości względnej"
     },
-    "explanation": "Rozdział podaje progi wysokości dla nizin, wyżyn i gór oraz przypomina, że góry można rozpoznawać także po wysokości względnej powyżej 300 m."
+    "explanation": "Podaje się progi wysokości dla nizin, wyżyn i gór oraz przypomina, że góry można rozpoznawać także po wysokości względnej powyżej 300 m."
   },
   {
     "id": "R02_HARD_07",
@@ -1196,7 +1196,7 @@ const ALL_EXERCISES = [
     "prompt": "Na mapach głębokość zbiorników wodnych oznacza się tak, że im jaśniejszy odcień niebieskiego, tym większa głębokość.",
     "options": null,
     "answer": false,
-    "explanation": "W rozdziale podano odwrotną zasadę: im ciemniejszy odcień niebieskiego, tym większa głębokość zbiornika wodnego."
+    "explanation": "Podano odwrotną zasadę: im ciemniejszy odcień niebieskiego, tym większa głębokość zbiornika wodnego."
   },
   {
     "id": "R02_HARD_09",

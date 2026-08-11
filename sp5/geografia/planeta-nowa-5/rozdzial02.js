@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R02_POD_02",
     "section": "Podstawy krajobrazu",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy krajobrazu wymienione w podręczniku.",
+    "prompt": "Zaznacz elementy krajobrazu.",
     "options": [
       "ukształtowanie powierzchni",
       "wody powierzchniowe",
@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "prompt": "Krajobraz kulturowy został przekształcony przez człowieka.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik przeciwstawia krajobraz kulturowy krajobrazowi naturalnemu."
+    "explanation": "Przeciwstawia się krajobraz kulturowy krajobrazowi naturalnemu."
   },
   {
     "id": "R02_POD_04",
@@ -236,7 +236,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r02_wydmy_plaza.jpg",
-    "explanation": "Podręcznik podaje, że stałe przewiewanie piasku powoduje przemieszczanie się wydm."
+    "explanation": "Stałe przewiewanie piasku powoduje przemieszczanie się wydm."
   },
   {
     "id": "R02_POP_04",
@@ -364,7 +364,7 @@ const ALL_EXERCISES = [
     "id": "R02_POP_10",
     "section": "Pobrzeża i pojezierza",
     "type": "scenario",
-    "prompt": "Rodzina planuje wakacje z żeglarstwem i kajakarstwem na szlaku wielu połączonych jezior. Który region z rozdziału najlepiej pasuje do takiego planu?",
+    "prompt": "Rodzina planuje wakacje z żeglarstwem i kajakarstwem na szlaku wielu połączonych jezior. Który region najlepiej pasuje do takiego planu?",
     "options": [
       "Pojezierze Mazurskie",
       "Wyżyna Śląska",
@@ -422,7 +422,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r02_warszawa_panorama.jpg",
-    "explanation": "Podręcznik podaje, że Warszawa leży w centralnej części kraju, po obu brzegach Wisły."
+    "explanation": "Warszawa leży w centralnej części kraju, po obu brzegach Wisły."
   },
   {
     "id": "R02_NIW_04",
@@ -447,7 +447,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIW_05",
     "section": "Niziny i Warszawa",
     "type": "match",
-    "prompt": "Połącz warszawski obiekt z opisem z rozdziału.",
+    "prompt": "Połącz warszawski obiekt z opisem.",
     "options": null,
     "left": [
       "Stare Miasto",
@@ -468,7 +468,7 @@ const ALL_EXERCISES = [
       "Stadion Narodowy": "arena wydarzeń sportowych i kulturalnych"
     },
     "image": "/img/r02_warszawa_panorama.jpg",
-    "explanation": "Rozdział przedstawia kilka znanych atrakcji Warszawy."
+    "explanation": "Przedstawia się kilka znanych atrakcji Warszawy."
   },
   {
     "id": "R02_NIW_06",
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r02_kopalnia_halda.jpg",
-    "explanation": "Podręcznik definiuje hałdy jako wzniesienia z odpadów przemysłowych."
+    "explanation": "Definiuje się hałdy jako wzniesienia z odpadów przemysłowych."
   },
   {
     "id": "R02_WSL_04",
@@ -647,7 +647,7 @@ const ALL_EXERCISES = [
       "Szlak Zabytków Techniki": "zabytkowe obiekty przemysłowe",
       "Park Śląski": "teren zielony na obszarach przekształconych"
     },
-    "explanation": "Rozdział łączy Śląsk z górnictwem, gwarą śląską, Barbórką i Szlakiem Zabytków Techniki."
+    "explanation": "Łączy się Śląsk z górnictwem, gwarą śląską, Barbórką i Szlakiem Zabytków Techniki."
   },
   {
     "id": "R02_WSL_06",
@@ -669,7 +669,7 @@ const ALL_EXERCISES = [
     "id": "R02_WSL_07",
     "section": "Wyżyny Śląska i Lubelska",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny uprawiane na Wyżynie Lubelskiej wymienione w podręczniku.",
+    "prompt": "Zaznacz rośliny uprawiane na Wyżynie Lubelskiej.",
     "options": [
       "pszenica",
       "buraki cukrowe",
@@ -739,7 +739,7 @@ const ALL_EXERCISES = [
     "id": "R02_WSL_10",
     "section": "Wyżyny Śląska i Lubelska",
     "type": "scenario",
-    "prompt": "Rolnik szuka miejsca z żyznymi glebami brunatnymi i czarnoziemami, gdzie można uprawiać pszenicę, buraki cukrowe, tytoń i chmiel. Która kraina z rozdziału pasuje najlepiej?",
+    "prompt": "Rolnik szuka miejsca z żyznymi glebami brunatnymi i czarnoziemami, gdzie można uprawiać pszenicę, buraki cukrowe, tytoń i chmiel. Która kraina pasuje najlepiej?",
     "options": [
       "Wyżyna Lubelska",
       "Wybrzeże Słowińskie",
@@ -975,7 +975,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wszystkie poprawne pary łączą obiekt lub zjawisko z regionem wskazanym w rozdziale."
+    "explanation": "Wszystkie poprawne pary łączą obiekt lub zjawisko z regionem."
   },
   {
     "id": "R02_HARD_03",
@@ -1009,7 +1009,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz liczbę z informacją z rozdziału.",
+    "prompt": "Połącz liczbę z informacją.",
     "options": null,
     "left": [
       "2499 m n.p.m.",

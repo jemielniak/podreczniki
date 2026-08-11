@@ -29,7 +29,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_02",
     "section": "Położenie i państwa Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz półkule, na których według rozdziału leży Europa.",
+    "prompt": "Zaznacz półkule, na których leży Europa.",
     "options": [
       "półkula północna",
       "półkula wschodnia",
@@ -104,7 +104,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_mapa_polityczna_europy.jpg",
-    "explanation": "Rozdział podaje liczbę 47 państw w Europie i zaznacza, że Kosowo nie przez wszystkie kraje jest uznawane."
+    "explanation": "Podaje się liczbę 47 państw w Europie i zaznacza, że Kosowo nie przez wszystkie kraje jest uznawane."
   },
   {
     "id": "R03_POL_06",
@@ -126,7 +126,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do wód otaczających Europę: Ocean Arktyczny, Ocean Atlantycki, Morze Śródziemne, Ocean Indyjski.",
     "options": null,
     "answer": "Ocean Indyjski",
-    "explanation": "Ocean Indyjski nie jest wymieniony w rozdziale jako woda otaczająca Europę; Europę oblewają m.in. Ocean Arktyczny, Ocean Atlantycki i Morze Śródziemne."
+    "explanation": "Ocean Indyjski nie jest jako woda otaczająca Europę; Europę oblewają m.in. Ocean Arktyczny, Ocean Atlantycki i Morze Śródziemne."
   },
   {
     "id": "R03_POL_08",
@@ -158,7 +158,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_09",
     "section": "Położenie i państwa Europy",
     "type": "scenario",
-    "prompt": "Uczeń szuka w rozdziale państw położonych częściowo w Europie i częściowo w Azji. Oprócz Rosji powinien wskazać dwa kraje. Który zestaw jest poprawny?",
+    "prompt": "Uczeń szuka państw położonych częściowo w Europie i częściowo w Azji. Oprócz Rosji powinien wskazać dwa kraje. Który zestaw jest poprawny?",
     "options": [
       "Kazachstan i Turcja",
       "Ukraina i Niemcy",
@@ -168,13 +168,13 @@ const ALL_EXERCISES = [
       "Belgia i Holandia"
     ],
     "answer": 0,
-    "explanation": "Rozdział wymienia Rosję, Kazachstan i Turcję jako państwa położone częściowo w Europie i Azji."
+    "explanation": "Wymienia się Rosję, Kazachstan i Turcję jako państwa położone częściowo w Europie i Azji."
   },
   {
     "id": "R03_POL_10",
     "section": "Położenie i państwa Europy",
     "type": "sort",
-    "prompt": "Przyporządkuj państwa do opisów z rozdziału.",
+    "prompt": "Przyporządkuj państwa do opisów.",
     "options": null,
     "items": [
       "Ukraina",
@@ -237,7 +237,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie niziny w Europie są idealnie płaskimi równinami bez pagórków.",
     "options": null,
     "answer": false,
-    "explanation": "Rozdział podkreśla, że niziny nie wszędzie są równinami; część takich obszarów ma niewysokie pagórki."
+    "explanation": "Niziny nie wszędzie są równinami; część takich obszarów ma niewysokie pagórki."
   },
   {
     "id": "R03_UKS_03",
@@ -278,7 +278,7 @@ const ALL_EXERCISES = [
     "id": "R03_UKS_05",
     "section": "Ukształtowanie i wody Europy",
     "type": "match",
-    "prompt": "Połącz obiekt geograficzny z przykładem z rozdziału.",
+    "prompt": "Połącz obiekt geograficzny z przykładem.",
     "options": null,
     "left": [
       "największe jezioro Europy",
@@ -298,7 +298,7 @@ const ALL_EXERCISES = [
       "największy europejski półwysep": "Półwysep Skandynawski",
       "największa europejska wyspa": "Wielka Brytania"
     },
-    "explanation": "Rozdział wskazuje Ładogę, Wołgę, Półwysep Skandynawski i Wielką Brytanię jako największe lub najdłuższe obiekty w swoich kategoriach."
+    "explanation": "Wskazuje się Ładogę, Wołgę, Półwysep Skandynawski i Wielką Brytanię jako największe lub najdłuższe obiekty w swoich kategoriach."
   },
   {
     "id": "R03_UKS_06",
@@ -376,7 +376,7 @@ const ALL_EXERCISES = [
       "zatoka"
     ],
     "answer": 0,
-    "explanation": "Część nizin leżących poniżej poziomu morza to depresje. W rozdziale podano przykłady z Holandii i Żuław Wiślanych."
+    "explanation": "Część nizin leżących poniżej poziomu morza to depresje. Podano przykłady z Holandii i Żuław Wiślanych."
   },
   {
     "id": "R03_UKS_10",
@@ -386,13 +386,13 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_wulkan_etna.jpg",
-    "explanation": "Rozdział wymienia Włochy, Grecję, Islandię i norweską wyspę Jan Mayen jako miejsca występowania czynnych wulkanów w Europie."
+    "explanation": "Wymienia się Włochy, Grecję, Islandię i norweską wyspę Jan Mayen jako miejsca występowania czynnych wulkanów w Europie."
   },
   {
     "id": "R03_KLI_01",
     "section": "Klimat i zmiana klimatu",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki kształtujące klimat Europy wymienione w rozdziale.",
+    "prompt": "Zaznacz czynniki kształtujące klimat Europy.",
     "options": [
       "szerokość geograficzna",
       "ukształtowanie terenu i wysokość nad poziomem morza",
@@ -416,7 +416,7 @@ const ALL_EXERCISES = [
     "prompt": "Wraz ze wzrostem wysokości nad poziomem morza temperatura powietrza spada mniej więcej o 6°C na każde 1000 metrów.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że co każde 1000 m wysokości temperatura powietrza maleje mniej więcej o 6°C."
+    "explanation": "Co każde 1000 m wysokości temperatura powietrza maleje mniej więcej o 6°C."
   },
   {
     "id": "R03_KLI_03",
@@ -487,7 +487,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie jest czynnikiem kształtującym klimat Europy: szerokość geograficzna, wysokość nad poziomem morza, ciepłe prądy morskie, religia dominująca.",
     "options": null,
     "answer": "religia dominująca",
-    "explanation": "Religia dominująca nie jest czynnikiem klimatotwórczym. W rozdziale wymieniono m.in. szerokość geograficzną, wysokość terenu i ciepłe prądy morskie."
+    "explanation": "Religia dominująca nie jest czynnikiem klimatotwórczym. Wymieniono m.in. szerokość geograficzną, wysokość terenu i ciepłe prądy morskie."
   },
   {
     "id": "R03_KLI_07",
@@ -594,7 +594,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_02",
     "section": "Ludność i migracje",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki sprzyjające osiedlaniu się ludności wymienione w rozdziale.",
+    "prompt": "Zaznacz czynniki sprzyjające osiedlaniu się ludności.",
     "options": [
       "nizinna rzeźba terenu",
       "ciepły klimat z umiarkowaną ilością opadów",
@@ -632,7 +632,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r03_europejski_banan_mapa.jpg",
-    "explanation": "Rozdział podaje, że w Europie mieszka ponad 744 mln ludzi, a bardzo zaludniony obszar przypominający kształtem banan nazywa się europejskim bananem."
+    "explanation": "W Europie mieszka ponad 744 mln ludzi, a bardzo zaludniony obszar przypominający kształtem banan nazywa się europejskim bananem."
   },
   {
     "id": "R03_LUD_04",
@@ -687,7 +687,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_07",
     "section": "Ludność i migracje",
     "type": "scenario",
-    "prompt": "Rodzina opuszcza ojczyznę z powodu wojny i zagrożenia życia. Jak rozdział nazywa takie osoby?",
+    "prompt": "Rodzina opuszcza ojczyznę z powodu wojny i zagrożenia życia. Jak nazywa się takie osoby?",
     "options": [
       "uchodźcy",
       "turyści",
@@ -736,7 +736,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_09",
     "section": "Ludność i migracje",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do religii i ich odłamów z rozdziału: katolicyzm, protestantyzm, prawosławie, elektrownia wodna.",
+    "prompt": "Wskaż, co nie pasuje do religii i ich odłamów: katolicyzm, protestantyzm, prawosławie, elektrownia wodna.",
     "options": null,
     "answer": "elektrownia wodna",
     "explanation": "Katolicyzm, protestantyzm i prawosławie są odłamami chrześcijaństwa, a elektrownia wodna należy do tematu energetyki."
@@ -745,7 +745,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_10",
     "section": "Ludność i migracje",
     "type": "multi_select",
-    "prompt": "Zaznacz powody migracji wymienione w rozdziale.",
+    "prompt": "Zaznacz powody migracji.",
     "options": [
       "nauka",
       "chęć zmiany",
@@ -760,7 +760,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział wymienia m.in. naukę, chęć zmiany, migracje zarobkowe oraz konieczność ucieczki przed wojną lub prześladowaniami."
+    "explanation": "Wymienia się m.in. naukę, chęć zmiany, migracje zarobkowe oraz konieczność ucieczki przed wojną lub prześladowaniami."
   },
   {
     "id": "R03_GOS_01",
@@ -820,7 +820,7 @@ const ALL_EXERCISES = [
     "prompt": "Wykorzystanie węgla, ropy naftowej i gazu ziemnego powoduje zanieczyszczenie środowiska, głównie powietrza.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że wykorzystanie tych paliw kopalnych skutkuje zanieczyszczeniem środowiska, głównie powietrza."
+    "explanation": "Wykorzystanie tych paliw kopalnych skutkuje zanieczyszczeniem środowiska, głównie powietrza."
   },
   {
     "id": "R03_GOS_04",
@@ -866,13 +866,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_elektrownia_wodna_norwegia.jpg",
-    "explanation": "Rozdział opisuje Norwegię jako górzysty kraj, w którym szybkie rzeki sprzyjają energetyce wodnej."
+    "explanation": "Opisuje się Norwegię jako górzysty kraj, w którym szybkie rzeki sprzyjają energetyce wodnej."
   },
   {
     "id": "R03_GOS_06",
     "section": "Gospodarka i energetyka",
     "type": "single_choice",
-    "prompt": "Które źródło energii ma bardzo duże znaczenie w Danii według rozdziału?",
+    "prompt": "Które źródło energii ma bardzo duże znaczenie w Danii?",
     "options": [
       "wiatr",
       "uran",
@@ -889,7 +889,7 @@ const ALL_EXERCISES = [
     "id": "R03_GOS_07",
     "section": "Gospodarka i energetyka",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady działalności zaliczanych w rozdziale do rolnictwa.",
+    "prompt": "Zaznacz przykłady działalności zaliczanych do rolnictwa.",
     "options": [
       "uprawa roślin",
       "chów zwierząt",
@@ -931,7 +931,7 @@ const ALL_EXERCISES = [
         "uslugi"
       ]
     ],
-    "explanation": "Trzy sektory gospodarki wymienione w rozdziale to rolnictwo, przemysł i usługi."
+    "explanation": "Trzy sektory gospodarki to rolnictwo, przemysł i usługi."
   },
   {
     "id": "R03_GOS_09",
@@ -963,13 +963,13 @@ const ALL_EXERCISES = [
       "przemysł": "produkcja serów",
       "usługi": "przewóz i sprzedaż produktów"
     },
-    "explanation": "W przykładzie z rozdziału rolnictwo obejmuje chów krów, przemysł produkcję serów, a usługi ich przewóz i sprzedaż."
+    "explanation": "W przykładzie rolnictwo obejmuje chów krów, przemysł produkcję serów, a usługi ich przewóz i sprzedaż."
   },
   {
     "id": "R03_UNI_01",
     "section": "Unia Europejska i NATO",
     "type": "single_choice",
-    "prompt": "Jaki jest główny cel Unii Europejskiej według rozdziału?",
+    "prompt": "Jaki jest główny cel Unii Europejskiej?",
     "options": [
       "współpraca gospodarcza, polityczna i społeczna",
       "podział Europy na nowe kontynenty",
@@ -1001,7 +1001,7 @@ const ALL_EXERCISES = [
         "Bruksela"
       ]
     ],
-    "explanation": "Rozdział podaje, że Unia Europejska powstała w 1993 r., a za jej stolicę uznaje się Brukselę."
+    "explanation": "Unia Europejska powstała w 1993 r., a za jej stolicę uznaje się Brukselę."
   },
   {
     "id": "R03_UNI_03",
@@ -1010,7 +1010,7 @@ const ALL_EXERCISES = [
     "prompt": "W 2024 r. Unia Europejska zrzeszała 27 państw, a Wielka Brytania już do niej nie należała.",
     "options": null,
     "answer": true,
-    "explanation": "Według danych w rozdziale UE zrzesza 27 państw, a Wielka Brytania wystąpiła z organizacji do 2020 r."
+    "explanation": "UE zrzesza 27 państw, a Wielka Brytania wystąpiła z organizacji do 2020 r."
   },
   {
     "id": "R03_UNI_04",
@@ -1040,7 +1040,7 @@ const ALL_EXERCISES = [
     "id": "R03_UNI_05",
     "section": "Unia Europejska i NATO",
     "type": "multi_select",
-    "prompt": "Zaznacz działania Unii Europejskiej wymienione w rozdziale.",
+    "prompt": "Zaznacz działania Unii Europejskiej.",
     "options": [
       "wspieranie rozwoju państw członkowskich",
       "ujednolicanie niektórych przepisów",
@@ -1076,13 +1076,13 @@ const ALL_EXERCISES = [
     "prompt": "W 2024 r. strefę euro tworzyło 20 z 27 państw Unii Europejskiej.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że do strefy euro należało 20 z 27 państw UE."
+    "explanation": "Do strefy euro należało 20 z 27 państw UE."
   },
   {
     "id": "R03_UNI_08",
     "section": "Unia Europejska i NATO",
     "type": "scenario",
-    "prompt": "Podróżny chce przekraczać granice wielu europejskich państw bez kontroli, zwykle z samym dowodem osobistym. O jakim obszarze mówi rozdział?",
+    "prompt": "Podróżny chce przekraczać granice wielu europejskich państw bez kontroli, zwykle z samym dowodem osobistym. O jakim obszarze mówi się?",
     "options": [
       "strefa Schengen",
       "strefa biegunowa",
@@ -1147,7 +1147,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_01",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż elementy granicy Europy z Azją w kolejności zgodnej z podsumowaniem rozdziału.",
+    "prompt": "Ułóż elementy granicy Europy z Azją w kolejności zgodnej.",
     "options": null,
     "items": [
       "Morze Czarne",
@@ -1194,7 +1194,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz miejsce z typem klimatu pokazanym lub opisanym w rozdziale.",
+    "prompt": "Połącz miejsce z typem klimatu pokazanym lub.",
     "options": null,
     "left": [
       "Dublin",
@@ -1217,7 +1217,7 @@ const ALL_EXERCISES = [
       "Palermo": "podzwrotnikowy morski",
       "Bodo": "umiarkowany chłodny morski"
     },
-    "explanation": "Klimatogramy w rozdziale pokazują przykłady typów klimatu dla Dublina, Uralska, Kirkenes, Palermo i Bodo."
+    "explanation": "Klimatogramy pokazują przykłady typów klimatu dla Dublina, Uralska, Kirkenes, Palermo i Bodo."
   },
   {
     "id": "R03_HARD_04",
@@ -1240,7 +1240,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_05",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki obecnego ocieplania klimatu wymienione w rozdziale.",
+    "prompt": "Zaznacz skutki obecnego ocieplania klimatu.",
     "options": [
       "podnoszenie poziomu mórz i oceanów",
       "zalewanie nisko położonych wybrzeży",
@@ -1256,7 +1256,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r03_susza_poludnie_europy.jpg",
-    "explanation": "Rozdział wymienia m.in. topnienie lądolodów, wzrost poziomu mórz, zalewanie wybrzeży, gwałtowne zjawiska pogodowe, susze i pożary."
+    "explanation": "Wymienia się m.in. topnienie lądolodów, wzrost poziomu mórz, zalewanie wybrzeży, gwałtowne zjawiska pogodowe, susze i pożary."
   },
   {
     "id": "R03_HARD_06",
@@ -1273,7 +1273,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_elektrownia_wodna_norwegia.jpg",
-    "explanation": "Rozdział opisuje Islandię jako kraj z lodowcami i wulkanami, co sprzyja energetyce wodnej oraz geotermalnej."
+    "explanation": "Opisuje się Islandię jako kraj z lodowcami i wulkanami, co sprzyja energetyce wodnej oraz geotermalnej."
   },
   {
     "id": "R03_HARD_07",
@@ -1347,13 +1347,13 @@ const ALL_EXERCISES = [
     "prompt": "Uran jest odnawialnym źródłem energii, ponieważ jego wykorzystanie w elektrowniach jądrowych nie powoduje emisji substancji szkodliwych dla środowiska i klimatu.",
     "options": null,
     "answer": false,
-    "explanation": "Rozdział zalicza uran do źródeł nieodnawialnych. To, że jego wykorzystanie nie powoduje takich emisji, nie czyni go źródłem odnawialnym."
+    "explanation": "Zalicza się uran do źródeł nieodnawialnych. To, że jego wykorzystanie nie powoduje takich emisji, nie czyni go źródłem odnawialnym."
   },
   {
     "id": "R03_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz religię lub określenie z informacją z rozdziału.",
+    "prompt": "Połącz religię lub określenie z informacją.",
     "options": null,
     "left": [
       "chrześcijaństwo",
@@ -1373,13 +1373,13 @@ const ALL_EXERCISES = [
       "świątynie islamu": "meczety",
       "świątynie prawosławne": "cerkwie"
     },
-    "explanation": "Rozdział pokazuje, że wyznawcy chrześcijaństwa to chrześcijanie, wyznawcy islamu to muzułmanie, świątynie islamu to meczety, a świątynie prawosławne to cerkwie."
+    "explanation": "Wyznawcy chrześcijaństwa to chrześcijanie, wyznawcy islamu to muzułmanie, świątynie islamu to meczety, a świątynie prawosławne to cerkwie."
   },
   {
     "id": "R03_HARD_12",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W państwie więcej ludzi osiedla się z zagranicy, niż wyprowadza się do innych krajów. Jak rozdział nazywa takie państwo?",
+    "prompt": "W państwie więcej ludzi osiedla się z zagranicy, niż wyprowadza się do innych krajów. Jak nazywa się takie państwo?",
     "options": [
       "kraj imigracyjny",
       "kraj emigracyjny",

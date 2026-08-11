@@ -91,7 +91,7 @@ const ALL_EXERCISES = [
       "w I wieku n.e."
     ],
     "answer": 1,
-    "explanation": "Podręcznik podaje, że greckie miasta-państwa ostatecznie ukształtowały się w VIII wieku p.n.e."
+    "explanation": "Greckie miasta-państwa ostatecznie ukształtowały się w VIII wieku p.n.e."
   },
   {
     "id": "R02_ATE_06",
@@ -129,7 +129,7 @@ const ALL_EXERCISES = [
     "id": "R02_ATE_08",
     "section": "Demokratyczne Ateny",
     "type": "scenario",
-    "prompt": "Mieszkaniec Aten chce przemawiać na zgromadzeniu ludowym. Jest pełnoletnim mężczyzną, a jego rodzice są Ateńczykami. Jak określiłby go podręcznik?",
+    "prompt": "Mieszkaniec Aten chce przemawiać na zgromadzeniu ludowym. Jest pełnoletnim mężczyzną, a jego rodzice są Ateńczykami. Jak się go określa?",
     "options": [
       "obywatel Aten",
       "helota",
@@ -254,7 +254,7 @@ const ALL_EXERCISES = [
     "prompt": "Podstawowym zajęciem Spartan była służba wojskowa, która obowiązywała ich do 60. roku życia.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że spartańscy mężczyźni byli zobowiązani do służby wojskowej do 60. roku życia."
+    "explanation": "Spartańscy mężczyźni byli zobowiązani do służby wojskowej do 60. roku życia."
   },
   {
     "id": "R02_SPA_04",
@@ -276,13 +276,13 @@ const ALL_EXERCISES = [
       "po 30. roku życia — opuszczenie koszar",
       "po 60. roku życia — koniec nakazu służby wojskowej"
     ],
-    "explanation": "Podręcznik przedstawia życie Spartanina jako ciąg surowego wychowania i wieloletniej służby wojskowej."
+    "explanation": "Przedstawia się życie Spartanina jako ciąg surowego wychowania i wieloletniej służby wojskowej."
   },
   {
     "id": "R02_SPA_05",
     "section": "Sparta i wojny z Persami",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy uzbrojenia hoplity wymienione w podręczniku.",
+    "prompt": "Zaznacz elementy uzbrojenia hoplity.",
     "options": [
       "włócznia",
       "miecz",
@@ -479,7 +479,7 @@ const ALL_EXERCISES = [
     "id": "R02_BOG_04",
     "section": "Bogowie i mity",
     "type": "multi_select",
-    "prompt": "Zaznacz postacie, które w podręczniku występują jako bogowie olimpijscy.",
+    "prompt": "Zaznacz postacie, które występują jako bogowie olimpijscy.",
     "options": [
       "Atena",
       "Ares",
@@ -646,13 +646,13 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Podręcznik wymienia między innymi malarstwo wazowe, rzeźbę, teatr, filozofię i sport jako ważne dziedziny greckiej kultury."
+    "explanation": "Wymienia się między innymi malarstwo wazowe, rzeźbę, teatr, filozofię i sport jako ważne dziedziny greckiej kultury."
   },
   {
     "id": "R02_KUL_02",
     "section": "Kultura starożytnej Grecji",
     "type": "single_choice",
-    "prompt": "Dzięki czemu możemy dziś najlepiej poznawać greckie malarstwo wymienione w podręczniku?",
+    "prompt": "Dzięki czemu możemy dziś najlepiej poznawać greckie malarstwo?",
     "options": [
       "dzięki dekorowanym wazom i amforom",
       "dzięki drukowanym gazetom",
@@ -668,7 +668,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_03",
     "section": "Kultura starożytnej Grecji",
     "type": "match",
-    "prompt": "Połącz postać z dziedziną lub dziełem wspomnianym w podręczniku.",
+    "prompt": "Połącz postać z dziedziną lub dziełem.",
     "options": null,
     "left": [
       "Fidiasz",
@@ -714,7 +714,7 @@ const ALL_EXERCISES = [
     "prompt": "Aktorami w starożytnej Grecji byli wyłącznie mężczyźni, którzy grali także role kobiece.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że w greckim teatrze aktorami byli tylko mężczyźni.",
+    "explanation": "W greckim teatrze aktorami byli tylko mężczyźni.",
     "image": "/img/r02_teatr_grecki_amfiteatr.jpg"
   },
   {
@@ -757,7 +757,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_08",
     "section": "Kultura starożytnej Grecji",
     "type": "match",
-    "prompt": "Połącz uczonego lub filozofa z informacją z podręcznika.",
+    "prompt": "Połącz uczonego lub filozofa z informacją.",
     "options": null,
     "left": [
       "Sokrates",
@@ -866,13 +866,13 @@ const ALL_EXERCISES = [
     "prompt": "Macedonia leżała na północ od Grecji i w IV wieku p.n.e. stała się silnym państwem.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik opisuje Macedonię jako krainę na północ od Grecji, która za Filipa II bardzo się wzmocniła."
+    "explanation": "Opisuje się Macedonię jako krainę na północ od Grecji, która za Filipa II bardzo się wzmocniła."
   },
   {
     "id": "R02_ALE_03",
     "section": "Imperium Aleksandra Wielkiego",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny planowanej wyprawy przeciw Persji wymienione w podręczniku.",
+    "prompt": "Zaznacz przyczyny planowanej wyprawy przeciw Persji.",
     "options": [
       "odwet za perskie najazdy na Grecję",
       "chęć zdobycia bogactw Wschodu",
@@ -913,7 +913,7 @@ const ALL_EXERCISES = [
         "323 roku"
       ]
     ],
-    "explanation": "Oś czasu w podręczniku wskazuje: początek podboju Persji w 334 roku p.n.e., bitwę pod Issos w 333 roku p.n.e. i śmierć Aleksandra w 323 roku p.n.e."
+    "explanation": "Oś czasu wskazuje: początek podboju Persji w 334 roku p.n.e., bitwę pod Issos w 333 roku p.n.e. i śmierć Aleksandra w 323 roku p.n.e."
   },
   {
     "id": "R02_ALE_05",
@@ -998,7 +998,7 @@ const ALL_EXERCISES = [
     "prompt": "W 327 roku p.n.e. wojska Aleksandra dotarły do Indii, nad rzekę Indus.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że oddziały Aleksandra dotarły do Indii nad Indus, lecz żołnierze wymusili odwrót."
+    "explanation": "Oddziały Aleksandra dotarły do Indii nad Indus, lecz żołnierze wymusili odwrót."
   },
   {
     "id": "R02_ALE_10",
@@ -1071,7 +1071,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz rok z wydarzeniem z rozdziału.",
+    "prompt": "Połącz rok z wydarzeniem.",
     "options": null,
     "left": [
       "776 p.n.e.",
@@ -1126,13 +1126,13 @@ const ALL_EXERCISES = [
         "Leonidas"
       ]
     },
-    "explanation": "Odyseusz, Herakles i Achilles należą do mitów, natomiast Fidiasz, Temistokles i Leonidas to postacie historyczne wspomniane w rozdziale."
+    "explanation": "Odyseusz, Herakles i Achilles należą do mitów, natomiast Fidiasz, Temistokles i Leonidas to postacie historyczne."
   },
   {
     "id": "R02_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz ograniczenia demokracji ateńskiej opisane w podręczniku.",
+    "prompt": "Zaznacz ograniczenia demokracji ateńskiej.",
     "options": [
       "prawa polityczne mieli tylko pełnoletni mężczyźni pochodzący z Aten",
       "kobiety nie mogły korzystać z praw obywatelskich",
@@ -1163,7 +1163,7 @@ const ALL_EXERCISES = [
       "Hipokrates"
     ],
     "answer": 0,
-    "explanation": "Podręcznik przypisuje taki pogląd Platonowi, uczniowi Sokratesa."
+    "explanation": "Przypisuje się taki pogląd Platonowi, uczniowi Sokratesa."
   },
   {
     "id": "R02_HARD_06",
@@ -1215,7 +1215,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz postać z dziedziną lub poglądem wskazanym w rozdziale.",
+    "prompt": "Połącz postać z dziedziną lub poglądem.",
     "options": null,
     "left": [
       "Pitagoras i Tales",
@@ -1235,7 +1235,7 @@ const ALL_EXERCISES = [
       "Sokrates": "dążenie do dobrego życia dzięki wiedzy",
       "Arystoteles": "badania u podstaw biologii, fizyki i logiki"
     },
-    "explanation": "Rozdział pokazuje, że greccy uczeni zajmowali się matematyką, medycyną, filozofią i badaniami przyrody."
+    "explanation": "Greccy uczeni zajmowali się matematyką, medycyną, filozofią i badaniami przyrody."
   },
   {
     "id": "R02_HARD_09",

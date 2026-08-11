@@ -18,7 +18,7 @@ const ALL_EXERCISES = [
       "Wyłącznie badaniem wirusów"
     ],
     "answer": 1,
-    "explanation": "W podręczniku systematyka jest przedstawiona jako dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów."
+    "explanation": "Systematyka jest przedstawiona jako dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów."
   },
   {
     "id": "SYS_02",
@@ -102,7 +102,7 @@ const ALL_EXERCISES = [
       "nukleinowego",
       "białek"
     ],
-    "explanation": "Podręcznik opisuje wirusa jako cząstkę z kwasem nukleinowym i otoczką białkową.",
+    "explanation": "Opisuje się wirusa jako cząstkę z kwasem nukleinowym i otoczką białkową.",
     "image": "/img/r03_schemat_wirusa.jpg",
     "altAnswers": [["nukleinowego", "nukleinowy", "nukleinowym"], ["białek", "białka", "białko", "białkowej"]]
   },
@@ -113,7 +113,7 @@ const ALL_EXERCISES = [
     "prompt": "Bakterie są organizmami jednokomórkowymi i bezjądrowymi.",
     "options": null,
     "answer": true,
-    "explanation": "Tak opisano bakterie w podręczniku."
+    "explanation": "Tak opisano bakterie."
   },
   {
     "id": "WB_04",
@@ -156,7 +156,7 @@ const ALL_EXERCISES = [
         "salmonelloza"
       ]
     },
-    "explanation": "Taki podział pojawia się w podsumowaniu rozdziału.",
+    "explanation": "Taki podział pojawia się.",
     "items": [
       "grypa",
       "odra",
@@ -187,7 +187,7 @@ const ALL_EXERCISES = [
       "przez krew": "borelioza lub AIDS",
       "droga płciowa": "AIDS"
     },
-    "explanation": "W podręczniku opisano cztery główne drogi rozprzestrzeniania się drobnoustrojów.",
+    "explanation": "Opisano cztery główne drogi rozprzestrzeniania się drobnoustrojów.",
     "left": [
       "droga kropelkowa",
       "droga pokarmowa",
@@ -232,7 +232,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wymienia te zastosowania jako pożyteczne.",
+    "explanation": "Wymienia się te zastosowania jako pożyteczne.",
     "image": "/img/r03_bakterie_dobre_i_zle.jpg"
   },
   {
@@ -247,7 +247,7 @@ const ALL_EXERCISES = [
       "Drożdże"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podkreślono rolę pałeczek okrężnicy."
+    "explanation": "Podkreślono rolę pałeczek okrężnicy."
   },
   {
     "id": "WB_10",
@@ -279,7 +279,7 @@ const ALL_EXERCISES = [
       "Gruźlica"
     ],
     "answer": 1,
-    "explanation": "Podręcznik łączy salmonellozę z zakażeniem przez pokarm, np. z surowymi jajami."
+    "explanation": "Łączy się salmonellozę z zakażeniem przez pokarm, np. z surowymi jajami."
   },
   {
     "id": "PRO_01",
@@ -293,7 +293,7 @@ const ALL_EXERCISES = [
       "Zawsze bezbarwne"
     ],
     "answer": 2,
-    "explanation": "W rozdziale omówiono oba typy protistów."
+    "explanation": "Omówiono oba typy protistów."
   },
   {
     "id": "PRO_02",
@@ -324,7 +324,7 @@ const ALL_EXERCISES = [
       "euglena": "ma chloroplasty i witkę",
       "listownica": "jest protistem wielokomórkowym żyjącym w morzu"
     },
-    "explanation": "To trzy najważniejsze przykłady z rozdziału.",
+    "explanation": "To trzy najważniejsze przykłady.",
     "left": [
       "pantofelek",
       "euglena",
@@ -358,7 +358,7 @@ const ALL_EXERCISES = [
       "Nigdy"
     ],
     "answer": 1,
-    "explanation": "Podręcznik podaje, że przy braku światła euglena staje się cudzożywna."
+    "explanation": "Przy braku światła euglena staje się cudzożywna."
   },
   {
     "id": "PRO_06",
@@ -469,7 +469,7 @@ const ALL_EXERCISES = [
       "grzybnią",
       "strzępek"
     ],
-    "explanation": "To podstawowe pojęcia z rozdziału o grzybach.",
+    "explanation": "To podstawowe pojęcia o grzybach.",
     "altAnswers": [["grzybnią", "grzybnia", "grzybni", "grzybnię"], ["strzępek", "strzępki", "strzępków", "strzępkami", "strzępkach"]]
   },
   {
@@ -512,7 +512,7 @@ const ALL_EXERCISES = [
     "prompt": "Drożdże mogą oddychać tlenowo lub przeprowadzać fermentację.",
     "options": null,
     "answer": true,
-    "explanation": "To ważny przykład z podręcznika."
+    "explanation": "To ważny przykład."
   },
   {
     "id": "GRZ_06",
@@ -664,7 +664,7 @@ const ALL_EXERCISES = [
       "Grzyby pleśniowe"
     ],
     "answer": 3,
-    "explanation": "W rozdziale o grzybach pokazano pleśń na wilgotnych ścianach."
+    "explanation": "O grzybach pokazano pleśń na wilgotnych ścianach."
   },
   {
     "id": "MIX_04",
@@ -700,7 +700,7 @@ const ALL_EXERCISES = [
     "prompt": "Zagadka: Nie jest organizmem, ale namnaża się tylko w komórkach. To...",
     "options": null,
     "answer": "wirus",
-    "explanation": "To opis wirusa z początku rozdziału.",
+    "explanation": "To opis wirusa.",
     "altAnswers": ["wirus", "wirusa", "wirusy", "wirusem", "wirusów", "wirusie", "wirusom"]
   },
   {

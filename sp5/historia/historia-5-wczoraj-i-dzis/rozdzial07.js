@@ -124,7 +124,7 @@ const ALL_EXERCISES = [
     "id": "R07_ROZ_07",
     "section": "Rozbicie dzielnicowe",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki rozbicia dzielnicowego wymienione w podręczniku.",
+    "prompt": "Zaznacz skutki rozbicia dzielnicowego.",
     "options": [
       "Osłabienie znaczenia Piastów na arenie międzynarodowej",
       "Utrata Pomorza Zachodniego i Gdańskiego",
@@ -230,7 +230,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wymienia próby książąt śląskich, Przemysła II oraz rządy Wacława II, zanim dzieło zjednoczenia podjął Łokietek."
+    "explanation": "Wymienia się próby książąt śląskich, Przemysła II oraz rządy Wacława II, zanim dzieło zjednoczenia podjął Łokietek."
   },
   {
     "id": "R07_ZJE_03",
@@ -779,7 +779,7 @@ const ALL_EXERCISES = [
     "id": "R07_JAG_04",
     "section": "Czasy świetności dynastii Jagiellonów",
     "type": "multi_select",
-    "prompt": "Zaznacz działania Kazimierza Jagiellończyka opisane w podręczniku.",
+    "prompt": "Zaznacz działania Kazimierza Jagiellończyka.",
     "options": [
       "Ograniczył wpływy Zbigniewa Oleśnickiego",
       "Oparł rządy na średniozamożnym rycerstwie",
@@ -932,7 +932,7 @@ const ALL_EXERCISES = [
     "id": "R07_MON_02",
     "section": "Monarchia stanowa w Polsce",
     "type": "multi_select",
-    "prompt": "Zaznacz stany społeczne wymienione w podręczniku jako podstawowe grupy społeczeństwa w Polsce.",
+    "prompt": "Zaznacz stany społeczne jako podstawowe grupy społeczeństwa w Polsce.",
     "options": [
       "duchowieństwo",
       "rycerstwo",
@@ -1083,7 +1083,7 @@ const ALL_EXERCISES = [
     "id": "R07_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które wydarzenie podręcznik uznaje za ostateczny upadek zwierzchniej władzy seniora nad pozostałymi Piastami?",
+    "prompt": "Które wydarzenie uznaje się za ostateczny upadek zwierzchniej władzy seniora nad pozostałymi Piastami?",
     "options": [
       "zamordowanie Leszka Białego po zjeździe w Gąsawie",
       "koronację Wacława II w Gnieźnie",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r07_podzial_polski_dzielnice.jpg",
-    "explanation": "Śmierć Leszka Białego w 1227 roku jest w podręczniku wskazana jako ostateczny upadek władzy zwierzchniej seniora."
+    "explanation": "Śmierć Leszka Białego w 1227 roku jest wskazana jako ostateczny upadek władzy zwierzchniej seniora."
   },
   {
     "id": "R07_HARD_02",

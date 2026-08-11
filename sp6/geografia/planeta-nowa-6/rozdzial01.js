@@ -71,7 +71,7 @@ const ALL_EXERCISES = [
     "id": "R01_SIA_05",
     "section": "Siatka geograficzna",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy południków opisane w rozdziale.",
+    "prompt": "Zaznacz cechy południków.",
     "options": [
       "Biegną w kierunku północ-południe",
       "Wszystkie mają taką samą długość",
@@ -109,7 +109,7 @@ const ALL_EXERCISES = [
         "wschód - zachód"
       ]
     ],
-    "explanation": "W rozdziale wskazano dwa podstawowe kierunki: południki biegną północ-południe, a równoleżniki wschód-zachód."
+    "explanation": "Wskazano dwa podstawowe kierunki: południki biegną północ-południe, a równoleżniki wschód-zachód."
   },
   {
     "id": "R01_SIA_07",
@@ -199,7 +199,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie południki mają taką samą długość.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że wszystkie południki mają taką samą długość, w przeciwieństwie do równoleżników."
+    "explanation": "Wszystkie południki mają taką samą długość, w przeciwieństwie do równoleżników."
   },
   {
     "id": "R01_SIA_12",
@@ -241,7 +241,7 @@ const ALL_EXERCISES = [
     "prompt": "Każdy punkt na Ziemi ma własne, niepowtarzalne współrzędne geograficzne.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że współrzędne pozwalają określić położenie danego punktu na Ziemi."
+    "explanation": "Współrzędne pozwalają określić położenie danego punktu na Ziemi."
   },
   {
     "id": "R01_SDL_03",
@@ -414,7 +414,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_01",
     "section": "Odczytywanie współrzędnych",
     "type": "single_choice",
-    "prompt": "Jakie współrzędne geograficzne Krakowa podano w rozdziale?",
+    "prompt": "Jakie współrzędne geograficzne Krakowa podano?",
     "options": [
       "50°N, 20°E",
       "20°N, 50°E",
@@ -472,7 +472,7 @@ const ALL_EXERCISES = [
     "prompt": "W przykładzie odczytywania punktu A wartości równoleżników są opisane na obrzeżu mapy, a wartości południków wzdłuż równika.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że na mapie świata wartości równoleżników odczytuje się z obrzeża mapy, a wartości południków wzdłuż równika."
+    "explanation": "Na mapie świata wartości równoleżników odczytuje się z obrzeża mapy, a wartości południków wzdłuż równika."
   },
   {
     "id": "R01_ODC_05",
@@ -568,7 +568,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_10",
     "section": "Odczytywanie współrzędnych",
     "type": "match",
-    "prompt": "Połącz miasta z podanymi w rozdziale współrzędnymi.",
+    "prompt": "Połącz miasta z współrzędnymi.",
     "options": null,
     "left": [
       "Chicago",
@@ -636,7 +636,7 @@ const ALL_EXERCISES = [
     "id": "R01_GPS_01",
     "section": "GPS i mapy cyfrowe",
     "type": "single_choice",
-    "prompt": "Jaki system nawigacji satelitarnej wskazano w rozdziale jako najpopularniejszy?",
+    "prompt": "Jaki system nawigacji satelitarnej wskazano jako najpopularniejszy?",
     "options": [
       "GPS",
       "równik",
@@ -656,13 +656,13 @@ const ALL_EXERCISES = [
     "prompt": "Odbiornik GPS podaje współrzędne punktu na podstawie sygnałów wysyłanych przez satelity krążące wokół Ziemi.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale opisano, że odbiornik GPS korzysta z sygnałów wysyłanych przez satelity."
+    "explanation": "Odbiornik GPS korzysta z sygnałów wysyłanych przez satelity."
   },
   {
     "id": "R01_GPS_03",
     "section": "GPS i mapy cyfrowe",
     "type": "multi_select",
-    "prompt": "Zaznacz urządzenia, w których według rozdziału może znajdować się odbiornik GPS.",
+    "prompt": "Zaznacz urządzenia, w których może znajdować się odbiornik GPS.",
     "options": [
       "tablet",
       "smartfon",
@@ -710,7 +710,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_mapa_cyfrowa_wspolrzedne.jpg",
-    "explanation": "Rozdział wyjaśnia, że po wpisaniu współrzędnych w aplikacji można odnaleźć obiekt na cyfrowej mapie."
+    "explanation": "Po wpisaniu współrzędnych w aplikacji można odnaleźć obiekt na cyfrowej mapie."
   },
   {
     "id": "R01_GPS_06",
@@ -740,7 +740,7 @@ const ALL_EXERCISES = [
     "id": "R01_GPS_08",
     "section": "GPS i mapy cyfrowe",
     "type": "sort",
-    "prompt": "Przyporządkuj czynności do dwóch zastosowań GPS opisanych w rozdziale.",
+    "prompt": "Przyporządkuj czynności do dwóch zastosowań GPS.",
     "options": null,
     "items": [
       "ustalenie współrzędnych miejsca, w którym jesteś",
@@ -790,10 +790,10 @@ const ALL_EXERCISES = [
     "id": "R01_GPS_10",
     "section": "GPS i mapy cyfrowe",
     "type": "odd_one_out",
-    "prompt": "Wskaż element, który nie jest urządzeniem z odbiornikiem GPS wymienionym w rozdziale: tablet, smartfon, smartwatch, globus.",
+    "prompt": "Wskaż element, który nie jest urządzeniem z odbiornikiem GPS: tablet, smartfon, smartwatch, globus.",
     "options": null,
     "answer": "globus",
-    "explanation": "W rozdziale wymieniono tablet, smartfon, smartwatch i osobny odbiornik GPS. Globus nie został podany jako urządzenie z GPS."
+    "explanation": "Wymieniono tablet, smartfon, smartwatch i osobny odbiornik GPS. Globus nie został podany jako urządzenie z GPS."
   },
   {
     "id": "R01_ROZ_01",
@@ -859,7 +859,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_04",
     "section": "Rozciągłość obszarów",
     "type": "scenario",
-    "prompt": "Europa bez wysp ma skrajny punkt północny 71°08'N i południowy 35°58'N. Jaką rozciągłość południkową podano w rozdziale?",
+    "prompt": "Europa bez wysp ma skrajny punkt północny 71°08'N i południowy 35°58'N. Jaką rozciągłość południkową podano?",
     "options": [
       "35°10'",
       "77°44'",
@@ -876,7 +876,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_05",
     "section": "Rozciągłość obszarów",
     "type": "scenario",
-    "prompt": "Przylądek Roca ma 9°30'W, a ujście Bajdaraty 68°14'E. Jaką rozciągłość równoleżnikową Europy podano w rozdziale?",
+    "prompt": "Przylądek Roca ma 9°30'W, a ujście Bajdaraty 68°14'E. Jaką rozciągłość równoleżnikową Europy podano?",
     "options": [
       "77°44'",
       "35°10'",
@@ -896,7 +896,7 @@ const ALL_EXERCISES = [
     "prompt": "Gdy skrajne punkty obszaru leżą na tej samej półkuli, przy obliczaniu rozciągłości odejmuje się ich wartości.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że przy skrajnych punktach na tej samej półkuli odejmuje się wartości odpowiednich współrzędnych."
+    "explanation": "Przy skrajnych punktach na tej samej półkuli odejmuje się wartości odpowiednich współrzędnych."
   },
   {
     "id": "R01_ROZ_07",
@@ -1273,7 +1273,7 @@ const ALL_EXERCISES = [
         "odjac"
       ]
     ],
-    "explanation": "Rozdział podaje odwrotne zasady: na różnych półkulach wartości się dodaje, a na tej samej półkuli odejmuje."
+    "explanation": "Podaje się odwrotne zasady: na różnych półkulach wartości się dodaje, a na tej samej półkuli odejmuje."
   }
 ];
 

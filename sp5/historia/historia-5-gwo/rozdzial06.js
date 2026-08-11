@@ -43,7 +43,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik wymienia Polan, Wiślan, Ślężan, Mazowszan i Pomorzan; Prusowie nie byli Słowianami, a Frankowie mieszkali na zachodzie Europy."
+    "explanation": "Wymienia się Polan, Wiślan, Ślężan, Mazowszan i Pomorzan; Prusowie nie byli Słowianami, a Frankowie mieszkali na zachodzie Europy."
   },
   {
     "id": "R06_POC_03",
@@ -75,7 +75,7 @@ const ALL_EXERCISES = [
         "966 r."
       ]
     ],
-    "explanation": "Oś czasu w rozdziale wskazuje początek rządów Mieszka około 960 roku i chrzest Polski w 966 roku."
+    "explanation": "Oś czasu wskazuje początek rządów Mieszka około 960 roku i chrzest Polski w 966 roku."
   },
   {
     "id": "R06_POC_05",
@@ -405,7 +405,7 @@ const ALL_EXERCISES = [
       "zdobycie Pomorza Zachodniego"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że Polska walczyła przede wszystkim o niezależność od cesarstwa."
+    "explanation": "Polska walczyła przede wszystkim o niezależność od cesarstwa."
   },
   {
     "id": "R06_CHR_12",
@@ -461,7 +461,7 @@ const ALL_EXERCISES = [
     "prompt": "Około 1000 roku Polska liczyła nieco ponad milion mieszkańców.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że około 1000 roku w Polsce mieszkało nieco ponad milion ludzi."
+    "explanation": "Około 1000 roku w Polsce mieszkało nieco ponad milion ludzi."
   },
   {
     "id": "R06_NAJ_04",
@@ -579,7 +579,7 @@ const ALL_EXERCISES = [
         "łaźnie"
       ]
     },
-    "explanation": "Podręcznik opisuje zarówno jedzenie i napoje, jak i dbanie o czystość oraz ubrania mieszkańców."
+    "explanation": "Opisuje się zarówno jedzenie i napoje, jak i dbanie o czystość oraz ubrania mieszkańców."
   },
   {
     "id": "R06_NAJ_10",
@@ -624,7 +624,7 @@ const ALL_EXERCISES = [
     "prompt": "Mieszkańcy najdawniejszej Polski nie dbali o czystość, bo nie znali grzebieni ani łaźni.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podaje, że prali odzież, używali grzebieni i budowali łaźnie."
+    "explanation": "Prali odzież, używali grzebieni i budowali łaźnie."
   },
   {
     "id": "R06_UPA_01",
@@ -1022,7 +1022,7 @@ const ALL_EXERCISES = [
       "do 1076 roku"
     ],
     "answer": 2,
-    "explanation": "Podręcznik podaje, że do 1123 roku Krzywousty opanował wybrzeże Bałtyku od Pomorza Gdańskiego po ujście Odry."
+    "explanation": "Do 1123 roku Krzywousty opanował wybrzeże Bałtyku od Pomorza Gdańskiego po ujście Odry."
   },
   {
     "id": "R06_KRZ_12",

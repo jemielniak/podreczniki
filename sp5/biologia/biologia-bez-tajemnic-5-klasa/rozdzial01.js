@@ -57,7 +57,7 @@ const ALL_EXERCISES = [
     "id": "R01_BIO_04",
     "section": "Biologia jako nauka",
     "type": "multi_select",
-    "prompt": "Zaznacz nauki przyrodnicze wymienione w rozdziale.",
+    "prompt": "Zaznacz nauki przyrodnicze.",
     "options": [
       "Biologia",
       "Chemia",
@@ -73,7 +73,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "W rozdziale jako nauki przyrodnicze wskazano biologię, chemię, fizykę, geografię i astronomię."
+    "explanation": "Jako nauki przyrodnicze wskazano biologię, chemię, fizykę, geografię i astronomię."
   },
   {
     "id": "R01_BIO_05",
@@ -108,7 +108,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: biologia, chemia, fizyka, historia, astronomia.",
     "options": null,
     "answer": "historia",
-    "explanation": "Biologia, chemia, fizyka i astronomia zostały w rozdziale zaliczone do nauk przyrodniczych, a historia nie."
+    "explanation": "Biologia, chemia, fizyka i astronomia zostały zaliczone do nauk przyrodniczych, a historia nie."
   },
   {
     "id": "R01_BIO_07",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "id": "R01_DZI_10",
     "section": "Działy biologii i przyrządy",
     "type": "multi_select",
-    "prompt": "Zaznacz przyrządy znane z lekcji przyrody, które wskazano w rozdziale.",
+    "prompt": "Zaznacz przyrządy znane z lekcji przyrody, które wskazano.",
     "options": [
       "Taśma miernicza",
       "Lornetka",
@@ -400,7 +400,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r01_przyrzady_badawcze.jpg",
-    "explanation": "W rozdziale pokazano taśmę mierniczą, lornetkę, lupę i mikroskop jako podstawowe przyrządy badawcze."
+    "explanation": "Pokazano taśmę mierniczą, lornetkę, lupę i mikroskop jako podstawowe przyrządy badawcze."
   },
   {
     "id": "R01_DZI_11",
@@ -969,7 +969,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r01_mikroskop_budowa.jpg",
-    "explanation": "W rozdziale podano powiększenie do 1000 razy oraz możliwość obserwacji szczegółów o wielkości około 0,0002 mm."
+    "explanation": "Podano powiększenie do 1000 razy oraz możliwość obserwacji szczegółów o wielkości około 0,0002 mm."
   },
   {
     "id": "R01_MIK_06",
@@ -1101,7 +1101,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Kto po raz pierwszy użył terminu biologia w 1802 roku według informacji w rozdziale?",
+    "prompt": "Kto po raz pierwszy użył terminu biologia w 1802 roku według informacji?",
     "options": [
       "Jean Baptiste Lamarck",
       "Antoni van Leeuwenhoek",
@@ -1111,13 +1111,13 @@ const ALL_EXERCISES = [
       "Galileusz"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że francuski uczony Jean Baptiste Lamarck użył terminu biologia w 1802 roku."
+    "explanation": "Francuski uczony Jean Baptiste Lamarck użył terminu biologia w 1802 roku."
   },
   {
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz dział biologii z dokładnym zakresem badań podanym w rozdziale.",
+    "prompt": "Połącz dział biologii z dokładnym zakresem badań.",
     "options": null,
     "left": [
       "biochemia",
@@ -1163,7 +1163,7 @@ const ALL_EXERCISES = [
         "wiedza"
       ]
     ],
-    "explanation": "W rozdziale słowo nauka ma dwa znaczenia: proces poznawania oraz rezultat tego procesu, czyli uporządkowaną wiedzę."
+    "explanation": "Słowo nauka ma dwa znaczenia: proces poznawania oraz rezultat tego procesu, czyli uporządkowaną wiedzę."
   },
   {
     "id": "R01_HARD_04",
@@ -1260,7 +1260,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak mały szczegół może być widoczny w nowoczesnym mikroskopie optycznym według rozdziału?",
+    "prompt": "Jak mały szczegół może być widoczny w nowoczesnym mikroskopie optycznym?",
     "options": [
       "Około 0,0002 mm",
       "Około 0,2 mm",
@@ -1271,7 +1271,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_mikroskop_budowa.jpg",
-    "explanation": "Podręcznik podaje, że mikroskop optyczny umożliwia dostrzeżenie szczegółów wielkości około 0,0002 mm."
+    "explanation": "Mikroskop optyczny umożliwia dostrzeżenie szczegółów wielkości około 0,0002 mm."
   },
   {
     "id": "R01_HARD_09",
@@ -1304,7 +1304,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż wartość, która nie opisuje dawnych mikroskopów lub mikroskopu Leeuwenhoeka: rok 1590, rok 1625, powiększenie 60 razy, powiększenie 270 razy, powiększenie 1000 razy.",
     "options": null,
     "answer": "powiększenie 1000 razy",
-    "explanation": "Powiększenie do 1000 razy dotyczy nowoczesnych mikroskopów optycznych. Pozostałe wartości odnoszą się do historii dawnych mikroskopów opisanej w rozdziale."
+    "explanation": "Powiększenie do 1000 razy dotyczy nowoczesnych mikroskopów optycznych. Pozostałe wartości odnoszą się do historii dawnych mikroskopów."
   },
   {
     "id": "R01_HARD_11",
@@ -1351,7 +1351,7 @@ const ALL_EXERCISES = [
       "5 centymetrów": "wielkość mikroskopu Leeuwenhoeka"
     },
     "image": "r01_mikroskop_historyczny.jpg",
-    "explanation": "Rozdział zestawia te daty i liczby, pokazując rozwój mikroskopii od prostych urządzeń do udoskonalonego mikroskopu Leeuwenhoeka."
+    "explanation": "Zestawia się te daty i liczby, pokazując rozwój mikroskopii od prostych urządzeń do udoskonalonego mikroskopu Leeuwenhoeka."
   },
   {
     "id": "R01_HARD_13",
@@ -1377,7 +1377,7 @@ const ALL_EXERCISES = [
       "Nie zaobserwowano żadnego wzrostu"
     ],
     "answer": 0,
-    "explanation": "Tabela w rozdziale pokazuje, że po siedmiu dniach cebula w świetle miała liście dłuższe i ciemnozielone, a cebula w ciemności krótsze i bladozielone."
+    "explanation": "Po siedmiu dniach cebula w świetle miała liście dłuższe i ciemnozielone, a cebula w ciemności krótsze i bladozielone."
   }
 ];
 

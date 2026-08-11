@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Stawonogi tworzą jedną z najliczniejszych i najbardziej różnorodnych grup zwierząt.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że opisano ponad milion gatunków stawonogów."
+    "explanation": "Opisano ponad milion gatunków stawonogów."
   },
   {
     "id": "R03_STA_03",
@@ -72,7 +72,7 @@ const ALL_EXERCISES = [
     "id": "R03_STA_04",
     "section": "Stawonogi",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy budowy stawonogów opisane w rozdziale.",
+    "prompt": "Zaznacz cechy budowy stawonogów.",
     "options": [
       "segmentowane ciało",
       "odnóża ze stawami",
@@ -110,7 +110,7 @@ const ALL_EXERCISES = [
     "id": "R03_STA_06",
     "section": "Stawonogi",
     "type": "single_choice",
-    "prompt": "Który zestaw części ciała jest typowy dla pajęczaków i skorupiaków opisanych w rozdziale?",
+    "prompt": "Który zestaw części ciała jest typowy dla pajęczaków i skorupiaków?",
     "options": [
       "głowotułów i odwłok",
       "głowa, noga i worek trzewiowy",
@@ -186,7 +186,7 @@ const ALL_EXERCISES = [
     "id": "R03_STA_10",
     "section": "Stawonogi",
     "type": "multi_select",
-    "prompt": "Zaznacz środowiska życia stawonogów wymienione w rozdziale.",
+    "prompt": "Zaznacz środowiska życia stawonogów.",
     "options": [
       "lądy",
       "morza i oceany",
@@ -668,7 +668,7 @@ const ALL_EXERCISES = [
     "prompt": "Kosarz pospolity jest pajęczakiem, ale nie należy do pająków.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że kosarz jest pajęczakiem, często mylonym z pająkiem, ale pająkiem nie jest."
+    "explanation": "Kosarz jest pajęczakiem, często mylonym z pająkiem, ale pająkiem nie jest."
   },
   {
     "id": "R03_ZNA_08",
@@ -711,7 +711,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_10",
     "section": "Znaczenie stawonogów",
     "type": "multi_select",
-    "prompt": "Zaznacz negatywne znaczenie stawonogów opisane w rozdziale.",
+    "prompt": "Zaznacz negatywne znaczenie stawonogów.",
     "options": [
       "mogą być szkodnikami upraw",
       "mogą przenosić choroby",
@@ -732,7 +732,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_11",
     "section": "Znaczenie stawonogów",
     "type": "match",
-    "prompt": "Połącz owada z jego znaczeniem opisanym w rozdziale.",
+    "prompt": "Połącz owada z jego znaczeniem.",
     "options": null,
     "left": [
       "biedronka siedmiokropka",
@@ -796,13 +796,13 @@ const ALL_EXERCISES = [
         "ujemne"
       ]
     ],
-    "explanation": "W rozdziale opisano zarówno korzyści ze stawonogów, jak i szkody oraz zagrożenia powodowane przez niektóre gatunki."
+    "explanation": "Opisano zarówno korzyści ze stawonogów, jak i szkody oraz zagrożenia powodowane przez niektóre gatunki."
   },
   {
     "id": "R03_MIE_01",
     "section": "Mięczaki",
     "type": "single_choice",
-    "prompt": "Jaka jest wspólna cecha mięczaków wskazana w rozdziale?",
+    "prompt": "Jaka jest wspólna cecha mięczaków?",
     "options": [
       "miękkie ciało",
       "odnóża ze stawami",
@@ -909,7 +909,7 @@ const ALL_EXERCISES = [
     "id": "R03_MIE_06",
     "section": "Mięczaki",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy ślimaków opisane w rozdziale.",
+    "prompt": "Zaznacz cechy ślimaków.",
     "options": [
       "ciało z głowy, nogi i worka trzewiowego",
       "u większości pojedyncza, spiralnie skręcona muszla",
@@ -983,7 +983,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r03_malze_budowa.jpg",
-    "explanation": "W rozdziale podano, że małże są jedyną z omawianych grup mięczaków bez głowy."
+    "explanation": "Małże są jedyną z omawianych grup mięczaków bez głowy."
   },
   {
     "id": "R03_MIE_11",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
     "id": "R03_MIX_06",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz organizmy, które według rozdziału mogą mieć znaczenie jako pasożyty człowieka lub zwierząt.",
+    "prompt": "Zaznacz organizmy, które mogą mieć znaczenie jako pasożyty człowieka lub zwierząt.",
     "options": [
       "wesz ludzka",
       "kleszcz pospolity",
@@ -1285,7 +1285,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Które cechy chitynowego oskórka stawonogów są opisane w rozdziale?",
+    "prompt": "Które cechy chitynowego oskórka stawonogów są?",
     "options": [
       "chroni przed urazami",
       "ogranicza utratę wody na lądzie",
@@ -1366,7 +1366,7 @@ const ALL_EXERCISES = [
       "perłopław": "wytwarza perły używane do ozdób",
       "roztocza kurzu domowego": "mogą wywoływać alergie"
     },
-    "explanation": "W rozdziale pokazano, że zarówno mięczaki, jak i stawonogi mogą mieć pozytywne i negatywne znaczenie dla człowieka."
+    "explanation": "Zarówno mięczaki, jak i stawonogi mogą mieć pozytywne i negatywne znaczenie dla człowieka."
   },
   {
     "id": "R03_HARD_05",
@@ -1419,14 +1419,14 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_08",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Największy bezkręgowiec na świecie wymieniony w rozdziale to...",
+    "prompt": "Największy bezkręgowiec na świecie to...",
     "options": null,
     "answer": "kałamarnica olbrzymia",
     "altAnswers": [
       "kałamarnica olbrzymia",
       "kalamarnica olbrzymia"
     ],
-    "explanation": "W rozdziale podano, że do głowonogów należy największy bezkręgowiec świata — kałamarnica olbrzymia."
+    "explanation": "Do głowonogów należy największy bezkręgowiec świata — kałamarnica olbrzymia."
   },
   {
     "id": "R03_HARD_09",
@@ -1449,7 +1449,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_10",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która informacja najlepiej odróżnia ślimaki lądowe od wodnych w rozdziale?",
+    "prompt": "Która informacja najlepiej odróżnia ślimaki lądowe od wodnych?",
     "options": [
       "lądowe mają narząd działający podobnie do płuca, a wodne mają skrzela",
       "lądowe mają zawsze dwuczęściową muszlę, a wodne nie mają muszli",

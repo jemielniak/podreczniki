@@ -37,7 +37,7 @@ const ALL_EXERCISES = [
     "id": "R07_RDZ_03",
     "section": "Rozbicie dzielnicowe",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki rozbicia dzielnicowego opisane w podręczniku.",
+    "prompt": "Zaznacz skutki rozbicia dzielnicowego.",
     "options": [
       "Powstanie kilkunastu księstw piastowskich",
       "Częste walki między książętami",
@@ -206,7 +206,7 @@ const ALL_EXERCISES = [
     "prompt": "Do Polski w okresie rozbicia dzielnicowego napływali głównie osadnicy z Niemiec.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że przybysze przybywali głównie z Niemiec i posługiwali się własnym prawem osadniczym."
+    "explanation": "Przybysze przybywali głównie z Niemiec i posługiwali się własnym prawem osadniczym."
   },
   {
     "id": "R07_GOS_03",
@@ -743,7 +743,7 @@ const ALL_EXERCISES = [
     "prompt": "Unia personalna oznacza połączenie państw pod władzą jednego monarchy przy zachowaniu ich odrębności.",
     "options": null,
     "answer": true,
-    "explanation": "Tak podręcznik definiuje unię personalną, na przykład związek Polski i Węgier pod rządami Ludwika."
+    "explanation": "Tak definiuje się unię personalną, na przykład związek Polski i Węgier pod rządami Ludwika."
   },
   {
     "id": "R07_UNI_03",
@@ -1157,7 +1157,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Cztery pierwsze pary łączą władców z wydarzeniami opisanymi w rozdziale; dwie ostatnie mieszają fakty z innych czasów."
+    "explanation": "Cztery pierwsze pary łączą władców z wydarzeniami; dwie ostatnie mieszają fakty z innych czasów."
   },
   {
     "id": "R07_HARD_02",

@@ -193,7 +193,7 @@ const ALL_EXERCISES = [
     "prompt": "Rzeczpospolita Obojga Narodów utworzona w 1569 roku przetrwała ponad dwieście lat, do schyłku XVIII wieku.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że państwo powstałe po unii lubelskiej przetrwało ponad dwieście lat, aż do końca XVIII wieku."
+    "explanation": "Państwo powstałe po unii lubelskiej przetrwało ponad dwieście lat, aż do końca XVIII wieku."
   },
   {
     "id": "R02_SEJ_01",
@@ -245,7 +245,7 @@ const ALL_EXERCISES = [
     "prompt": "W Polsce XVI-XVIII wieku konstytucja oznaczała pojedynczą ustawę, a nie koniecznie całościowy opis ustroju państwa.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że w dawnej Polsce konstytucją nazywano pojedynczą ustawę sejmową."
+    "explanation": "W dawnej Polsce konstytucją nazywano pojedynczą ustawę sejmową."
   },
   {
     "id": "R02_SEJ_04",
@@ -435,7 +435,7 @@ const ALL_EXERCISES = [
     "id": "R02_WOJ_03",
     "section": "Wojny i polityka nad Bałtykiem",
     "type": "multi_select",
-    "prompt": "Zaznacz państwa zaangażowane w konflikt o dominację nad Morzem Bałtyckim opisany w rozdziale.",
+    "prompt": "Zaznacz państwa zaangażowane w konflikt o dominację nad Morzem Bałtyckim.",
     "options": [
       "Szwecja",
       "Dania",
@@ -599,7 +599,7 @@ const ALL_EXERCISES = [
     "id": "R02_GOS_03",
     "section": "Gospodarka i folwarki",
     "type": "multi_select",
-    "prompt": "Zaznacz towary eksportowane z Rzeczypospolitej lub jej ziem w XVI wieku według rozdziału.",
+    "prompt": "Zaznacz towary eksportowane z Rzeczypospolitej lub jej ziem w XVI wieku.",
     "options": [
       "zboże",
       "drewno",
@@ -762,7 +762,7 @@ const ALL_EXERCISES = [
     "prompt": "W dawnej Rzeczypospolitej Polacy stanowili mniej niż połowę całej ludności państwa.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla wielonarodowy charakter państwa: Polacy stanowili mniej niż połowę ludności, a jeszcze mniej liczni byli Litwini."
+    "explanation": "Podkreśla się wielonarodowy charakter państwa: Polacy stanowili mniej niż połowę ludności, a jeszcze mniej liczni byli Litwini."
   },
   {
     "id": "R02_KUL_03",
@@ -800,7 +800,7 @@ const ALL_EXERCISES = [
       "katolicyzm ormiański"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wskazuje, że pewna część szlachty w XVI wieku przyjęła kalwinizm."
+    "explanation": "Pewna część szlachty w XVI wieku przyjęła kalwinizm."
   },
   {
     "id": "R02_KUL_05",
@@ -893,7 +893,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_10",
     "section": "Wiele narodów i kultura renesansu",
     "type": "single_choice",
-    "prompt": "Czym wyróżniał się Mikołaj Rej według rozdziału?",
+    "prompt": "Czym wyróżniał się Mikołaj Rej?",
     "options": [
       "Z dumą pisał swoje utwory wyłącznie po polsku",
       "Założył Zamość i Akademię Zamojską",
@@ -968,7 +968,7 @@ const ALL_EXERCISES = [
       "dziadkiem"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że Albrecht Hohenzollern był siostrzeńcem polskiego króla Zygmunta Starego."
+    "explanation": "Albrecht Hohenzollern był siostrzeńcem polskiego króla Zygmunta Starego."
   },
   {
     "id": "R02_HARD_02",
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
       "rozejm w Jamie Zapolskim"
     ],
     "image": "r02_stefan_batory.jpg",
-    "explanation": "Kolejność wskazana w rozdziale to kampania połocka w 1579 roku, wielkołucka w 1580 roku, pskowska w latach 1580-1581 i rozejm w Jamie Zapolskim w 1582 roku."
+    "explanation": "Kolejność to kampania połocka w 1579 roku, wielkołucka w 1580 roku, pskowska w latach 1580-1581 i rozejm w Jamie Zapolskim w 1582 roku."
   },
   {
     "id": "R02_HARD_08",
@@ -1113,7 +1113,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_10",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz poglądy lub cechy przypisywane w rozdziale braciom polskim albo jednemu z ich odłamów.",
+    "prompt": "Zaznacz poglądy lub cechy przypisywane braciom polskim albo jednemu z ich odłamów.",
     "options": [
       "Odrzucenie dogmatu o Trójcy Świętej",
       "Potępienie przemocy i wojen przez jeden z odłamów",
@@ -1135,7 +1135,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz postać z informacją z rozdziału.",
+    "prompt": "Połącz postać z informacją.",
     "options": null,
     "left": [
       "Stanisław Murzynowski",
@@ -1197,7 +1197,7 @@ const ALL_EXERCISES = [
     "prompt": "W sprowadzaniu włoskich artystów na dwór królewski ważną rolę odegrała Bona Sforza, żona Zygmunta Starego i matka Zygmunta Augusta.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że w rozwoju renesansu na dworze królewskim ważną rolę odegrali ostatni Jagiellonowie oraz Bona Sforza."
+    "explanation": "W rozwoju renesansu na dworze królewskim ważną rolę odegrali ostatni Jagiellonowie oraz Bona Sforza."
   }
 ];
 

@@ -30,13 +30,13 @@ const ALL_EXERCISES = [
     "prompt": "Zwrotnik Raka przecina Saharę, największą pustynię gorącą świata.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje Saharę jako największą pustynię gorącą i podaje, że przecina ją zwrotnik Raka."
+    "explanation": "Wskazuje się Saharę jako największą pustynię gorącą i podaje, że przecina ją zwrotnik Raka."
   },
   {
     "id": "R05_PUS_03",
     "section": "Pustynie gorące i lodowe",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy pustyń lodowych opisane w rozdziale.",
+    "prompt": "Zaznacz cechy pustyń lodowych.",
     "options": [
       "leżą za kołami podbiegunowymi",
       "panuje tam skrajnie niska temperatura powietrza",
@@ -191,7 +191,7 @@ const ALL_EXERCISES = [
       "brak światła słonecznego"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że mimo współczesnych sposobów pozyskiwania wody jej brak pozostaje największym ograniczeniem na pustyni gorącej."
+    "explanation": "Mimo współczesnych sposobów pozyskiwania wody jej brak pozostaje największym ograniczeniem na pustyni gorącej."
   },
   {
     "id": "R05_PUS_11",
@@ -253,7 +253,7 @@ const ALL_EXERCISES = [
     "id": "R05_TAJ_03",
     "section": "Tajga i tundra",
     "type": "multi_select",
-    "prompt": "Wskaż rośliny typowe dla tajgi wymienione w rozdziale.",
+    "prompt": "Wskaż rośliny typowe dla tajgi.",
     "options": [
       "świerk",
       "modrzew",
@@ -294,7 +294,7 @@ const ALL_EXERCISES = [
     "id": "R05_TAJ_05",
     "section": "Tajga i tundra",
     "type": "match",
-    "prompt": "Połącz zwierzę z informacją z rozdziału.",
+    "prompt": "Połącz zwierzę z informacją.",
     "options": null,
     "left": [
       "niedźwiedź grizzly",
@@ -314,7 +314,7 @@ const ALL_EXERCISES = [
       "renifer": "zwierzę hodowane przez mieszkańców dalekiej północy",
       "leming": "mały gryzoń spokrewniony z chomikami"
     },
-    "explanation": "Rozdział pokazuje zwierzęta tajgi i tundry oraz ich znaczenie dla mieszkańców północy."
+    "explanation": "Pokazuje się zwierzęta tajgi i tundry oraz ich znaczenie dla mieszkańców północy."
   },
   {
     "id": "R05_TAJ_06",
@@ -398,13 +398,13 @@ const ALL_EXERCISES = [
     "prompt": "Zamarznięte rzeki na Syberii i Alasce bywają wykorzystywane jako zimowe drogi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że zamarznięte rzeki mogą pełnić funkcję szlaków transportowych, choć jazda po nich jest trudna i niebezpieczna."
+    "explanation": "Zamarznięte rzeki mogą pełnić funkcję szlaków transportowych, choć jazda po nich jest trudna i niebezpieczna."
   },
   {
     "id": "R05_TAJ_11",
     "section": "Tajga i tundra",
     "type": "multi_select",
-    "prompt": "Zaznacz zajęcia ludności tajgi i tundry wymienione w rozdziale.",
+    "prompt": "Zaznacz zajęcia ludności tajgi i tundry.",
     "options": [
       "łowiectwo",
       "chów zwierząt, np. reniferów",
@@ -432,13 +432,13 @@ const ALL_EXERCISES = [
       "tajga",
       "Tajga"
     ],
-    "explanation": "Podręcznik podkreśla, że łączna powierzchnia tajgi na wszystkich kontynentach czyni ją największym lasem świata."
+    "explanation": "Łączna powierzchnia tajgi na wszystkich kontynentach czyni ją największym lasem świata."
   },
   {
     "id": "R05_SRO_01",
     "section": "Krajobraz śródziemnomorski",
     "type": "single_choice",
-    "prompt": "Gdzie występuje klimat śródziemnomorski według rozdziału?",
+    "prompt": "Gdzie występuje klimat śródziemnomorski?",
     "options": [
       "na południu Europy oraz na niewielkich nadmorskich obszarach Afryki, Ameryki Północnej, Azji i Australii",
       "wyłącznie w Polsce i Skandynawii",
@@ -457,7 +457,7 @@ const ALL_EXERCISES = [
     "prompt": "W klimacie śródziemnomorskim nie występuje termiczna zima, ponieważ w chłodnej porze roku średnia miesięczna temperatura powietrza jest wyższa niż 0°C.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział opisuje łagodną, deszczową zimę i brak termicznej zimy w tym klimacie."
+    "explanation": "Opisuje się łagodną, deszczową zimę i brak termicznej zimy w tym klimacie."
   },
   {
     "id": "R05_SRO_03",
@@ -531,7 +531,7 @@ const ALL_EXERCISES = [
     "id": "R05_SRO_07",
     "section": "Krajobraz śródziemnomorski",
     "type": "match",
-    "prompt": "Połącz roślinę uprawianą w regionie Morza Śródziemnego z informacją z rozdziału.",
+    "prompt": "Połącz roślinę uprawianą w regionie Morza Śródziemnego z informacją.",
     "options": null,
     "left": [
       "winogrona",
@@ -626,7 +626,7 @@ const ALL_EXERCISES = [
     "id": "R05_SRO_11",
     "section": "Krajobraz śródziemnomorski",
     "type": "multi_select",
-    "prompt": "Zaznacz walory turystyczne regionu Morza Śródziemnego wymienione w rozdziale.",
+    "prompt": "Zaznacz walory turystyczne regionu Morza Śródziemnego.",
     "options": [
       "słoneczna pogoda",
       "ciepłe morze",
@@ -650,7 +650,7 @@ const ALL_EXERCISES = [
     "prompt": "Makia zajęła miejsce wielu pierwotnych lasów w regionie Morza Śródziemnego po działalności człowieka, między innymi po tworzeniu pastwisk.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że pierwotne lasy zostały w znacznej części zniszczone, a ich miejsce zajęła makia."
+    "explanation": "Pierwotne lasy zostały w znacznej części zniszczone, a ich miejsce zajęła makia."
   },
   {
     "id": "R05_HIM_01",
@@ -666,7 +666,7 @@ const ALL_EXERCISES = [
       "Sahara"
     ],
     "answer": 0,
-    "explanation": "Najwyższym szczytem świata jest Mount Everest, którego wysokość podana w rozdziale wynosi 8849 m n.p.m."
+    "explanation": "Najwyższym szczytem świata jest Mount Everest, którego wysokość wynosi 8849 m n.p.m."
   },
   {
     "id": "R05_HIM_02",
@@ -691,7 +691,7 @@ const ALL_EXERCISES = [
         "50 milionów"
       ]
     ],
-    "explanation": "Rozdział podaje wysokość Mount Everestu 8849 m n.p.m. oraz informację, że Himalaje zaczęły powstawać około 50 milionów lat temu."
+    "explanation": "Podaje się wysokość Mount Everestu 8849 m n.p.m. oraz informację, że Himalaje zaczęły powstawać około 50 milionów lat temu."
   },
   {
     "id": "R05_HIM_03",
@@ -700,7 +700,7 @@ const ALL_EXERCISES = [
     "prompt": "Himalaje są jednymi z najmłodszych gór świata, a proces ich wypiętrzania nadal trwa.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik opisuje Himalaje jako młode góry, które nadal rosną."
+    "explanation": "Opisuje się Himalaje jako młode góry, które nadal rosną."
   },
   {
     "id": "R05_HIM_04",
@@ -754,7 +754,7 @@ const ALL_EXERCISES = [
     "id": "R05_HIM_06",
     "section": "Himalaje i ich mieszkańcy",
     "type": "match",
-    "prompt": "Połącz element himalajskiej przyrody z informacją z rozdziału.",
+    "prompt": "Połącz element himalajskiej przyrody z informacją.",
     "options": null,
     "left": [
       "jak",
@@ -1100,7 +1100,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział wspomina chów reniferów, hodowlę jaków oraz owiec i kóz w Himalajach, a także stada koczowników na pustyniach."
+    "explanation": "Wspomina się chów reniferów, hodowlę jaków oraz owiec i kóz w Himalajach, a także stada koczowników na pustyniach."
   },
   {
     "id": "R05_POW_12",
@@ -1139,7 +1139,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Według rozdziału Mount Everest podnosi się o około 4 mm rocznie.",
+    "prompt": "Mount Everest podnosi się o około 4 mm rocznie.",
     "options": null,
     "answer": true,
     "explanation": "Ta informacja pokazuje, że proces wypiętrzania Himalajów nadal trwa."
@@ -1168,7 +1168,7 @@ const ALL_EXERCISES = [
         "Azji środkowej"
       ]
     ],
-    "explanation": "Rozdział podaje długość łańcucha himalajskiego oraz jego rolę jako bariery między Azją Południową a Środkową."
+    "explanation": "Podaje się długość łańcucha himalajskiego oraz jego rolę jako bariery między Azją Południową a Środkową."
   },
   {
     "id": "R05_HARD_04",
@@ -1242,7 +1242,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_07",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Grupa osadników chce zbudować stałą wieś na Antarktydzie, argumentując, że ułatwiłoby to życie pracownikom stacji badawczej. Co wynika z treści rozdziału?",
+    "prompt": "Grupa osadników chce zbudować stałą wieś na Antarktydzie, argumentując, że ułatwiłoby to życie pracownikom stacji badawczej. Co wynika?",
     "options": [
       "budowa miast i wsi na Antarktydzie jest zabroniona, aby chronić środowisko przyrodnicze",
       "Antarktyda ma wiele stałych osad rybackich",

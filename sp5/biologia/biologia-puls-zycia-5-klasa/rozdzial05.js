@@ -301,7 +301,7 @@ const ALL_EXERCISES =
     "id": "R05_NG_04",
     "section": "Nagonasienne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy sosny zwyczajnej opisane w rozdziale.",
+    "prompt": "Zaznacz cechy sosny zwyczajnej.",
     "options": [
       "Ma pień okryty grubą korą",
       "Jej igły wyrastają po dwa obok siebie",
@@ -705,7 +705,7 @@ const ALL_EXERCISES =
     "id": "R05_ZN_03",
     "section": "Znaczenie i przegląd roślin okrytonasiennych",
     "type": "single_choice",
-    "prompt": "Które rośliny są podane w rozdziale jako przykłady używane do produkcji leków lub kosmetyków?",
+    "prompt": "Które rośliny są jako przykłady używane do produkcji leków lub kosmetyków?",
     "options": [
       "Mięta i rumianek",
       "Sosna i świerk",

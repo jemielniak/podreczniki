@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R04_GOS_01",
     "section": "Gospodarka i przemysł Francji",
     "type": "single_choice",
-    "prompt": "Który zestaw poprawnie przedstawia trzy sektory gospodarki wymienione w rozdziale?",
+    "prompt": "Który zestaw poprawnie przedstawia trzy sektory gospodarki?",
     "options": [
       "rolnictwo, przemysł, usługi",
       "handel, transport, turystyka",
@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R04_GOS_02",
     "section": "Gospodarka i przemysł Francji",
     "type": "multi_select",
-    "prompt": "Zaznacz działania należące do przemysłu według rozdziału.",
+    "prompt": "Zaznacz działania należące do przemysłu.",
     "options": [
       "wydobywanie surowców mineralnych",
       "przetwórstwo przemysłowe",
@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "prompt": "Najbardziej rozbudowaną częścią przemysłu jest przetwórstwo przemysłowe.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że najbardziej rozbudowaną częścią przemysłu jest przetwórstwo przemysłowe."
+    "explanation": "Najbardziej rozbudowaną częścią przemysłu jest przetwórstwo przemysłowe."
   },
   {
     "id": "R04_GOS_04",
@@ -77,7 +77,7 @@ const ALL_EXERCISES = [
       "produkcja metali i wyrobów z metali": "stal, narzędzia, kontenery",
       "produkcja komputerów i urządzeń elektronicznych": "odkurzacze, telewizory, kamery"
     },
-    "explanation": "Tabela w rozdziale podaje przykłady produktów dla najważniejszych działów przetwórstwa przemysłowego."
+    "explanation": "Podaje się przykłady produktów dla najważniejszych działów przetwórstwa przemysłowego."
   },
   {
     "id": "R04_GOS_05",
@@ -99,7 +99,7 @@ const ALL_EXERCISES = [
         "rolnictwo"
       ]
     ],
-    "explanation": "W rozdziale wskazano dwa ważne czynniki rozwoju przemysłu we Francji: złoża surowców mineralnych oraz rolnictwo."
+    "explanation": "Wskazano dwa ważne czynniki rozwoju przemysłu we Francji: złoża surowców mineralnych oraz rolnictwo."
   },
   {
     "id": "R04_GOS_06",
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
     "id": "R04_USL_02",
     "section": "Usługi i turystyka Francji",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady usług wymienione w rozdziale.",
+    "prompt": "Zaznacz przykłady usług.",
     "options": [
       "edukacja",
       "ochrona zdrowia",
@@ -274,7 +274,7 @@ const ALL_EXERCISES = [
       "2"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że we Francji aż 8 na 10 osób pracujących wykonuje zawody związane z usługami."
+    "explanation": "We Francji aż 8 na 10 osób pracujących wykonuje zawody związane z usługami."
   },
   {
     "id": "R04_USL_06",
@@ -297,7 +297,7 @@ const ALL_EXERCISES = [
     "id": "R04_USL_07",
     "section": "Usługi i turystyka Francji",
     "type": "match",
-    "prompt": "Połącz dział usług we Francji z przykładem z rozdziału.",
+    "prompt": "Połącz dział usług we Francji z przykładem.",
     "options": null,
     "left": [
       "transport",
@@ -318,7 +318,7 @@ const ALL_EXERCISES = [
       "usługi turystyczne": "muzea, hotele i restauracje"
     },
     "image": "r04_pociag_tgv.jpg",
-    "explanation": "Rozdział wymienia we Francji między innymi usługi transportowe, badawczo-rozwojowe, finansowe i turystyczne."
+    "explanation": "Wymienia się we Francji między innymi usługi transportowe, badawczo-rozwojowe, finansowe i turystyczne."
   },
   {
     "id": "R04_USL_08",
@@ -336,7 +336,7 @@ const ALL_EXERCISES = [
     "prompt": "Francja należy do światowych liderów handlu i zajmuje ósme miejsce na świecie pod względem wartości eksportu oraz piąte pod względem importu.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że Francja zajmuje ósme miejsce na świecie pod względem eksportu i piąte pod względem importu."
+    "explanation": "Francja zajmuje ósme miejsce na świecie pod względem eksportu i piąte pod względem importu."
   },
   {
     "id": "R04_USL_10",
@@ -413,7 +413,7 @@ const ALL_EXERCISES = [
     "id": "R04_ENE_03",
     "section": "Energetyka Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz odnawialne źródła energii wymienione w rozdziale.",
+    "prompt": "Zaznacz odnawialne źródła energii.",
     "options": [
       "energia słoneczna",
       "energia wiatru",
@@ -465,7 +465,7 @@ const ALL_EXERCISES = [
     "id": "R04_ENE_06",
     "section": "Energetyka Europy",
     "type": "match",
-    "prompt": "Połącz źródło nieodnawialne z opisem z rozdziału.",
+    "prompt": "Połącz źródło nieodnawialne z opisem.",
     "options": null,
     "left": [
       "węgiel",
@@ -570,7 +570,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZMI_02",
     "section": "Zmiany i przykłady energetyki",
     "type": "single_choice",
-    "prompt": "W których krajach Europy panują najlepsze warunki do rozwoju energetyki geotermalnej według rozdziału?",
+    "prompt": "W których krajach Europy panują najlepsze warunki do rozwoju energetyki geotermalnej?",
     "options": [
       "na Islandii i we Włoszech",
       "w Danii i Norwegii",
@@ -611,13 +611,13 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r04_wiatraki_nad_morzem.jpg",
-    "explanation": "Rozdział wskazuje wybrzeża i rozległe doliny jako obszary sprzyjające budowie elektrowni wiatrowych."
+    "explanation": "Wskazuje się wybrzeża i rozległe doliny jako obszary sprzyjające budowie elektrowni wiatrowych."
   },
   {
     "id": "R04_ZMI_05",
     "section": "Zmiany i przykłady energetyki",
     "type": "match",
-    "prompt": "Połącz kraj z przykładem produkcji energii elektrycznej opisanym w rozdziale.",
+    "prompt": "Połącz kraj z przykładem produkcji energii elektrycznej.",
     "options": null,
     "left": [
       "Polska",
@@ -640,7 +640,7 @@ const ALL_EXERCISES = [
       "Dania": "spory udział elektrowni wiatrowych",
       "Grecja": "duże wykorzystanie energii słonecznej"
     },
-    "explanation": "Rozdział podaje przykłady państw, w których duże znaczenie mają różne rodzaje elektrowni zależne od warunków środowiska."
+    "explanation": "Podaje się przykłady państw, w których duże znaczenie mają różne rodzaje elektrowni zależne od warunków środowiska."
   },
   {
     "id": "R04_ZMI_06",
@@ -685,7 +685,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZMI_08",
     "section": "Zmiany i przykłady energetyki",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o elektrowniach jądrowych podane w rozdziale.",
+    "prompt": "Zaznacz informacje o elektrowniach jądrowych.",
     "options": [
       "są bardzo wydajne",
       "nie zanieczyszczają powietrza",
@@ -722,7 +722,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż parę, która nie pasuje do przykładów z lekcji: Norwegia - elektrownie wodne, Islandia - elektrownie geotermalne, Dania - elektrownie wiatrowe, Francja - elektrownie słoneczne.",
     "options": null,
     "answer": "Francja - elektrownie słoneczne",
-    "explanation": "W rozdziale Francja jest przykładem kraju o dużym udziale elektrowni jądrowych, a elektrownie słoneczne silnie kojarzono z Grecją."
+    "explanation": "Francja jest przykładem kraju o dużym udziale elektrowni jądrowych, a elektrownie słoneczne silnie kojarzono z Grecją."
   },
   {
     "id": "R04_TUR_01",
@@ -785,7 +785,7 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_03",
     "section": "Turystyka Europy Południowej",
     "type": "multi_select",
-    "prompt": "Zaznacz walory przyrodnicze Europy Południowej wymienione w rozdziale.",
+    "prompt": "Zaznacz walory przyrodnicze Europy Południowej.",
     "options": [
       "klimat podzwrotnikowy",
       "ciepłe wody Morza Śródziemnego",
@@ -807,7 +807,7 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_04",
     "section": "Turystyka Europy Południowej",
     "type": "match",
-    "prompt": "Połącz atrakcję lub miejsce z opisem z rozdziału.",
+    "prompt": "Połącz atrakcję lub miejsce z opisem.",
     "options": null,
     "left": [
       "Wenecja",
@@ -828,7 +828,7 @@ const ALL_EXERCISES = [
       "Rzym": "starożytna stolica z Koloseum"
     },
     "image": "r04_lazurowe_wybrzeze.jpg",
-    "explanation": "Rozdział przedstawia przykłady miejsc atrakcyjnych turystycznie w Europie Południowej, między innymi Wenecję, Lazurowe Wybrzeże, Jeziora Plitwickie i Rzym."
+    "explanation": "Przedstawia się przykłady miejsc atrakcyjnych turystycznie w Europie Południowej, między innymi Wenecję, Lazurowe Wybrzeże, Jeziora Plitwickie i Rzym."
   },
   {
     "id": "R04_TUR_05",
@@ -922,7 +922,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Co w rozdziale nazwano Francją metropolitalną?",
+    "prompt": "Co nazwano Francją metropolitalną?",
     "options": [
       "obszar Francji w Europie Zachodniej razem z Korsyką",
       "wszystkie francuskie obszary na innych kontynentach",
@@ -939,7 +939,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_02",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Według danych z rozdziału Francja metropolitalna ma powierzchnię __________, a PKB na osobę wynosi __________ dol. amer. w 2023 roku.",
+    "prompt": "Francja metropolitalna ma powierzchnię __________, a PKB na osobę wynosi __________ dol. amer. w 2023 roku.",
     "options": null,
     "answer": [
       "551 700 km²",
@@ -964,7 +964,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_03",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz francuskie obszary położone poza Europą wymienione w rozdziale.",
+    "prompt": "Zaznacz francuskie obszary położone poza Europą.",
     "options": [
       "Gujana Francuska",
       "Gwadelupa",
@@ -984,7 +984,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Planujesz lokalizację zakładu produkującego zaawansowany sprzęt elektroniczny. Dlaczego według rozdziału warto umieścić go w technopolii, blisko ośrodka naukowego?",
+    "prompt": "Planujesz lokalizację zakładu produkującego zaawansowany sprzęt elektroniczny. Dlaczego warto umieścić go w technopolii, blisko ośrodka naukowego?",
     "options": [
       "bo taka produkcja wymaga wykwalifikowanych pracowników oraz zaplecza naukowo-badawczego",
       "bo w technopolii zawsze znajdują się tylko kopalnie węgla brunatnego",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz znaną francuską firmę lub markę z produktem wskazanym w rozdziale.",
+    "prompt": "Połącz znaną francuską firmę lub markę z produktem.",
     "options": null,
     "left": [
       "Renault",
@@ -1020,7 +1020,7 @@ const ALL_EXERCISES = [
       "Michelin": "opony",
       "L'Oreal": "kosmetyki"
     },
-    "explanation": "Rozdział wymienia Renault wśród producentów samochodów, Airbus w lotnictwie, Michelin w produkcji opon, a L'Oreal w kosmetyce."
+    "explanation": "Wymienia się Renault wśród producentów samochodów, Airbus w lotnictwie, Michelin w produkcji opon, a L'Oreal w kosmetyce."
   },
   {
     "id": "R04_HARD_06",
@@ -1049,7 +1049,7 @@ const ALL_EXERCISES = [
     "prompt": "W 2023 roku Francja była pierwsza na świecie pod względem wartości eksportu i piąta pod względem importu.",
     "options": null,
     "answer": false,
-    "explanation": "Rozdział podaje, że Francja zajmuje ósme miejsce na świecie pod względem wartości eksportu i piąte pod względem importu. Pierwszeństwo dotyczy liczby turystów odwiedzających Francję w 2023 roku."
+    "explanation": "Francja zajmuje ósme miejsce na świecie pod względem wartości eksportu i piąte pod względem importu. Pierwszeństwo dotyczy liczby turystów odwiedzających Francję w 2023 roku."
   },
   {
     "id": "R04_HARD_08",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r04_platforma_wiertnicza.jpg",
-    "explanation": "W rozdziale jako główny europejski obszar wydobycia ropy naftowej i gazu ziemnego wskazano Morze Północne."
+    "explanation": "Jako główny europejski obszar wydobycia ropy naftowej i gazu ziemnego wskazano Morze Północne."
   },
   {
     "id": "R04_HARD_09",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_10",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz wady odnawialnych źródeł energii wymienione w rozdziale.",
+    "prompt": "Zaznacz wady odnawialnych źródeł energii.",
     "options": [
       "zazwyczaj produkują mniej prądu niż elektrownie cieplne",
       "są w dużym stopniu uzależnione od warunków środowiska",
@@ -1108,13 +1108,13 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Rozdział wskazuje, że odnawialne źródła energii mają też wady: zwykle dają mniej prądu i zależą od warunków środowiska, które nie wszędzie są wystarczające."
+    "explanation": "Odnawialne źródła energii mają też wady: zwykle dają mniej prądu i zależą od warunków środowiska, które nie wszędzie są wystarczające."
   },
   {
     "id": "R04_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz rodzaj elektrowni z państwem podanym jako przykład w rozdziale.",
+    "prompt": "Połącz rodzaj elektrowni z państwem podanym jako przykład.",
     "options": null,
     "left": [
       "elektrownie wodne",
@@ -1135,7 +1135,7 @@ const ALL_EXERCISES = [
       "elektrownie słoneczne": "Grecja"
     },
     "image": "r04_elektrownia_geotermalna.jpg",
-    "explanation": "Rozdział łączy Norwegię z energetyką wodną, Islandię i Włochy z geotermalną, Danię z wiatrową, a Grecję ze słoneczną."
+    "explanation": "Łączy się Norwegię z energetyką wodną, Islandię i Włochy z geotermalną, Danię z wiatrową, a Grecję ze słoneczną."
   },
   {
     "id": "R04_HARD_12",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_13",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje, które opisują Carcassonne według rozdziału.",
+    "prompt": "Zaznacz informacje, które opisują Carcassonne.",
     "options": [
       "jest położone na wzgórzu",
       "słynie z dobrze zachowanych średniowiecznych obiektów obronnych",

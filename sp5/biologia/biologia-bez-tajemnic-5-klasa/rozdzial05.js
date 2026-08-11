@@ -124,7 +124,7 @@ const ALL_EXERCISES = [
     "id": "R05_MCH_08",
     "section": "Mchy",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie mchów opisane w rozdziale.",
+    "prompt": "Zaznacz znaczenie mchów.",
     "options": [
       "Regulują wilgotność gleby",
       "Są organizmami pionierskimi",
@@ -166,7 +166,7 @@ const ALL_EXERCISES = [
     "id": "R05_MCH_10",
     "section": "Mchy",
     "type": "sort",
-    "prompt": "Przyporządkuj mchy do typowego środowiska podanego w rozdziale.",
+    "prompt": "Przyporządkuj mchy do typowego środowiska.",
     "options": null,
     "items": [
       "płonnik pospolity",
@@ -445,7 +445,7 @@ const ALL_EXERCISES = [
     "id": "R05_PAP_13",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "match",
-    "prompt": "Połącz gatunek z miejscem występowania opisanym w rozdziale.",
+    "prompt": "Połącz gatunek z miejscem występowania.",
     "options": null,
     "left": [
       "nerecznica samcza",
@@ -647,7 +647,7 @@ const ALL_EXERCISES = [
     "id": "R05_NAG_10",
     "section": "Rośliny nagonasienne",
     "type": "single_choice",
-    "prompt": "Jak są ułożone igły sosny zwyczajnej opisanej w rozdziale?",
+    "prompt": "Jak są ułożone igły sosny zwyczajnej?",
     "options": [
       "W pęczkach po dwie",
       "Pojedynczo po jednej",
@@ -687,7 +687,7 @@ const ALL_EXERCISES = [
     "id": "R05_NAG_13",
     "section": "Rośliny nagonasienne",
     "type": "scenario",
-    "prompt": "Dwie sosny rosną w różnych miejscach. Jedna stoi samotnie, druga w gęstym lesie. Które stwierdzenie jest zgodne z rozdziałem?",
+    "prompt": "Dwie sosny rosną w różnych miejscach. Jedna stoi samotnie, druga w gęstym lesie. Które stwierdzenie jest prawdziwe?",
     "options": [
       "Samotna sosna ma koronę rozwiniętą od niższej wysokości",
       "Sosna leśna ma koronę zaczynającą się przy ziemi",
@@ -846,7 +846,7 @@ const ALL_EXERCISES = [
     "id": "R05_OKR_08",
     "section": "Rośliny okrytonasienne",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie roślin okrytonasiennych wymienione w rozdziale.",
+    "prompt": "Zaznacz znaczenie roślin okrytonasiennych.",
     "options": [
       "Są składnikiem lasów liściastych i mieszanych",
       "Produkują tlen",
@@ -978,7 +978,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz strukturę z grupą roślin, dla której jest charakterystyczna w tym rozdziale.",
+    "prompt": "Połącz strukturę z grupą roślin, dla której jest charakterystyczna.",
     "options": null,
     "left": [
       "chwytniki",
@@ -1024,7 +1024,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który przedstawiciel nagonasiennych opisany w rozdziale osiąga wysokość do 45 m i zrzuca igły na zimę?",
+    "prompt": "Który przedstawiciel nagonasiennych osiąga wysokość do 45 m i zrzuca igły na zimę?",
     "options": [
       "modrzew europejski",
       "sosna zwyczajna",
@@ -1130,7 +1130,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_10",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz drzewo z dokładnym opisem owocu podanym w rozdziale.",
+    "prompt": "Połącz drzewo z dokładnym opisem owocu.",
     "options": null,
     "left": [
       "buk zwyczajny",
@@ -1157,7 +1157,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny, których nasiona lub owoce mają opisane w rozdziale przystosowania do rozsiewania przez wiatr.",
+    "prompt": "Zaznacz rośliny, których nasiona lub owoce mają przystosowania do rozsiewania przez wiatr.",
     "options": [
       "sosna zwyczajna",
       "wierzba biała",
@@ -1173,7 +1173,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Sosna ma nasiona ze skrzydełkiem; wierzba i topola owoce z puchem; klon i brzoza owoce ze skrzydełkami. Jarząb ma czerwone owoce, ale w tym rozdziale nie opisano ich jako wiatrosiewnych.",
+    "explanation": "Sosna ma nasiona ze skrzydełkiem; wierzba i topola owoce z puchem; klon i brzoza owoce ze skrzydełkami. Jarząb ma czerwone owoce, ale nie opisano ich jako wiatrosiewnych.",
     "image": "r05_liscie_i_owoce_drzew.jpg"
   },
   {

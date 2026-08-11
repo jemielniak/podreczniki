@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R01_CZA_02",
     "section": "Czas i epoki",
     "type": "true_false",
-    "prompt": "W podręczniku wyjaśniono, że roku 0 nie było.",
+    "prompt": "Roku 0 nie było.",
     "options": null,
     "answer": true,
     "explanation": "Na osi czasu po 1 roku p.n.e. następuje 1 rok n.e., bez roku zerowego."
@@ -99,7 +99,7 @@ const ALL_EXERCISES = [
     "id": "R01_CZA_07",
     "section": "Czas i epoki",
     "type": "multi_select",
-    "prompt": "Zaznacz epoki prehistoryczne wymienione w podręczniku.",
+    "prompt": "Zaznacz epoki prehistoryczne.",
     "options": [
       "starsza epoka kamienia",
       "młodsza epoka kamienia",
@@ -129,7 +129,7 @@ const ALL_EXERCISES = [
       "średniowiecze",
       "nowożytność"
     ],
-    "explanation": "Podręcznik podaje kolejność: starożytność, średniowiecze, nowożytność."
+    "explanation": "Podaje się kolejność: starożytność, średniowiecze, nowożytność."
   },
   {
     "id": "R01_CZA_09",
@@ -172,7 +172,7 @@ const ALL_EXERCISES = [
       "historia": "dzieje od wynalezienia pisma",
       "tysiąclecie": "pełne tysiąc lat"
     },
-    "explanation": "Chronologia, prehistoria, historia i tysiąclecie mają w rozdziale odrębne znaczenia."
+    "explanation": "Chronologia, prehistoria, historia i tysiąclecie mają odrębne znaczenia."
   },
   {
     "id": "R01_CZA_11",
@@ -190,7 +190,7 @@ const ALL_EXERCISES = [
     "prompt": "Podział na epoki jest umowny, bo historycy przyjmują wybrane wydarzenia jako granice epok.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że daty graniczne epok są umowne i mogą być różnie wskazywane."
+    "explanation": "Daty graniczne epok są umowne i mogą być różnie wskazywane."
   },
   {
     "id": "R01_PAL_01",
@@ -222,7 +222,7 @@ const ALL_EXERCISES = [
       "około 1700 r. p.n.e."
     ],
     "answer": 1,
-    "explanation": "Podręcznik podaje, że ludzie przywędrowali do Europy około 40 tysięcy lat temu."
+    "explanation": "Ludzie przywędrowali do Europy około 40 tysięcy lat temu."
   },
   {
     "id": "R01_PAL_03",
@@ -286,7 +286,7 @@ const ALL_EXERCISES = [
       "z cegieł suszonych na słońcu"
     ],
     "answer": 2,
-    "explanation": "W rozdziale opisano namioty z kości mamuta okrytych zwierzęcymi skórami."
+    "explanation": "Opisano namioty z kości mamuta okrytych zwierzęcymi skórami."
   },
   {
     "id": "R01_PAL_07",
@@ -381,7 +381,7 @@ const ALL_EXERCISES = [
       "łuk": "łatwiejsze polowanie na szybkie zwierzęta",
       "krzemień": "wyrób ostrych narzędzi i broni"
     },
-    "explanation": "W rozdziale opisano praktyczne znaczenie jaskini, ognia, łuku i krzemienia."
+    "explanation": "Opisano praktyczne znaczenie jaskini, ognia, łuku i krzemienia."
   },
   {
     "id": "R01_PAL_12",
@@ -406,7 +406,7 @@ const ALL_EXERCISES = [
       "w Rzymie"
     ],
     "answer": 1,
-    "explanation": "Podręcznik wskazuje mieszkańców Bliskiego Wschodu jako pierwszych rolników."
+    "explanation": "Wskazuje się mieszkańców Bliskiego Wschodu jako pierwszych rolników."
   },
   {
     "id": "R01_NEO_02",
@@ -430,7 +430,7 @@ const ALL_EXERCISES = [
     "id": "R01_NEO_03",
     "section": "Neolit",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki rewolucji neolitycznej wymienione w podręczniku.",
+    "prompt": "Zaznacz skutki rewolucji neolitycznej.",
     "options": [
       "osiadły tryb życia",
       "udoskonalenie kamiennych narzędzi",
@@ -455,7 +455,7 @@ const ALL_EXERCISES = [
     "prompt": "Rolnictwo obejmuje uprawę ziemi oraz hodowlę zwierząt.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik definiuje rolnictwo jako uprawę ziemi i hodowlę zwierząt."
+    "explanation": "Definiuje się rolnictwo jako uprawę ziemi i hodowlę zwierząt."
   },
   {
     "id": "R01_NEO_05",
@@ -519,7 +519,7 @@ const ALL_EXERCISES = [
       "malarstwo ścienne i fotografia"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wymienia garncarstwo i tkactwo jako pierwsze gałęzie rzemiosła."
+    "explanation": "Wymienia się garncarstwo i tkactwo jako pierwsze gałęzie rzemiosła."
   },
   {
     "id": "R01_NEO_08",
@@ -583,7 +583,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale wymieniono kozy, owce, bydło i świnie."
+    "explanation": "Wymieniono kozy, owce, bydło i świnie."
   },
   {
     "id": "R01_NEO_11",
@@ -634,7 +634,7 @@ const ALL_EXERCISES = [
     "id": "R01_CYW_02",
     "section": "Pierwsze cywilizacje",
     "type": "multi_select",
-    "prompt": "Zaznacz obszary, na których powstały pierwsze cywilizacje wymienione w rozdziale.",
+    "prompt": "Zaznacz obszary, na których powstały pierwsze cywilizacje.",
     "options": [
       "Mezopotamia",
       "Egipt",
@@ -649,7 +649,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik wymienia Mezopotamię, Egipt, Indie i Chiny."
+    "explanation": "Wymienia się Mezopotamię, Egipt, Indie i Chiny."
   },
   {
     "id": "R01_CYW_03",
@@ -840,7 +840,7 @@ const ALL_EXERCISES = [
         "wyroby ceramiczne wysokiej jakości"
       ]
     },
-    "explanation": "Rozdział przypisuje pismo klinowe, koło, szkło i brąz Sumerom, kanalizację i domy z cegieł dolinie Indusu, a pismo obrazkowe oraz wyroby ceramiczne Chinom."
+    "explanation": "Przypisuje się pismo klinowe, koło, szkło i brąz Sumerom, kanalizację i domy z cegieł dolinie Indusu, a pismo obrazkowe oraz wyroby ceramiczne Chinom."
   },
   {
     "id": "R01_EGI_01",
@@ -885,7 +885,7 @@ const ALL_EXERCISES = [
         "około 3100"
       ]
     ],
-    "explanation": "Podręcznik podaje, że państwo egipskie powstało około 3100 r. p.n.e."
+    "explanation": "Państwo egipskie powstało około 3100 r. p.n.e."
   },
   {
     "id": "R01_EGI_04",
@@ -954,7 +954,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_07",
     "section": "Egipt",
     "type": "sequence",
-    "prompt": "Ułóż warstwy społeczeństwa egipskiego od najwyższej do najniższej według podsumowania podręcznika.",
+    "prompt": "Ułóż warstwy społeczeństwa egipskiego od najwyższej do najniższej.",
     "options": null,
     "items": [
       "urzędnicy",
@@ -977,7 +977,7 @@ const ALL_EXERCISES = [
       "niewolnicy"
     ],
     "image": "/img/r01_piramida_spoleczna_egiptu.jpg",
-    "explanation": "Podręcznik przedstawia społeczeństwo jako piramidę: faraon, wezyr, kapłani, urzędnicy, rzemieślnicy, żołnierze, chłopi, niewolnicy."
+    "explanation": "Przedstawia się społeczeństwo jako piramidę: faraon, wezyr, kapłani, urzędnicy, rzemieślnicy, żołnierze, chłopi, niewolnicy."
   },
   {
     "id": "R01_EGI_08",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_09",
     "section": "Egipt",
     "type": "multi_select",
-    "prompt": "Na czym lub w jaki sposób pisali Egipcjanie według rozdziału?",
+    "prompt": "Na czym lub w jaki sposób pisali Egipcjanie?",
     "options": [
       "wykuwali hieroglify w skałach i na ścianach",
       "pisali pędzelkiem na papirusie",
@@ -1028,7 +1028,7 @@ const ALL_EXERCISES = [
       "Mumia"
     ],
     "image": "/img/r01_mumia_i_grobowiec.jpg",
-    "explanation": "Podręcznik wyjaśnia mumię przy opowieści o Ozyrysie i Anubisie."
+    "explanation": "Wyjaśnia się mumię przy opowieści o Ozyrysie i Anubisie."
   },
   {
     "id": "R01_EGI_11",
@@ -1083,7 +1083,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który rok według przykładów z podręcznika należy do VIII wieku p.n.e.?",
+    "prompt": "Który rok według przykładów należy do VIII wieku p.n.e.?",
     "options": [
       "776 r. p.n.e.",
       "1370 r. n.e.",
@@ -1093,7 +1093,7 @@ const ALL_EXERCISES = [
       "1001 r. n.e."
     ],
     "answer": 0,
-    "explanation": "Podręcznik pokazuje przykład: 776 rok p.n.e. to VIII wiek p.n.e."
+    "explanation": "Pokazuje się przykład: 776 rok p.n.e. to VIII wiek p.n.e."
   },
   {
     "id": "R01_HARD_03",
@@ -1119,7 +1119,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia przypisane w podręczniku Sumerom jako pierwszym w dziejach.",
+    "prompt": "Zaznacz osiągnięcia Sumerom jako pierwszym w dziejach.",
     "options": [
       "pismo około 3500 r. p.n.e.",
       "koło i pierwsze wozy",
@@ -1134,7 +1134,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział wymienia sumeryjskie pismo, koło i pierwsze wozy, szkło oraz uzyskanie brązu."
+    "explanation": "Wymienia się sumeryjskie pismo, koło i pierwsze wozy, szkło oraz uzyskanie brązu."
   },
   {
     "id": "R01_HARD_05",
@@ -1169,7 +1169,7 @@ const ALL_EXERCISES = [
         "około 3000"
       ]
     ],
-    "explanation": "W rozdziale podano, że pismo egipskie powstało około 3000 r. p.n.e."
+    "explanation": "Pismo egipskie powstało około 3000 r. p.n.e."
   },
   {
     "id": "R01_HARD_07",
@@ -1185,7 +1185,7 @@ const ALL_EXERCISES = [
       "około 2300000"
     ],
     "answer": 1,
-    "explanation": "Podręcznik podaje, że pismo hieroglificzne liczyło około 800 znaków."
+    "explanation": "Pismo hieroglificzne liczyło około 800 znaków."
   },
   {
     "id": "R01_HARD_08",
@@ -1211,13 +1211,13 @@ const ALL_EXERCISES = [
     "prompt": "Grobowiec Tutanchamona został odkryty w 1922 roku i nie był wcześniej obrabowany jak znane piramidy i grobowce.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że w 1922 roku archeolodzy odkryli grobowiec Tutanchamona pełen złota i kosztowności."
+    "explanation": "W 1922 roku archeolodzy odkryli grobowiec Tutanchamona pełen złota i kosztowności."
   },
   {
     "id": "R01_HARD_10",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz liczbę lub datę z informacją z rozdziału.",
+    "prompt": "Połącz liczbę lub datę z informacją.",
     "options": null,
     "left": [
       "4 miliardy 600 milionów lat",
@@ -1238,7 +1238,7 @@ const ALL_EXERCISES = [
       "III w. p.n.e.": "zjednoczenie Chin"
     },
     "image": "/img/r01_piramida_cheopsa.jpg",
-    "explanation": "Te szczegóły pojawiają się w różnych częściach rozdziału i wymagają precyzyjnego kojarzenia."
+    "explanation": "Te szczegóły pojawiają się i wymagają precyzyjnego kojarzenia."
   },
   {
     "id": "R01_HARD_11",
@@ -1282,7 +1282,7 @@ const ALL_EXERCISES = [
         "hieroglify"
       ]
     },
-    "explanation": "Ćwiczenie łączy informacje z całego rozdziału: warunki naturalne powodowały zmiany, a społeczeństwa tworzyły konkretne osiągnięcia."
+    "explanation": "Ćwiczenie łączy różne informacje: warunki naturalne powodowały zmiany, a społeczeństwa tworzyły konkretne osiągnięcia."
   }
 ];
 

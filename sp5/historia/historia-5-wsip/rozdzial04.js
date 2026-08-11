@@ -324,7 +324,7 @@ const ALL_EXERCISES = [
     "id": "R04_ARA_07",
     "section": "Arabowie i początki islamu",
     "type": "multi_select",
-    "prompt": "Zaznacz obszary zdobyte przez Arabów według rozdziału.",
+    "prompt": "Zaznacz obszary zdobyte przez Arabów.",
     "options": [
       "Palestyna",
       "Egipt",
@@ -497,7 +497,7 @@ const ALL_EXERCISES = [
     "id": "R04_KAR_05",
     "section": "Państwo karolińskie",
     "type": "multi_select",
-    "prompt": "Zaznacz dokonania Karola Wielkiego opisane w rozdziale.",
+    "prompt": "Zaznacz dokonania Karola Wielkiego.",
     "options": [
       "Pokonał Longobardów w północnej Italii",
       "Wyparł Arabów z części zachodniej Hiszpanii",
@@ -870,7 +870,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r04_mapa_slowianie.jpg",
-    "explanation": "Podręcznik wskazuje, że najdawniejsze siedziby Słowian leżały prawdopodobnie na obszarze dzisiejszej Ukrainy."
+    "explanation": "Najdawniejsze siedziby Słowian leżały prawdopodobnie na obszarze dzisiejszej Ukrainy."
   },
   {
     "id": "R04_SLO_02",
@@ -921,7 +921,7 @@ const ALL_EXERCISES = [
     "id": "R04_SLO_05",
     "section": "Słowiańszczyzna",
     "type": "match",
-    "prompt": "Połącz państwo lub lud z dynastią wymienioną w rozdziale.",
+    "prompt": "Połącz państwo lub lud z dynastią.",
     "options": null,
     "left": [
       "Czechy",
@@ -942,7 +942,7 @@ const ALL_EXERCISES = [
       "Ruś Kijowska": "Rurykowicze"
     },
     "image": "/img/r04_mapa_slowianie.jpg",
-    "explanation": "W rozdziale wskazano najważniejsze dynastie państw Europy Środkowej i Wschodniej."
+    "explanation": "Wskazano najważniejsze dynastie państw Europy Środkowej i Wschodniej."
   },
   {
     "id": "R04_SLO_06",
@@ -1075,14 +1075,14 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz trwałe dziedzictwa wczesnego średniowiecza wymienione w podsumowaniu rozdziału.",
+    "prompt": "Zaznacz trwałe dziedzictwa wczesnego średniowiecza.",
     "options": [
       "Nazwa Francji pochodzi od Franków",
       "Nazwa Bułgarii pochodzi od Bułgarów",
       "Nazwa Polski pochodzi od plemienia Polan",
       "Cyrylica jest podstawą alfabetów używanych w części państw słowiańskich",
       "Cyfry arabskie zostały zapożyczone z Indii i uzupełnione o zero",
-      "Nazwa Norwegii pochodzi od Normanów według rozdziału"
+      "Nazwa Norwegii pochodzi od Normanów"
     ],
     "answer": [
       0,
@@ -1308,7 +1308,7 @@ const ALL_EXERCISES = [
         "Wielkie Morawy"
       ]
     },
-    "explanation": "Ćwiczenie łączy najważniejsze pojęcia z czterema kręgami kulturowymi omawianymi w rozdziale."
+    "explanation": "Ćwiczenie łączy najważniejsze pojęcia z czterema kręgami kulturowymi."
   },
   {
     "id": "R04_HARD_12",

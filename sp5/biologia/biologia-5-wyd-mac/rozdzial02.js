@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_01",
     "section": "Bakterie - budowa i życie",
     "type": "single_choice",
-    "prompt": "Która cecha najlepiej opisuje bakterie przedstawione w rozdziale?",
+    "prompt": "Która cecha najlepiej opisuje bakterie?",
     "options": [
       "mikroskopijne organizmy jednokomórkowe bez jądra komórkowego",
       "wielokomórkowe rośliny z chloroplastami",
@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Bakterie mogą żyć tylko w wodzie i glebie.",
     "options": null,
     "answer": false,
-    "explanation": "To fałsz. W rozdziale podano, że bakterie żyją także na powierzchni ciała i wewnątrz innych organizmów, czyli wszędzie tam, gdzie mają pokarm i odpowiednie warunki."
+    "explanation": "To fałsz. Bakterie żyją także na powierzchni ciała i wewnątrz innych organizmów, czyli wszędzie tam, gdzie mają pokarm i odpowiednie warunki."
   },
   {
     "id": "R02_BAK_03",
@@ -118,7 +118,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_07",
     "section": "Bakterie - budowa i życie",
     "type": "scenario",
-    "prompt": "Otwierasz konserwę, ale wieczko jest wybrzuszone. Co według rozdziału należy zrobić z taką puszką?",
+    "prompt": "Otwierasz konserwę, ale wieczko jest wybrzuszone. Co należy zrobić z taką puszką?",
     "options": [
       "bezwzględnie ją wyrzucić",
       "podgrzać i zjeść od razu",
@@ -165,7 +165,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_10",
     "section": "Bakterie - budowa i życie",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do typu komórki, w którym występują według porównania z rozdziału.",
+    "prompt": "Przyporządkuj elementy do typu komórki, w którym występują według porównania.",
     "options": null,
     "items": [
       "cytoplazma",
@@ -216,7 +216,7 @@ const ALL_EXERCISES = [
     "prompt": "Niektóre bakterie mogą oddychać tlenowo, a przy niedoborze tlenu przeprowadzać fermentację.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Rozdział podaje, że część bakterii dostosowuje sposób oddychania do warunków otoczenia."
+    "explanation": "To prawda. Część bakterii dostosowuje sposób oddychania do warunków otoczenia."
   },
   {
     "id": "R02_BCZ_01",
@@ -239,7 +239,7 @@ const ALL_EXERCISES = [
     "id": "R02_BCZ_02",
     "section": "Bakterie w przyrodzie i u człowieka",
     "type": "multi_select",
-    "prompt": "Zaznacz pożyteczne znaczenie bakterii lub sinic opisane w rozdziale.",
+    "prompt": "Zaznacz pożyteczne znaczenie bakterii lub sinic.",
     "options": [
       "rozkład martwej materii organicznej",
       "wytwarzanie tlenu przez sinice",
@@ -253,7 +253,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "r02_rola_saprofitow.jpg",
-    "explanation": "Rozdział podaje, że bakterie saprofityczne uczestniczą w rozkładzie martwej materii, a sinice wytwarzają tlen i są pokarmem dla innych organizmów."
+    "explanation": "Bakterie saprofityczne uczestniczą w rozkładzie martwej materii, a sinice wytwarzają tlen i są pokarmem dla innych organizmów."
   },
   {
     "id": "R02_BCZ_03",
@@ -284,7 +284,7 @@ const ALL_EXERCISES = [
         "sery"
       ]
     ],
-    "explanation": "W rozdziale jako przykłady produktów spożywczych uzyskiwanych dzięki bakteriom podano kiszoną kapustę i sery."
+    "explanation": "Jako przykłady produktów spożywczych uzyskiwanych dzięki bakteriom podano kiszoną kapustę i sery."
   },
   {
     "id": "R02_BCZ_05",
@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
     "id": "R02_BCZ_06",
     "section": "Bakterie w przyrodzie i u człowieka",
     "type": "scenario",
-    "prompt": "Uczeń przyjmuje antybiotyk. Dlaczego rozdział zaleca wtedy dobrej jakości jogurty lub probiotyki?",
+    "prompt": "Uczeń przyjmuje antybiotyk. Dlaczego zaleca się wtedy dobrej jakości jogurty lub probiotyki?",
     "options": [
       "pomagają przywrócić pożyteczne bakterie",
       "zastępują wszystkie szczepienia",
@@ -362,13 +362,13 @@ const ALL_EXERCISES = [
       "salmonelloza": "pałeczka salmonelli"
     },
     "image": "r02_drogi_zakazen.jpg",
-    "explanation": "W rozdziale wymieniono laseczki tężca, krętki boreliozy, prątki gruźlicy i pałeczki salmonelli jako przyczyny odpowiednich chorób."
+    "explanation": "Wymieniono laseczki tężca, krętki boreliozy, prątki gruźlicy i pałeczki salmonelli jako przyczyny odpowiednich chorób."
   },
   {
     "id": "R02_BCZ_09",
     "section": "Bakterie w przyrodzie i u człowieka",
     "type": "sort",
-    "prompt": "Przyporządkuj choroby do typowych dróg zakażenia opisanych w rozdziale.",
+    "prompt": "Przyporządkuj choroby do typowych dróg zakażenia.",
     "options": null,
     "items": [
       "salmonelloza",
@@ -406,7 +406,7 @@ const ALL_EXERCISES = [
     "prompt": "Szczepienia są ważne w zapobieganiu tężcowi.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Rozdział podaje, że w zapobieganiu tężcowi szczepienia są bardzo ważne."
+    "explanation": "To prawda. W zapobieganiu tężcowi szczepienia są bardzo ważne."
   },
   {
     "id": "R02_BCZ_11",
@@ -435,7 +435,7 @@ const ALL_EXERCISES = [
       "usunąć wszystkie organizmy pionierskie"
     ],
     "answer": 0,
-    "explanation": "Rozdział opisuje wprowadzanie odpowiednio dobranych bakterii, które wykorzystują pochodne ropy jako źródło węgla i energii albo przekształcają metale ciężkie w mniej szkodliwe związki."
+    "explanation": "Opisuje się wprowadzanie odpowiednio dobranych bakterii, które wykorzystują pochodne ropy jako źródło węgla i energii albo przekształcają metale ciężkie w mniej szkodliwe związki."
   },
   {
     "id": "R02_GRB_01",
@@ -467,7 +467,7 @@ const ALL_EXERCISES = [
     "id": "R02_GRB_03",
     "section": "Grzyby - budowa i rozmnażanie",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy komórek grzybów opisane w rozdziale.",
+    "prompt": "Zaznacz cechy komórek grzybów.",
     "options": [
       "zawierają jądro komórkowe",
       "mają ścianę komórkową z chityny",
@@ -509,7 +509,7 @@ const ALL_EXERCISES = [
     "id": "R02_GRB_05",
     "section": "Grzyby - budowa i rozmnażanie",
     "type": "match",
-    "prompt": "Połącz przykład grzyba z opisem z rozdziału.",
+    "prompt": "Połącz przykład grzyba z opisem.",
     "options": null,
     "left": [
       "drożdże",
@@ -650,7 +650,7 @@ const ALL_EXERCISES = [
     "prompt": "Grzyby pozbawione dostępu do tlenu mogą przeprowadzać fermentację alkoholową.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Rozdział podaje, że grzyby mające dostęp do powietrza oddychają tlenowo, a bez tlenu mogą przeprowadzać fermentację alkoholową."
+    "explanation": "To prawda. Grzyby mające dostęp do powietrza oddychają tlenowo, a bez tlenu mogą przeprowadzać fermentację alkoholową."
   },
   {
     "id": "R02_GCZ_01",
@@ -710,7 +710,7 @@ const ALL_EXERCISES = [
     "id": "R02_GCZ_04",
     "section": "Grzyby w przyrodzie i u człowieka",
     "type": "true_false",
-    "prompt": "Porosty proszkowate wskazują na najczystsze powietrze spośród trzech typów porostów opisanych w rozdziale.",
+    "prompt": "Porosty proszkowate wskazują na najczystsze powietrze spośród trzech typów porostów.",
     "options": null,
     "answer": false,
     "image": "r02_typy_porostow.jpg",
@@ -737,13 +737,13 @@ const ALL_EXERCISES = [
       "porosty listkowate": "tworzą liście przylegające do podłoża",
       "porosty proszkowate": "przypominają proszek"
     },
-    "explanation": "Rozdział odróżnia porosty krzaczkowate, listkowate i proszkowate po ich wyglądzie."
+    "explanation": "Odróżnia się porosty krzaczkowate, listkowate i proszkowate po ich wyglądzie."
   },
   {
     "id": "R02_GCZ_06",
     "section": "Grzyby w przyrodzie i u człowieka",
     "type": "scenario",
-    "prompt": "Na korze drzew w parku widzisz liczne porosty krzaczkowate. Co można wnioskować na podstawie rozdziału?",
+    "prompt": "Na korze drzew w parku widzisz liczne porosty krzaczkowate. Co można z tego wywnioskować?",
     "options": [
       "poziom dwutlenku siarki jest niski",
       "powietrze jest silnie zanieczyszczone siarką",
@@ -799,7 +799,7 @@ const ALL_EXERCISES = [
     "id": "R02_GCZ_09",
     "section": "Grzyby w przyrodzie i u człowieka",
     "type": "single_choice",
-    "prompt": "Z jakim odkryciem opisanym w rozdziale wiąże się pędzlak Penicillium?",
+    "prompt": "Z jakim odkryciem wiąże się pędzlak Penicillium?",
     "options": [
       "z penicyliną",
       "z insuliną bakteryjną",
@@ -819,7 +819,7 @@ const ALL_EXERCISES = [
     "prompt": "Niektóre grzyby pasożytnicze wywołują choroby roślin uprawnych.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. W rozdziale podano, że grzyby pasożytnicze są przyczyną chorób wielu roślin uprawnych i strat w rolnictwie."
+    "explanation": "To prawda. Grzyby pasożytnicze są przyczyną chorób wielu roślin uprawnych i strat w rolnictwie."
   },
   {
     "id": "R02_GCZ_11",
@@ -838,7 +838,7 @@ const ALL_EXERCISES = [
     "id": "R02_GCZ_12",
     "section": "Grzyby w przyrodzie i u człowieka",
     "type": "scenario",
-    "prompt": "Po treningu ktoś długo chodzi w nieprzewiewnych butach, a stopy pozostają spocone. Jakie ryzyko opisuje rozdział?",
+    "prompt": "Po treningu ktoś długo chodzi w nieprzewiewnych butach, a stopy pozostają spocone. Jakie ryzyko opisuje się?",
     "options": [
       "rozwój grzybicy",
       "zakażenie boreliozą przez kleszcza",
@@ -848,13 +848,13 @@ const ALL_EXERCISES = [
       "powstanie porostów krzaczkowatych"
     ],
     "answer": 0,
-    "explanation": "Długo wilgotna skóra i nieprzewiewne buty sprzyjają grzybicy. Rozdział zaleca utrzymywanie skóry w czystości i suchości oraz regularną zmianę skarpet."
+    "explanation": "Długo wilgotna skóra i nieprzewiewne buty sprzyjają grzybicy. Zaleca się utrzymywanie skóry w czystości i suchości oraz regularną zmianę skarpet."
   },
   {
     "id": "R02_PRO_01",
     "section": "Protisty",
     "type": "single_choice",
-    "prompt": "Jaka cecha jest wspólna dla wszystkich protistów według rozdziału?",
+    "prompt": "Jaka cecha jest wspólna dla wszystkich protistów?",
     "options": [
       "obecność jądra komórkowego",
       "brak jądra komórkowego",
@@ -893,7 +893,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość protistów żyje w wodzie.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Rozdział rozpoczyna opis protistów od stwierdzenia, że większość z nich żyje w wodzie."
+    "explanation": "To prawda. Większość protistów żyje w wodzie."
   },
   {
     "id": "R02_PRO_04",
@@ -942,7 +942,7 @@ const ALL_EXERCISES = [
       "świdrowiec gambijski": "jednokomórkowy pasożyt wywołujący śpiączkę afrykańską"
     },
     "image": "r02_protisty_roznorodnosc.jpg",
-    "explanation": "W rozdziale podano przykłady bardzo różnych protistów, od jednokomórkowych okrzemek po wielokomórkowy morszcz."
+    "explanation": "Podano przykłady bardzo różnych protistów, od jednokomórkowych okrzemek po wielokomórkowy morszcz."
   },
   {
     "id": "R02_PRO_06",
@@ -1063,7 +1063,7 @@ const ALL_EXERCISES = [
     "id": "R02_PRO_12",
     "section": "Protisty",
     "type": "scenario",
-    "prompt": "Pod mikroskopem widać jednokomórkowego cudzożywnego protista z dwoma jądrami komórkowymi. Co to najpewniej za organizm z rozdziału?",
+    "prompt": "Pod mikroskopem widać jednokomórkowego cudzożywnego protista z dwoma jądrami komórkowymi. Co to najpewniej za organizm?",
     "options": [
       "pantofelek",
       "morszcz",
@@ -1080,7 +1080,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz poprawne pary choroba - sposób profilaktyki podane w podsumowaniu rozdziału.",
+    "prompt": "Zaznacz poprawne pary choroba - sposób profilaktyki.",
     "options": [
       "tężec - szczepionka",
       "salmonelloza - zasady higieny",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
       "gruźlica": "prątek gruźlicy"
     },
     "image": "r02_mapa_malarii.jpg",
-    "explanation": "Rozdział opisuje zarówno choroby bakteryjne, jak i protistowe, wraz z ich sprawcami."
+    "explanation": "Opisuje się zarówno choroby bakteryjne, jak i protistowe, wraz z ich sprawcami."
   },
   {
     "id": "R02_HARD_03",
@@ -1140,7 +1140,7 @@ const ALL_EXERCISES = [
       "pantofelek"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że lambliozę, czyli giardiozę, wywołuje lamblia jelitowa."
+    "explanation": "Lambliozę, czyli giardiozę, wywołuje lamblia jelitowa."
   },
   {
     "id": "R02_HARD_04",
@@ -1173,7 +1173,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r02_szalka_fleminga.jpg",
-    "explanation": "Rozdział podaje datę 3 września 1928 roku dla obserwacji Fleminga oraz 1940 rok dla eksperymentu Howarda Floreya."
+    "explanation": "Podaje się datę 3 września 1928 roku dla obserwacji Fleminga oraz 1940 rok dla eksperymentu Howarda Floreya."
   },
   {
     "id": "R02_HARD_06",
@@ -1217,7 +1217,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_08",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj cechy do królestw porównanych w podsumowaniu rozdziału.",
+    "prompt": "Przyporządkuj cechy do królestw.",
     "options": null,
     "items": [
       "brak jądra komórkowego",
@@ -1282,13 +1282,13 @@ const ALL_EXERCISES = [
       "owocnik": "część grzybni wytwarzająca zarodniki",
       "toksyna": "substancja trująca"
     },
-    "explanation": "Te pojęcia pojawiają się w rozdziale jako ważne terminy: mikoryza, przetrwalnik, gameta, owocnik i toksyna."
+    "explanation": "Te pojęcia pojawiają się jako ważne terminy: mikoryza, przetrwalnik, gameta, owocnik i toksyna."
   },
   {
     "id": "R02_HARD_11",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W środowisku jest mało tlenu. Które dwa organizmy z rozdziału mogą w takich warunkach uzyskiwać energię dzięki fermentacji?",
+    "prompt": "W środowisku jest mało tlenu. Które dwa organizmy mogą w takich warunkach uzyskiwać energię dzięki fermentacji?",
     "options": [
       "bakterie i grzyby",
       "wyłącznie porosty krzaczkowate",
@@ -1298,7 +1298,7 @@ const ALL_EXERCISES = [
       "toksoplazma i kot"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że niektóre bakterie przeprowadzają fermentację, a grzyby pozbawione tlenu mogą przeprowadzać fermentację alkoholową."
+    "explanation": "Niektóre bakterie przeprowadzają fermentację, a grzyby pozbawione tlenu mogą przeprowadzać fermentację alkoholową."
   },
   {
     "id": "R02_HARD_12",

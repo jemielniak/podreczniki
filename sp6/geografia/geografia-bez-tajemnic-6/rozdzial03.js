@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_01",
     "section": "Położenie i krajobrazy Europy",
     "type": "single_choice",
-    "prompt": "Jak podręcznik określa wielkość Europy w porównaniu z innymi kontynentami?",
+    "prompt": "Jak określa się wielkość Europy w porównaniu z innymi kontynentami?",
     "options": [
       "Jest największym kontynentem na świecie",
       "Jest drugim po Australii najmniejszym kontynentem",
@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_granica_europy_azji.jpg",
-    "explanation": "Podręcznik podkreśla, że granica przebiega w dużej części na lądzie i została wyznaczona ze względu na różnice kulturowe."
+    "explanation": "Granica przebiega w dużej części na lądzie i została wyznaczona ze względu na różnice kulturowe."
   },
   {
     "id": "R03_POL_03",
@@ -60,7 +60,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_04",
     "section": "Położenie i krajobrazy Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy przebiegu granicy między Europą i Azją opisane w rozdziale.",
+    "prompt": "Zaznacz elementy przebiegu granicy między Europą i Azją.",
     "options": [
       "Wschodnia strona gór Ural",
       "Północne wybrzeża Morza Kaspijskiego",
@@ -111,7 +111,7 @@ const ALL_EXERCISES = [
       "najdłuższa rzeka Europy": "Wołga",
       "najwyższy szczyt Europy": "Mont Blanc"
     },
-    "explanation": "Rozdział wskazuje Wielką Brytanię, Półwysep Skandynawski, Wołgę i Mont Blanc jako ważne europejskie przykłady geograficzne."
+    "explanation": "Wskazuje się Wielką Brytanię, Półwysep Skandynawski, Wołgę i Mont Blanc jako ważne europejskie przykłady geograficzne."
   },
   {
     "id": "R03_POL_07",
@@ -168,7 +168,7 @@ const ALL_EXERCISES = [
       "Polska",
       "kraje bałtyckie"
     ],
-    "explanation": "Podręcznik opisuje pas nizin od Francji przez Belgię, Holandię, Niemcy i Polskę po kraje bałtyckie."
+    "explanation": "Opisuje się pas nizin od Francji przez Belgię, Holandię, Niemcy i Polskę po kraje bałtyckie."
   },
   {
     "id": "R03_POL_09",
@@ -205,7 +205,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_11",
     "section": "Położenie i krajobrazy Europy",
     "type": "single_choice",
-    "prompt": "Który łańcuch górski wyznacza wschodnią granicę Europy w opisie z rozdziału?",
+    "prompt": "Który łańcuch górski wyznacza wschodnią granicę Europy w opisie?",
     "options": [
       "Alpy",
       "Pireneje",
@@ -222,7 +222,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_12",
     "section": "Położenie i krajobrazy Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady zróżnicowania środowiska przyrodniczego Europy wymienione w rozdziale.",
+    "prompt": "Zaznacz przykłady zróżnicowania środowiska przyrodniczego Europy.",
     "options": [
       "Tajga i tundra w Europie Północnej",
       "Aktywne wulkany i lodowce na Islandii",
@@ -237,13 +237,13 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale pojawiają się tajga, tundra, islandzkie wulkany i lodowce, Wołga oraz suche tereny podobne do półpustyń."
+    "explanation": "Pojawiają się tajga, tundra, islandzkie wulkany i lodowce, Wołga oraz suche tereny podobne do półpustyń."
   },
   {
     "id": "R03_KLI_01",
     "section": "Klimaty Europy",
     "type": "single_choice",
-    "prompt": "Czym w rozdziale jest klimat?",
+    "prompt": "Czym jest klimat?",
     "options": [
       "Jednorazowym stanem pogody w południe",
       "Zespołem cech pogody obserwowanych przez wiele lat na danym obszarze",
@@ -259,7 +259,7 @@ const ALL_EXERCISES = [
     "id": "R03_KLI_02",
     "section": "Klimaty Europy",
     "type": "match",
-    "prompt": "Połącz czynnik klimatotwórczy ze skutkiem opisanym w rozdziale.",
+    "prompt": "Połącz czynnik klimatotwórczy ze skutkiem.",
     "options": null,
     "left": [
       "szerokość geograficzna",
@@ -365,7 +365,7 @@ const ALL_EXERCISES = [
     "id": "R03_KLI_07",
     "section": "Klimaty Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki klimatotwórcze wymienione w rozdziale.",
+    "prompt": "Zaznacz czynniki klimatotwórcze.",
     "options": [
       "Szerokość geograficzna",
       "Prądy morskie",
@@ -474,7 +474,7 @@ const ALL_EXERCISES = [
     "id": "R03_ISL_01",
     "section": "Islandia - wyspa ognia",
     "type": "single_choice",
-    "prompt": "Czym jest litosfera według rozdziału?",
+    "prompt": "Czym jest litosfera?",
     "options": [
       "Warstwą chmur nad Europą",
       "Zewnętrzną powłoką Ziemi zbudowaną ze skał w stanie stałym",
@@ -509,7 +509,7 @@ const ALL_EXERCISES = [
         "eurazjatycka"
       ]
     ],
-    "explanation": "Mapa w rozdziale pokazuje Islandię na styku płyty północnoamerykańskiej i eurazjatyckiej."
+    "explanation": "Mapa pokazuje Islandię na styku płyty północnoamerykańskiej i eurazjatyckiej."
   },
   {
     "id": "R03_ISL_03",
@@ -558,7 +558,7 @@ const ALL_EXERCISES = [
     "id": "R03_ISL_06",
     "section": "Islandia - wyspa ognia",
     "type": "multi_select",
-    "prompt": "Zaznacz zastosowania wód geotermalnych na Islandii opisane w rozdziale.",
+    "prompt": "Zaznacz zastosowania wód geotermalnych na Islandii.",
     "options": [
       "Produkcja energii elektrycznej",
       "Ogrzewanie budynków",
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
     "id": "R03_ISL_08",
     "section": "Islandia - wyspa ognia",
     "type": "scenario",
-    "prompt": "W 2010 roku pyły i popioły z islandzkiej erupcji doprowadziły do kilkudniowego paraliżu ruchu lotniczego w Europie. Który wulkan podaje rozdział jako przykład?",
+    "prompt": "W 2010 roku pyły i popioły z islandzkiej erupcji doprowadziły do kilkudniowego paraliżu ruchu lotniczego w Europie. Który wulkan podaje się jako przykład?",
     "options": [
       "Eyjafjallajökull",
       "Etna",
@@ -615,7 +615,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_erupcja_eyjafjallajokull.jpg",
-    "explanation": "Rozdział opisuje erupcję wulkanu Eyjafjallajökull z 2010 roku, której pyły utrudniły komunikację lotniczą."
+    "explanation": "Opisuje się erupcję wulkanu Eyjafjallajökull z 2010 roku, której pyły utrudniły komunikację lotniczą."
   },
   {
     "id": "R03_ISL_09",
@@ -665,7 +665,7 @@ const ALL_EXERCISES = [
     "prompt": "Ruchy magmy wewnątrz Ziemi i przemieszczanie się płyt litosfery mogą wywoływać na Islandii trzęsienia ziemi.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale trzęsienia ziemi na Islandii są powiązane z ruchami magmy oraz z przemieszczaniem się płyt litosfery."
+    "explanation": "Trzęsienia ziemi na Islandii są powiązane z ruchami magmy oraz z przemieszczaniem się płyt litosfery."
   },
   {
     "id": "R03_ISL_12",
@@ -681,13 +681,13 @@ const ALL_EXERCISES = [
       "zmiana granicy Europy"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje wydarzenia z lat 2021-2024 koło Grindavik jako przykład zagrożeń związanych z aktywnymi wulkanami."
+    "explanation": "Podaje się wydarzenia z lat 2021-2024 koło Grindavik jako przykład zagrożeń związanych z aktywnymi wulkanami."
   },
   {
     "id": "R03_ENE_01",
     "section": "Energia w Europie",
     "type": "single_choice",
-    "prompt": "Które źródło energii miało pierwsze miejsce w bilansie energetycznym Europy opisanym w rozdziale?",
+    "prompt": "Które źródło energii miało pierwsze miejsce w bilansie energetycznym Europy?",
     "options": [
       "ropa naftowa",
       "energia słoneczna",
@@ -698,7 +698,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_zrodla_energii_europa.jpg",
-    "explanation": "W rozdziale na pierwszym miejscu w bilansie energetycznym Europy znajduje się energia ze spalania ropy naftowej."
+    "explanation": "Na pierwszym miejscu w bilansie energetycznym Europy znajduje się energia ze spalania ropy naftowej."
   },
   {
     "id": "R03_ENE_02",
@@ -721,7 +721,7 @@ const ALL_EXERCISES = [
     "id": "R03_ENE_03",
     "section": "Energia w Europie",
     "type": "multi_select",
-    "prompt": "Zaznacz odnawialne źródła energii wymienione w rozdziale.",
+    "prompt": "Zaznacz odnawialne źródła energii.",
     "options": [
       "energia wiatru",
       "energia słoneczna",
@@ -801,7 +801,7 @@ const ALL_EXERCISES = [
     "id": "R03_ENE_06",
     "section": "Energia w Europie",
     "type": "single_choice",
-    "prompt": "Który kraj rozdział wskazuje jako państwo o największym udziale elektrowni jądrowych w ogólnej produkcji energii?",
+    "prompt": "Który kraj wskazuje się jako państwo o największym udziale elektrowni jądrowych w ogólnej produkcji energii?",
     "options": [
       "Francja",
       "Islandia",
@@ -811,7 +811,7 @@ const ALL_EXERCISES = [
       "Norwegia"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje Francję jako kraj o największym udziale elektrowni jądrowych w ogólnej produkcji energii."
+    "explanation": "Podaje się Francję jako kraj o największym udziale elektrowni jądrowych w ogólnej produkcji energii."
   },
   {
     "id": "R03_ENE_07",
@@ -820,7 +820,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość krajów europejskich musi sprowadzać część surowców energetycznych, ponieważ własne zasoby są niewystarczające.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że zasoby ropy, gazu i pierwiastków promieniotwórczych w Europie nie wystarczają do zaspokojenia potrzeb."
+    "explanation": "Zasoby ropy, gazu i pierwiastków promieniotwórczych w Europie nie wystarczają do zaspokojenia potrzeb."
   },
   {
     "id": "R03_ENE_08",
@@ -840,7 +840,7 @@ const ALL_EXERCISES = [
     "id": "R03_ENE_09",
     "section": "Energia w Europie",
     "type": "scenario",
-    "prompt": "Kierowca tankuje samochód. Rozdział przypomina, że paliwa do silników spalinowych także są nośnikami energii. Z którym źródłem energii najbardziej wiąże się ten przykład?",
+    "prompt": "Kierowca tankuje samochód. Paliwa do silników spalinowych także są nośnikami energii. Z którym źródłem energii najbardziej wiąże się ten przykład?",
     "options": [
       "ropa naftowa",
       "energia geotermalna",
@@ -856,7 +856,7 @@ const ALL_EXERCISES = [
     "id": "R03_ENE_10",
     "section": "Energia w Europie",
     "type": "multi_select",
-    "prompt": "Zaznacz cele lub skutki transformacji energetycznej wymienione w rozdziale.",
+    "prompt": "Zaznacz cele lub skutki transformacji energetycznej.",
     "options": [
       "większe wykorzystanie OZE",
       "ograniczanie emisji gazów cieplarnianych",
@@ -887,7 +887,7 @@ const ALL_EXERCISES = [
     "id": "R03_ENE_12",
     "section": "Energia w Europie",
     "type": "match",
-    "prompt": "Połącz źródło energii z przykładowym zastosowaniem opisanym w rozdziale.",
+    "prompt": "Połącz źródło energii z przykładowym zastosowaniem.",
     "options": null,
     "left": [
       "ropa naftowa",
@@ -930,7 +930,7 @@ const ALL_EXERCISES = [
     "id": "R03_TUR_02",
     "section": "Turystyka śródziemnomorska",
     "type": "multi_select",
-    "prompt": "Zaznacz walory przyrodnicze regionu Morza Śródziemnego wymienione w rozdziale.",
+    "prompt": "Zaznacz walory przyrodnicze regionu Morza Śródziemnego.",
     "options": [
       "słoneczne, upalne lato",
       "tysiące kilometrów piaszczystych plaż",
@@ -967,13 +967,13 @@ const ALL_EXERCISES = [
         "gorące"
       ]
     ],
-    "explanation": "Rozdział wskazuje słoneczne, upalne lato oraz łagodną, deszczową zimę jako cechy sprzyjające turystyce i uprawom."
+    "explanation": "Wskazuje się słoneczne, upalne lato oraz łagodną, deszczową zimę jako cechy sprzyjające turystyce i uprawom."
   },
   {
     "id": "R03_TUR_04",
     "section": "Turystyka śródziemnomorska",
     "type": "match",
-    "prompt": "Połącz zabytek lub miejsce z miastem albo państwem podanym w rozdziale.",
+    "prompt": "Połącz zabytek lub miejsce z miastem albo państwem.",
     "options": null,
     "left": [
       "Akropol",
@@ -994,7 +994,7 @@ const ALL_EXERCISES = [
       "Bazylika św. Piotra": "Watykan"
     },
     "image": "r03_zabytki_morza_srodziemnego.jpg",
-    "explanation": "Rozdział wymienia Akropol w Atenach, Koloseum w Rzymie, Sagradę Familię w Barcelonie i Bazylikę św. Piotra w Watykanie."
+    "explanation": "Wymienia się Akropol w Atenach, Koloseum w Rzymie, Sagradę Familię w Barcelonie i Bazylikę św. Piotra w Watykanie."
   },
   {
     "id": "R03_TUR_05",
@@ -1003,7 +1003,7 @@ const ALL_EXERCISES = [
     "prompt": "W miesiącach letnich w basenie Morza Śródziemnego notuje się najwyższe sumy opadów.",
     "options": null,
     "answer": false,
-    "explanation": "W rozdziale podano, że latem występują tam niewielkie opady, a zima jest łagodna i deszczowa."
+    "explanation": "Latem występują tam niewielkie opady, a zima jest łagodna i deszczowa."
   },
   {
     "id": "R03_TUR_06",
@@ -1055,7 +1055,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_zabytki_morza_srodziemnego.jpg",
-    "explanation": "Bazylika św. Piotra znajduje się w Watykanie, który rozdział podaje jako przykład miejsca kultu religijnego."
+    "explanation": "Bazylika św. Piotra znajduje się w Watykanie, który podaje się jako przykład miejsca kultu religijnego."
   },
   {
     "id": "R03_TUR_08",
@@ -1105,7 +1105,7 @@ const ALL_EXERCISES = [
     "id": "R03_TUR_11",
     "section": "Turystyka śródziemnomorska",
     "type": "multi_select",
-    "prompt": "Zaznacz walory kulturowe regionu Morza Śródziemnego wymienione w rozdziale.",
+    "prompt": "Zaznacz walory kulturowe regionu Morza Śródziemnego.",
     "options": [
       "ślady kultur Grecji i Rzymu",
       "zabytki, np. Koloseum",
@@ -1127,7 +1127,7 @@ const ALL_EXERCISES = [
     "id": "R03_TUR_12",
     "section": "Turystyka śródziemnomorska",
     "type": "scenario",
-    "prompt": "Na greckiej wyspie Santoryn widać brak środkowej części wyspy, która zapadła się pod wodę po dawnej erupcji. Jak rozdział określa Santoryn?",
+    "prompt": "Na greckiej wyspie Santoryn widać brak środkowej części wyspy, która zapadła się pod wodę po dawnej erupcji. Jak określa się Santoryn?",
     "options": [
       "drzemiący wulkan",
       "największa wyspa Europy",
@@ -1191,13 +1191,13 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r03_mapa_hipsometryczna_europy.jpg",
-    "explanation": "Rozdział podaje długość wybrzeży bez wysp jako 38 tys. km i wskazuje, że półwyspy zajmują około jedną czwartą kontynentu."
+    "explanation": "Podaje się długość wybrzeży bez wysp jako 38 tys. km i wskazuje, że półwyspy zajmują około jedną czwartą kontynentu."
   },
   {
     "id": "R03_HARD_03",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Gdzie znajdują się najniżej położone tereny Europy według rozdziału?",
+    "prompt": "Gdzie znajdują się najniżej położone tereny Europy?",
     "options": [
       "na Nizinie Nadkaspijskiej",
       "w Alpach",
@@ -1213,7 +1213,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz poprawne pary kraju i warunków sprzyjających produkcji energii opisane w rozdziale.",
+    "prompt": "Zaznacz poprawne pary kraju i warunków sprzyjających produkcji energii.",
     "options": [
       "Szwecja - rzeki o dużym spadku",
       "Dania - silne wiatry i położenie nadmorskie",
@@ -1228,7 +1228,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział łączy hydroenergetykę ze Szwecją i Norwegią, wiatr z Danią, słońce z Hiszpanią i geotermię z Islandią."
+    "explanation": "Łączy się hydroenergetykę ze Szwecją i Norwegią, wiatr z Danią, słońce z Hiszpanią i geotermię z Islandią."
   },
   {
     "id": "R03_HARD_05",
@@ -1272,7 +1272,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do nazw wulkanów lub wysp wulkanicznych z rozdziału: Santoryn, Etna, Eyjafjallajökull, Sagrada Familia.",
+    "prompt": "Co nie pasuje do nazw wulkanów lub wysp wulkanicznych: Santoryn, Etna, Eyjafjallajökull, Sagrada Familia.",
     "options": null,
     "answer": "Sagrada Familia",
     "image": "r03_santoryn_wulkan.jpg",
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
     "prompt": "Węgiel kamienny dawniej stanowił główne źródło energii w Europie, ale obecnie jego wydobycie i udział w produkcji energii spadają.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje spadek znaczenia węgla, choć część krajów nadal posiada kopalnie i elektrownie węglowe."
+    "explanation": "Wskazuje się spadek znaczenia węgla, choć część krajów nadal posiada kopalnie i elektrownie węglowe."
   },
   {
     "id": "R03_HARD_10",
@@ -1340,7 +1340,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_11",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Kraj europejski chce ograniczyć zależność od importowanej ropy, gazu i paliwa do elektrowni jądrowych. Które działanie najlepiej pasuje do transformacji energetycznej opisanej w rozdziale?",
+    "prompt": "Kraj europejski chce ograniczyć zależność od importowanej ropy, gazu i paliwa do elektrowni jądrowych. Które działanie najlepiej pasuje do transformacji energetycznej?",
     "options": [
       "zwiększanie udziału odnawialnych źródeł energii",
       "rezygnacja z prądu elektrycznego",
@@ -1357,7 +1357,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz zagrożenia związane z erupcjami wulkanicznymi na Islandii wymienione w rozdziale.",
+    "prompt": "Zaznacz zagrożenia związane z erupcjami wulkanicznymi na Islandii.",
     "options": [
       "pyły i popioły zagrażające zdrowiu",
       "utrudnienia w komunikacji lotniczej",

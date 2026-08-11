@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R02_ZWS_01",
     "section": "Ziemia we Wszechświecie",
     "type": "single_choice",
-    "prompt": "Która teoria wyjaśnia w podręczniku powstanie Wszechświata?",
+    "prompt": "Która teoria wyjaśnia powstanie Wszechświata?",
     "options": [
       "teoria Wielkiego Wybuchu",
       "teoria pływów oceanicznych",
@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "teoria stref czasowych"
     ],
     "answer": 0,
-    "explanation": "Rozdział opisuje teorię Wielkiego Wybuchu: początkowo materia i energia były skupione w jednym punkcie, a około 13,8 miliarda lat temu nastąpił gwałtowny wybuch."
+    "explanation": "Opisuje się teorię Wielkiego Wybuchu: początkowo materia i energia były skupione w jednym punkcie, a około 13,8 miliarda lat temu nastąpił gwałtowny wybuch."
   },
   {
     "id": "R02_ZWS_02",
@@ -89,7 +89,7 @@ const ALL_EXERCISES = [
     "id": "R02_ZWS_05",
     "section": "Ziemia we Wszechświecie",
     "type": "match",
-    "prompt": "Połącz obiekt Układu Słonecznego z opisem podanym w rozdziale.",
+    "prompt": "Połącz obiekt Układu Słonecznego z opisem.",
     "options": null,
     "left": [
       "Merkury",
@@ -109,7 +109,7 @@ const ALL_EXERCISES = [
       "Saturn": "ma widoczne pierścienie ze skał i lodu",
       "Neptun": "planeta położona najdalej od Słońca"
     },
-    "explanation": "Podręcznik wyróżnia charakterystyczne cechy planet: Merkury jest najbliżej Słońca, Jowisz jest największy, Saturn ma pierścienie, a Neptun leży najdalej."
+    "explanation": "Wyróżnia się charakterystyczne cechy planet: Merkury jest najbliżej Słońca, Jowisz jest największy, Saturn ma pierścienie, a Neptun leży najdalej."
   },
   {
     "id": "R02_ZWS_06",
@@ -118,13 +118,13 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie planety Układu Słonecznego krążą wokół Słońca po orbitach w kształcie elipsy.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że planety krążą wokół Słońca po orbitach w kształcie elipsy."
+    "explanation": "Planety krążą wokół Słońca po orbitach w kształcie elipsy."
   },
   {
     "id": "R02_ZWS_07",
     "section": "Ziemia we Wszechświecie",
     "type": "sort",
-    "prompt": "Przyporządkuj planety do grupy opisanej w rozdziale.",
+    "prompt": "Przyporządkuj planety do grupy.",
     "options": null,
     "items": [
       "Merkury",
@@ -154,13 +154,13 @@ const ALL_EXERCISES = [
         "Neptun"
       ]
     },
-    "explanation": "Podsumowanie rozdziału dzieli osiem planet na cztery skaliste i cztery gazowe olbrzymy."
+    "explanation": "Dzieli się osiem planet na cztery skaliste i cztery gazowe olbrzymy."
   },
   {
     "id": "R02_ZWS_08",
     "section": "Ziemia we Wszechświecie",
     "type": "single_choice",
-    "prompt": "Ile trwa pełny cykl faz Księżyca według rozdziału?",
+    "prompt": "Ile trwa pełny cykl faz Księżyca?",
     "options": [
       "około 29,5 doby",
       "około 24 godziny",
@@ -256,13 +256,13 @@ const ALL_EXERCISES = [
     "prompt": "Ziemia obraca się z zachodu na wschód, czyli przeciwnie do ruchu wskazówek zegara.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że kierunek obrotu Ziemi to z zachodu na wschód, przeciwnie do ruchu wskazówek zegara."
+    "explanation": "Kierunek obrotu Ziemi to z zachodu na wschód, przeciwnie do ruchu wskazówek zegara."
   },
   {
     "id": "R02_ROB_04",
     "section": "Ruch obrotowy Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz następstwa ruchu obrotowego Ziemi wymienione w rozdziale.",
+    "prompt": "Zaznacz następstwa ruchu obrotowego Ziemi.",
     "options": [
       "następstwo dnia i nocy",
       "pozorna wędrówka Słońca nad horyzontem",
@@ -298,7 +298,7 @@ const ALL_EXERCISES = [
     "id": "R02_ROB_06",
     "section": "Ruch obrotowy Ziemi",
     "type": "match",
-    "prompt": "Połącz miejsce na Ziemi z prędkością liniową podaną w rozdziale.",
+    "prompt": "Połącz miejsce na Ziemi z prędkością liniową.",
     "options": null,
     "left": [
       "bieguny",
@@ -360,7 +360,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Rozdział pokazuje, że niskie Słońce daje długi cień, wysokie Słońce daje krótki cień, a największą wysokość Słońce osiąga podczas górowania.",
+    "explanation": "Niskie Słońce daje długi cień, wysokie Słońce daje krótki cień, a największą wysokość Słońce osiąga podczas górowania.",
     "image": "r02_wysokosc_slonca_cienie.jpg"
   },
   {
@@ -474,7 +474,7 @@ const ALL_EXERCISES = [
     "id": "R02_CZA_06",
     "section": "Czas na Ziemi",
     "type": "riddle",
-    "prompt": "Ile stref czasowych wyznaczono na świecie według rozdziału?",
+    "prompt": "Ile stref czasowych wyznaczono na świecie?",
     "options": null,
     "answer": "24",
     "altAnswers": [
@@ -488,7 +488,7 @@ const ALL_EXERCISES = [
     "id": "R02_CZA_07",
     "section": "Czas na Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz zdania prawdziwe o czasie urzędowym w Polsce według rozdziału.",
+    "prompt": "Zaznacz zdania prawdziwe o czasie urzędowym w Polsce.",
     "options": [
       "Granice stref czasowych dopasowano do granic państw i regionów",
       "W Polsce stosuje się czas letni i zimowy",
@@ -526,7 +526,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: czas słoneczny, czas strefowy, czas urzędowy, czas obiegowy.",
     "options": null,
     "answer": "czas obiegowy",
-    "explanation": "Czas słoneczny, strefowy i urzędowy to pojęcia z lekcji o czasie na Ziemi, a czas obiegowy nie jest w rozdziale takim rodzajem czasu."
+    "explanation": "Czas słoneczny, strefowy i urzędowy to pojęcia z lekcji o czasie na Ziemi, a czas obiegowy nie jest takim rodzajem czasu."
   },
   {
     "id": "R02_CZA_10",
@@ -563,7 +563,7 @@ const ALL_EXERCISES = [
       "Dzielimy 360 stopni przez 24",
       "Wniosek: w godzinę Ziemia obraca się o 15 stopni"
     ],
-    "explanation": "Podręcznik pokazuje zależność 360 stopni w 24 godziny, a po podzieleniu otrzymujemy 15 stopni w godzinę."
+    "explanation": "Pokazuje się zależność 360 stopni w 24 godziny, a po podzieleniu otrzymujemy 15 stopni w godzinę."
   },
   {
     "id": "R02_ROG_01",
@@ -608,7 +608,7 @@ const ALL_EXERCISES = [
     "prompt": "Ziemia obiega Słońce po orbicie w kształcie elipsy.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że ruch Ziemi wokół Słońca odbywa się po orbicie w kształcie elipsy."
+    "explanation": "Ruch Ziemi wokół Słońca odbywa się po orbicie w kształcie elipsy."
   },
   {
     "id": "R02_ROG_04",
@@ -751,7 +751,7 @@ const ALL_EXERCISES = [
     "prompt": "W szerokościach geograficznych Polski Słońce góruje najwyżej w czerwcu, a najniżej w grudniu.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że w szerokościach geograficznych Polski Słońce najwyżej góruje w czerwcu, a najniżej w grudniu."
+    "explanation": "W szerokościach geograficznych Polski Słońce najwyżej góruje w czerwcu, a najniżej w grudniu."
   },
   {
     "id": "R02_STO_01",
@@ -784,7 +784,7 @@ const ALL_EXERCISES = [
         "umiarkowana"
       ]
     ],
-    "explanation": "Rozdział wyróżnia jedną strefę międzyzwrotnikową, dwie umiarkowane i dwie podbiegunowe.",
+    "explanation": "Wyróżnia się jedną strefę międzyzwrotnikową, dwie umiarkowane i dwie podbiegunowe.",
     "image": "r02_strefy_oswietlenia_ziemi.jpg"
   },
   {
@@ -823,7 +823,7 @@ const ALL_EXERCISES = [
     "id": "R02_STO_05",
     "section": "Strefy oświetlenia Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy strefy międzyzwrotnikowej wymienione w rozdziale.",
+    "prompt": "Zaznacz cechy strefy międzyzwrotnikowej.",
     "options": [
       "dociera tu najwięcej energii słonecznej",
       "temperatura powietrza przez cały rok jest wysoka",
@@ -899,7 +899,7 @@ const ALL_EXERCISES = [
     "id": "R02_STO_10",
     "section": "Strefy oświetlenia Ziemi",
     "type": "single_choice",
-    "prompt": "Co jest podstawą wydzielenia stref klimatycznych według rozdziału?",
+    "prompt": "Co jest podstawą wydzielenia stref klimatycznych?",
     "options": [
       "rozkład średniej rocznej temperatury powietrza i rocznej sumy opadów",
       "liczba planet w Układzie Słonecznym",
@@ -909,7 +909,7 @@ const ALL_EXERCISES = [
       "położenie Gwiazdy Polarnej"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że rozkład średniej rocznej temperatury powietrza oraz rocznej sumy opadów stał się podstawą wydzielenia stref klimatycznych."
+    "explanation": "Rozkład średniej rocznej temperatury powietrza oraz rocznej sumy opadów stał się podstawą wydzielenia stref klimatycznych."
   },
   {
     "id": "R02_STO_11",
@@ -918,13 +918,13 @@ const ALL_EXERCISES = [
     "prompt": "Strefy klimatyczne i krajobrazowe mają przebieg równoleżnikowy, podobnie jak strefy oświetlenia Ziemi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że rozkład temperatury, stref klimatycznych i krajobrazowych ma przebieg równoleżnikowy wynikający ze zróżnicowania energii słonecznej."
+    "explanation": "Rozkład temperatury, stref klimatycznych i krajobrazowych ma przebieg równoleżnikowy wynikający ze zróżnicowania energii słonecznej."
   },
   {
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Około ile czasu temu według teorii Wielkiego Wybuchu nastąpił gwałtowny wybuch opisany w rozdziale?",
+    "prompt": "Około ile czasu temu według teorii Wielkiego Wybuchu nastąpił gwałtowny wybuch?",
     "options": [
       "13,8 miliarda lat temu",
       "6 miliardów lat temu",
@@ -934,13 +934,13 @@ const ALL_EXERCISES = [
       "15 miliardów lat temu"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że Wielki Wybuch nastąpił około 13,8 miliarda lat temu."
+    "explanation": "Wielki Wybuch nastąpił około 13,8 miliarda lat temu."
   },
   {
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Około ile czasu temu powstał Układ Słoneczny według rozdziału?",
+    "prompt": "Około ile czasu temu powstał Układ Słoneczny?",
     "options": [
       "około 6 miliardów lat temu",
       "około 13,8 miliarda lat temu",
@@ -950,7 +950,7 @@ const ALL_EXERCISES = [
       "około 24 godziny temu"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że Układ Słoneczny powstał z wirującego obłoku pyłów i gazów około 6 miliardów lat temu.",
+    "explanation": "Układ Słoneczny powstał z wirującego obłoku pyłów i gazów około 6 miliardów lat temu.",
     "image": "r02_uklad_sloneczny.jpg"
   },
   {
@@ -1025,7 +1025,7 @@ const ALL_EXERCISES = [
       "około 29,5 doby"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że gdyby w Polsce używano czasu słonecznego, różnica między skrajnym wschodem i zachodem kraju wynosiłaby prawie 40 minut."
+    "explanation": "Gdyby w Polsce używano czasu słonecznego, różnica między skrajnym wschodem i zachodem kraju wynosiłaby prawie 40 minut."
   },
   {
     "id": "R02_HARD_08",
@@ -1041,14 +1041,14 @@ const ALL_EXERCISES = [
       "zaczyna się rok przestępny"
     ],
     "answer": 0,
-    "explanation": "Mapa i opis linii zmiany daty w rozdziale podają, że przy przekraczaniu jej z zachodu na wschód zyskujemy jeden dzień.",
+    "explanation": "Mapa i opis linii zmiany daty podają, że przy przekraczaniu jej z zachodu na wschód zyskujemy jeden dzień.",
     "image": "r02_linia_zmiany_daty.jpg"
   },
   {
     "id": "R02_HARD_09",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Dokładny czas pełnego obiegu Ziemi wokół Słońca podany w rozdziale to 365 dni 5 godz. 48 min __________ s.",
+    "prompt": "Dokładny czas pełnego obiegu Ziemi wokół Słońca to 365 dni 5 godz. 48 min __________ s.",
     "options": null,
     "answer": [
       "46"
@@ -1060,13 +1060,13 @@ const ALL_EXERCISES = [
         "46 sekund"
       ]
     ],
-    "explanation": "Rozdział podaje dokładny czas pełnego obiegu Ziemi jako 365 dni 5 godz. 48 min 46 s."
+    "explanation": "Podaje się dokładny czas pełnego obiegu Ziemi jako 365 dni 5 godz. 48 min 46 s."
   },
   {
     "id": "R02_HARD_10",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Pod jakim stałym kątem do płaszczyzny orbity jest nachylona oś Ziemi według rozdziału?",
+    "prompt": "Pod jakim stałym kątem do płaszczyzny orbity jest nachylona oś Ziemi?",
     "options": [
       "66 stopni 34 minuty",
       "90 stopni",
@@ -1132,7 +1132,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: równikowa, zwrotnikowa, podzwrotnikowa, międzyzwrotnikowa.",
     "options": null,
     "answer": "międzyzwrotnikowa",
-    "explanation": "Równikowa, zwrotnikowa i podzwrotnikowa to strefy klimatyczne wymienione w rozdziale, a międzyzwrotnikowa to strefa oświetlenia Ziemi."
+    "explanation": "Równikowa, zwrotnikowa i podzwrotnikowa to strefy klimatyczne, a międzyzwrotnikowa to strefa oświetlenia Ziemi."
   },
   {
     "id": "R02_HARD_14",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
     "prompt": "Układ stref klimatycznych wpływa bezpośrednio na rozmieszczenie stref krajobrazowych.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że warunki klimatyczne decydują o świecie roślin i zwierząt, dlatego układ stref klimatycznych wpływa na rozmieszczenie stref krajobrazowych."
+    "explanation": "Warunki klimatyczne decydują o świecie roślin i zwierząt, dlatego układ stref klimatycznych wpływa na rozmieszczenie stref krajobrazowych."
   }
 ];
 

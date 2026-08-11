@@ -55,7 +55,7 @@ const ALL_EXERCISES = [
     "id": "R02_USL_03",
     "section": "Ziemia w Układzie Słonecznym",
     "type": "sort",
-    "prompt": "Przyporządkuj planety do dwóch grup opisanych w rozdziale.",
+    "prompt": "Przyporządkuj planety do dwóch grup.",
     "options": null,
     "items": [
       "Merkury",
@@ -92,10 +92,10 @@ const ALL_EXERCISES = [
     "id": "R02_USL_04",
     "section": "Ziemia w Układzie Słonecznym",
     "type": "true_false",
-    "prompt": "Pluton jest w rozdziale podany jako największa planeta karłowata Układu Słonecznego.",
+    "prompt": "Pluton jest podany jako największa planeta karłowata Układu Słonecznego.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale napisano, że Pluton jest największą spośród pięciu planet karłowatych."
+    "explanation": "Pluton jest największą spośród pięciu planet karłowatych."
   },
   {
     "id": "R02_USL_05",
@@ -132,7 +132,7 @@ const ALL_EXERCISES = [
     "id": "R02_USL_07",
     "section": "Ziemia w Układzie Słonecznym",
     "type": "multi_select",
-    "prompt": "Zaznacz ciała niebieskie wymienione w rozdziale jako obecne w Układzie Słonecznym poza planetami.",
+    "prompt": "Zaznacz ciała niebieskie jako obecne w Układzie Słonecznym poza planetami.",
     "options": [
       "planety karłowate",
       "księżyce",
@@ -221,17 +221,17 @@ const ALL_EXERCISES = [
     "id": "R02_USL_12",
     "section": "Ziemia w Układzie Słonecznym",
     "type": "true_false",
-    "prompt": "Według rozdziału Kometa Halleya przelatuje przez Układ Słoneczny średnio co 76 lat.",
+    "prompt": "Kometa Halleya przelatuje przez Układ Słoneczny średnio co 76 lat.",
     "options": null,
     "answer": true,
     "image": "r02_kometa_halleya.jpg",
-    "explanation": "W rozdziale podano, że Kometa Halleya przelatuje przez Układ Słoneczny średnio co 76 lat."
+    "explanation": "Kometa Halleya przelatuje przez Układ Słoneczny średnio co 76 lat."
   },
   {
     "id": "R02_USL_13",
     "section": "Ziemia w Układzie Słonecznym",
     "type": "match",
-    "prompt": "Połącz planetę z informacją podaną w rozdziale.",
+    "prompt": "Połącz planetę z informacją.",
     "options": null,
     "left": [
       "Merkury",
@@ -251,7 +251,7 @@ const ALL_EXERCISES = [
       "Ziemia": "ma atmosferę bogatą w tlen",
       "Mars": "ma dwa księżyce"
     },
-    "explanation": "Te informacje opisują cztery planety skaliste wymienione w rozdziale."
+    "explanation": "Te informacje opisują cztery planety skaliste."
   },
   {
     "id": "R02_USL_14",
@@ -286,7 +286,7 @@ const ALL_EXERCISES = [
       "Albert Einstein"
     ],
     "answer": 0,
-    "explanation": "W rozdziale wskazano Mikołaja Kopernika jako uczonego, który przyczynił się do zmiany przekonań o Układzie Słonecznym."
+    "explanation": "Wskazano Mikołaja Kopernika jako uczonego, który przyczynił się do zmiany przekonań o Układzie Słonecznym."
   },
   {
     "id": "R02_OBR_01",
@@ -341,7 +341,7 @@ const ALL_EXERCISES = [
     "id": "R02_OBR_04",
     "section": "Ruch obrotowy Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz następstwa ruchu obrotowego Ziemi wymienione w rozdziale.",
+    "prompt": "Zaznacz następstwa ruchu obrotowego Ziemi.",
     "options": [
       "występowanie dnia i nocy",
       "pozorny ruch Słońca i gwiazd po niebie",
@@ -472,7 +472,7 @@ const ALL_EXERCISES = [
     "id": "R02_OBR_12",
     "section": "Ruch obrotowy Ziemi",
     "type": "scenario",
-    "prompt": "Podróżujesz daleko na zachód. Co zgodnie z rozdziałem robisz ze wskazówkami zegarka?",
+    "prompt": "Podróżujesz daleko na zachód. Co robisz ze wskazówkami zegarka?",
     "options": [
       "cofasz je",
       "przesuwasz je do przodu",
@@ -521,7 +521,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "W rozdziale podano, że miejsca wschodu i zachodu oraz wysokość górowania Słońca zmieniają się w ciągu roku."
+    "explanation": "Miejsca wschodu i zachodu oraz wysokość górowania Słońca zmieniają się w ciągu roku."
   },
   {
     "id": "R02_OBR_15",
@@ -576,7 +576,7 @@ const ALL_EXERCISES = [
         "czterdzieści dziewięć"
       ]
     ],
-    "explanation": "W rozdziale podano, że przebycie całej drogi wokół Słońca zajmuje Ziemi 365 dni, 5 godzin i 49 minut."
+    "explanation": "Przebycie całej drogi wokół Słońca zajmuje Ziemi 365 dni, 5 godzin i 49 minut."
   },
   {
     "id": "R02_OBI_03",
@@ -591,7 +591,7 @@ const ALL_EXERCISES = [
     "id": "R02_OBI_04",
     "section": "Ruch obiegowy Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz następstwa ruchu obiegowego Ziemi wymienione w rozdziale.",
+    "prompt": "Zaznacz następstwa ruchu obiegowego Ziemi.",
     "options": [
       "zmiany oświetlenia kuli ziemskiej",
       "astronomiczne pory roku",
@@ -718,7 +718,7 @@ const ALL_EXERCISES = [
     "prompt": "Na obszarach innych niż równik zrównanie czasu trwania dnia i nocy następuje tylko dwa razy w roku.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że poza równikiem zrównanie dnia i nocy następuje 20 marca i 22 września."
+    "explanation": "Poza równikiem zrównanie dnia i nocy następuje 20 marca i 22 września."
   },
   {
     "id": "R02_OBI_12",
@@ -832,7 +832,7 @@ const ALL_EXERCISES = [
     "id": "R02_STO_03",
     "section": "Strefy oświetlenia Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz strefy oświetlenia Ziemi wymienione w rozdziale.",
+    "prompt": "Zaznacz strefy oświetlenia Ziemi.",
     "options": [
       "strefa międzyzwrotnikowa",
       "strefy umiarkowane",
@@ -900,7 +900,7 @@ const ALL_EXERCISES = [
     "id": "R02_STO_06",
     "section": "Strefy oświetlenia Ziemi",
     "type": "sort",
-    "prompt": "Przyporządkuj krajobrazy do stref oświetlenia wskazanych w tabeli rozdziału.",
+    "prompt": "Przyporządkuj krajobrazy do stref oświetlenia.",
     "options": null,
     "items": [
       "wilgotne lasy równikowe",
@@ -933,7 +933,7 @@ const ALL_EXERCISES = [
         "pustynie lodowe"
       ]
     },
-    "explanation": "Tabela w rozdziale łączy strefy oświetlenia ze strefami klimatycznymi i krajobrazowymi."
+    "explanation": "Łączy się strefy oświetlenia ze strefami klimatycznymi i krajobrazowymi."
   },
   {
     "id": "R02_STO_07",
@@ -983,7 +983,7 @@ const ALL_EXERCISES = [
     "prompt": "Zróżnicowanie oświetlenia Ziemi jest przyczyną występowania stref klimatycznych oraz stref krajobrazowych.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że ilość energii słonecznej wpływa na temperaturę, a to wiąże się ze strefami klimatycznymi i krajobrazowymi."
+    "explanation": "Ilość energii słonecznej wpływa na temperaturę, a to wiąże się ze strefami klimatycznymi i krajobrazowymi."
   },
   {
     "id": "R02_STO_11",
@@ -1009,7 +1009,7 @@ const ALL_EXERCISES = [
       "strefa klimatów umiarkowanych": "tajga",
       "strefa klimatów okołobiegunowych": "tundra"
     },
-    "explanation": "Tabela w rozdziale pokazuje przykładowe powiązania stref klimatycznych i krajobrazowych."
+    "explanation": "Pokazuje się przykładowe powiązania stref klimatycznych i krajobrazowych."
   },
   {
     "id": "R02_STO_12",
@@ -1125,7 +1125,7 @@ const ALL_EXERCISES = [
         "czterdziesci dziewiec"
       ]
     ],
-    "explanation": "Dokładny czas obiegu Ziemi podany w rozdziale to 365 dni, 5 godzin i 49 minut."
+    "explanation": "Dokładny czas obiegu Ziemi to 365 dni, 5 godzin i 49 minut."
   },
   {
     "id": "R02_HARD_03",
@@ -1140,7 +1140,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o planetach olbrzymach zgodne z rozdziałem.",
+    "prompt": "Zaznacz prawdziwe informacje o planetach olbrzymach.",
     "options": [
       "Jowisz jest największą planetą Układu Słonecznego",
       "Saturn ma widoczne pierścienie z brył lodu",
@@ -1155,13 +1155,13 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Jowisz, Saturn, Uran i Neptun są planetami olbrzymami; rozdział podaje ich cechy, między innymi pierścienie Saturna i dalekie położenie Neptuna."
+    "explanation": "Jowisz, Saturn, Uran i Neptun są planetami olbrzymami; podaje się ich cechy, między innymi pierścienie Saturna i dalekie położenie Neptuna."
   },
   {
     "id": "R02_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz planetę z czasem obiegu Słońca podanym w rozdziale.",
+    "prompt": "Połącz planetę z czasem obiegu Słońca.",
     "options": null,
     "left": [
       "Merkury",
@@ -1190,7 +1190,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Statek płynie z Los Angeles do Tokio i przekracza linię zmiany daty. Co zgodnie z rozdziałem dzieje się z datą dla pasażerów?",
+    "prompt": "Statek płynie z Los Angeles do Tokio i przekracza linię zmiany daty. Co dzieje się z datą dla pasażerów?",
     "options": [
       "tracą jeden dzień i zmieniają datę na dzień następny",
       "zyskują jeden dzień i cofają datę",
@@ -1209,7 +1209,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do dat początku astronomicznych pór roku: około 20 marca, około 21 czerwca, około 22 września, około 15 listopada.",
     "options": null,
     "answer": "około 15 listopada",
-    "explanation": "Rozdział podaje daty około 20 marca, 21 czerwca, 22 września i 21 grudnia, a nie 15 listopada."
+    "explanation": "Podaje się daty około 20 marca, 21 czerwca, 22 września i 21 grudnia, a nie 15 listopada."
   },
   {
     "id": "R02_HARD_08",
@@ -1225,7 +1225,7 @@ const ALL_EXERCISES = [
       "66 34",
       "66°34"
     ],
-    "explanation": "W rozdziale podano, że oś ziemska jest nachylona do płaszczyzny orbity pod stałym kątem 66°34′."
+    "explanation": "Oś ziemska jest nachylona do płaszczyzny orbity pod stałym kątem 66°34′."
   },
   {
     "id": "R02_HARD_09",

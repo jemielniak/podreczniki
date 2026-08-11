@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R01_UKL_01",
     "section": "Układ Słoneczny",
     "type": "single_choice",
-    "prompt": "Ile w przybliżeniu lat ma Wszechświat według rozdziału?",
+    "prompt": "Ile w przybliżeniu lat ma Wszechświat?",
     "options": [
       "13,8 mld lat",
       "4,6 mld lat",
@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "24 godziny"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że Wszechświat powstał około 13,8 mld lat temu, a jego narodziny nazywa się Wielkim Wybuchem.",
+    "explanation": "Wszechświat powstał około 13,8 mld lat temu, a jego narodziny nazywa się Wielkim Wybuchem.",
     "image": "r01_galaktyka_spiralna.jpg"
   },
   {
@@ -31,13 +31,13 @@ const ALL_EXERCISES = [
     "prompt": "Planety świecą własnym światłem tak jak gwiazdy.",
     "options": null,
     "answer": false,
-    "explanation": "Planety nie świecą własnym światłem. W rozdziale podano, że własne światło wytwarzają gwiazdy."
+    "explanation": "Planety nie świecą własnym światłem. Własne światło wytwarzają gwiazdy."
   },
   {
     "id": "R01_UKL_03",
     "section": "Układ Słoneczny",
     "type": "multi_select",
-    "prompt": "Zaznacz mniejsze ciała niebieskie wymienione w rozdziale jako obiekty Układu Słonecznego oprócz planet.",
+    "prompt": "Zaznacz mniejsze ciała niebieskie jako obiekty Układu Słonecznego oprócz planet.",
     "options": [
       "planety karłowate",
       "planetoidy",
@@ -75,13 +75,13 @@ const ALL_EXERCISES = [
         "Drogi Mlecznej"
       ]
     ],
-    "explanation": "Rozdział podaje wiek Układu Słonecznego na około 4,6 mld lat i wskazuje, że należy on do Drogi Mlecznej."
+    "explanation": "Podaje się wiek Układu Słonecznego na około 4,6 mld lat i wskazuje, że należy on do Drogi Mlecznej."
   },
   {
     "id": "R01_UKL_05",
     "section": "Układ Słoneczny",
     "type": "sort",
-    "prompt": "Przyporządkuj planety do dwóch grup wymienionych w rozdziale.",
+    "prompt": "Przyporządkuj planety do dwóch grup.",
     "options": null,
     "items": [
       "Merkury",
@@ -138,7 +138,7 @@ const ALL_EXERCISES = [
       "planeta": "ciało niebieskie często krążące wokół gwiazdy",
       "orbita": "tor ruchu ciała niebieskiego wokół innego ciała"
     },
-    "explanation": "Te definicje pochodzą z opisów Wszechświata, Układu Słonecznego i orbity w rozdziale.",
+    "explanation": "Te definicje pochodzą z opisów Wszechświata, Układu Słonecznego i orbity.",
     "image": "r01_galaktyka_spiralna.jpg"
   },
   {
@@ -204,7 +204,7 @@ const ALL_EXERCISES = [
     "id": "R01_UKL_11",
     "section": "Układ Słoneczny",
     "type": "single_choice",
-    "prompt": "Która planeta ma według rozdziału najwięcej księżyców w Układzie Słonecznym?",
+    "prompt": "Która planeta ma najwięcej księżyców w Układzie Słonecznym?",
     "options": [
       "Saturn",
       "Jowisz",
@@ -214,7 +214,7 @@ const ALL_EXERCISES = [
       "Ziemia"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że Saturn ma najwięcej księżyców w Układzie Słonecznym - 146."
+    "explanation": "Saturn ma najwięcej księżyców w Układzie Słonecznym - 146."
   },
   {
     "id": "R01_UKL_12",
@@ -240,7 +240,7 @@ const ALL_EXERCISES = [
       "meteoroidy": "małe odłamki skalne",
       "meteoryty": "fragmenty meteoroidów docierające do powierzchni Ziemi"
     },
-    "explanation": "Rozdział rozróżnia mniejsze ciała niebieskie: naturalne satelity, komety, meteoroidy i meteoryty.",
+    "explanation": "Rozróżnia się mniejsze ciała niebieskie: naturalne satelity, komety, meteoroidy i meteoryty.",
     "image": "r01_ciala_niebieskie_mniejsze.jpg"
   },
   {
@@ -290,7 +290,7 @@ const ALL_EXERCISES = [
         "poludniowego"
       ]
     ],
-    "explanation": "W rozdziale oś Ziemi opisano jako prostą linię prowadzącą przez środek Ziemi od bieguna północnego do bieguna południowego."
+    "explanation": "Oś Ziemi opisano jako prostą linię prowadzącą przez środek Ziemi od bieguna północnego do bieguna południowego."
   },
   {
     "id": "R01_OBR_04",
@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
       "zachód Słońca": "zniknięcie Słońca za horyzontem",
       "horyzont": "linia oddzielająca widoczną część nieba od niewidocznej"
     },
-    "explanation": "Rozdział wyjaśnia wschód, górowanie i zachód Słońca oraz definiuje horyzont.",
+    "explanation": "Wyjaśnia się wschód, górowanie i zachód Słońca oraz definiuje horyzont.",
     "image": "r01_pozorna_wedrowka_slonca.jpg"
   },
   {
@@ -339,7 +339,7 @@ const ALL_EXERCISES = [
     "id": "R01_OBR_06",
     "section": "Ruch obrotowy Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki ruchu obrotowego Ziemi opisane w rozdziale.",
+    "prompt": "Zaznacz skutki ruchu obrotowego Ziemi.",
     "options": [
       "występowanie dnia i nocy",
       "pozorna wędrówka Słońca po niebie",
@@ -400,14 +400,14 @@ const ALL_EXERCISES = [
     "prompt": "Im dalej na zachód położone jest miejsce na Ziemi, tym wcześniejsza jest tam godzina.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje zasadę: im dalej na zachód, tym wcześniejsza godzina, a im dalej na wschód, tym późniejsza.",
+    "explanation": "Podaje się zasadę: im dalej na zachód, tym wcześniejsza godzina, a im dalej na wschód, tym późniejsza.",
     "image": "r01_strefy_czasowe_mapa.jpg"
   },
   {
     "id": "R01_OBR_11",
     "section": "Ruch obrotowy Ziemi",
     "type": "sort",
-    "prompt": "Przyporządkuj miejsca do różnicy czasu względem Polski zgodnie z zasadą z rozdziału.",
+    "prompt": "Przyporządkuj miejsca do różnicy czasu względem Polski zgodnie z zasadą.",
     "options": null,
     "items": [
       "Lizbona",
@@ -497,7 +497,7 @@ const ALL_EXERCISES = [
         "49 minut"
       ]
     ],
-    "explanation": "Rozdział podaje dokładniejszy czas obiegu Ziemi wokół Słońca: 365 dni, 5 godzin i 49 minut."
+    "explanation": "Podaje się dokładniejszy czas obiegu Ziemi wokół Słońca: 365 dni, 5 godzin i 49 minut."
   },
   {
     "id": "R01_OBI_03",
@@ -512,7 +512,7 @@ const ALL_EXERCISES = [
     "id": "R01_OBI_04",
     "section": "Ruch obiegowy Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki ruchu obiegowego Ziemi wymienione w rozdziale.",
+    "prompt": "Zaznacz skutki ruchu obiegowego Ziemi.",
     "options": [
       "występowanie pór roku",
       "występowanie dnia polarnego i nocy polarnej",
@@ -605,7 +605,7 @@ const ALL_EXERCISES = [
     "id": "R01_OBI_08",
     "section": "Ruch obiegowy Ziemi",
     "type": "scenario",
-    "prompt": "W Polsce wypada najkrótszy dzień i najdłuższa noc w roku. Która data z rozdziału pasuje do tej sytuacji?",
+    "prompt": "W Polsce wypada najkrótszy dzień i najdłuższa noc w roku. Która data pasuje do tej sytuacji?",
     "options": [
       "około 22 grudnia",
       "około 22 czerwca",
@@ -684,7 +684,7 @@ const ALL_EXERCISES = [
       "przesilenie": "doba z najdłuższym albo najkrótszym dniem w roku",
       "równonoc": "doba z dniem i nocą tej samej długości"
     },
-    "explanation": "Rozdział definiuje dzień i noc polarną oraz wyjaśnia różnicę między przesileniem i równonocą."
+    "explanation": "Definiuje się dzień i noc polarną oraz wyjaśnia różnicę między przesileniem i równonocą."
   },
   {
     "id": "R01_STR_01",
@@ -718,7 +718,7 @@ const ALL_EXERCISES = [
         "powierzchnią Ziemi"
       ]
     ],
-    "explanation": "Rozdział definiuje kąt padania promieni słonecznych jako kąt między promieniami a powierzchnią Ziemi.",
+    "explanation": "Definiuje się kąt padania promieni słonecznych jako kąt między promieniami a powierzchnią Ziemi.",
     "image": "r01_kat_padania_promieni.jpg"
   },
   {
@@ -734,7 +734,7 @@ const ALL_EXERCISES = [
     "id": "R01_STR_04",
     "section": "Strefowość oświetlenia Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy strefy międzyzwrotnikowej podane w rozdziale.",
+    "prompt": "Zaznacz cechy strefy międzyzwrotnikowej.",
     "options": [
       "leży między zwrotnikiem Raka a zwrotnikiem Koziorożca",
       "Słońce może świecić w zenicie",
@@ -838,7 +838,7 @@ const ALL_EXERCISES = [
     "id": "R01_STR_08",
     "section": "Strefowość oświetlenia Ziemi",
     "type": "single_choice",
-    "prompt": "Na co wpływa ilość energii słonecznej docierającej do danego obszaru według rozdziału?",
+    "prompt": "Na co wpływa ilość energii słonecznej docierającej do danego obszaru?",
     "options": [
       "na klimat i w konsekwencji na krajobraz",
       "wyłącznie na nazwy kontynentów",
@@ -854,10 +854,10 @@ const ALL_EXERCISES = [
     "id": "R01_STR_09",
     "section": "Strefowość oświetlenia Ziemi",
     "type": "odd_one_out",
-    "prompt": "Co nie układa się w rozdziale równoleżnikowo i symetrycznie względem równika: strefy oświetlenia, strefy klimatyczne, strefy krajobrazowe, strefy czasowe.",
+    "prompt": "Co nie układa się równoleżnikowo i symetrycznie względem równika: strefy oświetlenia, strefy klimatyczne, strefy krajobrazowe, strefy czasowe.",
     "options": null,
     "answer": "strefy czasowe",
-    "explanation": "Rozdział wskazuje podobieństwa w równoleżnikowym układzie stref oświetlenia, klimatycznych i krajobrazowych, a nie stref czasowych."
+    "explanation": "Wskazuje się podobieństwa w równoleżnikowym układzie stref oświetlenia, klimatycznych i krajobrazowych, a nie stref czasowych."
   },
   {
     "id": "R01_STR_10",
@@ -875,7 +875,7 @@ const ALL_EXERCISES = [
     "id": "R01_STR_11",
     "section": "Strefowość oświetlenia Ziemi",
     "type": "scenario",
-    "prompt": "Badacz porównuje dwa miejsca. W pierwszym promienie słoneczne padają pod dużym kątem, w drugim pod małym. Gdzie według rozdziału będzie cieplej?",
+    "prompt": "Badacz porównuje dwa miejsca. W pierwszym promienie słoneczne padają pod dużym kątem, w drugim pod małym. Gdzie będzie cieplej?",
     "options": [
       "w miejscu z dużym kątem padania promieni",
       "w miejscu z małym kątem padania promieni",
@@ -921,7 +921,7 @@ const ALL_EXERCISES = [
     "prompt": "Droga Mleczna jest jedyną galaktyką we Wszechświecie.",
     "options": null,
     "answer": false,
-    "explanation": "Rozdział podaje, że Droga Mleczna jest tylko jedną z miliardów galaktyk."
+    "explanation": "Droga Mleczna jest tylko jedną z miliardów galaktyk."
   },
   {
     "id": "R01_KOS_03",
@@ -940,7 +940,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOS_04",
     "section": "Poznawanie kosmosu",
     "type": "single_choice",
-    "prompt": "Ile gwiazdozbiorów wyróżnia się według rozdziału?",
+    "prompt": "Ile gwiazdozbiorów wyróżnia się?",
     "options": [
       "88",
       "24",
@@ -956,7 +956,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOS_05",
     "section": "Poznawanie kosmosu",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady, od których według rozdziału nadawano nazwy gwiazdozbiorom.",
+    "prompt": "Zaznacz przykłady, od których nadawano nazwy gwiazdozbiorom.",
     "options": [
       "zwierzęta",
       "mityczne stworzenia",
@@ -1018,7 +1018,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOS_08",
     "section": "Poznawanie kosmosu",
     "type": "match",
-    "prompt": "Połącz nazwę z informacją z rozdziału.",
+    "prompt": "Połącz nazwę z informacją.",
     "options": null,
     "left": [
       "Jurij Gagarin",
@@ -1038,7 +1038,7 @@ const ALL_EXERCISES = [
       "Wostok 1": "statek, którym odbyto lot na orbitę okołoziemską w 1961 roku",
       "Apollo 11": "misja, podczas której człowiek stanął na Księżycu w 1969 roku"
     },
-    "explanation": "Rozdział opisuje lot Jurija Gagarina statkiem Wostok 1 oraz misję Apollo 11, podczas której Neil Armstrong stanął na Księżycu.",
+    "explanation": "Opisuje się lot Jurija Gagarina statkiem Wostok 1 oraz misję Apollo 11, podczas której Neil Armstrong stanął na Księżycu.",
     "image": "r01_teleskop_kosmiczny.jpg"
   },
   {
@@ -1065,7 +1065,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOS_10",
     "section": "Poznawanie kosmosu",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do sposobu poznawania nieba opisanego w rozdziale.",
+    "prompt": "Przyporządkuj elementy do sposobu poznawania nieba.",
     "options": null,
     "items": [
       "fragment Drogi Mlecznej nocą",
@@ -1106,14 +1106,14 @@ const ALL_EXERCISES = [
     "prompt": "Na opublikowanym w 2019 roku pierwszym zdjęciu czarnej dziury widoczna jest sama czarna dziura.",
     "options": null,
     "answer": false,
-    "explanation": "Rozdział wyjaśnia, że samej czarnej dziury nie można zobaczyć; na zdjęciu widać to, co jest przez nią wsysane.",
+    "explanation": "Samej czarnej dziury nie można zobaczyć; na zdjęciu widać to, co jest przez nią wsysane.",
     "image": "r01_czarna_dziura_artystycznie.jpg"
   },
   {
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która odpowiedź najdokładniej podaje czas pełnego obiegu Ziemi wokół Słońca z rozdziału?",
+    "prompt": "Która odpowiedź najdokładniej podaje czas pełnego obiegu Ziemi wokół Słońca?",
     "options": [
       "365 dni, 5 godzin i 49 minut",
       "365 dni dokładnie",
@@ -1123,13 +1123,13 @@ const ALL_EXERCISES = [
       "165 lat"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że pełne okrążenie Słońca przez Ziemię trwa rok, a dokładniej 365 dni, 5 godzin i 49 minut."
+    "explanation": "Pełne okrążenie Słońca przez Ziemię trwa rok, a dokładniej 365 dni, 5 godzin i 49 minut."
   },
   {
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy gazowych olbrzymów podane w rozdziale.",
+    "prompt": "Zaznacz cechy gazowych olbrzymów.",
     "options": [
       "składają się głównie z gazów",
       "nie mają stałej powierzchni",
@@ -1150,7 +1150,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Według rozdziału Saturn ma 146 księżyców, a Jowisz 95 księżyców.",
+    "prompt": "Saturn ma 146 księżyców, a Jowisz 95 księżyców.",
     "options": null,
     "answer": true,
     "explanation": "W opisach planet podano, że Saturn ma 146 księżyców, a Jowisz 95."
@@ -1175,13 +1175,13 @@ const ALL_EXERCISES = [
         "165 lat"
       ]
     ],
-    "explanation": "Rozdział porównuje czas obiegu planet: Merkuremu wystarczy 88 dni, Ziemi około 365 dni, a Neptunowi 165 lat."
+    "explanation": "Porównuje się czas obiegu planet: Merkuremu wystarczy 88 dni, Ziemi około 365 dni, a Neptunowi 165 lat."
   },
   {
     "id": "R01_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz planetę z charakterystyczną liczbą lub cechą z rozdziału.",
+    "prompt": "Połącz planetę z charakterystyczną liczbą lub cechą.",
     "options": null,
     "left": [
       "Wenus",
@@ -1201,7 +1201,7 @@ const ALL_EXERCISES = [
       "Neptun": "wiatry osiągające nawet 2100 km/h",
       "Merkury": "nocą średnio -163°C"
     },
-    "explanation": "Opisy planet w rozdziale zawierają charakterystyczne wartości: Wenus jest bardzo gorąca, Uran najzimniejszy, Neptun ma najsilniejsze wiatry, a Merkury ma bardzo niską nocną temperaturę."
+    "explanation": "Opisy planet zawierają charakterystyczne wartości: Wenus jest bardzo gorąca, Uran najzimniejszy, Neptun ma najsilniejsze wiatry, a Merkury ma bardzo niską nocną temperaturę."
   },
   {
     "id": "R01_HARD_06",
@@ -1266,7 +1266,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_09",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Podróżnik leci z Polski do kraju położonego daleko na wschód. Jaką ogólną zmianę czasu powinien przewidzieć według zasady z rozdziału?",
+    "prompt": "Podróżnik leci z Polski do kraju położonego daleko na wschód. Jaką ogólną zmianę czasu powinien przewidzieć według zasady?",
     "options": [
       "będzie tam późniejsza godzina",
       "będzie tam wcześniejsza godzina",
@@ -1276,7 +1276,7 @@ const ALL_EXERCISES = [
       "nastąpi dzień polarny"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że im dalej na wschód, tym późniejsza godzina.",
+    "explanation": "Im dalej na wschód, tym późniejsza godzina.",
     "image": "r01_strefy_czasowe_mapa.jpg"
   },
   {
@@ -1289,14 +1289,14 @@ const ALL_EXERCISES = [
     "altAnswers": [
       "gnomon"
     ],
-    "explanation": "W doświadczeniu z rozdziału prosty patyk wbity pionowo w ziemię staje się gnomonem, czyli przyrządem do obserwacji cienia.",
+    "explanation": "W doświadczeniu prosty patyk wbity pionowo w ziemię staje się gnomonem, czyli przyrządem do obserwacji cienia.",
     "image": "r01_gnomon_cien.jpg"
   },
   {
     "id": "R01_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz zjawisko z datą podaną w rozdziale.",
+    "prompt": "Połącz zjawisko z datą.",
     "options": null,
     "left": [
       "równonoc wiosenna",
@@ -1316,13 +1316,13 @@ const ALL_EXERCISES = [
       "równonoc jesienna": "około 23 września",
       "przesilenie zimowe": "około 22 grudnia"
     },
-    "explanation": "Daty początków astronomicznych pór roku w rozdziale to około 21 marca, 22 czerwca, 23 września i 22 grudnia."
+    "explanation": "Daty początków astronomicznych pór roku to około 21 marca, 22 czerwca, 23 września i 22 grudnia."
   },
   {
     "id": "R01_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o gwiazdozbiorach i gwiazdach zgodne z rozdziałem.",
+    "prompt": "Zaznacz prawdziwe informacje o gwiazdozbiorach i gwiazdach.",
     "options": [
       "Wyróżnia się 88 gwiazdozbiorów",
       "Gwiazda Polarna należy do Małej Niedźwiedzicy",
@@ -1337,7 +1337,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział podaje liczbę 88 gwiazdozbiorów, opisuje Gwiazdę Polarną w Małej Niedźwiedzicy oraz wskazuje, że Wielki Wóz jest częścią Wielkiej Niedźwiedzicy."
+    "explanation": "Podaje się liczbę 88 gwiazdozbiorów, opisuje Gwiazdę Polarną w Małej Niedźwiedzicy oraz wskazuje, że Wielki Wóz jest częścią Wielkiej Niedźwiedzicy."
   }
 ];
 

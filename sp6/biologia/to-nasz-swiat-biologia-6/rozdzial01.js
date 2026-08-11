@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R01_SWI_01",
     "section": "Świat zwierząt",
     "type": "single_choice",
-    "prompt": "W jakich środowiskach, według rozdziału, występują zwierzęta?",
+    "prompt": "W jakich środowiskach występują zwierzęta?",
     "options": [
       "Tylko w wodzie i na lądzie",
       "W wodzie, na lądzie, w powietrzu i wewnątrz innych organizmów",
@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Dorosłe koralowce prowadzą osiadły tryb życia.",
     "options": null,
     "answer": true,
-    "explanation": "Osiadły tryb życia oznacza, że dorosłe osobniki spędzają życie w jednym miejscu, przytwierdzone do podłoża; rozdział podaje jako przykład koralowce."
+    "explanation": "Osiadły tryb życia oznacza, że dorosłe osobniki spędzają życie w jednym miejscu, przytwierdzone do podłoża; podaje się jako przykład koralowce."
   },
   {
     "id": "R01_SWI_03",
@@ -91,7 +91,7 @@ const ALL_EXERCISES = [
     "id": "R01_SWI_06",
     "section": "Świat zwierząt",
     "type": "match",
-    "prompt": "Połącz rodzaj cudzożywności z przykładem z rozdziału.",
+    "prompt": "Połącz rodzaj cudzożywności z przykładem.",
     "options": null,
     "left": [
       "padlinożerca",
@@ -115,7 +115,7 @@ const ALL_EXERCISES = [
       "saprobiont": "dżdżownica"
     },
     "image": "/img/r01_rodzaje_cudzozywnosci.jpg",
-    "explanation": "Rozdział pokazuje m.in. sępa jako padlinożercę, pszczołę miodną jako roślinożercę, srokę jako wszystkożercę, kleszcza jako pasożyta i dżdżownicę jako saprobionta."
+    "explanation": "Pokazuje się m.in. sępa jako padlinożercę, pszczołę miodną jako roślinożercę, srokę jako wszystkożercę, kleszcza jako pasożyta i dżdżownicę jako saprobionta."
   },
   {
     "id": "R01_SWI_07",
@@ -156,7 +156,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r01_rodzaje_cudzozywnosci.jpg",
-    "explanation": "Przykłady odpowiadają zestawieniu rodzajów cudzożywności w rozdziale."
+    "explanation": "Przykłady odpowiadają zestawieniu rodzajów cudzożywności."
   },
   {
     "id": "R01_SWI_08",
@@ -224,7 +224,7 @@ const ALL_EXERCISES = [
       "układ narządów",
       "organizm"
     ],
-    "explanation": "Hierarchia pokazana w rozdziale prowadzi od komórki zwierzęcej do całego organizmu."
+    "explanation": "Hierarchia prowadzi od komórki zwierzęcej do całego organizmu."
   },
   {
     "id": "R01_POD_01",
@@ -326,7 +326,7 @@ const ALL_EXERCISES = [
       "kręgowe": "mają sztywny szkielet wewnętrzny"
     },
     "image": "/img/r01_podzial_krolestwa_zwierzat.jpg",
-    "explanation": "Opis rozdziału rozróżnia zwierzęta beztkankowe, tkankowe, bezkręgowe i kręgowe."
+    "explanation": "Rozróżnia się zwierzęta beztkankowe, tkankowe, bezkręgowe i kręgowe."
   },
   {
     "id": "R01_POD_06",
@@ -369,7 +369,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r01_podzial_krolestwa_zwierzat.jpg",
-    "explanation": "W rozdziale bezkręgowce i kręgowce są dwiema głównymi grupami zwierząt tkankowych."
+    "explanation": "Bezkręgowce i kręgowce są dwiema głównymi grupami zwierząt tkankowych."
   },
   {
     "id": "R01_POD_07",
@@ -407,7 +407,7 @@ const ALL_EXERCISES = [
       "Nadecznik stawowy"
     ],
     "image": "/img/r01_gabka_budowa.jpg",
-    "explanation": "Rozdział podaje nadecznika stawowego jako przykład gąbki słodkowodnej występującej w Polsce."
+    "explanation": "Podaje się nadecznika stawowego jako przykład gąbki słodkowodnej występującej w Polsce."
   },
   {
     "id": "R01_POD_10",
@@ -417,13 +417,13 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_podzial_krolestwa_zwierzat.jpg",
-    "explanation": "Te grupy są w rozdziale wymienione po stronie bezkręgowców."
+    "explanation": "Te grupy są wymienione po stronie bezkręgowców."
   },
   {
     "id": "R01_POD_11",
     "section": "Podział zwierząt",
     "type": "single_choice",
-    "prompt": "Do której grupy kręgowców należy niedźwiedź brunatny pokazany w rozdziale?",
+    "prompt": "Do której grupy kręgowców należy niedźwiedź brunatny?",
     "options": [
       "ryby",
       "płazy",
@@ -562,7 +562,7 @@ const ALL_EXERCISES = [
       "walcowaty": "wydłużone komórki przypominające walec"
     },
     "image": "/img/r01_nablonki_rodzaje.jpg",
-    "explanation": "W rozdziale wyróżniono nabłonki płaskie, sześcienne i walcowate według kształtu komórek."
+    "explanation": "Wyróżniono nabłonki płaskie, sześcienne i walcowate według kształtu komórek."
   },
   {
     "id": "R01_NIM_07",
@@ -676,7 +676,7 @@ const ALL_EXERCISES = [
     "id": "R01_LNE_02",
     "section": "Tkanka łączna i nerwowa",
     "type": "multi_select",
-    "prompt": "Zaznacz rodzaje tkanki łącznej wymienione w rozdziale.",
+    "prompt": "Zaznacz rodzaje tkanki łącznej.",
     "options": [
       "chrzęstna",
       "kostna",
@@ -945,7 +945,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość zwierząt to organizmy tkankowe.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla, że większość zwierząt ma tkanki, a wśród nich wyróżnia się bezkręgowce i kręgowce."
+    "explanation": "Większość zwierząt ma tkanki, a wśród nich wyróżnia się bezkręgowce i kręgowce."
   },
   {
     "id": "R01_MIE_05",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
         "bialek kurczliwych"
       ]
     ],
-    "explanation": "W rozdziale prążki opisano jako wynik regularnego ułożenia białek kurczliwych."
+    "explanation": "Prążki opisano jako wynik regularnego ułożenia białek kurczliwych."
   },
   {
     "id": "R01_HARD_04",
@@ -1276,7 +1276,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz pary tkanka — miejsce występowania zgodne z rozdziałem.",
+    "prompt": "Zaznacz poprawne pary tkanka — miejsce występowania.",
     "options": [
       "nabłonkowa — wierzchnia warstwa skóry",
       "mięśniowa gładka — ściany naczyń krwionośnych i przewodu pokarmowego",

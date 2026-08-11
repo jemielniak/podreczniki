@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "prompt": "Głównym zajęciem plemion słowiańskich zamieszkujących ziemie polskie było rolnictwo.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje rolnictwo jako główne zajęcie ówczesnych plemion słowiańskich."
+    "explanation": "Wskazuje się rolnictwo jako główne zajęcie ówczesnych plemion słowiańskich."
   },
   {
     "id": "R06_NAR_04",
@@ -125,7 +125,7 @@ const ALL_EXERCISES = [
       "Siemomysł",
       "Mieszko I"
     ],
-    "explanation": "Podręcznik podaje kolejność: Piast, Siemowit, Leszek, Siemomysł, Mieszko I."
+    "explanation": "Podaje się kolejność: Piast, Siemowit, Leszek, Siemomysł, Mieszko I."
   },
   {
     "id": "R06_NAR_08",
@@ -242,7 +242,7 @@ const ALL_EXERCISES = [
     "prompt": "Biskup Wojciech został wygnany z czeskiej Pragi, a następnie wyruszył z misją do Prusów.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że Wojciech, wygnany z Pragi, udał się z misją chrystianizacyjną do pogańskich Prusów."
+    "explanation": "Wojciech, wygnany z Pragi, udał się z misją chrystianizacyjną do pogańskich Prusów."
   },
   {
     "id": "R06_CHR_03",
@@ -305,7 +305,7 @@ const ALL_EXERCISES = [
     "id": "R06_CHR_06",
     "section": "Panowanie Bolesława Chrobrego",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki śmierci biskupa Wojciecha opisane w podręczniku.",
+    "prompt": "Zaznacz skutki śmierci biskupa Wojciecha.",
     "options": [
       "Wojciech został ogłoszony świętym męczennikiem",
       "Wojciech został uznany za patrona Polski",
@@ -460,7 +460,7 @@ const ALL_EXERCISES = [
     "prompt": "Mieszko II koronował się na króla w 1025 roku, czyli w tym samym roku, w którym zmarł Bolesław Chrobry.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że Mieszko II objął rządy po śmierci Chrobrego i jeszcze w 1025 roku koronował się na króla."
+    "explanation": "Mieszko II objął rządy po śmierci Chrobrego i jeszcze w 1025 roku koronował się na króla."
   },
   {
     "id": "R06_ODB_03",
@@ -617,7 +617,7 @@ const ALL_EXERCISES = [
     "id": "R06_ODB_12",
     "section": "Upadek i odbudowa państwa Piastów",
     "type": "sort",
-    "prompt": "Przyporządkuj postacie do etapu dziejów, z którym są najmocniej związane w podręczniku.",
+    "prompt": "Przyporządkuj postacie do etapu dziejów, z którym są najmocniej związane.",
     "options": null,
     "items": [
       "Mieszko II",
@@ -689,7 +689,7 @@ const ALL_EXERCISES = [
     "prompt": "Zbigniew prowadził ostrożną politykę i podporządkował się cesarzowi, a młodszy Bolesław działał bardziej samodzielnie i wojowniczo.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyraźnie przeciwstawia ostrożną politykę Zbigniewa samodzielniejszym i wojowniczym działaniom Bolesława Krzywoustego."
+    "explanation": "Przeciwstawia się ostrożną politykę Zbigniewa samodzielniejszym i wojowniczym działaniom Bolesława Krzywoustego."
   },
   {
     "id": "R06_KRZ_04",
@@ -744,7 +744,7 @@ const ALL_EXERCISES = [
         "Bolesława Krzywoustego"
       ]
     ],
-    "explanation": "Podręcznik podaje, że w 1122 roku całe Pomorze znalazło się pod władzą Bolesława Krzywoustego."
+    "explanation": "W 1122 roku całe Pomorze znalazło się pod władzą Bolesława Krzywoustego."
   },
   {
     "id": "R06_KRZ_07",
@@ -865,7 +865,7 @@ const ALL_EXERCISES = [
     "id": "R06_SPO_02",
     "section": "Społeczeństwo pierwszych Piastów",
     "type": "multi_select",
-    "prompt": "Zaznacz zajęcia lub uprawy ludności wiejskiej wymienione w podręczniku.",
+    "prompt": "Zaznacz zajęcia lub uprawy ludności wiejskiej.",
     "options": [
       "Uprawa prosa",
       "Uprawa jęczmienia i żyta",
@@ -889,7 +889,7 @@ const ALL_EXERCISES = [
     "prompt": "W X wieku w państwie piastowskim żyło około miliona ludzi, a dużą część kraju pokrywały puszcze.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że w X wieku państwo piastowskie liczyło około miliona mieszkańców, a niemal całą powierzchnię kraju pokrywały puszcze."
+    "explanation": "W X wieku państwo piastowskie liczyło około miliona mieszkańców, a niemal całą powierzchnię kraju pokrywały puszcze."
   },
   {
     "id": "R06_SPO_04",
@@ -1106,7 +1106,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz autora lub źródło z informacją, którą podręcznik z nim wiąże.",
+    "prompt": "Połącz autora lub źródło z informacją, która go dotyczy.",
     "options": null,
     "left": [
       "Thietmar",
@@ -1126,7 +1126,7 @@ const ALL_EXERCISES = [
       "Wincenty Kadłubek": "opis gestu Ottona wobec Bolesława",
       "Drzwi Gnieźnieńskie": "sceny z życia św. Wojciecha"
     },
-    "explanation": "Podręcznik przywołuje kilku kronikarzy i źródła, aby opisać początki państwa Piastów oraz późniejszą pamięć o tych wydarzeniach."
+    "explanation": "Przywołuje się kilku kronikarzy i źródła, aby opisać początki państwa Piastów oraz późniejszą pamięć o tych wydarzeniach."
   },
   {
     "id": "R06_HARD_04",
@@ -1150,7 +1150,7 @@ const ALL_EXERCISES = [
       "Najazd Henryka V",
       "Śmierć Bolesława Krzywoustego"
     ],
-    "explanation": "Daty z rozdziału układają się od chrztu Mieszka I w 966 roku do śmierci Bolesława Krzywoustego i początku rozbicia dzielnicowego w 1138 roku."
+    "explanation": "Daty układają się od chrztu Mieszka I w 966 roku do śmierci Bolesława Krzywoustego i początku rozbicia dzielnicowego w 1138 roku."
   },
   {
     "id": "R06_HARD_05",
@@ -1196,7 +1196,7 @@ const ALL_EXERCISES = [
     "prompt": "Bolesław Śmiały doprowadził do ustanowienia nowego biskupstwa w Płocku.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że Bolesław Śmiały troszczył się o Kościół i doprowadził do ustanowienia biskupstwa w Płocku."
+    "explanation": "Bolesław Śmiały troszczył się o Kościół i doprowadził do ustanowienia biskupstwa w Płocku."
   },
   {
     "id": "R06_HARD_08",
@@ -1245,7 +1245,7 @@ const ALL_EXERCISES = [
         "cudzoziemski duchowny"
       ]
     ],
-    "explanation": "Podręcznik wyjaśnia, że Gall Anonim był cudzoziemskim duchownym przebywającym na dworze Bolesława Krzywoustego."
+    "explanation": "Gall Anonim był cudzoziemskim duchownym przebywającym na dworze Bolesława Krzywoustego."
   }
 ];
 

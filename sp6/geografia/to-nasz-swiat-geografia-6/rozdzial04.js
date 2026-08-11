@@ -54,7 +54,7 @@ const ALL_EXERCISES = [
     "id": "R04_ISL_03",
     "section": "Wulkany i trzęsienia ziemi na Islandii",
     "type": "multi_select",
-    "prompt": "Zaznacz typy ruchu płyt litosfery opisane w rozdziale.",
+    "prompt": "Zaznacz typy ruchu płyt litosfery.",
     "image": "r04_ruchy_plyt_litosfery.jpg",
     "options": [
       "rozsuwanie się",
@@ -78,13 +78,13 @@ const ALL_EXERCISES = [
     "prompt": "Litosfera składa się z fragmentów różnej wielkości nazywanych płytami litosfery lub płytami tektonicznymi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że litosfera nie jest jednolita, lecz składa się z płyt litosfery."
+    "explanation": "Litosfera nie jest jednolita, lecz składa się z płyt litosfery."
   },
   {
     "id": "R04_ISL_05",
     "section": "Wulkany i trzęsienia ziemi na Islandii",
     "type": "scenario",
-    "prompt": "Po wybuchu wulkanu w powietrzu unosi się dużo pyłu. Który skutek opisany w rozdziale może wystąpić nawet poza najbliższą okolicą wulkanu?",
+    "prompt": "Po wybuchu wulkanu w powietrzu unosi się dużo pyłu. Który skutek może wystąpić nawet poza najbliższą okolicą wulkanu?",
     "image": "r04_erupcja_wulkanu.jpg",
     "options": [
       "Utrudnienia w ruchu lotniczym",
@@ -209,7 +209,7 @@ const ALL_EXERCISES = [
       "Brak opadów przez cały rok"
     ],
     "answer": 0,
-    "explanation": "Rozdział podkreśla, że gleby wulkaniczne są bardzo żyzne, dlatego mogą sprzyjać rolnictwu."
+    "explanation": "Gleby wulkaniczne są bardzo żyzne, dlatego mogą sprzyjać rolnictwu."
   },
   {
     "id": "R04_ISL_12",
@@ -218,7 +218,7 @@ const ALL_EXERCISES = [
     "prompt": "Trzęsienia ziemi mogą występować także podczas erupcji wulkanicznych.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale zapisano, że trzęsienia ziemi występują także podczas erupcji wulkanicznych."
+    "explanation": "Trzęsienia ziemi występują także podczas erupcji wulkanicznych."
   },
   {
     "id": "R04_ISL_13",
@@ -265,13 +265,13 @@ const ALL_EXERCISES = [
     "prompt": "Francja leży w zachodniej Europie i należy do Unii Europejskiej oraz NATO.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że Francja jest państwem zachodniej Europy oraz członkiem Unii Europejskiej i NATO."
+    "explanation": "Francja jest państwem zachodniej Europy oraz członkiem Unii Europejskiej i NATO."
   },
   {
     "id": "R04_FRA_03",
     "section": "Nowoczesna gospodarka Francji",
     "type": "fill_in",
-    "prompt": "Najwyższy szczyt Europy według rozdziału to __________, leżący przy granicy Francji z Włochami.",
+    "prompt": "Najwyższy szczyt Europy to __________, leżący przy granicy Francji z Włochami.",
     "image": "r04_mapa_francji.jpg",
     "options": null,
     "answer": [
@@ -289,7 +289,7 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_04",
     "section": "Nowoczesna gospodarka Francji",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady francuskich firm lub marek wymienionych w rozdziale.",
+    "prompt": "Zaznacz przykłady francuskich firm lub marek.",
     "image": "r04_marki_francuskie.jpg",
     "options": [
       "Carrefour",
@@ -325,7 +325,7 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_06",
     "section": "Nowoczesna gospodarka Francji",
     "type": "match",
-    "prompt": "Połącz francuską firmę lub markę z branżą wskazaną w rozdziale.",
+    "prompt": "Połącz francuską firmę lub markę z branżą.",
     "image": "r04_marki_francuskie.jpg",
     "options": null,
     "left": [
@@ -346,7 +346,7 @@ const ALL_EXERCISES = [
       "Orange": "telekomunikacja",
       "Chanel": "odzież i perfumy"
     },
-    "explanation": "Rozdział pokazuje przykłady znanych francuskich marek z różnych branż, m.in. samolotów, opon, telekomunikacji oraz odzieży i perfum."
+    "explanation": "Pokazuje się przykłady znanych francuskich marek z różnych branż, m.in. samolotów, opon, telekomunikacji oraz odzieży i perfum."
   },
   {
     "id": "R04_FRA_07",
@@ -399,7 +399,7 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_09",
     "section": "Nowoczesna gospodarka Francji",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy przemysłu high-tech opisane w rozdziale.",
+    "prompt": "Zaznacz cechy przemysłu high-tech.",
     "options": [
       "zatrudnia świetnie wykształconych specjalistów",
       "inwestuje dużo w badania i testy",
@@ -449,7 +449,7 @@ const ALL_EXERCISES = [
     "prompt": "Sophia Antipolis to największa technopolia we Francji i w Europie.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że największą technopolią we Francji i Europie jest Sophia Antipolis w południowej części kraju."
+    "explanation": "Największą technopolią we Francji i Europie jest Sophia Antipolis w południowej części kraju."
   },
   {
     "id": "R04_FRA_13",
@@ -465,7 +465,7 @@ const ALL_EXERCISES = [
       "Paryż nie jest stolicą Francji"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że we francuskiej gospodarce zdecydowanie dominują usługi, a nie rolnictwo."
+    "explanation": "We francuskiej gospodarce zdecydowanie dominują usługi, a nie rolnictwo."
   },
   {
     "id": "R04_MET_01",
@@ -538,7 +538,7 @@ const ALL_EXERCISES = [
     "prompt": "Londyn jest największym miastem Wielkiej Brytanii.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale zapisano, że Londyn jest stolicą i zarazem największym miastem Wielkiej Brytanii."
+    "explanation": "Londyn jest stolicą i zarazem największym miastem Wielkiej Brytanii."
   },
   {
     "id": "R04_MET_05",
@@ -608,7 +608,7 @@ const ALL_EXERCISES = [
       "tower bridge",
       "most Tower Bridge"
     ],
-    "explanation": "Rozdział podaje, że brzegi Tamizy łączy wiele mostów, a najsłynniejszym jest Tower Bridge."
+    "explanation": "Brzegi Tamizy łączy wiele mostów, a najsłynniejszym jest Tower Bridge."
   },
   {
     "id": "R04_MET_08",
@@ -628,7 +628,7 @@ const ALL_EXERCISES = [
     "id": "R04_MET_09",
     "section": "Londyn i Paryż — europejskie metropolie",
     "type": "scenario",
-    "prompt": "Miasto ma siedziby międzynarodowych firm, przyciąga studentów z całego świata i odgrywa ważną rolę w biznesie. Jakiego określenia używa rozdział dla takich miast?",
+    "prompt": "Miasto ma siedziby międzynarodowych firm, przyciąga studentów z całego świata i odgrywa ważną rolę w biznesie. Jakiego określenia używa się dla takich miast?",
     "options": [
       "metropolia globalna",
       "wyspa wulkaniczna",
@@ -658,13 +658,13 @@ const ALL_EXERCISES = [
       "Paryż 1924",
       "Londyn 1948"
     ],
-    "explanation": "Rozdział wymienia igrzyska w Paryżu w 1900, Londynie w 1908, Paryżu w 1924 oraz Londynie w 1948 roku."
+    "explanation": "Wymienia się igrzyska w Paryżu w 1900, Londynie w 1908, Paryżu w 1924 oraz Londynie w 1948 roku."
   },
   {
     "id": "R04_MET_11",
     "section": "Londyn i Paryż — europejskie metropolie",
     "type": "single_choice",
-    "prompt": "Które zdanie zgodnie z rozdziałem opisuje Paryż?",
+    "prompt": "Które zdanie opisuje Paryż?",
     "options": [
       "Leży nad Sekwaną i jest stolicą Francji",
       "Leży nad Tamizą i jest stolicą Wielkiej Brytanii",
@@ -694,13 +694,13 @@ const ALL_EXERCISES = [
     "image": "r04_atrakcje_paryza.jpg",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla znaczenie Paryża dla światowej kultury, zwłaszcza mody."
+    "explanation": "Podkreśla się znaczenie Paryża dla światowej kultury, zwłaszcza mody."
   },
   {
     "id": "R04_TUR_01",
     "section": "Turystyka w południowej Europie",
     "type": "single_choice",
-    "prompt": "Czym według rozdziału jest turystyka?",
+    "prompt": "Czym jest turystyka?",
     "options": [
       "podróżowaniem krótszym niż rok w celach innych niż zarobkowe",
       "stałą pracą zarobkową za granicą",
@@ -716,7 +716,7 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_02",
     "section": "Turystyka w południowej Europie",
     "type": "multi_select",
-    "prompt": "Zaznacz częste powody wyjazdów turystycznych wymienione w rozdziale.",
+    "prompt": "Zaznacz częste powody wyjazdów turystycznych.",
     "options": [
       "wypoczynek",
       "zwiedzanie",
@@ -814,7 +814,7 @@ const ALL_EXERCISES = [
     "image": "r04_walory_turystyczne.jpg",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że turystyka odgrywa ważną rolę w gospodarce i jest częścią sektora usług."
+    "explanation": "Turystyka odgrywa ważną rolę w gospodarce i jest częścią sektora usług."
   },
   {
     "id": "R04_TUR_07",
@@ -841,7 +841,7 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_08",
     "section": "Turystyka w południowej Europie",
     "type": "match",
-    "prompt": "Połącz miejsce z atrakcją opisaną w rozdziale.",
+    "prompt": "Połącz miejsce z atrakcją.",
     "image": "r04_atrakcje_poludniowej_europy.jpg",
     "options": null,
     "left": [
@@ -862,7 +862,7 @@ const ALL_EXERCISES = [
       "Barcelona": "Sagrada Familia",
       "Ateny": "Akropol"
     },
-    "explanation": "Rozdział wymienia m.in. Wenecję z kanałami, Rzym z Koloseum i Forum Romanum, Barcelonę z Sagradą Familią oraz Ateny z Akropolem."
+    "explanation": "Wymienia się m.in. Wenecję z kanałami, Rzym z Koloseum i Forum Romanum, Barcelonę z Sagradą Familią oraz Ateny z Akropolem."
   },
   {
     "id": "R04_TUR_09",
@@ -883,7 +883,7 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_10",
     "section": "Turystyka w południowej Europie",
     "type": "scenario",
-    "prompt": "Turysta wybiera miejsce, gdzie ciepła i czysta woda sprzyja sportom wodnym, np. nurkowaniu. Który akwen opisuje rozdział w tym kontekście?",
+    "prompt": "Turysta wybiera miejsce, gdzie ciepła i czysta woda sprzyja sportom wodnym, np. nurkowaniu. Który akwen opisuje się w tym kontekście?",
     "image": "r04_atrakcje_poludniowej_europy.jpg",
     "options": [
       "Morze Śródziemne",
@@ -894,13 +894,13 @@ const ALL_EXERCISES = [
       "Kanał La Manche"
     ],
     "answer": 0,
-    "explanation": "Rozdział wskazuje, że ciepła i czysta woda Morza Śródziemnego sprzyja sportom wodnym, np. nurkowaniu."
+    "explanation": "Ciepła i czysta woda Morza Śródziemnego sprzyja sportom wodnym, np. nurkowaniu."
   },
   {
     "id": "R04_TUR_11",
     "section": "Turystyka w południowej Europie",
     "type": "single_choice",
-    "prompt": "Który zestaw obejmuje trzy wielkie półwyspy południowej Europy opisane w rozdziale?",
+    "prompt": "Który zestaw obejmuje trzy wielkie półwyspy południowej Europy?",
     "image": "r04_mapa_poludniowej_europy.jpg",
     "options": [
       "Iberyjski, Apeniński i Bałkański",
@@ -911,7 +911,7 @@ const ALL_EXERCISES = [
       "Iberyjski, Geysir i Akropol"
     ],
     "answer": 0,
-    "explanation": "W rozdziale wymieniono półwyspy Iberyjski, Apeniński i Bałkański."
+    "explanation": "Wymieniono półwyspy Iberyjski, Apeniński i Bałkański."
   },
   {
     "id": "R04_TUR_12",
@@ -1041,7 +1041,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz element gospodarki Francji z właściwym przykładem z rozdziału.",
+    "prompt": "Połącz element gospodarki Francji z właściwym przykładem.",
     "image": "r04_pociag_tgv.jpg",
     "options": null,
     "left": [
@@ -1108,7 +1108,7 @@ const ALL_EXERCISES = [
         "około 15 mln"
       ]
     ],
-    "explanation": "Rozdział podaje, że Londyn ma prawie 10 mln mieszkańców, a aglomeracja około 15 mln."
+    "explanation": "Londyn ma prawie 10 mln mieszkańców, a aglomeracja około 15 mln."
   },
   {
     "id": "R04_HARD_08",
@@ -1163,7 +1163,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_10",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do atrakcji południowej Europy opisanych w rozdziale: Canale Grande, Sagrada Familia, Akropol, Big Ben.",
+    "prompt": "Wskaż, co nie pasuje do atrakcji południowej Europy: Canale Grande, Sagrada Familia, Akropol, Big Ben.",
     "image": "r04_atrakcje_poludniowej_europy.jpg",
     "options": null,
     "answer": "Big Ben",
@@ -1173,7 +1173,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz atrakcję z miejscem, z którym została opisana w rozdziale.",
+    "prompt": "Połącz atrakcję z miejscem, z którym została.",
     "image": "r04_atrakcje_poludniowej_europy.jpg",
     "options": null,
     "left": [
@@ -1197,7 +1197,7 @@ const ALL_EXERCISES = [
       "Akropol": "Ateny",
       "Jeziora Plitwickie": "Chorwacja"
     },
-    "explanation": "Rozdział przypisuje Canale Grande Wenecji, Forum Romanum Rzymowi, Sagradę Familię Barcelonie, Akropol Atenom i Jeziora Plitwickie Chorwacji."
+    "explanation": "Przypisuje się Canale Grande Wenecji, Forum Romanum Rzymowi, Sagradę Familię Barcelonie, Akropol Atenom i Jeziora Plitwickie Chorwacji."
   },
   {
     "id": "R04_HARD_12",
@@ -1246,7 +1246,7 @@ const ALL_EXERCISES = [
         "bałkański"
       ]
     ],
-    "explanation": "Rozdział wymienia trzy wielkie półwyspy: Iberyjski, Apeniński i Bałkański."
+    "explanation": "Wymienia się trzy wielkie półwyspy: Iberyjski, Apeniński i Bałkański."
   },
   {
     "id": "R04_HARD_14",
@@ -1272,7 +1272,7 @@ const ALL_EXERCISES = [
     "prompt": "Walory kulturowe południowej Europy obejmują m.in. liczne zabytki, zabudowę miast, kuchnię, muzykę i taniec.",
     "options": null,
     "answer": true,
-    "explanation": "W podsumowaniu rozdziału walory kulturowe południowej Europy obejmują m.in. zabytki z różnych epok, zabudowę miast, kuchnię, muzykę i taniec."
+    "explanation": "Walory kulturowe południowej Europy obejmują m.in. zabytki z różnych epok, zabudowę miast, kuchnię, muzykę i taniec."
   },
   {
     "id": "R04_HARD_16",

@@ -29,7 +29,7 @@ const ALL_EXERCISES = [
     "id": "R04_UNI_02",
     "section": "Unia Europejska i podział polityczny Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady wpływu Unii Europejskiej na gospodarkę i społeczeństwa opisane w rozdziale.",
+    "prompt": "Zaznacz przykłady wpływu Unii Europejskiej na gospodarkę i społeczeństwa.",
     "options": [
       "Swobodniejsze przekraczanie granic i podróżowanie",
       "Możliwość podejmowania pracy w innych krajach UE",
@@ -45,7 +45,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r04_flaga_unii_europejskiej.jpg",
-    "explanation": "Rozdział wskazuje m.in. swobodniejsze podróżowanie, możliwość pracy w innych krajach, łatwiejszy handel bez ceł oraz wykorzystanie środków ze wspólnego budżetu."
+    "explanation": "Wskazuje się m.in. swobodniejsze podróżowanie, możliwość pracy w innych krajach, łatwiejszy handel bez ceł oraz wykorzystanie środków ze wspólnego budżetu."
   },
   {
     "id": "R04_UNI_03",
@@ -54,7 +54,7 @@ const ALL_EXERCISES = [
     "prompt": "Polska przystąpiła do Unii Europejskiej w 2004 roku wraz z dziewięcioma innymi państwami.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że Polska weszła do UE w 2004 roku razem z dziewięcioma innymi krajami."
+    "explanation": "Polska weszła do UE w 2004 roku razem z dziewięcioma innymi krajami."
   },
   {
     "id": "R04_UNI_04",
@@ -78,7 +78,7 @@ const ALL_EXERCISES = [
         "UE"
       ]
     ],
-    "explanation": "Europejska Wspólnota Węgla i Stali była pierwszym etapem integracji opisanym w rozdziale. W 1993 roku wspólnoty przekształcono w Unię Europejską."
+    "explanation": "Europejska Wspólnota Węgla i Stali była pierwszym etapem integracji. W 1993 roku wspólnoty przekształcono w Unię Europejską."
   },
   {
     "id": "R04_UNI_05",
@@ -144,7 +144,7 @@ const ALL_EXERCISES = [
       "Brexit": "2020"
     },
     "image": "r04_fundusze_europejskie_w_polsce.jpg",
-    "explanation": "Daty pokazują kolejne etapy integracji i zmian w Unii Europejskiej opisane w rozdziale."
+    "explanation": "Daty pokazują kolejne etapy integracji i zmian w Unii Europejskiej."
   },
   {
     "id": "R04_UNI_09",
@@ -182,7 +182,7 @@ const ALL_EXERCISES = [
       "Na pustynnych wybrzeżach Afryki"
     ],
     "answer": 0,
-    "explanation": "Rozdział wskazuje, że największa gęstość zaludnienia występuje w zachodniej części Europy."
+    "explanation": "Największa gęstość zaludnienia występuje w zachodniej części Europy."
   },
   {
     "id": "R04_LUD_02",
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
     "prompt": "Gęstość zaludnienia to liczba osób przypadających na jednostkę powierzchni, zwykle na kilometr kwadratowy.",
     "options": null,
     "answer": true,
-    "explanation": "Tak definiuje się gęstość zaludnienia w rozdziale. Dzięki temu można porównywać zaludnienie państw i regionów o różnej powierzchni."
+    "explanation": "Tak definiuje się gęstość zaludnienia. Dzięki temu można porównywać zaludnienie państw i regionów o różnej powierzchni."
   },
   {
     "id": "R04_LUD_04",
@@ -236,7 +236,7 @@ const ALL_EXERCISES = [
         "ok. 70"
       ]
     ],
-    "explanation": "Rozdział podaje oba wskaźniki jako przykłady opisu zaludnienia: liczbę ludności oraz gęstość zaludnienia."
+    "explanation": "Podaje się oba wskaźniki jako przykłady opisu zaludnienia: liczbę ludności oraz gęstość zaludnienia."
   },
   {
     "id": "R04_LUD_05",
@@ -250,7 +250,7 @@ const ALL_EXERCISES = [
       "Królestwo Niderlandów",
       "Niderlandy"
     ],
-    "explanation": "W rozdziale podano, że Królestwo Niderlandów, czyli Holandia, ma bardzo dużą gęstość zaludnienia."
+    "explanation": "Królestwo Niderlandów, czyli Holandia, ma bardzo dużą gęstość zaludnienia."
   },
   {
     "id": "R04_LUD_06",
@@ -276,7 +276,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r04_osiedle_robotnicze_gorny_slask.jpg",
-    "explanation": "Rozwój kopalń i zakładów przetwarzających surowce przyciągał pracowników. W rozdziale podano przykład Górnego Śląska."
+    "explanation": "Rozwój kopalń i zakładów przetwarzających surowce przyciągał pracowników. podano przykład Górnego Śląska."
   },
   {
     "id": "R04_LUD_08",
@@ -362,7 +362,7 @@ const ALL_EXERCISES = [
     "id": "R04_STA_02",
     "section": "Przyczyny i skutki starzenia się ludności",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny odkładania decyzji o założeniu rodziny wskazane w rozdziale.",
+    "prompt": "Zaznacz przyczyny odkładania decyzji o założeniu rodziny.",
     "options": [
       "Chęć zdobycia wykształcenia",
       "Dążenie do niezależności finansowej",
@@ -378,13 +378,13 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "W rozdziale wymieniono m.in. chęć zdobycia wykształcenia, karierę, niezależność finansową, realizację pasji, wysokie ceny mieszkań i niestabilną sytuację zawodową."
+    "explanation": "Wymieniono m.in. chęć zdobycia wykształcenia, karierę, niezależność finansową, realizację pasji, wysokie ceny mieszkań i niestabilną sytuację zawodową."
   },
   {
     "id": "R04_STA_03",
     "section": "Przyczyny i skutki starzenia się ludności",
     "type": "true_false",
-    "prompt": "Według danych z rozdziału mężczyźni w Europie żyją średnio około 6 lat krócej niż kobiety.",
+    "prompt": "Mężczyźni w Europie żyją średnio około 6 lat krócej niż kobiety.",
     "options": null,
     "answer": true,
     "explanation": "Na wykresie oczekiwanej długości życia zaznaczono, że mężczyźni średnio żyją około 6 lat krócej niż kobiety."
@@ -531,7 +531,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIG_02",
     "section": "Migracje w Europie",
     "type": "multi_select",
-    "prompt": "Zaznacz najczęstsze przyczyny współczesnych migracji opisane w rozdziale.",
+    "prompt": "Zaznacz najczęstsze przyczyny współczesnych migracji.",
     "options": [
       "Chęć znalezienia pracy",
       "Chęć poprawy warunków życia",
@@ -552,10 +552,10 @@ const ALL_EXERCISES = [
     "id": "R04_MIG_03",
     "section": "Migracje w Europie",
     "type": "true_false",
-    "prompt": "Według rozdziału więcej osób przyjeżdża do Unii Europejskiej, niż z niej wyjeżdża.",
+    "prompt": "Więcej osób przyjeżdża do Unii Europejskiej, niż z niej wyjeżdża.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że więcej osób przyjeżdża do UE, niż ją opuszcza, co wpływa na liczbę ludności kontynentu."
+    "explanation": "Więcej osób przyjeżdża do UE, niż ją opuszcza, co wpływa na liczbę ludności kontynentu."
   },
   {
     "id": "R04_MIG_04",
@@ -597,10 +597,10 @@ const ALL_EXERCISES = [
     "id": "R04_MIG_06",
     "section": "Migracje w Europie",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do prac często wykonywanych przez imigrantów według rozdziału: usługi porządkowe, usługi budowlane, usługi gastronomiczne, wydobycie węgla.",
+    "prompt": "Co nie pasuje do prac często wykonywanych przez imigrantów: usługi porządkowe, usługi budowlane, usługi gastronomiczne, wydobycie węgla.",
     "options": null,
     "answer": "wydobycie węgla",
-    "explanation": "W rozdziale jako częste zajęcia imigrantów wskazano m.in. usługi porządkowe, budowlane, gastronomiczne i transportowe, a nie wydobycie węgla."
+    "explanation": "Jako częste zajęcia imigrantów wskazano m.in. usługi porządkowe, budowlane, gastronomiczne i transportowe, a nie wydobycie węgla."
   },
   {
     "id": "R04_MIG_07",
@@ -682,7 +682,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIA_01",
     "section": "Wielkie miasta Europy - Londyn i Paryż",
     "type": "single_choice",
-    "prompt": "Które miasto rozdział określa jako jedno z najważniejszych światowych centrów finansowych?",
+    "prompt": "Które miasto określa się jako jedno z najważniejszych światowych centrów finansowych?",
     "options": [
       "Londyn",
       "Paryż",
@@ -723,7 +723,7 @@ const ALL_EXERCISES = [
     "prompt": "Paryż i Londyn są miastami wielokulturowymi, ponieważ przyciągają imigrantów z różnych stron świata.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla, że oba miasta są zamieszkane przez wielu imigrantów, dlatego są wielokulturowe i różnorodne."
+    "explanation": "Oba miasta są zamieszkane przez wielu imigrantów, dlatego są wielokulturowe i różnorodne."
   },
   {
     "id": "R04_MIA_04",
@@ -760,7 +760,7 @@ const ALL_EXERCISES = [
       "aglomeracja",
       "aglomerację"
     ],
-    "explanation": "Tak rozdział definiuje aglomerację. Paryż i Londyn tworzą aglomeracje liczące ponad 10 milionów mieszkańców."
+    "explanation": "Tak definiuje się aglomerację. Paryż i Londyn tworzą aglomeracje liczące ponad 10 milionów mieszkańców."
   },
   {
     "id": "R04_MIA_06",
@@ -812,7 +812,7 @@ const ALL_EXERCISES = [
       "Charles de Gaulle": "Paryż"
     },
     "image": "r04_transport_wielkich_miast.jpg",
-    "explanation": "Londyn i Paryż mają własne dzielnice biznesowe, lotniska i charakterystyczne obiekty opisane w rozdziale."
+    "explanation": "Londyn i Paryż mają własne dzielnice biznesowe, lotniska i charakterystyczne obiekty."
   },
   {
     "id": "R04_MIA_09",
@@ -871,7 +871,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział wskazuje m.in. przewagę zatrudnienia w usługach, wysoką wydajność pracy i wykorzystywanie najnowszych osiągnięć techniki, komputerów oraz robotów."
+    "explanation": "Wskazuje się m.in. przewagę zatrudnienia w usługach, wysoką wydajność pracy i wykorzystywanie najnowszych osiągnięć techniki, komputerów oraz robotów."
   },
   {
     "id": "R04_FRA_03",
@@ -880,7 +880,7 @@ const ALL_EXERCISES = [
     "prompt": "Przemysł obejmuje m.in. pozyskiwanie i przetwarzanie surowców oraz produkowanie przedmiotów przy użyciu maszyn.",
     "options": null,
     "answer": true,
-    "explanation": "Tak rozdział wyjaśnia działalność przemysłu: obejmuje ona pozyskiwanie i przetwarzanie surowców, wytwarzanie dóbr oraz produkcję przedmiotów w dużych ilościach."
+    "explanation": "Tak wyjaśnia się działalność przemysłu: obejmuje ona pozyskiwanie i przetwarzanie surowców, wytwarzanie dóbr oraz produkcję przedmiotów w dużych ilościach."
   },
   {
     "id": "R04_FRA_04",
@@ -903,7 +903,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r04_elektrownia_jadrowa_francja.jpg",
-    "explanation": "W rozdziale opisano energetykę jądrową oraz przemysł lotniczy jako ważne elementy nowoczesnej gospodarki Francji."
+    "explanation": "Opisano energetykę jądrową oraz przemysł lotniczy jako ważne elementy nowoczesnej gospodarki Francji."
   },
   {
     "id": "R04_FRA_05",
@@ -923,10 +923,10 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_06",
     "section": "Nowoczesny przemysł i usługi w gospodarce Francji",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do kategorii usług wymienionych w rozdziale: usługi finansowe, usługi medyczne, usługi transportowe, wydobycie surowców.",
+    "prompt": "Co nie pasuje do kategorii usług: usługi finansowe, usługi medyczne, usługi transportowe, wydobycie surowców.",
     "options": null,
     "answer": "wydobycie surowców",
-    "explanation": "Wydobycie surowców należy do przemysłu, a nie do usług. Usługi finansowe, medyczne i transportowe są w rozdziale podane jako ważne kategorie usług."
+    "explanation": "Wydobycie surowców należy do przemysłu, a nie do usług. Usługi finansowe, medyczne i transportowe są podane jako ważne kategorie usług."
   },
   {
     "id": "R04_FRA_07",
@@ -948,7 +948,7 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_08",
     "section": "Nowoczesny przemysł i usługi w gospodarce Francji",
     "type": "match",
-    "prompt": "Połącz dział gospodarki Francji z korzyścią opisaną w rozdziale.",
+    "prompt": "Połącz dział gospodarki Francji z korzyścią.",
     "options": null,
     "left": [
       "Energetyka jądrowa",
@@ -1023,7 +1023,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz państwa wymienione w rozdziale jako powstałe po rozpadzie Związku Sowieckiego.",
+    "prompt": "Zaznacz państwa jako powstałe po rozpadzie Związku Sowieckiego.",
     "options": [
       "Ukraina",
       "Białoruś",
@@ -1050,7 +1050,7 @@ const ALL_EXERCISES = [
     "prompt": "Turcja i Kazachstan leżą w większości w Azji, a tylko ich niewielkie fragmenty należą do Europy.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje te dwa państwa jako przykłady krajów, które według części kryteriów zalicza się do Europy tylko fragmentarycznie."
+    "explanation": "Podaje się te dwa państwa jako przykłady krajów, które według części kryteriów zalicza się do Europy tylko fragmentarycznie."
   },
   {
     "id": "R04_HARD_04",
@@ -1070,13 +1070,13 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r04_fundusze_europejskie_w_polsce.jpg",
-    "explanation": "Rozdział podaje, że w latach 2004-2021 Polska otrzymała o 141 miliardów euro więcej, niż wpłaciła do budżetu UE."
+    "explanation": "W latach 2004-2021 Polska otrzymała o 141 miliardów euro więcej, niż wpłaciła do budżetu UE."
   },
   {
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Jak nazywa się francuska wieś w Alpach, która według rozdziału leży ponad 2 tysiące metrów n.p.m.?",
+    "prompt": "Jak nazywa się francuska wieś w Alpach, która leży ponad 2 tysiące metrów n.p.m.?",
     "options": null,
     "answer": "Saint-Véran",
     "altAnswers": [
@@ -1091,16 +1091,16 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do przeszkód w zakładaniu rodziny wymienionych w rozdziale: wysokie ceny mieszkań, niestabilna sytuacja zawodowa, zdobywanie wykształcenia, stabilna sytuacja zawodowa.",
+    "prompt": "Co nie pasuje do przeszkód w zakładaniu rodziny: wysokie ceny mieszkań, niestabilna sytuacja zawodowa, zdobywanie wykształcenia, stabilna sytuacja zawodowa.",
     "options": null,
     "answer": "stabilna sytuacja zawodowa",
-    "explanation": "Stabilna sytuacja zawodowa nie jest przeszkodą. Rozdział wskazuje raczej niestabilną sytuację zawodową, koszty mieszkań oraz odkładanie rodziny z powodu edukacji i kariery."
+    "explanation": "Stabilna sytuacja zawodowa nie jest przeszkodą. Wskazuje się raczej niestabilną sytuację zawodową, koszty mieszkań oraz odkładanie rodziny z powodu edukacji i kariery."
   },
   {
     "id": "R04_HARD_07",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Nowi mieszkańcy nie znają lokalnego języka i przepisów, korzystają długo ze wsparcia państwa, a w dzielnicach pojawiają się napięcia z ludnością miejscową. Jak rozdział wyjaśnia taką sytuację?",
+    "prompt": "Nowi mieszkańcy nie znają lokalnego języka i przepisów, korzystają długo ze wsparcia państwa, a w dzielnicach pojawiają się napięcia z ludnością miejscową. Jak wyjaśnia się taką sytuację?",
     "options": [
       "Nieskuteczną integracją imigrantów",
       "Równomiernym rozmieszczeniem ludności",
@@ -1116,7 +1116,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz szczegół z właściwym zagadnieniem rozdziału.",
+    "prompt": "Połącz szczegół z właściwym zagadnieniem.",
     "options": null,
     "left": [
       "Brexit",
@@ -1137,7 +1137,7 @@ const ALL_EXERCISES = [
       "56 zakładów jądrowych": "Energetyka we Francji"
     },
     "image": "r04_elektrownia_jadrowa_francja.jpg",
-    "explanation": "Szczegóły te pochodzą z różnych części rozdziału i łączą informacje o UE, ludności, migracjach oraz Francji."
+    "explanation": "Szczegóły te pochodzą i łączą informacje o UE, ludności, migracjach oraz Francji."
   },
   {
     "id": "R04_HARD_09",
@@ -1201,7 +1201,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy nowoczesnego przemysłu we Francji wymienione w rozdziale.",
+    "prompt": "Zaznacz cechy nowoczesnego przemysłu we Francji.",
     "options": [
       "Wytwarzanie zaawansowanych technicznie produktów",
       "Wykorzystanie robotów i komputerów",
@@ -1240,7 +1240,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r04_elektrownia_jadrowa_francja.jpg",
-    "explanation": "W rozdziale podano, że Airbus A380 był w tym okresie największym samolotem pasażerskim na świecie, a na jego pokład mogło wejść nawet 853 pasażerów."
+    "explanation": "Airbus A380 był w tym okresie największym samolotem pasażerskim na świecie, a na jego pokład mogło wejść nawet 853 pasażerów."
   }
 ];
 

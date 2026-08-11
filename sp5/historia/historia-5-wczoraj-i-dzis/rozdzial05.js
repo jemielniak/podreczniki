@@ -404,7 +404,7 @@ const ALL_EXERCISES = [
     "id": "R05_RYC_10",
     "section": "Epoka rycerzy",
     "type": "multi_select",
-    "prompt": "Zaznacz powody udziału rycerzy w turniejach wymienione w podręczniku.",
+    "prompt": "Zaznacz powody udziału rycerzy w turniejach.",
     "options": [
       "Chęć zdobycia sławy",
       "Wykonywanie ćwiczeń wojskowych",
@@ -451,7 +451,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Roland, Zawisza Czarny, William Marshal, święty Benedykt.",
     "options": null,
     "answer": "święty Benedykt",
-    "explanation": "Roland, Zawisza Czarny i William Marshal są w rozdziale związani z kulturą rycerską, a święty Benedykt z zakonami."
+    "explanation": "Roland, Zawisza Czarny i William Marshal są związani z kulturą rycerską, a święty Benedykt z zakonami."
   },
   {
     "id": "R05_MIA_01",
@@ -476,7 +476,7 @@ const ALL_EXERCISES = [
     "prompt": "Pierwszych lokacji na ziemiach polskich dokonano już na początku XIII wieku.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że pierwsze lokacje na ziemiach polskich miały miejsce na początku XIII wieku."
+    "explanation": "Pierwsze lokacje na ziemiach polskich miały miejsce na początku XIII wieku."
   },
   {
     "id": "R05_MIA_03",
@@ -613,7 +613,7 @@ const ALL_EXERCISES = [
     "prompt": "Partaczami nazywano rzemieślników nienależących do cechu, którzy wykonywali gorszej jakości produkty z tańszych materiałów.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że partacze działali poza cechem i wykonywali tańsze, gorsze wyroby."
+    "explanation": "Partacze działali poza cechem i wykonywali tańsze, gorsze wyroby."
   },
   {
     "id": "R05_MIA_10",
@@ -702,7 +702,7 @@ const ALL_EXERCISES = [
     "id": "R05_KOS_02",
     "section": "Kościół w średniowieczu",
     "type": "multi_select",
-    "prompt": "Zaznacz role duchowieństwa w średniowieczu opisane w podręczniku.",
+    "prompt": "Zaznacz role duchowieństwa w średniowieczu.",
     "options": [
       "Odprawianie nabożeństw",
       "Udzielanie sakramentów",
@@ -726,7 +726,7 @@ const ALL_EXERCISES = [
     "prompt": "Duchowieństwo było w średniowieczu jedyną wykształconą grupą ludności.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że duchowni tworzyli jedyną grupę posiadającą wykształcenie."
+    "explanation": "Duchowni tworzyli jedyną grupę posiadającą wykształcenie."
   },
   {
     "id": "R05_KOS_04",
@@ -815,7 +815,7 @@ const ALL_EXERCISES = [
     "prompt": "Regułę zakonu franciszkanów zatwierdził w 1223 roku papież Honoriusz III.",
     "options": null,
     "answer": true,
-    "explanation": "Tekst źródłowy w rozdziale podaje, że regułę franciszkanów oficjalnie zatwierdzono w 1223 roku."
+    "explanation": "Tekst źródłowy podaje, że regułę franciszkanów oficjalnie zatwierdzono w 1223 roku."
   },
   {
     "id": "R05_KOS_09",
@@ -919,13 +919,13 @@ const ALL_EXERCISES = [
     "prompt": "Wiele średniowiecznych dzieł sztuki jest anonimowych, ponieważ twórcy pracowali na chwałę Boga, a nie dla osobistej sławy.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że artyści często nie podpisywali swoich prac z powodów religijnych."
+    "explanation": "Artyści często nie podpisywali swoich prac z powodów religijnych."
   },
   {
     "id": "R05_SZT_04",
     "section": "Sztuka średniowiecza",
     "type": "multi_select",
-    "prompt": "Zaznacz tematy typowe dla dzieł sztuki średniowiecznej opisane w rozdziale.",
+    "prompt": "Zaznacz tematy typowe dla dzieł sztuki średniowiecznej.",
     "options": [
       "Historie z Pisma Świętego",
       "Postaci znane z Biblii",
@@ -1013,7 +1013,7 @@ const ALL_EXERCISES = [
     "id": "R05_SZT_07",
     "section": "Sztuka średniowiecza",
     "type": "single_choice",
-    "prompt": "Katedra Notre Dame w Paryżu jest w rozdziale podana jako przykład którego stylu?",
+    "prompt": "Katedra Notre Dame w Paryżu jest podana jako przykład którego stylu?",
     "options": [
       "Gotyckiego",
       "Romańskiego",
@@ -1049,13 +1049,13 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "/img/r05_architektura_romanska_gotycka.jpg",
-    "explanation": "Rozdział podaje, że romanizm rozpoczął się w X stuleciu, a gotyk wyrósł z rozwiązań wprowadzonych we Francji w połowie XII stulecia."
+    "explanation": "Romanizm rozpoczął się w X stuleciu, a gotyk wyrósł z rozwiązań wprowadzonych we Francji w połowie XII stulecia."
   },
   {
     "id": "R05_SZT_09",
     "section": "Sztuka średniowiecza",
     "type": "multi_select",
-    "prompt": "Zaznacz dziedziny lub dzieła sztuki średniowiecznej wymienione w rozdziale.",
+    "prompt": "Zaznacz dziedziny lub dzieła sztuki średniowiecznej.",
     "options": [
       "Relikwiarze",
       "Ołtarze",
@@ -1072,7 +1072,7 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "/img/r05_oltarz_sredniowieczny.jpg",
-    "explanation": "Rozdział pokazuje rozwój złotnictwa, malarstwa, rzeźby i miniatur książkowych."
+    "explanation": "Pokazuje się rozwój złotnictwa, malarstwa, rzeźby i miniatur książkowych."
   },
   {
     "id": "R05_SZT_10",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
       "Capitulum"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że lenno po łacinie nazywano feudum."
+    "explanation": "Lenno po łacinie nazywano feudum."
   },
   {
     "id": "R05_HARD_02",
@@ -1213,7 +1213,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_07",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz mniej oczywiste pojęcie z rozdziału z jego znaczeniem.",
+    "prompt": "Połącz mniej oczywiste pojęcie z jego znaczeniem.",
     "options": null,
     "left": [
       "szafarz",
@@ -1236,13 +1236,13 @@ const ALL_EXERCISES = [
       "post": "powstrzymanie się od spożywania określonych pokarmów",
       "celibat": "bezżenność duchownych"
     },
-    "explanation": "Rozdział wyjaśnia zarówno pojęcia społeczne, jak i te związane z klasztorem i życiem religijnym."
+    "explanation": "Wyjaśnia się zarówno pojęcia społeczne, jak i te związane z klasztorem i życiem religijnym."
   },
   {
     "id": "R05_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który święty jest dziś czczony jako patron ekologów według rozdziału?",
+    "prompt": "Który święty jest dziś czczony jako patron ekologów?",
     "options": [
       "Święty Franciszek",
       "Święty Benedykt",
@@ -1253,7 +1253,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r05_zakony_sredniowieczne.jpg",
-    "explanation": "Rozdział podaje, że święty Franciszek kochał przyrodę i nazywał zwierzęta braćmi, dlatego jest patronem ekologów."
+    "explanation": "Święty Franciszek kochał przyrodę i nazywał zwierzęta braćmi, dlatego jest patronem ekologów."
   },
   {
     "id": "R05_HARD_09",
@@ -1298,7 +1298,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r05_oltarz_sredniowieczny.jpg",
-    "explanation": "Przykłady z rozdziału pokazują, że sztuka średniowieczna obejmowała różne dziedziny: złotnictwo, malarstwo, rzeźbę i książkarstwo."
+    "explanation": "Przykłady pokazują, że sztuka średniowieczna obejmowała różne dziedziny: złotnictwo, malarstwo, rzeźbę i książkarstwo."
   },
   {
     "id": "R05_HARD_11",
@@ -1308,7 +1308,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "druk",
     "image": "/img/r05_klasztor_skryptorium.jpg",
-    "explanation": "W średniowieczu księgi przepisywano ręcznie w skryptoriach na pergaminie, a rozdział zaznacza, że nie znano jeszcze techniki drukowania książek."
+    "explanation": "W średniowieczu księgi przepisywano ręcznie w skryptoriach na pergaminie, a techniki drukowania książek jeszcze nie znano."
   },
   {
     "id": "R05_HARD_12",

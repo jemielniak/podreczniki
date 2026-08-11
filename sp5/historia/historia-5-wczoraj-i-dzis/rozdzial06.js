@@ -32,13 +32,13 @@ const ALL_EXERCISES = [
     "prompt": "Słowianie osiedlali się w Europie wschodniej, środkowej i południowej od V do VIII wieku.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje V-VIII wiek jako czas zasiedlania tych obszarów Europy przez Słowian."
+    "explanation": "Wskazuje się V-VIII wiek jako czas zasiedlania tych obszarów Europy przez Słowian."
   },
   {
     "id": "R06_ZAN_03",
     "section": "Zanim powstała Polska",
     "type": "multi_select",
-    "prompt": "Zaznacz zajęcia i umiejętności dawnych Słowian wymienione w podręczniku.",
+    "prompt": "Zaznacz zajęcia i umiejętności dawnych Słowian.",
     "options": [
       "Rolnictwo",
       "Rybołówstwo",
@@ -126,7 +126,7 @@ const ALL_EXERCISES = [
       "Świętowit": "pan wojny, płodności i urodzaju",
       "Marzanna": "słowiańska bogini śmierci"
     },
-    "explanation": "Podręcznik opisuje te postacie jako elementy wierzeń dawnych Słowian.",
+    "explanation": "Opisuje się te postacie jako elementy wierzeń dawnych Słowian.",
     "image": "/img/r06_slowianskie_obrzedy.jpg"
   },
   {
@@ -401,7 +401,7 @@ const ALL_EXERCISES = [
     "id": "R06_MIE_11",
     "section": "Mieszko I i początki Polski",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki przyjęcia chrztu przez Mieszka I opisane w podręczniku.",
+    "prompt": "Zaznacz skutki przyjęcia chrztu przez Mieszka I.",
     "options": [
       "Wzrost znaczenia polskiego władcy",
       "Rozwój kultury i piśmiennictwa",
@@ -474,7 +474,7 @@ const ALL_EXERCISES = [
     "id": "R06_CHR_04",
     "section": "Polska Bolesława Chrobrego",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki zjazdu gnieźnieńskiego wymienione w podręczniku.",
+    "prompt": "Zaznacz skutki zjazdu gnieźnieńskiego.",
     "options": [
       "Utworzenie arcybiskupstwa w Gnieźnie",
       "Utworzenie biskupstw w Krakowie, Wrocławiu i Kołobrzegu",
@@ -621,7 +621,7 @@ const ALL_EXERCISES = [
     "id": "R06_CHR_12",
     "section": "Polska Bolesława Chrobrego",
     "type": "scenario",
-    "prompt": "Następcy Chrobrego muszą zmagać się z wrogimi sąsiadami i niezadowoleniem ludności obciążonej daninami na wojny. Jaki wniosek najlepiej pasuje do oceny jego panowania w podręczniku?",
+    "prompt": "Następcy Chrobrego muszą zmagać się z wrogimi sąsiadami i niezadowoleniem ludności obciążonej daninami na wojny. Jaki wniosek najlepiej pasuje do oceny jego panowania?",
     "options": [
       "Sukcesy Chrobrego miały także kosztowne skutki",
       "Chrobry całkowicie zlikwidował daniny",
@@ -631,7 +631,7 @@ const ALL_EXERCISES = [
       "Chrobry zrezygnował z korony"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że sukcesy Chrobrego umocniły Polskę, ale wojny i daniny przyczyniły się do późniejszego kryzysu."
+    "explanation": "Sukcesy Chrobrego umocniły Polskę, ale wojny i daniny przyczyniły się do późniejszego kryzysu."
   },
   {
     "id": "R06_KRY_01",
@@ -1007,7 +1007,7 @@ const ALL_EXERCISES = [
     "prompt": "Bolesław Krzywousty uzyskał koronę królewską tak jak Bolesław Chrobry i Bolesław Śmiały.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podkreśla, że Bolesław Krzywousty nie uzyskał korony królewskiej."
+    "explanation": "Bolesław Krzywousty nie uzyskał korony królewskiej."
   },
   {
     "id": "R06_KRZ_11",
@@ -1056,7 +1056,7 @@ const ALL_EXERCISES = [
       "Około tysiąca"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że państwo Mieszka I liczyło zaledwie około miliona ludzi."
+    "explanation": "Państwo Mieszka I liczyło zaledwie około miliona ludzi."
   },
   {
     "id": "R06_SPO_02",
@@ -1100,7 +1100,7 @@ const ALL_EXERCISES = [
     "prompt": "W czasach Mieszka I pieniądze były rzadko używane, a jako środka płatniczego używano między innymi płatów lnu.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że pieniądze były rzadkie, a płaty lnu mogły służyć jako środek płatniczy."
+    "explanation": "Pieniądze były rzadkie, a płaty lnu mogły służyć jako środek płatniczy."
   },
   {
     "id": "R06_SPO_05",
@@ -1155,7 +1155,7 @@ const ALL_EXERCISES = [
     "id": "R06_SPO_07",
     "section": "Społeczeństwo i kronikarze",
     "type": "multi_select",
-    "prompt": "Zaznacz obowiązki poddanych wobec władcy wymienione w podręczniku.",
+    "prompt": "Zaznacz obowiązki poddanych wobec władcy.",
     "options": [
       "Płacenie danin",
       "Świadczenie posług",
@@ -1250,7 +1250,7 @@ const ALL_EXERCISES = [
     "id": "R06_SPO_12",
     "section": "Społeczeństwo i kronikarze",
     "type": "match",
-    "prompt": "Połącz źródło lub autora z miejscem pochodzenia wskazanym w podręczniku.",
+    "prompt": "Połącz źródło lub autora z miejscem pochodzenia.",
     "options": null,
     "left": [
       "Kronika Nestora",
@@ -1277,7 +1277,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_01",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż władców w kolejności sprawowania rządów według rozdziału.",
+    "prompt": "Ułóż władców w kolejności sprawowania rządów.",
     "options": null,
     "items": [
       "Bolesław Śmiały",
@@ -1297,7 +1297,7 @@ const ALL_EXERCISES = [
       "Władysław Herman",
       "Bolesław Krzywousty"
     ],
-    "explanation": "Kolejność głównych władców w rozdziale prowadzi od Mieszka I do Bolesława Krzywoustego."
+    "explanation": "Kolejność głównych władców prowadzi od Mieszka I do Bolesława Krzywoustego."
   },
   {
     "id": "R06_HARD_02",
@@ -1339,29 +1339,29 @@ const ALL_EXERCISES = [
         "obrona Głogowa"
       ]
     },
-    "explanation": "Każdy zestaw wskazuje charakterystyczne osoby lub skutki najważniejszych wydarzeń z rozdziału."
+    "explanation": "Każdy zestaw wskazuje charakterystyczne osoby lub skutki najważniejszych wydarzeń."
   },
   {
     "id": "R06_HARD_03",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Wincenty Kadłubek opisał zwycięstwo Krzywoustego nad Niemcami na Psim Polu, ale Gall Anonim piszący kilka lat po najazdzie o takiej bitwie nie wspomniał, a badania archeologiczne jej nie potwierdziły. Jaki wniosek przedstawia podręcznik?",
+    "prompt": "Wincenty Kadłubek opisał zwycięstwo Krzywoustego nad Niemcami na Psim Polu, ale Gall Anonim piszący kilka lat po najazdzie o takiej bitwie nie wspomniał, a badania archeologiczne jej nie potwierdziły. Jaki wniosek przedstawia się?",
     "options": [
       "Uczeni uznali opowieść o Psim Polu za wymyśloną",
-      "Bitwa na Psim Polu jest najlepiej potwierdzoną bitwą rozdziału",
+      "Bitwa na Psim Polu jest najlepiej potwierdzoną bitwą tego okresu",
       "Gall Anonim opisał tę bitwę bardzo szczegółowo",
       "Kadłubek pisał przed najazdem Henryka V",
       "Bitwa odbyła się podczas chrztu Polski",
       "Było to starcie Mieszka I z Hodonem"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wyjaśnia, że brak potwierdzenia w starszych źródłach i archeologii sprawił, iż opowieść o Psim Polu uznano za wymyśloną."
+    "explanation": "Brak potwierdzenia w starszych źródłach i archeologii sprawił, iż opowieść o Psim Polu uznano za wymyśloną."
   },
   {
     "id": "R06_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz postanowienia lub skutki testamentu Bolesława Krzywoustego zgodne z podręcznikiem.",
+    "prompt": "Zaznacz prawdziwe postanowienia lub skutki testamentu Bolesława Krzywoustego.",
     "options": [
       "Podział państwa między synów",
       "Wprowadzenie zasady senioratu",
@@ -1418,7 +1418,7 @@ const ALL_EXERCISES = [
     "prompt": "Ibrahim ibn Jakub podróżował po Słowiańszczyźnie w latach 965-966, a jego relacja należy do źródeł o początkach państwa polskiego.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wymienia relację Ibrahima ibn Jakuba z lat 965-966 jako jedno ze źródeł informacji o początkach Polski."
+    "explanation": "Wymienia się relację Ibrahima ibn Jakuba z lat 965-966 jako jedno ze źródeł informacji o początkach Polski."
   },
   {
     "id": "R06_HARD_08",

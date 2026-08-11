@@ -206,7 +206,7 @@ const ALL_EXERCISES = [
     "id": "R03_CST_12",
     "section": "Cechy stawonogów",
     "type": "single_choice",
-    "prompt": "Który przedstawiciel stawonogów jest w rozdziale podany jako największy na świecie?",
+    "prompt": "Który przedstawiciel stawonogów jest podany jako największy na świecie?",
     "options": [
       "krab olbrzymi",
       "stonoga murowa",
@@ -216,7 +216,7 @@ const ALL_EXERCISES = [
       "homar europejski"
     ],
     "answer": 0,
-    "explanation": "W rozdziale jako największy stawonóg opisany jest krab olbrzymi żyjący na dnie Oceanu Spokojnego."
+    "explanation": "Jako największy stawonóg opisany jest krab olbrzymi żyjący na dnie Oceanu Spokojnego."
   },
   {
     "id": "R03_SKO_01",
@@ -719,7 +719,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAJ_05",
     "section": "Pajęczaki",
     "type": "match",
-    "prompt": "Połącz pajęczaka z cechą opisaną w rozdziale.",
+    "prompt": "Połącz pajęczaka z cechą.",
     "options": null,
     "left": [
       "topik",
@@ -828,7 +828,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAJ_11",
     "section": "Pajęczaki",
     "type": "single_choice",
-    "prompt": "Jakie oczy mają pająki według opisu w rozdziale?",
+    "prompt": "Jakie oczy mają pająki według opisu?",
     "options": [
       "od dwóch do ośmiu oczu prostych",
       "dwa oczy złożone",
@@ -862,7 +862,7 @@ const ALL_EXERCISES = [
     "section": "Mięczaki",
     "type": "single_choice",
     "image": "r03_grupy_mieczakow.jpg",
-    "prompt": "Który zestaw zawiera trzy grupy mięczaków opisane w rozdziale?",
+    "prompt": "Który zestaw zawiera trzy grupy mięczaków?",
     "options": [
       "ślimaki małże i głowonogi",
       "owady skorupiaki i pajęczaki",
@@ -881,13 +881,13 @@ const ALL_EXERCISES = [
     "prompt": "Mięczaki mają miękkie i niesegmentowane ciało.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział opisuje mięczaki jako zwierzęta o delikatnym, miękkim i niesegmentowanym ciele."
+    "explanation": "Opisuje się mięczaki jako zwierzęta o delikatnym, miękkim i niesegmentowanym ciele."
   },
   {
     "id": "R03_MIE_03",
     "section": "Mięczaki",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy mięczaków wymienione w rozdziale.",
+    "prompt": "Zaznacz cechy mięczaków.",
     "options": [
       "miękkie ciało",
       "segmentowane ciało z odnóżami",
@@ -1032,7 +1032,7 @@ const ALL_EXERCISES = [
     "id": "R03_MIE_10",
     "section": "Mięczaki",
     "type": "true_false",
-    "prompt": "Wszystkie głowonogi opisane w rozdziale są drapieżnikami.",
+    "prompt": "Wszystkie głowonogi są drapieżnikami.",
     "options": null,
     "answer": true,
     "explanation": "Głowonogi prowadzą aktywny tryb życia i polują na inne zwierzęta, między innymi ryby i skorupiaki."
@@ -1059,7 +1059,7 @@ const ALL_EXERCISES = [
     "section": "Mięczaki",
     "type": "scenario",
     "image": "r03_osmiornica_budowa.jpg",
-    "prompt": "Zagrożony głowonóg uwalnia ciemną substancję, która zmniejsza przejrzystość wody. Który przykład z rozdziału tak postępuje?",
+    "prompt": "Zagrożony głowonóg uwalnia ciemną substancję, która zmniejsza przejrzystość wody. Który przykład tak postępuje?",
     "options": [
       "mątwa",
       "winniczek",
@@ -1121,7 +1121,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz organizm lub grupę z rolą w przyrodzie opisaną w rozdziale.",
+    "prompt": "Połącz organizm lub grupę z rolą w przyrodzie.",
     "options": null,
     "left": [
       "kryl",
@@ -1141,7 +1141,7 @@ const ALL_EXERCISES = [
       "owady glebowe": "udział w tworzeniu próchnicy",
       "małże": "filtrowanie drobnych cząstek pokarmu z wody"
     },
-    "explanation": "W rozdziale podkreślono, że bezkręgowce te uczestniczą w sieciach pokarmowych i w oczyszczaniu środowiska."
+    "explanation": "Bezkręgowce te uczestniczą w sieciach pokarmowych i w oczyszczaniu środowiska."
   },
   {
     "id": "R03_HARD_05",
@@ -1212,7 +1212,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_09",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj grupy zwierząt do typowego środowiska życia według podsumowania rozdziału.",
+    "prompt": "Przyporządkuj grupy zwierząt do typowego środowiska życia.",
     "options": null,
     "items": [
       "skorupiaki",
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
       "pajęczaki": "brak czułków i cztery pary odnóży",
       "mięczaki": "miękkie niesegmentowane ciało"
     },
-    "explanation": "Tabela podsumowująca rozdział porównuje stawonogi z mięczakami i wskazuje najważniejsze cechy rozpoznawcze każdej grupy."
+    "explanation": "Tabela podsumowująca porównuje się stawonogi z mięczakami i wskazuje najważniejsze cechy rozpoznawcze każdej grupy."
   }
 ];
 

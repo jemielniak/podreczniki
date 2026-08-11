@@ -22,7 +22,7 @@ const ALL_EXERCISES = [
       "w Chinach"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że najdawniejsi przodkowie człowieka współczesnego żyli w Afryce około 4 milionów lat temu."
+    "explanation": "Najdawniejsi przodkowie człowieka współczesnego żyli w Afryce około 4 milionów lat temu."
   },
   {
     "id": "R01_ZYC_02",
@@ -226,7 +226,7 @@ const ALL_EXERCISES = [
     "id": "R01_MEZ_03",
     "section": "Miasta-państwa Mezopotamii",
     "type": "multi_select",
-    "prompt": "Zaznacz dokonania przypisywane Sumerom w podręczniku.",
+    "prompt": "Zaznacz dokonania przypisywane Sumerom.",
     "options": [
       "stworzenie pisma",
       "wynalezienie koła",
@@ -419,7 +419,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_03",
     "section": "W Egipcie faraonów",
     "type": "multi_select",
-    "prompt": "Zaznacz grupy należące do społeczeństwa egipskiego opisane w podręczniku.",
+    "prompt": "Zaznacz grupy należące do społeczeństwa egipskiego.",
     "options": [
       "faraon",
       "kapłani",
@@ -577,7 +577,7 @@ const ALL_EXERCISES = [
       "Daleki Wschód"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wyjaśnia, że Izraelici udali się do Palestyny, nazywanej w starożytności Ziemią Kanaan."
+    "explanation": "Izraelici udali się do Palestyny, nazywanej w starożytności Ziemią Kanaan."
   },
   {
     "id": "R01_IZR_02",
@@ -598,7 +598,7 @@ const ALL_EXERCISES = [
       "Abrahama",
       "Mojżesza"
     ],
-    "explanation": "Według przekazu podręcznika Abraham poprowadził Izraelitów do Palestyny, a Mojżesz wyprowadził ich z Egiptu.",
+    "explanation": "Według przekazu biblijnego Abraham poprowadził Izraelitów do Palestyny, a Mojżesz wyprowadził ich z Egiptu.",
     "altAnswers": [
       [
         "Abrahama",
@@ -789,7 +789,7 @@ const ALL_EXERCISES = [
     "id": "R01_IND_04",
     "section": "Cywilizacje Indii i Chin",
     "type": "multi_select",
-    "prompt": "Zaznacz najważniejszych bogów hinduizmu wymienionych w podręczniku.",
+    "prompt": "Zaznacz najważniejszych bogów hinduizmu.",
     "options": [
       "Brahma",
       "Wisznu",
@@ -803,7 +803,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "W podręczniku jako najważniejszych bogów hinduizmu wymieniono Brahmę, Wisznu i Sziwę."
+    "explanation": "Jako najważniejszych bogów hinduizmu wymieniono Brahmę, Wisznu i Sziwę."
   },
   {
     "id": "R01_IND_05",
@@ -935,7 +935,7 @@ const ALL_EXERCISES = [
       "Izraelici"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że pierwsi pismo zastosowali Sumerowie na Bliskim Wschodzie.",
+    "explanation": "Pierwsi pismo zastosowali Sumerowie na Bliskim Wschodzie.",
     "image": "/img/r01_tabliczka_klinowa.jpg"
   },
   {
@@ -974,7 +974,7 @@ const ALL_EXERCISES = [
     "id": "R01_PIS_04",
     "section": "Od hieroglifów do alfabetu",
     "type": "multi_select",
-    "prompt": "Zaznacz zastosowania pisma opisane w podręczniku.",
+    "prompt": "Zaznacz zastosowania pisma.",
     "options": [
       "spisywanie praw",
       "zawieranie transakcji handlowych",
@@ -1036,7 +1036,7 @@ const ALL_EXERCISES = [
     "id": "R01_PIS_07",
     "section": "Od hieroglifów do alfabetu",
     "type": "sequence",
-    "prompt": "Ułóż etapy rozwoju znaku pisma zgodnie z infografiką w podręczniku.",
+    "prompt": "Ułóż etapy rozwoju znaku pisma zgodnie z infografiką.",
     "options": null,
     "items": [
       "litera grecka",
@@ -1194,7 +1194,7 @@ const ALL_EXERCISES = [
     "answer": [
       "Hatszepsut"
     ],
-    "explanation": "Podręcznik podaje, że faraonami zwykle zostawali mężczyźni, ale w XV wieku p.n.e. państwem rządziła królowa Hatszepsut.",
+    "explanation": "Faraonami zwykle zostawali mężczyźni, ale w XV wieku p.n.e. państwem rządziła królowa Hatszepsut.",
     "altAnswers": [
       [
         "Hatszepsut",
@@ -1275,7 +1275,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_10",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia cywilizacji chińskiej wymienione w podręczniku.",
+    "prompt": "Zaznacz osiągnięcia cywilizacji chińskiej.",
     "options": [
       "papier",
       "porcelana",
@@ -1291,7 +1291,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Do osiągnięć Chińczyków podręcznik zalicza papier, porcelanę, proch strzelniczy, jedwab oraz metody druku.",
+    "explanation": "Do osiągnięć Chińczyków zalicza się papier, porcelanę, proch strzelniczy, jedwab oraz metody druku.",
     "image": "/img/r01_jedwabny_szlak_karawana.jpg"
   }
 ];

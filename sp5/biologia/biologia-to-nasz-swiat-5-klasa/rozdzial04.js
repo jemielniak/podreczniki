@@ -120,7 +120,7 @@ const ALL_EXERCISES = [
     "prompt": "Sosna zwyczajna ma sztywne, kłujące igły.",
     "options": null,
     "answer": true,
-    "explanation": "Opis sosny w rozdziale wskazuje, że jej igły są sztywne i kłujące."
+    "explanation": "Opis sosny wskazuje, że jej igły są sztywne i kłujące."
   },
   {
     "id": "R04_NAG_08",
@@ -272,13 +272,13 @@ const ALL_EXERCISES = [
         "zolkną i opadają"
       ]
     ],
-    "explanation": "Rozdział podaje, że igły modrzewia rosną po 20-40, jesienią żółkną i opadają na zimę."
+    "explanation": "Igły modrzewia rosną po 20-40, jesienią żółkną i opadają na zimę."
   },
   {
     "id": "R04_POL_05",
     "section": "Nagonasienne w Polsce",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny nagonasienne występujące w Polsce wymienione w rozdziale.",
+    "prompt": "Zaznacz rośliny nagonasienne występujące w Polsce.",
     "options": [
       "cis pospolity",
       "jodła pospolita",
@@ -293,7 +293,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale jako nagonasienne występują między innymi cis, jodła, modrzew i świerk. Dąb i lipa są drzewami liściastymi, czyli okrytonasiennymi."
+    "explanation": "Jako nagonasienne występują między innymi cis, jodła, modrzew i świerk. Dąb i lipa są drzewami liściastymi, czyli okrytonasiennymi."
   },
   {
     "id": "R04_POL_06",
@@ -315,7 +315,7 @@ const ALL_EXERCISES = [
       "jałowiec pospolity",
       "jałowiec"
     ],
-    "explanation": "Taką cechę w rozdziale przypisano jałowcowi pospolitemu."
+    "explanation": "Taką cechę przypisano jałowcowi pospolitemu."
   },
   {
     "id": "R04_POL_08",
@@ -468,7 +468,7 @@ const ALL_EXERCISES = [
       "krzewinki": "niskie rośliny krzewiaste",
       "rośliny zielne": "rośliny o miękkich zielonych pędach"
     },
-    "explanation": "W rozdziale wskazano cztery formy okrytonasiennych: drzewa, krzewy, krzewinki i rośliny zielne."
+    "explanation": "Wskazano cztery formy okrytonasiennych: drzewa, krzewy, krzewinki i rośliny zielne."
   },
   {
     "id": "R04_OKR_06",
@@ -549,7 +549,7 @@ const ALL_EXERCISES = [
     "id": "R04_OKR_11",
     "section": "Rośliny okrytonasienne",
     "type": "single_choice",
-    "prompt": "Które określenie nie jest formą roślin okrytonasiennych wymienioną w rozdziale?",
+    "prompt": "Które określenie nie jest formą roślin okrytonasiennych?",
     "options": [
       "drzewa",
       "krzewy",
@@ -606,7 +606,7 @@ const ALL_EXERCISES = [
         "rosliny zielne"
       ]
     ],
-    "explanation": "Rozdział wymienia cztery formy roślin okrytonasiennych: drzewa, krzewy, krzewinki i rośliny zielne."
+    "explanation": "Wymienia się cztery formy roślin okrytonasiennych: drzewa, krzewy, krzewinki i rośliny zielne."
   },
   {
     "id": "R04_ORG_01",
@@ -664,7 +664,7 @@ const ALL_EXERCISES = [
     "id": "R04_ORG_04",
     "section": "Organy, nasiona i rozmnażanie",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje liścia wymienione w rozdziale.",
+    "prompt": "Zaznacz funkcje liścia.",
     "options": [
       "fotosynteza",
       "wymiana gazowa",
@@ -816,7 +816,7 @@ const ALL_EXERCISES = [
     "id": "R04_ORG_12",
     "section": "Organy, nasiona i rozmnażanie",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby rozsiewania owoców lub nasion pokazane w rozdziale.",
+    "prompt": "Zaznacz sposoby rozsiewania owoców lub nasion.",
     "image": "r04_sposoby_rozsiewania.jpg",
     "options": [
       "przez wiatr",
@@ -832,7 +832,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział pokazuje rozsiewanie przez wiatr, zwierzęta, wodę oraz samorzutne wyrzucanie nasion z owocu."
+    "explanation": "Pokazuje się rozsiewanie przez wiatr, zwierzęta, wodę oraz samorzutne wyrzucanie nasion z owocu."
   },
   {
     "id": "R04_ORG_13",
@@ -847,7 +847,7 @@ const ALL_EXERCISES = [
     "id": "R04_LIS_01",
     "section": "Drzewa liściaste i znaczenie roślin",
     "type": "multi_select",
-    "prompt": "Zaznacz drzewa liściaste wymienione w rozdziale.",
+    "prompt": "Zaznacz drzewa liściaste.",
     "image": "r04_liscie_drzew_lisciastych.jpg",
     "options": [
       "dąb szypułkowy",
@@ -990,7 +990,7 @@ const ALL_EXERCISES = [
     "id": "R04_LIS_09",
     "section": "Drzewa liściaste i znaczenie roślin",
     "type": "riddle",
-    "prompt": "Jak nazywa się drzewo liściaste z rozdziału, którego nazwa gatunkowa brzmi drobnolistna?",
+    "prompt": "Jak nazywa się drzewo liściaste, którego nazwa gatunkowa brzmi drobnolistna?",
     "options": null,
     "answer": "lipa drobnolistna",
     "altAnswers": [
@@ -1035,7 +1035,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz szczegółowe cechy sosny zwyczajnej podane w rozdziale.",
+    "prompt": "Zaznacz szczegółowe cechy sosny zwyczajnej.",
     "image": "r04_sosna_zwyczajna.jpg",
     "options": [
       "ma sztywne i kłujące igły",
@@ -1130,7 +1130,7 @@ const ALL_EXERCISES = [
       "cis pospolity": "nasiona z czerwonymi osłonkami",
       "jałowiec pospolity": "kłujące igły po trzy"
     },
-    "explanation": "Te cechy pozwalają rozróżnić polskie rośliny nagonasienne przedstawione w rozdziale."
+    "explanation": "Te cechy pozwalają rozróżnić polskie rośliny nagonasienne."
   },
   {
     "id": "R04_HARD_06",

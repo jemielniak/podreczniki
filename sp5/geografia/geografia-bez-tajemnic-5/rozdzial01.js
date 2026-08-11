@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R01_MAP_01",
     "section": "Mapa źródłem informacji",
     "type": "single_choice",
-    "prompt": "Czym według rozdziału jest mapa?",
+    "prompt": "Czym jest mapa?",
     "options": [
       "Zdjęciem wykonanym wyłącznie z samolotu",
       "Obrazem powierzchni Ziemi lub jej części na płaszczyźnie",
@@ -140,7 +140,7 @@ const ALL_EXERCISES = [
       "Stare i cyfrowe"
     ],
     "answer": 2,
-    "explanation": "Podręcznik dzieli mapy ze względu na treść na ogólnogeograficzne i tematyczne."
+    "explanation": "Dzieli się mapy ze względu na treść na ogólnogeograficzne i tematyczne."
   },
   {
     "id": "R01_MAP_09",
@@ -358,7 +358,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "/img/r01_podzialka_liniowa.jpg",
-    "explanation": "Podręcznik podaje linijkę, cyrkiel i nitkę jako przydatne sposoby odmierzania odległości na mapie."
+    "explanation": "Podaje się linijkę, cyrkiel i nitkę jako przydatne sposoby odmierzania odległości na mapie."
   },
   {
     "id": "R01_SKA_09",
@@ -861,7 +861,7 @@ const ALL_EXERCISES = [
     "id": "R01_KON_02",
     "section": "Kontynenty i oceany",
     "type": "single_choice",
-    "prompt": "Który kontynent ma największą powierzchnię według listy w podręczniku?",
+    "prompt": "Który kontynent ma największą powierzchnię według listy?",
     "options": [
       "Europa",
       "Australia",
@@ -880,7 +880,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Ziemi jest pięć oceanów i siedem kontynentów.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje pięć oceanów i siedem kontynentów."
+    "explanation": "Podaje się pięć oceanów i siedem kontynentów."
   },
   {
     "id": "R01_KON_04",
@@ -964,7 +964,7 @@ const ALL_EXERCISES = [
     "id": "R01_KON_07",
     "section": "Kontynenty i oceany",
     "type": "single_choice",
-    "prompt": "Jaką wysokość osiągają niziny według definicji z rozdziału?",
+    "prompt": "Jaką wysokość osiągają niziny według definicji?",
     "options": [
       "Do 300 m n.p.m.",
       "Powyżej 300 m n.p.m.",
@@ -983,7 +983,7 @@ const ALL_EXERCISES = [
     "prompt": "Wyżyny są położone powyżej 300 m n.p.m. i mają zwykle małe wysokości względne.",
     "options": null,
     "answer": true,
-    "explanation": "Wyżyny według rozdziału leżą powyżej 300 m n.p.m. i mają zwykle małe, do 300 m, wysokości względne."
+    "explanation": "Wyżyny leżą powyżej 300 m n.p.m. i mają zwykle małe, do 300 m, wysokości względne."
   },
   {
     "id": "R01_KON_09",
@@ -998,7 +998,7 @@ const ALL_EXERCISES = [
     "id": "R01_KON_10",
     "section": "Kontynenty i oceany",
     "type": "sequence",
-    "prompt": "Ułóż kontynenty od największego do najmniejszego zgodnie z listą w podręczniku.",
+    "prompt": "Ułóż kontynenty od największego do najmniejszego zgodnie z listą.",
     "options": null,
     "items": [
       "Europa",
@@ -1018,7 +1018,7 @@ const ALL_EXERCISES = [
       "Europa",
       "Australia"
     ],
-    "explanation": "Podręcznik szereguje kontynenty według powierzchni: Azja, Afryka, Ameryka Północna, Ameryka Południowa, Antarktyda, Europa, Australia."
+    "explanation": "Szereguje się kontynenty według powierzchni: Azja, Afryka, Ameryka Północna, Ameryka Południowa, Antarktyda, Europa, Australia."
   },
   {
     "id": "R01_KON_11",
@@ -1039,7 +1039,7 @@ const ALL_EXERCISES = [
     "id": "R01_KON_12",
     "section": "Kontynenty i oceany",
     "type": "match",
-    "prompt": "Połącz podróżnika z trasą lub dokonaniem opisanym w rozdziale.",
+    "prompt": "Połącz podróżnika z trasą lub dokonaniem.",
     "options": null,
     "left": [
       "Wikingowie",
@@ -1065,7 +1065,7 @@ const ALL_EXERCISES = [
       "Ferdynand Magellan": "Jego statki jako pierwsze opłynęły Ziemię",
       "James Cook": "Ustalił wielkość kontynentu Australii"
     },
-    "explanation": "W rozdziale opisano najważniejszych podróżników i trasy ich wypraw."
+    "explanation": "Opisano najważniejszych podróżników i trasy ich wypraw."
   },
   {
     "id": "R01_HARD_01",
@@ -1206,7 +1206,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Krzysztof Kolumb, Ferdynand Magellan, James Cook, poziomica.",
     "options": null,
     "answer": "poziomica",
-    "explanation": "Kolumb, Magellan i Cook to podróżnicy lub odkrywcy opisani w rozdziale, a poziomica jest linią na mapie."
+    "explanation": "Kolumb, Magellan i Cook to podróżnicy lub odkrywcy, a poziomica jest linią na mapie."
   },
   {
     "id": "R01_HARD_09",
@@ -1230,7 +1230,7 @@ const ALL_EXERCISES = [
       "Ferdynand Magellan (1519-1522)",
       "James Cook (1768-1771)"
     ],
-    "explanation": "Daty podane w rozdziale układają się od wypraw wikingów, przez Marco Polo, Kolumba, da Gamę, Magellana, aż po Jamesa Cooka."
+    "explanation": "Daty układają się od wypraw wikingów, przez Marco Polo, Kolumba, da Gamę, Magellana, aż po Jamesa Cooka."
   },
   {
     "id": "R01_HARD_10",

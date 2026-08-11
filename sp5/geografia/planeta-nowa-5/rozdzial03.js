@@ -55,8 +55,8 @@ const ALL_EXERCISES = [
     "id": "R03_ZIE_04",
     "section": "Ziemia i globus",
     "type": "single_choice",
-    "prompt": "Ile w przybliżeniu lat istnieje Ziemia według tekstu rozdziału?",
-    "explanation": "W rozdziale podano, że Ziemia istnieje około 4,5 miliarda lat.",
+    "prompt": "Ile w przybliżeniu lat istnieje Ziemia?",
+    "explanation": "Ziemia istnieje około 4,5 miliarda lat.",
     "options": [
       "około 4,5 mln lat",
       "około 45 mln lat",
@@ -162,8 +162,8 @@ const ALL_EXERCISES = [
     "id": "R03_ZIE_11",
     "section": "Ziemia i globus",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem Ziemi w rozdziale.",
-    "explanation": "Rozdział podkreśla kulisty kształt Ziemi, jej obrót wokół osi oraz spłaszczenie na biegunach.",
+    "prompt": "Zaznacz informacje zgodne z opisem Ziemi.",
+    "explanation": "Podkreśla się kulisty kształt Ziemi, jej obrót wokół osi oraz spłaszczenie na biegunach.",
     "options": [
       "Ziemia obraca się wokół własnej osi",
       "Ziemia jest idealnym sześcianem",
@@ -236,7 +236,7 @@ const ALL_EXERCISES = [
     "section": "Siatka geograficzna i półkule",
     "type": "true_false",
     "prompt": "Wszystkie południki mają taką samą długość.",
-    "explanation": "W rozdziale podano, że południki są równej długości.",
+    "explanation": "Południki są równej długości.",
     "options": null,
     "answer": true
   },
@@ -277,7 +277,7 @@ const ALL_EXERCISES = [
     "section": "Siatka geograficzna i półkule",
     "type": "multi_select",
     "prompt": "Zaznacz równoleżniki, którym nadano własne nazwy.",
-    "explanation": "W rozdziale wymieniono równik, dwa zwrotniki i dwa koła podbiegunowe.",
+    "explanation": "Wymieniono równik, dwa zwrotniki i dwa koła podbiegunowe.",
     "options": [
       "równik",
       "zwrotnik Raka",
@@ -431,8 +431,8 @@ const ALL_EXERCISES = [
     "id": "R03_KON_01",
     "section": "Kontynenty i oceany",
     "type": "single_choice",
-    "prompt": "Ile kontynentów wyróżnia się na Ziemi w rozdziale?",
-    "explanation": "Rozdział wymienia siedem kontynentów.",
+    "prompt": "Ile kontynentów wyróżnia się na Ziemi?",
+    "explanation": "Wymienia się siedem kontynentów.",
     "options": [
       "pięć",
       "sześć",
@@ -448,7 +448,7 @@ const ALL_EXERCISES = [
     "id": "R03_KON_02",
     "section": "Kontynenty i oceany",
     "type": "multi_select",
-    "prompt": "Zaznacz kontynenty wymienione w rozdziale.",
+    "prompt": "Zaznacz kontynenty.",
     "explanation": "Wśród siedmiu kontynentów są między innymi Azja, Afryka, Europa i Australia.",
     "options": [
       "Azja",
@@ -469,7 +469,7 @@ const ALL_EXERCISES = [
     "id": "R03_KON_03",
     "section": "Kontynenty i oceany",
     "type": "single_choice",
-    "prompt": "Ile oceanów wchodzi w skład oceanu światowego według rozdziału?",
+    "prompt": "Ile oceanów wchodzi w skład oceanu światowego?",
     "explanation": "Ocean światowy jest umownie podzielony na pięć oceanów.",
     "options": [
       "trzy",
@@ -519,7 +519,7 @@ const ALL_EXERCISES = [
     "section": "Kontynenty i oceany",
     "type": "true_false",
     "prompt": "Europa i Azja w rzeczywistości tworzą jeden wielki kontynent nazywany Eurazją.",
-    "explanation": "Podręcznik zaznacza, że Europę i Azję dzieli się umownie ze względów historycznych i kulturowych.",
+    "explanation": "Europę i Azję dzieli się umownie ze względów historycznych i kulturowych.",
     "options": null,
     "answer": true
   },
@@ -628,7 +628,7 @@ const ALL_EXERCISES = [
     "section": "Kontynenty i oceany",
     "type": "true_false",
     "prompt": "Kontynenty zajmują większą powierzchnię na półkuli północnej niż na półkuli południowej.",
-    "explanation": "Pod mapą w rozdziale podano, że rozmieszczenie kontynentów nie jest równomierne i więcej lądów znajduje się na półkuli północnej.",
+    "explanation": "Pod mapą podano, że rozmieszczenie kontynentów nie jest równomierne i więcej lądów znajduje się na półkuli północnej.",
     "options": null,
     "answer": true,
     "image": "/img/r03_kontynenty_oceany_mapa.jpg"
@@ -650,7 +650,7 @@ const ALL_EXERCISES = [
     "id": "R03_ODK_01",
     "section": "Wielkie odkrycia geograficzne",
     "type": "single_choice",
-    "prompt": "Kto według rozdziału był jednym z pierwszych wielkich podróżników i odkrywców wnętrza Azji?",
+    "prompt": "Kto był jednym z pierwszych wielkich podróżników i odkrywców wnętrza Azji?",
     "explanation": "Marco Polo odbył wieloletnią wyprawę w głąb Azji.",
     "options": [
       "Marco Polo",
@@ -667,7 +667,7 @@ const ALL_EXERCISES = [
     "section": "Wielkie odkrycia geograficzne",
     "type": "fill_in",
     "prompt": "Wyprawa Marca Polo w głąb Azji trwała od roku __________ do roku __________.",
-    "explanation": "W rozdziale podano lata 1271-1295.",
+    "explanation": "Podano lata 1271-1295.",
     "options": null,
     "answer": [
       "1271",
@@ -705,7 +705,7 @@ const ALL_EXERCISES = [
     "section": "Wielkie odkrycia geograficzne",
     "type": "multi_select",
     "prompt": "Które towary zaczęto sprowadzać z Azji dzięki poznaniu odległych państw przez Europejczyków?",
-    "explanation": "W rozdziale wymieniono przyprawy: pieprz, cynamon, goździki i gałkę muszkatołową.",
+    "explanation": "Wymieniono przyprawy: pieprz, cynamon, goździki i gałkę muszkatołową.",
     "options": [
       "pieprz",
       "cynamon",
@@ -824,7 +824,7 @@ const ALL_EXERCISES = [
     "section": "Wielkie odkrycia geograficzne",
     "type": "match",
     "prompt": "Połącz podróżnika z dokonaniem.",
-    "explanation": "Każdy z tych podróżników jest w rozdziale powiązany z innym etapem poznawania świata.",
+    "explanation": "Każdy z tych podróżników jest powiązany z innym etapem poznawania świata.",
     "options": null,
     "left": [
       "Marco Polo",
@@ -951,7 +951,7 @@ const ALL_EXERCISES = [
     "section": "Badacze i podróże nowożytne",
     "type": "true_false",
     "prompt": "Magellan zginął na Filipinach.",
-    "explanation": "Rozdział podaje, że Magellan zginął w walce z tubylcami na Filipinach.",
+    "explanation": "Magellan zginął w walce z tubylcami na Filipinach.",
     "options": null,
     "answer": true
   },
@@ -975,8 +975,8 @@ const ALL_EXERCISES = [
     "id": "R03_BAD_06",
     "section": "Badacze i podróże nowożytne",
     "type": "single_choice",
-    "prompt": "Kto odkrył Australię w 1605 roku według rozdziału?",
-    "explanation": "Rozdział wskazuje holenderskiego żeglarza Willema Janszoona.",
+    "prompt": "Kto odkrył Australię w 1605 roku?",
+    "explanation": "Wskazuje się holenderskiego żeglarza Willema Janszoona.",
     "options": [
       "Willem Janszoon",
       "James Cook",
@@ -992,7 +992,7 @@ const ALL_EXERCISES = [
     "section": "Badacze i podróże nowożytne",
     "type": "match",
     "prompt": "Połącz badacza z dokonaniem.",
-    "explanation": "Rozdział zestawia tych badaczy z odkryciami w Afryce i wyprawami polarnymi.",
+    "explanation": "Zestawia się tych badaczy z odkryciami w Afryce i wyprawami polarnymi.",
     "options": null,
     "left": [
       "David Livingstone",
@@ -1128,7 +1128,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "true_false",
     "prompt": "James Cook przekroczył oba koła podbiegunowe.",
-    "explanation": "W rozdziale podano, że James Cook przekroczył oba koła podbiegunowe.",
+    "explanation": "James Cook przekroczył oba koła podbiegunowe.",
     "options": null,
     "answer": true
   },
@@ -1136,8 +1136,8 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz obiekt geograficzny z podróżnikiem, którego dotyczy w rozdziale.",
-    "explanation": "Każdy obiekt pojawia się w rozdziale przy opisie innej wyprawy lub odkrycia.",
+    "prompt": "Połącz obiekt geograficzny z podróżnikiem, którego dotyczy.",
+    "explanation": "Każdy obiekt pojawia się przy opisie innej wyprawy lub odkrycia.",
     "options": null,
     "left": [
       "góry Pamir",

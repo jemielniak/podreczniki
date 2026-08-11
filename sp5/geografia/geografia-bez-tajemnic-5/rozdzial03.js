@@ -45,7 +45,7 @@ const ALL_EXERCISES = [
         "rośliny"
       ]
     ],
-    "explanation": "Podręcznik wyjaśnia, że węgiel kamienny jest skałą osadową powstałą około 300 milionów lat temu ze szczątków roślin."
+    "explanation": "Węgiel kamienny jest skałą osadową powstałą około 300 milionów lat temu ze szczątków roślin."
   },
   {
     "id": "R03_SLA_03",
@@ -278,7 +278,7 @@ const ALL_EXERCISES = [
         "dno"
       ]
     ],
-    "explanation": "Podręcznik opisuje wąwóz jako wydłużoną, wklęsłą formę terenu o stromych zboczach i płaskim dnie."
+    "explanation": "Opisuje się wąwóz jako wydłużoną, wklęsłą formę terenu o stromych zboczach i płaskim dnie."
   },
   {
     "id": "R03_LUB_05",
@@ -300,7 +300,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUB_06",
     "section": "Wyżyna Lubelska",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy krajobrazu wiejskiego opisane w rozdziale.",
+    "prompt": "Zaznacz cechy krajobrazu wiejskiego.",
     "options": [
       "małe zaludnienie",
       "niska, jednorodzinna i rozproszona zabudowa",
@@ -419,7 +419,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUB_12",
     "section": "Wyżyna Lubelska",
     "type": "scenario",
-    "prompt": "Rolnik gospodaruje na żyznych czarnoziemach Wyżyny Lubelskiej. Który zestaw roślin najlepiej pasuje do upraw o wysokich wymaganiach glebowych wymienionych w rozdziale?",
+    "prompt": "Rolnik gospodaruje na żyznych czarnoziemach Wyżyny Lubelskiej. Który zestaw roślin najlepiej pasuje do upraw o wysokich wymaganiach glebowych?",
     "options": [
       "pszenica, buraki cukrowe, tytoń, chmiel",
       "ryż, kawa, bawełna, herbata",
@@ -607,7 +607,7 @@ const ALL_EXERCISES = [
     "id": "R03_JUR_11",
     "section": "Wyżyna Krakowsko-Częstochowska",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca, które podręcznik wskazuje jako możliwe do zobaczenia w Ojcowskim Parku Narodowym.",
+    "prompt": "Zaznacz miejsca, które wskazuje się jako możliwe do zobaczenia w Ojcowskim Parku Narodowym.",
     "options": [
       "Brama Krakowska",
       "Dolina Prądnika",
@@ -649,7 +649,7 @@ const ALL_EXERCISES = [
     "id": "R03_TAT_01",
     "section": "Tatry i Podhale",
     "type": "single_choice",
-    "prompt": "Na jakiej wysokości położone są w Polsce obszary górskie według rozdziału?",
+    "prompt": "Na jakiej wysokości położone są w Polsce obszary górskie?",
     "options": [
       "poniżej 100 m n.p.m.",
       "100-300 m n.p.m.",
@@ -659,7 +659,7 @@ const ALL_EXERCISES = [
       "tylko powyżej 2000 m n.p.m."
     ],
     "answer": 3,
-    "explanation": "W podręczniku podano, że góry to obszary położone powyżej 500 m n.p.m."
+    "explanation": "Góry to obszary położone powyżej 500 m n.p.m."
   },
   {
     "id": "R03_TAT_02",
@@ -778,7 +778,7 @@ const ALL_EXERCISES = [
     "id": "R03_TAT_07",
     "section": "Tatry i Podhale",
     "type": "multi_select",
-    "prompt": "Zaznacz prawdziwe cechy pogody w górach opisane w podręczniku.",
+    "prompt": "Zaznacz prawdziwe cechy pogody w górach.",
     "options": [
       "temperatura spada wraz z wysokością",
       "opadów jest więcej wraz z wysokością",
@@ -850,7 +850,7 @@ const ALL_EXERCISES = [
     "id": "R03_TAT_11",
     "section": "Tatry i Podhale",
     "type": "multi_select",
-    "prompt": "Zaznacz organizmy wymienione w rozdziale jako występujące w Tatrach.",
+    "prompt": "Zaznacz organizmy jako występujące w Tatrach.",
     "options": [
       "krokus",
       "goryczka krótkołodygowa",
@@ -865,7 +865,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale pokazano m.in. krokusa, goryczkę, kozicę tatrzańską, niedźwiedzia brunatnego i świstaka tatrzańskiego."
+    "explanation": "Pokazano m.in. krokusa, goryczkę, kozicę tatrzańską, niedźwiedzia brunatnego i świstaka tatrzańskiego."
   },
   {
     "id": "R03_TAT_12",
@@ -1102,13 +1102,13 @@ const ALL_EXERCISES = [
       "krajobraz krasowy": "Wyżyna Krakowsko-Częstochowska",
       "krajobraz wysokogórski": "Tatry"
     },
-    "explanation": "Rozdział pokazuje różne przykłady krajobrazów: miejsko-przemysłowy, rolniczy, krasowy i wysokogórski."
+    "explanation": "Pokazuje się różne przykłady krajobrazów: miejsko-przemysłowy, rolniczy, krasowy i wysokogórski."
   },
   {
     "id": "R03_MIE_02",
     "section": "Powtórka mieszana",
     "type": "sort",
-    "prompt": "Przyporządkuj skały lub surowce do krain, z którymi są najmocniej związane w rozdziale.",
+    "prompt": "Przyporządkuj skały lub surowce do krain, z którymi są najmocniej związane.",
     "options": null,
     "items": [
       "węgiel kamienny",
@@ -1187,7 +1187,7 @@ const ALL_EXERCISES = [
     "id": "R03_MIE_06",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz parki narodowe wymienione w rozdziale.",
+    "prompt": "Zaznacz parki narodowe.",
     "options": [
       "Ojcowski Park Narodowy",
       "Tatrzański Park Narodowy",
@@ -1200,7 +1200,7 @@ const ALL_EXERCISES = [
       0,
       1
     ],
-    "explanation": "W rozdziale pojawiają się Ojcowski Park Narodowy i Tatrzański Park Narodowy."
+    "explanation": "Pojawiają się Ojcowski Park Narodowy i Tatrzański Park Narodowy."
   },
   {
     "id": "R03_MIE_07",
@@ -1232,7 +1232,7 @@ const ALL_EXERCISES = [
     "prompt": "W Polsce wyżyny są zwykle położone na wysokości 300-500 m n.p.m., a góry powyżej 500 m n.p.m.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje taki podział wysokościowy wyżyn i gór."
+    "explanation": "Podaje się taki podział wysokościowy wyżyn i gór."
   },
   {
     "id": "R03_MIE_09",
@@ -1268,7 +1268,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Którą kopalnię w Katowicach pokazano w rozdziale jako przykład kopalni węgla kamiennego?",
+    "prompt": "Którą kopalnię w Katowicach pokazano jako przykład kopalni węgla kamiennego?",
     "options": [
       "Kopalnia „Murcki”",
       "Kopalnia „Bogdanka”",
@@ -1311,13 +1311,13 @@ const ALL_EXERCISES = [
     "prompt": "Granica między Tatrami Zachodnimi i Tatrami Wysokimi przebiega przez Przełęcz Liliowe niedaleko Kasprowego Wierchu.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje Przełęcz Liliowe jako granicę między tymi częściami Tatr."
+    "explanation": "Wskazuje się Przełęcz Liliowe jako granicę między tymi częściami Tatr."
   },
   {
     "id": "R03_HARD_04",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaki jest najwyższy szczyt polskiej części Tatr Zachodnich według rozdziału?",
+    "prompt": "Jaki jest najwyższy szczyt polskiej części Tatr Zachodnich?",
     "options": [
       "Starorobociański Wierch",
       "Rysy",
@@ -1333,7 +1333,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz surowiec lub produkt węglowy z przykładem jego wykorzystania podanym w rozdziale.",
+    "prompt": "Połącz surowiec lub produkt węglowy z przykładem jego wykorzystania.",
     "options": null,
     "left": [
       "węgiel kamienny",
@@ -1362,7 +1362,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_06",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz dziedziny, których obiekty tworzą Szlak Zabytków Techniki województwa śląskiego według rozdziału.",
+    "prompt": "Zaznacz dziedziny, których obiekty tworzą Szlak Zabytków Techniki województwa śląskiego.",
     "options": [
       "górnictwo",
       "hutnictwo",

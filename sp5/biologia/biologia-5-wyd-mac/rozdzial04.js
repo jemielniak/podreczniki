@@ -91,7 +91,7 @@ const ALL_EXERCISES = [
     "id": "R04_CHAR_05",
     "section": "Charakterystyka i organy",
     "type": "multi_select",
-    "prompt": "Zaznacz przystosowania roślin okrytonasiennych do środowiska suchego opisane w rozdziale.",
+    "prompt": "Zaznacz przystosowania roślin okrytonasiennych do środowiska suchego.",
     "options": [
       "drobne i nieliczne liście",
       "fotosynteza zachodząca w zielonych łodygach",
@@ -287,7 +287,7 @@ const ALL_EXERCISES = [
     "id": "R04_ROZM_04",
     "section": "Rozmnażanie i kwiaty",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy roślin wiatropylnych opisane w rozdziale.",
+    "prompt": "Zaznacz cechy roślin wiatropylnych.",
     "options": [
       "uwalniają bardzo duże ilości pyłku",
       "pyłek przenosi wiatr",
@@ -528,7 +528,7 @@ const ALL_EXERCISES = [
     "id": "R04_NAS_06",
     "section": "Nasiona i owoce",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby rozsiewania nasion z udziałem zwierząt opisane w rozdziale.",
+    "prompt": "Zaznacz sposoby rozsiewania nasion z udziałem zwierząt.",
     "options": [
       "zwierzę zjada słodki owoc i usuwa nasiona z odchodami",
       "sójka lub wiewiórka zakopuje żołędzie na zapas",
@@ -750,7 +750,7 @@ const ALL_EXERCISES = [
     "id": "R04_DRZ_08",
     "section": "Drzewa liściaste",
     "type": "riddle",
-    "prompt": "Jak nazywają się owoce dębów opisanych w rozdziale?",
+    "prompt": "Jak nazywają się owoce dębów?",
     "options": null,
     "answer": "żołędzie",
     "altAnswers": [
@@ -766,7 +766,7 @@ const ALL_EXERCISES = [
     "id": "R04_DRZ_09",
     "section": "Drzewa liściaste",
     "type": "match",
-    "prompt": "Połącz gatunek drzewa z cechą wymienioną w rozdziale.",
+    "prompt": "Połącz gatunek drzewa z cechą.",
     "options": null,
     "left": [
       "kasztanowiec pospolity",
@@ -789,7 +789,7 @@ const ALL_EXERCISES = [
       "buk zwyczajny": "orzeszki ukryte w kolczastej łupinie",
       "klon jesionolistny": "liście pierzastozłożone o 3-7 listkach"
     },
-    "explanation": "Rozdział podaje charakterystyczne cechy wybranych gatunków drzew liściastych spotykanych w Polsce.",
+    "explanation": "Podaje się charakterystyczne cechy wybranych gatunków drzew liściastych spotykanych w Polsce.",
     "image": "r04_drzewa_lisciaste.jpg"
   },
   {
@@ -817,14 +817,14 @@ const ALL_EXERCISES = [
     "prompt": "Rośliny okrytonasienne tworzą większość środowisk życia dla innych organizmów.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że okrytonasienne tworzą m.in. łąki, zarośla, szuwary, lasy liściaste i wilgotne lasy równikowe.",
+    "explanation": "Okrytonasienne tworzą m.in. łąki, zarośla, szuwary, lasy liściaste i wilgotne lasy równikowe.",
     "image": "r04_laka_las.jpg"
   },
   {
     "id": "R04_ZNAC_02",
     "section": "Znaczenie okrytonasiennych",
     "type": "multi_select",
-    "prompt": "Zaznacz środowiska tworzone głównie przez rośliny okrytonasienne według rozdziału.",
+    "prompt": "Zaznacz środowiska tworzone głównie przez rośliny okrytonasienne.",
     "options": [
       "łąki",
       "zarośla nadrzeczne",
@@ -886,14 +886,14 @@ const ALL_EXERCISES = [
       "elementy dekoracyjne": "rośliny w parkach, ogrodach i doniczkach",
       "materiały": "wiklina, bawełna, korek i drewno"
     },
-    "explanation": "Rozdział pokazuje, że człowiek wykorzystuje rośliny okrytonasienne jako żywność, paszę, ozdobę, źródło materiałów i substancji chemicznych.",
+    "explanation": "Człowiek wykorzystuje rośliny okrytonasienne jako żywność, paszę, ozdobę, źródło materiałów i substancji chemicznych.",
     "image": "r04_zastosowania_roslin.jpg"
   },
   {
     "id": "R04_ZNAC_05",
     "section": "Znaczenie okrytonasiennych",
     "type": "multi_select",
-    "prompt": "Zaznacz materiały uzyskiwane z roślin okrytonasiennych wymienione w rozdziale.",
+    "prompt": "Zaznacz materiały uzyskiwane z roślin okrytonasiennych.",
     "options": [
       "wiklina",
       "bawełna",
@@ -1011,7 +1011,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile gatunków roślin okrytonasiennych podano w rozdziale jako poznanych przez naukę?",
+    "prompt": "Ile gatunków roślin okrytonasiennych podano jako poznanych przez naukę?",
     "options": [
       "ponad 320 tysięcy",
       "około 36 tysięcy",
@@ -1021,18 +1021,18 @@ const ALL_EXERCISES = [
       "ponad 115 tysięcy"
     ],
     "answer": 0,
-    "explanation": "W rozdziale napisano, że z około 360 tysięcy poznanych gatunków roślin ponad 320 tysięcy stanowią okrytonasienne."
+    "explanation": "Z około 360 tysięcy poznanych gatunków roślin ponad 320 tysięcy stanowią okrytonasienne."
   },
   {
     "id": "R04_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o rekordowych roślinach zgodne z rozdziałem.",
+    "prompt": "Zaznacz prawdziwe informacje o rekordowych roślinach.",
     "options": [
       "Najwyższymi roślinami okrytonasiennymi są eukaliptusy królewskie",
       "Rekordowy eukaliptus królewski ma ponad 99 metrów",
       "Najwyższe drzewo świata to nagonasienna sekwoja wieczniezielona",
-      "Najwyższe drzewo Europy opisane w rozdziale rośnie w Portugalii",
+      "Najwyższe drzewo Europy rośnie w Portugalii",
       "Najwyższym drzewem świata jest eukaliptus różnobarwny"
     ],
     "answer": [
@@ -1041,14 +1041,14 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział odróżnia rekordowe okrytonasienne eukaliptusy od nagonasiennej sekwoi wieczniezielonej, która jest najwyższym drzewem świata.",
+    "explanation": "Odróżnia się rekordowe okrytonasienne eukaliptusy od nagonasiennej sekwoi wieczniezielonej, która jest najwyższym drzewem świata.",
     "image": "r04_rekordowe_rosliny.jpg"
   },
   {
     "id": "R04_HARD_03",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Najwyższe drzewo Europy opisane w rozdziale to eukaliptus __________ rosnący w __________.",
+    "prompt": "Najwyższe drzewo Europy to eukaliptus __________ rosnący w __________.",
     "options": null,
     "answer": [
       "różnobarwny",
@@ -1064,7 +1064,7 @@ const ALL_EXERCISES = [
         "Portugalia"
       ]
     ],
-    "explanation": "W rozdziale podano, że najwyższe drzewo Europy to eukaliptus różnobarwny rosnący w Portugalii.",
+    "explanation": "Najwyższe drzewo Europy to eukaliptus różnobarwny rosnący w Portugalii.",
     "image": "r04_rekordowe_rosliny.jpg"
   },
   {
@@ -1091,14 +1091,14 @@ const ALL_EXERCISES = [
       "brylancik niebieskogardły": "koliber",
       "nietoperz wieprzoryjek meksykański": "ssak zapylający kwiaty"
     },
-    "explanation": "Rozdział pokazuje różne zwierzęta zapylające: owady, ptaki i ssaki.",
+    "explanation": "Pokazuje się różne zwierzęta zapylające: owady, ptaki i ssaki.",
     "image": "r04_zapylacze_swiata.jpg"
   },
   {
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Której barwy pszczoły nie rozróżniają według ciekawostki w rozdziale?",
+    "prompt": "Której barwy pszczoły nie rozróżniają według ciekawostki?",
     "options": [
       "czerwonej",
       "żółtej",
@@ -1118,7 +1118,7 @@ const ALL_EXERCISES = [
     "prompt": "Pszczoły mają ogromne znaczenie dla rolnictwa, bo bez ich zapylania wiele roślin uprawnych nie wytworzyłoby owoców i nasion.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla, że pszczoły zapylają kwiaty roślin uprawnych, co umożliwia powstawanie owoców i nasion.",
+    "explanation": "Pszczoły zapylają kwiaty roślin uprawnych, co umożliwia powstawanie owoców i nasion.",
     "image": "r04_zapylacze_swiata.jpg"
   },
   {
@@ -1142,7 +1142,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz zwierzę z miejscem wskazanym w rozdziale do odnalezienia na mapie.",
+    "prompt": "Połącz zwierzę z miejscem do odnalezienia na mapie.",
     "options": null,
     "left": [
       "brylancik niebieskogardły",
@@ -1159,13 +1159,13 @@ const ALL_EXERCISES = [
       "wari czarno-biały": "Madagaskar",
       "wieprzoryjek meksykański": "Meksyk"
     },
-    "explanation": "Rozdział zachęca do znalezienia na mapie miejsc występowania tych zwierząt: Ekwadoru, Madagaskaru i Meksyku."
+    "explanation": "Zachęca się do znalezienia na mapie miejsc występowania tych zwierząt: Ekwadoru, Madagaskaru i Meksyku."
   },
   {
     "id": "R04_HARD_09",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która roślina wytwarza największe nasiona świata opisane w rozdziale?",
+    "prompt": "Która roślina wytwarza największe nasiona świata?",
     "options": [
       "lodicja seszelska",
       "brzoza brodawkowata",
@@ -1206,7 +1206,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz zasady przygotowania plakatu informacyjnego wymienione w rozdziale.",
+    "prompt": "Zaznacz zasady przygotowania plakatu informacyjnego.",
     "options": [
       "najpierw ustalić temat i tytuł",
       "w środkowej części przedstawić podstawowe dane",
@@ -1226,7 +1226,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_12",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do odmian kapusty warzywnej pokazanych w rozdziale: brokuł, kalafior, jarmuż, marchew.",
+    "prompt": "Co nie pasuje do odmian kapusty warzywnej: brokuł, kalafior, jarmuż, marchew.",
     "options": null,
     "answer": "marchew",
     "explanation": "Brokuł, kalafior i jarmuż zostały pokazane jako odmiany kapusty warzywnej, natomiast marchew nie należy do tej grupy.",

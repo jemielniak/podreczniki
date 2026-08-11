@@ -80,7 +80,7 @@ const ALL_EXERCISES = [
     "prompt": "Tkanka jest grupą komórek o podobnej budowie, które pełnią tę samą funkcję.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku tkankę zdefiniowano jako grupę podobnie zbudowanych komórek wykonujących tę samą funkcję."
+    "explanation": "Tkankę zdefiniowano jako grupę podobnie zbudowanych komórek wykonujących tę samą funkcję."
   },
   {
     "id": "R02_CECH_05",
@@ -255,7 +255,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Do najważniejszych pierwiastków budujących organizmy należą węgiel, wodór, azot, tlen, fosfor i siarka. Żelazo i magnez nie znajdują się na tej podstawowej liście w rozdziale."
+    "explanation": "Do najważniejszych pierwiastków budujących organizmy należą węgiel, wodór, azot, tlen, fosfor i siarka. Żelazo i magnez nie znajdują się na tej podstawowej liście."
   },
   {
     "id": "R02_CHEM_03",
@@ -434,7 +434,7 @@ const ALL_EXERCISES = [
     "id": "R02_CHEM_12",
     "section": "Skład chemiczny organizmów",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje soli mineralnych opisane w rozdziale.",
+    "prompt": "Zaznacz funkcje soli mineralnych.",
     "options": [
       "uczestniczą w procesach zachodzących w komórkach",
       "przechowują całą informację genetyczną",
@@ -748,7 +748,7 @@ const ALL_EXERCISES = [
     "id": "R02_FOTO_04",
     "section": "Fotosynteza",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki wpływające na przebieg fotosyntezy wymienione w rozdziale.",
+    "prompt": "Zaznacz czynniki wpływające na przebieg fotosyntezy.",
     "options": [
       "światło",
       "dwutlenek węgla",
@@ -881,7 +881,7 @@ const ALL_EXERCISES = [
       "fotosynteza zachodzi tylko w korzeniach"
     ],
     "answer": 0,
-    "explanation": "W zbyt wysokiej temperaturze fotosynteza nie zachodzi prawidłowo. Rozdział podaje, że podobnie jak w bardzo niskiej temperaturze, może się zatrzymać, na przykład powyżej 50 stopni Celsjusza.",
+    "explanation": "W zbyt wysokiej temperaturze fotosynteza nie zachodzi prawidłowo. Podobnie jak w bardzo niskiej temperaturze, może się zatrzymać, na przykład powyżej 50 stopni Celsjusza.",
     "image": "r02_czynniki_fotosyntezy.jpg"
   },
   {
@@ -891,7 +891,7 @@ const ALL_EXERCISES = [
     "prompt": "Niektóre rośliny iglaste mogą prowadzić fotosyntezę w temperaturze poniżej 0 stopni Celsjusza.",
     "options": null,
     "answer": true,
-    "explanation": "Poszczególne gatunki są przystosowane do różnych temperatur; w rozdziale podano, że rośliny iglaste mogą fotosyntetyzować poniżej 0 stopni Celsjusza."
+    "explanation": "Poszczególne gatunki są przystosowane do różnych temperatur; podano, że rośliny iglaste mogą fotosyntetyzować poniżej 0 stopni Celsjusza."
   },
   {
     "id": "R02_ODD_01",
@@ -1141,7 +1141,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy powstawania organizmów wielokomórkowych zgodnie z opisem ewolucyjnym w rozdziale.",
+    "prompt": "Ułóż etapy powstawania organizmów wielokomórkowych zgodnie z opisem ewolucyjnym.",
     "options": null,
     "items": [
       "specjalizacja grup komórek",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_04",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj cechy do typu komórki, dla którego są charakterystyczne w rozdziale.",
+    "prompt": "Przyporządkuj cechy do typu komórki, dla którego są charakterystyczne.",
     "options": null,
     "items": [
       "nić DNA bezpośrednio w cytozolu",
@@ -1339,7 +1339,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz wszystkie informacje prawdziwe o fermentacji alkoholowej opisanej w rozdziale.",
+    "prompt": "Zaznacz wszystkie informacje prawdziwe o fermentacji alkoholowej.",
     "options": [
       "zachodzi w cytozolu",
       "dostarcza mniej energii niż oddychanie tlenowe",

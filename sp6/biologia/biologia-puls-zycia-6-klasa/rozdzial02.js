@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Parzydełkowce żyją wyłącznie w środowisku wodnym.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że parzydełkowce żyją wyłącznie w wodzie, głównie w morzach i oceanach."
+    "explanation": "Parzydełkowce żyją wyłącznie w wodzie, głównie w morzach i oceanach."
   },
   {
     "id": "R02_PAR_03",
@@ -156,13 +156,13 @@ const ALL_EXERCISES = [
     "prompt": "Koralowce żyją tylko w wodach słonych i występują wyłącznie w postaci polipów.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale zapisano, że koralowce żyją tylko w wodach słonych i występują wyłącznie jako polipy."
+    "explanation": "Koralowce żyją tylko w wodach słonych i występują wyłącznie jako polipy."
   },
   {
     "id": "R02_PAR_11",
     "section": "Parzydełkowce",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady znaczenia parzydełkowców podane w rozdziale.",
+    "prompt": "Zaznacz przykłady znaczenia parzydełkowców.",
     "options": [
       "Koralowce budują rafy koralowe",
       "Meduzy są pożywieniem w niektórych krajach",
@@ -230,7 +230,7 @@ const ALL_EXERCISES = [
     "prompt": "Zdecydowana większość płazińców to pasożyty żyjące w narządach wewnętrznych zwierząt kręgowych.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że większość płazińców to pasożyty narządów wewnętrznych kręgowców, między innymi jelita cienkiego."
+    "explanation": "Większość płazińców to pasożyty narządów wewnętrznych kręgowców, między innymi jelita cienkiego."
   },
   {
     "id": "R02_PLA_03",
@@ -370,7 +370,7 @@ const ALL_EXERCISES = [
     "id": "R02_PLA_11",
     "section": "Płazińce",
     "type": "scenario",
-    "prompt": "Ktoś zjadł surowe lub niedogotowane mięso zawierające wągry. Jakiej choroby dotyczy to zagrożenie opisane w rozdziale?",
+    "prompt": "Ktoś zjadł surowe lub niedogotowane mięso zawierające wągry. Jakiej choroby dotyczy to zagrożenie?",
     "options": [
       "Tasiemczycy",
       "Owsicy",
@@ -433,7 +433,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "W rozdziale wymieniono glistę ludzką, owsika ludzkiego i włośnia spiralnego jako nicienie pasożytujące u człowieka."
+    "explanation": "Wymieniono glistę ludzką, owsika ludzkiego i włośnia spiralnego jako nicienie pasożytujące u człowieka."
   },
   {
     "id": "R02_NIC_03",
@@ -465,7 +465,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_05",
     "section": "Nicienie",
     "type": "sequence",
-    "prompt": "Ułóż etapy rozwoju glisty ludzkiej zgodnie z opisem w rozdziale.",
+    "prompt": "Ułóż etapy rozwoju glisty ludzkiej zgodnie z opisem.",
     "options": null,
     "items": [
       "Larwy wędrują przez narządy ciała",
@@ -537,7 +537,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_09",
     "section": "Nicienie",
     "type": "scenario",
-    "prompt": "Dziecko odczuwa silne swędzenie okolic odbytu nasilające się nocą, źle śpi i ma trudności z koncentracją. Która choroba pasuje do tego opisu z rozdziału?",
+    "prompt": "Dziecko odczuwa silne swędzenie okolic odbytu nasilające się nocą, źle śpi i ma trudności z koncentracją. Która choroba pasuje do tego opisu?",
     "options": [
       "Owsica",
       "Glistnica",
@@ -566,7 +566,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_11",
     "section": "Nicienie",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby zapobiegania chorobom wywoływanym przez nicienie podane w rozdziale.",
+    "prompt": "Zaznacz sposoby zapobiegania chorobom wywoływanym przez nicienie.",
     "options": [
       "Mycie rąk po powrocie do domu i po toalecie",
       "Dokładne mycie owoców i warzyw",
@@ -664,7 +664,7 @@ const ALL_EXERCISES = [
     "id": "R02_PIE_04",
     "section": "Pierścienice",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy budowy dżdżownicy opisane w rozdziale.",
+    "prompt": "Zaznacz elementy budowy dżdżownicy.",
     "options": [
       "Pęki szczecinek ułatwiające poruszanie",
       "Warstwa śluzu chroniąca ciało",
@@ -739,7 +739,7 @@ const ALL_EXERCISES = [
     "id": "R02_PIE_09",
     "section": "Pierścienice",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy pijawki lekarskiej opisane w rozdziale.",
+    "prompt": "Zaznacz cechy pijawki lekarskiej.",
     "options": [
       "Ma dwie przyssawki",
       "Nie ma wyodrębnionej głowy",
@@ -753,7 +753,7 @@ const ALL_EXERCISES = [
       2,
       4
     ],
-    "explanation": "Pijawka ma przyssawki, nie ma głowy i żywi się krwią, a w rozdziale podano, że pijawka lekarska osiąga około 15 cm długości.",
+    "explanation": "Pijawka ma przyssawki, nie ma głowy i żywi się krwią, a podano, że pijawka lekarska osiąga około 15 cm długości.",
     "image": "r02_nereida_i_pijawka.jpg"
   },
   {
@@ -779,7 +779,7 @@ const ALL_EXERCISES = [
     "prompt": "Nereida różnokolorowa żyje na dnie mórz, także Morza Bałtyckiego.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział opisuje nereidę jako morską pierścienicę żyjącą na dnie mórz, również w Morzu Bałtyckim."
+    "explanation": "Opisuje się nereidę jako morską pierścienicę żyjącą na dnie mórz, również w Morzu Bałtyckim."
   },
   {
     "id": "R02_PIE_12",
@@ -882,7 +882,7 @@ const ALL_EXERCISES = [
     "answer": [
       "2 m"
     ],
-    "explanation": "W rozdziale podano, że tasiemiec uzbrojony osiąga około 2 m długości.",
+    "explanation": "Tasiemiec uzbrojony osiąga około 2 m długości.",
     "altAnswers": [
       [
         "2 m",
@@ -969,7 +969,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_10",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz pierścienicę z cechą liczbową podaną w rozdziale.",
+    "prompt": "Połącz pierścienicę z cechą liczbową.",
     "options": null,
     "left": [
       "dżdżownica ziemna",
@@ -986,7 +986,7 @@ const ALL_EXERCISES = [
       "pijawka lekarska": "osiąga 15 cm długości",
       "robak palolo": "osiąga około 40 cm długości"
     },
-    "explanation": "Rozdział podaje liczby dla kilku pierścienic: dżdżownica ma około 100 segmentów, pijawka lekarska 15 cm, a palolo około 40 cm.",
+    "explanation": "Podaje się liczby dla kilku pierścienic: dżdżownica ma około 100 segmentów, pijawka lekarska 15 cm, a palolo około 40 cm.",
     "image": "r02_nereida_i_pijawka.jpg"
   },
   {

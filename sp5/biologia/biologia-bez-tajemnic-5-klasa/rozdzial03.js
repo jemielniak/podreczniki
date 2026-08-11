@@ -106,7 +106,7 @@ const ALL_EXERCISES = [
     "id": "R03_KLA_05",
     "section": "Klasyfikacja organizmów",
     "type": "multi_select",
-    "prompt": "Zaznacz wszystkie królestwa organizmów wymienione w rozdziale.",
+    "prompt": "Zaznacz wszystkie królestwa organizmów.",
     "options": [
       "bakterie",
       "protisty",
@@ -271,7 +271,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": false,
     "image": "r03_budowa_wirusa.jpg",
-    "explanation": "Wirus nie ma budowy komórkowej. W rozdziale przedstawiono go jako otoczkę białkową z DNA lub RNA."
+    "explanation": "Wirus nie ma budowy komórkowej. Przedstawiono go jako otoczkę białkową z DNA lub RNA."
   },
   {
     "id": "R03_WIR_05",
@@ -364,7 +364,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "r03_drogi_zakazenia_wirusami.jpg",
-    "explanation": "Rozdział przedstawia cztery drogi: kropelkową, przez krew, moczowo-płciową oraz z matki na dziecko podczas ciąży lub porodu."
+    "explanation": "Przedstawia się cztery drogi: kropelkową, przez krew, moczowo-płciową oraz z matki na dziecko podczas ciąży lub porodu."
   },
   {
     "id": "R03_WIR_09",
@@ -391,7 +391,7 @@ const ALL_EXERCISES = [
     "id": "R03_BAK_01",
     "section": "Bakterie",
     "type": "single_choice",
-    "prompt": "Jaki zakres wielkości bakterii podano w rozdziale?",
+    "prompt": "Jaki zakres wielkości bakterii podano?",
     "options": [
       "0,5-10 mikrometrów",
       "80-120 nanometrów",
@@ -463,13 +463,13 @@ const ALL_EXERCISES = [
     "prompt": "W odpowiednich warunkach podział komórki bakterii może następować co 20-30 minut.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że w sprzyjających warunkach bakterie mogą dzielić się co 20-30 minut."
+    "explanation": "W sprzyjających warunkach bakterie mogą dzielić się co 20-30 minut."
   },
   {
     "id": "R03_BAK_06",
     "section": "Bakterie",
     "type": "multi_select",
-    "prompt": "Zaznacz źródła pokarmu bakterii cudzożywnych opisane w rozdziale.",
+    "prompt": "Zaznacz źródła pokarmu bakterii cudzożywnych.",
     "options": [
       "martwe szczątki organizmów",
       "związki uzyskiwane dzięki współpracy z innymi organizmami",
@@ -608,7 +608,7 @@ const ALL_EXERCISES = [
     "id": "R03_PRO_03",
     "section": "Protisty",
     "type": "multi_select",
-    "prompt": "Zaznacz protisty roślinopodobne wymienione w rozdziale.",
+    "prompt": "Zaznacz protisty roślinopodobne.",
     "options": [
       "euglena zielona",
       "morszczyn pęcherzykowaty",
@@ -948,7 +948,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_02",
     "section": "Znaczenie i profilaktyka",
     "type": "single_choice",
-    "prompt": "Jakie witaminy wytwarzają bakterie jelitowe człowieka według rozdziału?",
+    "prompt": "Jakie witaminy wytwarzają bakterie jelitowe człowieka?",
     "options": [
       "witaminy B i K",
       "witaminy A i D",
@@ -1036,7 +1036,7 @@ const ALL_EXERCISES = [
       "borelioza": "krętki borelii i ukąszenie kleszcza",
       "tężec": "laseczki tężca i zabrudzona rana"
     },
-    "explanation": "Każda z tych chorób ma inny czynnik i typową drogę zakażenia opisane w rozdziale."
+    "explanation": "Każda z tych chorób ma inny czynnik i typową drogę zakażenia."
   },
   {
     "id": "R03_ZNA_06",
@@ -1083,7 +1083,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_09",
     "section": "Znaczenie i profilaktyka",
     "type": "multi_select",
-    "prompt": "Zaznacz grzyby jadalne pokazane w rozdziale.",
+    "prompt": "Zaznacz grzyby jadalne.",
     "options": [
       "koźlarz czerwony",
       "podgrzybek brunatny",
@@ -1105,7 +1105,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_10",
     "section": "Znaczenie i profilaktyka",
     "type": "single_choice",
-    "prompt": "Który grzyb został przedstawiony w rozdziale jako trujący?",
+    "prompt": "Który grzyb został jako trujący?",
     "options": [
       "muchomor sromotnikowy",
       "borowik szlachetny",
@@ -1164,7 +1164,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz królestwo z pełnym zestawem cech przedstawionym w rozdziale.",
+    "prompt": "Połącz królestwo z pełnym zestawem cech.",
     "options": null,
     "left": [
       "bakterie",
@@ -1227,7 +1227,7 @@ const ALL_EXERCISES = [
         "0.000001"
       ]
     ],
-    "explanation": "W rozdziale podano: 1 mikrometr = 0,001 mm, a 1 nanometr = 0,000001 mm."
+    "explanation": "Podano: 1 mikrometr = 0,001 mm, a 1 nanometr = 0,000001 mm."
   },
   {
     "id": "R03_HARD_06",
@@ -1262,7 +1262,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz drogi rozprzestrzeniania się wirusów, przy których w rozdziale jako przykład podano AIDS.",
+    "prompt": "Zaznacz drogi rozprzestrzeniania się wirusów, przy których jako przykład podano AIDS.",
     "options": [
       "ciąża i poród",
       "droga moczowo-płciowa",
@@ -1365,7 +1365,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_12",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż grzyb należący w rozdziale do grupy trujących: koźlarz czerwony, borowik szlachetny, goryczak żółciowy, pieprznik jadalny.",
+    "prompt": "Wskaż grzyb należący do grupy trujących: koźlarz czerwony, borowik szlachetny, goryczak żółciowy, pieprznik jadalny.",
     "options": null,
     "answer": "goryczak żółciowy",
     "image": "r03_grzyby_jadalne_trujace.jpg",
@@ -1402,7 +1402,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_14",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz królestwa, w których według rozdziału występują zarówno organizmy jednokomórkowe, jak i wielokomórkowe.",
+    "prompt": "Zaznacz królestwa, w których występują zarówno organizmy jednokomórkowe, jak i wielokomórkowe.",
     "options": [
       "protisty",
       "grzyby",

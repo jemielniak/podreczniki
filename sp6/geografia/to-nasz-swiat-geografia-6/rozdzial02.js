@@ -119,7 +119,7 @@ const ALL_EXERCISES = [
     "id": "R02_LAT_08",
     "section": "Równoleżniki i szerokość geograficzna",
     "type": "match",
-    "prompt": "Połącz miejsce z szerokością geograficzną podaną w rozdziale.",
+    "prompt": "Połącz miejsce z szerokością geograficzną.",
     "options": null,
     "left": [
       "Kair",
@@ -137,7 +137,7 @@ const ALL_EXERCISES = [
       "Britstown": "30°S"
     },
     "image": "r02_mapa_szerokosci_przyklady.jpg",
-    "explanation": "W przykładach z rozdziału Kair ma 30°N, Kampala leży na równiku i ma 0°, a Britstown ma 30°S."
+    "explanation": "W przykładach Kair ma 30°N, Kampala leży na równiku i ma 0°, a Britstown ma 30°S."
   },
   {
     "id": "R02_LAT_09",
@@ -302,7 +302,7 @@ const ALL_EXERCISES = [
     "id": "R02_LON_08",
     "section": "Południki i długość geograficzna",
     "type": "match",
-    "prompt": "Połącz miejsce z długością geograficzną podaną w rozdziale.",
+    "prompt": "Połącz miejsce z długością geograficzną.",
     "options": null,
     "left": [
       "Park Narodowy Grenlandii",
@@ -320,7 +320,7 @@ const ALL_EXERCISES = [
       "Dhaka": "90°E"
     },
     "image": "r02_mapa_dlugosci_przyklady.jpg",
-    "explanation": "W przykładach z rozdziału Park Narodowy Grenlandii ma 30°W, Londyn leży na południku 0°, a Dhaka ma 90°E."
+    "explanation": "W przykładach Park Narodowy Grenlandii ma 30°W, Londyn leży na południku 0°, a Dhaka ma 90°E."
   },
   {
     "id": "R02_LON_09",
@@ -589,7 +589,7 @@ const ALL_EXERCISES = [
         "szescdziesiat"
       ]
     ],
-    "explanation": "W rozdziale podano, że 1° dzieli się na 60 minut."
+    "explanation": "Podano, że 1° dzieli się na 60 minut."
   },
   {
     "id": "R02_GPS_04",
@@ -609,7 +609,7 @@ const ALL_EXERCISES = [
     "id": "R02_GPS_05",
     "section": "Stopnie, minuty i GPS",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem działania GPS w rozdziale.",
+    "prompt": "Zaznacz informacje zgodne z opisem działania GPS.",
     "options": [
       "GPS korzysta ze sztucznych satelitów",
       "satelity wysyłają sygnały radiowe",
@@ -647,7 +647,7 @@ const ALL_EXERCISES = [
     "id": "R02_GPS_07",
     "section": "Stopnie, minuty i GPS",
     "type": "match",
-    "prompt": "Połącz zapis dziesiętny z oznaczeniem półkuli według zasad podanych w rozdziale.",
+    "prompt": "Połącz zapis dziesiętny z oznaczeniem półkuli według zasad.",
     "options": null,
     "left": [
       "pierwsza wartość dodatnia",
@@ -673,7 +673,7 @@ const ALL_EXERCISES = [
     "id": "R02_GPS_08",
     "section": "Stopnie, minuty i GPS",
     "type": "single_choice",
-    "prompt": "Jakie współrzędne Przylądka Rozewie podano w rozdziale?",
+    "prompt": "Jakie współrzędne Przylądka Rozewie podano?",
     "options": [
       "54°50'N 18°20'E",
       "54°20'N 18°50'E",
@@ -684,7 +684,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r02_przyladek_rozewie.jpg",
-    "explanation": "W przykładzie z rozdziału Przylądek Rozewie ma współrzędne 54°50'N 18°20'E."
+    "explanation": "W przykładzie Przylądek Rozewie ma współrzędne 54°50'N 18°20'E."
   },
   {
     "id": "R02_GPS_09",
@@ -693,7 +693,7 @@ const ALL_EXERCISES = [
     "prompt": "Wartości po kropce w zapisie z aplikacji GPS można przeliczyć na minuty, mnożąc je przez 60.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano zasadę: wartości po kropce należy przeliczyć na minuty przez pomnożenie razy 60."
+    "explanation": "Podano zasadę: wartości po kropce należy przeliczyć na minuty przez pomnożenie razy 60."
   },
   {
     "id": "R02_GPS_10",
@@ -756,7 +756,7 @@ const ALL_EXERCISES = [
     "prompt": "Aby określić położenie rozległego obszaru, można podać współrzędne czterech punktów wysuniętych najdalej w każdą stronę świata.",
     "options": null,
     "answer": true,
-    "explanation": "Dla obszarów takich jak państwa lub kontynenty rozdział wskazuje cztery skrajne punkty: północny, południowy, zachodni i wschodni."
+    "explanation": "Dla obszarów takich jak państwa lub kontynenty wskazuje się cztery skrajne punkty: północny, południowy, zachodni i wschodni."
   },
   {
     "id": "R02_EXT_04",
@@ -888,7 +888,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Miasto Hawana leży w połowie drogi między równoleżnikami 22° i 24°. Jaką przybliżoną szerokość geograficzną podano w rozdziale?",
+    "prompt": "Miasto Hawana leży w połowie drogi między równoleżnikami 22° i 24°. Jaką przybliżoną szerokość geograficzną podano?",
     "options": [
       "23°N",
       "22°N",
@@ -923,7 +923,7 @@ const ALL_EXERCISES = [
     "prompt": "Na mapie świata południk 180° może być umieszczony dwa razy, na obu krawędziach mapy, choć na globusie jest to jeden południk.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że na mapie świata południk 180° pojawia się na obu krawędziach, ale na globusie jest jeden i ten sam."
+    "explanation": "Na mapie świata południk 180° pojawia się na obu krawędziach, ale na globusie jest jeden i ten sam."
   },
   {
     "id": "R02_HARD_04",
@@ -974,7 +974,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca z przykładów, które w rozdziale leżą na półkuli zachodniej.",
+    "prompt": "Zaznacz miejsca z przykładów, które leżą na półkuli zachodniej.",
     "options": [
       "Park Narodowy Grenlandii",
       "Hilo",
@@ -995,7 +995,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_08",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Uczeń widzi w aplikacji GPS zapis 54.679599, 18.385639. Zasady z rozdziału każą pomnożyć części po kropce przez 60. Który zapis minutowy podano w przykładzie?",
+    "prompt": "Uczeń widzi w aplikacji GPS zapis 54.679599, 18.385639. Zasady każą pomnożyć części po kropce przez 60. Który zapis minutowy podano w przykładzie?",
     "options": [
       "54°41'N 18°23'E",
       "54°23'N 18°41'E",
@@ -1012,7 +1012,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_09",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz przykład z rozdziału z podaną współrzędną lub parą współrzędnych.",
+    "prompt": "Połącz przykład z podaną współrzędną lub parą współrzędnych.",
     "options": null,
     "left": [
       "Tampa",
@@ -1056,7 +1056,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_12",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który zapis odpowiada biegunowi południowemu według rozdziału?",
+    "prompt": "Który zapis odpowiada biegunowi południowemu?",
     "options": [
       "90°S",
       "90°N",
@@ -1072,7 +1072,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_13",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz dziedziny lub działania, w których rozdział wskazuje zastosowanie precyzyjnego określania położenia.",
+    "prompt": "Zaznacz dziedziny lub działania, w których wskazuje się zastosowanie precyzyjnego określania położenia.",
     "options": [
       "planowanie zagospodarowania przestrzennego",
       "transport",
@@ -1087,13 +1087,13 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale jako zastosowania precyzyjnego określania położenia wymieniono planowanie zagospodarowania przestrzennego, transport, wojskowość i ochronę przyrody."
+    "explanation": "Jako zastosowania precyzyjnego określania położenia wymieniono planowanie zagospodarowania przestrzennego, transport, wojskowość i ochronę przyrody."
   },
   {
     "id": "R02_HARD_14",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy pracy z GPS opisane w rozdziale w poprawnej kolejności.",
+    "prompt": "Ułóż etapy pracy z GPS w poprawnej kolejności.",
     "options": null,
     "items": [
       "odczytać współrzędne z białego pola",
@@ -1107,7 +1107,7 @@ const ALL_EXERCISES = [
       "zobaczyć pinezkę i współrzędne",
       "odczytać współrzędne z białego pola"
     ],
-    "explanation": "Ćwiczenie z rozdziału prowadzi od otwarcia Google Maps przez stuknięcie w mapę, pojawienie się pinezki i współrzędnych, aż po ich odczytanie."
+    "explanation": "Ćwiczenie prowadzi od otwarcia Google Maps przez stuknięcie w mapę, pojawienie się pinezki i współrzędnych, aż po ich odczytanie."
   }
 ];
 

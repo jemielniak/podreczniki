@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R02_ROZ_01",
     "section": "Różnorodność krajobrazów",
     "type": "single_choice",
-    "prompt": "Jak w podręczniku zdefiniowano krajobraz?",
+    "prompt": "Jak zdefiniowano krajobraz?",
     "options": [
       "Tylko lasy i jeziora",
       "To, co widzimy wokół nas",
@@ -46,7 +46,7 @@ const ALL_EXERCISES = [
     "prompt": "W Polsce dominują obszary nizinne.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że większość obszaru Polski to niziny o wysokościach bezwzględnych do 300 m n.p.m."
+    "explanation": "Większość obszaru Polski to niziny o wysokościach bezwzględnych do 300 m n.p.m."
   },
   {
     "id": "R02_ROZ_04",
@@ -61,7 +61,7 @@ const ALL_EXERCISES = [
     "id": "R02_ROZ_05",
     "section": "Różnorodność krajobrazów",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady elementów naturalnych krajobrazu wymienione w podręczniku.",
+    "prompt": "Zaznacz przykłady elementów naturalnych krajobrazu.",
     "options": [
       "skały",
       "jeziora",
@@ -93,7 +93,7 @@ const ALL_EXERCISES = [
         "300 metrów"
       ]
     ],
-    "explanation": "Granica 300 m n.p.m. odróżnia w podręczniku obszary nizinne od wyżej położonych terenów."
+    "explanation": "Granica 300 m n.p.m. odróżnia obszary nizinne od wyżej położonych terenów."
   },
   {
     "id": "R02_ROZ_07",
@@ -188,7 +188,7 @@ const ALL_EXERCISES = [
         "miejski"
       ]
     },
-    "explanation": "Podręcznik dzieli krajobrazy na naturalne oraz kulturowe, czyli przekształcone przez człowieka."
+    "explanation": "Dzieli się krajobrazy na naturalne oraz kulturowe, czyli przekształcone przez człowieka."
   },
   {
     "id": "R02_ROZ_12",
@@ -308,7 +308,7 @@ const ALL_EXERCISES = [
         "minus 2,2"
       ]
     ],
-    "explanation": "Podręcznik podaje, że najniżej położony punkt Polski leży w Marzęcinie i ma -2,2 m n.p.m."
+    "explanation": "Najniżej położony punkt Polski leży w Marzęcinie i ma -2,2 m n.p.m."
   },
   {
     "id": "R02_NAD_07",
@@ -447,7 +447,7 @@ const ALL_EXERCISES = [
     "id": "R02_POJ_02",
     "section": "Krajobraz pojezierny",
     "type": "single_choice",
-    "prompt": "Które jezioro wskazano w podręczniku jako największe w Polsce?",
+    "prompt": "Które jezioro wskazano jako największe w Polsce?",
     "options": [
       "Śniardwy",
       "Łebsko",
@@ -475,7 +475,7 @@ const ALL_EXERCISES = [
     "prompt": "Szlak Wielkich Jezior Mazurskich prowadzi od Węgorzewa do Rucianego-Nidy.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że żeglugowy szlak prowadzi od Węgorzewa do Rucianego-Nidy i ma 120 km długości."
+    "explanation": "Żeglugowy szlak prowadzi od Węgorzewa do Rucianego-Nidy i ma 120 km długości."
   },
   {
     "id": "R02_POJ_05",
@@ -580,7 +580,7 @@ const ALL_EXERCISES = [
       "Kanał Elbląski": "zabytek techniki z pochylniami",
       "Wilczy Szaniec": "sieć bunkrów z czasów II wojny światowej"
     },
-    "explanation": "Podręcznik wymienia zarówno elementy przyrodnicze Mazur, jak i atrakcje historyczne oraz techniczne."
+    "explanation": "Wymienia się zarówno elementy przyrodnicze Mazur, jak i atrakcje historyczne oraz techniczne."
   },
   {
     "id": "R02_POJ_11",
@@ -674,7 +674,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Nizinie Mazowieckiej charakterystyczne są rozległe równiny, kotliny i szerokie doliny rzeczne.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik opisuje Nizinę Mazowiecką jako obszar mało urozmaicony, z równinami, kotlinami i szerokimi dolinami rzek."
+    "explanation": "Opisuje się Nizinę Mazowiecką jako obszar mało urozmaicony, z równinami, kotlinami i szerokimi dolinami rzek."
   },
   {
     "id": "R02_NIZ_04",
@@ -689,7 +689,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIZ_05",
     "section": "Niziny środkowej Polski",
     "type": "multi_select",
-    "prompt": "Zaznacz duże rzeki Niziny Mazowieckiej wymienione w podręczniku.",
+    "prompt": "Zaznacz duże rzeki Niziny Mazowieckiej.",
     "options": [
       "Wisła",
       "Narew",
@@ -704,7 +704,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród dużych rzek tego obszaru podręcznik wymienia Wisłę, Narew, Pilicę, Bzurę, Wkrę i Bug."
+    "explanation": "Wśród dużych rzek tego obszaru wymienia się Wisłę, Narew, Pilicę, Bzurę, Wkrę i Bug."
   },
   {
     "id": "R02_NIZ_06",
@@ -756,7 +756,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIZ_09",
     "section": "Niziny środkowej Polski",
     "type": "scenario",
-    "prompt": "Rolnik wybiera miejsce pod sad jabłoniowy. Podręcznik wskazuje, że w okolicy Łowicza i Grójca jest wiele sadów, a z regionu pochodzi większość uprawianych w Polsce jabłek. Którą krainę opisano?",
+    "prompt": "Rolnik wybiera miejsce pod sad jabłoniowy. W okolicy Łowicza i Grójca jest wiele sadów, a z regionu pochodzi większość uprawianych w Polsce jabłek. Którą krainę opisano?",
     "options": [
       "Nizina Mazowiecka",
       "Wybrzeże Słowińskie",
@@ -885,7 +885,7 @@ const ALL_EXERCISES = [
     "prompt": "Krajobraz miejski jest krajobrazem kulturowym, ukształtowanym przez człowieka.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik określa krajobraz miejski jako kulturowy, inaczej antropogeniczny."
+    "explanation": "Określa się krajobraz miejski jako kulturowy, inaczej antropogeniczny."
   },
   {
     "id": "R02_MIA_04",
@@ -937,7 +937,7 @@ const ALL_EXERCISES = [
         "śródmieścia"
       ]
     ],
-    "explanation": "W podręczniku Stare Miasto oznacza najstarszą część miasta, a śródmieście jest jego częścią centralną."
+    "explanation": "Stare Miasto oznacza najstarszą część miasta, a śródmieście jest jego częścią centralną."
   },
   {
     "id": "R02_MIA_07",
@@ -981,7 +981,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIA_10",
     "section": "Krajobraz wielkomiejski",
     "type": "match",
-    "prompt": "Połącz miejsce w Warszawie z opisem z podręcznika.",
+    "prompt": "Połącz miejsce w Warszawie z opisem.",
     "options": null,
     "left": [
       "Stare Miasto",
@@ -1001,7 +1001,7 @@ const ALL_EXERCISES = [
       "Muzeum Powstania Warszawskiego": "upamiętnia walkę mieszkańców stolicy",
       "Stadion Narodowy": "zbudowany na Euro 2012"
     },
-    "explanation": "Podręcznik przedstawia wybrane miejsca Warszawy i wyjaśnia, z czym są związane."
+    "explanation": "Przedstawia się wybrane miejsca Warszawy i wyjaśnia, z czym są związane."
   },
   {
     "id": "R02_MIA_11",
@@ -1053,13 +1053,13 @@ const ALL_EXERCISES = [
       "osiedla mieszkaniowe i dzielnice przemysłowe",
       "przedmieścia"
     ],
-    "explanation": "Podręcznik opisuje Stare Miasto jako najstarszą część, śródmieście jako część centralną, dalej osiedla i dzielnice, a na skraju przedmieścia."
+    "explanation": "Opisuje się Stare Miasto jako najstarszą część, śródmieście jako część centralną, dalej osiedla i dzielnice, a na skraju przedmieścia."
   },
   {
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które pasy krajobrazowe podręcznik zalicza do nizin?",
+    "prompt": "Które pasy krajobrazowe zalicza się do nizin?",
     "options": [
       "pobrzeży, pojezierzy, nizin środkowopolskich, kotlin podkarpackich",
       "pobrzeży, wyżyn, gór, kotlin podkarpackich",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "prompt": "Góry Świętokrzyskie leżą w pasie gór, bo są górami.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik zaznacza, że Góry Świętokrzyskie leżą na wyżynach i są częścią Wyżyny Małopolskiej."
+    "explanation": "Góry Świętokrzyskie leżą na wyżynach i są częścią Wyżyny Małopolskiej."
   },
   {
     "id": "R02_HARD_04",
@@ -1103,13 +1103,13 @@ const ALL_EXERCISES = [
     "prompt": "Łebsko, największe jezioro Wybrzeża Słowińskiego, powstało wskutek podniesienia się poziomu morza i zalania łąk.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik odróżnia Łebsko od części jezior przybrzeżnych odciętych przez mierzeje i wskazuje jego powstanie przez zalanie łąk."
+    "explanation": "Odróżnia się Łebsko od części jezior przybrzeżnych odciętych przez mierzeje i wskazuje jego powstanie przez zalanie łąk."
   },
   {
     "id": "R02_HARD_05",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny pionierskie wydm wymienione w podręczniku.",
+    "prompt": "Zaznacz rośliny pionierskie wydm.",
     "options": [
       "piaskownica zwyczajna",
       "wydmuchrzyca piaskowa",
@@ -1213,7 +1213,7 @@ const ALL_EXERCISES = [
       "Kotlina Warszawska": "największa kotlina Niziny Mazowieckiej",
       "Lotnisko Chopina": "największy port lotniczy w Polsce"
     },
-    "explanation": "Pytanie łączy szczegóły z różnych części rozdziału: nad morzem, na Mazurach, Mazowszu i w Warszawie."
+    "explanation": "Pytanie łączy szczegóły: nad morzem, na Mazurach, Mazowszu i w Warszawie."
   },
   {
     "id": "R02_HARD_11",
@@ -1251,7 +1251,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_12",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia lub procesy zgodnie z opisami rozdziału - od przyrodniczego początku po współczesne wykorzystanie terenu.",
+    "prompt": "Ułóż wydarzenia lub procesy - od przyrodniczego początku po współczesne wykorzystanie terenu.",
     "options": null,
     "items": [
       "rozwój turystyki i miast",

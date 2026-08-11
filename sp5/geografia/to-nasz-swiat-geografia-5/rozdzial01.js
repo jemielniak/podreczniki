@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "prompt": "Ziemia jest jedną z ośmiu planet Układu Słonecznego i ma kształt zbliżony do kuli.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że Ziemia należy do ośmiu planet Układu Słonecznego i ma kształt zbliżony do kuli."
+    "explanation": "Ziemia należy do ośmiu planet Układu Słonecznego i ma kształt zbliżony do kuli."
   },
   {
     "id": "R01_ZIG_03",
@@ -152,7 +152,7 @@ const ALL_EXERCISES = [
     "id": "R01_ZIG_09",
     "section": "Ziemia i globus",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy, które według rozdziału można przedstawiać na globusie.",
+    "prompt": "Zaznacz elementy, które można przedstawiać na globusie.",
     "options": [
       "lądy",
       "wody",
@@ -190,7 +190,7 @@ const ALL_EXERCISES = [
         "cztery i pół"
       ]
     ],
-    "explanation": "Rozdział podaje, że Ziemia jest trzecią planetą od Słońca i istnieje około 4,5 miliarda lat."
+    "explanation": "Ziemia jest trzecią planetą od Słońca i istnieje około 4,5 miliarda lat."
   },
   {
     "id": "R01_SGP_01",
@@ -360,7 +360,7 @@ const ALL_EXERCISES = [
     "id": "R01_SGP_10",
     "section": "Siatka geograficzna i półkule",
     "type": "multi_select",
-    "prompt": "Zaznacz nazwy równoleżników wymienione w rozdziale.",
+    "prompt": "Zaznacz nazwy równoleżników.",
     "options": [
       "równik",
       "zwrotnik Raka",
@@ -376,13 +376,13 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "W rozdziale wymieniono równik, zwrotniki Raka i Koziorożca oraz oba koła podbiegunowe."
+    "explanation": "Wymieniono równik, zwrotniki Raka i Koziorożca oraz oba koła podbiegunowe."
   },
   {
     "id": "R01_KON_01",
     "section": "Kontynenty i oceany",
     "type": "single_choice",
-    "prompt": "Ile kontynentów wyróżnia się zazwyczaj na Ziemi według rozdziału?",
+    "prompt": "Ile kontynentów wyróżnia się zazwyczaj na Ziemi?",
     "options": [
       "siedem",
       "pięć",
@@ -393,7 +393,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_mapa_kontynentow.jpg",
-    "explanation": "Rozdział wymienia siedem kontynentów: Azję, Afrykę, Amerykę Północną, Amerykę Południową, Antarktydę, Europę i Australię."
+    "explanation": "Wymienia się siedem kontynentów: Azję, Afrykę, Amerykę Północną, Amerykę Południową, Antarktydę, Europę i Australię."
   },
   {
     "id": "R01_KON_02",
@@ -418,7 +418,7 @@ const ALL_EXERCISES = [
     "prompt": "Europa szeroko łączy się z Azją, dlatego często traktuje się je jako jeden kontynent nazywany Eurazją.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że Europa szeroko łączy się z Azją i dlatego bywa z nią traktowana jako Eurazja."
+    "explanation": "Europa szeroko łączy się z Azją i dlatego bywa z nią traktowana jako Eurazja."
   },
   {
     "id": "R01_KON_04",
@@ -440,7 +440,7 @@ const ALL_EXERCISES = [
         "Australią"
       ]
     ],
-    "explanation": "Rozdział podaje wprost, że największym kontynentem jest Azja, a najmniejszym Australia."
+    "explanation": "Największym kontynentem jest Azja, a najmniejszym Australia."
   },
   {
     "id": "R01_KON_05",
@@ -562,7 +562,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODK_01",
     "section": "Odkrycia geograficzne",
     "type": "single_choice",
-    "prompt": "Którzy podróżnicy zostali w rozdziale wymienieni jako jedni z pierwszych?",
+    "prompt": "Którzy podróżnicy zostali wymienieni jako jedni z pierwszych?",
     "options": [
       "wikingowie",
       "kosmonauci",
@@ -573,7 +573,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_lodz_wikingow.jpg",
-    "explanation": "Rozdział podaje, że jednymi z pierwszych podróżników byli wikingowie pochodzący ze Skandynawii."
+    "explanation": "Jednymi z pierwszych podróżników byli wikingowie pochodzący ze Skandynawii."
   },
   {
     "id": "R01_ODK_02",
@@ -582,7 +582,7 @@ const ALL_EXERCISES = [
     "prompt": "Wikingowie dotarli do Ameryki Północnej już na przełomie X i XI wieku.",
     "options": null,
     "answer": true,
-    "explanation": "Według rozdziału świetni żeglarze ze Skandynawii dopłynęli do Ameryki Północnej na przełomie X i XI wieku."
+    "explanation": "Świetni żeglarze ze Skandynawii dopłynęli do Ameryki Północnej na przełomie X i XI wieku."
   },
   {
     "id": "R01_ODK_03",
@@ -604,26 +604,26 @@ const ALL_EXERCISES = [
         "bogactw"
       ]
     ],
-    "explanation": "Rozdział wymienia głód wiedzy oraz chęć zdobycia bogactwa i nowych ziem jako motywy wypraw."
+    "explanation": "Wymienia się głód wiedzy oraz chęć zdobycia bogactwa i nowych ziem jako motywy wypraw."
   },
   {
     "id": "R01_ODK_04",
     "section": "Odkrycia geograficzne",
     "type": "riddle",
-    "prompt": "Jak nazywały się łodzie wikingów pokazane w rozdziale?",
+    "prompt": "Jak nazywały się łodzie wikingów?",
     "options": null,
     "answer": "drakkary",
     "altAnswers": [
       "drakkary",
       "drakkar"
     ],
-    "explanation": "W rozdziale podpisano łodzie wikingów jako drakkary."
+    "explanation": "Podpisano łodzie wikingów jako drakkary."
   },
   {
     "id": "R01_ODK_05",
     "section": "Odkrycia geograficzne",
     "type": "match",
-    "prompt": "Połącz pojęcie z informacją z rozdziału.",
+    "prompt": "Połącz pojęcie z informacją.",
     "options": null,
     "left": [
       "wikingowie",
@@ -649,7 +649,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODK_06",
     "section": "Odkrycia geograficzne",
     "type": "scenario",
-    "prompt": "Wyobraź sobie dawne czasy bez telewizji i internetu. Ktoś z daleka opowiada o nieznanych miejscach, a ludzie chcą je zobaczyć oraz zdobyć nowe ziemie. Jak rozdział wyjaśnia takie wyprawy?",
+    "prompt": "Wyobraź sobie dawne czasy bez telewizji i internetu. Ktoś z daleka opowiada o nieznanych miejscach, a ludzie chcą je zobaczyć oraz zdobyć nowe ziemie. Jak wyjaśnia się takie wyprawy?",
     "options": [
       "wynikały z ciekawości świata oraz chęci zdobycia bogactwa i ziem",
       "były zakazane przez wszystkich władców",
@@ -659,22 +659,22 @@ const ALL_EXERCISES = [
       "nie miały związku z poznawaniem świata"
     ],
     "answer": 0,
-    "explanation": "Rozdział wyjaśnia, że ludzi kierowała ciekawość, głód wiedzy, chęć bogactwa oraz zdobywania nowych ziem."
+    "explanation": "Ludzi kierowała ciekawość, głód wiedzy, chęć bogactwa oraz zdobywania nowych ziem."
   },
   {
     "id": "R01_ODK_07",
     "section": "Odkrycia geograficzne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do państw Skandynawii wymienionych w rozdziale: Norwegia, Szwecja, Dania, Hiszpania.",
+    "prompt": "Co nie pasuje do państw Skandynawii: Norwegia, Szwecja, Dania, Hiszpania.",
     "options": null,
     "answer": "Hiszpania",
-    "explanation": "W rozdziale Skandynawia została objaśniona jako tereny dzisiejszej Norwegii, Szwecji i Danii. Hiszpania nie należy do tej listy."
+    "explanation": "Skandynawia została objaśniona jako tereny dzisiejszej Norwegii, Szwecji i Danii. Hiszpania nie należy do tej listy."
   },
   {
     "id": "R01_ODK_08",
     "section": "Odkrycia geograficzne",
     "type": "multi_select",
-    "prompt": "Zaznacz dzisiejsze państwa, które w rozdziale podano jako obszar Skandynawii.",
+    "prompt": "Zaznacz dzisiejsze państwa, które podano jako obszar Skandynawii.",
     "options": [
       "Norwegia",
       "Szwecja",
@@ -697,7 +697,7 @@ const ALL_EXERCISES = [
     "prompt": "Do XV wieku Europejczycy podróżowali przede wszystkim drogami lądowymi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że do XV wieku Europejczycy podróżowali głównie drogami lądowymi, także między kontynentami."
+    "explanation": "Do XV wieku Europejczycy podróżowali głównie drogami lądowymi, także między kontynentami."
   },
   {
     "id": "R01_ODK_10",
@@ -714,7 +714,7 @@ const ALL_EXERCISES = [
         "nawigacja"
       ]
     ],
-    "explanation": "Rozdział wskazuje, że wyprawy morskie były trudne z powodu małej wiedzy Europejczyków o oceanach i nawigacji."
+    "explanation": "Wyprawy morskie były trudne z powodu małej wiedzy Europejczyków o oceanach i nawigacji."
   },
   {
     "id": "R01_WYP_01",
@@ -787,7 +787,7 @@ const ALL_EXERCISES = [
     "id": "R01_WYP_05",
     "section": "Wielkie wyprawy i odkrywcy",
     "type": "match",
-    "prompt": "Połącz odkrywcę z osiągnięciem opisanym w rozdziale.",
+    "prompt": "Połącz odkrywcę z osiągnięciem.",
     "options": null,
     "left": [
       "Krzysztof Kolumb",
@@ -832,7 +832,7 @@ const ALL_EXERCISES = [
       "Janszoon dopływa do Australii",
       "załoga rosyjskiego statku obserwuje Antarktydę"
     ],
-    "explanation": "Daty z rozdziału to kolejno 1492, 1497, 1519, 1605 i 1820 rok."
+    "explanation": "Daty to kolejno 1492, 1497, 1519, 1605 i 1820 rok."
   },
   {
     "id": "R01_WYP_07",
@@ -863,7 +863,7 @@ const ALL_EXERCISES = [
     "id": "R01_WYP_09",
     "section": "Wielkie wyprawy i odkrywcy",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do wypraw opisanych w rozdziale.",
+    "prompt": "Przyporządkuj elementy do wypraw.",
     "options": null,
     "items": [
       "Bahamy i Kuba",
@@ -898,7 +898,7 @@ const ALL_EXERCISES = [
     "id": "R01_WYP_10",
     "section": "Wielkie wyprawy i odkrywcy",
     "type": "riddle",
-    "prompt": "Który kontynent był ostatnim odkrytym kontynentem według rozdziału?",
+    "prompt": "Który kontynent był ostatnim odkrytym kontynentem?",
     "options": null,
     "answer": "Antarktyda",
     "altAnswers": [
@@ -906,7 +906,7 @@ const ALL_EXERCISES = [
       "Antarktydę"
     ],
     "image": "r01_antarktyda_biegun.jpg",
-    "explanation": "Rozdział podaje, że ostatnim odkrytym kontynentem była Antarktyda, zaobserwowana po raz pierwszy przez załogę rosyjskiego statku w 1820 roku."
+    "explanation": "Ostatnim odkrytym kontynentem była Antarktyda, zaobserwowana po raz pierwszy przez załogę rosyjskiego statku w 1820 roku."
   },
   {
     "id": "R01_HARD_01",
@@ -952,7 +952,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz rok z wydarzeniem opisanym w rozdziale.",
+    "prompt": "Połącz rok z wydarzeniem.",
     "options": null,
     "left": [
       "1492",
@@ -975,7 +975,7 @@ const ALL_EXERCISES = [
       "1605": "dopłynięcie Janszoona do Australii",
       "1820": "pierwsze zaobserwowanie Antarktydy"
     },
-    "explanation": "Rozdział podaje te daty przy kolejnych wyprawach i odkryciach: Kolumb 1492, da Gama 1497, Magellan 1519, Janszoon 1605, Antarktyda 1820."
+    "explanation": "Podaje się te daty przy kolejnych wyprawach i odkryciach: Kolumb 1492, da Gama 1497, Magellan 1519, Janszoon 1605, Antarktyda 1820."
   },
   {
     "id": "R01_HARD_04",
@@ -1014,7 +1014,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_australia_i_strzelecki.jpg",
-    "explanation": "Rozdział wymienia Pawła Edmunda Strzeleckiego jako polskiego badacza Australii, który nazwał jej najwyższy szczyt Górą Kościuszki."
+    "explanation": "Wymienia się Pawła Edmunda Strzeleckiego jako polskiego badacza Australii, który nazwał jej najwyższy szczyt Górą Kościuszki."
   },
   {
     "id": "R01_HARD_06",
@@ -1023,13 +1023,13 @@ const ALL_EXERCISES = [
     "prompt": "Pierwsza podróż dookoła świata dowiodła ostatecznie, że Ziemia ma kształt kulisty.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że pierwsza podróż dookoła świata zakończona przez załogę Magellana dowiodła ostatecznie kulistego kształtu Ziemi."
+    "explanation": "Pierwsza podróż dookoła świata zakończona przez załogę Magellana dowiodła ostatecznie kulistego kształtu Ziemi."
   },
   {
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz osoby lub grupy, które rozdział wiąże z Antarktydą albo biegunem południowym.",
+    "prompt": "Zaznacz osoby lub grupy, które wiąże się z Antarktydą albo biegunem południowym.",
     "options": [
       "Roald Amundsen",
       "Robert Falcon Scott",
@@ -1077,7 +1077,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_09",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do wypraw XV i XVI wieku opisanych w rozdziale: Krzysztof Kolumb, Vasco da Gama, Ferdynand Magellan, Willem Janszoon.",
+    "prompt": "Co nie pasuje do wypraw XV i XVI wieku: Krzysztof Kolumb, Vasco da Gama, Ferdynand Magellan, Willem Janszoon.",
     "options": null,
     "answer": "Willem Janszoon",
     "explanation": "Kolumb, Vasco da Gama i Magellan są związani z wyprawami XV i XVI wieku. Willem Janszoon dopłynął do brzegów Australii w 1605 roku."
@@ -1136,7 +1136,7 @@ const ALL_EXERCISES = [
         "1912 r."
       ]
     ],
-    "explanation": "Rozdział podaje: Antarktydę zaobserwowano w 1820 roku, Amundsen zdobył biegun południowy w 1911 roku, a Scott w 1912 roku."
+    "explanation": "Antarktydę zaobserwowano w 1820 roku, Amundsen zdobył biegun południowy w 1911 roku, a Scott w 1912 roku."
   }
 ];
 

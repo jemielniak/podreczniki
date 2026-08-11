@@ -79,7 +79,7 @@ const ALL_EXERCISES = [
     "prompt": "Budowa komórkowa jest wspólną cechą wszystkich organizmów.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku podkreślono, że wszystkie organizmy są zbudowane z komórek."
+    "explanation": "Wszystkie organizmy są zbudowane z komórek."
   },
   {
     "id": "R01_ORG_05",
@@ -207,13 +207,13 @@ const ALL_EXERCISES = [
       "mitochondrium",
       "mitochondria"
     ],
-    "explanation": "Mitochondria są w podręczniku porównane do małych elektrowni komórki."
+    "explanation": "Mitochondria są porównane do małych elektrowni komórki."
   },
   {
     "id": "R01_ORG_11",
     "section": "Cechy organizmów i komórki",
     "type": "odd_one_out",
-    "prompt": "Wskaż pierwiastek, który nie należy do pierwiastków biogennych wymienionych w rozdziale: węgiel, wodór, tlen, złoto.",
+    "prompt": "Wskaż pierwiastek, który nie należy do pierwiastków biogennych: węgiel, wodór, tlen, złoto.",
     "options": null,
     "answer": "złoto",
     "explanation": "Do pierwiastków biogennych zaliczono węgiel, wodór, tlen, azot, siarkę i fosfor. Złoto nie znalazło się na tej liście."
@@ -283,7 +283,7 @@ const ALL_EXERCISES = [
     "prompt": "Szkolne mikroskopy świetlne umożliwiają oglądanie obiektów w powiększeniu od około 100 do 1200 razy.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje taki zakres powiększeń dla mikroskopów świetlnych używanych w pracowniach szkolnych."
+    "explanation": "Podaje się taki zakres powiększeń dla mikroskopów świetlnych używanych w pracowniach szkolnych."
   },
   {
     "id": "R01_MIK_04",
@@ -333,23 +333,11 @@ const ALL_EXERCISES = [
   {
     "id": "R01_MIK_06",
     "section": "Mikroskop i doświadczenia",
-    "type": "multi_select",
-    "prompt": "Zaznacz materiały potrzebne do wykonania prostego preparatu mikroskopowego.",
-    "options": [
-      "szkiełko podstawowe",
-      "szkiełko nakrywkowe",
-      "kropla wody",
-      "obserwowany obiekt",
-      "rewolwer mikroskopu",
-      "futro niedźwiedzia"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Do wykonania preparatu potrzeba szkiełka podstawowego, szkiełka nakrywkowego, kropli wody i obserwowanego obiektu."
+    "type": "odd_one_out",
+    "prompt": "Wskaż to, co nie jest potrzebne do wykonania prostego preparatu mikroskopowego: szkiełko podstawowe, szkiełko nakrywkowe, kropla wody, rewolwer mikroskopu.",
+    "options": null,
+    "answer": "rewolwer mikroskopu",
+    "explanation": "Preparat wykonuje się ze szkiełka podstawowego, szkiełka nakrywkowego, kropli wody i obserwowanego obiektu. Rewolwer należy do mikroskopu - służy do zmiany obiektywu, a nie do przygotowania preparatu."
   },
   {
     "id": "R01_MIK_07",
@@ -369,10 +357,10 @@ const ALL_EXERCISES = [
     "id": "R01_MIK_08",
     "section": "Mikroskop i doświadczenia",
     "type": "odd_one_out",
-    "prompt": "Wskaż element, który nie jest częścią mikroskopu świetlnego: okular, obiektyw, kondensor, pajęczyna.",
+    "prompt": "Wskaż element, który nie jest częścią mikroskopu świetlnego: okular, kondensor, śruba mikrometryczna, szalka Petriego.",
     "options": null,
-    "answer": "pajęczyna",
-    "explanation": "Okular, obiektyw i kondensor to elementy mikroskopu. Pajęczyna może być obiektem przyrodniczym, ale nie jest częścią mikroskopu."
+    "answer": "szalka Petriego",
+    "explanation": "Okular, kondensor i śruba mikrometryczna to części mikroskopu. Szalka Petriego to naczynie laboratoryjne - przydaje się w pracowni, ale mikroskop jej nie ma."
   },
   {
     "id": "R01_MIK_09",
@@ -576,7 +564,7 @@ const ALL_EXERCISES = [
       "ściana komórkowa"
     ],
     "answer": 0,
-    "explanation": "W rozdziale wskazano, że podstawowe źródło energii stanowią cukry."
+    "explanation": "Podstawowe źródło energii stanowią cukry."
   },
   {
     "id": "R01_ODD_02",
@@ -719,7 +707,7 @@ const ALL_EXERCISES = [
     "prompt": "Z tej samej ilości cukru fermentacja daje mniej energii niż oddychanie tlenowe.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że fermentacja uwalnia tylko część energii zmagazynowanej w cukrze."
+    "explanation": "Fermentacja uwalnia tylko część energii zmagazynowanej w cukrze."
   },
   {
     "id": "R01_ODD_11",
@@ -773,7 +761,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r01_drzewo_zycia.jpg",
-    "explanation": "Podręcznik przedstawia organizmy jako jedną wielką rodzinę pochodzącą od wspólnego przodka."
+    "explanation": "Przedstawia się organizmy jako jedną wielką rodzinę pochodzącą od wspólnego przodka."
   },
   {
     "id": "R01_KLW_03",
@@ -802,31 +790,18 @@ const ALL_EXERCISES = [
   {
     "id": "R01_KLW_04",
     "section": "Klasyfikacja i wirusy",
-    "type": "multi_select",
-    "prompt": "Zaznacz królestwa organizmów wymienione w rozdziale.",
-    "options": [
-      "rośliny",
-      "zwierzęta",
-      "grzyby",
-      "bakterie",
-      "protisty",
-      "wirusy"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
+    "type": "odd_one_out",
+    "prompt": "Wskaż to, co nie jest królestwem organizmów: rośliny, zwierzęta, grzyby, bakterie, wirusy.",
+    "options": null,
+    "answer": "wirusy",
     "image": "r01_drzewo_zycia.jpg",
-    "explanation": "W rozdziale wyróżniono pięć królestw: rośliny, zwierzęta, grzyby, bakterie i protisty."
+    "explanation": "Królestwa to rośliny, zwierzęta, grzyby, bakterie i protisty. Wirusy nie są królestwem ani organizmami - nie mają budowy komórkowej i namnażają się tylko w komórce gospodarza."
   },
   {
     "id": "R01_KLW_05",
     "section": "Klasyfikacja i wirusy",
     "type": "match",
-    "prompt": "Połącz królestwo lub grupę z cechą opisaną w rozdziale.",
+    "prompt": "Połącz królestwo lub grupę z cechą.",
     "options": null,
     "left": [
       "bakterie",
@@ -836,13 +811,13 @@ const ALL_EXERCISES = [
     ],
     "right": [
       "nie mają jądra komórkowego",
-      "cudzożywne organizmy wielokomórkowe o tkankach",
+      "cudzożywne organizmy wielokomórkowe posiadające tkanki",
       "mogą być samożywne lub cudzożywne",
       "wytwarzają pokarm w fotosyntezie"
     ],
     "answer": {
       "bakterie": "nie mają jądra komórkowego",
-      "zwierzęta": "cudzożywne organizmy wielokomórkowe o tkankach",
+      "zwierzęta": "cudzożywne organizmy wielokomórkowe posiadające tkanki",
       "protisty": "mogą być samożywne lub cudzożywne",
       "rośliny": "wytwarzają pokarm w fotosyntezie"
     },
@@ -899,7 +874,7 @@ const ALL_EXERCISES = [
     "id": "R01_KLW_10",
     "section": "Klasyfikacja i wirusy",
     "type": "multi_select",
-    "prompt": "Zaznacz drogi zakażenia wirusami opisane w rozdziale.",
+    "prompt": "Zaznacz drogi zakażenia wirusami.",
     "options": [
       "bezpośredni kontakt z chorym",
       "droga powietrzno-kropelkowa",
@@ -940,13 +915,13 @@ const ALL_EXERCISES = [
     "prompt": "Wirus HIV atakuje i niszczy białe krwinki, osłabiając zdolność organizmu do walki z chorobami.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że HIV niszczy białe krwinki i ogranicza zdolność organizmu do obrony przed chorobami."
+    "explanation": "HIV niszczy białe krwinki i ogranicza zdolność organizmu do obrony przed chorobami."
   },
   {
     "id": "R01_KLW_13",
     "section": "Klasyfikacja i wirusy",
     "type": "match",
-    "prompt": "Połącz chorobę lub wirusa z opisem z rozdziału.",
+    "prompt": "Połącz chorobę lub wirusa z opisem.",
     "options": null,
     "left": [
       "wścieklizna",
@@ -966,7 +941,7 @@ const ALL_EXERCISES = [
       "AIDS": "choroba wywoływana przez HIV",
       "półpasiec": "może pojawić się po uaktywnieniu wirusa ospy wietrznej"
     },
-    "explanation": "Rozdział omawia przykłady chorób wirusowych i sposoby ich przenoszenia."
+    "explanation": "To przykłady chorób wirusowych i sposobów ich przenoszenia."
   },
   {
     "id": "R01_HARD_01",
@@ -995,7 +970,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby zdobywania wiedzy biologicznej opisane w rozdziale.",
+    "prompt": "Zaznacz sposoby zdobywania wiedzy biologicznej.",
     "options": [
       "doświadczenia",
       "obserwacje",
@@ -1030,7 +1005,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_04",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj związki chemiczne do głównej roli opisanej w rozdziale.",
+    "prompt": "Przyporządkuj związki chemiczne do głównej roli.",
     "options": null,
     "items": [
       "białka",
@@ -1064,7 +1039,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz pierwiastek ważny dla aktywnych osób z informacją z rozdziału.",
+    "prompt": "Połącz pierwiastek ważny dla aktywnych osób z informacją.",
     "options": null,
     "left": [
       "sód",
@@ -1093,13 +1068,13 @@ const ALL_EXERCISES = [
     "prompt": "Zbyt niski poziom ferrytyny może wskazywać na niedobór żelaza.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że ferrytyna odpowiada za magazynowanie żelaza, a jej zbyt niski poziom wskazuje na niedobór tego pierwiastka."
+    "explanation": "Ferrytyna odpowiada za magazynowanie żelaza, a jej zbyt niski poziom wskazuje na niedobór tego pierwiastka."
   },
   {
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Według rozdziału w ciele człowieka znajduje się około 30 bilionów komórek, a około 25 bilionów to krwinki czerwone. Który wniosek najlepiej wynika z tych danych?",
+    "prompt": "W ciele człowieka znajduje się około 30 bilionów komórek, a około 25 bilionów to krwinki czerwone. Który wniosek najlepiej wynika z tych danych?",
     "options": [
       "krwinki czerwone stanowią bardzo dużą część komórek ciała",
       "komórek nerwowych jest dokładnie 25 bilionów",

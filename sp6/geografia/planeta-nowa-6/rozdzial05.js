@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "prompt": "Niemcy składają się z 16 krajów związkowych nazywanych landami.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że Niemcy są państwem złożonym z 16 landów."
+    "explanation": "Niemcy są państwem złożonym z 16 landów."
   },
   {
     "id": "R05_NIEM_03",
@@ -59,7 +59,7 @@ const ALL_EXERCISES = [
     "id": "R05_NIEM_04",
     "section": "Niemcy i przemysł",
     "type": "multi_select",
-    "prompt": "Zaznacz działy lub wyroby, z których znany jest współczesny przemysł Niemiec według rozdziału.",
+    "prompt": "Zaznacz działy lub wyroby, z których znany jest współczesny przemysł Niemiec.",
     "options": [
       "samochody",
       "sprzęt elektroniczny",
@@ -74,13 +74,13 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale wymieniono producentów samochodów, sprzętu elektronicznego, sprzętu optycznego oraz lekarstw."
+    "explanation": "Wymieniono producentów samochodów, sprzętu elektronicznego, sprzętu optycznego oraz lekarstw."
   },
   {
     "id": "R05_NIEM_05",
     "section": "Niemcy i przemysł",
     "type": "match",
-    "prompt": "Połącz niemiecką firmę z dziedziną produkcji podaną w rozdziale.",
+    "prompt": "Połącz niemiecką firmę z dziedziną produkcji.",
     "options": null,
     "left": [
       "Volkswagen",
@@ -100,7 +100,7 @@ const ALL_EXERCISES = [
       "Zeiss": "sprzęt optyczny",
       "Bayer": "lekarstwa"
     },
-    "explanation": "Rozdział podaje przykłady znanych niemieckich producentów: Volkswagen, Siemens, Zeiss i Bayer."
+    "explanation": "Podaje się przykłady znanych niemieckich producentów: Volkswagen, Siemens, Zeiss i Bayer."
   },
   {
     "id": "R05_NIEM_06",
@@ -196,7 +196,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "nowe szyby wydobywcze",
     "image": "r05_zollverein_rekultywacja.jpg",
-    "explanation": "W rozdziale opisano muzea, tereny rekreacyjne i centra kulturalno-rozrywkowe, a nie ponowne rozwijanie wydobycia w zamkniętych kopalniach."
+    "explanation": "Opisano muzea, tereny rekreacyjne i centra kulturalno-rozrywkowe, a nie ponowne rozwijanie wydobycia w zamkniętych kopalniach."
   },
   {
     "id": "R05_CZS_01",
@@ -227,7 +227,7 @@ const ALL_EXERCISES = [
     "id": "R05_CZS_03",
     "section": "Czechy i Słowacja",
     "type": "multi_select",
-    "prompt": "Zaznacz atrakcje i formy wypoczynku szczególnie charakterystyczne dla Słowacji według rozdziału.",
+    "prompt": "Zaznacz atrakcje i formy wypoczynku szczególnie charakterystyczne dla Słowacji.",
     "options": [
       "wędrówki po górach",
       "zwiedzanie jaskiń",
@@ -327,7 +327,7 @@ const ALL_EXERCISES = [
       "Gerlachowski Szczyt"
     ],
     "image": "r05_gerlach_karpaty.jpg",
-    "explanation": "Rozdział podaje, że Gerlach ma 2654 m n.p.m. i leży tuż przy granicy polsko-słowackiej."
+    "explanation": "Gerlach ma 2654 m n.p.m. i leży tuż przy granicy polsko-słowackiej."
   },
   {
     "id": "R05_CZS_09",
@@ -359,7 +359,7 @@ const ALL_EXERCISES = [
         "wody termalne"
       ]
     },
-    "explanation": "Rozdział wymienia te atrakcje jako przykłady walorów turystycznych południowych sąsiadów Polski."
+    "explanation": "Wymienia się te atrakcje jako przykłady walorów turystycznych południowych sąsiadów Polski."
   },
   {
     "id": "R05_CZS_10",
@@ -407,7 +407,7 @@ const ALL_EXERCISES = [
     "id": "R05_LIB_03",
     "section": "Litwa i Białoruś",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy środowiska przyrodniczego Litwy i Białorusi opisane w rozdziale.",
+    "prompt": "Zaznacz cechy środowiska przyrodniczego Litwy i Białorusi.",
     "options": [
       "przewaga nizin",
       "liczne jeziora polodowcowe",
@@ -440,7 +440,7 @@ const ALL_EXERCISES = [
         "ZSRR"
       ]
     ],
-    "explanation": "Rozdział wskazuje, że oba państwa powstały po rozpadzie Związku Sowieckiego."
+    "explanation": "Oba państwa powstały po rozpadzie Związku Sowieckiego."
   },
   {
     "id": "R05_LIB_05",
@@ -548,7 +548,7 @@ const ALL_EXERCISES = [
       "Puszcza Zielona"
     ],
     "answer": 0,
-    "explanation": "Rozdział opisuje Puszczę Białowieską jako ważny element dziedzictwa przyrodniczego na pograniczu polsko-białoruskim."
+    "explanation": "Opisuje się Puszczę Białowieską jako ważny element dziedzictwa przyrodniczego na pograniczu polsko-białoruskim."
   },
   {
     "id": "R05_UKR_01",
@@ -579,7 +579,7 @@ const ALL_EXERCISES = [
     "id": "R05_UKR_03",
     "section": "Ukraina",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy Ukrainy sprzyjające rozwojowi gospodarki według rozdziału.",
+    "prompt": "Zaznacz cechy Ukrainy sprzyjające rozwojowi gospodarki.",
     "options": [
       "bardzo żyzne gleby",
       "łagodny klimat",
@@ -625,7 +625,7 @@ const ALL_EXERCISES = [
     "id": "R05_UKR_05",
     "section": "Ukraina",
     "type": "match",
-    "prompt": "Połącz skutek wojny z opisanym w rozdziale przykładem.",
+    "prompt": "Połącz skutek wojny z przykładem.",
     "options": null,
     "left": [
       "emigracja",
@@ -680,11 +680,11 @@ const ALL_EXERCISES = [
     "id": "R05_UKR_08",
     "section": "Ukraina",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do problemów Ukrainy opisanych w rozdziale: wojna, bombardowania, emigracja, nadmierny ruch turystyczny.",
+    "prompt": "Co nie pasuje do problemów Ukrainy: wojna, bombardowania, emigracja, nadmierny ruch turystyczny.",
     "options": null,
     "answer": "nadmierny ruch turystyczny",
     "image": "r05_ukraina_wojna_skutki.jpg",
-    "explanation": "Rozdział wskazuje wojnę, bombardowania i emigrację jako problemy Ukrainy, a nie nadmierny ruch turystyczny."
+    "explanation": "Wskazuje się wojnę, bombardowania i emigrację jako problemy Ukrainy, a nie nadmierny ruch turystyczny."
   },
   {
     "id": "R05_UKR_09",
@@ -744,7 +744,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_01",
     "section": "Rosja i przyroda",
     "type": "single_choice",
-    "prompt": "Które państwo opisano w rozdziale jako największe pod względem powierzchni na świecie?",
+    "prompt": "Które państwo opisano jako największe pod względem powierzchni na świecie?",
     "options": [
       "Rosję",
       "Ukrainę",
@@ -763,7 +763,7 @@ const ALL_EXERCISES = [
     "prompt": "Tylko około 1/4 powierzchni Rosji znajduje się w Europie.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że zaledwie jedna czwarta terytorium Rosji leży w Europie, a reszta w Azji."
+    "explanation": "Zaledwie jedna czwarta terytorium Rosji leży w Europie, a reszta w Azji."
   },
   {
     "id": "R05_ROS_03",
@@ -788,7 +788,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_04",
     "section": "Rosja i przyroda",
     "type": "multi_select",
-    "prompt": "Zaznacz krainy lub formy ukształtowania powierzchni Rosji wymienione w rozdziale.",
+    "prompt": "Zaznacz krainy lub formy ukształtowania powierzchni Rosji.",
     "options": [
       "Nizina Wschodnioeuropejska",
       "Ural",
@@ -803,13 +803,13 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale wymieniono Nizinę Wschodnioeuropejską, Ural, Nizinę Zachodniosyberyjską i Wyżynę Środkowosyberyjską jako ważne elementy rzeźby Rosji."
+    "explanation": "Wymieniono Nizinę Wschodnioeuropejską, Ural, Nizinę Zachodniosyberyjską i Wyżynę Środkowosyberyjską jako ważne elementy rzeźby Rosji."
   },
   {
     "id": "R05_ROS_05",
     "section": "Rosja i przyroda",
     "type": "match",
-    "prompt": "Połącz obiekt geograficzny z informacją z rozdziału.",
+    "prompt": "Połącz obiekt geograficzny z informacją.",
     "options": null,
     "left": [
       "Wołga",
@@ -830,7 +830,7 @@ const ALL_EXERCISES = [
       "Kluczewska Sopka": "czynny wulkan na Kamczatce"
     },
     "image": "r05_bajkal_jezioro.jpg",
-    "explanation": "Rozdział wskazuje Wołgę, Bajkał, Elbrus i Kluczewską Sopkę jako charakterystyczne obiekty przyrodnicze Rosji."
+    "explanation": "Wskazuje się Wołgę, Bajkał, Elbrus i Kluczewską Sopkę jako charakterystyczne obiekty przyrodnicze Rosji."
   },
   {
     "id": "R05_ROS_06",
@@ -884,16 +884,16 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_08",
     "section": "Rosja i przyroda",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do surowców mineralnych Rosji wymienionych w rozdziale: węgiel kamienny, gaz ziemny, ropa naftowa, wody termalne.",
+    "prompt": "Co nie pasuje do surowców mineralnych Rosji: węgiel kamienny, gaz ziemny, ropa naftowa, wody termalne.",
     "options": null,
     "answer": "wody termalne",
-    "explanation": "Rozdział wymienia węgiel kamienny, gaz ziemny i ropę naftową jako rosyjskie surowce, a wody termalne omawia przy Słowacji i Litwie."
+    "explanation": "Wymienia się węgiel kamienny, gaz ziemny i ropę naftową jako rosyjskie surowce, a wody termalne omawia przy Słowacji i Litwie."
   },
   {
     "id": "R05_ROS_09",
     "section": "Rosja i przyroda",
     "type": "scenario",
-    "prompt": "Uczeń tłumaczy, dlaczego Rosja ma tak duże zróżnicowanie ukształtowania powierzchni, klimatu i roślinności. Która przyczyna najlepiej pasuje do rozdziału?",
+    "prompt": "Uczeń tłumaczy, dlaczego Rosja ma tak duże zróżnicowanie ukształtowania powierzchni, klimatu i roślinności. Która przyczyna jest najtrafniejsza?",
     "options": [
       "ogromna powierzchnia kraju",
       "bardzo mała liczba jezior",
@@ -918,7 +918,7 @@ const ALL_EXERCISES = [
     "id": "R05_REL_01",
     "section": "Relacje z sąsiadami",
     "type": "single_choice",
-    "prompt": "Z iloma państwami graniczy obecnie Polska według rozdziału?",
+    "prompt": "Z iloma państwami graniczy obecnie Polska?",
     "options": [
       "z siedmioma",
       "z trzema",
@@ -937,13 +937,13 @@ const ALL_EXERCISES = [
     "prompt": "Relacje Polski z Rosją i Białorusią są obecnie opisane jako nieprzyjazne lub złe.",
     "options": null,
     "answer": true,
-    "explanation": "Podsumowanie rozdziału wskazuje dobre relacje z pozostałymi sąsiadami, ale złe stosunki z Rosją i Białorusią."
+    "explanation": "Wskazuje się dobre relacje z pozostałymi sąsiadami, ale złe stosunki z Rosją i Białorusią."
   },
   {
     "id": "R05_REL_03",
     "section": "Relacje z sąsiadami",
     "type": "multi_select",
-    "prompt": "Zaznacz sąsiadów Polski należących do Unii Europejskiej według rozdziału.",
+    "prompt": "Zaznacz sąsiadów Polski należących do Unii Europejskiej.",
     "options": [
       "Niemcy",
       "Czechy",
@@ -983,7 +983,7 @@ const ALL_EXERCISES = [
     "id": "R05_REL_05",
     "section": "Relacje z sąsiadami",
     "type": "match",
-    "prompt": "Połącz organizację z opisem współpracy z rozdziału.",
+    "prompt": "Połącz organizację z opisem współpracy.",
     "options": null,
     "left": [
       "Unia Europejska",
@@ -1003,7 +1003,7 @@ const ALL_EXERCISES = [
       "NATO": "organizacja wojskowa",
       "Grupa Wyszehradzka": "współpraca Polski Czech Słowacji i Węgier"
     },
-    "explanation": "Tabela w rozdziale opisuje główne formy współpracy Polski z sąsiadami w organizacjach międzynarodowych."
+    "explanation": "Opisuje się główne formy współpracy Polski z sąsiadami w organizacjach międzynarodowych."
   },
   {
     "id": "R05_REL_06",
@@ -1048,7 +1048,7 @@ const ALL_EXERCISES = [
     "id": "R05_REL_09",
     "section": "Relacje z sąsiadami",
     "type": "sort",
-    "prompt": "Przyporządkuj sąsiadów do obecnego charakteru relacji z Polską według rozdziału.",
+    "prompt": "Przyporządkuj sąsiadów do obecnego charakteru relacji z Polską.",
     "options": null,
     "items": [
       "Niemcy",
@@ -1076,7 +1076,7 @@ const ALL_EXERCISES = [
         "Białoruś"
       ]
     },
-    "explanation": "Rozdział podsumowuje, że dobre relacje Polska ma z Niemcami, Czechami, Słowacją, Ukrainą i Litwą, a złe lub nieprzyjazne z Rosją i Białorusią."
+    "explanation": "Dobre relacje Polska ma z Niemcami, Czechami, Słowacją, Ukrainą i Litwą, a złe lub nieprzyjazne z Rosją i Białorusią."
   },
   {
     "id": "R05_REL_10",
@@ -1114,7 +1114,7 @@ const ALL_EXERCISES = [
       "prawie wszyscy"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że w górnictwie pracowało mniej niż 1/100 osób zatrudnionych w niemieckim przemyśle."
+    "explanation": "W górnictwie pracowało mniej niż 1/100 osób zatrudnionych w niemieckim przemyśle."
   },
   {
     "id": "R05_HARD_02",
@@ -1137,7 +1137,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz niemiecką atrakcję z informacją z rozdziału.",
+    "prompt": "Połącz niemiecką atrakcję z informacją.",
     "options": null,
     "left": [
       "zamek Neuschwanstein",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
       "Lindau": "miasto nad Jeziorem Bodeńskim"
     },
     "image": "r05_niemcy_atrakcje.jpg",
-    "explanation": "Rozdział przedstawia te obiekty jako przykłady atrakcji Niemiec i podaje charakterystyczne informacje o każdym z nich."
+    "explanation": "Przedstawia się te obiekty jako przykłady atrakcji Niemiec i podaje charakterystyczne informacje o każdym z nich."
   },
   {
     "id": "R05_HARD_04",
@@ -1173,7 +1173,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaką długość ma Dobszyńska Jaskinia Lodowa według rozdziału?",
+    "prompt": "Jaką długość ma Dobszyńska Jaskinia Lodowa?",
     "options": [
       "1,5 km",
       "15 km",
@@ -1197,13 +1197,13 @@ const ALL_EXERCISES = [
       "festiwal piosenki",
       "Litewski festiwal piosenki"
     ],
-    "explanation": "W rozdziale podano, że Litwini co cztery lata organizują w Wilnie Litewski Festiwal Piosenki."
+    "explanation": "Litwini co cztery lata organizują w Wilnie Litewski Festiwal Piosenki."
   },
   {
     "id": "R05_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz powody złych relacji Polski z Białorusią wymienione w rozdziale.",
+    "prompt": "Zaznacz powody złych relacji Polski z Białorusią.",
     "options": [
       "autorytarne rządy na Białorusi",
       "ścisła współpraca Białorusi z Rosją",
@@ -1218,7 +1218,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Rozdział wymienia autorytarny charakter państwa, współpracę z Rosją, poparcie inwazji i utrudnianie sytuacji Polaków na Białorusi jako przyczyny złych relacji."
+    "explanation": "Wymienia się autorytarny charakter państwa, współpracę z Rosją, poparcie inwazji i utrudnianie sytuacji Polaków na Białorusi jako przyczyny złych relacji."
   },
   {
     "id": "R05_HARD_08",
@@ -1251,7 +1251,7 @@ const ALL_EXERCISES = [
         "strefy czasowe"
       ]
     ],
-    "explanation": "Ciekawostka w rozdziale wskazuje, że Rosja obejmuje dziewięć stref czasowych."
+    "explanation": "Ciekawostka wskazuje, że Rosja obejmuje dziewięć stref czasowych."
   },
   {
     "id": "R05_HARD_10",
@@ -1293,7 +1293,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_12",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj sąsiadów Polski do państw należących i nienależących do Unii Europejskiej według rozdziału.",
+    "prompt": "Przyporządkuj sąsiadów Polski do państw należących i nienależących do Unii Europejskiej.",
     "options": null,
     "items": [
       "Niemcy",

@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R04_OSW_02",
     "section": "Kultura oświecenia",
     "type": "multi_select",
-    "prompt": "Zaznacz hasła i wartości kojarzone w rozdziale z oświeceniem.",
+    "prompt": "Zaznacz hasła i wartości kojarzone z oświeceniem.",
     "options": [
       "wiara w potęgę rozumu",
       "postęp",
@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "prompt": "Wielka encyklopedia francuska była wydawana prawie 30 lat i liczyła 35 tomów.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że Wielka encyklopedia francuska powstawała przez prawie 30 lat, była dziełem wielu autorów i liczyła 35 tomów."
+    "explanation": "Wielka encyklopedia francuska powstawała przez prawie 30 lat, była dziełem wielu autorów i liczyła 35 tomów."
   },
   {
     "id": "R04_OSW_04",
@@ -110,7 +110,7 @@ const ALL_EXERCISES = [
       "Karol Ludwik Monteskiusz": "trójpodział władz",
       "Jean-Jacques Rousseau": "prawo ludu do wyboru ustroju"
     },
-    "explanation": "Wolter kojarzony jest w rozdziale z wiarą w postęp, Monteskiusz z trójpodziałem władz, a Rousseau z prawem ludu do wyboru ustroju i sympatią do republiki."
+    "explanation": "Wolter kojarzony jest z wiarą w postęp, Monteskiusz z trójpodziałem władz, a Rousseau z prawem ludu do wyboru ustroju i sympatią do republiki."
   },
   {
     "id": "R04_OSW_07",
@@ -203,7 +203,7 @@ const ALL_EXERCISES = [
       "pierwszy lot balonem braci Montgolfier",
       "pierwsza bateria"
     ],
-    "explanation": "Tabela w rozdziale podaje kolejno: siewnik w 1701 roku, piorunochron w 1752 roku, udoskonalony silnik parowy w 1769 roku, pierwszy lot balonem braci Montgolfier w 1783 roku i pierwszą baterię w 1799 roku."
+    "explanation": "Podaje się kolejno: siewnik w 1701 roku, piorunochron w 1752 roku, udoskonalony silnik parowy w 1769 roku, pierwszy lot balonem braci Montgolfier w 1783 roku i pierwszą baterię w 1799 roku."
   },
   {
     "id": "R04_OSW_12",
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
     "prompt": "Rokoko rozwinęło się w pierwszej połowie XVIII wieku, a klasycyzm w drugiej połowie tego stulecia.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że rokoko było stylem pierwszej połowy XVIII wieku, natomiast klasycyzm pojawił się w architekturze, sztuce i muzyce w drugiej połowie wieku."
+    "explanation": "Rokoko było stylem pierwszej połowy XVIII wieku, natomiast klasycyzm pojawił się w architekturze, sztuce i muzyce w drugiej połowie wieku."
   },
   {
     "id": "R04_ABO_01",
@@ -260,7 +260,7 @@ const ALL_EXERCISES = [
     "id": "R04_ABO_04",
     "section": "Absolutyzm oświecony",
     "type": "multi_select",
-    "prompt": "Zaznacz filary państwa pruskiego opisane w rozdziale.",
+    "prompt": "Zaznacz filary państwa pruskiego.",
     "options": [
       "liczna i dobrze wyćwiczona armia",
       "kompetentna administracja",
@@ -275,7 +275,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "r04_fryderyk_ii_i_armia.jpg",
-    "explanation": "Rozdział nazywa filarami państwa pruskiego liczną i wyćwiczoną armię, kompetentną administrację oraz dobrze zorganizowane szkolnictwo."
+    "explanation": "Nazywa się filarami państwa pruskiego liczną i wyćwiczoną armię, kompetentną administrację oraz dobrze zorganizowane szkolnictwo."
   },
   {
     "id": "R04_ABO_05",
@@ -296,7 +296,7 @@ const ALL_EXERCISES = [
     "id": "R04_ABO_06",
     "section": "Absolutyzm oświecony",
     "type": "match",
-    "prompt": "Połącz państwo z dynastią lub władcą wskazanym w rozdziale.",
+    "prompt": "Połącz państwo z dynastią lub władcą.",
     "options": null,
     "left": [
       "Prusy",
@@ -448,7 +448,7 @@ const ALL_EXERCISES = [
       "35"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że w ciągu XVII wieku i w pierwszej połowie XVIII wieku powstało 13 kolonii brytyjskich."
+    "explanation": "W ciągu XVII wieku i w pierwszej połowie XVIII wieku powstało 13 kolonii brytyjskich."
   },
   {
     "id": "R04_USA_02",
@@ -481,7 +481,7 @@ const ALL_EXERCISES = [
     "id": "R04_USA_04",
     "section": "Powstanie Stanów Zjednoczonych",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny konfliktu trzynastu kolonii z Wielką Brytanią opisane w rozdziale.",
+    "prompt": "Zaznacz przyczyny konfliktu trzynastu kolonii z Wielką Brytanią.",
     "options": [
       "brak przedstawicieli kolonii w brytyjskim Parlamencie",
       "wysokie cła na towary sprowadzane do kolonii",
@@ -547,7 +547,7 @@ const ALL_EXERCISES = [
     "id": "R04_USA_08",
     "section": "Powstanie Stanów Zjednoczonych",
     "type": "match",
-    "prompt": "Połącz postać z rolą opisaną w rozdziale.",
+    "prompt": "Połącz postać z rolą.",
     "options": null,
     "left": [
       "Benjamin Franklin",
@@ -663,13 +663,13 @@ const ALL_EXERCISES = [
       "Benjamina Franklina"
     ],
     "answer": 0,
-    "explanation": "Rozdział wskazuje na rządy Ludwika XVI z dynastii Burbonów w latach 1774-1792."
+    "explanation": "Wskazuje się na rządy Ludwika XVI z dynastii Burbonów w latach 1774-1792."
   },
   {
     "id": "R04_REW_02",
     "section": "Wielka Rewolucja Francuska",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny wybuchu Wielkiej Rewolucji Francuskiej wymienione w rozdziale.",
+    "prompt": "Zaznacz przyczyny wybuchu Wielkiej Rewolucji Francuskiej.",
     "options": [
       "kosztowne wojny i zadłużenie państwa",
       "próby nakładania nowych podatków",
@@ -707,7 +707,7 @@ const ALL_EXERCISES = [
     "prompt": "Stan trzeci obejmował m.in. chłopów i mieszczan, w tym rzemieślników, robotników manufaktur, urzędników, lekarzy, prawników i dziennikarzy.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział definiuje stan trzeci jako najliczniejsze warstwy społeczeństwa: chłopów i różne grupy mieszczaństwa."
+    "explanation": "Definiuje się stan trzeci jako najliczniejsze warstwy społeczeństwa: chłopów i różne grupy mieszczaństwa."
   },
   {
     "id": "R04_REW_05",
@@ -804,7 +804,7 @@ const ALL_EXERCISES = [
     "id": "R04_REW_11",
     "section": "Wielka Rewolucja Francuska",
     "type": "multi_select",
-    "prompt": "Zaznacz grupy, które według rozdziału nie otrzymały prawa wyboru posłów w konstytucyjnej Francji.",
+    "prompt": "Zaznacz grupy, które nie otrzymały prawa wyboru posłów w konstytucyjnej Francji.",
     "options": [
       "kobiety",
       "ludzie nieposiadający własności",
@@ -912,7 +912,7 @@ const ALL_EXERCISES = [
     "prompt": "Jakobini używali terroru wobec tych, których uważali za wrogów rewolucji.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że jakobini prowadzili aresztowania i egzekucje, zwłaszcza w czasie Wielkiego Terroru."
+    "explanation": "Jakobini prowadzili aresztowania i egzekucje, zwłaszcza w czasie Wielkiego Terroru."
   },
   {
     "id": "R04_REP_06",
@@ -934,7 +934,7 @@ const ALL_EXERCISES = [
         "lipiec"
       ]
     ],
-    "explanation": "Rozdział podaje, że Wielki Terror trwał dwa miesiące: od czerwca do lipca 1794 roku."
+    "explanation": "Wielki Terror trwał dwa miesiące: od czerwca do lipca 1794 roku."
   },
   {
     "id": "R04_REP_07",
@@ -980,7 +980,7 @@ const ALL_EXERCISES = [
     "id": "R04_REP_10",
     "section": "Francja republiką",
     "type": "match",
-    "prompt": "Połącz symbol lub instytucję z informacją z rozdziału.",
+    "prompt": "Połącz symbol lub instytucję z informacją.",
     "options": null,
     "left": [
       "trójkolorowa flaga",
@@ -1187,13 +1187,13 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż postać niepasującą do wojny o niepodległość USA: Benjamin Franklin, Jerzy Waszyngton, Tadeusz Kościuszko, Józef II.",
     "options": null,
     "answer": "Józef II",
-    "explanation": "Józef II był cesarzem z dynastii Habsburgów i reformatorem Austrii, a pozostałe osoby rozdział wiąże z amerykańską niepodległością."
+    "explanation": "Józef II był cesarzem z dynastii Habsburgów i reformatorem Austrii, a pozostałe osoby wiąże się z amerykańską niepodległością."
   },
   {
     "id": "R04_HARD_10",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj grupy do sytuacji prawnej w początkowych Stanach Zjednoczonych według rozdziału.",
+    "prompt": "Przyporządkuj grupy do sytuacji prawnej w początkowych Stanach Zjednoczonych.",
     "options": null,
     "items": [
       "biali mężczyźni",

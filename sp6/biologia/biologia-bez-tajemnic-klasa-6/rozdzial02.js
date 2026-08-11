@@ -36,7 +36,7 @@ const ALL_EXERCISES = [
     "id": "R02_PLZ_03",
     "section": "Płazińce",
     "type": "multi_select",
-    "prompt": "Zaznacz środowiska, w których według rozdziału mogą występować płazińce.",
+    "prompt": "Zaznacz środowiska, w których mogą występować płazińce.",
     "options": [
       "wody słodkie i słone",
       "wilgotne środowisko lądowe",
@@ -268,13 +268,13 @@ const ALL_EXERCISES = [
     "prompt": "Nicienie mają wyraźnie wyodrębnioną głowę.",
     "options": null,
     "answer": false,
-    "explanation": "W podręczniku podano, że nicienie nie mają wyodrębnionej głowy."
+    "explanation": "Nicienie nie mają wyodrębnionej głowy."
   },
   {
     "id": "R02_NIC_03",
     "section": "Nicienie",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy budowy nicieni opisane w rozdziale.",
+    "prompt": "Zaznacz cechy budowy nicieni.",
     "options": [
       "ciało wypełnione płynem nadającym sprężystość",
       "przewód pokarmowy",
@@ -320,7 +320,7 @@ const ALL_EXERCISES = [
       "Nicienie nigdy nie są pasożytami roślin."
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje przykłady nicieni wolno żyjących oraz pasożytów roślin i zwierząt."
+    "explanation": "Podaje się przykłady nicieni wolno żyjących oraz pasożytów roślin i zwierząt."
   },
   {
     "id": "R02_NIC_06",
@@ -366,7 +366,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_08",
     "section": "Nicienie",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy nicieni pasożytniczych wymienione w podręczniku.",
+    "prompt": "Zaznacz cechy nicieni pasożytniczych.",
     "options": [
       "u niektórych prosty aparat czepny w formie warg",
       "oddychanie beztlenowe",
@@ -391,7 +391,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość nicieni pasożytniczych to obojnaki.",
     "options": null,
     "answer": false,
-    "explanation": "W podręczniku zapisano, że większość nicieni pasożytniczych jest rozdzielnopłciowa."
+    "explanation": "Większość nicieni pasożytniczych jest rozdzielnopłciowa."
   },
   {
     "id": "R02_NIC_10",
@@ -629,7 +629,7 @@ const ALL_EXERCISES = [
     "id": "R02_PIE_08",
     "section": "Pierścienice",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje dżdżownic w przyrodzie i dla człowieka opisane w rozdziale.",
+    "prompt": "Zaznacz funkcje dżdżownic w przyrodzie i dla człowieka.",
     "options": [
       "spulchniają glebę",
       "mieszają warstwy gleby",
@@ -764,7 +764,7 @@ const ALL_EXERCISES = [
     "id": "R02_CHO_02",
     "section": "Choroby pasożytnicze",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby zapobiegania tasiemczycy opisane w podręczniku.",
+    "prompt": "Zaznacz sposoby zapobiegania tasiemczycy.",
     "options": [
       "unikanie surowego lub niedogotowanego mięsa",
       "niespożywanie mięsa nieprzebadanego i z nieznanego źródła",
@@ -783,7 +783,7 @@ const ALL_EXERCISES = [
     "id": "R02_CHO_03",
     "section": "Choroby pasożytnicze",
     "type": "scenario",
-    "prompt": "Ktoś zjadł surową wołowinę z larwami tasiemca. Którym tasiemcem może się zarazić według rozdziału?",
+    "prompt": "Ktoś zjadł surową wołowinę z larwami tasiemca. Którym tasiemcem może się zarazić?",
     "options": [
       "tasiemcem nieuzbrojonym",
       "tasiemcem uzbrojonym",
@@ -818,13 +818,13 @@ const ALL_EXERCISES = [
     "prompt": "Człowiek może być żywicielem pośrednim dla tasiemca bąblowcowego.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że człowiek może być żywicielem pośrednim tasiemca bąblowcowego."
+    "explanation": "Człowiek może być żywicielem pośrednim tasiemca bąblowcowego."
   },
   {
     "id": "R02_CHO_06",
     "section": "Choroby pasożytnicze",
     "type": "single_choice",
-    "prompt": "W którym narządzie człowieka larwy bąblowca najczęściej tworzą zmiany opisane w podręczniku?",
+    "prompt": "W którym narządzie człowieka larwy bąblowca najczęściej tworzą zmiany?",
     "options": [
       "w wątrobie",
       "w jelicie grubym",
@@ -860,7 +860,7 @@ const ALL_EXERCISES = [
     "id": "R02_CHO_08",
     "section": "Choroby pasożytnicze",
     "type": "single_choice",
-    "prompt": "U kogo według rozdziału owsica występuje zwykle najczęściej?",
+    "prompt": "U kogo owsica występuje zwykle najczęściej?",
     "options": [
       "u dzieci w wieku przedszkolnym i wczesnoszkolnym",
       "u wyłącznie dorosłych hodowców ryb",
@@ -876,7 +876,7 @@ const ALL_EXERCISES = [
     "id": "R02_CHO_09",
     "section": "Choroby pasożytnicze",
     "type": "multi_select",
-    "prompt": "Zaznacz objawy owsicy wymienione w podręczniku.",
+    "prompt": "Zaznacz objawy owsicy.",
     "options": [
       "świąd okolic odbytu, głównie w nocy",
       "problemy ze snem i niepokój",
@@ -919,7 +919,7 @@ const ALL_EXERCISES = [
     "id": "R02_CHO_11",
     "section": "Choroby pasożytnicze",
     "type": "single_choice",
-    "prompt": "Jaki charakterystyczny objaw glistnicy jest opisany w rozdziale?",
+    "prompt": "Jaki charakterystyczny objaw glistnicy jest?",
     "options": [
       "kaszel wywoływany przez larwy wędrujące w organizmie",
       "świąd odbytu głównie w nocy",
@@ -1010,7 +1010,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIE_03",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Które z wymienionych grup mają przewód pokarmowy według podsumowania rozdziału?",
+    "prompt": "Które z wymienionych grup mają przewód pokarmowy?",
     "options": [
       "nicienie",
       "pierścienice",
@@ -1040,7 +1040,7 @@ const ALL_EXERCISES = [
     "prompt": "Płazińce, nicienie i pierścienice należą do bezkręgowców.",
     "options": null,
     "answer": true,
-    "explanation": "Wszystkie trzy grupy opisane w tym rozdziale to bezkręgowce, czyli zwierzęta bez kręgosłupa."
+    "explanation": "Wszystkie trzy grupy to bezkręgowce, czyli zwierzęta bez kręgosłupa."
   },
   {
     "id": "R02_MIE_06",
@@ -1210,7 +1210,7 @@ const ALL_EXERCISES = [
       "około 2 km"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że średnia długość jelita cienkiego u dorosłego człowieka wynosi około 6 metrów."
+    "explanation": "Średnia długość jelita cienkiego u dorosłego człowieka wynosi około 6 metrów."
   },
   {
     "id": "R02_HARD_03",
@@ -1235,7 +1235,7 @@ const ALL_EXERCISES = [
     "prompt": "Caenorhabditis elegans ma według tekstu zawsze dokładnie 959 komórek, a około jedną trzecią z nich stanowią komórki nerwowe.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że ten modelowy nicień jest zbudowany z 959 komórek, z czego około jedną trzecią stanowią komórki nerwowe."
+    "explanation": "Ten modelowy nicień jest zbudowany z 959 komórek, z czego około jedną trzecią stanowią komórki nerwowe."
   },
   {
     "id": "R02_HARD_05",
@@ -1306,7 +1306,7 @@ const ALL_EXERCISES = [
       "samozapłodnienie": "połączenie gamet wytwarzanych przez ten sam organizm",
       "zapłodnienie krzyżowe": "połączenie gamet między dwoma obojnakami"
     },
-    "explanation": "Słowniczek rozdziału rozróżnia typy rozwoju oraz dwa sposoby zapłodnienia u obojnaków."
+    "explanation": "Rozróżnia się typy rozwoju oraz dwa sposoby zapłodnienia u obojnaków."
   }
 ];
 

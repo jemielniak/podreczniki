@@ -28,7 +28,7 @@ const ALL_EXERCISES = [
     "id": "R04_POG_02",
     "section": "Pogoda i klimat",
     "type": "multi_select",
-    "prompt": "Zaznacz składniki pogody wymienione w podręczniku.",
+    "prompt": "Zaznacz składniki pogody.",
     "options": [
       "temperatura powietrza",
       "zachmurzenie",
@@ -69,7 +69,7 @@ const ALL_EXERCISES = [
     "prompt": "Klimat danego miejsca można określić na podstawie obserwacji pogody prowadzonych przez 30 lat lub dłużej.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku podano, że pomiary prowadzone przez 30 lat lub dłużej pozwalają określić klimat."
+    "explanation": "Pomiary prowadzone przez 30 lat lub dłużej pozwalają określić klimat."
   },
   {
     "id": "R04_POG_05",
@@ -217,7 +217,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wskazuje ukształtowanie powierzchni oraz odległość od mórz i oceanów jako ważne czynniki różnicujące klimat."
+    "explanation": "Wskazuje się ukształtowanie powierzchni oraz odległość od mórz i oceanów jako ważne czynniki różnicujące klimat."
   },
   {
     "id": "R04_STR_04",
@@ -319,7 +319,7 @@ const ALL_EXERCISES = [
     "prompt": "Układ stref krajobrazowych jest mniej regularny niż układ stref klimatycznych.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że strefy krajobrazowe nie układają się tak regularnie jak klimatyczne."
+    "explanation": "Strefy krajobrazowe nie układają się tak regularnie jak klimatyczne."
   },
   {
     "id": "R04_STR_10",
@@ -399,7 +399,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W podręczniku przy lasach równikowych pojawiają się między innymi małpy, ptaki, tapiry i jaguary."
+    "explanation": "Przy lasach równikowych pojawiają się między innymi małpy, ptaki, tapiry i jaguary."
   },
   {
     "id": "R04_LAS_05",
@@ -495,7 +495,7 @@ const ALL_EXERCISES = [
     "prompt": "Strefa lasów liściastych i mieszanych występuje przede wszystkim w Ameryce Północnej, Europie i Azji.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje te trzy kontynenty jako główne obszary lasów liściastych i mieszanych."
+    "explanation": "Wskazuje się te trzy kontynenty jako główne obszary lasów liściastych i mieszanych."
   },
   {
     "id": "R04_LAS_10",
@@ -536,7 +536,7 @@ const ALL_EXERCISES = [
     "id": "R04_SPS_03",
     "section": "Sawanny, stepy i pustynie",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny charakterystyczne dla sawanny wymienione w rozdziale.",
+    "prompt": "Zaznacz rośliny charakterystyczne dla sawanny.",
     "options": [
       "trawy",
       "baobaby",
@@ -846,7 +846,7 @@ const ALL_EXERCISES = [
       "turystyka": "ważne zajęcie mieszkańców",
       "rolnictwo": "uprawa m.in. oliwek i winorośli"
     },
-    "explanation": "Klimat, makia, turystyka i rolnictwo są głównymi elementami opisu tej strefy w podręczniku."
+    "explanation": "Klimat, makia, turystyka i rolnictwo są głównymi elementami opisu tej strefy."
   },
   {
     "id": "R04_TTG_01",
@@ -862,7 +862,7 @@ const ALL_EXERCISES = [
       "tylko równikowej"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że tajga i tundra występują tylko na półkuli północnej."
+    "explanation": "Tajga i tundra występują tylko na półkuli północnej."
   },
   {
     "id": "R04_TTG_02",
@@ -1013,13 +1013,13 @@ const ALL_EXERCISES = [
       "Mount Everest",
       "Everest"
     ],
-    "explanation": "Podręcznik podaje, że najwyższym szczytem jest Mount Everest."
+    "explanation": "Najwyższym szczytem jest Mount Everest."
   },
   {
     "id": "R04_TTG_10",
     "section": "Tajga, tundra i góry",
     "type": "multi_select",
-    "prompt": "Zaznacz zajęcia Szerpów wymienione w rozdziale.",
+    "prompt": "Zaznacz zajęcia Szerpów.",
     "options": [
       "hodowla jaków, owiec i kóz",
       "uprawa roślin na niższych wysokościach",
@@ -1075,7 +1075,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Dla Oslo najcieplejszym miesiącem na klimatogramie w podręczniku jest lipiec. Jaki miesiąc jest najzimniejszy?",
+    "prompt": "Dla Oslo najcieplejszym miesiącem na klimatogramie jest lipiec. Jaki miesiąc jest najzimniejszy?",
     "options": [
       "luty",
       "styczeń",
@@ -1109,13 +1109,13 @@ const ALL_EXERCISES = [
         "845 mm"
       ]
     ],
-    "explanation": "Podręcznik pokazuje obliczenia: 47,6: 12 ≈ 4,0°C oraz suma opadów 845 mm."
+    "explanation": "Pokazuje się obliczenia: 47,6: 12 ≈ 4,0°C oraz suma opadów 845 mm."
   },
   {
     "id": "R04_HARD_03",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "W Oslo najwyższa miesięczna suma opadów w przykładzie z podręcznika przypada na październik.",
+    "prompt": "W Oslo najwyższa miesięczna suma opadów w przykładzie przypada na październik.",
     "options": null,
     "answer": true,
     "explanation": "W opisie klimatogramu Oslo podano najwyższe opady w październiku."
@@ -1134,7 +1134,7 @@ const ALL_EXERCISES = [
       "step — piętro śnieżne"
     ],
     "answer": 0,
-    "explanation": "Podręcznik porównuje pustynie lodowe z piętrem śnieżnym, tundrę z piętrem górskich łąk, a tajgę z piętrem lasów iglastych."
+    "explanation": "Porównuje się pustynie lodowe z piętrem śnieżnym, tundrę z piętrem górskich łąk, a tajgę z piętrem lasów iglastych."
   },
   {
     "id": "R04_HARD_05",
@@ -1166,7 +1166,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż krajobrazy od równika ku biegunowi na półkuli północnej zgodnie z uproszczonym schematem z podręcznika.",
+    "prompt": "Ułóż krajobrazy od równika ku biegunowi na półkuli północnej zgodnie z uproszczonym schematem.",
     "options": null,
     "items": [
       "tajga",

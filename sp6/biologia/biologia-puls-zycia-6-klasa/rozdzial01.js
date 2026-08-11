@@ -10,7 +10,7 @@ const ALL_EXERCISES = [
     "id": "R01_KRO_01",
     "section": "Królestwo zwierząt",
     "type": "single_choice",
-    "prompt": "Która cecha jest wspólna dla wszystkich zwierząt opisanych w rozdziale?",
+    "prompt": "Która cecha jest wspólna dla wszystkich zwierząt?",
     "options": [
       "Są cudzożywne",
       "Mają chloroplasty",
@@ -27,7 +27,7 @@ const ALL_EXERCISES = [
     "id": "R01_KRO_02",
     "section": "Królestwo zwierząt",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy komórek zwierzęcych wymienione w rozdziale.",
+    "prompt": "Zaznacz cechy komórek zwierzęcych.",
     "options": [
       "Mają jądro komórkowe",
       "Nie mają chloroplastów",
@@ -69,7 +69,7 @@ const ALL_EXERCISES = [
     "id": "R01_KRO_04",
     "section": "Królestwo zwierząt",
     "type": "match",
-    "prompt": "Połącz poziom organizacji z przykładem z rozdziału.",
+    "prompt": "Połącz poziom organizacji z przykładem.",
     "options": null,
     "left": [
       "komórka",
@@ -89,7 +89,7 @@ const ALL_EXERCISES = [
       "narząd": "serce",
       "układ narządów": "układ krwionośny"
     },
-    "explanation": "Rozdział pokazuje hierarchię na przykładzie komórki mięśniowej serca, tkanki mięśniowej serca, serca i układu krwionośnego."
+    "explanation": "Pokazuje się hierarchię na przykładzie komórki mięśniowej serca, tkanki mięśniowej serca, serca i układu krwionośnego."
   },
   {
     "id": "R01_KRO_05",
@@ -151,7 +151,7 @@ const ALL_EXERCISES = [
       "Parzydełkowce"
     ],
     "answer": 0,
-    "explanation": "W rozdziale ryby opisano jako kręgowce o zwykle opływowym kształcie ciała, wyposażone w płetwy i łuski.",
+    "explanation": "Ryby opisano jako kręgowce o zwykle opływowym kształcie ciała, wyposażone w płetwy i łuski.",
     "image": "r01_grupy_kregowcow.jpg"
   },
   {
@@ -205,7 +205,7 @@ const ALL_EXERCISES = [
       "ptaki": "kończyny przednie przekształcone w skrzydła i pióra",
       "ssaki": "włosy i karmienie potomstwa mlekiem"
     },
-    "explanation": "Każda z tych grup kręgowców ma charakterystyczne cechy budowy wymienione w rozdziale."
+    "explanation": "Każda z tych grup kręgowców ma charakterystyczne cechy budowy."
   },
   {
     "id": "R01_KRO_11",
@@ -256,7 +256,7 @@ const ALL_EXERCISES = [
     "id": "R01_NAB_02",
     "section": "Tkanka nabłonkowa",
     "type": "multi_select",
-    "prompt": "Zaznacz główne zadania nabłonków wymienione w rozdziale.",
+    "prompt": "Zaznacz główne zadania nabłonków.",
     "options": [
       "Ochrona ciała przed drobnymi uszkodzeniami",
       "Wchłanianie różnych substancji",
@@ -321,7 +321,7 @@ const ALL_EXERCISES = [
       "jednowarstwowy walcowaty": "wnętrze jelita cienkiego",
       "wielowarstwowy płaski": "zewnętrzna warstwa skóry"
     },
-    "explanation": "Rozdział podaje przykłady występowania czterech typów nabłonków w płucach, nerkach, jelicie cienkim i skórze.",
+    "explanation": "Podaje się przykłady występowania czterech typów nabłonków w płucach, nerkach, jelicie cienkim i skórze.",
     "image": "r01_nablonki_rodzaje.jpg"
   },
   {
@@ -372,7 +372,7 @@ const ALL_EXERCISES = [
     "prompt": "Nabłonki wielowarstwowe występują wyłącznie u zwierząt kręgowych.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że nabłonki jednowarstwowe występują u wszystkich zwierząt, a wielowarstwowe wyłącznie u kręgowców."
+    "explanation": "Nabłonki jednowarstwowe występują u wszystkich zwierząt, a wielowarstwowe wyłącznie u kręgowców."
   },
   {
     "id": "R01_NAB_10",
@@ -592,7 +592,7 @@ const ALL_EXERCISES = [
     "prompt": "Osłonka aksonu chroni go i zwiększa szybkość przesyłania impulsu nerwowego.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że osłonka chroni akson i zwiększa szybkość przesyłania impulsu nerwowego."
+    "explanation": "Osłonka chroni akson i zwiększa szybkość przesyłania impulsu nerwowego."
   },
   {
     "id": "R01_MIN_10",
@@ -621,7 +621,7 @@ const ALL_EXERCISES = [
     "id": "R01_MIN_12",
     "section": "Tkanka mięśniowa i nerwowa",
     "type": "sequence",
-    "prompt": "Ułóż drogę impulsu nerwowego przez opisaną w rozdziale komórkę nerwową.",
+    "prompt": "Ułóż drogę impulsu nerwowego przez komórkę nerwową.",
     "options": null,
     "items": [
       "akson",
@@ -657,7 +657,7 @@ const ALL_EXERCISES = [
     "id": "R01_LAC_02",
     "section": "Tkanka łączna i krew",
     "type": "multi_select",
-    "prompt": "Zaznacz rodzaje tkanki łącznej wymienione w rozdziale.",
+    "prompt": "Zaznacz rodzaje tkanki łącznej.",
     "options": [
       "Tkanka chrzęstna",
       "Tkanka kostna",
@@ -672,7 +672,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W rozdziale wymieniono między innymi tkankę chrzęstną, kostną, tłuszczową i krew jako rodzaje tkanki łącznej.",
+    "explanation": "Wymieniono między innymi tkankę chrzęstną, kostną, tłuszczową i krew jako rodzaje tkanki łącznej.",
     "image": "r01_tkanka_laczna_typy.jpg"
   },
   {
@@ -816,7 +816,7 @@ const ALL_EXERCISES = [
     "prompt": "Osocze krwi składa się w 90% z wody.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że osocze jest głównym składnikiem krwi i składa się w 90% z wody."
+    "explanation": "Osocze jest głównym składnikiem krwi i składa się w 90% z wody."
   },
   {
     "id": "R01_LAC_11",
@@ -867,7 +867,7 @@ const ALL_EXERCISES = [
     "prompt": "Każda komórka gąbki może przekształcić się w komórkę innego typu, co wiąże się z ich dużą zdolnością regeneracji.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyjaśnia, że komórki gąbek mogą zmieniać typ, dzięki czemu gąbki potrafią odbudować cały organizm nawet z mikroskopijnych fragmentów ciała."
+    "explanation": "Komórki gąbek mogą zmieniać typ, dzięki czemu gąbki potrafią odbudować cały organizm nawet z mikroskopijnych fragmentów ciała."
   },
   {
     "id": "R01_HARD_03",
@@ -909,7 +909,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz nabłonek z funkcją podaną w rozdziale.",
+    "prompt": "Połącz nabłonek z funkcją.",
     "options": null,
     "left": [
       "jednowarstwowy płaski",
@@ -929,7 +929,7 @@ const ALL_EXERCISES = [
       "jednowarstwowy walcowaty": "wydziela enzymy trawienne",
       "wielowarstwowy płaski": "chroni przed drobnymi uszkodzeniami i drobnoustrojami"
     },
-    "explanation": "Przykłady funkcji nabłonków w rozdziale dotyczą pęcherzyków płucnych, kanalików nerkowych, jelita cienkiego i skóry."
+    "explanation": "Przykłady funkcji nabłonków dotyczą pęcherzyków płucnych, kanalików nerkowych, jelita cienkiego i skóry."
   },
   {
     "id": "R01_HARD_06",
@@ -991,7 +991,7 @@ const ALL_EXERCISES = [
         "komórki parzydełkowe"
       ]
     },
-    "explanation": "Nabłonki wielowarstwowe oraz czaszka i kręgosłup są w rozdziale powiązane z kręgowcami, a pancerz raka, muszla ślimaka i komórki parzydełkowe z bezkręgowcami."
+    "explanation": "Nabłonki wielowarstwowe oraz czaszka i kręgosłup są powiązane z kręgowcami, a pancerz raka, muszla ślimaka i komórki parzydełkowe z bezkręgowcami."
   },
   {
     "id": "R01_HARD_09",
@@ -1035,13 +1035,13 @@ const ALL_EXERCISES = [
       "serce",
       "układ krwionośny"
     ],
-    "explanation": "Przykład w rozdziale pokazuje przejście od komórki mięśniowej serca przez tkankę i narząd do układu krwionośnego."
+    "explanation": "Przykład pokazuje przejście od komórki mięśniowej serca przez tkankę i narząd do układu krwionośnego."
   },
   {
     "id": "R01_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz składniki osocza krwi wymienione w rozdziale.",
+    "prompt": "Zaznacz składniki osocza krwi.",
     "options": [
       "Woda",
       "Sole mineralne",

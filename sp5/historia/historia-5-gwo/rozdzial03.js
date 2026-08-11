@@ -76,7 +76,7 @@ const ALL_EXERCISES = [
     "prompt": "Imperium Rzymskie w II w. n.e. było największym mocarstwem starożytności.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że Imperium Rzymskie było największym mocarstwem starożytności."
+    "explanation": "Imperium Rzymskie było największym mocarstwem starożytności."
   },
   {
     "id": "R03_POC_05",
@@ -390,7 +390,7 @@ const ALL_EXERCISES = [
         "cesarzem"
       ]
     ],
-    "explanation": "Podręcznik opisuje cesarstwo jako odmianę monarchii, z cesarzem zamiast króla."
+    "explanation": "Opisuje się cesarstwo jako odmianę monarchii, z cesarzem zamiast króla."
   },
   {
     "id": "R03_UST_12",
@@ -569,7 +569,7 @@ const ALL_EXERCISES = [
     "prompt": "Rzymskie kobiety miały mniej swobody niż Atenki.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podaje odwrotnie: rzymskie kobiety miały więcej swobody niż Atenki, choć nie mogły obejmować urzędów."
+    "explanation": "Podaje się odwrotnie: rzymskie kobiety miały więcej swobody niż Atenki, choć nie mogły obejmować urzędów."
   },
   {
     "id": "R03_SPO_11",
@@ -692,7 +692,7 @@ const ALL_EXERCISES = [
     "image": "/img/r03_rzymska_droga_przekroj.jpg",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik porównuje długość rzymskich dróg do dwóch okrążeń Ziemi."
+    "explanation": "Porównuje się długość rzymskich dróg do dwóch okrążeń Ziemi."
   },
   {
     "id": "R03_OSI_06",
@@ -789,7 +789,7 @@ const ALL_EXERCISES = [
       "drukowanie książek"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że szczególnie popularne były wyścigi rydwanów w cyrku."
+    "explanation": "Szczególnie popularne były wyścigi rydwanów w cyrku."
   },
   {
     "id": "R03_OSI_11",
@@ -843,7 +843,7 @@ const ALL_EXERCISES = [
     "id": "R03_OSI_13",
     "section": "Osiągnięcia i rozrywki",
     "type": "multi_select",
-    "prompt": "Które języki podręcznik podaje jako romańskie, wywodzące się z łaciny?",
+    "prompt": "Które języki podaje się jako romańskie, wywodzące się z łaciny?",
     "options": [
       "włoski",
       "francuski",
@@ -868,7 +868,7 @@ const ALL_EXERCISES = [
     "prompt": "Prawo rzymskie jest podstawą dzisiejszego prawa w wielu państwach, także w Polsce.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że przyszli prawnicy nadal uczą się prawa rzymskiego, bo wiele jego zasad wciąż obowiązuje."
+    "explanation": "Przyszli prawnicy nadal uczą się prawa rzymskiego, bo wiele jego zasad wciąż obowiązuje."
   },
   {
     "id": "R03_CHR_01",
@@ -1019,7 +1019,7 @@ const ALL_EXERCISES = [
     "prompt": "Pierwsi chrześcijanie spotykali się w prywatnych domach, bo nie mieli własnych świątyń.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że pierwsi wyznawcy Chrystusa nie mieli własnych świątyń."
+    "explanation": "Pierwsi wyznawcy Chrystusa nie mieli własnych świątyń."
   },
   {
     "id": "R03_CHR_10",
@@ -1167,7 +1167,7 @@ const ALL_EXERCISES = [
     "prompt": "Trybun ludowy był nietykalny, a za zlekceważenie jego weta groziła kara śmierci.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że kara śmierci groziła nawet za zlekceważenie weta trybuna."
+    "explanation": "Kara śmierci groziła nawet za zlekceważenie weta trybuna."
   },
   {
     "id": "R03_HARD_04",
@@ -1201,7 +1201,7 @@ const ALL_EXERCISES = [
         "Eneide"
       ]
     ],
-    "explanation": "Podręcznik podaje, że Wergiliusz przez 10 lat pisał Eneidę, chcąc, by utwór był doskonały."
+    "explanation": "Wergiliusz przez 10 lat pisał Eneidę, chcąc, by utwór był doskonały."
   },
   {
     "id": "R03_HARD_06",
@@ -1230,7 +1230,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz liczbę lub datę z informacją z rozdziału.",
+    "prompt": "Połącz liczbę lub datę z informacją.",
     "options": null,
     "left": [
       "45 tysięcy",
@@ -1250,7 +1250,7 @@ const ALL_EXERCISES = [
       "80 tysięcy km": "długość rzymskich dróg",
       "64 n.e.": "prześladowania chrześcijan przez Nerona"
     },
-    "explanation": "Zestaw łączy liczby podane w różnych częściach rozdziału: daty, pojemność budowli i długość dróg."
+    "explanation": "Zestaw łączy liczby: daty, pojemność budowli i długość dróg."
   }
 ];
 
@@ -1303,7 +1303,7 @@ const KID_PROMPTS = {
   "R03_OSI_10": "Co było prawdziwą namiętnością Rzymian z lekcji?",
   "R03_OSI_11": "Największy cyrk w Rzymie nazywał się __________ i mieścił około __________ tysięcy widzów.",
   "R03_OSI_12": "Połącz poetę z dziełem lub rodzajem twórczości.",
-  "R03_OSI_13": "Które języki podręcznik podaje jako romańskie, wywodzące się z łaciny?",
+  "R03_OSI_13": "Które języki podaje się jako romańskie, wywodzące się z łaciny?",
   "R03_OSI_14": "Prawo rzymskie jest podstawą dzisiejszego prawa w wielu państwach, także w Polsce.",
   "R03_CHR_01": "Jaką religię wyznawali starożytni Rzymianie przed rozpowszechnieniem chrześcijaństwa?",
   "R03_CHR_02": "Połącz rzymskie bóstwo z greckim odpowiednikiem.",
@@ -1326,7 +1326,7 @@ const KID_PROMPTS = {
   "R03_HARD_05": "Wergiliusz pisał __________ przez 10 lat, codziennie po jednej linijce.",
   "R03_HARD_06": "Wskaż, co nie pasuje do pozostałych: Jowisz, Minerwa, Neptun, Mesjasz.",
   "R03_HARD_07": "Uczeń twierdzi: „Rzymianie pozwalali na wszystkie religie bez żadnych warunków”. Co jest nie tak z tym zdaniem?",
-  "R03_HARD_08": "Połącz liczbę lub datę z informacją z rozdziału."
+  "R03_HARD_08": "Połącz liczbę lub datę z informacją."
 };
 
 const chapter = {

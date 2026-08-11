@@ -28,7 +28,7 @@ const ALL_EXERCISES = [
     "id": "R04_KRG_02",
     "section": "Kręgowce",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy, które według rozdziału składają się na szkielet kręgowców.",
+    "prompt": "Zaznacz elementy, które składają się na szkielet kręgowców.",
     "options": [
       "czaszka",
       "kręgosłup",
@@ -41,7 +41,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "W rozdziale podano, że na szkielet kręgowców składają się m.in. czaszka, kręgosłup i kości kończyn."
+    "explanation": "Na szkielet kręgowców składają się m.in. czaszka, kręgosłup i kości kończyn."
   },
   {
     "id": "R04_KRG_03",
@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r04_szkielet_kregowca.jpg",
-    "explanation": "To prawda: podręcznik podaje taki plan budowy ciała większości kręgowców."
+    "explanation": "To prawda: podaje się taki plan budowy ciała większości kręgowców."
   },
   {
     "id": "R04_KRG_04",
@@ -86,7 +86,7 @@ const ALL_EXERCISES = [
       "kręgowce",
       "kregowce"
     ],
-    "explanation": "W rozdziale wymieniono ryby, płazy, gady, ptaki i ssaki jako grupy należące do kręgowców."
+    "explanation": "Wymieniono ryby, płazy, gady, ptaki i ssaki jako grupy należące do kręgowców."
   },
   {
     "id": "R04_KRG_06",
@@ -318,7 +318,7 @@ const ALL_EXERCISES = [
         "narybkiem"
       ]
     ],
-    "explanation": "W rozdziale podano, że jaja ryb to ikra, a młode rybki to narybek."
+    "explanation": "Jaja ryb to ikra, a młode rybki to narybek."
   },
   {
     "id": "R04_RYB_07",
@@ -378,7 +378,7 @@ const ALL_EXERCISES = [
     "id": "R04_RYB_10",
     "section": "Ryby",
     "type": "sort",
-    "prompt": "Przyporządkuj ryby lub grupy ryb do sposobu odżywiania podanego w rozdziale.",
+    "prompt": "Przyporządkuj ryby lub grupy ryb do sposobu odżywiania.",
     "options": null,
     "items": [
       "szczupak",
@@ -406,7 +406,7 @@ const ALL_EXERCISES = [
         "śledzie"
       ]
     },
-    "explanation": "W podręczniku jako przykłady podano m.in. szczupaka jako drapieżnika, amura jako roślinożercę, karpia jako wszystkożercę i śledzie jako żywiące się planktonem."
+    "explanation": "Jako przykłady podano m.in. szczupaka jako drapieżnika, amura jako roślinożercę, karpia jako wszystkożercę i śledzie jako żywiące się planktonem."
   },
   {
     "id": "R04_RYB_11",
@@ -421,7 +421,7 @@ const ALL_EXERCISES = [
     "id": "R04_RYB_12",
     "section": "Ryby",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady znaczenia ryb wymienione w rozdziale.",
+    "prompt": "Zaznacz przykłady znaczenia ryb.",
     "options": [
       "są źródłem pokarmu dla ludzi i zwierząt",
       "regulują liczbę organizmów wodnych",
@@ -667,13 +667,13 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r04_cykl_rozwojowy_zaby.jpg",
-    "explanation": "To prawda: tak opisano kijanki w rozdziale."
+    "explanation": "To prawda: tak opisano kijanki."
   },
   {
     "id": "R04_PLA_12",
     "section": "Płazy",
     "type": "single_choice",
-    "prompt": "Co jest głównym pokarmem dorosłych płazów według rozdziału?",
+    "prompt": "Co jest głównym pokarmem dorosłych płazów?",
     "options": [
       "bezkręgowce",
       "wyłącznie plankton",
@@ -689,7 +689,7 @@ const ALL_EXERCISES = [
     "id": "R04_PLA_13",
     "section": "Płazy",
     "type": "multi_select",
-    "prompt": "Zaznacz zagrożenia dla płazów opisane w rozdziale.",
+    "prompt": "Zaznacz zagrożenia dla płazów.",
     "options": [
       "giną pod kołami pojazdów",
       "szkodzą im środki używane w rolnictwie",
@@ -738,7 +738,7 @@ const ALL_EXERCISES = [
     "id": "R04_GAD_02",
     "section": "Gady",
     "type": "multi_select",
-    "prompt": "Zaznacz wspólne cechy gadów opisane w rozdziale.",
+    "prompt": "Zaznacz wspólne cechy gadów.",
     "options": [
       "zmiennocieplność",
       "gruba i sucha skóra",
@@ -896,7 +896,7 @@ const ALL_EXERCISES = [
     "id": "R04_GAD_10",
     "section": "Gady",
     "type": "single_choice",
-    "prompt": "Który wąż jest jedynym jadowitym wężem występującym w Polsce według rozdziału?",
+    "prompt": "Który wąż jest jedynym jadowitym wężem występującym w Polsce?",
     "options": [
       "żmija zygzakowata",
       "zaskroniec zwyczajny",
@@ -906,7 +906,7 @@ const ALL_EXERCISES = [
       "gawial gangesowy"
     ],
     "answer": 0,
-    "explanation": "W podręczniku wskazano żmiję zygzakowatą jako jedynego jadowitego węża występującego w Polsce."
+    "explanation": "Wskazano żmiję zygzakowatą jako jedynego jadowitego węża występującego w Polsce."
   },
   {
     "id": "R04_GAD_11",
@@ -921,7 +921,7 @@ const ALL_EXERCISES = [
     "id": "R04_GAD_12",
     "section": "Gady",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie gadów wymienione w rozdziale.",
+    "prompt": "Zaznacz znaczenie gadów.",
     "options": [
       "stanowią pokarm dla ludzi i niektórych zwierząt",
       "regulują liczbę zwierząt, na które polują",
@@ -942,7 +942,7 @@ const ALL_EXERCISES = [
     "id": "R04_GAD_13",
     "section": "Gady",
     "type": "scenario",
-    "prompt": "W chłodny jesienno-zimowy okres jaszczurka ukrywa się w szczelinie skał i ogranicza aktywność. Jak nazywa się taki stan opisany w rozdziale?",
+    "prompt": "W chłodny jesienno-zimowy okres jaszczurka ukrywa się w szczelinie skał i ogranicza aktywność. Jak nazywa się taki stan?",
     "options": [
       "odrętwienie",
       "tarło",
@@ -959,13 +959,13 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie gady występujące w Polsce są objęte ochroną.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda: rozdział podaje, że wszystkie gady w Polsce są pod ochroną."
+    "explanation": "To prawda: wszystkie gady w Polsce są pod ochroną."
   },
   {
     "id": "R04_MIE_01",
     "section": "Powtórka mieszana",
     "type": "sort",
-    "prompt": "Przyporządkuj grupy kręgowców do środowiska lub trybu życia dominującego w rozdziale.",
+    "prompt": "Przyporządkuj grupy kręgowców do środowiska lub trybu życia dominującego.",
     "options": null,
     "items": [
       "ryby",
@@ -994,7 +994,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_02",
     "section": "Powtórka mieszana",
     "type": "match",
-    "prompt": "Połącz grupę kręgowców z typowym sposobem rozmnażania opisanym w rozdziale.",
+    "prompt": "Połącz grupę kręgowców z typowym sposobem rozmnażania.",
     "options": null,
     "left": [
       "ryby",
@@ -1033,7 +1033,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_04",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz grupy kręgowców zmiennocieplnych omawiane w rozdziale.",
+    "prompt": "Zaznacz grupy kręgowców zmiennocieplnych.",
     "options": [
       "ryby",
       "płazy",
@@ -1046,7 +1046,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "W rozdziale jako zmiennocieplne wskazano ryby, płazy i gady."
+    "explanation": "Jako zmiennocieplne wskazano ryby, płazy i gady."
   },
   {
     "id": "R04_MIE_05",
@@ -1055,7 +1055,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: ikra, skrzek, jaja gadów, pióra.",
     "options": null,
     "answer": "pióra",
-    "explanation": "Ikra, skrzek i jaja gadów dotyczą rozmnażania omawianych grup, a pióra nie są tematem rozdziału o rybach, płazach i gadach."
+    "explanation": "Ikra, skrzek i jaja gadów dotyczą rozmnażania omawianych grup, a pióra nie dotyczą ryb, płazów ani gadów."
   },
   {
     "id": "R04_MIE_06",
@@ -1121,7 +1121,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_10",
     "section": "Powtórka mieszana",
     "type": "sequence",
-    "prompt": "Ułóż grupy w kolejności od najbardziej związanej z wodą do najbardziej związanej z lądem według materiału z rozdziału.",
+    "prompt": "Ułóż grupy w kolejności od najbardziej związanej z wodą do najbardziej związanej z lądem według materiału.",
     "options": null,
     "items": [
       "gady",
@@ -1164,7 +1164,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_03",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Substancja określona w rozdziale jako tłuszcz z rybiej wątroby to...",
+    "prompt": "Substancja określona jako tłuszcz z rybiej wątroby to...",
     "options": null,
     "answer": "tran",
     "altAnswers": [
@@ -1176,7 +1176,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Co odróżnia padalca zwyczajnego od węży według rozdziału?",
+    "prompt": "Co odróżnia padalca zwyczajnego od węży?",
     "options": [
       "Ma powieki i małą, słabo oddzieloną od tułowia głowę",
       "Ma skrzela i płetwy",
@@ -1236,7 +1236,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_07",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz przykład zwierzęcia z informacją podaną w rozdziale.",
+    "prompt": "Połącz przykład zwierzęcia z informacją.",
     "options": null,
     "left": [
       "najeżka",
@@ -1256,7 +1256,7 @@ const ALL_EXERCISES = [
       "żółw błotny": "jedyny gatunek żółwia naturalnie występujący w Polsce",
       "zaskroniec zwyczajny": "ma żółte plamki za skroniami i dobrze pływa"
     },
-    "explanation": "Rozdział podaje charakterystyczne informacje o wybranych gatunkach ryb, płazów i gadów."
+    "explanation": "Podaje się charakterystyczne informacje o wybranych gatunkach ryb, płazów i gadów."
   },
   {
     "id": "R04_HARD_08",

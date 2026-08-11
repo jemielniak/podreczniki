@@ -103,7 +103,7 @@ const ALL_EXERCISES = [
     "id": "R03_RTK_06",
     "section": "Rośliny i tkanki roślinne",
     "type": "multi_select",
-    "prompt": "Zaznacz wytwory skórki opisane w rozdziale.",
+    "prompt": "Zaznacz wytwory skórki.",
     "options": [
       "aparaty szparkowe",
       "włośniki",
@@ -332,7 +332,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż roślinę, która nie jest mchem: płonnik pospolity, torfowiec kończysty, merzyk fałdowany, sosna zwyczajna.",
     "options": null,
     "answer": "sosna zwyczajna",
-    "explanation": "Sosna zwyczajna jest rośliną nagonasienną, a pozostałe przykłady to mchy wymienione w rozdziale."
+    "explanation": "Sosna zwyczajna jest rośliną nagonasienną, a pozostałe przykłady to mchy."
   },
   {
     "id": "R03_MCH_10",
@@ -398,7 +398,7 @@ const ALL_EXERCISES = [
     "prompt": "Rozwijający się młody liść paproci może przypominać kształtem laskę św. Mikołaja, czyli pastorał.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale opisano, że młody rozwijający się liść paproci jest zwinięty i przypomina pastorał."
+    "explanation": "Młody rozwijający się liść paproci jest zwinięty i przypomina pastorał."
   },
   {
     "id": "R03_PSW_04",
@@ -523,7 +523,7 @@ const ALL_EXERCISES = [
     "prompt": "Węgiel kamienny powstał ze szczątków dawnych paproci, skrzypów i widłaków.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że przed milionami lat rośliny te tworzyły bujne lasy, a z ich szczątków powstał węgiel kamienny."
+    "explanation": "Przed milionami lat rośliny te tworzyły bujne lasy, a z ich szczątków powstał węgiel kamienny."
   },
   {
     "id": "R03_NAG_01",
@@ -555,7 +555,7 @@ const ALL_EXERCISES = [
     "id": "R03_NAG_03",
     "section": "Rośliny nagonasienne",
     "type": "multi_select",
-    "prompt": "Zaznacz organy wytwarzane przez rośliny nagonasienne według rozdziału.",
+    "prompt": "Zaznacz organy wytwarzane przez rośliny nagonasienne.",
     "options": [
       "korzenie",
       "łodygi",
@@ -626,7 +626,7 @@ const ALL_EXERCISES = [
     "id": "R03_NAG_06",
     "section": "Rośliny nagonasienne",
     "type": "scenario",
-    "prompt": "Na gałązce sosny zauważasz małe czerwone szyszeczki. Według opisu z rozdziału co one tworzą?",
+    "prompt": "Na gałązce sosny zauważasz małe czerwone szyszeczki. Co one tworzą?",
     "options": [
       "kwiatostany żeńskie",
       "pędy letnie skrzypu",
@@ -711,7 +711,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_02",
     "section": "Znaczenie nagonasiennych",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny nagonasienne naturalnie występujące w Polsce wymienione w rozdziale.",
+    "prompt": "Zaznacz rośliny nagonasienne naturalnie występujące w Polsce.",
     "options": [
       "sosna zwyczajna",
       "świerk pospolity",
@@ -732,7 +732,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_03",
     "section": "Znaczenie nagonasiennych",
     "type": "match",
-    "prompt": "Połącz gatunek nagonasienny z cechą wskazaną w rozdziale lub kluczu.",
+    "prompt": "Połącz gatunek nagonasienny z cechą lub kluczu.",
     "options": null,
     "left": [
       "modrzew europejski",
@@ -762,7 +762,7 @@ const ALL_EXERCISES = [
     "prompt": "Drewno sosnowe jest wykorzystywane w stolarstwie, ponieważ łatwo poddaje się obróbce.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje drewno sosnowe jako przykład surowca chętnie wykorzystywanego w stolarstwie."
+    "explanation": "Podaje się drewno sosnowe jako przykład surowca chętnie wykorzystywanego w stolarstwie."
   },
   {
     "id": "R03_ZNA_05",
@@ -790,7 +790,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_06",
     "section": "Znaczenie nagonasiennych",
     "type": "scenario",
-    "prompt": "Oznaczasz drzewo z miękkimi igłami zebranymi w pęczki, które opadają na zimę. Do jakiego gatunku prowadzi klucz z rozdziału?",
+    "prompt": "Oznaczasz drzewo z miękkimi igłami zebranymi w pęczki, które opadają na zimę. Do jakiego gatunku prowadzi klucz?",
     "options": [
       "modrzew europejski",
       "cis pospolity",
@@ -847,10 +847,10 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_09",
     "section": "Znaczenie nagonasiennych",
     "type": "odd_one_out",
-    "prompt": "Wskaż przykład, który nie jest typem boru sosnowego z rozdziału: bór sosnowy świeży, bór sosnowy suchy, bór sosnowy bagienny, sad jabłoniowy.",
+    "prompt": "Wskaż przykład, który nie jest typem boru sosnowego: bór sosnowy świeży, bór sosnowy suchy, bór sosnowy bagienny, sad jabłoniowy.",
     "options": null,
     "answer": "sad jabłoniowy",
-    "explanation": "Sad jabłoniowy nie jest borem sosnowym. Rozdział opisuje bór sosnowy świeży, suchy i bagienny."
+    "explanation": "Sad jabłoniowy nie jest borem sosnowym. Opisuje się bór sosnowy świeży, suchy i bagienny."
   },
   {
     "id": "R03_ZNA_10",
@@ -894,7 +894,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy zbudowane w rozdziale z martwych komórek.",
+    "prompt": "Zaznacz elementy zbudowane z martwych komórek.",
     "options": [
       "korek",
       "drewno",
@@ -990,7 +990,7 @@ const ALL_EXERCISES = [
     "prompt": "Salwinia pływająca jest przykładem paproci żyjącej w środowisku wodnym.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano salwinię pływającą jako nieliczny przykład paproci spotykanej w stawach i wolno płynących rzekach."
+    "explanation": "Podano salwinię pływającą jako nieliczny przykład paproci spotykanej w stawach i wolno płynących rzekach."
   },
   {
     "id": "R03_HARD_08",
@@ -999,7 +999,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż roślinę, która nie jest paprocią: pióropusznik strusi, języcznik zwyczajny, długosz królewski, skrzyp polny.",
     "options": null,
     "answer": "skrzyp polny",
-    "explanation": "Skrzyp polny należy do skrzypów, a pióropusznik strusi, języcznik zwyczajny i długosz królewski to paprocie wymienione w rozdziale."
+    "explanation": "Skrzyp polny należy do skrzypów, a pióropusznik strusi, języcznik zwyczajny i długosz królewski to paprocie."
   },
   {
     "id": "R03_HARD_09",
@@ -1064,7 +1064,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_12",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz typ boru lub lasu z rośliną albo cechą wskazaną w rozdziale.",
+    "prompt": "Połącz typ boru lub lasu z rośliną albo cechą.",
     "options": null,
     "left": [
       "bór sosnowy świeży",
@@ -1084,7 +1084,7 @@ const ALL_EXERCISES = [
       "bór sosnowy bagienny": "borówka bagienna i bagno zwyczajne",
       "las świerkowy": "częste występowanie w górach"
     },
-    "explanation": "Rozdział opisuje różne bory i lasy iglaste: sosnowe świeże, suche, bagienne oraz świerkowe występujące często w górach.",
+    "explanation": "Opisuje się różne bory i lasy iglaste: sosnowe świeże, suche, bagienne oraz świerkowe występujące często w górach.",
     "image": "r03_bor_sosnowy.jpg"
   }
 ];

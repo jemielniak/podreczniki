@@ -149,7 +149,7 @@ const ALL_EXERCISES = [
     "prompt": "Najwięcej gatunków ptaków żyje w okolicach równika.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku wskazano, że najwięcej gatunków ptaków występuje w okolicach równika, gdzie środowiska są bardzo różnorodne."
+    "explanation": "Najwięcej gatunków ptaków występuje w okolicach równika, gdzie środowiska są bardzo różnorodne."
   },
   {
     "id": "R05_PTL_10",
@@ -258,7 +258,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie ptaki są jajorodne i zachodzi u nich zapłodnienie wewnętrzne.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że wszystkie ptaki są jajorodne, a do zapłodnienia dochodzi wewnątrz ciała samicy."
+    "explanation": "Wszystkie ptaki są jajorodne, a do zapłodnienia dochodzi wewnątrz ciała samicy."
   },
   {
     "id": "R05_PTR_04",
@@ -286,7 +286,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTR_05",
     "section": "Rozmnażanie i znaczenie ptaków",
     "type": "sort",
-    "prompt": "Przyporządkuj przykładowe ptaki do środowisk pokazanych w podręczniku.",
+    "prompt": "Przyporządkuj przykładowe ptaki do środowisk.",
     "options": null,
     "items": [
       "wróbel domowy",
@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r05_ptaki_srodowiska_polski.jpg",
-    "explanation": "W podręczniku podano przykłady ptaków żyjących w polskich miastach, na wsi i w lesie."
+    "explanation": "Podano przykłady ptaków żyjących w polskich miastach, na wsi i w lesie."
   },
   {
     "id": "R05_PTR_06",
@@ -357,7 +357,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTR_08",
     "section": "Rozmnażanie i znaczenie ptaków",
     "type": "single_choice",
-    "prompt": "Co oznacza słowo birdwatching użyte w podręczniku?",
+    "prompt": "Co oznacza słowo birdwatching?",
     "options": [
       "obserwowanie ptaków",
       "hodowanie ptaków na mięso",
@@ -440,7 +440,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_01",
     "section": "Ssaki – środowisko i budowa",
     "type": "single_choice",
-    "prompt": "Co najbardziej wyróżnia ssaki spośród kręgowców opisanych w rozdziale?",
+    "prompt": "Co najbardziej wyróżnia ssaki spośród kręgowców?",
     "options": [
       "karmienie młodych mlekiem",
       "składanie jaj z wapienną skorupką",
@@ -457,7 +457,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_02",
     "section": "Ssaki – środowisko i budowa",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy typowe dla ssaków wymienione w podręczniku.",
+    "prompt": "Zaznacz cechy typowe dla ssaków.",
     "options": [
       "stałocieplność",
       "włosy lub sierść",
@@ -509,7 +509,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_05",
     "section": "Ssaki – środowisko i budowa",
     "type": "sort",
-    "prompt": "Przyporządkuj ssaki do trybu życia opisanego w podręczniku.",
+    "prompt": "Przyporządkuj ssaki do trybu życia.",
     "options": null,
     "items": [
       "lis pospolity",
@@ -561,7 +561,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_07",
     "section": "Ssaki – środowisko i budowa",
     "type": "multi_select",
-    "prompt": "Zaznacz ssaki, które w podręczniku podano jako przykłady zapadające w sen zimowy.",
+    "prompt": "Zaznacz ssaki, które podano jako przykłady zapadające w sen zimowy.",
     "options": [
       "niedźwiedzie",
       "borsuki",
@@ -640,7 +640,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r05_tropy_ssakow.jpg",
-    "explanation": "Podręcznik odróżnia tropy, czyli odciski łap, od śladów będących oznakami aktywności zwierząt."
+    "explanation": "Odróżnia się tropy, czyli odciski łap, od śladów będących oznakami aktywności zwierząt."
   },
   {
     "id": "R05_SSB_12",
@@ -681,7 +681,7 @@ const ALL_EXERCISES = [
     "prompt": "Prawie wszystkie ssaki są żyworodne, czyli rodzą swoje potomstwo.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku podano, że prawie wszystkie ssaki są żyworodne; wyjątkami są między innymi dziobaki i kolczatki."
+    "explanation": "Prawie wszystkie ssaki są żyworodne; wyjątkami są między innymi dziobaki i kolczatki."
   },
   {
     "id": "R05_SSR_03",
@@ -775,7 +775,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r05_ssaki_srodowiska.jpg",
-    "explanation": "W rozdziale pokazano przykłady ssaków latających, wodnych i nadrzewnych lub szybujących."
+    "explanation": "Pokazano przykłady ssaków latających, wodnych i nadrzewnych lub szybujących."
   },
   {
     "id": "R05_SSR_07",
@@ -800,13 +800,13 @@ const ALL_EXERCISES = [
     "prompt": "Dziobaki i kolczatki są endemitami występującymi tylko w Australii i Nowej Gwinei.",
     "options": null,
     "answer": true,
-    "explanation": "W podręczniku wskazano, że dziobaki i kolczatki występują tylko w Australii i Nowej Gwinei."
+    "explanation": "Dziobaki i kolczatki występują tylko w Australii i Nowej Gwinei."
   },
   {
     "id": "R05_SSR_09",
     "section": "Rozmnażanie i różnorodność ssaków",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady wykorzystania ssaków przez człowieka wymienione w rozdziale.",
+    "prompt": "Zaznacz przykłady wykorzystania ssaków przez człowieka.",
     "options": [
       "źródło mleka, skór i sierści",
       "praca na polu i w transporcie",
@@ -866,7 +866,7 @@ const ALL_EXERCISES = [
         "długa"
       ]
     ],
-    "explanation": "W podręczniku porównano krótką ciążę u myszy z prawie dwuletnią ciążą u słonia."
+    "explanation": "Porównano krótką ciążę u myszy z prawie dwuletnią ciążą u słonia."
   },
   {
     "id": "R05_MIE_01",
@@ -908,7 +908,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_02",
     "section": "Powtórka mieszana",
     "type": "match",
-    "prompt": "Połącz cechę z grupą zwierząt, z którą w rozdziale jest najmocniej związana.",
+    "prompt": "Połącz cechę z grupą zwierząt, z którą jest najmocniej związana.",
     "options": null,
     "left": [
       "pióra",
@@ -931,7 +931,7 @@ const ALL_EXERCISES = [
       "sierść": "pokrycie ciała większości ssaków",
       "rogowy dziób": "okrywa bezzębne szczęki ptaka"
     },
-    "explanation": "Rozdział porównuje przystosowania ptaków i ssaków oraz pokazuje, czym się różnią."
+    "explanation": "Porównuje się przystosowania ptaków i ssaków oraz pokazuje, czym się różnią."
   },
   {
     "id": "R05_MIE_03",
@@ -962,7 +962,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_04",
     "section": "Powtórka mieszana",
     "type": "single_choice",
-    "prompt": "Które dwie grupy kręgowców opisane w rozdziale są stałocieplne?",
+    "prompt": "Które dwie grupy kręgowców są stałocieplne?",
     "options": [
       "ptaki i ssaki",
       "ryby i płazy",
@@ -978,7 +978,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_05",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy wspólne ptaków i ssaków z podsumowania rozdziału.",
+    "prompt": "Zaznacz cechy wspólne ptaków i ssaków.",
     "options": [
       "stałocieplność",
       "należą do kręgowców",
@@ -1053,7 +1053,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_10",
     "section": "Powtórka mieszana",
     "type": "match",
-    "prompt": "Połącz znaczenie z grupą zwierząt, której przykład podano w rozdziale.",
+    "prompt": "Połącz znaczenie z grupą zwierząt, której przykład podano.",
     "options": null,
     "left": [
       "zapylanie roślin przez kolibry",
@@ -1095,7 +1095,7 @@ const ALL_EXERCISES = [
     "prompt": "Pierwsze pióra pojawiły się już u dinozaurów, ale nie przypominały piór ptasich i nie były związane z lataniem.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyjaśnia, że pierwotne pióra dinozaurów były inne niż pióra ptaków i nie służyły do latania."
+    "explanation": "Pierwotne pióra dinozaurów były inne niż pióra ptaków i nie służyły do latania."
   },
   {
     "id": "R05_HARD_01",
@@ -1127,7 +1127,7 @@ const ALL_EXERCISES = [
       "sęp"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wskazuje kruka jako rekordzistę pod względem liczby neuronów w małym mózgu."
+    "explanation": "Wskazuje się kruka jako rekordzistę pod względem liczby neuronów w małym mózgu."
   },
   {
     "id": "R05_HARD_03",
@@ -1136,7 +1136,7 @@ const ALL_EXERCISES = [
     "prompt": "Wiele ptaków dostrzega promieniowanie UV, a niektóre potrafią dostrzegać pole magnetyczne Ziemi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że ptaki widzą inaczej niż ludzie i część z nich korzysta z informacji o polu magnetycznym Ziemi."
+    "explanation": "Ptaki widzą inaczej niż ludzie i część z nich korzysta z informacji o polu magnetycznym Ziemi."
   },
   {
     "id": "R05_HARD_04",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
       "kszyk": "wykrywanie zdobyczy czułym dziobem",
       "burzyki i oceanniki": "wracanie do gniazd z morskich wędrówek dzięki zapachowi"
     },
-    "explanation": "Ciekawostki w rozdziale pokazują, że ptaki wykorzystują różne zmysły i zdolności do orientacji oraz zdobywania pokarmu."
+    "explanation": "Ciekawostki pokazują, że ptaki wykorzystują różne zmysły i zdolności do orientacji oraz zdobywania pokarmu."
   },
   {
     "id": "R05_HARD_06",
@@ -1202,7 +1202,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz zmysły lub zdolności ptaków opisane w ciekawostkach rozdziału.",
+    "prompt": "Zaznacz zmysły lub zdolności ptaków.",
     "options": [
       "dostrzeganie promieni UV",
       "bardzo dobry słuch",
@@ -1232,7 +1232,7 @@ const ALL_EXERCISES = [
       "sokół wędrowny"
     ],
     "answer": 0,
-    "explanation": "W podręczniku podano, że modraszki wykorzystują zapach uszkodzonych pędów sosen do wyszukiwania owadów."
+    "explanation": "Modraszki wykorzystują zapach uszkodzonych pędów sosen do wyszukiwania owadów."
   },
   {
     "id": "R05_HARD_09",
@@ -1247,7 +1247,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_10",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż zwierzęta od najmniejszego do największego według przykładów i opisów z rozdziału.",
+    "prompt": "Ułóż zwierzęta od najmniejszego do największego według przykładów i opisów.",
     "options": null,
     "items": [
       "szarytka morska",
@@ -1261,7 +1261,7 @@ const ALL_EXERCISES = [
       "szarytka morska",
       "słoń afrykański"
     ],
-    "explanation": "Rozdział podaje przykłady od bardzo małej ryjówki etruskiej, przez niewielkiego kanczyla i szarytkę, po najcięższego lądowego słonia afrykańskiego."
+    "explanation": "Podaje się przykłady od bardzo małej ryjówki etruskiej, przez niewielkiego kanczyla i szarytkę, po najcięższego lądowego słonia afrykańskiego."
   }
 ];
 
@@ -1270,7 +1270,7 @@ const KID_PROMPTS = {
   "R05_PTR_06": "Co zrobić, gdy znajdziesz zdrowego podlota blisko gniazda?",
   "R05_SSB_01": "Po czym najłatwiej poznać ssaki?",
   "R05_SSR_05": "Czego potrzebuje mały ssak po urodzeniu?",
-  "R05_MIE_04": "Które zwierzęta z rozdziału są stałocieplne?"
+  "R05_MIE_04": "Które zwierzęta są stałocieplne?"
 };
 
 const chapter = {

@@ -37,7 +37,7 @@ const ALL_EXERCISES = [
     "id": "R01_CEZ_03",
     "section": "Cechy zwierząt",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy zwierząt opisane w rozdziale.",
+    "prompt": "Zaznacz cechy zwierząt.",
     "options": [
       "Budowa wielokomórkowa",
       "Obecność chloroplastów",
@@ -77,7 +77,7 @@ const ALL_EXERCISES = [
         "cudzozywne"
       ]
     ],
-    "explanation": "W rozdziale podkreślono, że zwierzęta mają budowę wielokomórkową i są cudzożywne."
+    "explanation": "Zwierzęta mają budowę wielokomórkową i są cudzożywne."
   },
   {
     "id": "R01_CEZ_05",
@@ -216,7 +216,7 @@ const ALL_EXERCISES = [
     "prompt": "Zoologia to nauka badająca zwierzęta.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. W rozdziale zoologia jest zdefiniowana jako nauka badająca zwierzęta."
+    "explanation": "To prawda. Zoologia jest zdefiniowana jako nauka badająca zwierzęta."
   },
   {
     "id": "R01_CEZ_12",
@@ -298,7 +298,7 @@ const ALL_EXERCISES = [
     "id": "R01_NAB_04",
     "section": "Tkanka nabłonkowa",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje tkanki nabłonkowej wymienione w rozdziale.",
+    "prompt": "Zaznacz funkcje tkanki nabłonkowej.",
     "options": [
       "Tworzy pokrycie ciała zwierząt",
       "Buduje ściany niektórych narządów wewnętrznych",
@@ -346,7 +346,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: rzęski, zakończenia nerwowe, gruczoły, osocze.",
     "options": null,
     "answer": "osocze",
-    "explanation": "Osocze jest substancją międzykomórkową krwi, a pozostałe elementy mogą być związane z budową lub działaniem nabłonków opisanych w rozdziale."
+    "explanation": "Osocze jest substancją międzykomórkową krwi, a pozostałe elementy mogą być związane z budową lub działaniem nabłonków."
   },
   {
     "id": "R01_NAB_07",
@@ -504,7 +504,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "/img/r01_krew_skladniki.jpg",
-    "explanation": "Rozdział opisuje krew jako płynną tkankę łączną z krwinkami zawieszonymi w osoczu."
+    "explanation": "Opisuje się krew jako płynną tkankę łączną z krwinkami zawieszonymi w osoczu."
   },
   {
     "id": "R01_LAC_04",
@@ -536,7 +536,7 @@ const ALL_EXERCISES = [
     "id": "R01_LAC_05",
     "section": "Tkanka łączna",
     "type": "multi_select",
-    "prompt": "Zaznacz składniki krwi opisane w rozdziale.",
+    "prompt": "Zaznacz składniki krwi.",
     "options": [
       "krwinki czerwone",
       "krwinki białe",
@@ -552,7 +552,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "/img/r01_krew_skladniki.jpg",
-    "explanation": "W rozdziale opisano krwinki czerwone, krwinki białe, płytki krwi i osocze."
+    "explanation": "Opisano krwinki czerwone, krwinki białe, płytki krwi i osocze."
   },
   {
     "id": "R01_LAC_06",
@@ -606,7 +606,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_tkanka_kostna_i_chrzestna.jpg",
-    "explanation": "To prawda. Rozdział opisuje komórki chrzęstne jako mniej liczne i ułożone po 2-3 w jamkach."
+    "explanation": "To prawda. Opisuje się komórki chrzęstne jako mniej liczne i ułożone po 2-3 w jamkach."
   },
   {
     "id": "R01_LAC_10",
@@ -640,7 +640,7 @@ const ALL_EXERCISES = [
       "tkanka kostna",
       "tkanka chrzęstna"
     ],
-    "explanation": "Przykłady w rozdziale pokazują, że tkanki łączne tworzą różne struktury i pełnią różne funkcje."
+    "explanation": "Przykłady pokazują, że tkanki łączne tworzą różne struktury i pełnią różne funkcje."
   },
   {
     "id": "R01_LAC_11",
@@ -660,7 +660,7 @@ const ALL_EXERCISES = [
     "id": "R01_LAC_12",
     "section": "Tkanka łączna",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje krwi opisane w rozdziale.",
+    "prompt": "Zaznacz funkcje krwi.",
     "options": [
       "Transport tlenu i dwutlenku węgla",
       "Transport składników pokarmowych",
@@ -732,7 +732,7 @@ const ALL_EXERCISES = [
     "id": "R01_MIN_04",
     "section": "Tkanka mięśniowa i nerwowa",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy komórek mięśniowych opisane w rozdziale.",
+    "prompt": "Zaznacz cechy komórek mięśniowych.",
     "options": [
       "Białka umożliwiające skurcz",
       "Dużo mitochondriów",
@@ -996,7 +996,7 @@ const ALL_EXERCISES = [
     "id": "R01_MIX_05",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca lub narządy, w których w rozdziale wskazano tkankę nabłonkową.",
+    "prompt": "Zaznacz miejsca lub narządy, w których wskazano tkankę nabłonkową.",
     "options": [
       "skóra",
       "pęcherzyki płucne",
@@ -1013,7 +1013,7 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "/img/r01_lokalizacja_tkanek_w_ciele.jpg",
-    "explanation": "Rozdział pokazuje nabłonek m.in. w skórze, pęcherzykach płucnych, kanalikach nerkowych, żołądku i jamie nosowej."
+    "explanation": "Pokazuje się nabłonek m.in. w skórze, pęcherzykach płucnych, kanalikach nerkowych, żołądku i jamie nosowej."
   },
   {
     "id": "R01_MIX_06",
@@ -1022,7 +1022,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie zwierzęta mają układy narządów.",
     "options": null,
     "answer": false,
-    "explanation": "To fałsz. W rozdziale podano, że nie wszystkie zwierzęta mają taki sam stopień złożoności budowy."
+    "explanation": "To fałsz. Nie wszystkie zwierzęta mają taki sam stopień złożoności budowy."
   },
   {
     "id": "R01_MIX_07",
@@ -1031,7 +1031,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: pęcherzyki płucne, kanaliki nerkowe, skóra, akson.",
     "options": null,
     "answer": "akson",
-    "explanation": "Akson jest częścią neuronu, a pozostałe elementy są miejscami występowania nabłonków opisanych w rozdziale."
+    "explanation": "Akson jest częścią neuronu, a pozostałe elementy są miejscami występowania nabłonków."
   },
   {
     "id": "R01_MIX_08",
@@ -1049,7 +1049,7 @@ const ALL_EXERCISES = [
         "funkcje."
       ]
     ],
-    "explanation": "Definicja tkanki w rozdziale podkreśla podobną budowę komórek i wspólną funkcję."
+    "explanation": "Definicja tkanki podkreśla podobną budowę komórek i wspólną funkcję."
   },
   {
     "id": "R01_MIX_09",
@@ -1152,7 +1152,7 @@ const ALL_EXERCISES = [
       "wielowarstwowy płaski"
     ],
     "image": "/img/r01_lokalizacja_tkanek_w_ciele.jpg",
-    "explanation": "Rozdział pokazuje różne nabłonki w różnych miejscach organizmu, m.in. w płucach, nerkach, drogach oddechowych, jamie nosowej, żołądku i skórze."
+    "explanation": "Pokazuje się różne nabłonki w różnych miejscach organizmu, m.in. w płucach, nerkach, drogach oddechowych, jamie nosowej, żołądku i skórze."
   },
   {
     "id": "R01_HARD_02",
@@ -1179,7 +1179,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_gabka_beztkankowa.jpg",
-    "explanation": "To prawda. Rozdział opisuje gąbki jako proste zwierzęta beztkankowe o nieregularnym kształcie ciała."
+    "explanation": "To prawda. Opisuje się gąbki jako proste zwierzęta beztkankowe o nieregularnym kształcie ciała."
   },
   {
     "id": "R01_HARD_04",
@@ -1250,7 +1250,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz nabłonki jednowarstwowe, które w rozdziale opisano z dodatkowymi strukturami lub komórkami między nabłonkowymi.",
+    "prompt": "Zaznacz nabłonki jednowarstwowe, które opisano z dodatkowymi strukturami lub komórkami między nabłonkowymi.",
     "options": [
       "migawkowy",
       "zmysłowy",

@@ -39,7 +39,7 @@ const ALL_EXERCISES = [
         "Nysą Łużycką"
       ]
     ],
-    "explanation": "W rozdziale podano, że granica między Polską a Niemcami biegnie głównie wzdłuż Odry i Nysy Łużyckiej."
+    "explanation": "Granica między Polską a Niemcami biegnie głównie wzdłuż Odry i Nysy Łużyckiej."
   },
   {
     "id": "R05_NIE_03",
@@ -54,7 +54,7 @@ const ALL_EXERCISES = [
     "id": "R05_NIE_04",
     "section": "Niemcy: gospodarka i przemysł",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje pasujące do gospodarki Niemiec według rozdziału.",
+    "prompt": "Zaznacz informacje pasujące do gospodarki Niemiec.",
     "options": [
       "Jest najsilniejszą gospodarką w Europie.",
       "Jej główną część stanowi sektor usług.",
@@ -69,7 +69,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Rozdział wskazuje, że gospodarka Niemiec jest najsilniejsza w Europie, ważny jest sektor usług, rozwinął się przemysł high-tech, a kraj słynie z marek samochodów."
+    "explanation": "Gospodarka Niemiec jest najsilniejsza w Europie, ważny jest sektor usług, rozwinął się przemysł high-tech, a kraj słynie z marek samochodów."
   },
   {
     "id": "R05_NIE_05",
@@ -152,7 +152,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do niemieckich marek samochodów: Audi, BMW, Porsche, Bayer, Volkswagen.",
     "options": null,
     "answer": "Bayer",
-    "explanation": "Audi, BMW, Porsche i Volkswagen to marki samochodów wymienione w rozdziale. Bayer jest firmą farmaceutyczną."
+    "explanation": "Audi, BMW, Porsche i Volkswagen to marki samochodów. Bayer jest firmą farmaceutyczną."
   },
   {
     "id": "R05_NIE_09",
@@ -208,7 +208,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r05_zaglebie_ruhry_przemysl.jpg",
-    "explanation": "Rozdział podaje, że część dawnych obiektów przemysłowych przekształcono na muzea usługowo-kulturalne."
+    "explanation": "Część dawnych obiektów przemysłowych przekształcono na muzea usługowo-kulturalne."
   },
   {
     "id": "R05_CZS_01",
@@ -233,7 +233,7 @@ const ALL_EXERCISES = [
     "prompt": "Czechy i Słowacja należą do Unii Europejskiej i NATO.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyraźnie podaje, że oba państwa są członkami Unii Europejskiej i NATO."
+    "explanation": "Oba państwa są członkami Unii Europejskiej i NATO."
   },
   {
     "id": "R05_CZS_03",
@@ -265,7 +265,7 @@ const ALL_EXERCISES = [
     "id": "R05_CZS_04",
     "section": "Czechy i Słowacja",
     "type": "multi_select",
-    "prompt": "Zaznacz walory przyrodnicze Czech wymienione w rozdziale.",
+    "prompt": "Zaznacz walory przyrodnicze Czech.",
     "options": [
       "Adrszpaskie Skalne Miasto",
       "Hradczany z Zamkiem Praskim",
@@ -285,7 +285,7 @@ const ALL_EXERCISES = [
     "id": "R05_CZS_05",
     "section": "Czechy i Słowacja",
     "type": "single_choice",
-    "prompt": "Co wyróżnia Morawski Kras według rozdziału?",
+    "prompt": "Co wyróżnia Morawski Kras?",
     "options": [
       "Ponad 1600 jaskiń, z których cztery udostępniono zwiedzającym.",
       "Najwyższy szczyt Tatr i całych Karpat.",
@@ -368,7 +368,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do słowackich pasm górskich: Tatry, Niżne Tatry, Wielka Fatra, Rudawy, Bieszczady.",
     "options": null,
     "answer": "Rudawy",
-    "explanation": "Rudawy wymieniono przy opisie gór otaczających Czechy. Pozostałe nazwy podano w rozdziale jako pasma górskie Słowacji."
+    "explanation": "Rudawy wymieniono przy opisie gór otaczających Czechy. Pozostałe nazwy podano jako pasma górskie Słowacji."
   },
   {
     "id": "R05_CZS_10",
@@ -475,13 +475,13 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r05_odessa_port_morze_czarne.jpg",
-    "explanation": "Rozdział podaje, że południowa część Ukrainy leży nad Morzem Czarnym, a znanym dużym miastem z portem jest Odessa."
+    "explanation": "Południowa część Ukrainy leży nad Morzem Czarnym, a znanym dużym miastem z portem jest Odessa."
   },
   {
     "id": "R05_UKR_05",
     "section": "Ukraina: wojna i społeczeństwo",
     "type": "multi_select",
-    "prompt": "Zaznacz powody osłabienia gospodarki Ukrainy wskazane w rozdziale.",
+    "prompt": "Zaznacz powody osłabienia gospodarki Ukrainy.",
     "options": [
       "Zniszczenie lub zatrzymanie części elementów gospodarki.",
       "Przeznaczanie środków finansowych na zbrojenia.",
@@ -567,7 +567,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do największych miast zajętych przez okupanta: Donieck, Ługańsk, Mariupol, Symferopol, Kijów.",
     "options": null,
     "answer": "Kijów",
-    "explanation": "Wśród największych miast zajętych przez okupanta rozdział wymienia Donieck, Ługańsk, Sewastopol, Mariupol i Symferopol. Kijów jest stolicą Ukrainy, ale nie znajduje się na tej liście."
+    "explanation": "Wśród największych miast zajętych przez okupanta wymienia się Donieck, Ługańsk, Sewastopol, Mariupol i Symferopol. Kijów jest stolicą Ukrainy, ale nie znajduje się na tej liście."
   },
   {
     "id": "R05_UKR_10",
@@ -656,7 +656,7 @@ const ALL_EXERCISES = [
     "id": "R05_BIL_04",
     "section": "Białoruś i Litwa",
     "type": "multi_select",
-    "prompt": "Zaznacz walory przyrodnicze Białorusi wymienione w rozdziale.",
+    "prompt": "Zaznacz walory przyrodnicze Białorusi.",
     "options": [
       "Puszcza Białowieska",
       "Park Narodowy Jeziora Brasławskie",
@@ -810,7 +810,7 @@ const ALL_EXERCISES = [
         "200 lat"
       ]
     ],
-    "explanation": "Według rozdziału w 2024 r. na Litwie mieszka około 180 tys. Polaków, a dawna wspólna państwowość Polski i Litwy trwała ponad 200 lat."
+    "explanation": "W 2024 r. na Litwie mieszka około 180 tys. Polaków, a dawna wspólna państwowość Polski i Litwy trwała ponad 200 lat."
   },
   {
     "id": "R05_ROS_01",
@@ -882,7 +882,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_05",
     "section": "Rosja i relacje z sąsiadami",
     "type": "multi_select",
-    "prompt": "Zaznacz surowce mineralne wydobywane w Rosji i sprzedawane za granicę według rozdziału.",
+    "prompt": "Zaznacz surowce mineralne wydobywane w Rosji i sprzedawane za granicę.",
     "options": [
       "ropa naftowa",
       "gaz ziemny",
@@ -899,7 +899,7 @@ const ALL_EXERCISES = [
       4,
       5
     ],
-    "explanation": "Rozdział wymienia między innymi ropę naftową, gaz ziemny, węgiel kamienny, uran, żelazo, miedź, nikiel, złoto i diamenty. Kakao i banany nie są w nim podane jako rosyjskie surowce mineralne."
+    "explanation": "Wymienia się między innymi ropę naftową, gaz ziemny, węgiel kamienny, uran, żelazo, miedź, nikiel, złoto i diamenty. Kakao i banany nie są w nim podane jako rosyjskie surowce mineralne."
   },
   {
     "id": "R05_ROS_06",
@@ -974,13 +974,13 @@ const ALL_EXERCISES = [
       "Ukraina"
     ],
     "answer": 0,
-    "explanation": "Rozdział opisuje Białoruś jako państwo nienależące do NATO ani UE, nieszanowujące demokracji, wolności słowa i praw człowieka oraz prowadzące wrogie działania na granicy z Polską."
+    "explanation": "Opisuje się Białoruś jako państwo nienależące do NATO ani UE, nieszanowujące demokracji, wolności słowa i praw człowieka oraz prowadzące wrogie działania na granicy z Polską."
   },
   {
     "id": "R05_ROS_10",
     "section": "Rosja i relacje z sąsiadami",
     "type": "sequence",
-    "prompt": "Ułóż typy klimatu Rosji od północy ku południu według opisu w rozdziale.",
+    "prompt": "Ułóż typy klimatu Rosji od północy ku południu według opisu.",
     "options": null,
     "items": [
       "umiarkowany ciepły kontynentalny",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_11",
     "section": "Rosja i relacje z sąsiadami",
     "type": "single_choice",
-    "prompt": "Który sąsiad Polski jest w rozdziale nazwany głównym partnerem handlowym Polski?",
+    "prompt": "Który sąsiad Polski jest nazwany głównym partnerem handlowym Polski?",
     "options": [
       "Niemcy",
       "Białoruś",
@@ -1016,7 +1016,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który zestaw miast podano w rozdziale jako przykłady miast tworzących konurbację w Zagłębiu Ruhry?",
+    "prompt": "Który zestaw miast podano jako przykłady miast tworzących konurbację w Zagłębiu Ruhry?",
     "options": [
       "Dortmund, Essen, Bochum i Duisburg",
       "Berlin, Monachium, Hamburg i Kolonia",
@@ -1032,7 +1032,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz pozytywne skutki przemian przemysłu w Zagłębiu Ruhry wymienione w rozdziale.",
+    "prompt": "Zaznacz pozytywne skutki przemian przemysłu w Zagłębiu Ruhry.",
     "options": [
       "Powstanie licznych uczelni wyższych.",
       "Powstanie instytucji kulturalnych.",
@@ -1057,7 +1057,7 @@ const ALL_EXERCISES = [
     "prompt": "W Morawskim Krasie znajduje się ponad 1600 jaskiń, a cztery z nich udostępniono zwiedzającym.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że Morawski Kras ma ponad 1600 jaskiń, w tym cztery udostępnione dla zwiedzających."
+    "explanation": "Morawski Kras ma ponad 1600 jaskiń, w tym cztery udostępnione dla zwiedzających."
   },
   {
     "id": "R05_HARD_04",
@@ -1150,7 +1150,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_09",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj sąsiadów Polski do relacji opisanych w rozdziale.",
+    "prompt": "Przyporządkuj sąsiadów Polski do relacji.",
     "options": null,
     "items": [
       "Niemcy",
@@ -1187,11 +1187,11 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_10",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Rosja ma dostęp do Morza Kaspijskiego, które w rozdziale nazwano największym jeziorem na świecie.",
+    "prompt": "Rosja ma dostęp do Morza Kaspijskiego, które nazwano największym jeziorem na świecie.",
     "options": null,
     "answer": true,
     "image": "r05_morze_kaspijskie.jpg",
-    "explanation": "Rozdział podaje, że Rosja ma dostęp do Morza Kaspijskiego, czyli największego jeziora na świecie."
+    "explanation": "Rosja ma dostęp do Morza Kaspijskiego, czyli największego jeziora na świecie."
   },
   {
     "id": "R05_HARD_11",
@@ -1217,7 +1217,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz prawdziwe informacje o wodach Rosji według rozdziału.",
+    "prompt": "Zaznacz prawdziwe informacje o wodach Rosji.",
     "options": [
       "W europejskiej części Rosja ma dostęp do Morza Bałtyckiego i Morza Czarnego.",
       "Wołga jest najdłuższą rzeką Europy.",

@@ -750,7 +750,7 @@ const ALL_EXERCISES =
         "wyraz"
       ]
     ],
-    "explanation": "W podręczniku podano, że bios znaczy życie, a logos - słowo."
+    "explanation": "Bios znaczy życie, a logos - słowo."
   },
   {
     "id": "R01_ST_03",
@@ -843,7 +843,7 @@ const ALL_EXERCISES =
     "id": "R01_ST_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Które nazwy są dziedzinami biologii wymienionymi w rozdziale?",
+    "prompt": "Które nazwy są dziedzinami biologii?",
     "options": [
       "zoologia",
       "botanika",
@@ -861,7 +861,7 @@ const ALL_EXERCISES =
       4,
       5
     ],
-    "explanation": "W rozdziale wymieniono zoologię, botanikę, mikrobiologię, anatomię, fizjologię i ekologię. Geometria nie jest dziedziną biologii."
+    "explanation": "Wymieniono zoologię, botanikę, mikrobiologię, anatomię, fizjologię i ekologię. Geometria nie jest dziedziną biologii."
   },
   {
     "id": "R01_ST_08",
@@ -1006,7 +1006,7 @@ const ALL_EXERCISES =
       2,
       4
     ],
-    "explanation": "Rozdział wymienia ogród botaniczny, ogród zoologiczny, muzeum przyrodnicze i zajęcia terenowe. Parking sam w sobie nie jest takim miejscem."
+    "explanation": "Wymienia się ogród botaniczny, ogród zoologiczny, muzeum przyrodnicze i zajęcia terenowe. Parking sam w sobie nie jest takim miejscem."
   },
   {
     "id": "R01_ST_15",
@@ -1084,7 +1084,7 @@ const ALL_EXERCISES =
     "id": "R01_ST_19",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj obiekty do mikroskopu optycznego albo elektronowego zgodnie z rozdziałem.",
+    "prompt": "Przyporządkuj obiekty do mikroskopu optycznego albo elektronowego.",
     "options": null,
     "items": [
       "komórki cebuli",
@@ -1108,7 +1108,7 @@ const ALL_EXERCISES =
         "bakterie"
       ]
     },
-    "explanation": "W rozdziale mikroskop optyczny służy do oglądania komórek i wielu większych obiektów, a elektronowy - do wyjątkowo małych, takich jak wirusy i bakterie."
+    "explanation": "Mikroskop optyczny służy do oglądania komórek i wielu większych obiektów, a elektronowy - do wyjątkowo małych, takich jak wirusy i bakterie."
   },
   {
     "id": "R01_ST_20",
@@ -1117,7 +1117,7 @@ const ALL_EXERCISES =
     "prompt": "Niektóre mikroskopy elektronowe potrafią dać obraz przestrzenny.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. W rozdziale napisano, że niektóre mikroskopy elektronowe umożliwiają uzyskanie obrazu przestrzennego."
+    "explanation": "To prawda. Niektóre mikroskopy elektronowe umożliwiają uzyskanie obrazu przestrzennego."
   }
 ]
 ;

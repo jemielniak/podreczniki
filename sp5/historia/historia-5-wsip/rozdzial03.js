@@ -60,7 +60,7 @@ const ALL_EXERCISES = [
     "id": "R03_RKR_04",
     "section": "Rzym od królestwa do republiki",
     "type": "multi_select",
-    "prompt": "Zaznacz prawa i obowiązki obywateli rzymskich wymienione w podręczniku.",
+    "prompt": "Zaznacz prawa i obowiązki obywateli rzymskich.",
     "options": [
       "służba wojskowa",
       "płacenie podatków",
@@ -194,7 +194,7 @@ const ALL_EXERCISES = [
       "w 476 roku n.e."
     ],
     "answer": 2,
-    "explanation": "Podręcznik podaje, że stało się to w połowie III wieku p.n.e."
+    "explanation": "Stało się to w połowie III wieku p.n.e."
   },
   {
     "id": "R03_IMP_02",
@@ -261,7 +261,7 @@ const ALL_EXERCISES = [
       "imperium",
       "Imperium"
     ],
-    "explanation": "Podręcznik definiuje imperium jako potężne państwo, które podbija inne kraje."
+    "explanation": "Definiuje się imperium jako potężne państwo, które podbija inne kraje."
   },
   {
     "id": "R03_IMP_06",
@@ -341,7 +341,7 @@ const ALL_EXERCISES = [
     "id": "R03_IMP_10",
     "section": "Imperium Rzymskie",
     "type": "single_choice",
-    "prompt": "Kogo podręcznik uznaje za pierwszego cesarza rzymskiego?",
+    "prompt": "Kogo uznaje się za pierwszego cesarza rzymskiego?",
     "options": [
       "Romulusa",
       "Tarkwiniusza Pysznego",
@@ -490,7 +490,7 @@ const ALL_EXERCISES = [
     "prompt": "Galia została ostatecznie włączona w granice Rzymu w I wieku p.n.e.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że w I wieku p.n.e. Galia została ostatecznie włączona do Rzymu."
+    "explanation": "W I wieku p.n.e. Galia została ostatecznie włączona do Rzymu."
   },
   {
     "id": "R03_WOJ_10",
@@ -548,7 +548,7 @@ const ALL_EXERCISES = [
     "id": "R03_CYW_02",
     "section": "Cywilizacja starożytnego Rzymu",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia techniczne lub budowlane Rzymian wymienione w podręczniku.",
+    "prompt": "Zaznacz osiągnięcia techniczne lub budowlane Rzymian.",
     "options": [
       "sieć dróg",
       "łuk i kopuła",
@@ -752,7 +752,7 @@ const ALL_EXERCISES = [
         "Nazaret"
       ]
     ],
-    "explanation": "Podręcznik wskazuje Jezusa z Nazaretu jako założyciela chrześcijaństwa."
+    "explanation": "Wskazuje się Jezusa z Nazaretu jako założyciela chrześcijaństwa."
   },
   {
     "id": "R03_CHR_04",
@@ -784,7 +784,7 @@ const ALL_EXERCISES = [
     "id": "R03_CHR_05",
     "section": "Chrześcijaństwo i schyłek starożytności",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny nieufności i prześladowań wobec pierwszych chrześcijan podane w rozdziale.",
+    "prompt": "Zaznacz przyczyny nieufności i prześladowań wobec pierwszych chrześcijan.",
     "options": [
       "odmawiali składania ofiar rzymskim bogom",
       "nie uznawali boskości cesarzy",
@@ -875,7 +875,7 @@ const ALL_EXERCISES = [
     "id": "R03_CHR_10",
     "section": "Chrześcijaństwo i schyłek starożytności",
     "type": "multi_select",
-    "prompt": "Wskaż przyczyny upadku Cesarstwa Rzymskiego na Zachodzie wymienione w rozdziale.",
+    "prompt": "Wskaż przyczyny upadku Cesarstwa Rzymskiego na Zachodzie.",
     "options": [
       "najazdy ludów barbarzyńskich",
       "rabowanie rzymskich ziem",
@@ -936,7 +936,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_03",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz zadania senatu rzymskiego wymienione w rozdziale.",
+    "prompt": "Zaznacz zadania senatu rzymskiego.",
     "options": [
       "udzielanie rad urzędnikom",
       "przyjmowanie poselstw zagranicznych",
@@ -957,7 +957,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz autora z dziełem albo rolą wskazaną w podręczniku.",
+    "prompt": "Połącz autora z dziełem albo rolą.",
     "options": null,
     "left": [
       "Wergiliusz",
@@ -977,7 +977,7 @@ const ALL_EXERCISES = [
       "Juliusz Cezar": "O wojnie galijskiej i O wojnie domowej",
       "św. Paweł": "Listy w Nowym Testamencie"
     },
-    "explanation": "Rozdział wymienia Wergiliusza jako autora Eneidy, Cycerona jako wzór mów, Juliusza Cezara jako autora dzieł o wojnach oraz św. Pawła jako autora listów w Nowym Testamencie."
+    "explanation": "Wymienia się Wergiliusza jako autora Eneidy, Cycerona jako wzór mów, Juliusza Cezara jako autora dzieł o wojnach oraz św. Pawła jako autora listów w Nowym Testamencie."
   },
   {
     "id": "R03_HARD_05",
@@ -995,7 +995,7 @@ const ALL_EXERCISES = [
       "republika",
       "cesarstwo"
     ],
-    "explanation": "Dzieje Rzymu w rozdziale porządkują trzy etapy: królestwo, republikę i cesarstwo."
+    "explanation": "Dzieje Rzymu porządkują trzy etapy: królestwo, republikę i cesarstwo."
   },
   {
     "id": "R03_HARD_06",
@@ -1004,7 +1004,7 @@ const ALL_EXERCISES = [
     "prompt": "Za Oktawiana Augusta formalnie nadal istniały republikańskie urzędy, lecz straciły dawne znaczenie.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że senat, konsulowie i inni urzędnicy nadal istnieli, ale rzeczywistą władzę sprawował Oktawian August."
+    "explanation": "Senat, konsulowie i inni urzędnicy nadal istnieli, ale rzeczywistą władzę sprawował Oktawian August."
   },
   {
     "id": "R03_HARD_07",

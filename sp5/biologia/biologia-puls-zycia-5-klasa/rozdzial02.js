@@ -603,7 +603,7 @@ const ALL_EXERCISES =
     "id": "R02_CU_04",
     "section": "Cudzożywność",
     "type": "multi_select",
-    "prompt": "Wybierz trzy główne grupy organizmów cudzożywnych z podręcznika.",
+    "prompt": "Wybierz trzy główne grupy organizmów cudzożywnych.",
     "options": [
       "zjadające inne organizmy",
       "pasożyty",
@@ -615,7 +615,7 @@ const ALL_EXERCISES =
       1,
       2
     ],
-    "explanation": "W podręczniku organizmy cudzożywne podzielono na zjadające inne organizmy, pasożyty i odżywiające się szczątkami.",
+    "explanation": "Organizmy cudzożywne podzielono na zjadające inne organizmy, pasożyty i odżywiające się szczątkami.",
     "image": "/img/r02_cudzozywnosc_podzial.jpg"
   },
   {
@@ -1099,7 +1099,7 @@ const ALL_EXERCISES =
     "id": "R02_ST_17",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który element występuje we wszystkich typach komórek omawianych w rozdziale?",
+    "prompt": "Który element występuje we wszystkich typach komórek?",
     "options": [
       "Błona komórkowa",
       "Chloroplast",

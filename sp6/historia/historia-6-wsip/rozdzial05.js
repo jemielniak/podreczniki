@@ -53,7 +53,7 @@ const ALL_EXERCISES = [
         "Szwecji"
       ]
     ],
-    "explanation": "Podręcznik podaje, że wojna północna trwała w latach 1700-1721 i toczyła się przede wszystkim między Rosją a Szwecją."
+    "explanation": "Wojna północna trwała w latach 1700-1721 i toczyła się przede wszystkim między Rosją a Szwecją."
   },
   {
     "id": "R05_SAS_04",
@@ -201,7 +201,7 @@ const ALL_EXERCISES = [
       "likwidacja magnaterii"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że za panowania Augusta III największą bolączką było zrywanie sejmów; z czternastu zwołanych do skutku doszedł tylko jeden."
+    "explanation": "Za panowania Augusta III największą bolączką było zrywanie sejmów; z czternastu zwołanych do skutku doszedł tylko jeden."
   },
   {
     "id": "R05_SAS_12",
@@ -421,7 +421,7 @@ const ALL_EXERCISES = [
     "prompt": "Konfederaci barscy uzyskali niewielkie wsparcie od Francji i Turcji, ale ich działania militarne były prowadzone nieudolnie.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że konfederaci otrzymali niewielką pomoc od Francji i Turcji, lecz prowadzili działania nieudolnie."
+    "explanation": "Konfederaci otrzymali niewielką pomoc od Francji i Turcji, lecz prowadzili działania nieudolnie."
   },
   {
     "id": "R05_REF_01",
@@ -438,13 +438,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r05_komisja_edukacji_narodowej.jpg",
-    "explanation": "W 1773 roku sejm rozbiorowy powołał Komisję Edukacji Narodowej, określoną w podręczniku jako pierwsze na świecie ministerstwo oświaty."
+    "explanation": "W 1773 roku sejm rozbiorowy powołał Komisję Edukacji Narodowej, określoną jako pierwsze na świecie ministerstwo oświaty."
   },
   {
     "id": "R05_REF_02",
     "section": "Reformy stanisławowskie",
     "type": "multi_select",
-    "prompt": "Zaznacz działania Komisji Edukacji Narodowej opisane w rozdziale.",
+    "prompt": "Zaznacz działania Komisji Edukacji Narodowej.",
     "options": [
       "odnowienie uniwersytetów w Krakowie i Wilnie",
       "tworzenie nowego typu szkół podstawowych i średnich",
@@ -485,7 +485,7 @@ const ALL_EXERCISES = [
     "id": "R05_REF_04",
     "section": "Reformy stanisławowskie",
     "type": "riddle",
-    "prompt": "Jak nazywała się instytucja określona w podręczniku jako pierwszy w dziejach Polski rząd?",
+    "prompt": "Jak nazywała się instytucja określona jako pierwszy w dziejach Polski rząd?",
     "options": null,
     "answer": "Rada Nieustająca",
     "altAnswers": [
@@ -614,7 +614,7 @@ const ALL_EXERCISES = [
     "id": "R05_REF_11",
     "section": "Reformy stanisławowskie",
     "type": "single_choice",
-    "prompt": "Jaką liczbę mieszkańców przekroczyła Warszawa pod koniec XVIII wieku według rozdziału?",
+    "prompt": "Jaką liczbę mieszkańców przekroczyła Warszawa pod koniec XVIII wieku?",
     "options": [
       "10 tys.",
       "30 tys.",
@@ -637,7 +637,7 @@ const ALL_EXERCISES = [
       "Ojciec sceny polskiej",
       "ojciec sceny polskiej"
     ],
-    "explanation": "Wojciech Bogusławski, wieloletni dyrektor Teatru Narodowego, jest w podręczniku nazwany Ojcem sceny polskiej."
+    "explanation": "Wojciech Bogusławski, wieloletni dyrektor Teatru Narodowego, jest nazwany Ojcem sceny polskiej."
   },
   {
     "id": "R05_KON_01",
@@ -686,7 +686,7 @@ const ALL_EXERCISES = [
     "id": "R05_KON_04",
     "section": "Sejm Wielki i Konstytucja 3 maja",
     "type": "multi_select",
-    "prompt": "Zaznacz osoby wymienione w rozdziale jako ważne przy przygotowaniu Konstytucji 3 maja.",
+    "prompt": "Zaznacz osoby jako ważne przy przygotowaniu Konstytucji 3 maja.",
     "options": [
       "Stanisław August Poniatowski",
       "Stanisław Małachowski",
@@ -758,7 +758,7 @@ const ALL_EXERCISES = [
     "id": "R05_KON_08",
     "section": "Sejm Wielki i Konstytucja 3 maja",
     "type": "single_choice",
-    "prompt": "Które stwierdzenie o Konstytucji 3 maja jest zgodne z rozdziałem?",
+    "prompt": "Które stwierdzenie o Konstytucji 3 maja jest prawdziwe?",
     "options": [
       "Była pierwszą konstytucją uchwaloną w Europie",
       "Była pierwszą konstytucją na świecie",
@@ -775,7 +775,7 @@ const ALL_EXERCISES = [
     "id": "R05_KON_09",
     "section": "Sejm Wielki i Konstytucja 3 maja",
     "type": "multi_select",
-    "prompt": "Zaznacz najważniejsze postanowienia Konstytucji 3 maja wymienione w rozdziale.",
+    "prompt": "Zaznacz najważniejsze postanowienia Konstytucji 3 maja.",
     "options": [
       "zniesienie liberum veto",
       "zniesienie wolnej elekcji",
@@ -908,7 +908,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik wymienia Kościuszkę, Potockiego, Małachowskiego i Kołłątaja wśród obrońców reform, którzy opuścili kraj."
+    "explanation": "Wymienia się Kościuszkę, Potockiego, Małachowskiego i Kołłątaja wśród obrońców reform, którzy opuścili kraj."
   },
   {
     "id": "R05_ROZ_04",
@@ -1102,7 +1102,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy traktatu trzech czarnych orłów opisane w rozdziale.",
+    "prompt": "Zaznacz elementy traktatu trzech czarnych orłów.",
     "options": [
       "zawarto go w 1732 roku",
       "dotyczył wspólnego kandydata do tronu polskiego",
@@ -1139,13 +1139,13 @@ const ALL_EXERCISES = [
         "1"
       ]
     ],
-    "explanation": "W rozdziale podano, że za Augusta III z czternastu sejmów do skutku doszedł tylko jeden."
+    "explanation": "Za Augusta III z czternastu sejmów do skutku doszedł tylko jeden."
   },
   {
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz nazwisko z mniej oczywistą informacją z rozdziału.",
+    "prompt": "Połącz nazwisko z mniej oczywistą informacją.",
     "options": null,
     "left": [
       "Kazimierz Pułaski",
@@ -1165,16 +1165,16 @@ const ALL_EXERCISES = [
       "Berek Joselewicz": "dowódca pułku jazdy złożonego z polskich Żydów",
       "Wojciech Bogusławski": "autor dzieła Cud mniemany czyli Krakowiacy i Górale"
     },
-    "explanation": "Rozdział podaje charakterystyczne informacje o każdej z tych postaci, wykraczające poza same daty polityczne."
+    "explanation": "Podaje się charakterystyczne informacje o każdej z tych postaci, wykraczające poza same daty polityczne."
   },
   {
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Konstytucja 3 maja była według rozdziału mniej radykalna niż konstytucje amerykańska i francuska, bo nie znosiła całkowicie podziału społeczeństwa na stany.",
+    "prompt": "Konstytucja 3 maja była mniej radykalna niż konstytucje amerykańska i francuska, bo nie znosiła całkowicie podziału społeczeństwa na stany.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik zaznacza, że Konstytucja 3 maja była ogromnym krokiem naprzód, ale nie likwidowała całkowicie tradycyjnego podziału stanowego."
+    "explanation": "Konstytucja 3 maja była ogromnym krokiem naprzód, ale nie likwidowała całkowicie tradycyjnego podziału stanowego."
   },
   {
     "id": "R05_HARD_06",
@@ -1228,7 +1228,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_09",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj dane liczbowe do państwa według tabel z końca rozdziału.",
+    "prompt": "Przyporządkuj dane liczbowe do państwa według tabel.",
     "options": null,
     "items": [
       "armia 150000",
@@ -1284,7 +1284,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz ziemie lub miasta zabrane przez Prusy w II rozbiorze według rozdziału.",
+    "prompt": "Zaznacz ziemie lub miasta zabrane przez Prusy w II rozbiorze.",
     "options": [
       "Wielkopolska",
       "Kujawy",
@@ -1324,7 +1324,7 @@ const ALL_EXERCISES = [
         "około 4 mln"
       ]
     ],
-    "explanation": "Rozdział podaje, że po II rozbiorze Rzeczpospolita miała nieco ponad 210 tys. km kw. i około 4 mln mieszkańców."
+    "explanation": "Po II rozbiorze Rzeczpospolita miała nieco ponad 210 tys. km kw. i około 4 mln mieszkańców."
   }
 ];
 

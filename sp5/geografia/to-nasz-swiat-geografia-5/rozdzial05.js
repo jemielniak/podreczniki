@@ -37,7 +37,7 @@ const ALL_EXERCISES = [
     "id": "R05_STR_03",
     "section": "Strefowość krajobrazów",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy pogody wymienione w rozdziale.",
+    "prompt": "Zaznacz elementy pogody.",
     "options": [
       "temperatura powietrza",
       "opady",
@@ -265,7 +265,7 @@ const ALL_EXERCISES = [
     "id": "R05_LAS_06",
     "section": "Wilgotny las równikowy",
     "type": "match",
-    "prompt": "Połącz zwierzę z kontynentem lub regionem występowania podanym w rozdziale.",
+    "prompt": "Połącz zwierzę z kontynentem lub regionem występowania.",
     "options": null,
     "left": [
       "tapir",
@@ -285,7 +285,7 @@ const ALL_EXERCISES = [
       "orangutan": "południowo-wschodnia Azja",
       "tygrys": "Azja"
     },
-    "explanation": "Rozdział wskazuje przykładowe zwierzęta lasów równikowych z różnych części świata."
+    "explanation": "Wskazuje się przykładowe zwierzęta lasów równikowych z różnych części świata."
   },
   {
     "id": "R05_LAS_07",
@@ -345,7 +345,7 @@ const ALL_EXERCISES = [
         "łowiectwo"
       ]
     },
-    "explanation": "W rozdziale osobno opisano roślinność, zwierzęta i zajęcia mieszkańców wilgotnych lasów równikowych."
+    "explanation": "Osobno opisano roślinność, zwierzęta i zajęcia mieszkańców wilgotnych lasów równikowych."
   },
   {
     "id": "R05_LAS_10",
@@ -359,7 +359,7 @@ const ALL_EXERCISES = [
       "wycinka lasów",
       "wycinanie lasów"
     ],
-    "explanation": "W rozdziale taki proces nazwano wylesianiem i opisano jego negatywne skutki przyrodnicze."
+    "explanation": "Taki proces nazwano wylesianiem i opisano jego negatywne skutki przyrodnicze."
   },
   {
     "id": "R05_SAW_01",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "prompt": "Sawanny występują na wszystkich kontynentach z wyjątkiem Europy i Antarktydy.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że sawanny występują na większości kontynentów poza Europą i Antarktydą."
+    "explanation": "Sawanny występują na większości kontynentów poza Europą i Antarktydą."
   },
   {
     "id": "R05_SAW_03",
@@ -429,7 +429,7 @@ const ALL_EXERCISES = [
     "id": "R05_SAW_05",
     "section": "Sawanna",
     "type": "single_choice",
-    "prompt": "Które drzewa są typowe dla sawanny według rozdziału?",
+    "prompt": "Które drzewa są typowe dla sawanny?",
     "options": [
       "akacje i baobaby",
       "cyprysy i dęby korkowe",
@@ -464,7 +464,7 @@ const ALL_EXERCISES = [
       "padlinożerne": "sęp"
     },
     "image": "r05_migracja_sawanny.jpg",
-    "explanation": "Rozdział dzieli przykładowe zwierzęta sawanny na roślinożerne, drapieżne i padlinożerne."
+    "explanation": "Dzieli się przykładowe zwierzęta sawanny na roślinożerne, drapieżne i padlinożerne."
   },
   {
     "id": "R05_SAW_07",
@@ -479,7 +479,7 @@ const ALL_EXERCISES = [
       "wedrowka"
     ],
     "image": "r05_migracja_sawanny.jpg",
-    "explanation": "Rozdział definiuje migrację jako przemieszczanie się ludzi lub zwierząt w poszukiwaniu lepszych warunków do życia."
+    "explanation": "Definiuje się migrację jako przemieszczanie się ludzi lub zwierząt w poszukiwaniu lepszych warunków do życia."
   },
   {
     "id": "R05_SAW_08",
@@ -530,7 +530,7 @@ const ALL_EXERCISES = [
         "szakal"
       ]
     },
-    "explanation": "W rozdziale zebry i żyrafy są roślinożerne, lwy i gepardy drapieżne, a krokuty i szakale padlinożerne."
+    "explanation": "Zebry i żyrafy są roślinożerne, lwy i gepardy drapieżne, a krokuty i szakale padlinożerne."
   },
   {
     "id": "R05_SAW_10",
@@ -545,7 +545,7 @@ const ALL_EXERCISES = [
     "id": "R05_PUS_01",
     "section": "Pustynia gorąca",
     "type": "single_choice",
-    "prompt": "Jak rozdział definiuje pustynię gorącą?",
+    "prompt": "Jak definiuje się pustynię gorącą?",
     "options": [
       "Bardzo suchy obszar lądowy prawie pozbawiony roślinności",
       "Wilgotny las o wielu piętrach",
@@ -586,7 +586,7 @@ const ALL_EXERCISES = [
     "prompt": "Pustynie gorące występują głównie w pobliżu zwrotników.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że pustynie gorące występują głównie w pobliżu zwrotników."
+    "explanation": "Pustynie gorące występują głównie w pobliżu zwrotników."
   },
   {
     "id": "R05_PUS_04",
@@ -608,7 +608,7 @@ const ALL_EXERCISES = [
     "id": "R05_PUS_05",
     "section": "Pustynia gorąca",
     "type": "single_choice",
-    "prompt": "Która pustynia gorąca została w rozdziale wskazana jako największa na świecie?",
+    "prompt": "Która pustynia gorąca została wskazana jako największa na świecie?",
     "options": [
       "Sahara",
       "Mojave",
@@ -618,7 +618,7 @@ const ALL_EXERCISES = [
       "Kalahari"
     ],
     "answer": 0,
-    "explanation": "W rozdziale największą pustynią gorącą nazwano Saharę w północnej Afryce."
+    "explanation": "Największą pustynią gorącą nazwano Saharę w północnej Afryce."
   },
   {
     "id": "R05_PUS_06",
@@ -641,7 +641,7 @@ const ALL_EXERCISES = [
       "karawana": "grupa ludzi podróżujących na wielbłądach",
       "dromader": "wielbłąd jednogarbny"
     },
-    "explanation": "W rozdziale wyjaśniono oazy, karawany i przykładowe zwierzę pustyni."
+    "explanation": "Wyjaśniono oazy, karawany i przykładowe zwierzę pustyni."
   },
   {
     "id": "R05_PUS_07",
@@ -739,7 +739,7 @@ const ALL_EXERCISES = [
     "prompt": "Krajobraz śródziemnomorski występuje głównie w otoczeniu Morza Śródziemnego.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że występuje przede wszystkim wokół Morza Śródziemnego."
+    "explanation": "Występuje przede wszystkim wokół Morza Śródziemnego."
   },
   {
     "id": "R05_SRD_03",
@@ -818,7 +818,7 @@ const ALL_EXERCISES = [
       "muflon": "ssak lądowy",
       "jeżowiec": "zwierzę morskie"
     },
-    "explanation": "Rozdział wymienia typowe rośliny uprawne i zwierzęta spotykane w tej strefie."
+    "explanation": "Wymienia się typowe rośliny uprawne i zwierzęta spotykane w tej strefie."
   },
   {
     "id": "R05_SRD_07",
@@ -879,7 +879,7 @@ const ALL_EXERCISES = [
         "połów ryb"
       ]
     },
-    "explanation": "W rozdziale osobno opisano rośliny, zwierzęta i zajęcia ludzi w regionie śródziemnomorskim."
+    "explanation": "Osobno opisano rośliny, zwierzęta i zajęcia ludzi w regionie śródziemnomorskim."
   },
   {
     "id": "R05_SRD_10",
@@ -891,7 +891,7 @@ const ALL_EXERCISES = [
     "altAnswers": [
       "sjesta"
     ],
-    "explanation": "W rozdziale podano, że taka przerwa w pracy zwykle między 14 a 17 jest nazywana sjestą."
+    "explanation": "Taka przerwa w pracy zwykle między 14 a 17 jest nazywana sjestą."
   },
   {
     "id": "R05_STE_01",
@@ -932,7 +932,7 @@ const ALL_EXERCISES = [
         "pampasy"
       ]
     ],
-    "explanation": "Rozdział podaje, że stepy w Ameryce Północnej to prerie, a w Ameryce Południowej pampy lub pampasy."
+    "explanation": "Stepy w Ameryce Północnej to prerie, a w Ameryce Południowej pampy lub pampasy."
   },
   {
     "id": "R05_STE_03",
@@ -941,13 +941,13 @@ const ALL_EXERCISES = [
     "prompt": "Na większości stepów panuje klimat umiarkowany ciepły kontynentalny.",
     "options": null,
     "answer": true,
-    "explanation": "Taki klimat wskazano w rozdziale jako typowy dla większości stepów."
+    "explanation": "Taki klimat wskazano jako typowy dla większości stepów."
   },
   {
     "id": "R05_STE_04",
     "section": "Step",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy klimatu stepowego według rozdziału.",
+    "prompt": "Zaznacz cechy klimatu stepowego.",
     "options": [
       "cztery pory roku",
       "gorące lato",
@@ -985,7 +985,7 @@ const ALL_EXERCISES = [
     "id": "R05_STE_06",
     "section": "Step",
     "type": "match",
-    "prompt": "Połącz zwierzę stepowe z obszarem podanym w rozdziale.",
+    "prompt": "Połącz zwierzę stepowe z obszarem.",
     "options": null,
     "left": [
       "bizony",
@@ -1005,7 +1005,7 @@ const ALL_EXERCISES = [
       "suhaki": "Azja",
       "pieski preriowe": "prerie Ameryki Północnej"
     },
-    "explanation": "Rozdział wymienia różne zwierzęta stepów Ameryki Północnej, Ameryki Południowej i Azji."
+    "explanation": "Wymienia się różne zwierzęta stepów Ameryki Północnej, Ameryki Południowej i Azji."
   },
   {
     "id": "R05_STE_07",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
         "wielbłądy dwugarbne"
       ]
     },
-    "explanation": "Rozdział pokazuje przykładowe zwierzęta stepowe z Ameryki Północnej, Ameryki Południowej i Azji."
+    "explanation": "Pokazuje się przykładowe zwierzęta stepowe z Ameryki Północnej, Ameryki Południowej i Azji."
   },
   {
     "id": "R05_STE_10",
@@ -1216,7 +1216,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż typowy dzień w wilgotnym lesie równikowym zgodnie z opisem z rozdziału.",
+    "prompt": "Ułóż typowy dzień w wilgotnym lesie równikowym zgodnie z opisem.",
     "options": null,
     "items": [
       "pada deszcz",
@@ -1282,7 +1282,7 @@ const ALL_EXERCISES = [
     "prompt": "Na sawannie im bliżej równika, tym dłuższa jest pora deszczowa.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że w klimacie sawanny pory roku nie wszędzie trwają tak samo długo: im bliżej równika, tym pora deszczowa jest dłuższa."
+    "explanation": "W klimacie sawanny pory roku nie wszędzie trwają tak samo długo: im bliżej równika, tym pora deszczowa jest dłuższa."
   },
   {
     "id": "R05_HARD_11",

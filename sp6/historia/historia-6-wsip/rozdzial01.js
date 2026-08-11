@@ -33,7 +33,7 @@ const ALL_EXERCISES = [
     "image": "r01_karawela_na_morzu.jpg",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że dzięki trójkątnym żaglom karawele lepiej manewrowały przy zmiennych wiatrach."
+    "explanation": "Dzięki trójkątnym żaglom karawele lepiej manewrowały przy zmiennych wiatrach."
   },
   {
     "id": "R01_WOG_03",
@@ -180,7 +180,7 @@ const ALL_EXERCISES = [
     "prompt": "Od początku wypraw europejskim żeglarzom i władcom przyświecał także cel nawracania rdzennej ludności na chrześcijaństwo.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że obok bogactw i podporządkowania nowych ziem ważnym celem było nawracanie miejscowej ludności na chrześcijaństwo."
+    "explanation": "Obok bogactw i podporządkowania nowych ziem ważnym celem było nawracanie miejscowej ludności na chrześcijaństwo."
   },
   {
     "id": "R01_KOG_02",
@@ -251,7 +251,7 @@ const ALL_EXERCISES = [
         "slonca"
       ]
     ],
-    "explanation": "Podręcznik podaje, że państwo Inków liczyło ponad 8 mln mieszkańców, a władcom przypisywano pochodzenie od boga Słońca."
+    "explanation": "Państwo Inków liczyło ponad 8 mln mieszkańców, a władcom przypisywano pochodzenie od boga Słońca."
   },
   {
     "id": "R01_KOG_06",
@@ -305,7 +305,7 @@ const ALL_EXERCISES = [
       "Stanisław Hozjusz"
     ],
     "answer": 0,
-    "explanation": "Podręcznik opisuje Hernána Cortésa jako konkwistadora, który w latach 1519-1521 podbił imperium Azteków i po wylądowaniu nakazał spalenie okrętów."
+    "explanation": "Opisuje się Hernána Cortésa jako konkwistadora, który w latach 1519-1521 podbił imperium Azteków i po wylądowaniu nakazał spalenie okrętów."
   },
   {
     "id": "R01_KOG_09",
@@ -376,7 +376,7 @@ const ALL_EXERCISES = [
       "kontrreformacja"
     ],
     "answer": 0,
-    "explanation": "Podręcznik określa epokę od XV do schyłku XVI wieku mianem odrodzenia lub renesansu."
+    "explanation": "Określa się epokę od XV do schyłku XVI wieku mianem odrodzenia lub renesansu."
   },
   {
     "id": "R01_ODR_02",
@@ -435,7 +435,7 @@ const ALL_EXERCISES = [
       "Michał Anioł": "freski w Kaplicy Sykstyńskiej i kopuła Bazyliki św. Piotra",
       "Rafael Santi": "Szkoła ateńska i obrazy Madonny z Dzieciątkiem"
     },
-    "explanation": "Leonardo, Michał Anioł i Rafael Santi to najważniejsi artyści włoskiego renesansu opisani w podręczniku."
+    "explanation": "Leonardo, Michał Anioł i Rafael Santi to najważniejsi artyści włoskiego renesansu."
   },
   {
     "id": "R01_ODR_05",
@@ -493,7 +493,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODR_09",
     "section": "Kultura odrodzenia we Włoszech",
     "type": "scenario",
-    "prompt": "Jesteś XV-wiecznym władcą Florencji z rodu Medyceuszy. Zasłynąłeś jako mecenas, a na twoim dworze pracował młody Michał Anioł. Jak cię nazwano w podręczniku?",
+    "prompt": "Jesteś XV-wiecznym władcą Florencji z rodu Medyceuszy. Zasłynąłeś jako mecenas, a na twoim dworze pracował młody Michał Anioł. Jak cię nazwano?",
     "options": [
       "Wawrzyniec Wspaniały",
       "Jan Gutenberg",
@@ -528,13 +528,13 @@ const ALL_EXERCISES = [
     "prompt": "Na przełomie XV i XVI wieku kultura renesansowa oraz humanizm zaczęły rozprzestrzeniać się w większości krajów europejskich.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że zjawisko to było związane m.in. z podróżami do Włoch i kontaktami z tamtejszymi humanistami."
+    "explanation": "Zjawisko to było związane m.in. z podróżami do Włoch i kontaktami z tamtejszymi humanistami."
   },
   {
     "id": "R01_HUM_02",
     "section": "Humanizm i przewrót kopernikański",
     "type": "single_choice",
-    "prompt": "Komu podręcznik przypisuje wynalazek ruchomej czcionki drukarskiej zastosowany około 1450 roku?",
+    "prompt": "Komu przypisuje się wynalazek ruchomej czcionki drukarskiej zastosowany około 1450 roku?",
     "image": "r01_drukarnia_gutenberga.jpg",
     "options": [
       "Janowi Gutenbergowi",
@@ -551,7 +551,7 @@ const ALL_EXERCISES = [
     "id": "R01_HUM_03",
     "section": "Humanizm i przewrót kopernikański",
     "type": "sequence",
-    "prompt": "Ułóż etapy pracy drukarskiej w kolejności opisanej w podręczniku.",
+    "prompt": "Ułóż etapy pracy drukarskiej w kolejności.",
     "image": "r01_drukarnia_gutenberga.jpg",
     "options": null,
     "items": [
@@ -612,7 +612,7 @@ const ALL_EXERCISES = [
     "id": "R01_HUM_06",
     "section": "Humanizm i przewrót kopernikański",
     "type": "multi_select",
-    "prompt": "Zaznacz poglądy i działania Erazma z Rotterdamu opisane w rozdziale.",
+    "prompt": "Zaznacz poglądy i działania Erazma z Rotterdamu.",
     "options": [
       "potępiał wojny",
       "nawoływał do tolerancji wobec osób innego wyznania niż katolickie",
@@ -747,7 +747,7 @@ const ALL_EXERCISES = [
     "id": "R01_REF_04",
     "section": "Reformacja",
     "type": "multi_select",
-    "prompt": "Zaznacz poglądy lub postulaty Marcina Lutra opisane w rozdziale.",
+    "prompt": "Zaznacz poglądy lub postulaty Marcina Lutra.",
     "image": "r01_wystapienie_lutra.jpg",
     "options": [
       "krytyka sprzedaży odpustów",
@@ -778,13 +778,13 @@ const ALL_EXERCISES = [
       "przeniosło stolicę reformacji do Tenochtitlan"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że tłumaczenie Biblii dokonane przez Lutra położyło podstawy pod rozwój nowożytnego literackiego języka niemieckiego."
+    "explanation": "Tłumaczenie Biblii dokonane przez Lutra położyło podstawy pod rozwój nowożytnego literackiego języka niemieckiego."
   },
   {
     "id": "R01_REF_06",
     "section": "Reformacja",
     "type": "sort",
-    "prompt": "Przyporządkuj cechy do Kościoła katolickiego albo ewangelickiego według opisu z rozdziału.",
+    "prompt": "Przyporządkuj cechy do Kościoła katolickiego albo ewangelickiego według opisu.",
     "options": null,
     "items": [
       "uznawanie władzy papieża",
@@ -896,7 +896,7 @@ const ALL_EXERCISES = [
     "id": "R01_KAT_02",
     "section": "Reforma katolicka",
     "type": "multi_select",
-    "prompt": "Zaznacz ważniejsze reformy soboru trydenckiego wymienione w podręczniku.",
+    "prompt": "Zaznacz ważniejsze reformy soboru trydenckiego.",
     "image": "r01_sobor_trydencki.jpg",
     "options": [
       "zakładanie seminariów duchownych",
@@ -957,7 +957,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Indeksie ksiąg zakazanych umieszczono wkrótce dzieło Mikołaja Kopernika O obrotach sfer niebieskich.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że na indeksie znalazło się m.in. dzieło Mikołaja Kopernika O obrotach sfer niebieskich."
+    "explanation": "Na indeksie znalazło się m.in. dzieło Mikołaja Kopernika O obrotach sfer niebieskich."
   },
   {
     "id": "R01_KAT_06",
@@ -1027,7 +1027,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podręcznik wskazuje zarówno negatywne skutki, takie jak wojny i podziały, jak i pozytywny rozwój idei tolerancji religijnej."
+    "explanation": "Wskazuje się zarówno negatywne skutki, takie jak wojny i podziały, jak i pozytywny rozwój idei tolerancji religijnej."
   },
   {
     "id": "R01_KAT_10",
@@ -1080,7 +1080,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz osobę z określeniem lub rolą podaną w rozdziale.",
+    "prompt": "Połącz osobę z określeniem lub rolą.",
     "options": null,
     "left": [
       "Erazm z Rotterdamu",
@@ -1100,7 +1100,7 @@ const ALL_EXERCISES = [
       "Bartolomé de Las Casas": "jeden z pierwszych obrońców Indian",
       "Lucas Cranach starszy": "malarz reformacji"
     },
-    "explanation": "Rozdział używa tych określeń przy omawianiu humanizmu, reformy katolickiej, kolonizacji oraz reformacji."
+    "explanation": "Używa się tych określeń przy omawianiu humanizmu, reformy katolickiej, kolonizacji oraz reformacji."
   },
   {
     "id": "R01_HARD_04",
@@ -1149,7 +1149,7 @@ const ALL_EXERCISES = [
     "image": "r01_zbor_kalwinski.jpg",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że kalwiniści bardziej niż luteranie ograniczyli hierarchię kościelną, znosząc urzędy biskupów, a ich zbory miały surowy wystrój."
+    "explanation": "Kalwiniści bardziej niż luteranie ograniczyli hierarchię kościelną, znosząc urzędy biskupów, a ich zbory miały surowy wystrój."
   },
   {
     "id": "R01_HARD_07",
@@ -1164,7 +1164,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz osoby, które według rozdziału działały w związku z reformą katolicką lub katolicką odnową.",
+    "prompt": "Zaznacz osoby, które działały w związku z reformą katolicką lub katolicką odnową.",
     "options": [
       "Stanisław Hozjusz",
       "Ignacy Loyola",

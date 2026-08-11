@@ -218,7 +218,7 @@ const ALL_EXERCISES = [
     "prompt": "Stonoga murowa ma sto nóg, zgodnie ze swoją nazwą.",
     "options": null,
     "answer": false,
-    "explanation": "W podręczniku podano, że stonoga murowa ma tylko 14 nóg."
+    "explanation": "Stonoga murowa ma tylko 14 nóg."
   },
   {
     "id": "R03_SKO_03",
@@ -242,7 +242,7 @@ const ALL_EXERCISES = [
     "id": "R03_SKO_04",
     "section": "Skorupiaki",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy budowy raka opisane w podręczniku.",
+    "prompt": "Zaznacz elementy budowy raka.",
     "options": [
       "2 pary czułków",
       "5 par odnóży krocznych",
@@ -367,7 +367,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość skorupiaków pobiera tlen z wody skrzelami.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że większość skorupiaków ma skrzela, którymi pobiera tlen z wody."
+    "explanation": "Większość skorupiaków ma skrzela, którymi pobiera tlen z wody."
   },
   {
     "id": "R03_PAJ_01",
@@ -430,10 +430,10 @@ const ALL_EXERCISES = [
     "id": "R03_PAJ_04",
     "section": "Pajęczaki",
     "type": "true_false",
-    "prompt": "Spośród wymienianych w rozdziale pajęczaków tylko pająki przędą sieci.",
+    "prompt": "Spośród pajęczaków tylko pająki przędą sieci.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podkreśla, że spośród kosarzy, pająków, roztoczy i skorpionów tylko pająki przędą sieci."
+    "explanation": "Spośród kosarzy, pająków, roztoczy i skorpionów tylko pająki przędą sieci."
   },
   {
     "id": "R03_PAJ_05",
@@ -490,7 +490,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAJ_08",
     "section": "Pajęczaki",
     "type": "scenario",
-    "prompt": "Dziecko chce dotknąć nieznanego pająka znalezionego w ogrodzie. Które uzasadnienie ostrożności najlepiej pasuje do informacji z podręcznika?",
+    "prompt": "Dziecko chce dotknąć nieznanego pająka znalezionego w ogrodzie. Które uzasadnienie ostrożności najlepiej pasuje do informacji?",
     "options": [
       "Wiele pajęczaków ma gruczoły jadowe.",
       "Pająki mają skrzela i mogą wciągnąć do wody.",
@@ -570,7 +570,7 @@ const ALL_EXERCISES = [
     "id": "R03_OWA_02",
     "section": "Owady",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy budowy owadów opisane w rozdziale.",
+    "prompt": "Zaznacz cechy budowy owadów.",
     "options": [
       "ciało podzielone na głowę, tułów i odwłok",
       "trzy pary odnóży krocznych",
@@ -595,7 +595,7 @@ const ALL_EXERCISES = [
     "prompt": "Owady są jedynymi bezkręgowcami zdolnymi do aktywnego lotu.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że owady to jedyne bezkręgowce zdolne do aktywnego lotu."
+    "explanation": "Owady to jedyne bezkręgowce zdolne do aktywnego lotu."
   },
   {
     "id": "R03_OWA_04",
@@ -620,7 +620,7 @@ const ALL_EXERCISES = [
     "id": "R03_OWA_05",
     "section": "Owady",
     "type": "match",
-    "prompt": "Połącz typ odnóża owada z przykładem z podręcznika.",
+    "prompt": "Połącz typ odnóża owada z przykładem.",
     "options": null,
     "left": [
       "odnóże skoczne",
@@ -670,7 +670,7 @@ const ALL_EXERCISES = [
         "motyl zorzynka rzeżuchowiec"
       ]
     },
-    "explanation": "Podręcznik pokazuje aparat gryzący u szerszenia, kłująco-ssący u komara i ssący u motyla.",
+    "explanation": "Pokazuje się aparat gryzący u szerszenia, kłująco-ssący u komara i ssący u motyla.",
     "image": "/img/r03_odnoza_aparaty_owadow.jpg"
   },
   {
@@ -1019,7 +1019,7 @@ const ALL_EXERCISES = [
         "owady"
       ]
     ],
-    "explanation": "W rozdziale jako główne grupy stawonogów wymieniono skorupiaki, pajęczaki i owady."
+    "explanation": "Jako główne grupy stawonogów wymieniono skorupiaki, pajęczaki i owady."
   },
   {
     "id": "R03_POW_06",
@@ -1098,7 +1098,7 @@ const ALL_EXERCISES = [
       "slimaki",
       "ślimaki lądowe i wodne"
     ],
-    "explanation": "Podręcznik podaje, że ślimaki są najliczniejszą grupą mięczaków."
+    "explanation": "Ślimaki są najliczniejszą grupą mięczaków."
   },
   {
     "id": "R03_HARD_01",
@@ -1144,7 +1144,7 @@ const ALL_EXERCISES = [
     "prompt": "Najedzona samica kleszcza pospolitego może osiągnąć długość 10–12 mm.",
     "options": null,
     "answer": true,
-    "explanation": "Ilustracja w rozdziale podaje, że najedzona samica kleszcza ma około 10–12 mm."
+    "explanation": "Ilustracja podaje, że najedzona samica kleszcza ma około 10–12 mm."
   },
   {
     "id": "R03_HARD_04",
@@ -1188,7 +1188,7 @@ const ALL_EXERCISES = [
       "paśnik niszczyciel": "chrząszcz podobny do szerszenia",
       "zaleszczotek książkowy": "pajęczak spotykany w starych książkach, ulach lub pod korą"
     },
-    "explanation": "Rozdział pokazuje przykłady upodabniania się owadów do groźniejszych gatunków oraz zaleszczotka podobnego do skorpiona.",
+    "explanation": "Pokazuje się przykłady upodabniania się owadów do groźniejszych gatunków oraz zaleszczotka podobnego do skorpiona.",
     "image": "/img/r03_pszczola_osa_szerszen_trzmiel.jpg"
   },
   {
@@ -1204,7 +1204,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Ktoś twierdzi, że każdy pajęczak jest pająkiem. Który przykład z rozdziału najprościej pokazuje, że to nieprawda?",
+    "prompt": "Ktoś twierdzi, że każdy pajęczak jest pająkiem. Który przykład najprościej pokazuje, że to nieprawda?",
     "options": [
       "kleszcz pospolity",
       "tygrzyk paskowany",
@@ -1221,7 +1221,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_08",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj organizmy do sposobu odżywiania opisanego w rozdziale.",
+    "prompt": "Przyporządkuj organizmy do sposobu odżywiania.",
     "options": null,
     "items": [
       "pąkle",

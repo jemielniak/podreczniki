@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "Antarktyda"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje, że najstarsi przodkowie ludzi pojawili się w Afryce około 4 milionów lat temu."
+    "explanation": "Najstarsi przodkowie ludzi pojawili się w Afryce około 4 milionów lat temu."
   },
   {
     "id": "R01_NDC_02",
@@ -165,7 +165,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "/img/r01_zyzny_polksiezyc_uprawy.jpg",
-    "explanation": "W podręczniku wymieniono m.in. pszenicę, jęczmień, proso, soczewicę, groch, len i drzewa owocowe."
+    "explanation": "Wymieniono m.in. pszenicę, jęczmień, proso, soczewicę, groch, len i drzewa owocowe."
   },
   {
     "id": "R01_NDC_10",
@@ -385,7 +385,7 @@ const ALL_EXERCISES = [
     "id": "R01_MEZ_09",
     "section": "Mezopotamia",
     "type": "true_false",
-    "prompt": "W podręczniku przyjęto, że pojawienie się pisma zakończyło prehistorię i rozpoczęło czasy historyczne.",
+    "prompt": "Przyjęto, że pojawienie się pisma zakończyło prehistorię i rozpoczęło czasy historyczne.",
     "options": null,
     "answer": true,
     "explanation": "Pismo pozwoliło utrwalać informacje, dlatego wraz z jego pojawieniem się rozpoczyna się starożytność."
@@ -394,7 +394,7 @@ const ALL_EXERCISES = [
     "id": "R01_MEZ_10",
     "section": "Mezopotamia",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia ludów starożytnej Mezopotamii wymienione w podręczniku.",
+    "prompt": "Zaznacz osiągnięcia ludów starożytnej Mezopotamii.",
     "options": [
       "Wynalezienie pisma",
       "Wynalezienie koła",
@@ -463,7 +463,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_mapa_egiptu_nil_delta.jpg",
-    "explanation": "Podręcznik podaje, że około 3100 roku p.n.e. dwa królestwa Egiptu połączono pod władzą jednego króla."
+    "explanation": "Około 3100 roku p.n.e. dwa królestwa Egiptu połączono pod władzą jednego króla."
   },
   {
     "id": "R01_EGI_03",
@@ -551,7 +551,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_07",
     "section": "Starożytny Egipt",
     "type": "single_choice",
-    "prompt": "Jak nazywało się uroczyste pismo starożytnych Egipcjan pokazane w podręczniku?",
+    "prompt": "Jak nazywało się uroczyste pismo starożytnych Egipcjan?",
     "options": [
       "Hieroglify",
       "Pismo klinowe",
@@ -594,7 +594,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_10",
     "section": "Starożytny Egipt",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia starożytnych Egipcjan wymienione w podręczniku.",
+    "prompt": "Zaznacz osiągnięcia starożytnych Egipcjan.",
     "options": [
       "Rozwój medycyny",
       "Obliczanie powierzchni i objętości figur",
@@ -625,7 +625,7 @@ const ALL_EXERCISES = [
     "id": "R01_EGI_12",
     "section": "Starożytny Egipt",
     "type": "sequence",
-    "prompt": "Ułóż etapy rocznego cyklu rolniczego nad Nilem w kolejności opisanej w podręczniku.",
+    "prompt": "Ułóż etapy rocznego cyklu rolniczego nad Nilem w kolejności.",
     "options": null,
     "items": [
       "wiosenne zbiory",
@@ -657,13 +657,13 @@ const ALL_EXERCISES = [
       "Kapłanami i urzędnikami"
     ],
     "answer": 0,
-    "explanation": "W podręczniku podano, że Żydów nazywano wówczas Hebrajczykami, a później także Izraelitami."
+    "explanation": "Żydów nazywano wówczas Hebrajczykami, a później także Izraelitami."
   },
   {
     "id": "R01_IZR_02",
     "section": "Starożytny Izrael",
     "type": "true_false",
-    "prompt": "Judaizm jest w podręczniku określony jako najstarsza religia monoteistyczna.",
+    "prompt": "Judaizm jest określony jako najstarsza religia monoteistyczna.",
     "options": null,
     "answer": true,
     "explanation": "Religia żydowska, czyli judaizm, wyróżniała się wiarą w jednego Boga i została nazwana najstarszą religią monoteistyczną."
@@ -696,7 +696,7 @@ const ALL_EXERCISES = [
     "id": "R01_IZR_04",
     "section": "Starożytny Izrael",
     "type": "multi_select",
-    "prompt": "Zaznacz zasady i cechy religii starożytnego Izraela opisane w podręczniku.",
+    "prompt": "Zaznacz zasady i cechy religii starożytnego Izraela.",
     "options": [
       "Wiara w jednego Boga",
       "Przestrzeganie Dziesięciu Przykazań",
@@ -753,7 +753,7 @@ const ALL_EXERCISES = [
       "Dawid": "uczynił Jerozolimę stolicą i centrum religijnym",
       "Salomon": "kazał wznieść świątynię Jahwe w Jerozolimie"
     },
-    "explanation": "Abraham, Mojżesz, Dawid i Salomon to najważniejsze postacie biblijnych dziejów Izraela wymienione w rozdziale."
+    "explanation": "Abraham, Mojżesz, Dawid i Salomon to najważniejsze postacie biblijnych dziejów Izraela."
   },
   {
     "id": "R01_IZR_07",
@@ -843,7 +843,7 @@ const ALL_EXERCISES = [
     "id": "R01_IZR_12",
     "section": "Starożytny Izrael",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia z dziejów Izraela w kolejności chronologicznej według rozdziału.",
+    "prompt": "Ułóż wydarzenia z dziejów Izraela w kolejności chronologicznej.",
     "options": null,
     "items": [
       "niewola babilońska",
@@ -859,7 +859,7 @@ const ALL_EXERCISES = [
       "rozpad królestwa po śmierci Salomona",
       "niewola babilońska"
     ],
-    "explanation": "Według narracji rozdziału po Abrahamie nastąpił pobyt i wyjście z Egiptu, potem królestwo Dawida i Salomona, rozpad państwa i niewola babilońska."
+    "explanation": "Według przekazu biblijnego po Abrahamie nastąpił pobyt i wyjście z Egiptu, potem królestwo Dawida i Salomona, rozpad państwa i niewola babilońska."
   },
   {
     "id": "R01_IND_01",
@@ -875,7 +875,7 @@ const ALL_EXERCISES = [
       "Wyłącznie w górach"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że cywilizacje Indii i Chin rozwinęły się w żyznych dolinach wielkich rzek."
+    "explanation": "Cywilizacje Indii i Chin rozwinęły się w żyznych dolinach wielkich rzek."
   },
   {
     "id": "R01_IND_02",
@@ -904,7 +904,7 @@ const ALL_EXERCISES = [
     "prompt": "Najstarsza cywilizacja Indii narodziła się około 2400 lat p.n.e. w dolinie Indusu.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale wskazano, że najstarsza cywilizacja Indii powstała około 2400 lat p.n.e. w dolinie Indusu."
+    "explanation": "Najstarsza cywilizacja Indii powstała około 2400 lat p.n.e. w dolinie Indusu."
   },
   {
     "id": "R01_IND_04",
@@ -936,7 +936,7 @@ const ALL_EXERCISES = [
     "id": "R01_IND_05",
     "section": "Starożytne Indie i Chiny",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy Mohendżo Daro i Harappy opisane w podręczniku.",
+    "prompt": "Zaznacz cechy Mohendżo Daro i Harappy.",
     "options": [
       "Szerokie, równe ulice przecinające się pod kątem prostym",
       "Piętrowe domy z wypalanej cegły",
@@ -1038,7 +1038,7 @@ const ALL_EXERCISES = [
     "id": "R01_IND_11",
     "section": "Starożytne Indie i Chiny",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia starożytnych Chin wymienione w podręczniku.",
+    "prompt": "Zaznacz osiągnięcia starożytnych Chin.",
     "options": [
       "Wytwarzanie papieru",
       "Produkcja jedwabiu",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
       "około 2400 lat p.n.e.": "powstanie cywilizacji doliny Indusu",
       "około 1200 lat p.n.e.": "początek epoki żelaza"
     },
-    "explanation": "Daty pochodzą z osi czasu i podsumowań rozdziału."
+    "explanation": "Daty pochodzą z osi czasu."
   },
   {
     "id": "R01_HARD_03",
@@ -1183,7 +1183,7 @@ const ALL_EXERCISES = [
         "prehistoryja"
       ]
     ],
-    "explanation": "Podręcznik wiąże początki pisma w Mezopotamii z około 3500 rokiem p.n.e. i uznaje je za granicę między prehistorią a historią."
+    "explanation": "Wiąże się początki pisma w Mezopotamii z około 3500 rokiem p.n.e. i uznaje je za granicę między prehistorią a historią."
   },
   {
     "id": "R01_HARD_06",
@@ -1198,10 +1198,10 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Biblia jest dla badaczy ważnym źródłem do dziejów Izraela, ale podręcznik zaznacza, że naukowcy zestawiają opowieści biblijne z innymi źródłami, zwłaszcza archeologicznymi.",
+    "prompt": "Biblia jest dla badaczy ważnym źródłem do dziejów Izraela, ale naukowcy zestawiają opowieści biblijne z innymi źródłami, zwłaszcza archeologicznymi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla religijny charakter Biblii i potrzebę porównywania jej przekazów z innymi źródłami."
+    "explanation": "Podkreśla się religijny charakter Biblii i potrzebę porównywania jej przekazów z innymi źródłami."
   },
   {
     "id": "R01_HARD_08",
@@ -1243,7 +1243,7 @@ const ALL_EXERCISES = [
         "Jedwabny Szlak"
       ]
     },
-    "explanation": "Każde pojęcie pochodzi z innej części rozdziału i jest charakterystyczne dla wskazanej cywilizacji lub tradycji."
+    "explanation": "Każde pojęcie pochodzi i jest charakterystyczne dla wskazanej cywilizacji lub tradycji."
   },
   {
     "id": "R01_HARD_09",
@@ -1272,7 +1272,7 @@ const ALL_EXERCISES = [
       "Ludzie znali tylko liczby, ale nie znali żadnych znaków"
     ],
     "answer": 0,
-    "explanation": "W rozdziale kilka razy podkreślono, że dawne systemy pisma zawierały tysiące znaków, dlatego umiejętność pisania była trudna i rzadka."
+    "explanation": "Kilka razy podkreślono, że dawne systemy pisma zawierały tysiące znaków, dlatego umiejętność pisania była trudna i rzadka."
   }
 ];
 

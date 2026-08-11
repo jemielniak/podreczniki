@@ -158,7 +158,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "r01_poziomy_budowy.jpg",
-    "explanation": "W podręczniku liść i system przewodzący są przykładami poziomów budowy roślin, a serce i układ krwionośny przykładami poziomów budowy zwierząt."
+    "explanation": "Liść i system przewodzący są przykładami poziomów budowy roślin, a serce i układ krwionośny przykładami poziomów budowy zwierząt."
   },
   {
     "id": "R01_ORG_09",
@@ -225,7 +225,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Do podstawowych związków chemicznych organizmów należą między innymi białka, cukry, tłuszcze i kwasy nukleinowe. W rozdziale wymieniono także sole mineralne i wodę."
+    "explanation": "Do podstawowych związków chemicznych organizmów należą między innymi białka, cukry, tłuszcze i kwasy nukleinowe. Wymieniono także sole mineralne i wodę."
   },
   {
     "id": "R01_CHEM_03",
@@ -337,7 +337,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_funkcje_zwiazkow.jpg",
-    "explanation": "Hemoglobina jest białkiem zawartym we krwi. W rozdziale podano ją jako przykład białka transportującego tlen."
+    "explanation": "Hemoglobina jest białkiem zawartym we krwi. Podano ją jako przykład białka transportującego tlen."
   },
   {
     "id": "R01_CHEM_09",
@@ -366,7 +366,7 @@ const ALL_EXERCISES = [
     "id": "R01_MIK_01",
     "section": "Mikroskop i preparaty",
     "type": "single_choice",
-    "prompt": "Do czego służy mikroskop optyczny opisany w rozdziale?",
+    "prompt": "Do czego służy mikroskop optyczny?",
     "options": [
       "Do powiększania obrazu bardzo małych obiektów",
       "Do mierzenia temperatury powietrza",
@@ -576,7 +576,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOM_02",
     "section": "Budowa komórek",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy występujące we wszystkich typach komórek pokazanych w rozdziale.",
+    "prompt": "Zaznacz elementy występujące we wszystkich typach komórek.",
     "options": [
       "błona komórkowa",
       "cytozol",
@@ -739,12 +739,12 @@ const ALL_EXERCISES = [
     ],
     "right": [
       "chloroplasty i ściana komórkowa",
-      "brak ściany komórkowej w modelu z rozdziału",
+      "brak ściany komórkowej w modelu",
       "substancja jądrowa i często otoczka śluzowa"
     ],
     "answer": {
       "komórka roślinna": "chloroplasty i ściana komórkowa",
-      "komórka zwierzęca": "brak ściany komórkowej w modelu z rozdziału",
+      "komórka zwierzęca": "brak ściany komórkowej w modelu",
       "komórka bakteryjna": "substancja jądrowa i często otoczka śluzowa"
     },
     "image": "r01_model_komorki_bakteryjnej.jpg",
@@ -861,7 +861,7 @@ const ALL_EXERCISES = [
     "id": "R01_FOT_07",
     "section": "Fotosynteza",
     "type": "scenario",
-    "prompt": "Ta sama roślina w ciepłym i bardzo słonecznym klimacie osiąga większe rozmiary niż w chłodniejszym miejscu. Który wniosek najlepiej pasuje do informacji z rozdziału?",
+    "prompt": "Ta sama roślina w ciepłym i bardzo słonecznym klimacie osiąga większe rozmiary niż w chłodniejszym miejscu. Który wniosek najlepiej pasuje do informacji?",
     "options": [
       "Intensywność fotosyntezy zależy między innymi od światła i temperatury",
       "Fotosynteza zachodzi bez udziału światła",
@@ -919,7 +919,7 @@ const ALL_EXERCISES = [
     "id": "R01_FOT_10",
     "section": "Fotosynteza",
     "type": "sequence",
-    "prompt": "Ułóż uproszczony przebieg fotosyntezy zgodnie z opisem z rozdziału.",
+    "prompt": "Ułóż uproszczony przebieg fotosyntezy zgodnie z opisem.",
     "options": null,
     "items": [
       "powstają glukoza i tlen",
@@ -1121,7 +1121,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz związek chemiczny z bardziej szczegółową funkcją podaną w rozdziale.",
+    "prompt": "Połącz związek chemiczny z bardziej szczegółową funkcją.",
     "options": null,
     "left": [
       "białka kurczliwe",
@@ -1142,13 +1142,13 @@ const ALL_EXERCISES = [
       "sole mineralne": "regulują przebieg procesów życiowych"
     },
     "image": "r01_sklad_chemiczny.jpg",
-    "explanation": "W rozdziale podano przykłady funkcji związków chemicznych: białka kurczliwe odpowiadają za skurcz mięśni, celuloza buduje ściany komórkowe roślin, DNA zawiera informację, a sole mineralne regulują procesy życiowe."
+    "explanation": "Podano przykłady funkcji związków chemicznych: białka kurczliwe odpowiadają za skurcz mięśni, celuloza buduje ściany komórkowe roślin, DNA zawiera informację, a sole mineralne regulują procesy życiowe."
   },
   {
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz czynniki, od których według rozdziału zależy intensywność fotosyntezy.",
+    "prompt": "Zaznacz czynniki, od których zależy intensywność fotosyntezy.",
     "options": [
       "ilość światła",
       "ilość dwutlenku węgla",
@@ -1170,7 +1170,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy obserwacji mikroskopowej zgodnie z instrukcją z rozdziału.",
+    "prompt": "Ułóż etapy obserwacji mikroskopowej zgodnie z instrukcją.",
     "options": null,
     "items": [
       "wyreguluj ostrość śrubą mikrometryczną",
@@ -1273,7 +1273,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r01_fermentacja_drozdzy.jpg",
-    "explanation": "Rozdział podaje, że drożdże przystosowują się do warunków: przy dostępie tlenu oddychają tlenowo, a gdy tlenu brakuje, przeprowadzają fermentację alkoholową."
+    "explanation": "Drożdże przystosowują się do warunków: przy dostępie tlenu oddychają tlenowo, a gdy tlenu brakuje, przeprowadzają fermentację alkoholową."
   },
   {
     "id": "R01_HARD_08",
@@ -1322,7 +1322,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz organizm lub grupę z typem odżywiania opisanym w rozdziale.",
+    "prompt": "Połącz organizm lub grupę z typem odżywiania.",
     "options": null,
     "left": [
       "rośliny",
@@ -1348,7 +1348,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_12",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Meduza nie ma płuc ani skrzeli, ale według rozdziału może pobierać tlen z otoczenia. Jak to robi?",
+    "prompt": "Meduza nie ma płuc ani skrzeli, ale może pobierać tlen z otoczenia. Jak to robi?",
     "options": [
       "całą powierzchnią ciała",
       "przez chloroplasty",
@@ -1358,7 +1358,7 @@ const ALL_EXERCISES = [
       "przez wodę wapienną"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że organizmy mogą pobierać tlen różnymi narządami, na przykład płucami lub skrzelami, a meduzy pobierają go całą powierzchnią ciała."
+    "explanation": "Organizmy mogą pobierać tlen różnymi narządami, na przykład płucami lub skrzelami, a meduzy pobierają go całą powierzchnią ciała."
   }
 ];
 

@@ -52,7 +52,7 @@ const ALL_EXERCISES = [
     "id": "R04_RYB_03",
     "section": "Ryby",
     "type": "single_choice",
-    "prompt": "W jakich środowiskach występują ryby opisane w rozdziale?",
+    "prompt": "W jakich środowiskach występują ryby?",
     "options": [
       "w wodach słodkich i słonych",
       "wyłącznie w morzach",
@@ -194,7 +194,7 @@ const ALL_EXERCISES = [
     "id": "R04_RYB_11",
     "section": "Ryby",
     "type": "single_choice",
-    "prompt": "Jaki typ rozwoju przechodzą ryby opisane w rozdziale?",
+    "prompt": "Jaki typ rozwoju przechodzą ryby?",
     "options": [
       "rozwój prosty",
       "rozwój złożony z kijanką",
@@ -221,7 +221,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZNA_01",
     "section": "Znaczenie i ochrona",
     "type": "sort",
-    "prompt": "Przyporządkuj ryby do środowiska występowania podanego w rozdziale.",
+    "prompt": "Przyporządkuj ryby do środowiska występowania.",
     "options": null,
     "items": [
       "pstrąg",
@@ -284,7 +284,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r04_roznorodnosc_ryb.jpg",
-    "explanation": "W rozdziale ryby podzielono na roślinożerne, wszystkożerne i mięsożerne zależnie od rodzaju pobieranego pokarmu."
+    "explanation": "Ryby podzielono na roślinożerne, wszystkożerne i mięsożerne zależnie od rodzaju pobieranego pokarmu."
   },
   {
     "id": "R04_ZNA_03",
@@ -467,7 +467,7 @@ const ALL_EXERCISES = [
       "tuńczyk i dorsz"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że łososie, węgorze i trocie spędzają część życia w wodzie słodkiej i część w słonej, a zmiana środowiska jest związana z rozmnażaniem."
+    "explanation": "Łososie, węgorze i trocie spędzają część życia w wodzie słodkiej i część w słonej, a zmiana środowiska jest związana z rozmnażaniem."
   },
   {
     "id": "R04_PLA_01",
@@ -535,7 +535,7 @@ const ALL_EXERCISES = [
     "id": "R04_PLA_04",
     "section": "Płazy",
     "type": "single_choice",
-    "prompt": "Której grupy płazów nie spotyka się w Polsce według rozdziału?",
+    "prompt": "Której grupy płazów nie spotyka się w Polsce?",
     "options": [
       "beznogich",
       "bezogonowych",
@@ -730,7 +730,7 @@ const ALL_EXERCISES = [
     "id": "R04_GAD_03",
     "section": "Gady",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy skóry gadów opisane w rozdziale.",
+    "prompt": "Zaznacz cechy skóry gadów.",
     "options": [
       "jest sucha",
       "jest pokryta łuskami",
@@ -831,7 +831,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r04_gady_podzial.jpg",
-    "explanation": "W rozdziale gady podzielono m.in. na jaszczurki, węże, żółwie i krokodyle."
+    "explanation": "Gady podzielono m.in. na jaszczurki, węże, żółwie i krokodyle."
   },
   {
     "id": "R04_GAD_07",
@@ -999,7 +999,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZPG_03",
     "section": "Płazy i gady: znaczenie",
     "type": "match",
-    "prompt": "Połącz płaza z cechą opisaną w rozdziale.",
+    "prompt": "Połącz płaza z cechą.",
     "options": null,
     "left": [
       "rzekotka drzewna",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie gatunki płazów w Polsce są objęte ochroną ścisłą.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że wszystkie gatunki płazów w Polsce są objęte ochroną ścisłą."
+    "explanation": "Wszystkie gatunki płazów w Polsce są objęte ochroną ścisłą."
   },
   {
     "id": "R04_ZPG_08",
@@ -1355,7 +1355,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIX_05",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz grupy kręgowców z tego rozdziału, które są zmiennocieplne.",
+    "prompt": "Zaznacz grupy kręgowców, które są zmiennocieplne.",
     "options": [
       "ryby",
       "płazy",

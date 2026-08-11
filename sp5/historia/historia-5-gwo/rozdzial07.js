@@ -215,7 +215,7 @@ const ALL_EXERCISES = [
     "id": "R07_ROZ_12",
     "section": "Rozbicie dzielnicowe",
     "type": "scenario",
-    "prompt": "Jesteś księciem mazowieckim. Twoje ziemie są pustoszone przez pogańskich Prusów, więc zapraszasz zakon rycerski i nadajesz mu ziemię chełmińską. Jak nazywasz się w podręczniku?",
+    "prompt": "Jesteś księciem mazowieckim. Twoje ziemie są pustoszone przez pogańskich Prusów, więc zapraszasz zakon rycerski i nadajesz mu ziemię chełmińską. Jak nazywasz się?",
     "options": [
       "Konrad Mazowiecki",
       "Henryk Pobożny",
@@ -239,7 +239,7 @@ const ALL_EXERCISES = [
       "Ziemia lubuska"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podkreśla, że w pierwszej połowie XIII wieku najlepiej rozwiniętą dzielnicą był Śląsk."
+    "explanation": "W pierwszej połowie XIII wieku najlepiej rozwiniętą dzielnicą był Śląsk."
   },
   {
     "id": "R07_SLA_02",
@@ -280,7 +280,7 @@ const ALL_EXERCISES = [
     "id": "R07_SLA_04",
     "section": "Polska w XIII wieku",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki kolonizacji niemieckiej opisane w podręczniku.",
+    "prompt": "Zaznacz skutki kolonizacji niemieckiej.",
     "options": [
       "Wprowadzenie żelaznego pługa",
       "Lokacje wsi i miast na prawie niemieckim",
@@ -490,7 +490,7 @@ const ALL_EXERCISES = [
     "id": "R07_JED_04",
     "section": "Dążenie do jedności",
     "type": "multi_select",
-    "prompt": "Zaznacz przewagi wojsk mongolskich nad europejskim rycerstwem opisane w podręczniku.",
+    "prompt": "Zaznacz przewagi wojsk mongolskich nad europejskim rycerstwem.",
     "options": [
       "Doskonały wywiad",
       "Ruchliwe konne oddziały",
@@ -912,7 +912,7 @@ const ALL_EXERCISES = [
     "prompt": "Na początku rządów Kazimierza Wielkiego Małopolska i Wielkopolska miały identyczne prawa, obyczaje i monetę.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podkreśla, że Małopolska i Wielkopolska różniły się prawem, obyczajami i monetą."
+    "explanation": "Małopolska i Wielkopolska różniły się prawem, obyczajami i monetą."
   },
   {
     "id": "R07_KAZ_04",
@@ -1122,7 +1122,7 @@ const ALL_EXERCISES = [
     "id": "R07_HARD_02",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Analizujesz decyzję Konrada Mazowieckiego. W krótkiej perspektywie chciał ochronić Mazowsze przed Prusami, ale w dłuższej powstało potężne państwo zakonne. Jaki wniosek najlepiej pasuje do podręcznika?",
+    "prompt": "Analizujesz decyzję Konrada Mazowieckiego. W krótkiej perspektywie chciał ochronić Mazowsze przed Prusami, ale w dłuższej powstało potężne państwo zakonne. Jaki wniosek jest najtrafniejszy?",
     "options": [
       "Decyzja rozwiązała jeden problem, lecz stworzyła groźniejszego sąsiada",
       "Decyzja natychmiast zjednoczyła Polskę",
@@ -1207,13 +1207,13 @@ const ALL_EXERCISES = [
         "przyłączenie Rusi Halickiej"
       ]
     },
-    "explanation": "Te wydarzenia pokazują trzy główne wątki rozdziału: jednoczenie, spór z zakonem i reformy Kazimierza."
+    "explanation": "Te wydarzenia pokazują trzy główne wątki: jednoczenie, spór z zakonem i reformy Kazimierza."
   },
   {
     "id": "R07_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż główne etapy dziejów Polski z rozdziału w porządku chronologicznym.",
+    "prompt": "Ułóż główne etapy dziejów Polski w porządku chronologicznym.",
     "options": null,
     "items": [
       "Reformy Kazimierza Wielkiego",
@@ -1229,7 +1229,7 @@ const ALL_EXERCISES = [
       "Koronacja Łokietka",
       "Reformy Kazimierza Wielkiego"
     ],
-    "explanation": "Rozdział prowadzi od rozbicia po 1138 roku przez XIII-wieczne kryzysy do odrodzenia królestwa i reform Kazimierza."
+    "explanation": "Kolejność prowadzi od rozbicia po 1138 roku przez XIII-wieczne kryzysy do odrodzenia królestwa i reform Kazimierza."
   },
   {
     "id": "R07_HARD_07",
@@ -1290,7 +1290,7 @@ const ALL_EXERCISES = [
     "id": "R07_HARD_11",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Uczeń twierdzi: „Kazimierz Wielki był ważny tylko dlatego, że powiększył państwo”. Która odpowiedź najlepiej uzupełnia obraz z podręcznika?",
+    "prompt": "Uczeń twierdzi: „Kazimierz Wielki był ważny tylko dlatego, że powiększył państwo”. Która odpowiedź najlepiej uzupełnia obraz?",
     "options": [
       "Powiększył państwo, ale także je ujednolicił, umocnił obronnie, zreformował prawo i założył uniwersytet",
       "Nie powiększył państwa i nie prowadził reform",
@@ -1298,7 +1298,7 @@ const ALL_EXERCISES = [
       "Zasłynął głównie ze sprowadzenia Krzyżaków do Polski"
     ],
     "answer": 0,
-    "explanation": "Podręcznik pokazuje Kazimierza jako władcę, który jednocześnie prowadził politykę zagraniczną, reformy wewnętrzne i rozwój kultury."
+    "explanation": "Pokazuje się Kazimierza jako władcę, który jednocześnie prowadził politykę zagraniczną, reformy wewnętrzne i rozwój kultury."
   },
   {
     "id": "R07_HARD_12",

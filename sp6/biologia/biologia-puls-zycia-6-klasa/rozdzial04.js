@@ -216,7 +216,7 @@ const ALL_EXERCISES = [
     "prompt": "Ryby mogą żyć samotnie albo tworzyć duże stada zwane ławicami.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że ryby żyją samotnie lub skupiają się w duże stada, które nazywamy ławicami."
+    "explanation": "Ryby żyją samotnie lub skupiają się w duże stada, które nazywamy ławicami."
   },
   {
     "id": "R04_ZRY_04",
@@ -267,7 +267,7 @@ const ALL_EXERCISES = [
       "makrela": "żyje w ławicach",
       "rekin wielorybi": "łagodny planktonożerca"
     },
-    "explanation": "Przykłady z rozdziału pokazują różne sposoby polowania, obrony i życia ryb."
+    "explanation": "Przykłady pokazują różne sposoby polowania, obrony i życia ryb."
   },
   {
     "id": "R04_ZRY_06",
@@ -283,7 +283,7 @@ const ALL_EXERCISES = [
       "oba rodzaje tylko z karpi"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że kawior czerwony pozyskuje się z łososi, a czarny z jesiotrów."
+    "explanation": "Kawior czerwony pozyskuje się z łososi, a czarny z jesiotrów."
   },
   {
     "id": "R04_ZRY_07",
@@ -487,7 +487,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZPL_01",
     "section": "Płazy - różnorodność i ochrona",
     "type": "single_choice",
-    "prompt": "Jakie trzy główne grupy płazów wyróżniono w rozdziale?",
+    "prompt": "Jakie trzy główne grupy płazów wyróżniono?",
     "options": [
       "ogoniaste, bezogonowe i beznogie",
       "jajorodne, żyworodne i łuskonośne",
@@ -542,7 +542,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie płazy żyjące w Polsce podlegają ochronie gatunkowej.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że ochronie gatunkowej podlegają wszystkie płazy w Polsce."
+    "explanation": "Ochronie gatunkowej podlegają wszystkie płazy w Polsce."
   },
   {
     "id": "R04_ZPL_04",
@@ -569,7 +569,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZPL_05",
     "section": "Płazy - różnorodność i ochrona",
     "type": "match",
-    "prompt": "Połącz płaza z cechą opisaną w rozdziale.",
+    "prompt": "Połącz płaza z cechą.",
     "options": null,
     "image": "r04_plazy_w_polsce.jpg",
     "left": [
@@ -647,7 +647,7 @@ const ALL_EXERCISES = [
       "ropucha aga",
       "aga"
     ],
-    "explanation": "W rozdziale opisano przykład ropuchy olbrzymiej, która zamiast zwalczyć szkodniki zaczęła się gwałtownie rozprzestrzeniać."
+    "explanation": "Opisano przykład ropuchy olbrzymiej, która zamiast zwalczyć szkodniki zaczęła się gwałtownie rozprzestrzeniać."
   },
   {
     "id": "R04_ZPL_09",
@@ -672,7 +672,7 @@ const ALL_EXERCISES = [
       "bezkręgowce"
     ],
     "answer": 2,
-    "explanation": "W rozdziale podano, że gady są pierwszą grupą kręgowców w pełni przystosowaną do życia na lądzie."
+    "explanation": "Gady są pierwszą grupą kręgowców w pełni przystosowaną do życia na lądzie."
   },
   {
     "id": "R04_GAD_02",
@@ -703,7 +703,7 @@ const ALL_EXERCISES = [
     "prompt": "Gady, podobnie jak płazy, spotykamy na wszystkich kontynentach z wyjątkiem Antarktydy.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wskazuje, że gady występują na wszystkich kontynentach poza Antarktydą."
+    "explanation": "Gady występują na wszystkich kontynentach poza Antarktydą."
   },
   {
     "id": "R04_GAD_04",
@@ -771,7 +771,7 @@ const ALL_EXERCISES = [
     "id": "R04_GAD_07",
     "section": "Gady - życie na lądzie",
     "type": "scenario",
-    "prompt": "W klimacie umiarkowanym temperatura otoczenia spada bardzo nisko. Gady przestają być aktywne i przeczekują ten okres. Jak nazywa się taki stan opisany w rozdziale?",
+    "prompt": "W klimacie umiarkowanym temperatura otoczenia spada bardzo nisko. Gady przestają być aktywne i przeczekują ten okres. Jak nazywa się taki stan?",
     "options": [
       "odrętwienie",
       "tarło",
@@ -790,7 +790,7 @@ const ALL_EXERCISES = [
     "prompt": "U wszystkich gatunków gadów występuje zapłodnienie wewnętrzne.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że u wszystkich gadów zapłodnienie odbywa się wewnątrz organizmu samicy."
+    "explanation": "U wszystkich gadów zapłodnienie odbywa się wewnątrz organizmu samicy."
   },
   {
     "id": "R04_GAD_09",
@@ -816,7 +816,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZGA_01",
     "section": "Gady - różnorodność i znaczenie",
     "type": "single_choice",
-    "prompt": "Który zestaw zawiera cztery podstawowe grupy gadów wymienione w rozdziale?",
+    "prompt": "Który zestaw zawiera cztery podstawowe grupy gadów?",
     "options": [
       "jaszczurki, węże, żółwie i krokodyle",
       "żaby, ropuchy, kumaki i rzekotki",
@@ -934,7 +934,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZGA_06",
     "section": "Gady - różnorodność i znaczenie",
     "type": "scenario",
-    "prompt": "Ktoś chce zabić beznogą jaszczurkę, bo myli ją z wężem. O którym gadzie z rozdziału mowa?",
+    "prompt": "Ktoś chce zabić beznogą jaszczurkę, bo myli ją z wężem. O którym gadzie mowa?",
     "options": [
       "padalec zwyczajny",
       "zaskroniec zwyczajny",
@@ -1022,7 +1022,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_02",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj grupy zwierząt do typu zapłodnienia opisanego w rozdziale.",
+    "prompt": "Przyporządkuj grupy zwierząt do typu zapłodnienia.",
     "options": null,
     "items": [
       "większość ryb",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która para zakresów temperatur jest zgodna z przykładami z rozdziału?",
+    "prompt": "Która para zakresów temperatur jest zgodna z przykładami?",
     "options": [
       "ustniczek 22-26°C, dorsz 2-7°C",
       "ustniczek 2-7°C, dorsz 22-26°C",
@@ -1214,7 +1214,7 @@ const ALL_EXERCISES = [
     "prompt": "Ryby, płazy i gady są kręgowcami zmiennocieplnymi.",
     "options": null,
     "answer": true,
-    "explanation": "Wszystkie trzy grupy należą do kręgowców zmiennocieplnych omawianych w rozdziale."
+    "explanation": "Wszystkie trzy grupy należą do kręgowców zmiennocieplnych."
   },
   {
     "id": "R04_HARD_13",
@@ -1236,7 +1236,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_14",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który zestaw zawiera wyłącznie sposoby ochrony ryb opisane w rozdziale?",
+    "prompt": "Który zestaw zawiera wyłącznie sposoby ochrony ryb?",
     "options": [
       "ochrona gatunkowa, okresy ochronne, limity połowów i ochrona miejsc tarła",
       "osuszanie jezior, łowienie w okresie tarła i niszczenie miejsc zimowania",

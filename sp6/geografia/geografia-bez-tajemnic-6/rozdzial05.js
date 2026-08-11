@@ -22,7 +22,7 @@ const ALL_EXERCISES = [
       "budownictwo mieszkaniowe"
     ],
     "answer": 1,
-    "explanation": "W rozdziale podano, że w Niemczech najważniejszym działem gospodarki są obecnie usługi, choć rozwój przemysłu silnie przyczynił się do wysokiego poziomu rozwoju kraju."
+    "explanation": "W Niemczech najważniejszym działem gospodarki są obecnie usługi, choć rozwój przemysłu silnie przyczynił się do wysokiego poziomu rozwoju kraju."
   },
   {
     "id": "R05_NIEM_02",
@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "prompt": "Rozwój przemysłu w Niemczech w poprzednim stuleciu przyczynił się do osiągnięcia przez ten kraj wysokiego poziomu rozwoju gospodarczego.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że to właśnie rozwój przemysłu w największym stopniu przyczynił się do wysokiego poziomu rozwoju gospodarczego Niemiec w poprzednim stuleciu."
+    "explanation": "To właśnie rozwój przemysłu w największym stopniu przyczynił się do wysokiego poziomu rozwoju gospodarczego Niemiec w poprzednim stuleciu."
   },
   {
     "id": "R05_NIEM_03",
@@ -77,7 +77,7 @@ const ALL_EXERCISES = [
     "id": "R05_NIEM_05",
     "section": "Przemiany przemysłu Niemiec",
     "type": "riddle",
-    "prompt": "Najbardziej uprzemysłowiony region Niemiec omawiany w rozdziale to...",
+    "prompt": "Najbardziej uprzemysłowiony region Niemiec to...",
     "options": null,
     "answer": "Nadrenia Północna-Westfalia",
     "altAnswers": [
@@ -101,7 +101,7 @@ const ALL_EXERCISES = [
     "id": "R05_NIEM_07",
     "section": "Przemiany przemysłu Niemiec",
     "type": "scenario",
-    "prompt": "Wyobraź sobie Nadrenię Północną-Westfalię w pierwszej połowie XIX wieku. Rzeki Ren i Ruhra są tak zanieczyszczone, że nie żyją w nich ryby. Z czym podręcznik wiąże taki stan środowiska?",
+    "prompt": "Wyobraź sobie Nadrenię Północną-Westfalię w pierwszej połowie XIX wieku. Rzeki Ren i Ruhra są tak zanieczyszczone, że nie żyją w nich ryby. Z czym wiąże się taki stan środowiska?",
     "options": [
       "z rozwojem przemysłu odbywającym się kosztem środowiska",
       "z rozwojem turystyki zimowej",
@@ -196,7 +196,7 @@ const ALL_EXERCISES = [
     "id": "R05_LITB_01",
     "section": "Walory przyrodnicze i kulturowe Litwy i Białorusi",
     "type": "single_choice",
-    "prompt": "Która kraina jest jedynym nieco bardziej wzniesionym obszarem w Litwie i Białorusi według rozdziału?",
+    "prompt": "Która kraina jest jedynym nieco bardziej wzniesionym obszarem w Litwie i Białorusi?",
     "options": [
       "Wyżyna Białoruska",
       "Sudety",
@@ -215,14 +215,14 @@ const ALL_EXERCISES = [
     "prompt": "W ukształtowaniu terenu Litwy i Białorusi przeważają wysokie góry.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podaje, że w ukształtowaniu terenu obu państw przeważają niziny, a nie wysokie góry.",
+    "explanation": "W ukształtowaniu terenu obu państw przeważają niziny, a nie wysokie góry.",
     "image": "r05_litwa_bialorus_mapa.jpg"
   },
   {
     "id": "R05_LITB_03",
     "section": "Walory przyrodnicze i kulturowe Litwy i Białorusi",
     "type": "multi_select",
-    "prompt": "Zaznacz walory przyrodnicze Litwy i Białorusi wymienione w rozdziale.",
+    "prompt": "Zaznacz walory przyrodnicze Litwy i Białorusi.",
     "options": [
       "Pojezierze Litewskie",
       "Niemen",
@@ -260,7 +260,7 @@ const ALL_EXERCISES = [
         "Bialorusi"
       ]
     ],
-    "explanation": "Rozdział podaje, że Niemen jest najdłuższą rzeką Litwy, a jego źródła znajdują się w Białorusi."
+    "explanation": "Niemen jest najdłuższą rzeką Litwy, a jego źródła znajdują się w Białorusi."
   },
   {
     "id": "R05_LITB_05",
@@ -304,7 +304,7 @@ const ALL_EXERCISES = [
     "id": "R05_LITB_08",
     "section": "Walory przyrodnicze i kulturowe Litwy i Białorusi",
     "type": "match",
-    "prompt": "Połącz miejsce z opisem podanym w rozdziale.",
+    "prompt": "Połącz miejsce z opisem.",
     "options": null,
     "left": [
       "Wilno",
@@ -324,13 +324,13 @@ const ALL_EXERCISES = [
       "Mińsk": "nowoczesny gmach Biblioteki Narodowej",
       "Nowogródek": "dzieciństwo Adama Mickiewicza"
     },
-    "explanation": "Rozdział wskazuje Wilno jako dawny ośrodek polskiej kultury, Troki jako dawną stolicę z zamkiem na wyspie, Mińsk jako miasto z Biblioteką Narodową, a Nowogródek jako miejsce dzieciństwa Mickiewicza."
+    "explanation": "Wskazuje się Wilno jako dawny ośrodek polskiej kultury, Troki jako dawną stolicę z zamkiem na wyspie, Mińsk jako miasto z Biblioteką Narodową, a Nowogródek jako miejsce dzieciństwa Mickiewicza."
   },
   {
     "id": "R05_LITB_09",
     "section": "Walory przyrodnicze i kulturowe Litwy i Białorusi",
     "type": "sort",
-    "prompt": "Przyporządkuj walory do państwa, z którym są szczególnie powiązane w podsumowaniu rozdziału.",
+    "prompt": "Przyporządkuj walory do państwa, z którym są szczególnie powiązane.",
     "options": null,
     "items": [
       "Mierzeja Kurońska",
@@ -376,13 +376,13 @@ const ALL_EXERCISES = [
       "dworek rodziny Adama Mickiewicza w Nowogródku odbudowano w XIX wieku",
       "Wilno znalazło się w ZSRS po II wojnie światowej"
     ],
-    "explanation": "Kolejność opiera się na datach z rozdziału: Troki były stolicą Litwy do XIV wieku, kaplicę Ostrej Bramy dobudowano w XVII wieku, dworek Mickiewicza odbudowano w XIX wieku, a po II wojnie światowej Wilno znalazło się w ZSRS."
+    "explanation": "Kolejność opiera się na datach: Troki były stolicą Litwy do XIV wieku, kaplicę Ostrej Bramy dobudowano w XVII wieku, dworek Mickiewicza odbudowano w XIX wieku, a po II wojnie światowej Wilno znalazło się w ZSRS."
   },
   {
     "id": "R05_CZSL_01",
     "section": "Atrakcje turystyczne Czech i Słowacji",
     "type": "single_choice",
-    "prompt": "Który szczyt jest najwyższym szczytem Tatr i Słowacji według rozdziału?",
+    "prompt": "Który szczyt jest najwyższym szczytem Tatr i Słowacji?",
     "options": [
       "Gerlach",
       "Śnieżka",
@@ -401,13 +401,13 @@ const ALL_EXERCISES = [
     "prompt": "Karkonosze są najwyższym pasmem górskim w Czechach.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale napisano, że Karkonosze, wchodzące w skład Sudetów, są najwyższym pasmem górskim w Czechach."
+    "explanation": "Karkonosze, wchodzące w skład Sudetów, są najwyższym pasmem górskim w Czechach."
   },
   {
     "id": "R05_CZSL_03",
     "section": "Atrakcje turystyczne Czech i Słowacji",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy Słowackiego Raju opisane w rozdziale.",
+    "prompt": "Zaznacz cechy Słowackiego Raju.",
     "options": [
       "jest płaskowyżem zbudowanym ze skał wapiennych",
       "występują tam jaskinie i wodospady",
@@ -443,7 +443,7 @@ const ALL_EXERCISES = [
         "karkonoszy"
       ]
     ],
-    "explanation": "Podręcznik podaje, że Śnieżka ma 1603 m n.p.m. i jest najwyższym szczytem Karkonoszy oraz Czech."
+    "explanation": "Śnieżka ma 1603 m n.p.m. i jest najwyższym szczytem Karkonoszy oraz Czech."
   },
   {
     "id": "R05_CZSL_05",
@@ -488,7 +488,7 @@ const ALL_EXERCISES = [
     "id": "R05_CZSL_08",
     "section": "Atrakcje turystyczne Czech i Słowacji",
     "type": "match",
-    "prompt": "Połącz obiekt lub region z opisem zgodnym z rozdziałem.",
+    "prompt": "Połącz obiekt lub region z właściwym opisem.",
     "options": null,
     "left": [
       "Tatry",
@@ -560,7 +560,7 @@ const ALL_EXERCISES = [
       "Karkonosze",
       "Śnieżka"
     ],
-    "explanation": "Rozdział opisuje Czechy, przez które przebiegają Sudety; Karkonosze są ich najwyższym pasmem, a Śnieżka jest najwyższym szczytem Karkonoszy i Czech."
+    "explanation": "Opisuje się Czechy, przez które przebiegają Sudety; Karkonosze są ich najwyższym pasmem, a Śnieżka jest najwyższym szczytem Karkonoszy i Czech."
   },
   {
     "id": "R05_UKR_01",
@@ -576,7 +576,7 @@ const ALL_EXERCISES = [
       "2022"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że Ukraina do 1991 roku wchodziła w skład ZSRS, a od 1991 roku jest państwem suwerennym."
+    "explanation": "Ukraina do 1991 roku wchodziła w skład ZSRS, a od 1991 roku jest państwem suwerennym."
   },
   {
     "id": "R05_UKR_02",
@@ -585,7 +585,7 @@ const ALL_EXERCISES = [
     "prompt": "W 2016 roku Ukraina została włączona do strefy wolnego handlu z Unią Europejską.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wskazuje, że Ukraina w 2014 roku uzyskała status kraju stowarzyszonego z UE, a w 2016 roku została włączona do strefy wolnego handlu z UE."
+    "explanation": "Ukraina w 2014 roku uzyskała status kraju stowarzyszonego z UE, a w 2016 roku została włączona do strefy wolnego handlu z UE."
   },
   {
     "id": "R05_UKR_03",
@@ -693,7 +693,7 @@ const ALL_EXERCISES = [
       "2014": "aneksja Krymu i początek konfliktu zbrojnego",
       "2022": "zbrojna napaść Rosji na Ukrainę"
     },
-    "explanation": "Oś czasu rozdziału prowadzi od 1991 roku, przez protesty 2004 i wydarzenia 2014 roku, po rosyjską inwazję w 2022 roku.",
+    "explanation": "Oś czasu prowadzi od 1991 roku, przez protesty 2004 i wydarzenia 2014 roku, po rosyjską inwazję w 2022 roku.",
     "image": "r05_ukraina_mapa_wojna.jpg"
   },
   {
@@ -722,7 +722,7 @@ const ALL_EXERCISES = [
         "zniszczenie infrastruktury energetycznej"
       ]
     },
-    "explanation": "Rozdział rozdziela skutki wojny na społeczne, takie jak migracja i problemy demograficzne, oraz gospodarcze, np. spadek zasiewów i zniszczenie infrastruktury."
+    "explanation": "Rozdziela się skutki wojny na społeczne, takie jak migracja i problemy demograficzne, oraz gospodarcze, np. spadek zasiewów i zniszczenie infrastruktury."
   },
   {
     "id": "R05_UKR_10",
@@ -748,7 +748,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_01",
     "section": "Zróżnicowanie środowiska przyrodniczego Rosji",
     "type": "single_choice",
-    "prompt": "Ile razy Rosja jest większa od Polski według rozdziału?",
+    "prompt": "Ile razy Rosja jest większa od Polski?",
     "options": [
       "5 razy",
       "14 razy",
@@ -758,7 +758,7 @@ const ALL_EXERCISES = [
       "100 razy"
     ],
     "answer": 3,
-    "explanation": "W rozdziale podano, że powierzchnia Rosji wynosi 17 mln km², czyli jest 54 razy większa od powierzchni Polski."
+    "explanation": "Powierzchnia Rosji wynosi 17 mln km², czyli jest 54 razy większa od powierzchni Polski."
   },
   {
     "id": "R05_ROS_02",
@@ -767,13 +767,13 @@ const ALL_EXERCISES = [
     "prompt": "Europejska część Rosji skupia około 75 % ludności kraju.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik podaje, że w europejskiej części Rosji mieszka 75 % ludności kraju."
+    "explanation": "W europejskiej części Rosji mieszka 75 % ludności kraju."
   },
   {
     "id": "R05_ROS_03",
     "section": "Zróżnicowanie środowiska przyrodniczego Rosji",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy środowiska przyrodniczego Rosji wymienione w podsumowaniu rozdziału.",
+    "prompt": "Zaznacz elementy środowiska przyrodniczego Rosji.",
     "options": [
       "wieloletnia zmarzlina na Syberii",
       "aktywne wulkany na Kamczatce",
@@ -842,7 +842,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_07",
     "section": "Zróżnicowanie środowiska przyrodniczego Rosji",
     "type": "scenario",
-    "prompt": "W miejscowości nad Morzem Czarnym zimy są łagodne, lata gorące, rosną palmy i uprawia się winogrona. Który region Rosji opisuje podręcznik?",
+    "prompt": "W miejscowości nad Morzem Czarnym zimy są łagodne, lata gorące, rosną palmy i uprawia się winogrona. Który region Rosji opisuje się?",
     "options": [
       "Kraj Krasnodarski",
       "Kamczatkę",
@@ -877,7 +877,7 @@ const ALL_EXERCISES = [
       "Soczi": "palmy i winogrona nad Morzem Czarnym",
       "Bajkał": "najgłębsze jezioro świata"
     },
-    "explanation": "Rozdział zestawia bardzo odmienne obszary Rosji: zimną Syberię, wulkaniczną Kamczatkę, cieplejsze wybrzeże Morza Czarnego i jezioro Bajkał."
+    "explanation": "Zestawia się bardzo odmienne obszary Rosji: zimną Syberię, wulkaniczną Kamczatkę, cieplejsze wybrzeże Morza Czarnego i jezioro Bajkał."
   },
   {
     "id": "R05_ROS_09",
@@ -914,7 +914,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_10",
     "section": "Zróżnicowanie środowiska przyrodniczego Rosji",
     "type": "sequence",
-    "prompt": "Ułóż obszary Rosji od zachodu ku wschodowi zgodnie z opisem rozdziału.",
+    "prompt": "Ułóż obszary Rosji od zachodu ku wschodowi.",
     "options": null,
     "items": [
       "wybrzeża Oceanu Spokojnego",
@@ -934,7 +934,7 @@ const ALL_EXERCISES = [
     "id": "R05_REL_01",
     "section": "Relacje Polski z sąsiadami",
     "type": "single_choice",
-    "prompt": "Który kraj jest największym odbiorcą polskiego eksportu według wykresu z rozdziału?",
+    "prompt": "Który kraj jest największym odbiorcą polskiego eksportu według wykresu?",
     "options": [
       "Niemcy",
       "Ukraina",
@@ -953,13 +953,13 @@ const ALL_EXERCISES = [
     "prompt": "Wspólne członkostwo w Unii Europejskiej ułatwia relacje Polski z Niemcami, Czechami, Słowacją i Litwą.",
     "options": null,
     "answer": true,
-    "explanation": "Podsumowanie rozdziału wskazuje, że wspólne członkostwo w UE ułatwia i wzmacnia relacje Polski z Niemcami, Czechami, Słowacją i Litwą."
+    "explanation": "Wspólne członkostwo w UE ułatwia i wzmacnia relacje Polski z Niemcami, Czechami, Słowacją i Litwą."
   },
   {
     "id": "R05_REL_03",
     "section": "Relacje Polski z sąsiadami",
     "type": "multi_select",
-    "prompt": "Zaznacz kraje sąsiadujące z Polską, które według rozdziału nie należą do Unii Europejskiej.",
+    "prompt": "Zaznacz kraje sąsiadujące z Polską, które nie należą do Unii Europejskiej.",
     "options": [
       "Ukraina",
       "Białoruś",
@@ -995,13 +995,13 @@ const ALL_EXERCISES = [
         "1991 r."
       ]
     ],
-    "explanation": "W rozdziale podano, że Polska jako pierwsze państwo na świecie uznała niepodległość Ukrainy w 1991 roku."
+    "explanation": "Polska jako pierwsze państwo na świecie uznała niepodległość Ukrainy w 1991 roku."
   },
   {
     "id": "R05_REL_05",
     "section": "Relacje Polski z sąsiadami",
     "type": "riddle",
-    "prompt": "Rodzaj wojny polegający m.in. na wykorzystywaniu migrantów do atakowania granicy nazwano w rozdziale wojną...",
+    "prompt": "Rodzaj wojny polegający m.in. na wykorzystywaniu migrantów do atakowania granicy nazwano wojną...",
     "options": null,
     "answer": "hybrydową",
     "altAnswers": [
@@ -1010,7 +1010,7 @@ const ALL_EXERCISES = [
       "wojną hybrydową",
       "wojna hybrydowa"
     ],
-    "explanation": "Wykorzystywanie migrantów do atakowania granicy zostało w rozdziale nazwane wojną hybrydową."
+    "explanation": "Wykorzystywanie migrantów do atakowania granicy zostało nazwane wojną hybrydową."
   },
   {
     "id": "R05_REL_06",
@@ -1041,7 +1041,7 @@ const ALL_EXERCISES = [
     "id": "R05_REL_08",
     "section": "Relacje Polski z sąsiadami",
     "type": "match",
-    "prompt": "Połącz państwo z aktualnym opisem relacji Polski w podsumowaniu rozdziału.",
+    "prompt": "Połącz państwo z aktualnym opisem relacji Polski.",
     "options": null,
     "left": [
       "Niemcy",
@@ -1095,7 +1095,7 @@ const ALL_EXERCISES = [
         "spór o polskie nazwy miejscowości"
       ]
     },
-    "explanation": "W rozdziale wymiana handlowa dotyczy zwłaszcza relacji z Niemcami, pomoc humanitarna Ukrainy, wojna informacyjna Rosji i Białorusi, a kwestia nazw miejscowości relacji z Litwą."
+    "explanation": "Wymiana handlowa dotyczy zwłaszcza relacji z Niemcami, pomoc humanitarna Ukrainy, wojna informacyjna Rosji i Białorusi, a kwestia nazw miejscowości relacji z Litwą."
   },
   {
     "id": "R05_REL_10",
@@ -1115,7 +1115,7 @@ const ALL_EXERCISES = [
       "Lublin i Wilno połączono wirtualnym portalem",
       "Rosja napadła na Ukrainę"
     ],
-    "explanation": "Rozdział zaczyna od wielowiekowego tła relacji, następnie podaje, że Polska uznała niepodległość Ukrainy w 1991 roku, opisuje portal Lublin-Wilno z 2021 roku i rosyjską napaść z 2022 roku."
+    "explanation": "Kolejność zaczyna się od wielowiekowego tła relacji: Polska uznała niepodległość Ukrainy w 1991 roku, portal Lublin-Wilno powstał w 2021 roku, a rosyjska napaść nastąpiła w 2022 roku."
   },
   {
     "id": "R05_HARD_01",
@@ -1197,7 +1197,7 @@ const ALL_EXERCISES = [
     "prompt": "Porozumienia mińskie z 2014 i 2015 roku były przestrzegane i zakończyły konflikt zbrojny Ukrainy z Rosją.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podaje, że porozumienia mińskie miały doprowadzić do zakończenia walk, ale nie były przestrzegane i konflikt trwał nadal."
+    "explanation": "Porozumienia mińskie miały doprowadzić do zakończenia walk, ale nie były przestrzegane i konflikt trwał nadal."
   },
   {
     "id": "R05_HARD_06",
@@ -1219,7 +1219,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_07",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz pojęcie lub zjawisko z wyjaśnieniem zgodnym z rozdziałem.",
+    "prompt": "Połącz pojęcie lub zjawisko z właściwym wyjaśnieniem.",
     "options": null,
     "left": [
       "eksklawa",
@@ -1239,16 +1239,16 @@ const ALL_EXERCISES = [
       "wojna informacyjna": "celowe rozpowszechnianie fałszywych informacji",
       "wojna hybrydowa": "wykorzystywanie migrantów do atakowania granicy"
     },
-    "explanation": "Rozdział definiuje eksklawę i aneksję oraz opisuje wojnę informacyjną i hybrydową jako elementy współczesnych konfliktów."
+    "explanation": "Definiuje się eksklawę i aneksję oraz opisuje wojnę informacyjną i hybrydową jako elementy współczesnych konfliktów."
   },
   {
     "id": "R05_HARD_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż postać niepasującą do osób związanych z Wilnem według rozdziału: Adam Mickiewicz, Juliusz Słowacki, Czesław Miłosz, Wiktor Janukowycz.",
+    "prompt": "Wskaż postać niepasującą do osób związanych z Wilnem: Adam Mickiewicz, Juliusz Słowacki, Czesław Miłosz, Wiktor Janukowycz.",
     "options": null,
     "answer": "Wiktor Janukowycz",
-    "explanation": "Adam Mickiewicz, Juliusz Słowacki i Czesław Miłosz zostali wymienieni wśród osób związanych z Wilnem, natomiast Wiktor Janukowycz pojawia się w rozdziale o Ukrainie."
+    "explanation": "Adam Mickiewicz, Juliusz Słowacki i Czesław Miłosz zostali wymienieni wśród osób związanych z Wilnem, natomiast Wiktor Janukowycz pojawia się o Ukrainie."
   },
   {
     "id": "R05_HARD_09",
@@ -1286,7 +1286,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_10",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia z różnych lekcji rozdziału w kolejności chronologicznej.",
+    "prompt": "Ułóż wydarzenia w kolejności chronologicznej.",
     "options": null,
     "items": [
       "Rosja dokonała inwazji na Ukrainę",
@@ -1322,7 +1322,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o relacjach Polski z Litwą, które wynikają z rozdziału.",
+    "prompt": "Zaznacz informacje o relacjach Polski z Litwą, które wynikają.",
     "options": [
       "relacje należą do przyjaznych",
       "ich jakość ulega poprawie",

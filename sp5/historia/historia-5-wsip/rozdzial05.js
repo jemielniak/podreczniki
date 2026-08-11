@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "prompt": "Wasal miał obowiązek dochować wierności seniorowi, walczyć pod jego dowództwem i służyć mu radą.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wymienia właśnie wierność, służbę wojskową i służenie radą jako podstawowe obowiązki wasala."
+    "explanation": "Wymienia się właśnie wierność, służbę wojskową i służenie radą jako podstawowe obowiązki wasala."
   },
   {
     "id": "R05_RYC_03",
@@ -209,7 +209,7 @@ const ALL_EXERCISES = [
     "prompt": "Większość średniowiecznych chłopów była niezależnymi ludźmi i posiadała na własność uprawianą ziemię.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podkreśla, że większość chłopów była poddanymi właścicieli majątków ziemskich i nie posiadała ziemi na własność."
+    "explanation": "Większość chłopów była poddanymi właścicieli majątków ziemskich i nie posiadała ziemi na własność."
   },
   {
     "id": "R05_WIE_03",
@@ -260,7 +260,7 @@ const ALL_EXERCISES = [
     "id": "R05_WIE_05",
     "section": "Średniowieczna wieś i stany",
     "type": "match",
-    "prompt": "Połącz członków chłopskiej rodziny z typowymi zajęciami opisanymi w podręczniku.",
+    "prompt": "Połącz członków chłopskiej rodziny z typowymi zajęciami.",
     "options": null,
     "left": [
       "mężczyźni",
@@ -281,7 +281,7 @@ const ALL_EXERCISES = [
       "cała rodzina": "udział w pracach gospodarskich"
     },
     "image": "/img/r05_gospodarstwo_chlopskie.jpg",
-    "explanation": "Prace gospodarskie angażowały całą rodzinę, ale podręcznik wskazuje różne typowe zadania mężczyzn, kobiet i starszych dzieci."
+    "explanation": "Prace gospodarskie angażowały całą rodzinę, ale wskazuje się różne typowe zadania mężczyzn, kobiet i starszych dzieci."
   },
   {
     "id": "R05_WIE_06",
@@ -387,7 +387,7 @@ const ALL_EXERCISES = [
       "dopiero po upadku Akki"
     ],
     "answer": 0,
-    "explanation": "Podręcznik wskazuje, że miasta na zachodzie Europy zaczęły odradzać się dopiero w XI wieku."
+    "explanation": "Miasta na zachodzie Europy zaczęły odradzać się dopiero w XI wieku."
   },
   {
     "id": "R05_MIA_02",
@@ -445,7 +445,7 @@ const ALL_EXERCISES = [
     "prompt": "Mieszczanie, w przeciwieństwie do chłopów, byli ludźmi wolnymi.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik wyraźnie przeciwstawia wolnych mieszczan poddanym chłopom."
+    "explanation": "Przeciwstawia się wolnych mieszczan poddanym chłopom."
   },
   {
     "id": "R05_MIA_05",
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
     "id": "R05_KOS_04",
     "section": "Kościół, zakony i kultura",
     "type": "match",
-    "prompt": "Połącz zakon lub grupę zakonną z charakterystyczną informacją z rozdziału.",
+    "prompt": "Połącz zakon lub grupę zakonną z charakterystyczną informacją.",
     "options": null,
     "left": [
       "benedyktyni",
@@ -909,7 +909,7 @@ const ALL_EXERCISES = [
     "prompt": "Konkordat w Wormacji całkowicie zakończył rywalizację między papiestwem a cesarstwem w kolejnych wiekach.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik podkreśla, że konkordat nie zakończył całej rywalizacji; spory trwały także później."
+    "explanation": "Konkordat nie zakończył całej rywalizacji; spory trwały także później."
   },
   {
     "id": "R05_WYP_01",
@@ -934,13 +934,13 @@ const ALL_EXERCISES = [
     "prompt": "Arabscy zdobywcy Palestyny zwykle prześladowali chrześcijan i utrudniali im dostęp do Ziemi Świętej.",
     "options": null,
     "answer": false,
-    "explanation": "Podręcznik stwierdza, że Arabowie zwykle nie prześladowali chrześcijan i nie utrudniali im dostępu do Palestyny."
+    "explanation": "Arabowie zwykle nie prześladowali chrześcijan i nie utrudniali im dostępu do Palestyny."
   },
   {
     "id": "R05_WYP_03",
     "section": "Wyprawy krzyżowe",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny i motywy udziału w pierwszych wyprawach krzyżowych opisane w podręczniku.",
+    "prompt": "Zaznacz przyczyny i motywy udziału w pierwszych wyprawach krzyżowych.",
     "options": [
       "prześladowanie chrześcijan przez Turków seldżuckich",
       "prośba Bizancjum o zbrojną pomoc",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "id": "R05_WYP_06",
     "section": "Wyprawy krzyżowe",
     "type": "match",
-    "prompt": "Połącz zakon rycerski lub grupę z informacją z rozdziału.",
+    "prompt": "Połącz zakon rycerski lub grupę z informacją.",
     "options": null,
     "left": [
       "templariusze",
@@ -1062,13 +1062,13 @@ const ALL_EXERCISES = [
     "prompt": "Czwarta wyprawa krzyżowa zamiast do Palestyny skierowała się przeciw chrześcijańskiemu Bizancjum i doprowadziła do zdobycia Konstantynopola.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik nazywa czwartą krucjatę zaprzeczeniem idei krucjat, ponieważ krzyżowcy złupili Konstantynopol."
+    "explanation": "Nazywa się czwartą krucjatę zaprzeczeniem idei krucjat, ponieważ krzyżowcy złupili Konstantynopol."
   },
   {
     "id": "R05_WYP_10",
     "section": "Wyprawy krzyżowe",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki krucjat opisane w rozdziale.",
+    "prompt": "Zaznacz skutki krucjat.",
     "options": [
       "utrwalenie wrogości między chrześcijanami i muzułmanami",
       "nawiązanie ściślejszych relacji handlowych przez kupców włoskich",
@@ -1190,7 +1190,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_07",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj działania do typów zgromadzeń opisanych w rozdziale.",
+    "prompt": "Przyporządkuj działania do typów zgromadzeń.",
     "options": null,
     "items": [
       "przepisywanie ksiąg",
@@ -1219,13 +1219,13 @@ const ALL_EXERCISES = [
         "ochrona pielgrzymów"
       ]
     },
-    "explanation": "Rozdział pokazuje różne formy życia zakonnego: klasztorne, żebracze i rycerskie."
+    "explanation": "Pokazuje się różne formy życia zakonnego: klasztorne, żebracze i rycerskie."
   },
   {
     "id": "R05_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz symbol lub znak z sytuacją, w której występuje w rozdziale.",
+    "prompt": "Połącz symbol lub znak z sytuacją, w której występuje.",
     "options": null,
     "left": [
       "włócznia lub chorągiew",
@@ -1246,7 +1246,7 @@ const ALL_EXERCISES = [
       "krzyż na szacie": "znak uczestnika wyprawy krzyżowej"
     },
     "image": "/img/r05_ceremonia_holdu.jpg",
-    "explanation": "W rozdziale symbole pomagają rozpoznać różne ceremonie i role: inwestyturę lenną, godność kościelną, świeckie lenno i krucjatę."
+    "explanation": "Symbole pomagają rozpoznać różne ceremonie i role: inwestyturę lenną, godność kościelną, świeckie lenno i krucjatę."
   }
 ];
 

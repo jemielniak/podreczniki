@@ -1050,7 +1050,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia z różnych części rozdziału od najwcześniejszego do najpóźniejszego.",
+    "prompt": "Ułóż wydarzenia od najwcześniejszego do najpóźniejszego.",
     "options": null,
     "items": [
       "Deklaracja niepodległości Stanów Zjednoczonych",
@@ -1113,7 +1113,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Co było bezpośrednią przyczyną wybuchu amerykańskiej wojny o niepodległość według podsumowania rozdziału?",
+    "prompt": "Co było bezpośrednią przyczyną wybuchu amerykańskiej wojny o niepodległość?",
     "options": [
       "Bitwa pod Lexington i Concord",
       "Bostońska herbatka",

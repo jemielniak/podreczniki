@@ -1050,7 +1050,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik podaje wzrost ludności z ok. 6 do ok. 11 mln, około 650 kadetów Szkoły Rycerskiej oraz ponad 300 tys. tomów biblioteki Załuskich."
+    "explanation": "Podaje się wzrost ludności z ok. 6 do ok. 11 mln, około 650 kadetów Szkoły Rycerskiej oraz ponad 300 tys. tomów biblioteki Załuskich."
   },
   {
     "id": "R05_HARD_05",

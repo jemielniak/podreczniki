@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "górskie, równikowe i sawannowe"
     ],
     "answer": 0,
-    "explanation": "W strefie umiarkowanej występują lasy liściaste, iglaste i mieszane; ten rozdział skupia się na lasach liściastych i mieszanych."
+    "explanation": "W strefie umiarkowanej występują lasy liściaste, iglaste i mieszane; tu mowa o lasach liściastych i mieszanych."
   },
   {
     "id": "R06_WYS_02",
@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r06_las_mieszany_panorama.jpg",
-    "explanation": "W podręczniku zapisano, że w strefie umiarkowanej występują lasy liściaste, iglaste i mieszane, ale ta lekcja omawia przede wszystkim liściaste i mieszane."
+    "explanation": "W strefie umiarkowanej występują lasy liściaste, iglaste i mieszane, ale ta lekcja omawia przede wszystkim liściaste i mieszane."
   },
   {
     "id": "R06_WYS_03",
@@ -87,7 +87,7 @@ const ALL_EXERCISES = [
       "umiarkowana",
       "strefa klimatyczna umiarkowana"
     ],
-    "explanation": "Rozdział omawia strefę umiarkowaną, czyli strefę klimatyczną zróżnicowaną pod względem typów klimatu i krajobrazu."
+    "explanation": "Strefa umiarkowana to strefa klimatyczna zróżnicowana pod względem typów klimatu i krajobrazu."
   },
   {
     "id": "R06_WYS_06",
@@ -96,7 +96,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do lasów wymienionych w strefie umiarkowanej: liściaste, iglaste, mieszane, palmowe.",
     "options": null,
     "answer": "palmowe",
-    "explanation": "W rozdziale wymieniono lasy liściaste, iglaste i mieszane, a lasy palmowe nie są podane jako typ lasów strefy umiarkowanej."
+    "explanation": "Wymieniono lasy liściaste, iglaste i mieszane, a lasy palmowe nie są podane jako typ lasów strefy umiarkowanej."
   },
   {
     "id": "R06_WYS_07",
@@ -122,7 +122,7 @@ const ALL_EXERCISES = [
       "wschodnia Azja": "częściowe występowanie",
       "półkula południowa": "niewiele lasów przez dominację oceanu"
     },
-    "explanation": "Podręcznik wskazuje znaczne obszary w Europie i Ameryce Północnej, częściowe występowanie we wschodniej Azji oraz niewiele takich lasów na półkuli południowej."
+    "explanation": "Wskazuje się znaczne obszary w Europie i Ameryce Północnej, częściowe występowanie we wschodniej Azji oraz niewiele takich lasów na półkuli południowej."
   },
   {
     "id": "R06_WYS_08",
@@ -154,7 +154,7 @@ const ALL_EXERCISES = [
     "id": "R06_WYS_09",
     "section": "Występowanie i typy lasów",
     "type": "scenario",
-    "prompt": "Na mapie świata uczeń zauważa, że lasów liściastych i mieszanych strefy umiarkowanej jest niewiele na półkuli południowej. Jak podręcznik wyjaśnia tę sytuację?",
+    "prompt": "Na mapie świata uczeń zauważa, że lasów liściastych i mieszanych strefy umiarkowanej jest niewiele na półkuli południowej. Jak wyjaśnia się tę sytuację?",
     "options": [
       "dominuje tam ocean",
       "nie ma tam pór roku",
@@ -169,7 +169,7 @@ const ALL_EXERCISES = [
     "id": "R06_WYS_10",
     "section": "Występowanie i typy lasów",
     "type": "single_choice",
-    "prompt": "Który tytuł najlepiej pasuje do mapy z pierwszej strony rozdziału?",
+    "prompt": "Który tytuł najlepiej pasuje do tej mapy?",
     "options": [
       "Lasy liściaste i mieszane strefy umiarkowanej",
       "Pustynie świata",
@@ -185,7 +185,7 @@ const ALL_EXERCISES = [
     "id": "R06_KLI_01",
     "section": "Klimat i pory roku",
     "type": "single_choice",
-    "prompt": "W jakich klimatach rosną lasy strefy umiarkowanej omawiane w rozdziale?",
+    "prompt": "W jakich klimatach rosną lasy strefy umiarkowanej?",
     "options": [
       "umiarkowanym ciepłym morskim i umiarkowanym ciepłym przejściowym",
       "równikowym wybitnie wilgotnym i podrównikowym",
@@ -204,13 +204,13 @@ const ALL_EXERCISES = [
     "prompt": "W lasach strefy umiarkowanej występują cztery pory roku.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale wymieniono wiosnę, lato, jesień i zimę jako cztery pory roku tej strefy."
+    "explanation": "Wymieniono wiosnę, lato, jesień i zimę jako cztery pory roku tej strefy."
   },
   {
     "id": "R06_KLI_03",
     "section": "Klimat i pory roku",
     "type": "multi_select",
-    "prompt": "Zaznacz pory roku wymienione w rozdziale jako charakterystyczne dla tej strefy.",
+    "prompt": "Zaznacz pory roku jako charakterystyczne dla tej strefy.",
     "options": [
       "wiosna",
       "lato",
@@ -248,13 +248,13 @@ const ALL_EXERCISES = [
         "najchłodniejszą porą roku"
       ]
     ],
-    "explanation": "Podręcznik podkreśla, że lato jest najcieplejszą, a zima najchłodniejszą porą roku."
+    "explanation": "Lato jest najcieplejszą, a zima najchłodniejszą porą roku."
   },
   {
     "id": "R06_KLI_05",
     "section": "Klimat i pory roku",
     "type": "riddle",
-    "prompt": "Jaki typ klimatu panuje w Polsce według rozdziału?",
+    "prompt": "Jaki typ klimatu panuje w Polsce?",
     "options": null,
     "answer": "umiarkowany ciepły przejściowy",
     "altAnswers": [
@@ -269,16 +269,16 @@ const ALL_EXERCISES = [
     "id": "R06_KLI_06",
     "section": "Klimat i pory roku",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do pór roku wymienionych w rozdziale: wiosna, lato, jesień, zima, pora deszczowa.",
+    "prompt": "Co nie pasuje do pór roku: wiosna, lato, jesień, zima, pora deszczowa.",
     "options": null,
     "answer": "pora deszczowa",
-    "explanation": "Pora deszczowa nie należy do czterech pór roku wymienionych dla klimatu umiarkowanego w rozdziale."
+    "explanation": "Pora deszczowa nie należy do czterech pór roku wymienionych dla klimatu umiarkowanego."
   },
   {
     "id": "R06_KLI_07",
     "section": "Klimat i pory roku",
     "type": "match",
-    "prompt": "Połącz miejsce lub klimat z cechą opadów opisaną w rozdziale.",
+    "prompt": "Połącz miejsce lub klimat z cechą opadów.",
     "options": null,
     "left": [
       "Polska",
@@ -355,7 +355,7 @@ const ALL_EXERCISES = [
     "id": "R06_ROS_01",
     "section": "Roślinność lasów",
     "type": "single_choice",
-    "prompt": "Który zestaw zawiera wyłącznie drzewa liściaste wymienione w rozdziale?",
+    "prompt": "Który zestaw zawiera wyłącznie drzewa liściaste?",
     "options": [
       "dęby, buki, klony i lipy",
       "sosny, świerki, jodły i buki",
@@ -372,7 +372,7 @@ const ALL_EXERCISES = [
     "id": "R06_ROS_02",
     "section": "Roślinność lasów",
     "type": "multi_select",
-    "prompt": "Zaznacz drzewa liściaste wymienione w rozdziale.",
+    "prompt": "Zaznacz drzewa liściaste.",
     "options": [
       "dąb",
       "buk",
@@ -388,7 +388,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r06_dab_i_buk.jpg",
-    "explanation": "W rozdziale wymieniono wśród drzew liściastych dęby, buki, klony i lipy."
+    "explanation": "Wymieniono wśród drzew liściastych dęby, buki, klony i lipy."
   },
   {
     "id": "R06_ROS_03",
@@ -448,7 +448,7 @@ const ALL_EXERCISES = [
     "id": "R06_ROS_06",
     "section": "Roślinność lasów",
     "type": "riddle",
-    "prompt": "Podaj nazwę jadalnego grzyba wymienionego w rozdziale.",
+    "prompt": "Podaj nazwę jadalnego grzyba.",
     "options": null,
     "answer": "borowik",
     "altAnswers": [
@@ -459,13 +459,13 @@ const ALL_EXERCISES = [
       "maślaki"
     ],
     "image": "r06_grzyby_lesne.jpg",
-    "explanation": "W rozdziale jako jadalne grzyby podano między innymi borowiki i maślaki."
+    "explanation": "Jako jadalne grzyby podano między innymi borowiki i maślaki."
   },
   {
     "id": "R06_ROS_07",
     "section": "Roślinność lasów",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do drzew liściastych wymienionych w rozdziale: dąb, buk, klon, lipa, jodła.",
+    "prompt": "Co nie pasuje do drzew liściastych: dąb, buk, klon, lipa, jodła.",
     "options": null,
     "answer": "jodła",
     "explanation": "Jodła jest drzewem iglastym, a dąb, buk, klon i lipa są podane jako drzewa liściaste."
@@ -530,13 +530,13 @@ const ALL_EXERCISES = [
         "muchomor"
       ]
     },
-    "explanation": "W rozdziale występują przykłady drzew liściastych, iglastych oraz grzybów spotykanych w lasach."
+    "explanation": "Występują przykłady drzew liściastych, iglastych oraz grzybów spotykanych w lasach."
   },
   {
     "id": "R06_ROS_10",
     "section": "Roślinność lasów",
     "type": "scenario",
-    "prompt": "Jesienią obserwujesz drzewa, których liście stają się żółte, pomarańczowe i czerwone, a potem opadają. O jakich drzewach mówi rozdział?",
+    "prompt": "Jesienią obserwujesz drzewa, których liście stają się żółte, pomarańczowe i czerwone, a potem opadają. O jakich drzewach mówi się?",
     "options": [
       "o drzewach liściastych",
       "o drzewach iglastych",
@@ -554,13 +554,13 @@ const ALL_EXERCISES = [
     "prompt": "Wiosną przyroda się odradza i rośliny znów się zielenią.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział opisuje, że po zimie wiosną przyroda się odradza i rośliny ponownie się zielenią."
+    "explanation": "Po zimie wiosną przyroda się odradza i rośliny ponownie się zielenią."
   },
   {
     "id": "R06_ZWI_01",
     "section": "Zwierzęta lasów",
     "type": "single_choice",
-    "prompt": "Jak rozdział opisuje zwierzęta lasów strefy umiarkowanej?",
+    "prompt": "Jak opisuje się zwierzęta lasów strefy umiarkowanej?",
     "options": [
       "wiele różnych ptaków, mniej liczne ssaki i duże ilości owadów",
       "wyłącznie duże ssaki i brak ptaków",
@@ -601,7 +601,7 @@ const ALL_EXERCISES = [
     "prompt": "W lasach strefy umiarkowanej występują duże ilości owadów.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział wyraźnie podaje, że oprócz ptaków i ssaków występują tam duże ilości owadów."
+    "explanation": "Oprócz ptaków i ssaków występują tam duże ilości owadów."
   },
   {
     "id": "R06_ZWI_04",
@@ -629,7 +629,7 @@ const ALL_EXERCISES = [
     "id": "R06_ZWI_05",
     "section": "Zwierzęta lasów",
     "type": "riddle",
-    "prompt": "Jaki dzięcioł jest podpisany na ilustracji zwierząt w rozdziale?",
+    "prompt": "Jaki dzięcioł jest podpisany na ilustracji zwierząt?",
     "options": null,
     "answer": "dzięcioł duży",
     "altAnswers": [
@@ -712,7 +712,7 @@ const ALL_EXERCISES = [
     "id": "R06_ZWI_09",
     "section": "Zwierzęta lasów",
     "type": "scenario",
-    "prompt": "Podczas spaceru po lesie uczeń widzi wiewiórkę, jeża, dzika i kilka ptaków. Który krajobraz z rozdziału najlepiej pasuje do takiego zestawu zwierząt?",
+    "prompt": "Podczas spaceru po lesie uczeń widzi wiewiórkę, jeża, dzika i kilka ptaków. Który krajobraz najlepiej pasuje do takiego zestawu zwierząt?",
     "options": [
       "lasy strefy umiarkowanej",
       "pustynia piaszczysta",
@@ -744,7 +744,7 @@ const ALL_EXERCISES = [
     "id": "R06_WYL_02",
     "section": "Wylesianie i ochrona",
     "type": "multi_select",
-    "prompt": "Zaznacz przyczyny wylesiania podane w rozdziale.",
+    "prompt": "Zaznacz przyczyny wylesiania.",
     "options": [
       "tworzenie pól uprawnych",
       "tworzenie przestrzeni pod zabudowę",
@@ -768,7 +768,7 @@ const ALL_EXERCISES = [
     "prompt": "Wycinka lasów bardzo negatywnie wpływa na środowisko.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podkreśla, że wycinka lasów bardzo negatywnie wpływa na środowisko."
+    "explanation": "Wycinka lasów bardzo negatywnie wpływa na środowisko."
   },
   {
     "id": "R06_WYL_04",
@@ -797,7 +797,7 @@ const ALL_EXERCISES = [
     "id": "R06_WYL_05",
     "section": "Wylesianie i ochrona",
     "type": "riddle",
-    "prompt": "Jak nazywa się temat części rozdziału opisującej wycinanie lasów przez człowieka?",
+    "prompt": "Jak nazywa się wycinanie lasów przez człowieka?",
     "options": null,
     "answer": "wylesianie",
     "altAnswers": [
@@ -805,7 +805,7 @@ const ALL_EXERCISES = [
       "wycinka lasów",
       "wycinanie lasów"
     ],
-    "explanation": "Część rozdziału poświęcona wycinaniu lasów nosi tytuł Wylesianie."
+    "explanation": "Wycinanie lasów przez człowieka nazywa się wylesianiem."
   },
   {
     "id": "R06_WYL_06",
@@ -814,7 +814,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do przyczyn wylesiania: pola uprawne, zabudowa, pozyskiwanie drewna, cztery pory roku.",
     "options": null,
     "answer": "cztery pory roku",
-    "explanation": "Cztery pory roku są cechą klimatu, a nie przyczyną wylesiania podaną w rozdziale."
+    "explanation": "Cztery pory roku są cechą klimatu, a nie przyczyną wylesiania."
   },
   {
     "id": "R06_WYL_07",
@@ -887,7 +887,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_sciete_pnie_las.jpg",
-    "explanation": "Rozdział mówi, że zwierzęta tracą miejsce życia, gdy wycina się lasy."
+    "explanation": "Zwierzęta tracą miejsce życia, gdy wycina się lasy."
   },
   {
     "id": "R06_WYL_10",
@@ -897,7 +897,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": false,
     "image": "r06_sciete_pnie_las.jpg",
-    "explanation": "To fałsz: rozdział wskazuje negatywny wpływ na środowisko i pogorszenie komfortu życia ludzi."
+    "explanation": "To fałsz: wskazuje się negatywny wpływ na środowisko i pogorszenie komfortu życia ludzi."
   },
   {
     "id": "R06_HARD_01",
@@ -916,7 +916,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Rozdział podaje, że te lasy rosną na znacznych obszarach Europy i Ameryki Północnej oraz częściowo we wschodniej Azji; na półkuli południowej jest ich niewiele."
+    "explanation": "Te lasy rosną na znacznych obszarach Europy i Ameryki Północnej oraz częściowo we wschodniej Azji; na półkuli południowej jest ich niewiele."
   },
   {
     "id": "R06_HARD_02",
@@ -980,13 +980,13 @@ const ALL_EXERCISES = [
       "jesień": "liście zmieniają barwę i opadają",
       "zima": "najchłodniejsza pora roku"
     },
-    "explanation": "Rozdział opisuje rytm roku: lato jest najcieplejsze, zima najchłodniejsza, jesienią liście zmieniają barwę i opadają, a wiosną rośliny znów się zielenią."
+    "explanation": "Opisuje się rytm roku: lato jest najcieplejsze, zima najchłodniejsza, jesienią liście zmieniają barwę i opadają, a wiosną rośliny znów się zielenią."
   },
   {
     "id": "R06_HARD_05",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj przykłady do trzech grup z rozdziału.",
+    "prompt": "Przyporządkuj przykłady do trzech grup.",
     "options": null,
     "items": [
       "dąb",
@@ -1045,7 +1045,7 @@ const ALL_EXERCISES = [
     "prompt": "Na półkuli południowej lasów liściastych i mieszanych strefy umiarkowanej jest niewiele, bo w tamtejszej umiarkowanej strefie klimatycznej dominuje ocean.",
     "options": null,
     "answer": true,
-    "explanation": "Tak właśnie wyjaśnia to rozdział: dominacja oceanu ogranicza tam występowanie tych lasów."
+    "explanation": "Dominacja oceanu ogranicza tam występowanie tych lasów."
   },
   {
     "id": "R06_HARD_08",
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
       "lasy mieszane",
       "mieszany"
     ],
-    "explanation": "Las mieszany łączy drzewa liściaste i iglaste, co pasuje do opisu lasów omawianych w rozdziale."
+    "explanation": "Las mieszany łączy drzewa liściaste i iglaste, co pasuje do opisu lasów."
   },
   {
     "id": "R06_HARD_10",
@@ -1082,13 +1082,13 @@ const ALL_EXERCISES = [
       "krajobraz sawanny"
     ],
     "answer": 0,
-    "explanation": "To opis krajobrazu lasów strefy umiarkowanej omawianego w rozdziale."
+    "explanation": "To opis krajobrazu lasów strefy umiarkowanej."
   },
   {
     "id": "R06_HARD_11",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki wylesiania wymienione w podsumowaniu rozdziału.",
+    "prompt": "Zaznacz skutki wylesiania.",
     "options": [
       "ubywa roślinności",
       "zwierzęta tracą miejsce do życia",
@@ -1107,7 +1107,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_12",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który ciąg najpełniej pokazuje związek między wylesianiem a środowiskiem opisany w rozdziale?",
+    "prompt": "Który ciąg najpełniej pokazuje związek między wylesianiem a środowiskiem?",
     "options": [
       "mniej roślinności, mniej pochłaniania dwutlenku węgla, mniej produkcji tlenu i mniej magazynowania wody",
       "więcej drzew, więcej miejsc życia zwierząt i więcej wody",

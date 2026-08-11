@@ -37,8 +37,8 @@ const ALL_EXERCISES = [
     "id": "R08_UNI_03",
     "section": "Unia Polski z Litwą",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy Litwinów przed chrztem Jagiełły według rozdziału.",
-    "explanation": "Podręcznik podkreśla, że Litwini należeli do ludów bałtyckich, byli poganami i nie znali pisma.",
+    "prompt": "Zaznacz cechy Litwinów przed chrztem Jagiełły.",
+    "explanation": "Litwini należeli do ludów bałtyckich, byli poganami i nie znali pisma.",
     "options": [
       "Należeli do ludów bałtyckich",
       "Byli poganami",
@@ -58,7 +58,7 @@ const ALL_EXERCISES = [
     "section": "Unia Polski z Litwą",
     "type": "match",
     "prompt": "Połącz grupę z opisem.",
-    "explanation": "W rozdziale Litwini i Rusini zostali zestawieni przez pochodzenie, religię i znajomość pisma.",
+    "explanation": "Litwini i Rusini zostali zestawieni przez pochodzenie, religię i znajomość pisma.",
     "options": null,
     "left": [
       "Litwini",
@@ -248,7 +248,7 @@ const ALL_EXERCISES = [
     "section": "Wielka wojna z zakonem krzyżackim",
     "type": "true_false",
     "prompt": "Zamek w Malborku był stolicą państwa zakonu krzyżackiego.",
-    "explanation": "Podręcznik opisuje zamek w Malborku jako stolicę zakonnego państwa i jedną z najpotężniejszych warowni w Europie.",
+    "explanation": "Opisuje się zamek w Malborku jako stolicę zakonnego państwa i jedną z najpotężniejszych warowni w Europie.",
     "options": null,
     "answer": true,
     "image": "/img/r08_zamek_malbork.jpg"
@@ -333,7 +333,7 @@ const ALL_EXERCISES = [
     "section": "Wielka wojna z zakonem krzyżackim",
     "type": "match",
     "prompt": "Połącz armię z jej opisem spod Grunwaldu.",
-    "explanation": "Podręcznik podaje, że armia polsko-litewska liczyła około 30 tysięcy ludzi, a krzyżacka około 20 tysięcy.",
+    "explanation": "Armia polsko-litewska liczyła około 30 tysięcy ludzi, a krzyżacka około 20 tysięcy.",
     "options": null,
     "left": [
       "armia polsko-litewska",
@@ -359,7 +359,7 @@ const ALL_EXERCISES = [
     "section": "Wielka wojna z zakonem krzyżackim",
     "type": "true_false",
     "prompt": "Wielki mistrz przysłał Jagielle dwa miecze, a dziś historycy widzą w tym raczej zachętę do walki niż wyłącznie obrazę.",
-    "explanation": "Podręcznik zaznacza, że dawny kronikarz uznał gest za obraźliwy, ale współcześni historycy traktują go jako zachętę do walki świadczącą o szacunku.",
+    "explanation": "Dawny kronikarz uznał gest za obraźliwy, ale współcześni historycy traktują go jako zachętę do walki świadczącą o szacunku.",
     "options": null,
     "answer": true
   },
@@ -450,7 +450,7 @@ const ALL_EXERCISES = [
     "section": "Synowie Jagiełły",
     "type": "true_false",
     "prompt": "Po wyborze Jagiełły na polski tron Polska stała się monarchią elekcyjną.",
-    "explanation": "Podręcznik stwierdza, że po wyborze Jagiełły Polska przestała być monarchią dziedziczną i stała się elekcyjną.",
+    "explanation": "Po wyborze Jagiełły Polska przestała być monarchią dziedziczną i stała się elekcyjną.",
     "options": null,
     "answer": true
   },
@@ -542,7 +542,7 @@ const ALL_EXERCISES = [
     "section": "Synowie Jagiełły",
     "type": "match",
     "prompt": "Połącz pojęcie lub osobę z opisem.",
-    "explanation": "Rozdział wyjaśnia kluczowe pojęcia dotyczące synów Jagiełły i wojny trzynastoletniej.",
+    "explanation": "Wyjaśnia się kluczowe pojęcia dotyczące synów Jagiełły i wojny trzynastoletniej.",
     "options": null,
     "left": [
       "sułtan",
@@ -807,7 +807,7 @@ const ALL_EXERCISES = [
     "section": "Od rycerstwa do szlachty",
     "type": "true_false",
     "prompt": "Mieszczanie w Polsce mogli głosować w sejmie i sejmikach tak samo jak szlachta.",
-    "explanation": "Podręcznik podaje, że mieszczanie nie mogli głosować w sejmie ani w sejmikach, dlatego państwo zaczęło służyć interesom szlachty.",
+    "explanation": "Mieszczanie nie mogli głosować w sejmie ani w sejmikach, dlatego państwo zaczęło służyć interesom szlachty.",
     "options": null,
     "answer": false
   },
@@ -815,7 +815,7 @@ const ALL_EXERCISES = [
     "id": "R08_SZL_11",
     "section": "Od rycerstwa do szlachty",
     "type": "single_choice",
-    "prompt": "Jak podręcznik określa ustrój Polski od XVI do XVIII w.?",
+    "prompt": "Jak określa się ustrój Polski od XVI do XVIII w.?",
     "explanation": "Ustrój Polski od XVI do XVIII w. nazwano monarchiczno-szlacheckim: najwyższą władzę miał król, ale państwem współrządziła szlachta.",
     "options": [
       "monarchiczno-szlachecki",
@@ -860,7 +860,7 @@ const ALL_EXERCISES = [
     "section": "Polska i Litwa w XV wieku",
     "type": "single_choice",
     "prompt": "Jaka wartość była najważniejszym wkładem Polski do kultury europejskiej od drugiej połowy XIV w.?",
-    "explanation": "Podręcznik wskazuje tolerancję religijną jako najważniejszą wartość wnoszoną przez Polaków do kultury europejskiej.",
+    "explanation": "Wskazuje się tolerancję religijną jako najważniejszą wartość wnoszoną przez Polaków do kultury europejskiej.",
     "options": [
       "tolerancja religijna",
       "budowa piramid",
@@ -876,7 +876,7 @@ const ALL_EXERCISES = [
     "section": "Polska i Litwa w XV wieku",
     "type": "true_false",
     "prompt": "Kazimierz Wielki przyłączył Ruś Halicką i nie nakłaniał prawosławnych Rusinów do przejścia na katolicyzm.",
-    "explanation": "To przykład polskiej tolerancji religijnej opisany w rozdziale.",
+    "explanation": "To przykład polskiej tolerancji religijnej.",
     "options": null,
     "answer": true
   },
@@ -944,7 +944,7 @@ const ALL_EXERCISES = [
     "section": "Polska i Litwa w XV wieku",
     "type": "true_false",
     "prompt": "W XV w. Akademia Krakowska była jedynym polskim uniwersytetem.",
-    "explanation": "Rozdział mówi, że w XV w. jedynym polskim uniwersytetem była Akademia Krakowska.",
+    "explanation": "W XV w. jedynym polskim uniwersytetem była Akademia Krakowska.",
     "options": null,
     "answer": true,
     "image": "/img/r08_akademia_krakowska.jpg"
@@ -971,7 +971,7 @@ const ALL_EXERCISES = [
     "section": "Polska i Litwa w XV wieku",
     "type": "match",
     "prompt": "Połącz postać z osiągnięciem.",
-    "explanation": "Rozdział wymienia czterech ważnych twórców i uczonych związanych z kulturą XV-wiecznej Polski.",
+    "explanation": "Wymienia się czterech ważnych twórców i uczonych związanych z kulturą XV-wiecznej Polski.",
     "options": null,
     "left": [
       "Paweł Włodkowic",
@@ -1036,7 +1036,7 @@ const ALL_EXERCISES = [
     "id": "R08_KUL_11",
     "section": "Polska i Litwa w XV wieku",
     "type": "riddle",
-    "prompt": "Jak nazywał się najznakomitszy kronikarz polskiego średniowiecza opisany w rozdziale?",
+    "prompt": "Jak nazywał się najznakomitszy kronikarz polskiego średniowiecza?",
     "explanation": "Jan Długosz przez 25 lat pisał po łacinie Roczniki, czyli Kroniki sławnego Królestwa Polskiego.",
     "options": null,
     "answer": "Jan Długosz",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
     "id": "R08_HARD_01",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia całego rozdziału w porządku chronologicznym.",
+    "prompt": "Ułóż wydarzenia w porządku chronologicznym.",
     "explanation": "Chronologia prowadzi od unii z Węgrami, przez unię polsko-litewską i Grunwald, po drugi pokój toruński i Nihil novi.",
     "options": null,
     "items": [
@@ -1153,7 +1153,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "match",
     "prompt": "Połącz pojęcie z konsekwencją dla państwa.",
-    "explanation": "Pojęcia z rozdziału opisują przemiany polityczne Polski od monarchii dziedzicznej ku ustrojowi monarchiczno-szlacheckiemu.",
+    "explanation": "Pojęcia opisują przemiany polityczne Polski od monarchii dziedzicznej ku ustrojowi monarchiczno-szlacheckiemu.",
     "options": null,
     "left": [
       "monarchia elekcyjna",

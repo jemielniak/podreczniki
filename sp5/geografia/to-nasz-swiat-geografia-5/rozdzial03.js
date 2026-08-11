@@ -205,7 +205,7 @@ const ALL_EXERCISES = [
       "pola ryżowe"
     ],
     "answer": 0,
-    "explanation": "W podręczniku podano, że najbardziej charakterystycznymi elementami Wybrzeża Słowińskiego są piaszczyste plaże i wydmy."
+    "explanation": "Najbardziej charakterystycznymi elementami Wybrzeża Słowińskiego są piaszczyste plaże i wydmy."
   },
   {
     "id": "R03_POJ_01",
@@ -231,7 +231,7 @@ const ALL_EXERCISES = [
     "prompt": "Pojezierza to tereny o największej liczbie jezior w Polsce.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale pojezierza opisano jako obszary o największej liczbie jezior w Polsce."
+    "explanation": "Pojezierza opisano jako obszary o największej liczbie jezior w Polsce."
   },
   {
     "id": "R03_POJ_03",
@@ -289,7 +289,7 @@ const ALL_EXERCISES = [
     "id": "R03_POJ_06",
     "section": "Krajobraz pojezierny",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy, które według rozdziału przyciągają turystów na Pojezierze Mazurskie.",
+    "prompt": "Zaznacz elementy, które przyciągają turystów na Pojezierze Mazurskie.",
     "options": [
       "obiekty wypoczynkowe",
       "restauracje",
@@ -390,7 +390,7 @@ const ALL_EXERCISES = [
       "mazurski park krajobrazowy"
     ],
     "image": "r03_puszcza_piska.jpg",
-    "explanation": "W rozdziale podano, że dla ochrony krajobrazu polodowcowego oraz roślinności i zwierząt utworzono Mazurski Park Krajobrazowy."
+    "explanation": "Dla ochrony krajobrazu polodowcowego oraz roślinności i zwierząt utworzono Mazurski Park Krajobrazowy."
   },
   {
     "id": "R03_POJ_11",
@@ -426,7 +426,7 @@ const ALL_EXERCISES = [
     "prompt": "Pas nizin jest najrozleglejszym pasem krajobrazowym Polski.",
     "options": null,
     "answer": true,
-    "explanation": "Podręcznik opisuje niziny jako najrozleglejszy pas krajobrazowy Polski."
+    "explanation": "Opisuje się niziny jako najrozleglejszy pas krajobrazowy Polski."
   },
   {
     "id": "R03_NIZ_03",
@@ -592,7 +592,7 @@ const ALL_EXERCISES = [
     "id": "R03_NIZ_11",
     "section": "Krajobraz nizinny",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy Puszczy Kampinoskiej opisane w rozdziale.",
+    "prompt": "Zaznacz cechy Puszczy Kampinoskiej.",
     "options": [
       "bagna",
       "wydmy śródlądowe",
@@ -614,7 +614,7 @@ const ALL_EXERCISES = [
     "id": "R03_WYZ_01",
     "section": "Krajobraz wyżynny",
     "type": "single_choice",
-    "prompt": "Na jakich wysokościach położone są wyżyny według rozdziału?",
+    "prompt": "Na jakich wysokościach położone są wyżyny?",
     "options": [
       "od 300 do 500 m n.p.m.",
       "poniżej 300 m n.p.m.",
@@ -630,7 +630,7 @@ const ALL_EXERCISES = [
     "id": "R03_WYZ_02",
     "section": "Krajobraz wyżynny",
     "type": "multi_select",
-    "prompt": "Zaznacz wyżyny wymienione w rozdziale jako najbardziej znane polskie wyżyny.",
+    "prompt": "Zaznacz wyżyny jako najbardziej znane polskie wyżyny.",
     "options": [
       "Wyżyna Krakowsko-Częstochowska",
       "Wyżyna Śląska",
@@ -645,7 +645,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podręcznik wymienia Wyżynę Krakowsko-Częstochowską, Śląską, Lubelską i Kielecką."
+    "explanation": "Wymienia się Wyżynę Krakowsko-Częstochowską, Śląską, Lubelską i Kielecką."
   },
   {
     "id": "R03_WYZ_03",
@@ -801,7 +801,7 @@ const ALL_EXERCISES = [
     "id": "R03_GOR_01",
     "section": "Krajobraz wysokogórski",
     "type": "single_choice",
-    "prompt": "Jaką wysokość bezwzględną mają góry według rozdziału?",
+    "prompt": "Jaką wysokość bezwzględną mają góry?",
     "options": [
       "większą niż 500 m n.p.m.",
       "mniejszą niż 300 m n.p.m.",
@@ -838,7 +838,7 @@ const ALL_EXERCISES = [
       "łańcuch górski": "wiele pasm górskich",
       "staw": "jezioro w Tatrach"
     },
-    "explanation": "Podręcznik rozróżnia górę, pasmo i łańcuch górski, a jeziora tatrzańskie nazywa stawami."
+    "explanation": "Rozróżnia się górę, pasmo i łańcuch górski, a jeziora tatrzańskie nazywa stawami."
   },
   {
     "id": "R03_GOR_03",
@@ -847,7 +847,7 @@ const ALL_EXERCISES = [
     "prompt": "Tatry są jedynym obszarem o krajobrazie wysokogórskim w Polsce.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że Tatry to jedyny obszar o krajobrazie wysokogórskim w Polsce."
+    "explanation": "Tatry to jedyny obszar o krajobrazie wysokogórskim w Polsce."
   },
   {
     "id": "R03_GOR_04",
@@ -888,7 +888,7 @@ const ALL_EXERCISES = [
     "id": "R03_GOR_06",
     "section": "Krajobraz wysokogórski",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy wysokogórskiej rzeźby terenu wymienione w rozdziale.",
+    "prompt": "Zaznacz elementy wysokogórskiej rzeźby terenu.",
     "options": [
       "turnie",
       "granie",
@@ -979,7 +979,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_tatry_wysokie.jpg",
-    "explanation": "Podręcznik wskazuje, że liczna obecność turystów szkodzi tatrzańskiej przyrodzie m.in. przez śmieci i dokarmianie dzikich zwierząt."
+    "explanation": "Liczna obecność turystów szkodzi tatrzańskiej przyrodzie m.in. przez śmieci i dokarmianie dzikich zwierząt."
   },
   {
     "id": "R03_GOR_10",
@@ -1052,7 +1052,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz obszar chroniony z informacją z rozdziału.",
+    "prompt": "Połącz obszar chroniony z informacją.",
     "options": null,
     "left": [
       "Słowiński Park Narodowy",
@@ -1072,7 +1072,7 @@ const ALL_EXERCISES = [
       "Kampinoski Park Narodowy": "jego symbolem jest łoś",
       "Tatrzański Park Narodowy": "powstał ze względu na unikatową przyrodę Tatr"
     },
-    "explanation": "W rozdziale opisano kilka form ochrony przyrody powiązanych z różnymi pasami krajobrazowymi."
+    "explanation": "Opisano kilka form ochrony przyrody powiązanych z różnymi pasami krajobrazowymi."
   },
   {
     "id": "R03_HARD_03",
@@ -1123,7 +1123,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r03_pojezierze_mazurskie.jpg",
-    "explanation": "W rozdziale podano, że na Pojezierzu Mazurskim jest ponad 2000 jezior, a największe to Śniardwy."
+    "explanation": "Na Pojezierzu Mazurskim jest ponad 2000 jezior, a największe to Śniardwy."
   },
   {
     "id": "R03_HARD_06",
@@ -1189,7 +1189,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_10",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz popularną aktywność turystyczną z obszarem, z którym łączy ją rozdział.",
+    "prompt": "Połącz popularną aktywność turystyczną z obszarem, na którym się ją uprawia.",
     "options": null,
     "left": [
       "windsurfing",
@@ -1209,7 +1209,7 @@ const ALL_EXERCISES = [
       "wspinaczka skalna": "Jura",
       "narciarstwo": "Tatry"
     },
-    "explanation": "Rozdział łączy windsurfing z pobrzeżami, żeglarstwo i kajakarstwo z Mazurami, wspinaczkę skalną z Jurą, a narciarstwo z Tatrami."
+    "explanation": "Łączy się windsurfing z pobrzeżami, żeglarstwo i kajakarstwo z Mazurami, wspinaczkę skalną z Jurą, a narciarstwo z Tatrami."
   },
   {
     "id": "R03_HARD_11",
@@ -1285,7 +1285,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_15",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W okolicach Grójca znajdują się bardzo duże sady. Które owoce z tego regionu są w rozdziale szczególnie cenione?",
+    "prompt": "W okolicach Grójca znajdują się bardzo duże sady. Które owoce z tego regionu są szczególnie cenione?",
     "options": [
       "polskie jabłka",
       "banany",
@@ -1295,7 +1295,7 @@ const ALL_EXERCISES = [
       "kokosy"
     ],
     "answer": 0,
-    "explanation": "W rozdziale podkreślono, że w okolicach Grójca są jedne z największych sadów w Polsce, a szczególnie cenione są polskie jabłka."
+    "explanation": "W okolicach Grójca są jedne z największych sadów w Polsce, a szczególnie cenione są polskie jabłka."
   }
 ];
 

@@ -76,7 +76,7 @@ const ALL_EXERCISES = [
     "id": "R04_BIZ_05",
     "section": "Bizancjum",
     "type": "multi_select",
-    "prompt": "Zaznacz osiągnięcia Bizancjum opisane w rozdziale.",
+    "prompt": "Zaznacz osiągnięcia Bizancjum.",
     "options": [
       "Kodeks Justyniana",
       "Bazylika Hagia Sophia",
@@ -111,7 +111,7 @@ const ALL_EXERCISES = [
     "id": "R04_BIZ_07",
     "section": "Bizancjum",
     "type": "single_choice",
-    "prompt": "Która budowla jest w rozdziale przedstawiona jako najwspanialszy przykład architektury bizantyjskiej?",
+    "prompt": "Która budowla jest przedstawiona jako najwspanialszy przykład architektury bizantyjskiej?",
     "options": [
       "Koloseum",
       "Hagia Sophia",
@@ -208,7 +208,7 @@ const ALL_EXERCISES = [
     "id": "R04_ARA_01",
     "section": "Arabowie i początki islamu",
     "type": "single_choice",
-    "prompt": "Na którym obszarze mieszkali dawni Arabowie opisani w rozdziale?",
+    "prompt": "Na którym obszarze mieszkali dawni Arabowie?",
     "options": [
       "Półwysep Arabski",
       "Półwysep Apeniński",
@@ -390,7 +390,7 @@ const ALL_EXERCISES = [
         "judaizm i chrześcijaństwo jako wcześniejsze religie monoteistyczne"
       ]
     },
-    "explanation": "Rozdział pokazuje zarówno elementy islamu, jak i wpływy chrześcijaństwa oraz judaizmu w nauczaniu Mahometa."
+    "explanation": "Pokazuje się zarówno elementy islamu, jak i wpływy chrześcijaństwa oraz judaizmu w nauczaniu Mahometa."
   },
   {
     "id": "R04_ARA_11",
@@ -424,7 +424,7 @@ const ALL_EXERCISES = [
       "O ugodzie w Wormacji"
     ],
     "answer": 0,
-    "explanation": "Rozdział opisuje wpływ cywilizacji arabskiej na Europę przez naukę, handel, tłumaczenia i zapożyczenia językowe."
+    "explanation": "Opisuje się wpływ cywilizacji arabskiej na Europę przez naukę, handel, tłumaczenia i zapożyczenia językowe."
   },
   {
     "id": "R04_KAR_01",
@@ -802,7 +802,7 @@ const ALL_EXERCISES = [
     "id": "R04_NOW_09",
     "section": "Nowe państwa w Europie",
     "type": "single_choice",
-    "prompt": "Które państwa słowiańskie przyjęły chrzest w X wieku według rozdziału?",
+    "prompt": "Które państwa słowiańskie przyjęły chrzest w X wieku?",
     "options": [
       "Czechy, państwo Polan i Ruś Kijowska",
       "Hiszpania, Egipt i Syria",
@@ -847,7 +847,7 @@ const ALL_EXERCISES = [
     "id": "R04_NOW_12",
     "section": "Nowe państwa w Europie",
     "type": "scenario",
-    "prompt": "Książę z X wieku przyjmuje chrzest, bo chce wzmocnić swoje państwo i wejść do świata chrześcijańskich władców. Która grupa państw pasuje do takiego procesu w rozdziale?",
+    "prompt": "Książę z X wieku przyjmuje chrzest, bo chce wzmocnić swoje państwo i wejść do świata chrześcijańskich władców. Która grupa państw pasuje do takiego procesu?",
     "options": [
       "Czechy, państwo Polan i Ruś Kijowska",
       "Państwo Lotara, Kalifat Kordobański i Mekka",
@@ -855,7 +855,7 @@ const ALL_EXERCISES = [
       "Norwegia, Dania i Szwecja"
     ],
     "answer": 0,
-    "explanation": "Rozdział podaje, że w X wieku chrzest przyjęły słowiańskie Czechy, państwo Polan oraz Ruś Kijowska."
+    "explanation": "W X wieku chrzest przyjęły słowiańskie Czechy, państwo Polan oraz Ruś Kijowska."
   },
   {
     "id": "R04_PAP_01",
@@ -1095,7 +1095,7 @@ const ALL_EXERCISES = [
       "843": "traktat w Verdun",
       "962": "koronacja Ottona I"
     },
-    "explanation": "Daty z rozdziału wyznaczają najważniejsze punkty dziejów wczesnego średniowiecza."
+    "explanation": "Daty wyznaczają najważniejsze punkty dziejów wczesnego średniowiecza."
   },
   {
     "id": "R04_HARD_02",
@@ -1139,7 +1139,7 @@ const ALL_EXERCISES = [
         "utworzenie Państwa Kościelnego"
       ]
     },
-    "explanation": "Każde z tych wydarzeń wywołało inne skutki polityczne lub religijne opisane w rozdziale."
+    "explanation": "Każde z tych wydarzeń wywołało inne skutki polityczne lub religijne."
   },
   {
     "id": "R04_HARD_03",

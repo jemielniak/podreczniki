@@ -779,13 +779,13 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "W podręczniku wymieniono rozwój matematyki, fizyki, astronomii, wiedzy przyrodniczej i medycyny."
+    "explanation": "Wymieniono rozwój matematyki, fizyki, astronomii, wiedzy przyrodniczej i medycyny."
   },
   {
     "id": "R02_KUL_04",
     "section": "Nauka, literatura i sztuka",
     "type": "match",
-    "prompt": "Połącz postać z dziedziną lub osiągnięciem wskazanym w rozdziale.",
+    "prompt": "Połącz postać z dziedziną lub osiągnięciem.",
     "options": null,
     "left": [
       "Pitagoras",
@@ -805,7 +805,7 @@ const ALL_EXERCISES = [
       "Herodot": "ojciec historii",
       "Homer": "autor Iliady i Odysei"
     },
-    "explanation": "Rozdział pokazuje, że Grecy rozwijali filozofię, medycynę, historię i literaturę."
+    "explanation": "Grecy rozwijali filozofię, medycynę, historię i literaturę."
   },
   {
     "id": "R02_KUL_05",
@@ -882,7 +882,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_09",
     "section": "Nauka, literatura i sztuka",
     "type": "match",
-    "prompt": "Połącz porządek architektoniczny z jego miejscem w zestawieniu głowic kolumn z podręcznika.",
+    "prompt": "Połącz porządek architektoniczny z jego miejscem w zestawieniu głowic kolumn.",
     "options": null,
     "left": [
       "dorycki",
@@ -900,7 +900,7 @@ const ALL_EXERCISES = [
       "koryncki": "trzeci w zestawieniu"
     },
     "image": "/img/r02_porzadki_kolumn.jpg",
-    "explanation": "Podręcznik pokazuje trzy porządki greckiej architektury: dorycki, joński i koryncki."
+    "explanation": "Pokazuje się trzy porządki greckiej architektury: dorycki, joński i koryncki."
   },
   {
     "id": "R02_KUL_10",
@@ -944,7 +944,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r02_wojny_grecko_perskie_mapa.jpg",
-    "explanation": "Podręcznik podkreśla, że 300 Spartan walczyło do śmierci, aby osłonić odwrót Greków."
+    "explanation": "300 Spartan walczyło do śmierci, aby osłonić odwrót Greków."
   },
   {
     "id": "R02_WOJ_03",
@@ -1117,7 +1117,7 @@ const ALL_EXERCISES = [
       "rok 334 przed Aleksandrem"
     ],
     "answer": 0,
-    "explanation": "Podręcznik podaje przykład, że 429 rok p.n.e. określano jako 4 rok 87 olimpiady."
+    "explanation": "Podaje się przykład, że 429 rok p.n.e. określano jako 4 rok 87 olimpiady."
   },
   {
     "id": "R02_HARD_02",
@@ -1126,7 +1126,7 @@ const ALL_EXERCISES = [
     "prompt": "Perykles był wybierany na urząd stratega czternaście razy.",
     "options": null,
     "answer": true,
-    "explanation": "Podpis w podręczniku informuje, że Peryklesa aż 14 razy wybierano na urząd stratega."
+    "explanation": "Podpis informuje, że Peryklesa aż 14 razy wybierano na urząd stratega."
   },
   {
     "id": "R02_HARD_03",
@@ -1156,7 +1156,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz autora z typem twórczości dramatycznej wymienionym w rozdziale.",
+    "prompt": "Połącz autora z typem twórczości dramatycznej.",
     "options": null,
     "left": [
       "Ajschylos",

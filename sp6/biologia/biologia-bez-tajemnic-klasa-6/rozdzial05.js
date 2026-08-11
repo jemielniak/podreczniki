@@ -28,7 +28,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTA_02",
     "section": "Ptaki",
     "type": "single_choice",
-    "prompt": "Z jaką grupą wymarłych zwierząt wiąże się pochodzenie ptaków opisane w rozdziale?",
+    "prompt": "Z jaką grupą wymarłych zwierząt wiąże się pochodzenie ptaków?",
     "options": [
       "z jedną z grup dinozaurów",
       "z rybami chrzęstnoszkieletowymi",
@@ -39,13 +39,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r05_archeopteryks.jpg",
-    "explanation": "W rozdziale podano, że ptaki najprawdopodobniej wywodzą się od jednej z grup dinozaurów."
+    "explanation": "Ptaki najprawdopodobniej wywodzą się od jednej z grup dinozaurów."
   },
   {
     "id": "R05_PTA_03",
     "section": "Ptaki",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy archeopteryksa podane w rozdziale.",
+    "prompt": "Zaznacz cechy archeopteryksa.",
     "options": [
       "miał skrzydła i pióra",
       "miał ogon, zęby i pazury",
@@ -77,7 +77,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTA_05",
     "section": "Ptaki",
     "type": "multi_select",
-    "prompt": "Zaznacz wspólne cechy ptaków opisane w rozdziale.",
+    "prompt": "Zaznacz wspólne cechy ptaków.",
     "options": [
       "są stałocieplne",
       "mają ciało pokryte piórami",
@@ -204,7 +204,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTA_12",
     "section": "Ptaki",
     "type": "riddle",
-    "prompt": "Najwcześniejszy znany ptak wymieniony w rozdziale to...",
+    "prompt": "Najwcześniejszy znany ptak to...",
     "options": null,
     "answer": "archeopteryks",
     "altAnswers": [
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
       "Archeopteryks"
     ],
     "image": "/img/r05_archeopteryks.jpg",
-    "explanation": "Archeopteryks to najwcześniejszy znany ptak opisany w rozdziale."
+    "explanation": "Archeopteryks to najwcześniejszy znany ptak."
   },
   {
     "id": "R05_ROP_01",
@@ -239,7 +239,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r05_jajo_ptaka_budowa.jpg",
-    "explanation": "W rozdziale podano, że wszystkie ptaki składają jaja."
+    "explanation": "Wszystkie ptaki składają jaja."
   },
   {
     "id": "R05_ROP_03",
@@ -342,7 +342,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROP_07",
     "section": "Rozmnażanie ptaków",
     "type": "single_choice",
-    "prompt": "Który przykład należy do zagniazdowników według rozdziału?",
+    "prompt": "Który przykład należy do zagniazdowników?",
     "options": [
       "kaczki",
       "sokoły",
@@ -359,7 +359,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROP_08",
     "section": "Rozmnażanie ptaków",
     "type": "single_choice",
-    "prompt": "Który przykład należy do gniazdowników według rozdziału?",
+    "prompt": "Który przykład należy do gniazdowników?",
     "options": [
       "dzięcioły",
       "kaczki",
@@ -456,7 +456,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_02",
     "section": "Ptaki: znaczenie i ochrona",
     "type": "match",
-    "prompt": "Połącz ptaka z cechą skrzydeł lub sposobem poruszania się opisanym w rozdziale.",
+    "prompt": "Połącz ptaka z cechą skrzydeł lub sposobem poruszania się.",
     "options": null,
     "left": [
       "albatros wędrowny",
@@ -480,7 +480,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_03",
     "section": "Ptaki: znaczenie i ochrona",
     "type": "match",
-    "prompt": "Połącz dziób z funkcją wynikającą z opisu w rozdziale.",
+    "prompt": "Połącz dziób z funkcją wynikającą z opisu.",
     "options": null,
     "left": [
       "krótki, mocny dziób bogatki",
@@ -510,7 +510,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_04",
     "section": "Ptaki: znaczenie i ochrona",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie ptaków w przyrodzie opisane w rozdziale.",
+    "prompt": "Zaznacz znaczenie ptaków w przyrodzie.",
     "options": [
       "regulują liczebność organizmów",
       "rozsiewają nasiona",
@@ -615,7 +615,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_09",
     "section": "Ptaki: znaczenie i ochrona",
     "type": "single_choice",
-    "prompt": "Który ptak opisany w rozdziale odfiltrowuje pokarm z wody szerokim dziobem?",
+    "prompt": "Który ptak odfiltrowuje pokarm z wody szerokim dziobem?",
     "options": [
       "krzyżówka",
       "sokół wędrowny",
@@ -636,7 +636,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r05_ochrona_ptakow.jpg",
-    "explanation": "W rozdziale podano, że niewypuszczanie kotów domowych na dwór ogranicza ich polowanie na ptaki i wyjadanie piskląt."
+    "explanation": "Niewypuszczanie kotów domowych na dwór ogranicza ich polowanie na ptaki i wyjadanie piskląt."
   },
   {
     "id": "R05_ZPT_11",
@@ -682,7 +682,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSA_02",
     "section": "Ssaki",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy wspólne ssaków opisane w rozdziale.",
+    "prompt": "Zaznacz cechy wspólne ssaków.",
     "options": [
       "gruczoły mlekowe",
       "skóra pokryta włosami u większości gatunków",
@@ -880,7 +880,7 @@ const ALL_EXERCISES = [
     "id": "R05_RSS_01",
     "section": "Różnorodność ssaków",
     "type": "multi_select",
-    "prompt": "Zaznacz środowiska życia ssaków wymienione w rozdziale.",
+    "prompt": "Zaznacz środowiska życia ssaków.",
     "options": [
       "ląd",
       "siedliska słodkowodne",
@@ -967,7 +967,7 @@ const ALL_EXERCISES = [
     "id": "R05_RSS_05",
     "section": "Różnorodność ssaków",
     "type": "single_choice",
-    "prompt": "Który ssak wymieniony w rozdziale żyje w zimnych rejonach Azji i znosi silny mróz?",
+    "prompt": "Który ssak żyje w zimnych rejonach Azji i znosi silny mróz?",
     "options": [
       "tygrys syberyjski",
       "kangur rudy",
@@ -1026,7 +1026,7 @@ const ALL_EXERCISES = [
     "id": "R05_RSS_07",
     "section": "Różnorodność ssaków",
     "type": "single_choice",
-    "prompt": "Który opis najlepiej pasuje do roślinożerców według rozdziału?",
+    "prompt": "Który opis najlepiej pasuje do roślinożerców?",
     "options": [
       "mają duże i szerokie zęby przedtrzonowe i trzonowe",
       "mają wyłącznie długie ostre kły",
@@ -1060,7 +1060,7 @@ const ALL_EXERCISES = [
     "id": "R05_RSS_09",
     "section": "Różnorodność ssaków",
     "type": "scenario",
-    "prompt": "Uczeń obserwuje ssaka, którego kończyny są przekształcone w płetwy i który pływa w morzu. Do którego przykładu z rozdziału najbardziej pasuje ten opis?",
+    "prompt": "Uczeń obserwuje ssaka, którego kończyny są przekształcone w płetwy i który pływa w morzu. Do którego przykładu najbardziej pasuje ten opis?",
     "options": [
       "morświn zwyczajny",
       "kret europejski",
@@ -1081,7 +1081,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r05_uzebienie_ssakow.jpg",
-    "explanation": "W rozdziale podano, że uzębienie wszystkożerców łączy cechy uzębienia roślinożerców i mięsożerców."
+    "explanation": "Uzębienie wszystkożerców łączy cechy uzębienia roślinożerców i mięsożerców."
   },
   {
     "id": "R05_RSS_11",
@@ -1111,7 +1111,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_01",
     "section": "Ssaki: znaczenie i ochrona",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie ssaków w przyrodzie opisane w rozdziale.",
+    "prompt": "Zaznacz znaczenie ssaków w przyrodzie.",
     "options": [
       "regulują liczebność organizmów",
       "rozprzestrzeniają nasiona",
@@ -1262,7 +1262,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r05_zagrozenia_ssakow.jpg",
-    "explanation": "W rozdziale jako przykład gatunku inwazyjnego podano m.in. szopa pracza."
+    "explanation": "Jako przykład gatunku inwazyjnego podano m.in. szopa pracza."
   },
   {
     "id": "R05_ZSS_08",
@@ -1338,7 +1338,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz cechę z grupą kręgowców, której najlepiej dotyczy w tym rozdziale.",
+    "prompt": "Połącz cechę z grupą kręgowców, której najlepiej dotyczy.",
     "options": null,
     "left": [
       "pióra",

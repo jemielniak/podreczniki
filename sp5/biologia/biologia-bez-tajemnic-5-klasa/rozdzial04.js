@@ -609,7 +609,7 @@ const ALL_EXERCISES = [
     "id": "R04_ORG_11",
     "section": "Korzeń, łodyga i liść",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje liścia wymienione w rozdziale.",
+    "prompt": "Zaznacz funkcje liścia.",
     "options": [
       "fotosynteza",
       "wymiana gazowa",
@@ -661,7 +661,7 @@ const ALL_EXERCISES = [
       "korzenie podporowe": "kukurydza",
       "ssawki": "jemioła"
     },
-    "explanation": "Rozdział podaje te rośliny jako przykłady poszczególnych modyfikacji korzeni.",
+    "explanation": "Podaje się te rośliny jako przykłady poszczególnych modyfikacji korzeni.",
     "image": "r04_modyfikacje_korzeni.jpg"
   },
   {
@@ -812,7 +812,7 @@ const ALL_EXERCISES = [
     "id": "R04_MOD_10",
     "section": "Modyfikacje organów",
     "type": "scenario",
-    "prompt": "Roślina żyje w suchym środowisku. Jej liście przekształciły się w ciernie, które ograniczają utratę wody i chronią przed zjedzeniem. O jakiej roślinie mówi przykład z rozdziału?",
+    "prompt": "Roślina żyje w suchym środowisku. Jej liście przekształciły się w ciernie, które ograniczają utratę wody i chronią przed zjedzeniem. O jakiej roślinie mówi przykład?",
     "options": [
       "kaktus",
       "truskawka",
@@ -1087,7 +1087,7 @@ const ALL_EXERCISES = [
     "id": "R04_KNO_12",
     "section": "Kwiat, nasiono i owoc",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady przystosowań owoców do rozsiewania nasion opisane w rozdziale.",
+    "prompt": "Zaznacz przykłady przystosowań owoców do rozsiewania nasion.",
     "options": [
       "aparat lotny mniszka",
       "haczyki owoców ostu",

@@ -49,10 +49,10 @@ const ALL_EXERCISES = [
     "id": "R02_KLA_03",
     "section": "Klasyfikacja organizmów",
     "type": "true_false",
-    "prompt": "Świat organizmów podzielono w podręczniku na trzy domeny i sześć królestw.",
+    "prompt": "Świat organizmów podzielono na trzy domeny i sześć królestw.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano trzy domeny: archeowce, bakterie i eukarionty, a w nich łącznie sześć królestw.",
+    "explanation": "Podano trzy domeny: archeowce, bakterie i eukarionty, a w nich łącznie sześć królestw.",
     "image": "r02_domeny_krolestwa.jpg"
   },
   {
@@ -260,7 +260,7 @@ const ALL_EXERCISES = [
       1,
       3
     ],
-    "explanation": "Podręcznik podkreśla zasadę ograniczonego zaufania: rozpoznanie trzeba potwierdzić, zwłaszcza gdy organizm mógłby być trujący."
+    "explanation": "Podkreśla się zasadę ograniczonego zaufania: rozpoznanie trzeba potwierdzić, zwłaszcza gdy organizm mógłby być trujący."
   },
   {
     "id": "R02_KLU_06",
@@ -297,7 +297,7 @@ const ALL_EXERCISES = [
     "id": "R02_KLU_08",
     "section": "Klucze do oznaczania",
     "type": "scenario",
-    "prompt": "Aplikacja rozpoznała owoce dzikiej rośliny jako jadalne. Co jest najbezpieczniejszym zachowaniem zgodnym z rozdziałem?",
+    "prompt": "Aplikacja rozpoznała owoce dzikiej rośliny jako jadalne. Co jest najbezpieczniejszym zachowaniem?",
     "options": [
       "Sprawdzić rozpoznanie w innych źródłach i nie jeść bez pewności",
       "Natychmiast spróbować owoców",
@@ -341,7 +341,7 @@ const ALL_EXERCISES = [
     "id": "R02_WIR_01",
     "section": "Wirusy",
     "type": "single_choice",
-    "prompt": "Z czego składa się cząstka wirusa według rozdziału?",
+    "prompt": "Z czego składa się cząstka wirusa?",
     "options": [
       "Z kwasu nukleinowego w otoczce białkowej",
       "Z jądra komórkowego i chloroplastów",
@@ -361,7 +361,7 @@ const ALL_EXERCISES = [
     "prompt": "Wirusy są organizmami, ponieważ samodzielnie wykonują wszystkie czynności życiowe.",
     "options": null,
     "answer": false,
-    "explanation": "Wirusy nie wykonują czynności życiowych i nie mają budowy komórkowej, dlatego w rozdziale nie są uznane za organizmy."
+    "explanation": "Wirusy nie wykonują czynności życiowych i nie mają budowy komórkowej, dlatego nie są uznane za organizmy."
   },
   {
     "id": "R02_WIR_03",
@@ -448,7 +448,7 @@ const ALL_EXERCISES = [
       "otoczka białkowa": "białkowa warstwa otaczająca materiał wirusa",
       "osłonka z wyrostkami": "dodatkowa warstwa obecna u niektórych wirusów"
     },
-    "explanation": "Model wirusa HIV w podręczniku pokazuje kwas nukleinowy, otoczkę białkową oraz osłonkę z wyrostkami.",
+    "explanation": "Model wirusa HIV pokazuje kwas nukleinowy, otoczkę białkową oraz osłonkę z wyrostkami.",
     "image": "r02_model_wirusa.jpg"
   },
   {
@@ -458,7 +458,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie jest chorobą wirusową: grypa, COVID-19, odra, borelioza.",
     "options": null,
     "answer": "borelioza",
-    "explanation": "Borelioza jest wymieniona w rozdziale jako choroba bakteryjna, a pozostałe choroby są wirusowe."
+    "explanation": "Borelioza jest jako choroba bakteryjna, a pozostałe choroby są wirusowe."
   },
   {
     "id": "R02_WIR_08",
@@ -512,7 +512,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_01",
     "section": "Bakterie",
     "type": "single_choice",
-    "prompt": "Gdzie według rozdziału występują bakterie?",
+    "prompt": "Gdzie występują bakterie?",
     "options": [
       "Niemal w każdym środowisku na Ziemi",
       "Wyłącznie w gorących źródłach",
@@ -531,7 +531,7 @@ const ALL_EXERCISES = [
     "prompt": "Bakterie są organizmami jednokomórkowymi.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział opisuje bakterie jako organizmy jednokomórkowe, zwykle mikroskopijne."
+    "explanation": "Opisuje się bakterie jako organizmy jednokomórkowe, zwykle mikroskopijne."
   },
   {
     "id": "R02_BAK_03",
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
       "krętek": "długa spiralnie skręcona komórka",
       "dwoinka": "dwie połączone komórki"
     },
-    "explanation": "W rozdziale pokazano różne kształty bakterii: ziarenkowce, pałeczki, krętki oraz komórki połączone w pary."
+    "explanation": "Pokazano różne kształty bakterii: ziarenkowce, pałeczki, krętki oraz komórki połączone w pary."
   },
   {
     "id": "R02_BAK_06",
@@ -613,7 +613,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie jest chorobą bakteryjną: gruźlica, salmonelloza, angina, ospa wietrzna.",
     "options": null,
     "answer": "ospa wietrzna",
-    "explanation": "Ospa wietrzna jest chorobą wirusową, a gruźlica, salmonelloza i angina są w rozdziale przykładami chorób bakteryjnych."
+    "explanation": "Ospa wietrzna jest chorobą wirusową, a gruźlica, salmonelloza i angina są przykładami chorób bakteryjnych."
   },
   {
     "id": "R02_BAK_07",
@@ -666,7 +666,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_09",
     "section": "Bakterie",
     "type": "multi_select",
-    "prompt": "Zaznacz sposoby zapobiegania chorobom bakteryjnym opisane w rozdziale.",
+    "prompt": "Zaznacz sposoby zapobiegania chorobom bakteryjnym.",
     "options": [
       "higiena i właściwe przygotowanie pokarmów",
       "szczepienia ochronne",
@@ -688,7 +688,7 @@ const ALL_EXERCISES = [
     "id": "R02_PRO_01",
     "section": "Protisty",
     "type": "single_choice",
-    "prompt": "Jaka cecha jest wspólna dla protistów według rozdziału?",
+    "prompt": "Jaka cecha jest wspólna dla protistów?",
     "options": [
       "Obecność jądra w komórkach",
       "Brak jądra komórkowego",
@@ -707,7 +707,7 @@ const ALL_EXERCISES = [
     "prompt": "Protisty tworzą bardzo zróżnicowaną grupę, której przedstawicieli często więcej dzieli niż łączy.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podkreślono, że protisty nie są blisko spokrewnione i mogą przypominać rośliny, zwierzęta albo grzyby."
+    "explanation": "Protisty nie są blisko spokrewnione i mogą przypominać rośliny, zwierzęta albo grzyby."
   },
   {
     "id": "R02_PRO_03",
@@ -775,7 +775,7 @@ const ALL_EXERCISES = [
       "morszczyn pęcherzykowaty": "wielokomórkowy protist morski",
       "ameba": "porusza się wypustkami komórki"
     },
-    "explanation": "Rozdział opisuje kilka protistów: euglenę, pantofelka, morszczyn, amebę i okrzemki.",
+    "explanation": "Opisuje się kilka protistów: euglenę, pantofelka, morszczyn, amebę i okrzemki.",
     "image": "r02_euglena_pantofelek.jpg"
   },
   {
@@ -791,7 +791,7 @@ const ALL_EXERCISES = [
     "id": "R02_PRO_07",
     "section": "Protisty",
     "type": "scenario",
-    "prompt": "Podróżny jedzie do gorącego kraju, gdzie występuje malaria. Które działanie pomaga ograniczyć ryzyko zakażenia opisane w rozdziale?",
+    "prompt": "Podróżny jedzie do gorącego kraju, gdzie występuje malaria. Które działanie pomaga ograniczyć ryzyko zakażenia?",
     "options": [
       "Stosowanie środków odstraszających komary",
       "Jedzenie surowego mięsa",
@@ -885,7 +885,7 @@ const ALL_EXERCISES = [
     "id": "R02_GRZ_03",
     "section": "Grzyby i porosty",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca, w których według rozdziału można spotkać grzyby.",
+    "prompt": "Zaznacz miejsca, w których można spotkać grzyby.",
     "options": [
       "w ściółce leśnej",
       "na drewnie i pniach drzew",
@@ -971,7 +971,7 @@ const ALL_EXERCISES = [
     "id": "R02_GRZ_07",
     "section": "Grzyby i porosty",
     "type": "scenario",
-    "prompt": "Drożdże w cieście wykorzystują oddychanie beztlenowe opisane w rozdziale. Jak nazywa się ten proces?",
+    "prompt": "Drożdże w cieście wykorzystują oddychanie beztlenowe. Jak nazywa się ten proces?",
     "options": [
       "fermentacja alkoholowa",
       "fotosynteza",
@@ -1034,7 +1034,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Które królestwa należą w rozdziale do domeny eukariontów?",
+    "prompt": "Które królestwa należą do domeny eukariontów?",
     "options": [
       "protisty",
       "grzyby",
@@ -1056,7 +1056,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz domenę z królestwem lub królestwami opisanymi w rozdziale.",
+    "prompt": "Połącz domenę z królestwem lub królestwami.",
     "options": null,
     "left": [
       "archeowce",
@@ -1115,7 +1115,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która para cech najlepiej odróżnia grzyby od roślin w rozdziale?",
+    "prompt": "Która para cech najlepiej odróżnia grzyby od roślin?",
     "options": [
       "Brak chloroplastów i cudzożywność",
       "Obecność chloroplastów i samożywność",
@@ -1172,13 +1172,13 @@ const ALL_EXERCISES = [
     "prompt": "Co nie jest przykładem związanym z grzybami pasożytniczymi lub pleśniowymi: gronkowiec szary, buławinka czerwona, czerniak klonowy, sinice.",
     "options": null,
     "answer": "sinice",
-    "explanation": "Sinice są samożywnymi bakteriami, a pozostałe przykłady w rozdziale dotyczą grzybów wywołujących choroby lub pleśnie."
+    "explanation": "Sinice są samożywnymi bakteriami, a pozostałe przykłady dotyczą grzybów wywołujących choroby lub pleśnie."
   },
   {
     "id": "R02_HARD_09",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Po spacerze w terenie ktoś zauważył kleszcza. Jakie działanie najlepiej pasuje do profilaktyki chorób bakteryjnych opisanej w rozdziale?",
+    "prompt": "Po spacerze w terenie ktoś zauważył kleszcza. Jakie działanie najlepiej pasuje do profilaktyki chorób bakteryjnych?",
     "options": [
       "Noszenie odzieży ochronnej i stosowanie środków odstraszających kleszcze",
       "Celowe chodzenie po wysokiej trawie bez ochrony",
@@ -1223,13 +1223,13 @@ const ALL_EXERCISES = [
         "grzybica"
       ]
     },
-    "explanation": "Rozdział zestawia choroby wywoływane przez różne czynniki: wirusy, bakterie, protisty pasożytnicze i grzyby."
+    "explanation": "Zestawia się choroby wywoływane przez różne czynniki: wirusy, bakterie, protisty pasożytnicze i grzyby."
   },
   {
     "id": "R02_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz element lub substancję z grupą, dla której jest najbardziej charakterystyczna w rozdziale.",
+    "prompt": "Połącz element lub substancję z grupą, dla której jest najbardziej charakterystyczna.",
     "options": null,
     "left": [
       "kwas nukleinowy w otoczce białkowej",
@@ -1249,7 +1249,7 @@ const ALL_EXERCISES = [
       "chloroplasty eugleny": "protisty",
       "ściana komórkowa z chityny": "grzyby"
     },
-    "explanation": "Każda z tych cech pomaga odróżniać grupy omawiane w rozdziale: wirusy, bakterie, protisty i grzyby."
+    "explanation": "Każda z tych cech pomaga odróżniać grupy: wirusy, bakterie, protisty i grzyby."
   },
   {
     "id": "R02_HARD_12",
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
     "prompt": "Brak porostów na drzewach może wskazywać na duże zanieczyszczenie powietrza.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że porosty mogą być wskaźnikiem czystości powietrza, a ich brak na drzewach wskazuje na duże zanieczyszczenie.",
+    "explanation": "Porosty mogą być wskaźnikiem czystości powietrza, a ich brak na drzewach wskazuje na duże zanieczyszczenie.",
     "image": "r02_porost_przekroj.jpg"
   }
 ];

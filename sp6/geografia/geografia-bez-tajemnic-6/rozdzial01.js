@@ -22,7 +22,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_poludniki_globus.jpg",
-    "explanation": "W rozdziale wyjaśniono, że długość geograficzną określa wartość południka przechodzącego przez dany punkt."
+    "explanation": "Długość geograficzną określa wartość południka przechodzącego przez dany punkt."
   },
   {
     "id": "R01_DLU_02",
@@ -96,7 +96,7 @@ const ALL_EXERCISES = [
       "0"
     ],
     "answer": 0,
-    "explanation": "W podręczniku półkulę zachodnią oznaczono literą W, a wschodnią literą E."
+    "explanation": "Półkulę zachodnią oznaczono literą W, a wschodnią literą E."
   },
   {
     "id": "R01_DLU_07",
@@ -395,7 +395,7 @@ const ALL_EXERCISES = [
     "prompt": "Przy podawaniu współrzędnych najczęściej najpierw określa się szerokość geograficzną, a potem długość geograficzną.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. W podręczniku podano, że w pierwszej kolejności najczęściej zapisuje się szerokość, a po niej długość."
+    "explanation": "To prawda. W pierwszej kolejności najczęściej zapisuje się szerokość, a po niej długość."
   },
   {
     "id": "R01_WSP_03",
@@ -414,7 +414,7 @@ const ALL_EXERCISES = [
     "id": "R01_WSP_04",
     "section": "Współrzędne geograficzne",
     "type": "scenario",
-    "prompt": "Organizator wycieczki podał współrzędne 53°46'N, 20°28'E. Który Olsztyn wskazują te współrzędne według przykładu z rozdziału?",
+    "prompt": "Organizator wycieczki podał współrzędne 53°46'N, 20°28'E. Który Olsztyn wskazują te współrzędne według przykładu?",
     "options": [
       "Olsztyn na Pojezierzu Mazurskim",
       "Olsztyn na Wyżynie Krakowsko-Częstochowskiej",
@@ -425,7 +425,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_mapka_olsztyny.jpg",
-    "explanation": "W rozdziale te współrzędne wskazują Olsztyn na Pojezierzu Mazurskim."
+    "explanation": "Te współrzędne wskazują Olsztyn na Pojezierzu Mazurskim."
   },
   {
     "id": "R01_WSP_05",
@@ -471,7 +471,7 @@ const ALL_EXERCISES = [
     "id": "R01_WSP_07",
     "section": "Współrzędne geograficzne",
     "type": "multi_select",
-    "prompt": "Zaznacz sytuacje z życia codziennego, w których rozdział wskazuje wykorzystanie współrzędnych geograficznych.",
+    "prompt": "Zaznacz sytuacje z życia codziennego, w których wskazuje się wykorzystanie współrzędnych geograficznych.",
     "options": [
       "wyznaczanie trasy podróży",
       "śledzenie zamówionej przesyłki",
@@ -485,7 +485,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Autorzy rozdziału podają przykłady związane z GPS: wyznaczanie trasy, śledzenie przesyłki i gry wymagające określenia lokalizacji."
+    "explanation": "Przykłady związane z GPS to: wyznaczanie trasy, śledzenie przesyłki i gry wymagające określenia lokalizacji."
   },
   {
     "id": "R01_WSP_08",
@@ -552,7 +552,7 @@ const ALL_EXERCISES = [
     "prompt": "Podanie współrzędnych geograficznych pozwala precyzyjnie określić lokalizację miejsca w przestrzeni geograficznej.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda. Rozdział wyjaśnia, że współrzędne umożliwiają dokładne wskazanie położenia miejsca."
+    "explanation": "To prawda. Współrzędne umożliwiają dokładne wskazanie położenia miejsca."
   },
   {
     "id": "R01_WSP_12",
@@ -616,13 +616,13 @@ const ALL_EXERCISES = [
       "odejmujemy",
       "dodajemy"
     ],
-    "explanation": "W podręczniku pokazano zasadę: na tej samej półkuli wartości odejmujemy, a na różnych półkulach dodajemy."
+    "explanation": "Pokazano zasadę: na tej samej półkuli wartości odejmujemy, a na różnych półkulach dodajemy."
   },
   {
     "id": "R01_ROZ_05",
     "section": "Rozciągłość obszarów",
     "type": "scenario",
-    "prompt": "Afryka ma punkt najdalej na północ przy 37°N i punkt najdalej na południe przy 35°S. Ile wynosi jej rozciągłość południkowa według przykładu z rozdziału?",
+    "prompt": "Afryka ma punkt najdalej na północ przy 37°N i punkt najdalej na południe przy 35°S. Ile wynosi jej rozciągłość południkowa według przykładu?",
     "options": [
       "72°",
       "2°",
@@ -639,7 +639,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_06",
     "section": "Rozciągłość obszarów",
     "type": "scenario",
-    "prompt": "Afryka ma punkt najdalej na zachód przy 18°W i punkt najdalej na wschód przy 51°E. Ile wynosi jej rozciągłość równoleżnikowa według przykładu z rozdziału?",
+    "prompt": "Afryka ma punkt najdalej na zachód przy 18°W i punkt najdalej na wschód przy 51°E. Ile wynosi jej rozciągłość równoleżnikowa według przykładu?",
     "options": [
       "69°",
       "33°",
@@ -656,7 +656,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_07",
     "section": "Rozciągłość obszarów",
     "type": "match",
-    "prompt": "Połącz skrajny punkt Afryki z podanymi w rozdziale współrzędnymi.",
+    "prompt": "Połącz skrajny punkt Afryki z współrzędnymi.",
     "options": null,
     "left": [
       "Przylądek Ras al-Ghiran",
@@ -677,7 +677,7 @@ const ALL_EXERCISES = [
       "Przylądek Raas Xaafuun": "10°N, 51°E"
     },
     "image": "r01_afryka_skrajne_punkty.jpg",
-    "explanation": "Przykład w rozdziale podaje współrzędne czterech skrajnych punktów Afryki."
+    "explanation": "Przykład podaje współrzędne czterech skrajnych punktów Afryki."
   },
   {
     "id": "R01_ROZ_08",
@@ -751,7 +751,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_12",
     "section": "Rozciągłość obszarów",
     "type": "sequence",
-    "prompt": "Ułóż działania potrzebne do obliczenia rozciągłości Afryki w przykładzie z rozdziału.",
+    "prompt": "Ułóż działania potrzebne do obliczenia rozciągłości Afryki w przykładzie.",
     "options": null,
     "items": [
       "Oblicz rozciągłość równoleżnikową z długości punktów W i E",
@@ -772,7 +772,7 @@ const ALL_EXERCISES = [
     "id": "R01_GPS_01",
     "section": "GPS i siatki",
     "type": "single_choice",
-    "prompt": "Co oznacza skrót GPS według rozdziału?",
+    "prompt": "Co oznacza skrót GPS?",
     "options": [
       "Global Positioning System",
       "Geographic Parallel Scale",
@@ -799,7 +799,7 @@ const ALL_EXERCISES = [
     "id": "R01_GPS_03",
     "section": "GPS i siatki",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje urządzeń i aplikacji GPS wymienione w rozdziale.",
+    "prompt": "Zaznacz funkcje urządzeń i aplikacji GPS.",
     "options": [
       "podają współrzędne miejsca",
       "odszukują punkt na podstawie znanych współrzędnych",
@@ -816,7 +816,7 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "r01_odbiornik_gps.jpg",
-    "explanation": "Rozdział wymienia między innymi podawanie współrzędnych, wyszukiwanie punktu, zapis trasy, obliczanie długości i pokonanej wysokości oraz wskazywanie kierunków świata."
+    "explanation": "Wymienia się między innymi podawanie współrzędnych, wyszukiwanie punktu, zapis trasy, obliczanie długości i pokonanej wysokości oraz wskazywanie kierunków świata."
   },
   {
     "id": "R01_GPS_04",
@@ -825,7 +825,7 @@ const ALL_EXERCISES = [
     "prompt": "Urządzenia GPS najlepiej działają wewnątrz budynków, z dala od otwartej przestrzeni.",
     "options": null,
     "answer": false,
-    "explanation": "To fałsz. Podręcznik podkreśla, że GPS najlepiej działa na zewnątrz budynków, na otwartych przestrzeniach."
+    "explanation": "To fałsz. GPS najlepiej działa na zewnątrz budynków, na otwartych przestrzeniach."
   },
   {
     "id": "R01_GPS_05",
@@ -987,7 +987,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_greenwich_obserwatorium.jpg",
-    "explanation": "W rozdziale podano, że w siatce z 1984 roku południk zerowy przesunięto o 102 m na wschód od dawnego."
+    "explanation": "W siatce z 1984 roku południk zerowy przesunięto o 102 m na wschód od dawnego."
   },
   {
     "id": "R01_HARD_02",
@@ -1005,7 +1005,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r01_greenwich_obserwatorium.jpg",
-    "explanation": "W podręczniku wskazano obserwatorium w Greenwich jako miejsce dawnego południka początkowego."
+    "explanation": "Wskazano obserwatorium w Greenwich jako miejsce dawnego południka początkowego."
   },
   {
     "id": "R01_HARD_03",
@@ -1062,7 +1062,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_06",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Której szerokości geograficznej dotyczą ryczące czterdziestki opisane w rozdziale?",
+    "prompt": "Której szerokości geograficznej dotyczą ryczące czterdziestki?",
     "options": [
       "około 40°S",
       "około 40°N",
@@ -1176,7 +1176,7 @@ const ALL_EXERCISES = [
       "19°28'37'E": "19.476944E"
     },
     "image": "r01_zapis_wspolrzednych.jpg",
-    "explanation": "Rozdział pokazuje, że współrzędne można zapisać w stopniach, minutach i sekundach albo w postaci ułamka dziesiętnego."
+    "explanation": "Współrzędne można zapisać w stopniach, minutach i sekundach albo w postaci ułamka dziesiętnego."
   },
   {
     "id": "R01_HARD_12",

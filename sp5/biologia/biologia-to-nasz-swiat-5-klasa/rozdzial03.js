@@ -30,13 +30,13 @@ const ALL_EXERCISES = [
     "prompt": "Większość roślin jest samożywna, ponieważ w procesie fotosyntezy produkuje pokarm.",
     "options": null,
     "answer": true,
-    "explanation": "Rośliny samożywne same wytwarzają pokarm dzięki fotosyntezie. W rozdziale zaznaczono jednak, że istnieją nieliczne wyjątki, np. rośliny pasożytnicze."
+    "explanation": "Rośliny samożywne same wytwarzają pokarm dzięki fotosyntezie. Istnieją nieliczne wyjątki, np. rośliny pasożytnicze."
   },
   {
     "id": "R03_CRO_03",
     "section": "Cechy roślin",
     "type": "multi_select",
-    "prompt": "Zaznacz środowiska wymienione w rozdziale jako miejsca życia roślin.",
+    "prompt": "Zaznacz środowiska jako miejsca życia roślin.",
     "image": "r03_roznorodnosc_roslin.jpg",
     "options": [
       "arktyczna tundra",
@@ -167,7 +167,7 @@ const ALL_EXERCISES = [
       "rośliny nagonasienne"
     ],
     "answer": 0,
-    "explanation": "Rośliny bez tkanki przewodzącej to rośliny nienaczyniowe. W rozdziale jako przykład pokazano mchy."
+    "explanation": "Rośliny bez tkanki przewodzącej to rośliny nienaczyniowe. Jako przykład pokazano mchy."
   },
   {
     "id": "R03_CRO_10",
@@ -182,7 +182,7 @@ const ALL_EXERCISES = [
       "Każda roślina ma nasiona ukryte w owocach."
     ],
     "answer": 0,
-    "explanation": "W rozdziale podano, że nieliczne rośliny nie są samożywne, lecz pobierają wodę i substancje pokarmowe od żywiciela. Takie rośliny są pasożytami."
+    "explanation": "Nieliczne rośliny nie są samożywne, lecz pobierają wodę i substancje pokarmowe od żywiciela. Takie rośliny są pasożytami."
   },
   {
     "id": "R03_TKA_01",
@@ -256,7 +256,7 @@ const ALL_EXERCISES = [
     "image": "r03_tkanki_tworcze.jpg",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że tkanki twórcze boczne występują w zdrewniałych łodygach i korzeniach oraz zwiększają obwód rośliny."
+    "explanation": "Tkanki twórcze boczne występują w zdrewniałych łodygach i korzeniach oraz zwiększają obwód rośliny."
   },
   {
     "id": "R03_TKA_05",
@@ -450,7 +450,7 @@ const ALL_EXERCISES = [
     "id": "R03_MCH_03",
     "section": "Mchy",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy budowy mchu opisane w rozdziale.",
+    "prompt": "Zaznacz elementy budowy mchu.",
     "image": "r03_budowa_mchu.jpg",
     "options": [
       "chwytniki",
@@ -599,7 +599,7 @@ const ALL_EXERCISES = [
     "prompt": "W Polsce występuje około 500 gatunków mchów, a około 200 z nich objęto ochroną prawną.",
     "options": null,
     "answer": true,
-    "explanation": "Rozdział podaje, że w Polsce jest około 500 gatunków mchów, w tym około 200 objętych ochroną."
+    "explanation": "W Polsce jest około 500 gatunków mchów, w tym około 200 objętych ochroną."
   },
   {
     "id": "R03_MCH_12",
@@ -685,7 +685,7 @@ const ALL_EXERCISES = [
     "id": "R03_PWS_03",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "multi_select",
-    "prompt": "Zaznacz wspólne cechy paprociowych, widłakowych i skrzypowych wymienione w rozdziale.",
+    "prompt": "Zaznacz wspólne cechy paprociowych, widłakowych i skrzypowych.",
     "image": "r03_porownanie_zarodnikowych.jpg",
     "options": [
       "rozmnażają się za pomocą zarodników",
@@ -722,7 +722,7 @@ const ALL_EXERCISES = [
         "łyko"
       ]
     ],
-    "explanation": "W rozdziale podkreślono, że tkanka przewodząca obejmuje drewno i łyko."
+    "explanation": "Tkanka przewodząca obejmuje drewno i łyko."
   },
   {
     "id": "R03_PWS_05",
@@ -781,7 +781,7 @@ const ALL_EXERCISES = [
     "prompt": "Wszystkie gatunki widłakowe występujące w Polsce są pod ochroną.",
     "options": null,
     "answer": true,
-    "explanation": "W rozdziale podano, że wszystkie gatunki widłakowe w Polsce są chronione."
+    "explanation": "Wszystkie gatunki widłakowe w Polsce są chronione."
   },
   {
     "id": "R03_PWS_09",
@@ -870,7 +870,7 @@ const ALL_EXERCISES = [
       "skrzyp polny": "skrzypowe",
       "salwinia pływająca": "paprociowe wodne"
     },
-    "explanation": "Rozdział podaje liczne przykłady: paprotka jest paprocią, widłak goździsty należy do widłakowych, skrzyp polny do skrzypowych, a salwinia to paproć wodna."
+    "explanation": "Podaje się liczne przykłady: paprotka jest paprocią, widłak goździsty należy do widłakowych, skrzyp polny do skrzypowych, a salwinia to paproć wodna."
   },
   {
     "id": "R03_PWS_13",
@@ -890,13 +890,13 @@ const ALL_EXERCISES = [
       "szczątki roślin gromadziły się przez bardzo długi czas",
       "ze szczątków powstawały pokłady węgla"
     ],
-    "explanation": "Rozdział wyjaśnia, że wielkie dawne paprocie, widłaki i skrzypy odegrały rolę w powstawaniu pokładów węgla."
+    "explanation": "Wielkie dawne paprocie, widłaki i skrzypy odegrały rolę w powstawaniu pokładów węgla."
   },
   {
     "id": "R03_PWS_14",
     "section": "Paprociowe, widłakowe i skrzypowe",
     "type": "multi_select",
-    "prompt": "Zaznacz znaczenie paprociowych, widłakowych i skrzypowych opisane w rozdziale.",
+    "prompt": "Zaznacz znaczenie paprociowych, widłakowych i skrzypowych.",
     "options": [
       "są składnikiem runa leśnego",
       "są pożywieniem roślinożerców",
@@ -962,7 +962,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy skrzypowych opisane w rozdziale.",
+    "prompt": "Zaznacz cechy skrzypowych.",
     "image": "r03_skrzyp_budowa.jpg",
     "options": [
       "pędy zbudowane z członów",
