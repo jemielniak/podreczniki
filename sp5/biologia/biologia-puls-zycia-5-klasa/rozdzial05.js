@@ -906,10 +906,10 @@ const ALL_EXERCISES =
     "id": "R05_ST_07",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: salwinia pływająca, nerecznica samcza, skrzyp polny, paprotniki.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: salwinia pływająca, nerecznica samcza, skrzyp polny, płonnik pospolity.",
     "options": null,
-    "answer": "paprotniki",
-    "explanation": "Trzy pierwsze nazwy oznaczają konkretne rośliny, a „paprotniki” to nazwa całej grupy roślin."
+    "answer": "płonnik pospolity",
+    "explanation": "Salwinia pływająca, nerecznica samcza i skrzyp polny to paprotniki. Płonnik pospolity jest mchem, czyli należy do innej grupy roślin."
   },
   {
     "id": "R05_ST_08",

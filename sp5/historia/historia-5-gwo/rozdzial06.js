@@ -1103,10 +1103,10 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_05",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: wojna podjazdowa, zasadzki w lasach, unikanie otwartej bitwy, koronacja w 1025 roku.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: wojna podjazdowa, zasadzki w lasach, unikanie otwartej bitwy, walka w szyku falangi.",
     "options": null,
-    "answer": "koronacja w 1025 roku",
-    "explanation": "Pierwsze trzy elementy opisują sposób walki z silniejszym przeciwnikiem; koronacja w 1025 roku dotyczy Chrobrego i nie jest taktyką wojenną."
+    "answer": "walka w szyku falangi",
+    "explanation": "Wojna podjazdowa, zasadzki w lasach i unikanie otwartej bitwy to sposoby walki ze silniejszym najeźdźcą. Falanga - zwarty szyk włóczników - była formacją wojsk starożytnej Grecji."
   },
   {
     "id": "R06_HARD_06",

@@ -99,10 +99,10 @@ const ALL_EXERCISES = [
     "id": "R01_MAP_06",
     "section": "Mapa i skala",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: tytuł, legenda, skala, termometr.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: tytuł, legenda, skala, spis treści.",
     "options": null,
-    "answer": "termometr",
-    "explanation": "Termometr nie jest podstawowym elementem mapy, a tytuł, legenda i skala są elementami mapy."
+    "answer": "spis treści",
+    "explanation": "Tytuł, legenda i skala to podstawowe elementy mapy. Spis treści jest elementem atlasu lub książki, a nie pojedynczej mapy."
   },
   {
     "id": "R01_MAP_07",
@@ -337,10 +337,10 @@ const ALL_EXERCISES = [
     "id": "R01_ODL_09",
     "section": "Odległości na mapie i w terenie",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: linijka, nitka, podziałka liniowa, wysokość bezwzględna.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: linijka, nitka, podziałka liniowa, kompas.",
     "options": null,
-    "answer": "wysokość bezwzględna",
-    "explanation": "Wysokość bezwzględna dotyczy ukształtowania terenu, a pozostałe elementy pomagają mierzyć odległości na mapie."
+    "answer": "kompas",
+    "explanation": "Linijka, nitka i podziałka liniowa służą do mierzenia odległości na mapie. Kompas też przydaje się przy mapie, ale wskazuje kierunek, a nie odległość."
   },
   {
     "id": "R01_ODL_10",
@@ -542,10 +542,10 @@ const ALL_EXERCISES = [
     "id": "R01_UKS_10",
     "section": "Ukształtowanie powierzchni na mapach",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: poziomica, izohipsa, wysokość bezwzględna, linia autobusowa.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: poziomica, izohipsa, wysokość bezwzględna, granica państwa.",
     "options": null,
-    "answer": "linia autobusowa",
-    "explanation": "Linia autobusowa nie służy do przedstawiania ukształtowania powierzchni, a pozostałe pojęcia są z nim związane."
+    "answer": "granica państwa",
+    "explanation": "Poziomica, izohipsa i wysokość bezwzględna dotyczą ukształtowania powierzchni. Granica państwa też jest linią na mapie, ale pokazuje podział polityczny, a nie wysokość terenu."
   },
   {
     "id": "R01_CZY_01",
@@ -909,10 +909,10 @@ const ALL_EXERCISES = [
     "id": "R01_MIE_09",
     "section": "Powtórka mieszana",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: niziny, wyżyny, góry, przystanki autobusowe.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: niziny, wyżyny, góry, jeziora.",
     "options": null,
-    "answer": "przystanki autobusowe",
-    "explanation": "Niziny, wyżyny i góry to formy ukształtowania powierzchni, a przystanki autobusowe są elementami zagospodarowania lub komunikacji."
+    "answer": "jeziora",
+    "explanation": "Niziny, wyżyny i góry to formy ukształtowania powierzchni, czyli różnice wysokości terenu. Jeziora należą do wód powierzchniowych, a nie do ukształtowania terenu."
   },
   {
     "id": "R01_MIE_10",

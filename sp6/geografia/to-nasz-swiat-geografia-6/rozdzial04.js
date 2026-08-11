@@ -139,10 +139,10 @@ const ALL_EXERCISES = [
     "id": "R04_ISL_08",
     "section": "Wulkany i trzęsienia ziemi na Islandii",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do skutków lub produktów erupcji wulkanu: lawa, popiół, gazy, autostrady.",
+    "prompt": "Wskaż, co nie pasuje do skutków lub produktów erupcji wulkanu: lawa, popiół, gazy, grad.",
     "options": null,
-    "answer": "autostrady",
-    "explanation": "Lawa, popiół i gazy mogą wydostawać się z wybuchającego wulkanu; autostrady nie są produktem erupcji."
+    "answer": "grad",
+    "explanation": "Z wybuchającego wulkanu wydobywają się lawa, popiół i gazy. Grad to opad atmosferyczny - bryłki lodu powstające w chmurze burzowej."
   },
   {
     "id": "R04_ISL_09",
@@ -420,11 +420,11 @@ const ALL_EXERCISES = [
     "id": "R04_FRA_10",
     "section": "Nowoczesna gospodarka Francji",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do francuskich firm i marek: Carrefour, Auchan, Decathlon, Geysir.",
+    "prompt": "Wskaż, co nie pasuje do francuskich firm i marek: Carrefour, Auchan, Decathlon, IKEA.",
     "image": "r04_marki_francuskie.jpg",
     "options": null,
-    "answer": "Geysir",
-    "explanation": "Carrefour, Auchan i Decathlon to przykłady francuskich sieci lub firm; Geysir to islandzki gejzer."
+    "answer": "IKEA",
+    "explanation": "Carrefour, Auchan i Decathlon to francuskie sieci handlowe. IKEA także jest wielką siecią sklepów, ale pochodzi ze Szwecji."
   },
   {
     "id": "R04_FRA_11",
@@ -949,10 +949,10 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_13",
     "section": "Turystyka w południowej Europie",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do infrastruktury turystycznej: hotel, restauracja, punkt informacyjny, skorupa ziemska.",
+    "prompt": "Wskaż, co nie pasuje do infrastruktury turystycznej: hotel, restauracja, punkt informacyjny, kopalnia odkrywkowa.",
     "options": null,
-    "answer": "skorupa ziemska",
-    "explanation": "Hotel, restauracja i punkt informacyjny pomagają obsługiwać turystów; skorupa ziemska jest warstwą Ziemi."
+    "answer": "kopalnia odkrywkowa",
+    "explanation": "Hotel, restauracja i punkt informacyjny obsługują turystów. Kopalnia odkrywkowa jest obiektem przemysłowym - służy wydobyciu surowców."
   },
   {
     "id": "R04_HARD_01",

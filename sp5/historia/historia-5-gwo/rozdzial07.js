@@ -405,10 +405,10 @@ const ALL_EXERCISES = [
     "id": "R07_SLA_10",
     "section": "Polska w XIII wieku",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: żelazny pług, nawożenie ziemi, rozwinięta hodowla, rzeź Gdańska.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: żelazny pług, nawożenie ziemi, rozwinięta hodowla, uprawa ziemniaków.",
     "options": null,
-    "answer": "rzeź Gdańska",
-    "explanation": "Rzeź Gdańska dotyczy konfliktu z Krzyżakami, a pozostałe elementy są skutkami rozwoju rolnictwa."
+    "answer": "uprawa ziemniaków",
+    "explanation": "Żelazny pług, nawożenie ziemi i rozwinięta hodowla to średniowieczne nowinki w rolnictwie. Ziemniaki trafiły do Polski z Ameryki dopiero kilkaset lat później."
   },
   {
     "id": "R07_SLA_11",

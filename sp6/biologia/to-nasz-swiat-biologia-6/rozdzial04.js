@@ -412,10 +412,10 @@ const ALL_EXERCISES = [
     "id": "R04_RYB_11",
     "section": "Ryby",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: rekin, płaszczka, szczupak, skrzek.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: rekin, płaszczka, szczupak, delfin.",
     "options": null,
-    "answer": "skrzek",
-    "explanation": "Rekin, płaszczka i szczupak to ryby, a skrzek to jaja płazów."
+    "answer": "delfin",
+    "explanation": "Rekin, płaszczka i szczupak to ryby. Delfin żyje w wodzie i z wyglądu przypomina rybę, ale jest ssakiem - oddycha płucami i rodzi żywe młode."
   },
   {
     "id": "R04_RYB_12",
@@ -1052,10 +1052,10 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_05",
     "section": "Powtórka mieszana",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: ikra, skrzek, jaja gadów, pióra.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: ikra, skrzek, jaja gadów, poczwarka.",
     "options": null,
-    "answer": "pióra",
-    "explanation": "Ikra, skrzek i jaja gadów dotyczą rozmnażania omawianych grup, a pióra nie dotyczą ryb, płazów ani gadów."
+    "answer": "poczwarka",
+    "explanation": "Ikra, skrzek i jaja gadów to jaja kręgowców - odpowiednio ryb, płazów i gadów. Poczwarka jest stadium rozwoju owadów, a nie jajem."
   },
   {
     "id": "R04_MIE_06",

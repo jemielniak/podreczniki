@@ -94,10 +94,10 @@ const ALL_EXERCISES = [
     "id": "R01_ODK_06",
     "section": "Wielkie odkrycia geograficzne",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niepasujący do pozostałych jako pomoc w dalekiej żegludze: karawela, karaka, dokładniejsze mapy, plantacja.",
+    "prompt": "Wskaż element niepasujący do pozostałych jako pomoc w dalekiej żegludze: karawela, karaka, dokładniejsze mapy, silnik parowy.",
     "options": null,
-    "answer": "plantacja",
-    "explanation": "Karawela, karaka i dokładniejsze mapy pomagały w wyprawach oceanicznych. Plantacja to duży obszar zajęty pod uprawę jednej rośliny."
+    "answer": "silnik parowy",
+    "explanation": "Karawele, karaki i dokładniejsze mapy pomagały w wyprawach oceanicznych XV wieku. Silnik parowy wynaleziono ponad trzysta lat później - statki Kolumba pływały wyłącznie pod żaglami."
   },
   {
     "id": "R01_ODK_07",

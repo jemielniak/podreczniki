@@ -811,10 +811,10 @@ const ALL_EXERCISES = [
     "id": "R06_WYL_06",
     "section": "Wylesianie i ochrona",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do przyczyn wylesiania: pola uprawne, zabudowa, pozyskiwanie drewna, cztery pory roku.",
+    "prompt": "Co nie pasuje do przyczyn wylesiania: pola uprawne, zabudowa, pozyskiwanie drewna, zakładanie parków narodowych.",
     "options": null,
-    "answer": "cztery pory roku",
-    "explanation": "Cztery pory roku są cechą klimatu, a nie przyczyną wylesiania."
+    "answer": "zakładanie parków narodowych",
+    "explanation": "Lasy wycina się pod pola uprawne i zabudowę oraz dla pozyskania drewna. Zakładanie parków narodowych działa odwrotnie - chroni lasy przed wycinaniem."
   },
   {
     "id": "R06_WYL_07",
@@ -1051,10 +1051,10 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do funkcji roślinności wymienionych przy skutkach wylesiania: pochłanianie dwutlenku węgla, produkcja tlenu, magazynowanie wody, rzadkie mrozy.",
+    "prompt": "Co nie pasuje do funkcji roślinności wymienionych przy skutkach wylesiania: pochłanianie dwutlenku węgla, produkcja tlenu, magazynowanie wody, zwiększanie erozji gleby.",
     "options": null,
-    "answer": "rzadkie mrozy",
-    "explanation": "Roślinność pochłania dwutlenek węgla, produkuje tlen i magazynuje wodę; rzadkie mrozy dotyczą opisu klimatu morskiego, nie funkcji roślinności."
+    "answer": "zwiększanie erozji gleby",
+    "explanation": "Roślinność pochłania dwutlenek węgla, produkuje tlen i magazynuje wodę. Erozji nie zwiększa, tylko ją ogranicza - korzenie wiążą glebę i chronią ją przed spłukiwaniem."
   },
   {
     "id": "R06_HARD_09",

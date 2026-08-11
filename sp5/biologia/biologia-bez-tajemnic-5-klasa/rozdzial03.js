@@ -139,10 +139,10 @@ const ALL_EXERCISES = [
     "id": "R03_KLA_07",
     "section": "Klasyfikacja organizmów",
     "type": "odd_one_out",
-    "prompt": "Wskaż element, który nie jest jednostką systematyczną: królestwo, rodzina, rodzaj, chloroplast, gatunek.",
+    "prompt": "Wskaż element, który nie jest jednostką systematyczną: królestwo, rodzina, rodzaj, populacja, gatunek.",
     "options": null,
-    "answer": "chloroplast",
-    "explanation": "Chloroplast jest elementem komórki, a pozostałe pojęcia są jednostkami systematycznymi."
+    "answer": "populacja",
+    "explanation": "Królestwo, rodzina, rodzaj i gatunek to jednostki systematyczne. Populacja to osobniki jednego gatunku żyjące na wspólnym terenie - pojęcie z ekologii, a nie jednostka systematyczna."
   },
   {
     "id": "R03_KLA_08",

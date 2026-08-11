@@ -1155,10 +1155,10 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: 1450, 1455, 1543, Quetzalcoatl.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: 1450, 1455, 1543, 1789.",
     "options": null,
-    "answer": "Quetzalcoatl",
-    "explanation": "1450, 1455 i 1543 to daty ważne dla druku i dzieła Kopernika, a Quetzalcoatl to azteckie bóstwo Zielonego Pierzastego Węża."
+    "answer": "1789",
+    "explanation": "Około 1450 roku Gutenberg wynalazł druk, w 1455 wydrukował Biblię, a w 1543 ukazało się dzieło Kopernika. Rok 1789 to wybuch rewolucji francuskiej - zupełnie inna epoka."
   },
   {
     "id": "R01_HARD_08",

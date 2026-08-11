@@ -747,10 +747,10 @@ const ALL_EXERCISES = [
     "id": "R02_NIZ_08",
     "section": "Niziny środkowej Polski",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: wycinanki, stroje ludowe, tańce ludowe, latarnie morskie.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: wycinanki, stroje ludowe, tańce ludowe, hafty kaszubskie.",
     "options": null,
-    "answer": "latarnie morskie",
-    "explanation": "Wycinanki, stroje i tańce ludowe są elementami folkloru Niziny Mazowieckiej, a latarnie morskie należą do krajobrazu nadmorskiego."
+    "answer": "hafty kaszubskie",
+    "explanation": "Wycinanki oraz stroje i tańce ludowe to elementy folkloru Niziny Mazowieckiej. Hafty kaszubskie również należą do kultury ludowej, ale pochodzą z Pomorza."
   },
   {
     "id": "R02_NIZ_09",
@@ -957,10 +957,10 @@ const ALL_EXERCISES = [
     "id": "R02_MIA_08",
     "section": "Krajobraz wielkomiejski",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: metro, tramwaje, gęsta sieć ulic, ruchome wydmy.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: metro, tramwaje, gęsta sieć ulic, wyciąg narciarski.",
     "options": null,
-    "answer": "ruchome wydmy",
-    "explanation": "Metro, tramwaje i gęsta sieć ulic są elementami krajobrazu wielkomiejskiego, a ruchome wydmy występują nad morzem."
+    "answer": "wyciąg narciarski",
+    "explanation": "Metro, tramwaje i gęsta sieć ulic to elementy krajobrazu wielkomiejskiego. Wyciąg narciarski buduje się w górach, a nie w wielkim mieście."
   },
   {
     "id": "R02_MIA_09",

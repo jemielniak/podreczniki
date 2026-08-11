@@ -162,10 +162,10 @@ const ALL_EXERCISES = [
     "id": "R01_SWI_08",
     "section": "Świat zwierząt",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: woda, ląd, powietrze, łuska.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: woda, ląd, powietrze, las liściasty.",
     "options": null,
-    "answer": "łuska",
-    "explanation": "Woda, ląd i powietrze to środowiska życia zwierząt, a łuska jest elementem budowy ciała niektórych zwierząt."
+    "answer": "las liściasty",
+    "explanation": "Woda, ląd i powietrze to trzy podstawowe środowiska życia zwierząt. Las liściasty nie jest osobnym środowiskiem - to jedno z siedlisk w środowisku lądowym."
   },
   {
     "id": "R01_SWI_09",

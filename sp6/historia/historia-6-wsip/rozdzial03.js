@@ -1134,10 +1134,10 @@ const ALL_EXERCISES = [
     "id": "R03_BAR_10",
     "section": "Barok i sarmatyzm",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do pozostałych: żupan, kontusz, pas słucki, Bill of Rights.",
+    "prompt": "Co nie pasuje do pozostałych: żupan, kontusz, pas słucki, peruka alonżowa.",
     "options": null,
-    "answer": "Bill of Rights",
-    "explanation": "Żupan, kontusz i pas słucki wiążą się ze strojem sarmackim, a Bill of Rights z ustrojem Anglii."
+    "answer": "peruka alonżowa",
+    "explanation": "Żupan, kontusz i pas słucki tworzyły strój sarmacki polskiej szlachty. Peruka alonżowa była modą zachodnioeuropejską - nosili ją dworzanie Ludwika XIV."
   },
   {
     "id": "R03_HARD_01",

@@ -1238,10 +1238,10 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_09",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: promienie UV, pole magnetyczne Ziemi, małżowina uszna, pamięć przestrzenna.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: promienie UV, pole magnetyczne Ziemi, linia boczna, pamięć przestrzenna.",
     "options": null,
-    "answer": "małżowina uszna",
-    "explanation": "Małżowina uszna jest typowa dla ssaków, a pozostałe elementy pojawiły się w ciekawostkach o możliwościach ptaków."
+    "answer": "linia boczna",
+    "explanation": "Ptaki orientują się dzięki widzeniu promieni UV, wyczuwaniu pola magnetycznego Ziemi i pamięci przestrzennej. Linia boczna to narząd zmysłu ryb - wyczuwa ruch i drgania wody."
   },
   {
     "id": "R05_HARD_10",

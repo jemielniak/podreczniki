@@ -163,10 +163,10 @@ const ALL_EXERCISES = [
     "id": "R04_BIZ_10",
     "section": "Bizancjum",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: kopuła, arkady, mozaika, dżihad.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: kopuła, arkady, mozaika, minaret.",
     "options": null,
-    "answer": "dżihad",
-    "explanation": "Kopuła, arkady i mozaika wiążą się ze stylem bizantyjskim, a dżihad z islamem i podbojami Arabów."
+    "answer": "minaret",
+    "explanation": "Kopuła, arkady i mozaika są charakterystyczne dla architektury bizantyjskiej. Minaret - wieża, z której wzywa się na modlitwę - należy do architektury muzułmańskiej."
   },
   {
     "id": "R04_BIZ_11",

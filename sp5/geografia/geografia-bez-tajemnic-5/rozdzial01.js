@@ -105,10 +105,10 @@ const ALL_EXERCISES = [
     "id": "R01_MAP_06",
     "section": "Mapa źródłem informacji",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: mapa polityczna, mapa drogowa, mapa turystyczna, linijka.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: mapa polityczna, mapa drogowa, mapa turystyczna, mapa ogólnogeograficzna.",
     "options": null,
-    "answer": "linijka",
-    "explanation": "Mapa polityczna, drogowa i turystyczna to przykłady map tematycznych, a linijka jest przyrządem."
+    "answer": "mapa ogólnogeograficzna",
+    "explanation": "Mapa polityczna, drogowa i turystyczna to mapy tematyczne - każda pokazuje wybrane zagadnienie. Mapa ogólnogeograficzna przedstawia ogólny obraz terenu i nie należy do map tematycznych."
   },
   {
     "id": "R01_MAP_07",
@@ -1203,10 +1203,10 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Krzysztof Kolumb, Ferdynand Magellan, James Cook, poziomica.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Krzysztof Kolumb, Ferdynand Magellan, James Cook, Roald Amundsen.",
     "options": null,
-    "answer": "poziomica",
-    "explanation": "Kolumb, Magellan i Cook to podróżnicy lub odkrywcy, a poziomica jest linią na mapie."
+    "answer": "Roald Amundsen",
+    "explanation": "Kolumb, Magellan i Cook żeglowali w epoce wielkich odkryć geograficznych. Roald Amundsen żył znacznie później - w 1911 roku jako pierwszy dotarł na biegun południowy."
   },
   {
     "id": "R01_HARD_09",

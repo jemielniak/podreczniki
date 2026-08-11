@@ -514,10 +514,10 @@ const ALL_EXERCISES = [
     "id": "R01_OBS_05",
     "section": "Obserwacje i dokumentowanie",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do sposobów dokumentowania badań: fotografia, rysunek, tabela, wykres, zapach.",
+    "prompt": "Wskaż, co nie pasuje do sposobów dokumentowania badań: fotografia, rysunek, tabela, wykres, zapamiętanie wyniku.",
     "options": null,
-    "answer": "zapach",
-    "explanation": "Wyniki można dokumentować fotografiami, rysunkami, tabelami i wykresami. Zapach nie jest formą zapisu wyników."
+    "answer": "zapamiętanie wyniku",
+    "explanation": "Fotografia, rysunek, tabela i wykres tworzą trwały zapis, do którego można wrócić. Zapamiętanie wyniku nie jest dokumentowaniem - nie zostaje żaden ślad, który dałoby się sprawdzić."
   },
   {
     "id": "R01_OBS_06",
@@ -836,10 +836,10 @@ const ALL_EXERCISES = [
     "id": "R01_MET_10",
     "section": "Metoda naukowa",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do elementów metody naukowej: problem badawczy, hipoteza, doświadczenie, wniosek, plotka.",
+    "prompt": "Wskaż, co nie pasuje do elementów metody naukowej: problem badawczy, hipoteza, doświadczenie, wniosek, dopasowanie wyniku do hipotezy.",
     "options": null,
-    "answer": "plotka",
-    "explanation": "Plotka nie jest elementem metody naukowej. Pozostałe pojęcia należą do procesu badawczego."
+    "answer": "dopasowanie wyniku do hipotezy",
+    "explanation": "Metoda naukowa to problem badawczy, hipoteza, doświadczenie i wniosek. Dopasowanie wyniku do hipotezy jest błędem - wynik doświadczenia może hipotezę potwierdzić albo obalić i nie wolno go naginać."
   },
   {
     "id": "R01_MET_11",
@@ -975,10 +975,10 @@ const ALL_EXERCISES = [
     "id": "R01_MIK_06",
     "section": "Mikroskop i preparaty",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do narzędzi potrzebnych do wykonania preparatu mikroskopowego: szkiełko podstawowe, szkiełko nakrywkowe, pipeta, pęseta, lornetka.",
+    "prompt": "Wskaż, co nie pasuje do narzędzi potrzebnych do wykonania preparatu mikroskopowego: szkiełko podstawowe, szkiełko nakrywkowe, pipeta, pęseta, waga laboratoryjna.",
     "options": null,
-    "answer": "lornetka",
-    "explanation": "Lornetka służy do obserwacji odległych obiektów, a pozostałe narzędzia wykorzystuje się przy przygotowywaniu preparatu mikroskopowego."
+    "answer": "waga laboratoryjna",
+    "explanation": "Szkiełka, pipeta i pęseta są potrzebne przy przygotowywaniu preparatu. Waga laboratoryjna też stoi w pracowni, ale służy do odmierzania masy, a nie do wykonania preparatu."
   },
   {
     "id": "R01_MIK_07",

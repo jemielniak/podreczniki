@@ -1113,10 +1113,10 @@ const ALL_EXERCISES =
     "id": "R02_ST_18",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: mitochondrium, rybosom, chloroplast, płuca.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: mitochondrium, rybosom, chloroplast, komórka.",
     "options": null,
-    "answer": "płuca",
-    "explanation": "Płuca są narządem wymiany gazowej, a pozostałe nazwy oznaczają składniki komórki."
+    "answer": "komórka",
+    "explanation": "Mitochondrium, rybosom i chloroplast to składniki komórki. Komórka nie jest swoim własnym składnikiem - to całość zbudowana z tych elementów."
   },
   {
     "id": "R02_ST_19",

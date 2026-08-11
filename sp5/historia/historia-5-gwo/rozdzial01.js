@@ -387,10 +387,10 @@ const ALL_EXERCISES = [
     "id": "R01_PAL_12",
     "section": "Paleolit",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: mamut, renifer, koń, piryt.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: mamut, renifer, koń, krowa.",
     "options": null,
-    "answer": "piryt",
-    "explanation": "Piryt to kamień wykorzystywany do rozpalania ognia, a pozostałe elementy to zwierzęta, na które polowano."
+    "answer": "krowa",
+    "explanation": "Na mamuty, renifery i konie polowali łowcy paleolitu. Krowa to zwierzę hodowlane, udomowione dopiero w neolicie z dzikiego tura."
   },
   {
     "id": "R01_NEO_01",
@@ -802,10 +802,10 @@ const ALL_EXERCISES = [
     "id": "R01_CYW_11",
     "section": "Pierwsze cywilizacje",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: pismo, rolnictwo, rzemiosło, lądolód.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: pismo, rolnictwo, rzemiosło, koczowniczy tryb życia.",
     "options": null,
-    "answer": "lądolód",
-    "explanation": "Pismo, rolnictwo i rzemiosło są cechami cywilizacji, a lądolód należy do opisu warunków paleolitu."
+    "answer": "koczowniczy tryb życia",
+    "explanation": "Pismo, rolnictwo i rzemiosło to cechy pierwszych cywilizacji, które powstały dzięki osiadłemu trybowi życia. Koczowniczy tryb życia - ciągła wędrówka za zwierzyną - był typowy dla czasów sprzed powstania cywilizacji."
   },
   {
     "id": "R01_CYW_12",

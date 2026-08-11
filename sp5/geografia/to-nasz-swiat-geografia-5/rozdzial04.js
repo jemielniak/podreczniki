@@ -569,10 +569,10 @@ const ALL_EXERCISES = [
     "id": "R04_SLA_10",
     "section": "Wyżyna Śląska",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do krajobrazu miejsko-przemysłowego Wyżyny Śląskiej: kopalnie, fabryki, zakłady produkcyjne, wąwozy lessowe.",
-    "explanation": "Wąwozy lessowe są charakterystyczne dla Wyżyny Lubelskiej, a nie dla miejsko-przemysłowego krajobrazu Wyżyny Śląskiej.",
+    "prompt": "Co nie pasuje do krajobrazu miejsko-przemysłowego Wyżyny Śląskiej: kopalnie, fabryki, zakłady produkcyjne, stocznie.",
+    "explanation": "Kopalnie, fabryki i zakłady produkcyjne tworzą krajobraz miejsko-przemysłowy Wyżyny Śląskiej. Stocznie budują statki i leżą nad morzem - w Gdańsku, Gdyni i Szczecinie.",
     "options": null,
-    "answer": "wąwozy lessowe"
+    "answer": "stocznie"
   },
   {
     "id": "R04_SLA_11",
@@ -893,10 +893,10 @@ const ALL_EXERCISES = [
     "id": "R04_LUB_07",
     "section": "Wyżyna Lubelska",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do rolnictwa Wyżyny Lubelskiej: pszenica, rzepak, chmiel, węgiel kamienny.",
-    "explanation": "Węgiel kamienny jest surowcem Wyżyny Śląskiej, a pozostałe elementy to rośliny uprawiane na Wyżynie Lubelskiej.",
+    "prompt": "Co nie pasuje do rolnictwa Wyżyny Lubelskiej: pszenica, rzepak, chmiel, bawełna.",
+    "explanation": "Pszenica, rzepak i chmiel to rośliny uprawiane na Wyżynie Lubelskiej. Bawełna wymaga gorącego klimatu i w Polsce się jej nie uprawia.",
     "options": null,
-    "answer": "węgiel kamienny"
+    "answer": "bawełna"
   },
   {
     "id": "R04_LUB_08",

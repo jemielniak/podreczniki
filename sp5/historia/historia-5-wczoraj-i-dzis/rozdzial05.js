@@ -106,10 +106,10 @@ const ALL_EXERCISES = [
     "id": "R05_FEU_06",
     "section": "System feudalny",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: duchowieństwo, rycerstwo, mieszczaństwo, burmistrz, chłopstwo.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: duchowieństwo, rycerstwo, mieszczaństwo, niewolnicy, chłopstwo.",
     "options": null,
-    "answer": "burmistrz",
-    "explanation": "Duchowieństwo, rycerstwo, mieszczaństwo i chłopstwo to stany społeczne, a burmistrz to urząd miejski."
+    "answer": "niewolnicy",
+    "explanation": "Duchowieństwo, rycerstwo, mieszczaństwo i chłopstwo to stany społeczne średniowiecza. Niewolnicy byli grupą społeczną starożytności - w średniowiecznej Europie takiego stanu już nie było."
   },
   {
     "id": "R05_FEU_07",
@@ -601,10 +601,10 @@ const ALL_EXERCISES = [
     "id": "R05_MIA_08",
     "section": "Średniowieczne miasto i wieś",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: rynek, ratusz, sukiennice, barbakan, radło.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: rynek, ratusz, sukiennice, barbakan, folwark.",
     "options": null,
-    "answer": "radło",
-    "explanation": "Radło było narzędziem rolniczym, a pozostałe elementy wiążą się z zabudową miasta."
+    "answer": "folwark",
+    "explanation": "Rynek, ratusz, sukiennice i barbakan należały do zabudowy średniowiecznego miasta. Folwark to gospodarstwo pana na wsi."
   },
   {
     "id": "R05_MIA_09",
@@ -1105,10 +1105,10 @@ const ALL_EXERCISES = [
     "id": "R05_SZT_12",
     "section": "Sztuka średniowiecza",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: relikwiarz, ołtarz, miniatura, burmistrz, rzeźba.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: relikwiarz, ołtarz, miniatura, portret trumienny, rzeźba.",
     "options": null,
-    "answer": "burmistrz",
-    "explanation": "Relikwiarz, ołtarz, miniatura i rzeźba są związane ze sztuką średniowieczną, a burmistrz z samorządem miejskim."
+    "answer": "portret trumienny",
+    "explanation": "Relikwiarz, ołtarz, miniatura i rzeźba to dzieła sztuki średniowiecznej. Portret trumienny malowano w Polsce w epoce baroku, kilkaset lat później."
   },
   {
     "id": "R05_HARD_01",

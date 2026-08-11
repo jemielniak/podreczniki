@@ -946,10 +946,10 @@ const ALL_EXERCISES = [
     "id": "R04_ZNAC_08",
     "section": "Znaczenie okrytonasiennych",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do zastosowań roślin okrytonasiennych przez człowieka: pożywienie, pasza, roślina ozdobna, szyszka.",
+    "prompt": "Co nie pasuje do zastosowań roślin okrytonasiennych przez człowieka: pożywienie, pasza, roślina ozdobna, choinka bożonarodzeniowa.",
     "options": null,
-    "answer": "szyszka",
-    "explanation": "Pożywienie, pasza i rośliny ozdobne to zastosowania roślin okrytonasiennych; szyszka nie jest zastosowaniem, lecz organem typowym dla wielu nagonasiennych."
+    "answer": "choinka bożonarodzeniowa",
+    "explanation": "Rośliny okrytonasienne dają pożywienie, paszę dla zwierząt i rośliny ozdobne. Na choinkę ścina się świerki i jodły, czyli rośliny nagonasienne."
   },
   {
     "id": "R04_ZNAC_09",

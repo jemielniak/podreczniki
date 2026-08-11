@@ -463,10 +463,10 @@ const ALL_EXERCISES = [
     "id": "R05_CZSL_06",
     "section": "Atrakcje turystyczne Czech i Słowacji",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niepasujący do atrakcji Pragi: Zamek na Hradczanach, Most Karola, Ratusz Staromiejski, Bajkał.",
+    "prompt": "Wskaż element niepasujący do atrakcji Pragi: Zamek na Hradczanach, Most Karola, Ratusz Staromiejski, Zamek Bratysławski.",
     "options": null,
-    "answer": "Bajkał",
-    "explanation": "Zamek na Hradczanach, Most Karola i Ratusz Staromiejski należą do atrakcji Pragi, natomiast Bajkał jest jeziorem w Rosji.",
+    "answer": "Zamek Bratysławski",
+    "explanation": "Zamek na Hradczanach, Most Karola i Ratusz Staromiejski to atrakcje Pragi. Zamek Bratysławski góruje nad Bratysławą - stolicą Słowacji.",
     "image": "r05_praga_zabytki.jpg"
   },
   {
@@ -649,10 +649,10 @@ const ALL_EXERCISES = [
     "id": "R05_UKR_06",
     "section": "Współczesne problemy Ukrainy",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niepasujący do problemów Ukrainy po 1991 roku: korupcja, zależność od Rosji, brak kapitału, Karkonosze.",
+    "prompt": "Wskaż element niepasujący do problemów Ukrainy po 1991 roku: korupcja, zależność od Rosji, brak kapitału, brak dostępu do morza.",
     "options": null,
-    "answer": "Karkonosze",
-    "explanation": "Karkonosze są pasmem górskim w Czechach, a pozostałe elementy należą do problemów Ukrainy po uzyskaniu niepodległości."
+    "answer": "brak dostępu do morza",
+    "explanation": "Korupcja, zależność od Rosji i brak kapitału to problemy Ukrainy po 1991 roku. Braku dostępu do morza Ukraina nie ma - leży nad Morzem Czarnym i Morzem Azowskim."
   },
   {
     "id": "R05_UKR_07",

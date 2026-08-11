@@ -110,10 +110,10 @@ const ALL_EXERCISES = [
     "id": "R02_MAP_06",
     "section": "Mapa i plan",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do elementów mapy: legenda, skala, tytuł, rower.",
+    "prompt": "Wskaż, co nie pasuje do elementów mapy: legenda, skala, tytuł, numer strony.",
     "options": null,
-    "answer": "rower",
-    "explanation": "Legenda, skala i tytuł mogą być elementami mapy, a rower nie jest elementem mapy."
+    "answer": "numer strony",
+    "explanation": "Legenda, skala i tytuł to elementy mapy. Numer strony należy do atlasu lub książki, w której mapę wydrukowano."
   },
   {
     "id": "R02_MAP_07",
@@ -802,10 +802,10 @@ const ALL_EXERCISES = [
     "id": "R02_KRA_10",
     "section": "Krajobraz",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do elementów krajobrazu: rzeźba terenu, wody, roślinność, legenda.",
+    "prompt": "Wskaż, co nie pasuje do elementów krajobrazu naturalnego: rzeźba terenu, wody, roślinność, zabudowa.",
     "options": null,
-    "answer": "legenda",
-    "explanation": "Rzeźba terenu, wody i roślinność są elementami krajobrazu, a legenda jest elementem mapy."
+    "answer": "zabudowa",
+    "explanation": "Rzeźba terenu, wody i roślinność to elementy krajobrazu naturalnego. Zabudowa jest dziełem człowieka, więc należy do krajobrazu kulturowego."
   },
   {
     "id": "R02_KRA_11",

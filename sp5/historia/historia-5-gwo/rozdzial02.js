@@ -119,10 +119,10 @@ const ALL_EXERCISES = [
     "id": "R02_POL_08",
     "section": "Starożytna Grecja i polis",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: zboże, oliwki, winorośl, piramidy.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: zboże, oliwki, winorośl, ryż.",
     "options": null,
-    "answer": "piramidy",
-    "explanation": "Zboże, oliwki i winorośl wiążą się z uprawami Greków, a piramidy nie należą do tego zestawu."
+    "answer": "ryż",
+    "explanation": "Zboże, oliwki i winorośl to uprawy starożytnych Greków. Ryż wymaga zalewanych pól i gorącego klimatu - w starożytnej Grecji go nie uprawiano."
   },
   {
     "id": "R02_POL_09",
@@ -1001,10 +1001,10 @@ const ALL_EXERCISES = [
     "id": "R02_MIE_04",
     "section": "Powtórka mieszana",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: zgromadzenie ludowe, rada pięciuset, sąd ludowy, Partenon.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: zgromadzenie ludowe, rada pięciuset, sąd ludowy, eforowie.",
     "options": null,
-    "answer": "Partenon",
-    "explanation": "Pierwsze trzy to instytucje demokracji ateńskiej, a Partenon był świątynią."
+    "answer": "eforowie",
+    "explanation": "Zgromadzenie ludowe, rada pięciuset i sąd ludowy to instytucje demokracji ateńskiej. Eforowie byli urzędnikami w Sparcie, w której demokracji nie było."
   },
   {
     "id": "R02_MIE_05",

@@ -131,10 +131,10 @@ const ALL_EXERCISES = [
     "id": "R04_TKA_07",
     "section": "Tkanki roślinne",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niebędący tkanką roślinną: tkanka okrywająca, tkanka przewodząca, tkanka wzmacniająca, liść.",
+    "prompt": "Wskaż element niebędący tkanką roślinną: tkanka okrywająca, tkanka przewodząca, tkanka wzmacniająca, tkanka nerwowa.",
     "options": null,
-    "answer": "liść",
-    "explanation": "Liść jest organem roślinnym, a pozostałe elementy są rodzajami tkanek."
+    "answer": "tkanka nerwowa",
+    "explanation": "Tkanka okrywająca, przewodząca i wzmacniająca to tkanki roślinne. Tkanka nerwowa występuje wyłącznie u zwierząt - rośliny jej nie mają."
   },
   {
     "id": "R04_TKA_08",

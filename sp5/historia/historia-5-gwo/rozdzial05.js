@@ -148,10 +148,10 @@ const ALL_EXERCISES = [
     "id": "R05_FEU_09",
     "section": "Feudalna Europa",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: senior, wasal, lenno, ratusz.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: senior, wasal, lenno, cech rzemieślniczy.",
     "options": null,
-    "answer": "ratusz",
-    "explanation": "Ratusz był budynkiem miejskim, a pozostałe pojęcia dotyczą feudalizmu."
+    "answer": "cech rzemieślniczy",
+    "explanation": "Senior, wasal i lenno opisują zależności feudalne. Cech rzemieślniczy był organizacją rzemieślników jednego fachu w mieście."
   },
   {
     "id": "R05_FEU_10",
@@ -983,10 +983,10 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_04",
     "section": "Powtórka mieszana",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: dziesięcina, pańszczyzna, czynsz, kopia.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: dziesięcina, pańszczyzna, czynsz, myto.",
     "options": null,
-    "answer": "kopia",
-    "explanation": "Kopia była bronią rycerską, a pozostałe pojęcia dotyczą świadczeń chłopskich."
+    "answer": "myto",
+    "explanation": "Dziesięcina, pańszczyzna i czynsz to świadczenia chłopów na rzecz Kościoła i pana. Myto było opłatą pobieraną od kupców za przejazd drogą lub mostem."
   },
   {
     "id": "R05_MIE_05",

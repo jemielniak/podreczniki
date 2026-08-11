@@ -76,10 +76,10 @@ const ALL_EXERCISES = [
     "id": "R02_POD_05",
     "section": "Podstawy krajobrazu",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: pobrzeża, pojezierza, Wyżyny Polskie, klimat.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: pobrzeża, pojezierza, Wyżyny Polskie, pas pustyń.",
     "options": null,
-    "answer": "klimat",
-    "explanation": "Pobrzeża, pojezierza i Wyżyny Polskie to pasy rzeźby terenu, a klimat nie jest pasem rzeźby."
+    "answer": "pas pustyń",
+    "explanation": "Pobrzeża, pojezierza i Wyżyny Polskie to pasy rzeźby terenu w Polsce. Pasa pustyń w Polsce nie ma - nasz klimat jest na to zbyt wilgotny."
   },
   {
     "id": "R02_POD_06",
@@ -490,10 +490,10 @@ const ALL_EXERCISES = [
     "id": "R02_NIW_07",
     "section": "Niziny i Warszawa",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Sejm, Senat, Prezydent RP, latarnia morska.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Sejm, Senat, Prezydent RP, Wawel.",
     "options": null,
-    "answer": "latarnia morska",
-    "explanation": "Sejm, Senat i Prezydent RP to organy władzy państwowej mające siedziby w Warszawie, a latarnia morska jest obiektem nadmorskim."
+    "answer": "Wawel",
+    "explanation": "Sejm, Senat i Prezydent RP mają siedziby w Warszawie - dzisiejszej stolicy Polski. Wawel to zamek królewski w Krakowie, dawnej stolicy."
   },
   {
     "id": "R02_NIW_08",

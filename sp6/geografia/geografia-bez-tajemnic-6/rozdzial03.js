@@ -621,10 +621,10 @@ const ALL_EXERCISES = [
     "id": "R03_ISL_09",
     "section": "Islandia - wyspa ognia",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do zjawisk związanych z Islandią: magma, lawa, gejzer, cytrusy.",
+    "prompt": "Co nie pasuje do zjawisk związanych z Islandią: magma, lawa, gejzer, monsun.",
     "options": null,
-    "answer": "cytrusy",
-    "explanation": "Magma, lawa i gejzer wiążą się z położeniem Islandii na granicy płyt litosfery; cytrusy pojawiają się przy opisie regionu śródziemnomorskiego."
+    "answer": "monsun",
+    "explanation": "Magma, lawa i gejzery wiążą się z położeniem Islandii na granicy płyt litosfery. Monsun to sezonowy wiatr wiejący nad Azją Południową i Południowo-Wschodnią."
   },
   {
     "id": "R03_ISL_10",
@@ -1272,11 +1272,11 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do nazw wulkanów lub wysp wulkanicznych: Santoryn, Etna, Eyjafjallajökull, Sagrada Familia.",
+    "prompt": "Co nie pasuje do nazw wulkanów lub wysp wulkanicznych: Santoryn, Etna, Eyjafjallajökull, Mount Everest.",
     "options": null,
-    "answer": "Sagrada Familia",
+    "answer": "Mount Everest",
     "image": "r03_santoryn_wulkan.jpg",
-    "explanation": "Santoryn, Etna i Eyjafjallajökull są związane z wulkanizmem; Sagrada Familia to świątynia w Barcelonie."
+    "explanation": "Santoryn, Etna i Eyjafjallajökull wiążą się z wulkanizmem. Mount Everest jest najwyższą górą świata, ale powstał wskutek fałdowania, a nie działalności wulkanu."
   },
   {
     "id": "R03_HARD_08",

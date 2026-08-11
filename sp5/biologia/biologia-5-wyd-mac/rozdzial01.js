@@ -642,10 +642,10 @@ const ALL_EXERCISES = [
     "id": "R01_ODD_06",
     "section": "Oddychanie i fermentacja",
     "type": "odd_one_out",
-    "prompt": "Wskaż element, który nie pasuje do pozostałych jako produkt lub efekt fermentacji: kwas mlekowy, alkohol etylowy, dwutlenek węgla, chlorofil.",
+    "prompt": "Wskaż element, który nie pasuje do pozostałych jako produkt lub efekt fermentacji: kwas mlekowy, alkohol etylowy, dwutlenek węgla, tlen.",
     "options": null,
-    "answer": "chlorofil",
-    "explanation": "Kwas mlekowy, alkohol etylowy i dwutlenek węgla są związane z fermentacją. Chlorofil jest barwnikiem fotosyntetycznym."
+    "answer": "tlen",
+    "explanation": "Kwas mlekowy, alkohol etylowy i dwutlenek węgla powstają podczas fermentacji. Tlen nie jest jej produktem - fermentacja zachodzi właśnie bez udziału tlenu, a tlen wydziela się podczas fotosyntezy."
   },
   {
     "id": "R01_ODD_07",
@@ -827,10 +827,10 @@ const ALL_EXERCISES = [
     "id": "R01_KLW_06",
     "section": "Klasyfikacja i wirusy",
     "type": "odd_one_out",
-    "prompt": "Wskaż pojęcie, które nie jest poziomem klasyfikacji biologicznej: gatunek, rodzaj, rodzina, mikroskop.",
+    "prompt": "Wskaż pojęcie, które nie jest poziomem klasyfikacji biologicznej: gatunek, rodzaj, rodzina, populacja.",
     "options": null,
-    "answer": "mikroskop",
-    "explanation": "Gatunek, rodzaj i rodzina to poziomy klasyfikacji. Mikroskop jest przyrządem do obserwacji."
+    "answer": "populacja",
+    "explanation": "Gatunek, rodzaj i rodzina to kolejne poziomy klasyfikacji biologicznej. Populacja to wszystkie osobniki jednego gatunku żyjące na tym samym terenie - pojęcie z ekologii, a nie poziom klasyfikacji."
   },
   {
     "id": "R01_KLW_07",
@@ -1088,10 +1088,10 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż element, który nie pasuje do pozostałych jako pierwiastek ważny dla organizmu: sód, potas, wapń, chloroplast.",
+    "prompt": "Wskaż element, który nie pasuje do pozostałych jako pierwiastek ważny dla organizmu: sód, potas, wapń, glin.",
     "options": null,
-    "answer": "chloroplast",
-    "explanation": "Sód, potas i wapń to pierwiastki. Chloroplast jest organellum komórki roślinnej."
+    "answer": "glin",
+    "explanation": "Sód, potas i wapń są pierwiastkami niezbędnymi organizmom. Glin też jest pierwiastkiem - metalem, z którego robi się folię i puszki - ale organizmy go nie potrzebują."
   },
   {
     "id": "R01_HARD_09",

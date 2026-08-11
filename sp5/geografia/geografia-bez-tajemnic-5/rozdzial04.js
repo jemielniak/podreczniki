@@ -105,10 +105,10 @@ const ALL_EXERCISES = [
     "id": "R04_STR_06",
     "section": "Strefowość i piętrowość klimatyczno-roślinna",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: sawanna, step, tundra, klimatogram.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: sawanna, step, tundra, rafa koralowa.",
     "options": null,
-    "answer": "klimatogram",
-    "explanation": "Sawanna, step i tundra to formacje roślinne, a klimatogram jest wykresem elementów klimatu."
+    "answer": "rafa koralowa",
+    "explanation": "Sawanna, step i tundra to lądowe formacje roślinne. Rafa koralowa jest ekosystemem morskim zbudowanym przez zwierzęta - koralowce - a nie formacją roślinną."
   },
   {
     "id": "R04_STR_07",
@@ -368,10 +368,10 @@ const ALL_EXERCISES = [
     "id": "R04_ROW_08",
     "section": "Wilgotne lasy równikowe",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: liana, epifit, korzeń podporowy, czarnoziem.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: liana, epifit, korzeń podporowy, kolce zamiast liści.",
     "options": null,
-    "answer": "czarnoziem",
-    "explanation": "Liany, epifity i korzenie podporowe wiążą się z wilgotnym lasem równikowym, a czarnoziem z żyznymi glebami stepów."
+    "answer": "kolce zamiast liści",
+    "explanation": "Liany, epifity i korzenie podporowe to przystosowania roślin wilgotnego lasu równikowego. Kolce zamiast liści mają rośliny pustynne - dzięki temu tracą mniej wody."
   },
   {
     "id": "R04_ROW_09",

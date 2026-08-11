@@ -760,10 +760,10 @@ const ALL_EXERCISES = [
     "id": "R02_GCZ_07",
     "section": "Grzyby w przyrodzie i u człowieka",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: pieczarki, drożdże, ser brie, malaria.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: pieczarki, drożdże, ser brie, kiszona kapusta.",
     "options": null,
-    "answer": "malaria",
-    "explanation": "Pieczarki, drożdże i ser brie wiążą się z wykorzystaniem grzybów przez człowieka. Malaria jest chorobą wywoływaną przez protista."
+    "answer": "kiszona kapusta",
+    "explanation": "Pieczarki, drożdże i ser brie wiążą się z wykorzystaniem grzybów przez człowieka. Kiszoną kapustę wytwarzają bakterie kwasu mlekowego, a nie grzyby."
   },
   {
     "id": "R02_GCZ_08",
@@ -1250,10 +1250,10 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_09",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Penicillium, pędzlak, penicylina, kombu.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Penicillium, pędzlak, penicylina, streptomycyna.",
     "options": null,
-    "answer": "kombu",
-    "explanation": "Penicillium to łacińska nazwa pędzlaka, od której utworzono nazwę penicylina. Kombu to suszone glony z rzędu listownicowców."
+    "answer": "streptomycyna",
+    "explanation": "Penicillium to łacińska nazwa pędzlaka, od której utworzono nazwę penicyliny. Streptomycyna też jest antybiotykiem, ale wytwarzają ją bakterie promieniowce, a nie pędzlak."
   },
   {
     "id": "R02_HARD_10",

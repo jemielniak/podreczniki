@@ -1406,10 +1406,10 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_06",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: korona, berło, jabłko królewskie, drużyna wojów.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: korona, berło, jabłko królewskie, buława hetmańska.",
     "options": null,
-    "answer": "drużyna wojów",
-    "explanation": "Korona, berło i jabłko królewskie to insygnia królewskie; drużyna wojów była siłą zbrojną władcy."
+    "answer": "buława hetmańska",
+    "explanation": "Korona, berło i jabłko królewskie to insygnia królewskie. Buława była oznaką władzy hetmana - dowódcy wojska, a nie króla."
   },
   {
     "id": "R06_HARD_07",

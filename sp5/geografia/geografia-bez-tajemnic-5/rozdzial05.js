@@ -522,10 +522,10 @@ const ALL_EXERCISES = [
     "id": "R05_SRO_06",
     "section": "Krajobraz śródziemnomorski",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: mirt, oleander, wawrzyn, renifer.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: mirt, oleander, wawrzyn, palma kokosowa.",
     "options": null,
-    "answer": "renifer",
-    "explanation": "Mirt, oleander i wawrzyn są roślinami śródziemnomorskimi, a renifer jest zwierzęciem tajgi i tundry."
+    "answer": "palma kokosowa",
+    "explanation": "Mirt, oleander i wawrzyn to rośliny strefy śródziemnomorskiej. Palma kokosowa rośnie na wybrzeżach strefy gorącej i wilgotnej, a nie nad Morzem Śródziemnym."
   },
   {
     "id": "R05_SRO_07",

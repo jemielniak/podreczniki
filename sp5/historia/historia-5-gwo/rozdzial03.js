@@ -169,10 +169,10 @@ const ALL_EXERCISES = [
     "id": "R03_POC_10",
     "section": "Początki i armia Rzymu",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: hełm, pancerz, tarcza, senat.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: hełm, pancerz, tarcza, rydwan bojowy.",
     "options": null,
-    "answer": "senat",
-    "explanation": "Hełm, pancerz i tarcza to elementy wyposażenia żołnierza, a senat był instytucją polityczną."
+    "answer": "rydwan bojowy",
+    "explanation": "Hełm, pancerz i tarcza należały do wyposażenia rzymskiego legionisty, który walczył pieszo. Rydwanów bojowych Rzymianie w bitwach nie używali - w Rzymie rydwany ścigały się w cyrku."
   },
   {
     "id": "R03_POC_11",

@@ -490,11 +490,11 @@ const ALL_EXERCISES = [
     "id": "R03_PRZ_13",
     "section": "Przystosowania stawonogów",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: aparat gryzący, aparat ssący, aparat liżący, aparat kłująco-ssący, płetwa ogonowa.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: aparat gryzący, aparat ssący, aparat liżący, aparat kłująco-ssący, szczękoczułki.",
     "options": null,
-    "answer": "płetwa ogonowa",
+    "answer": "szczękoczułki",
     "image": "/img/r03_aparaty_gebowe_owadow.jpg",
-    "explanation": "Płetwa ogonowa nie jest typem aparatu gębowego owadów."
+    "explanation": "Aparat gryzący, ssący, liżący i kłująco-ssący to typy narządów gębowych owadów. Szczękoczułki są narządami gębowymi pajęczaków, a nie owadów."
   },
   {
     "id": "R03_PRZ_14",

@@ -200,10 +200,10 @@ const ALL_EXERCISES = [
     "id": "R02_ATE_12",
     "section": "Demokratyczne Ateny",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Ateny, Sparta, Korynt, amfora.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Ateny, Sparta, Korynt, Aleksandria.",
     "options": null,
-    "answer": "amfora",
-    "explanation": "Ateny, Sparta i Korynt to greckie polis, natomiast amfora to naczynie."
+    "answer": "Aleksandria",
+    "explanation": "Ateny, Sparta i Korynt to greckie polis - niezależne miasta-państwa. Aleksandrię założył w Egipcie dopiero Aleksander Wielki."
   },
   {
     "id": "R02_SPA_01",

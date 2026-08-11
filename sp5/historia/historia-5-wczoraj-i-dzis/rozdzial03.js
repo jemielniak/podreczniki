@@ -707,10 +707,10 @@ const ALL_EXERCISES = [
     "id": "R03_DOK_09",
     "section": "Dokonania starożytnych Rzymian",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Wergiliusz, Horacy, ody, akwedukt.",
-    "explanation": "Wergiliusz, Horacy i ody wiążą się z literaturą, a akwedukt z architekturą i wodociągami.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Wergiliusz, Horacy, ody, Homer.",
+    "explanation": "Wergiliusz, Horacy i ody wiążą się z literaturą starożytnego Rzymu. Homer był poetą greckim - autorem Iliady i Odysei - i tworzył setki lat wcześniej.",
     "options": null,
-    "answer": "akwedukt"
+    "answer": "Homer"
   },
   {
     "id": "R03_DOK_10",

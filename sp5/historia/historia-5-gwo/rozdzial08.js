@@ -797,10 +797,10 @@ const ALL_EXERCISES = [
     "id": "R08_SZL_09",
     "section": "Od rycerstwa do szlachty",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: król, izba senatorska, izba poselska, Zamek Wysoki.",
-    "explanation": "Król, izba senatorska i izba poselska były stanami sejmującymi; Zamek Wysoki to część zamku w Malborku.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: król, izba senatorska, izba poselska, sejmik ziemski.",
+    "explanation": "Król, izba senatorska i izba poselska to trzy stany sejmujące. Sejmik ziemski był lokalnym zjazdem szlachty jednej ziemi - wybierał posłów, ale sam nie był stanem sejmującym.",
     "options": null,
-    "answer": "Zamek Wysoki"
+    "answer": "sejmik ziemski"
   },
   {
     "id": "R08_SZL_10",

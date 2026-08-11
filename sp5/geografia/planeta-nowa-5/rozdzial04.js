@@ -124,10 +124,10 @@ const ALL_EXERCISES = [
     "id": "R04_POG_08",
     "section": "Pogoda i klimat",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: temperatura powietrza, opady atmosferyczne, ciśnienie atmosferyczne, liczba ludności.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: temperatura powietrza, opady atmosferyczne, ciśnienie atmosferyczne, wysokość nad poziomem morza.",
     "options": null,
-    "answer": "liczba ludności",
-    "explanation": "Liczba ludności nie jest składnikiem pogody."
+    "answer": "wysokość nad poziomem morza",
+    "explanation": "Temperatura, opady i ciśnienie atmosferyczne to składniki pogody - zmieniają się z dnia na dzień. Wysokość nad poziomem morza jest stałą cechą terenu, a nie składnikiem pogody."
   },
   {
     "id": "R04_POG_09",
@@ -307,10 +307,10 @@ const ALL_EXERCISES = [
     "id": "R04_STR_08",
     "section": "Strefy klimatyczne i krajobrazowe",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: tajga, tundra, sawanna, klimatogram.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: tajga, tundra, sawanna, makia.",
     "options": null,
-    "answer": "klimatogram",
-    "explanation": "Tajga, tundra i sawanna to strefy krajobrazowe, a klimatogram jest wykresem klimatycznym."
+    "answer": "makia",
+    "explanation": "Tajga, tundra i sawanna to strefy krajobrazowe. Makia jest tylko formacją roślinną strefy śródziemnomorskiej - nazwą zarośli, a nie całej strefy."
   },
   {
     "id": "R04_STR_09",
@@ -1039,10 +1039,10 @@ const ALL_EXERCISES = [
     "id": "R04_TTG_11",
     "section": "Tajga, tundra i góry",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: turnia, grań, żleb, sawanna.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: turnia, grań, żleb, delta rzeki.",
     "options": null,
-    "answer": "sawanna",
-    "explanation": "Turnia, grań i żleb to formy rzeźby wysokogórskiej, a sawanna jest strefą krajobrazową."
+    "answer": "delta rzeki",
+    "explanation": "Turnia, grań i żleb to formy rzeźby wysokogórskiej. Delta powstaje na nizinie, u ujścia rzeki do morza, z materiału niesionego przez wodę."
   },
   {
     "id": "R04_TTG_12",
@@ -1213,10 +1213,10 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Reinhold Messner, Jerzy Kukuczka, Mount Everest, makia.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Reinhold Messner, Jerzy Kukuczka, Mount Everest, Mont Blanc.",
     "options": null,
-    "answer": "makia",
-    "explanation": "Messner, Kukuczka i Mount Everest występują w ciekawostce lub opisie Himalajów, a makia dotyczy strefy śródziemnomorskiej."
+    "answer": "Mont Blanc",
+    "explanation": "Messner, Kukuczka i Mount Everest wiążą się z Himalajami i zdobywaniem ośmiotysięczników. Mont Blanc jest najwyższym szczytem Alp i ma niecałe 5000 m."
   },
   {
     "id": "R04_HARD_09",

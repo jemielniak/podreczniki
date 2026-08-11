@@ -474,10 +474,10 @@ const ALL_EXERCISES = [
     "id": "R04_OKR_06",
     "section": "Rośliny okrytonasienne",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niepasujący do form roślin okrytonasiennych: rośliny zielne, krzewinki, drzewa, szyszki.",
+    "prompt": "Wskaż element niepasujący do form roślin okrytonasiennych: rośliny zielne, krzewinki, drzewa, iglaki.",
     "options": null,
-    "answer": "szyszki",
-    "explanation": "Szyszki nie są formą rośliny okrytonasiennej. Formami są między innymi drzewa, krzewy, krzewinki i rośliny zielne."
+    "answer": "iglaki",
+    "explanation": "Formami roślin okrytonasiennych są rośliny zielne, krzewinki, krzewy i drzewa. Iglaki należą do roślin nagonasiennych, więc nie są formą okrytonasiennych."
   },
   {
     "id": "R04_OKR_07",

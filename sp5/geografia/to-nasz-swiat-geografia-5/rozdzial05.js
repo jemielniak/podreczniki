@@ -536,10 +536,10 @@ const ALL_EXERCISES = [
     "id": "R05_SAW_10",
     "section": "Sawanna",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do sawanny: akacja, baobab, gnu, makia.",
+    "prompt": "Co nie pasuje do sawanny: akacja, baobab, gnu, oliwka.",
     "options": null,
-    "answer": "makia",
-    "explanation": "Makia jest roślinnością krajobrazu śródziemnomorskiego, a akacje, baobaby i gnu są związane z sawanną."
+    "answer": "oliwka",
+    "explanation": "Akacja, baobab i gnu są związane z sawanną. Oliwka to drzewo strefy śródziemnomorskiej."
   },
   {
     "id": "R05_PUS_01",
@@ -1011,10 +1011,10 @@ const ALL_EXERCISES = [
     "id": "R05_STE_07",
     "section": "Step",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do stepu: trawy, czarnoziemy, jurta, meduza.",
+    "prompt": "Co nie pasuje do stepu: trawy, czarnoziemy, jurta, renifer.",
     "options": null,
-    "answer": "meduza",
-    "explanation": "Meduza jest wymieniona przy Morzu Śródziemnym, a trawy, czarnoziemy i jurty są związane ze stepem."
+    "answer": "renifer",
+    "explanation": "Trawy, czarnoziemy i jurty są związane ze stepem. Renifer żyje w tundrze i tajdze, gdzie żywi się głównie porostami."
   },
   {
     "id": "R05_STE_08",

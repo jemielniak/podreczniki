@@ -266,10 +266,10 @@ const ALL_EXERCISES = [
     "id": "R02_KLU_06",
     "section": "Klucze do oznaczania",
     "type": "odd_one_out",
-    "prompt": "Co nie jest narzędziem do ustalania nazwy organizmu: klucz, atlas, aplikacja, termometr.",
+    "prompt": "Co nie jest narzędziem do ustalania nazwy organizmu: klucz, atlas, aplikacja, mapa turystyczna.",
     "options": null,
-    "answer": "termometr",
-    "explanation": "Klucze, atlasy i aplikacje mogą pomóc w rozpoznawaniu organizmów; termometr służy do pomiaru temperatury."
+    "answer": "mapa turystyczna",
+    "explanation": "Klucz do oznaczania, atlas i aplikacja pomagają ustalić nazwę organizmu. Mapa turystyczna też jest pomocą drukowaną, ale pokazuje teren i szlaki, a nie gatunki."
   },
   {
     "id": "R02_KLU_07",

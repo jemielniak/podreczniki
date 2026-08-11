@@ -461,10 +461,10 @@ const ALL_EXERCISES =
     "id": "R01_PB_15",
     "section": "Jak poznawać biologię?",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: atlas, film przyrodniczy, edukacyjna strona internetowa, przypadkowa plotka.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: atlas, film przyrodniczy, edukacyjna strona internetowa, komentarz pod filmem.",
     "options": null,
-    "answer": "przypadkowa plotka",
-    "explanation": "Atlas, film przyrodniczy i edukacyjna strona internetowa mogą być źródłem wiedzy biologicznej. Plotka nie jest pewnym źródłem informacji.",
+    "answer": "komentarz pod filmem",
+    "explanation": "Atlas, film przyrodniczy i edukacyjna strona internetowa są przygotowywane przez specjalistów. Komentarz pod filmem może napisać każdy i nikt go nie sprawdza, więc nie jest pewnym źródłem wiedzy.",
     "image": "/img/r01_zrodla_wiedzy.jpg"
   },
   {
@@ -867,10 +867,10 @@ const ALL_EXERCISES =
     "id": "R01_ST_08",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: zoologia, botanika, mikrobiologia, mikroskop.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: zoologia, botanika, mikrobiologia, meteorologia.",
     "options": null,
-    "answer": "mikroskop",
-    "explanation": "Trzy pierwsze to dziedziny biologii, a mikroskop to przyrząd."
+    "answer": "meteorologia",
+    "explanation": "Zoologia, botanika i mikrobiologia to dziedziny biologii. Meteorologia również jest nauką, ale zajmuje się pogodą i atmosferą, a nie organizmami."
   },
   {
     "id": "R01_ST_09",

@@ -275,10 +275,10 @@ const ALL_EXERCISES = [
     "id": "R02_POL_07",
     "section": "Demokratyczne Ateny i Sparta",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: obywatel, metojk, niewolnik, bogini.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: obywatel, metojk, niewolnik, patrycjusz.",
     "options": null,
-    "answer": "bogini",
-    "explanation": "Obywatel, metojk i niewolnik to grupy społeczne Aten, a bogini należy do świata religii."
+    "answer": "patrycjusz",
+    "explanation": "Obywatele, metojkowie i niewolnicy to grupy mieszkańców Aten. Patrycjusze byli grupą społeczną w starożytnym Rzymie."
   },
   {
     "id": "R02_POL_08",
@@ -716,10 +716,10 @@ const ALL_EXERCISES = [
     "id": "R02_IGR_10",
     "section": "Teatr i igrzyska",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: bieg, zapasy, rzut dyskiem, czytanie.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: bieg, zapasy, rzut dyskiem, pływanie.",
     "options": null,
-    "answer": "czytanie",
-    "explanation": "Bieg, zapasy i rzut dyskiem były dyscyplinami sportowymi, a czytanie nie było konkurencją igrzysk."
+    "answer": "pływanie",
+    "explanation": "Bieg, zapasy i rzut dyskiem były konkurencjami starożytnych igrzysk olimpijskich. Pływanie też jest dyscypliną sportową, ale w starożytnej Olimpii takich zawodów nie rozgrywano."
   },
   {
     "id": "R02_KUL_01",

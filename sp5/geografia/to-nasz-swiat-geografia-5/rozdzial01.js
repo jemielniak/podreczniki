@@ -72,10 +72,10 @@ const ALL_EXERCISES = [
     "id": "R01_ZIG_05",
     "section": "Ziemia i globus",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do rzeczy przedstawianych na globusie: lądy, wody, państwa, drakkary.",
+    "prompt": "Co nie pasuje do rzeczy przedstawianych na globusie: lądy, wody, państwa, ulice miast.",
     "options": null,
-    "answer": "drakkary",
-    "explanation": "Na globusie przedstawia się lądy, wody i podział świata na państwa. Drakkary to łodzie wikingów, a nie element globusa."
+    "answer": "ulice miast",
+    "explanation": "Na globusie widać lądy, wody i podział świata na państwa. Ulic miast na globusie się nie pokazuje - globus przedstawia całą Ziemię w bardzo małej skali."
   },
   {
     "id": "R01_ZIG_06",

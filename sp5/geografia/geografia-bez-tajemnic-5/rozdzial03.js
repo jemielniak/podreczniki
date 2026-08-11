@@ -113,10 +113,10 @@ const ALL_EXERCISES = [
     "id": "R03_SLA_07",
     "section": "Wyżyna Śląska",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: kopalnie, huty, zakłady energetyczne, pola lessowe",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: kopalnie, huty, zakłady energetyczne, rafineria ropy naftowej",
     "options": null,
-    "answer": "pola lessowe",
-    "explanation": "Pola lessowe kojarzą się z krajobrazem rolniczym Wyżyny Lubelskiej, a pozostałe elementy są typowe dla krajobrazu miejsko-przemysłowego."
+    "answer": "rafineria ropy naftowej",
+    "explanation": "Kopalnie, huty i zakłady energetyczne tworzą krajobraz miejsko-przemysłowy Wyżyny Śląskiej. Największa polska rafineria ropy naftowej pracuje w Płocku, na Nizinie Mazowieckiej."
   },
   {
     "id": "R03_SLA_08",
@@ -1142,10 +1142,10 @@ const ALL_EXERCISES = [
     "id": "R03_MIE_03",
     "section": "Powtórka mieszana",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Ślązacy, górale podhalańscy, gwara śląska, gwara podhalańska, skamieniałości",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Ślązacy, górale podhalańscy, gwara śląska, gwara podhalańska, Kaszubi",
     "options": null,
-    "answer": "skamieniałości",
-    "explanation": "Skamieniałości dotyczą skał, a pozostałe elementy odnoszą się do mieszkańców regionów i ich kultury."
+    "answer": "Kaszubi",
+    "explanation": "Ślązacy i górale podhalańscy oraz ich gwary należą do kultury polskich wyżyn i gór. Kaszubi to grupa regionalna z Pomorza, czyli z pasa pobrzeży."
   },
   {
     "id": "R03_MIE_04",

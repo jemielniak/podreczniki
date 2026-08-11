@@ -109,10 +109,10 @@ const ALL_EXERCISES = [
     "id": "R01_ORG_06",
     "section": "Organizm i poziomy budowy",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do poziomów budowy organizmu: komórka, tkanka, narząd, skała.",
+    "prompt": "Wskaż, co nie pasuje do poziomów budowy organizmu: komórka, tkanka, narząd, gatunek.",
     "options": null,
-    "answer": "skała",
-    "explanation": "Komórka, tkanka i narząd to poziomy budowy organizmu. Skała jest elementem przyrody nieożywionej, a nie poziomem budowy organizmu."
+    "answer": "gatunek",
+    "explanation": "Komórka, tkanka i narząd to kolejne poziomy budowy organizmu. Gatunek jest jednostką klasyfikacji organizmów, a nie poziomem budowy ciała."
   },
   {
     "id": "R01_ORG_07",
@@ -460,11 +460,11 @@ const ALL_EXERCISES = [
     "id": "R01_MIK_06",
     "section": "Mikroskop i preparaty",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do elementów mikroskopu: okular, obiektyw, rewolwer, chloroplast.",
+    "prompt": "Wskaż, co nie pasuje do elementów mikroskopu: okular, obiektyw, rewolwer, szkiełko nakrywkowe.",
     "options": null,
-    "answer": "chloroplast",
+    "answer": "szkiełko nakrywkowe",
     "image": "r01_mikroskop_optyczny.jpg",
-    "explanation": "Okular, obiektyw i rewolwer są elementami mikroskopu. Chloroplast jest organellum komórki roślinnej."
+    "explanation": "Okular, obiektyw i rewolwer to części mikroskopu. Szkiełkiem nakrywkowym przykrywa się preparat - należy ono do wyposażenia pracowni, a nie do samego mikroskopu."
   },
   {
     "id": "R01_MIK_07",
@@ -1026,11 +1026,11 @@ const ALL_EXERCISES = [
     "id": "R01_ODD_06",
     "section": "Oddychanie komórkowe",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do schematu oddychania tlenowego: glukoza, tlen, dwutlenek węgla, chlorofil.",
+    "prompt": "Wskaż, co nie pasuje do schematu oddychania tlenowego: glukoza, tlen, dwutlenek węgla, azot.",
     "options": null,
-    "answer": "chlorofil",
+    "answer": "azot",
     "image": "r01_oddychanie_schemat.jpg",
-    "explanation": "Glukoza, tlen i dwutlenek węgla występują w schemacie oddychania tlenowego. Chlorofil jest barwnikiem potrzebnym do fotosyntezy."
+    "explanation": "Glukoza, tlen i dwutlenek węgla występują w schemacie oddychania tlenowego. Azot stanowi większość powietrza, ale organizmy go nie zużywają - w oddychaniu komórkowym nie bierze udziału."
   },
   {
     "id": "R01_ODD_07",

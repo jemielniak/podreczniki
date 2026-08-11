@@ -484,10 +484,10 @@ const ALL_EXERCISES = [
     "id": "R03_KLI_06",
     "section": "Klimat i zmiana klimatu",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie jest czynnikiem kształtującym klimat Europy: szerokość geograficzna, wysokość nad poziomem morza, ciepłe prądy morskie, religia dominująca.",
+    "prompt": "Wskaż, co nie jest czynnikiem kształtującym klimat Europy: szerokość geograficzna, wysokość nad poziomem morza, ciepłe prądy morskie, rodzaj gleby.",
     "options": null,
-    "answer": "religia dominująca",
-    "explanation": "Religia dominująca nie jest czynnikiem klimatotwórczym. Wymieniono m.in. szerokość geograficzną, wysokość terenu i ciepłe prądy morskie."
+    "answer": "rodzaj gleby",
+    "explanation": "Klimat Europy kształtują szerokość geograficzna, wysokość nad poziomem morza i ciepłe prądy morskie. Rodzaj gleby klimatu nie tworzy - jest odwrotnie, to klimat decyduje o tym, jaka gleba powstaje."
   },
   {
     "id": "R03_KLI_07",
@@ -736,10 +736,10 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_09",
     "section": "Ludność i migracje",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do religii i ich odłamów: katolicyzm, protestantyzm, prawosławie, elektrownia wodna.",
+    "prompt": "Wskaż, co nie pasuje do odłamów chrześcijaństwa: katolicyzm, protestantyzm, prawosławie, islam.",
     "options": null,
-    "answer": "elektrownia wodna",
-    "explanation": "Katolicyzm, protestantyzm i prawosławie są odłamami chrześcijaństwa, a elektrownia wodna należy do tematu energetyki."
+    "answer": "islam",
+    "explanation": "Katolicyzm, protestantyzm i prawosławie to odłamy chrześcijaństwa. Islam jest odrębną religią, a nie odłamem chrześcijaństwa."
   },
   {
     "id": "R03_LUD_10",

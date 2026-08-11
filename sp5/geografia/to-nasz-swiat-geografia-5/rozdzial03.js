@@ -505,10 +505,10 @@ const ALL_EXERCISES = [
     "id": "R03_NIZ_07",
     "section": "Krajobraz nizinny",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do krajobrazu nizinnego: pola uprawne, sady, pastwiska, stalaktyty.",
+    "prompt": "Co nie pasuje do krajobrazu nizinnego: pola uprawne, sady, pastwiska, hale górskie.",
     "options": null,
-    "answer": "stalaktyty",
-    "explanation": "Stalaktyty są formami krasowymi spotykanymi w jaskiniach, a pola uprawne, sady i pastwiska są związane z krajobrazem nizin."
+    "answer": "hale górskie",
+    "explanation": "Pola uprawne, sady i pastwiska są typowe dla krajobrazu nizinnego. Hale górskie to wysoko położone łąki, na których wypasa się owce w górach."
   },
   {
     "id": "R03_NIZ_08",

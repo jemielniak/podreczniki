@@ -98,10 +98,10 @@ const ALL_EXERCISES = [
     "id": "R01_ZYC_06",
     "section": "Życie pierwszych ludzi",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: zbieractwo, myślistwo, rolnictwo, jaskinia.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: zbieractwo, myślistwo, rolnictwo, garncarstwo.",
     "options": null,
-    "answer": "jaskinia",
-    "explanation": "Zbieractwo, myślistwo i rolnictwo to sposoby zdobywania pożywienia, a jaskinia była schronieniem."
+    "answer": "garncarstwo",
+    "explanation": "Zbieractwo, myślistwo i rolnictwo to sposoby zdobywania pożywienia. Garncarstwo jest rzemiosłem - polega na wyrabianiu naczyń z gliny."
   },
   {
     "id": "R01_ZYC_07",
@@ -300,10 +300,10 @@ const ALL_EXERCISES = [
     "id": "R01_MEZ_07",
     "section": "Miasta-państwa Mezopotamii",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: Sumerowie, Babilończycy, Egipcjanie, Hammurabi.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: Sumerowie, Babilończycy, Asyryjczycy, Egipcjanie.",
     "options": null,
-    "answer": "Hammurabi",
-    "explanation": "Hammurabi był władcą, a pozostałe nazwy oznaczają ludy lub mieszkańców cywilizacji."
+    "answer": "Egipcjanie",
+    "explanation": "Sumerowie, Babilończycy i Asyryjczycy to ludy Mezopotamii - krainy między Eufratem a Tygrysem. Egipcjanie stworzyli swoją cywilizację nad Nilem."
   },
   {
     "id": "R01_MEZ_08",
