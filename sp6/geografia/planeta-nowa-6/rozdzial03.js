@@ -101,7 +101,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "Sardynia",
     "image": "r03_fiordy_i_wyspy.jpg",
-    "explanation": "Jako największe europejskie wyspy podano Wielką Brytanię, Islandię i Irlandię. Sardynia nie należy do tej trójki."
+    "explanation": "Największe europejskie wyspy to Wielka Brytania, Islandia i Irlandia. Sardynia nie należy do tej trójki."
   },
   {
     "id": "R03_POL_07",
@@ -175,7 +175,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "r03_alpy_i_nizina.jpg",
-    "explanation": "Wymienia się niziny, góry i wyżyny Europy oraz podaje ich przykłady."
+    "explanation": "Nizina Francuska i Nizina Środkowoeuropejska to niziny, Karpaty i Pireneje to góry, a Wyżyna Bawarska i Wyżyna Środkoworosyjska to wyżyny."
   },
   {
     "id": "R03_POL_10",
@@ -318,7 +318,7 @@ const ALL_EXERCISES = [
       6
     ],
     "image": "r03_gejzer_i_wulkan.jpg",
-    "explanation": "Wymieniono m.in. czynne wulkany Islandii: Heklę, Laki, Eyjafjallajökull, Barðarbungę i Sundhnukur."
+    "explanation": "Do czynnych wulkanów Islandii należą m.in. Hekla, Laki, Eyjafjallajökull, Barðarbunga i Sundhnukur."
   },
   {
     "id": "R03_ISL_07",
@@ -335,7 +335,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_gejzer_i_wulkan.jpg",
-    "explanation": "Podano przykład gejzeru Strokkur, który co kilka minut wyrzuca wodę na wysokość około 30 m."
+    "explanation": "Strokkur to gejzer, który co kilka minut wyrzuca wodę na wysokość około 30 m."
   },
   {
     "id": "R03_ISL_08",
@@ -372,7 +372,7 @@ const ALL_EXERCISES = [
       "Vatnajökull": "lodowiec przykrywający kilka wulkanów"
     },
     "image": "r03_gejzer_i_wulkan.jpg",
-    "explanation": "Podaje się przykłady islandzkich wulkanów, gejzerów i lodowców oraz opisuje ich cechy."
+    "explanation": "Do charakterystycznych elementów Islandii należą wulkany, gejzery i lodowce."
   },
   {
     "id": "R03_ISL_10",
@@ -668,7 +668,7 @@ const ALL_EXERCISES = [
     "prompt": "Kazachstan, Turcja i Rosja są uwzględnione w liczbie państw Europy, choć większość ich terytorium leży w Azji.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się trzy takie kraje: Kazachstan, Turcję i Rosję. Ich części terytorium znajdują się w Europie."
+    "explanation": "Trzy państwa leżą częściowo w Europie: Kazachstan, Turcja i Rosja."
   },
   {
     "id": "R03_PAN_03",
@@ -785,7 +785,7 @@ const ALL_EXERCISES = [
       "wystąpienie Wielkiej Brytanii z UE": "2020"
     },
     "image": "r03_parlament_europejski.jpg",
-    "explanation": "Podaje się daty powstania Europejskiej Wspólnoty Węgla i Stali, Unii Europejskiej, wprowadzenia euro do obiegu i wystąpienia Wielkiej Brytanii z UE."
+    "explanation": "Europejska Wspólnota Węgla i Stali powstała w 1951 r., Unia Europejska w 1993 r., euro wprowadzono do obiegu w 2002 r., a Wielka Brytania wystąpiła z UE w 2020 r."
   },
   {
     "id": "R03_PAN_09",
@@ -894,7 +894,7 @@ const ALL_EXERCISES = [
     "prompt": "Średnia gęstość zaludnienia Europy wynosi 34 os./km2, jeśli liczy się Rosję razem z jej azjatycką częścią.",
     "options": null,
     "answer": true,
-    "explanation": "Podano średnią gęstość zaludnienia Europy 34 os./km2, licząc z całą Rosją, także z jej azjatycką częścią."
+    "explanation": "Średnia gęstość zaludnienia Europy wynosi 34 os./km2 przy uwzględnieniu całej Rosji, także jej azjatyckiej części."
   },
   {
     "id": "R03_LUD_04",
@@ -1028,7 +1028,7 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "r03_migracje_i_wielokulturowosc.jpg",
-    "explanation": "Wskazuje się m.in. chęć poprawy poziomu życia i pracy, ucieczkę przed wojną i prześladowaniami, dołączenie do rodziny oraz poznawanie innych kultur i języka."
+    "explanation": "Do przyczyn migracji należą m.in. chęć poprawy poziomu życia i pracy, ucieczka przed wojną i prześladowaniami, dołączenie do rodziny oraz poznawanie innych kultur i języka."
   },
   {
     "id": "R03_LUD_11",
@@ -1062,7 +1062,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_metropolie_zachodniej_europy.jpg",
-    "explanation": "W podsumowaniu wskazano, że największymi miastami Europy są Moskwa, Paryż i Londyn."
+    "explanation": "Największymi miastami Europy są Moskwa, Paryż i Londyn."
   },
   {
     "id": "R03_HARD_01",
@@ -1189,7 +1189,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r03_makia_i_tajga.jpg",
-    "explanation": "Opisuje się związki klimatu z roślinnością: podzwrotnikowy z makią, okołobiegunowy z tundrą i lodowcami, umiarkowany chłodny z tajgą oraz umiarkowany ciepły kontynentalny ze stepami."
+    "explanation": "Klimat podzwrotnikowy wiąże się z makią, okołobiegunowy z tundrą i lodowcami, umiarkowany chłodny z tajgą, a umiarkowany ciepły kontynentalny ze stepami."
   },
   {
     "id": "R03_HARD_08",
@@ -1229,7 +1229,7 @@ const ALL_EXERCISES = [
       "wystąpienie Wielkiej Brytanii z UE"
     ],
     "image": "r03_parlament_europejski.jpg",
-    "explanation": "Podano kolejno: 1951 - Europejska Wspólnota Węgla i Stali, 1993 - powstanie Unii Europejskiej, 2002 - euro w obiegu, 2008 - niepodległość Kosowa, 2020 - wystąpienie Wielkiej Brytanii z UE."
+    "explanation": "Kolejność wydarzeń jest następująca: 1951 - Europejska Wspólnota Węgla i Stali, 1993 - powstanie Unii Europejskiej, 2002 - euro w obiegu, 2008 - niepodległość Kosowa, 2020 - wystąpienie Wielkiej Brytanii z UE."
   },
   {
     "id": "R03_HARD_10",
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
       "City": "dzielnica biznesowa nad Tamizą"
     },
     "image": "r03_metropolie_zachodniej_europy.jpg",
-    "explanation": "Przedstawia się atrakcje i miejsca kojarzone z Paryżem oraz Londynem, m.in. Tower Bridge, Wersal, Luwr i dzielnicę City."
+    "explanation": "Do atrakcji i miejsc kojarzonych z Paryżem oraz Londynem należą m.in. Tower Bridge, Wersal, Luwr i dzielnica City."
   }
 ];
 

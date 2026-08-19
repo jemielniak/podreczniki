@@ -74,7 +74,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymieniono producentów samochodów, sprzętu elektronicznego, sprzętu optycznego oraz lekarstw."
+    "explanation": "Współczesny przemysł Niemiec słynie z samochodów, sprzętu elektronicznego, sprzętu optycznego i lekarstw."
   },
   {
     "id": "R05_NIEM_05",
@@ -100,7 +100,7 @@ const ALL_EXERCISES = [
       "Zeiss": "sprzęt optyczny",
       "Bayer": "lekarstwa"
     },
-    "explanation": "Podaje się przykłady znanych niemieckich producentów: Volkswagen, Siemens, Zeiss i Bayer."
+    "explanation": "Do znanych niemieckich producentów należą Volkswagen, Siemens, Zeiss i Bayer."
   },
   {
     "id": "R05_NIEM_06",
@@ -196,7 +196,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "nowe szyby wydobywcze",
     "image": "r05_zollverein_rekultywacja.jpg",
-    "explanation": "Opisano muzea, tereny rekreacyjne i centra kulturalno-rozrywkowe, a nie ponowne rozwijanie wydobycia w zamkniętych kopalniach."
+    "explanation": "Tereny po zamkniętych kopalniach i hutach są wykorzystywane jako muzea, tereny rekreacyjne i centra kulturalno-rozrywkowe, a nie do ponownego rozwijania wydobycia."
   },
   {
     "id": "R05_CZS_01",
@@ -221,7 +221,7 @@ const ALL_EXERCISES = [
     "prompt": "Czechy i Słowacja nie mają dostępu do morza.",
     "options": null,
     "answer": true,
-    "explanation": "W opisach obu państw podkreślono, że nie mają dostępu do morza."
+    "explanation": "Czechy i Słowacja nie mają dostępu do morza."
   },
   {
     "id": "R05_CZS_03",
@@ -359,7 +359,7 @@ const ALL_EXERCISES = [
         "wody termalne"
       ]
     },
-    "explanation": "Wymienia się te atrakcje jako przykłady walorów turystycznych południowych sąsiadów Polski."
+    "explanation": "Te atrakcje są przykładami walorów turystycznych południowych sąsiadów Polski."
   },
   {
     "id": "R05_CZS_10",
@@ -548,7 +548,7 @@ const ALL_EXERCISES = [
       "Puszcza Zielona"
     ],
     "answer": 0,
-    "explanation": "Opisuje się Puszczę Białowieską jako ważny element dziedzictwa przyrodniczego na pograniczu polsko-białoruskim."
+    "explanation": "Puszcza Białowieska jest ważnym elementem dziedzictwa przyrodniczego na pograniczu polsko-białoruskim."
   },
   {
     "id": "R05_UKR_01",
@@ -684,7 +684,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "nadmierny ruch turystyczny",
     "image": "r05_ukraina_wojna_skutki.jpg",
-    "explanation": "Wskazuje się wojnę, bombardowania i emigrację jako problemy Ukrainy, a nie nadmierny ruch turystyczny."
+    "explanation": "Do problemów Ukrainy należą wojna, bombardowania i emigracja, a nie nadmierny ruch turystyczny."
   },
   {
     "id": "R05_UKR_09",
@@ -744,7 +744,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_01",
     "section": "Rosja i przyroda",
     "type": "single_choice",
-    "prompt": "Które państwo opisano jako największe pod względem powierzchni na świecie?",
+    "prompt": "Które państwo jest największe pod względem powierzchni na świecie?",
     "options": [
       "Rosję",
       "Ukrainę",
@@ -803,7 +803,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymieniono Nizinę Wschodnioeuropejską, Ural, Nizinę Zachodniosyberyjską i Wyżynę Środkowosyberyjską jako ważne elementy rzeźby Rosji."
+    "explanation": "Do ważnych elementów rzeźby Rosji należą Nizina Wschodnioeuropejska, Ural, Nizina Zachodniosyberyjska i Wyżyna Środkowosyberyjska."
   },
   {
     "id": "R05_ROS_05",
@@ -830,7 +830,7 @@ const ALL_EXERCISES = [
       "Kluczewska Sopka": "czynny wulkan na Kamczatce"
     },
     "image": "r05_bajkal_jezioro.jpg",
-    "explanation": "Wskazuje się Wołgę, Bajkał, Elbrus i Kluczewską Sopkę jako charakterystyczne obiekty przyrodnicze Rosji."
+    "explanation": "Wołga, Bajkał, Elbrus i Kluczewska Sopka to charakterystyczne obiekty przyrodnicze Rosji."
   },
   {
     "id": "R05_ROS_06",
@@ -887,7 +887,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do surowców mineralnych Rosji: węgiel kamienny, gaz ziemny, ropa naftowa, wody termalne.",
     "options": null,
     "answer": "wody termalne",
-    "explanation": "Wymienia się węgiel kamienny, gaz ziemny i ropę naftową jako rosyjskie surowce, a wody termalne omawia przy Słowacji i Litwie."
+    "explanation": "Węgiel kamienny, gaz ziemny i ropa naftowa to ważne rosyjskie surowce; wody termalne nie pasują do tej grupy."
   },
   {
     "id": "R05_ROS_09",
@@ -937,7 +937,7 @@ const ALL_EXERCISES = [
     "prompt": "Relacje Polski z Rosją i Białorusią są obecnie opisane jako nieprzyjazne lub złe.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się dobre relacje z pozostałymi sąsiadami, ale złe stosunki z Rosją i Białorusią."
+    "explanation": "Polska ma dobre relacje z większością sąsiadów, ale złe stosunki z Rosją i Białorusią."
   },
   {
     "id": "R05_REL_03",
@@ -1003,7 +1003,7 @@ const ALL_EXERCISES = [
       "NATO": "organizacja wojskowa",
       "Grupa Wyszehradzka": "współpraca Polski Czech Słowacji i Węgier"
     },
-    "explanation": "Opisuje się główne formy współpracy Polski z sąsiadami w organizacjach międzynarodowych."
+    "explanation": "Polska współpracuje z sąsiadami w ramach różnych organizacji międzynarodowych."
   },
   {
     "id": "R05_REL_06",
@@ -1131,7 +1131,7 @@ const ALL_EXERCISES = [
         "samochod dla ludu"
       ]
     ],
-    "explanation": "W ciekawostce wyjaśniono, że samochody Volkswagena miały być niedrogie i dostępne dla przeciętnego człowieka."
+    "explanation": "Samochody Volkswagena miały być niedrogie i dostępne dla przeciętnego człowieka."
   },
   {
     "id": "R05_HARD_03",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
       "Lindau": "miasto nad Jeziorem Bodeńskim"
     },
     "image": "r05_niemcy_atrakcje.jpg",
-    "explanation": "Przedstawia się te obiekty jako przykłady atrakcji Niemiec i podaje charakterystyczne informacje o każdym z nich."
+    "explanation": "Te obiekty są przykładami atrakcji Niemiec i mają charakterystyczne cechy."
   },
   {
     "id": "R05_HARD_04",
@@ -1183,7 +1183,7 @@ const ALL_EXERCISES = [
       "2 km"
     ],
     "answer": 0,
-    "explanation": "W podpisie podano, że Dobszyńska Jaskinia Lodowa ma długość 1,5 km i jest udostępniona do zwiedzania."
+    "explanation": "Dobszyńska Jaskinia Lodowa ma długość 1,5 km i jest udostępniona do zwiedzania."
   },
   {
     "id": "R05_HARD_06",
@@ -1218,7 +1218,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymienia się autorytarny charakter państwa, współpracę z Rosją, poparcie inwazji i utrudnianie sytuacji Polaków na Białorusi jako przyczyny złych relacji."
+    "explanation": "Przyczynami złych relacji są autorytarny charakter państwa, współpraca z Rosją, poparcie inwazji i utrudnianie sytuacji Polaków na Białorusi."
   },
   {
     "id": "R05_HARD_08",
@@ -1234,7 +1234,7 @@ const ALL_EXERCISES = [
       "Unia Europejska"
     ],
     "answer": 0,
-    "explanation": "W tabeli podano, że NATO jest organizacją wojskową, a Polska szczególnie blisko współpracuje w niej między innymi z Litwą."
+    "explanation": "NATO jest organizacją wojskową, a Polska szczególnie blisko współpracuje w niej między innymi z Litwą."
   },
   {
     "id": "R05_HARD_09",

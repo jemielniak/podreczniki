@@ -77,7 +77,7 @@ const ALL_EXERCISES = [
       "produkcja metali i wyrobów z metali": "stal, narzędzia, kontenery",
       "produkcja komputerów i urządzeń elektronicznych": "odkurzacze, telewizory, kamery"
     },
-    "explanation": "Podaje się przykłady produktów dla najważniejszych działów przetwórstwa przemysłowego."
+    "explanation": "Najważniejsze działy przetwórstwa przemysłowego wytwarzają m.in. tkaniny, lekarstwa, stal i urządzenia elektroniczne."
   },
   {
     "id": "R04_GOS_05",
@@ -99,7 +99,7 @@ const ALL_EXERCISES = [
         "rolnictwo"
       ]
     ],
-    "explanation": "Wskazano dwa ważne czynniki rozwoju przemysłu we Francji: złoża surowców mineralnych oraz rolnictwo."
+    "explanation": "Dwa ważne czynniki rozwoju przemysłu we Francji to złoża surowców mineralnych oraz rolnictwo."
   },
   {
     "id": "R04_GOS_06",
@@ -227,7 +227,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Do usług zaliczono między innymi edukację, ochronę zdrowia, handel i transport."
+    "explanation": "Do usług należą między innymi edukacja, ochrona zdrowia, handel i transport."
   },
   {
     "id": "R04_USL_03",
@@ -318,7 +318,7 @@ const ALL_EXERCISES = [
       "usługi turystyczne": "muzea, hotele i restauracje"
     },
     "image": "r04_pociag_tgv.jpg",
-    "explanation": "Wymienia się we Francji między innymi usługi transportowe, badawczo-rozwojowe, finansowe i turystyczne."
+    "explanation": "We Francji rozwinięte są między innymi usługi transportowe, badawczo-rozwojowe, finansowe i turystyczne."
   },
   {
     "id": "R04_USL_08",
@@ -611,7 +611,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r04_wiatraki_nad_morzem.jpg",
-    "explanation": "Wskazuje się wybrzeża i rozległe doliny jako obszary sprzyjające budowie elektrowni wiatrowych."
+    "explanation": "Wybrzeża i rozległe doliny sprzyjają budowie elektrowni wiatrowych."
   },
   {
     "id": "R04_ZMI_05",
@@ -640,7 +640,7 @@ const ALL_EXERCISES = [
       "Dania": "spory udział elektrowni wiatrowych",
       "Grecja": "duże wykorzystanie energii słonecznej"
     },
-    "explanation": "Podaje się przykłady państw, w których duże znaczenie mają różne rodzaje elektrowni zależne od warunków środowiska."
+    "explanation": "W poszczególnych państwach duże znaczenie mają różne rodzaje elektrowni, zależnie od warunków środowiska."
   },
   {
     "id": "R04_ZMI_06",
@@ -828,7 +828,7 @@ const ALL_EXERCISES = [
       "Rzym": "starożytna stolica z Koloseum"
     },
     "image": "r04_lazurowe_wybrzeze.jpg",
-    "explanation": "Przedstawia się przykłady miejsc atrakcyjnych turystycznie w Europie Południowej, między innymi Wenecję, Lazurowe Wybrzeże, Jeziora Plitwickie i Rzym."
+    "explanation": "Do atrakcyjnych turystycznie miejsc Europy Południowej należą między innymi Wenecja, Lazurowe Wybrzeże, Jeziora Plitwickie i Rzym."
   },
   {
     "id": "R04_TUR_05",
@@ -958,7 +958,7 @@ const ALL_EXERCISES = [
         "44 461 dol. amer."
       ]
     ],
-    "explanation": "W tabeli kraju podano powierzchnię 551 700 km² i PKB na osobę 44 461 dol. amer. w 2023 roku."
+    "explanation": "Francja metropolitalna ma powierzchnię 551 700 km², a PKB na osobę wynosiło 44 461 dol. amer. w 2023 roku."
   },
   {
     "id": "R04_HARD_03",
@@ -978,7 +978,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Jako obszary Francji poza Europą wymieniono Gujanę Francuską, Gwadelupę i Martynikę. Korsyka należy do Francji metropolitalnej."
+    "explanation": "Do obszarów Francji położonych poza Europą należą Gujana Francuska, Gwadelupa i Martynika. Korsyka należy do Francji metropolitalnej."
   },
   {
     "id": "R04_HARD_04",
@@ -1020,7 +1020,7 @@ const ALL_EXERCISES = [
       "Michelin": "opony",
       "L'Oreal": "kosmetyki"
     },
-    "explanation": "Wymienia się Renault wśród producentów samochodów, Airbus w lotnictwie, Michelin w produkcji opon, a L'Oreal w kosmetyce."
+    "explanation": "Renault produkuje samochody, Airbus samoloty, Michelin opony, a L'Oreal kosmetyki."
   },
   {
     "id": "R04_HARD_06",
@@ -1055,7 +1055,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaki obszar wskazano jako główne miejsce wydobycia ropy naftowej i gazu ziemnego w Europie?",
+    "prompt": "Jaki jest główny obszar wydobycia ropy naftowej i gazu ziemnego w Europie?",
     "options": [
       "Morze Północne",
       "Morze Śródziemne",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r04_platforma_wiertnicza.jpg",
-    "explanation": "Jako główny europejski obszar wydobycia ropy naftowej i gazu ziemnego wskazano Morze Północne."
+    "explanation": "Głównym europejskim obszarem wydobycia ropy naftowej i gazu ziemnego jest Morze Północne."
   },
   {
     "id": "R04_HARD_09",
@@ -1152,7 +1152,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r04_pola_lawendy.jpg",
-    "explanation": "W tekście o Prowansji podano, że dwie najstarsze wytwórnie perfum działają w miasteczku Grasse."
+    "explanation": "Dwie najstarsze wytwórnie perfum działają w miasteczku Grasse w Prowansji."
   },
   {
     "id": "R04_HARD_13",
@@ -1174,7 +1174,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r04_carcassonne_twierdza.jpg",
-    "explanation": "Carcassonne opisano jako położone na wzgórzu miasto z zachowanymi średniowiecznymi obiektami obronnymi, zamkiem z XII wieku i dwoma pierścieniami murów o długości 3 km."
+    "explanation": "Carcassonne leży na wzgórzu i zachowało średniowieczne obiekty obronne, zamek z XII wieku oraz dwa pierścienie murów o długości 3 km."
   },
   {
     "id": "R04_HARD_14",

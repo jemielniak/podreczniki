@@ -286,7 +286,7 @@ const ALL_EXERCISES = [
       "Albert Einstein"
     ],
     "answer": 0,
-    "explanation": "Wskazano Mikołaja Kopernika jako uczonego, który przyczynił się do zmiany przekonań o Układzie Słonecznym."
+    "explanation": "Mikołaj Kopernik przyczynił się do zmiany przekonań o Układzie Słonecznym."
   },
   {
     "id": "R02_OBR_01",
@@ -1075,7 +1075,7 @@ const ALL_EXERCISES = [
     "id": "R02_STO_15",
     "section": "Strefy oświetlenia Ziemi",
     "type": "single_choice",
-    "prompt": "Który zestaw krajobrazów przypisano w tabeli do strefy podbiegunowej?",
+    "prompt": "Który zestaw krajobrazów jest charakterystyczny dla strefy podbiegunowej?",
     "options": [
       "tundra i pustynie lodowe",
       "sawanny i pustynie gorące",
@@ -1085,7 +1085,7 @@ const ALL_EXERCISES = [
       "tajga i sawanny"
     ],
     "answer": 0,
-    "explanation": "W tabeli strefie podbiegunowej przypisano klimat okołobiegunowy oraz krajobrazy tundry i pustyń lodowych."
+    "explanation": "Dla strefy podbiegunowej charakterystyczne są klimat okołobiegunowy oraz krajobrazy tundry i pustyń lodowych."
   },
   {
     "id": "R02_HARD_01",
@@ -1155,7 +1155,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Jowisz, Saturn, Uran i Neptun są planetami olbrzymami; podaje się ich cechy, między innymi pierścienie Saturna i dalekie położenie Neptuna."
+    "explanation": "Jowisz, Saturn, Uran i Neptun są planetami olbrzymami; Saturn ma pierścienie, a Neptun leży najdalej od Słońca."
   },
   {
     "id": "R02_HARD_05",
@@ -1200,7 +1200,7 @@ const ALL_EXERCISES = [
       "cofają zegary o 24 godziny bez zmiany daty"
     ],
     "answer": 0,
-    "explanation": "W przykładzie podróży z Los Angeles do Tokio po przekroczeniu linii zmiany daty pasażerowie tracą jeden dzień i zmieniają datę na dzień następny."
+    "explanation": "Po przekroczeniu linii zmiany daty w podróży z Los Angeles do Tokio pasażerowie tracą jeden dzień i zmieniają datę na dzień następny."
   },
   {
     "id": "R02_HARD_07",
@@ -1209,7 +1209,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do dat początku astronomicznych pór roku: około 20 marca, około 21 czerwca, około 22 września, około 15 listopada.",
     "options": null,
     "answer": "około 15 listopada",
-    "explanation": "Podaje się daty około 20 marca, 21 czerwca, 22 września i 21 grudnia, a nie 15 listopada."
+    "explanation": "Charakterystyczne daty to około 20 marca, 21 czerwca, 22 września i 21 grudnia, a nie 15 listopada."
   },
   {
     "id": "R02_HARD_08",
@@ -1285,7 +1285,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_11",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który meteoryt opisano jako największy znany meteoryt, który dotarł na Ziemię w jednym kawałku?",
+    "prompt": "Który meteoryt jest największym znanym meteorytem, który dotarł na Ziemię w jednym kawałku?",
     "options": [
       "Hoba",
       "Morasko",
@@ -1295,16 +1295,16 @@ const ALL_EXERCISES = [
       "ELT"
     ],
     "answer": 0,
-    "explanation": "W materiale dodatkowym opisano meteoryt Hoba z Namibii, ważący 60 t, jako największy znany meteoryt zachowany w jednym kawałku."
+    "explanation": "Meteoryt Hoba z Namibii waży 60 t i jest największym znanym meteorytem zachowanym w jednym kawałku."
   },
   {
     "id": "R02_HARD_12",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "W materiale podano, że w Polsce białe noce można obserwować od początku czerwca do połowy lipca, najlepiej na północy kraju.",
+    "prompt": "W Polsce białe noce można obserwować od początku czerwca do połowy lipca, najlepiej na północy kraju.",
     "options": null,
     "answer": true,
-    "explanation": "Opis białych nocy wskazuje, że w Polsce występują one od początku czerwca do połowy lipca i najlepiej widać je na północy kraju."
+    "explanation": "W Polsce białe noce występują od początku czerwca do połowy lipca i najlepiej widać je na północy kraju."
   }
 ];
 

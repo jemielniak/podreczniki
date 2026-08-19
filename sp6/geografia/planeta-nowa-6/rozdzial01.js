@@ -109,7 +109,7 @@ const ALL_EXERCISES = [
         "wschód - zachód"
       ]
     ],
-    "explanation": "Wskazano dwa podstawowe kierunki: południki biegną północ-południe, a równoleżniki wschód-zachód."
+    "explanation": "Południki biegną w kierunku północ-południe, a równoleżniki w kierunku wschód-zachód."
   },
   {
     "id": "R01_SIA_07",
@@ -414,7 +414,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_01",
     "section": "Odczytywanie współrzędnych",
     "type": "single_choice",
-    "prompt": "Jakie współrzędne geograficzne Krakowa podano?",
+    "prompt": "Jakie są współrzędne geograficzne Krakowa?",
     "options": [
       "50°N, 20°E",
       "20°N, 50°E",
@@ -425,7 +425,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_odczyt_krakow.jpg",
-    "explanation": "W przykładzie z Krakowem podano współrzędne 50°N, 20°E."
+    "explanation": "Współrzędne geograficzne Krakowa to 50°N, 20°E."
   },
   {
     "id": "R01_ODC_02",
@@ -469,7 +469,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_04",
     "section": "Odczytywanie współrzędnych",
     "type": "true_false",
-    "prompt": "W przykładzie odczytywania punktu A wartości równoleżników są opisane na obrzeżu mapy, a wartości południków wzdłuż równika.",
+    "prompt": "Na mapie świata wartości równoleżników są opisane na obrzeżu mapy, a wartości południków wzdłuż równika.",
     "options": null,
     "answer": true,
     "explanation": "Na mapie świata wartości równoleżników odczytuje się z obrzeża mapy, a wartości południków wzdłuż równika."
@@ -489,7 +489,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_mapa_europy_hamburg.jpg",
-    "explanation": "W przykładzie podano, że Hamburg leży na równoleżniku 53°N i południku 10°E."
+    "explanation": "Hamburg leży na równoleżniku 53°N i południku 10°E."
   },
   {
     "id": "R01_ODC_06",
@@ -520,7 +520,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_07",
     "section": "Odczytywanie współrzędnych",
     "type": "scenario",
-    "prompt": "Jeżewo leży mniej więcej w połowie odległości między równoleżnikami 53° i 54°. Jaką szerokość geograficzną podano w przykładzie?",
+    "prompt": "Jeżewo leży mniej więcej w połowie odległości między równoleżnikami 53° i 54°. Jaka jest jego przybliżona szerokość geograficzna?",
     "options": [
       "53°30'N",
       "54°30'N",
@@ -536,7 +536,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_08",
     "section": "Odczytywanie współrzędnych",
     "type": "scenario",
-    "prompt": "Jeżewo leży mniej więcej w połowie odległości między południkami 18° i 19°. Jaką długość geograficzną podano w przykładzie?",
+    "prompt": "Jeżewo leży mniej więcej w połowie odległości między południkami 18° i 19°. Jaka jest jego przybliżona długość geograficzna?",
     "options": [
       "18°30'E",
       "18°30'W",
@@ -552,7 +552,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODC_09",
     "section": "Odczytywanie współrzędnych",
     "type": "single_choice",
-    "prompt": "Jakie miasto wskazano jako położone na współrzędnych 46°N, 1°W?",
+    "prompt": "Jakie miasto leży na współrzędnych 46°N, 1°W?",
     "options": [
       "Rochefort",
       "Hamburg",
@@ -562,7 +562,7 @@ const ALL_EXERCISES = [
       "Petersburg"
     ],
     "answer": 0,
-    "explanation": "W przykładzie z mapą drogową miastem o współrzędnych 46°N, 1°W jest Rochefort."
+    "explanation": "Miastem położonym na współrzędnych 46°N, 1°W jest Rochefort."
   },
   {
     "id": "R01_ODC_10",
@@ -636,7 +636,7 @@ const ALL_EXERCISES = [
     "id": "R01_GPS_01",
     "section": "GPS i mapy cyfrowe",
     "type": "single_choice",
-    "prompt": "Jaki system nawigacji satelitarnej wskazano jako najpopularniejszy?",
+    "prompt": "Który system nawigacji satelitarnej jest najpopularniejszy?",
     "options": [
       "GPS",
       "równik",
@@ -724,7 +724,7 @@ const ALL_EXERCISES = [
       "global positioning system",
       "GPS"
     ],
-    "explanation": "W części dla dociekliwych podano rozwinięcie skrótu GPS: Global Positioning System."
+    "explanation": "Skrót GPS rozwija się jako Global Positioning System."
   },
   {
     "id": "R01_GPS_07",
@@ -734,7 +734,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r01_odbiornik_gps.jpg",
-    "explanation": "W ciekawostce wskazano, że odbiorniki GPS pozwalają śledzić trasy wędrówek zagrożonych gatunków, np. żółwi morskich."
+    "explanation": "Odbiorniki GPS pozwalają śledzić trasy wędrówek zagrożonych gatunków, np. żółwi morskich."
   },
   {
     "id": "R01_GPS_08",
@@ -793,7 +793,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż element, który nie jest urządzeniem z odbiornikiem GPS: tablet, smartfon, smartwatch, globus.",
     "options": null,
     "answer": "globus",
-    "explanation": "Wymieniono tablet, smartfon, smartwatch i osobny odbiornik GPS. Globus nie został podany jako urządzenie z GPS."
+    "explanation": "Odbiornik GPS może znajdować się w tablecie, smartfonie, smartwatchu lub jako osobne urządzenie. Globus nie jest urządzeniem z GPS."
   },
   {
     "id": "R01_ROZ_01",
@@ -859,7 +859,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_04",
     "section": "Rozciągłość obszarów",
     "type": "scenario",
-    "prompt": "Europa bez wysp ma skrajny punkt północny 71°08'N i południowy 35°58'N. Jaką rozciągłość południkową podano?",
+    "prompt": "Europa bez wysp ma skrajny punkt północny 71°08'N i południowy 35°58'N. Jaka jest jej rozciągłość południkowa?",
     "options": [
       "35°10'",
       "77°44'",
@@ -876,7 +876,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROZ_05",
     "section": "Rozciągłość obszarów",
     "type": "scenario",
-    "prompt": "Przylądek Roca ma 9°30'W, a ujście Bajdaraty 68°14'E. Jaką rozciągłość równoleżnikową Europy podano?",
+    "prompt": "Przylądek Roca ma 9°30'W, a ujście Bajdaraty 68°14'E. Jaka jest rozciągłość równoleżnikowa Europy?",
     "options": [
       "77°44'",
       "35°10'",
@@ -1031,13 +1031,13 @@ const ALL_EXERCISES = [
       0,
       1
     ],
-    "explanation": "Współrzędne podaje się w stopniach, minutach i sekundach kątowych: 1° dzieli się na 60 minut, a 1 minuta na 60 sekund."
+    "explanation": "Jeden stopień dzieli się na 60 minut kątowych, a jedna minuta na 60 sekund kątowych."
   },
   {
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Przez które miejsce przebiega południk 0° wymieniony w ciekawostce?",
+    "prompt": "Przez które miejsce przebiega południk 0°?",
     "options": [
       "Królewskie Obserwatorium Astronomiczne w Greenwich w Londynie",
       "Kraków",
@@ -1048,13 +1048,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_poludnik_zero_i_180.jpg",
-    "explanation": "W ciekawostce podano, że południk 0° przebiega przez Królewskie Obserwatorium Astronomiczne w Greenwich w Londynie."
+    "explanation": "Południk 0° przebiega przez Królewskie Obserwatorium Astronomiczne w Greenwich w Londynie."
   },
   {
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Współrzędne Sydney podano jako 33°52'S, 151°12'E. Jakie są wartości dwóch kątów opisujących to położenie?",
+    "prompt": "Współrzędne Sydney to 33°52'S, 151°12'E. Jakie są wartości dwóch kątów opisujących to położenie?",
     "options": [
       "33°52' i 151°12'",
       "33°52' i 151°12\"",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Dlaczego przy rozciągłości równoleżnikowej Europy w przykładzie dodano 9°30'W i 68°14'E?",
+    "prompt": "Dlaczego przy obliczaniu rozciągłości równoleżnikowej Europy dodaje się 9°30'W i 68°14'E?",
     "options": [
       "bo skrajne punkty leżą na półkuli zachodniej i wschodniej",
       "bo oba punkty leżą na półkuli północnej",
@@ -1111,14 +1111,14 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_06",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Miasto odszukane w przykładzie na podstawie współrzędnych 46°N, 1°W to...",
+    "prompt": "Miasto położone na współrzędnych 46°N, 1°W to...",
     "options": null,
     "answer": "Rochefort",
     "altAnswers": [
       "Rochefort",
       "rochefort"
     ],
-    "explanation": "W przykładzie z mapą drogową punkt przecięcia równoleżnika 46°N i południka 1°W wskazywał Rochefort."
+    "explanation": "Na współrzędnych 46°N, 1°W leży Rochefort."
   },
   {
     "id": "R01_HARD_07",
@@ -1182,7 +1182,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_09",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W przykładzie skrajne punkty Europy na północy i południu mają szerokości 71°08'N oraz 35°58'N. Jaką operację należy wykonać?",
+    "prompt": "Skrajne punkty Europy na północy i południu mają szerokości 71°08'N oraz 35°58'N. Jaką operację należy wykonać?",
     "options": [
       "odjąć 35°58' od 71°08'",
       "dodać 71°08' i 35°58'",
@@ -1231,13 +1231,13 @@ const ALL_EXERCISES = [
       "wyznacz południk 1°W między 0° i 2°W",
       "odczytaj nazwę miasta w miejscu przecięcia"
     ],
-    "explanation": "W przykładzie najpierw analizuje się siatkę, następnie znajduje równoleżnik i południk, a na ich przecięciu odczytuje nazwę miasta."
+    "explanation": "Najpierw należy przeanalizować siatkę, następnie znaleźć równoleżnik i południk, a na ich przecięciu odczytać nazwę miasta."
   },
   {
     "id": "R01_HARD_13",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz jednostki miar kątowych, w których podaje się współrzędne geograficzne.",
+    "prompt": "Zaznacz jednostki miar kątowych używane do zapisu współrzędnych geograficznych.",
     "options": [
       "stopnie",
       "minuty",
@@ -1273,7 +1273,7 @@ const ALL_EXERCISES = [
         "odjac"
       ]
     ],
-    "explanation": "Podaje się odwrotne zasady: na różnych półkulach wartości się dodaje, a na tej samej półkuli odejmuje."
+    "explanation": "Na różnych półkulach wartości się dodaje, a na tej samej półkuli odejmuje."
   }
 ];
 
@@ -1282,8 +1282,8 @@ const KID_PROMPTS = {
   "R01_SIA_03": "Co oddziela półkulę północną od południowej?",
   "R01_SDL_01": "Z jakich dwóch części składają się współrzędne?",
   "R01_SDL_07": "Co znaczą litery N, S, E i W we współrzędnych?",
-  "R01_ODC_01": "Jakie współrzędne ma Kraków w przykładzie?",
-  "R01_ODC_05": "Jakie współrzędne ma Hamburg w przykładzie?",
+  "R01_ODC_01": "Jakie współrzędne ma Kraków?",
+  "R01_ODC_05": "Jakie współrzędne ma Hamburg?",
   "R01_GPS_01": "Jaki system pomaga wyznaczać współrzędne?",
   "R01_GPS_05": "Co zrobić w aplikacji, gdy znasz współrzędne miejsca?",
   "R01_ROZ_01": "Co porównujemy przy rozciągłości południkowej?",
