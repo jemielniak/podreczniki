@@ -70,7 +70,7 @@ const ALL_EXERCISES = [
         "ciężki"
       ]
     ],
-    "explanation": "Zagłębie Ruhry przedstawiono jako jedno z głównych skupisk przemysłu ciężkiego Niemiec.",
+    "explanation": "Zagłębie Ruhry było jednym z głównych skupisk przemysłu ciężkiego w Niemczech.",
     "image": "r05_zaglebie_ruhry_kopalnie.jpg"
   },
   {
@@ -85,7 +85,7 @@ const ALL_EXERCISES = [
       "Nadrenia Polnocna-Westfalia",
       "Nadrenia Północna Westfalia"
     ],
-    "explanation": "Zmiany w niemieckim przemyśle omówiono na przykładzie Nadrenii Północnej-Westfalii, wskazanej jako najbardziej uprzemysłowiony region kraju.",
+    "explanation": "Nadrenia Północna-Westfalia jest najbardziej uprzemysłowionym regionem Niemiec i dobrze ilustruje przemiany niemieckiego przemysłu.",
     "image": "r05_nadrenia_przemysl.jpg"
   },
   {
@@ -136,7 +136,7 @@ const ALL_EXERCISES = [
       "Lata 60. i 70. XX wieku": "decyzja o stopniowej likwidacji kopalń",
       "Początek XXI wieku": "automatyzacja i komputeryzacja zakładów"
     },
-    "explanation": "Tabela rozwoju regionu pokazuje przejście od górnictwa i hutnictwa przez powojenny szczyt przemysłu ciężkiego do likwidacji kopalń oraz nowoczesnej produkcji."
+    "explanation": "Rozwój regionu przebiegał od górnictwa i hutnictwa przez powojenny szczyt przemysłu ciężkiego do likwidacji kopalń oraz nowoczesnej produkcji."
   },
   {
     "id": "R05_NIEM_09",
@@ -324,7 +324,7 @@ const ALL_EXERCISES = [
       "Mińsk": "nowoczesny gmach Biblioteki Narodowej",
       "Nowogródek": "dzieciństwo Adama Mickiewicza"
     },
-    "explanation": "Wskazuje się Wilno jako dawny ośrodek polskiej kultury, Troki jako dawną stolicę z zamkiem na wyspie, Mińsk jako miasto z Biblioteką Narodową, a Nowogródek jako miejsce dzieciństwa Mickiewicza."
+    "explanation": "Wilno było ważnym ośrodkiem polskiej kultury, Troki dawną stolicą z zamkiem na wyspie, w Mińsku znajduje się Biblioteka Narodowa, a Nowogródek był miejscem dzieciństwa Mickiewicza."
   },
   {
     "id": "R05_LITB_09",
@@ -356,7 +356,7 @@ const ALL_EXERCISES = [
         "Mińsk"
       ]
     },
-    "explanation": "Podsumowanie wyróżnia po stronie Litwy m.in. Mierzeję Kurońską, Wilno i Troki, a po stronie Białorusi Mińsk oraz zamki w Nieświeżu i Mirze."
+    "explanation": "Do ważnych walorów Litwy należą m.in. Mierzeja Kurońska, Wilno i Troki, a Białorusi — Mińsk oraz zamki w Nieświeżu i Mirze."
   },
   {
     "id": "R05_LITB_10",
@@ -392,7 +392,7 @@ const ALL_EXERCISES = [
       "Praga"
     ],
     "answer": 0,
-    "explanation": "Gerlach, mający 2655 m n.p.m., został przedstawiony jako najwyższy szczyt Tatr i Słowacji."
+    "explanation": "Gerlach, mający 2655 m n.p.m., jest najwyższym szczytem Tatr i Słowacji."
   },
   {
     "id": "R05_CZSL_02",
@@ -482,7 +482,7 @@ const ALL_EXERCISES = [
       "Zagłębie Ruhry"
     ],
     "answer": 0,
-    "explanation": "Kras Morawski opisano jako jeden z największych obszarów krasowych w Czechach, z ponad 1000 rozpoznanych jaskiń i pięcioma udostępnionymi do zwiedzania."
+    "explanation": "Kras Morawski jest jednym z największych obszarów krasowych w Czechach, z ponad 1000 rozpoznanych jaskiń i pięcioma udostępnionymi do zwiedzania."
   },
   {
     "id": "R05_CZSL_08",
@@ -540,7 +540,7 @@ const ALL_EXERCISES = [
         "Bratysława"
       ]
     },
-    "explanation": "W podsumowaniu wymieniono czeskie zamki Krumlov, Karlsztejn i Bouzov oraz słowackie przykłady: Bojnice, Bratysławę i Zamek Spiski."
+    "explanation": "Do ważnych zamków i obiektów należą w Czechach Krumlov, Karlsztejn i Bouzov, a na Słowacji Bojnice, Bratysława i Zamek Spiski."
   },
   {
     "id": "R05_CZSL_10",
@@ -560,7 +560,7 @@ const ALL_EXERCISES = [
       "Karkonosze",
       "Śnieżka"
     ],
-    "explanation": "Opisuje się Czechy, przez które przebiegają Sudety; Karkonosze są ich najwyższym pasmem, a Śnieżka jest najwyższym szczytem Karkonoszy i Czech."
+    "explanation": "Przez Czechy przebiegają Sudety; Karkonosze są ich najwyższym pasmem, a Śnieżka jest najwyższym szczytem Karkonoszy i Czech."
   },
   {
     "id": "R05_UKR_01",
@@ -606,7 +606,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród problemów Ukrainy po 1991 roku wymieniono zależność od Rosji, słabe struktury państwa, korupcję, brak własnej waluty i kapitału oraz podziały społeczne."
+    "explanation": "Do problemów Ukrainy po 1991 roku należały zależność od Rosji, słabe struktury państwa, korupcja, brak własnej waluty i kapitału oraz podziały społeczne."
   },
   {
     "id": "R05_UKR_04",
@@ -788,7 +788,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podsumowanie wymienia m.in. wieloletnią zmarzlinę na Syberii, wulkany Kamczatki, roślinność śródziemnomorską nad Morzem Czarnym i jezioro Bajkał."
+    "explanation": "Rosję wyróżniają m.in. wieloletnia zmarzlina na Syberii, wulkany Kamczatki, roślinność śródziemnomorska nad Morzem Czarnym i jezioro Bajkał."
   },
   {
     "id": "R05_ROS_04",
@@ -842,7 +842,7 @@ const ALL_EXERCISES = [
     "id": "R05_ROS_07",
     "section": "Zróżnicowanie środowiska przyrodniczego Rosji",
     "type": "scenario",
-    "prompt": "W miejscowości nad Morzem Czarnym zimy są łagodne, lata gorące, rosną palmy i uprawia się winogrona. Który region Rosji opisuje się?",
+    "prompt": "W miejscowości nad Morzem Czarnym zimy są łagodne, lata gorące, rosną palmy i uprawia się winogrona. Który region Rosji ma takie warunki?",
     "options": [
       "Kraj Krasnodarski",
       "Kamczatkę",
@@ -934,7 +934,7 @@ const ALL_EXERCISES = [
     "id": "R05_REL_01",
     "section": "Relacje Polski z sąsiadami",
     "type": "single_choice",
-    "prompt": "Który kraj jest największym odbiorcą polskiego eksportu według wykresu?",
+    "prompt": "Który kraj jest największym odbiorcą polskiego eksportu?",
     "options": [
       "Niemcy",
       "Ukraina",
@@ -1137,7 +1137,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz skutki utraty przewagi technologicznej niemieckiego przemysłu opisane w tabeli wyzwań.",
+    "prompt": "Zaznacz skutki utraty przewagi technologicznej niemieckiego przemysłu.",
     "options": [
       "klienci wybierają bardziej zaawansowane wyroby z USA, Japonii lub Korei Południowej",
       "niemieckie firmy osiągają mniejsze zyski",
@@ -1150,7 +1150,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Tabela wskazuje, że utrata przewagi technologicznej oznacza konkurencję nowocześniejszych wyrobów z innych krajów, mniejsze zyski firm i bankructwa w niektórych branżach."
+    "explanation": "Utrata przewagi technologicznej oznacza konkurencję nowocześniejszych wyrobów z innych krajów, mniejsze zyski firm i bankructwa w niektórych branżach."
   },
   {
     "id": "R05_HARD_03",
@@ -1212,7 +1212,7 @@ const ALL_EXERCISES = [
       "w Nizinie Wschodnioeuropejskiej"
     ],
     "answer": 0,
-    "explanation": "Tak opisano Półwysep Kamczatka we wschodniej części Rosji: występuje tam około 300 wulkanów, w tym 29 wysoko aktywnych.",
+    "explanation": "Na Półwyspie Kamczatka we wschodniej części Rosji występuje około 300 wulkanów, w tym 29 wysoko aktywnych.",
     "image": "r05_kamczatka_wulkany.jpg"
   },
   {
@@ -1239,7 +1239,7 @@ const ALL_EXERCISES = [
       "wojna informacyjna": "celowe rozpowszechnianie fałszywych informacji",
       "wojna hybrydowa": "wykorzystywanie migrantów do atakowania granicy"
     },
-    "explanation": "Definiuje się eksklawę i aneksję oraz opisuje wojnę informacyjną i hybrydową jako elementy współczesnych konfliktów."
+    "explanation": "Eksklawa i aneksja to pojęcia geopolityczne, a wojna informacyjna i hybrydowa należą do form współczesnych konfliktów."
   },
   {
     "id": "R05_HARD_08",
@@ -1306,7 +1306,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_11",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który region Rosji opisano jako mający klimat łączący cechy klimatu umiarkowanego i śródziemnomorskiego?",
+    "prompt": "Który region Rosji ma klimat łączący cechy klimatu umiarkowanego i śródziemnomorskiego?",
     "options": [
       "Kraj Krasnodarski",
       "Syberia",
@@ -1316,26 +1316,26 @@ const ALL_EXERCISES = [
       "tundra"
     ],
     "answer": 0,
-    "explanation": "Kraj Krasnodarski na południowo-zachodnim krańcu Rosji opisano jako region, którego klimat łączy cechy klimatu umiarkowanego i śródziemnomorskiego."
+    "explanation": "Kraj Krasnodarski na południowo-zachodnim krańcu Rosji ma klimat łączący cechy klimatu umiarkowanego i śródziemnomorskiego."
   },
   {
     "id": "R05_HARD_12",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o relacjach Polski z Litwą, które wynikają.",
+    "prompt": "Zaznacz prawdziwe informacje o relacjach Polski z Litwą.",
     "options": [
       "relacje należą do przyjaznych",
       "ich jakość ulega poprawie",
       "w 2022 roku Litwa uznała prawo do zapisu nazwiska w języku ojczystym",
       "wszystkie kwestie polskiej mniejszości zostały rozwiązane",
-      "Litwa jest opisana jako główny odbiorca polskiego eksportu"
+      "Litwa jest głównym odbiorcą polskiego eksportu"
     ],
     "answer": [
       0,
       1,
       2
     ],
-    "explanation": "Relacje Polski z Litwą opisano jako przyjazne i poprawiające się, a w 2022 roku Litwa uznała prawo mniejszości do zapisu nazwiska w języku ojczystym; część kwestii nadal pozostaje nierozwiązana."
+    "explanation": "Relacje Polski z Litwą są przyjazne i poprawiają się, a w 2022 roku Litwa uznała prawo mniejszości do zapisu nazwiska w języku ojczystym; część kwestii nadal pozostaje nierozwiązana."
   }
 ];
 

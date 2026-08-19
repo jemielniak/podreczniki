@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "teoria stref czasowych"
     ],
     "answer": 0,
-    "explanation": "Opisuje się teorię Wielkiego Wybuchu: początkowo materia i energia były skupione w jednym punkcie, a około 13,8 miliarda lat temu nastąpił gwałtowny wybuch."
+    "explanation": "Teoria Wielkiego Wybuchu zakłada, że początkowo materia i energia były skupione w jednym punkcie, a około 13,8 miliarda lat temu nastąpił gwałtowny wybuch."
   },
   {
     "id": "R02_ZWS_02",
@@ -61,7 +61,7 @@ const ALL_EXERCISES = [
       "Słońce",
       "Ziemia"
     ],
-    "explanation": "W podsumowaniu pokazano drogę od grup galaktyk przez Galaktykę i układ planetarny do Słońca oraz planet.",
+    "explanation": "Od największej do najmniejszej skali kolejność obejmuje grupę galaktyk, Galaktykę, układ planetarny, Słońce i planety.",
     "image": "r02_uklad_sloneczny.jpg"
   },
   {
@@ -275,7 +275,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podsumowanie wymienia jako następstwa ruchu obrotowego: dzień i noc, pozorny ruch Słońca oraz różnice czasu między punktami na różnych długościach geograficznych."
+    "explanation": "Następstwami ruchu obrotowego są dzień i noc, pozorny ruch Słońca oraz różnice czasu między punktami na różnych długościach geograficznych."
   },
   {
     "id": "R02_ROB_05",
@@ -405,7 +405,7 @@ const ALL_EXERCISES = [
     "id": "R02_CZA_02",
     "section": "Czas na Ziemi",
     "type": "match",
-    "prompt": "Połącz kąt obrotu Ziemi z czasem podanym w podsumowaniu.",
+    "prompt": "Połącz kąt obrotu Ziemi z odpowiadającym mu czasem.",
     "options": null,
     "left": [
       "1 stopień",
@@ -425,7 +425,7 @@ const ALL_EXERCISES = [
       "180 stopni": "12 godzin",
       "360 stopni": "24 godziny"
     },
-    "explanation": "Podsumowanie pokazuje zależności między kątem obrotu Ziemi a czasem: 1 stopień w 4 minuty, 15 stopni w godzinę, 180 stopni w 12 godzin i 360 stopni w 24 godziny."
+    "explanation": "Zależność między kątem obrotu Ziemi a czasem wynosi: 1 stopień w 4 minuty, 15 stopni w godzinę, 180 stopni w 12 godzin i 360 stopni w 24 godziny."
   },
   {
     "id": "R02_CZA_03",
@@ -501,7 +501,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Czas urzędowy wynika z decyzji administracyjnych; w Polsce obowiązuje czas letni i zimowy, a czas letni opisano jako wschodnioeuropejski."
+    "explanation": "Czas urzędowy wynika z decyzji administracyjnych; w Polsce obowiązuje czas letni i zimowy, a czas letni odpowiada czasowi wschodnioeuropejskiemu."
   },
   {
     "id": "R02_CZA_08",
@@ -563,7 +563,7 @@ const ALL_EXERCISES = [
       "Dzielimy 360 stopni przez 24",
       "Wniosek: w godzinę Ziemia obraca się o 15 stopni"
     ],
-    "explanation": "Pokazuje się zależność 360 stopni w 24 godziny, a po podzieleniu otrzymujemy 15 stopni w godzinę."
+    "explanation": "Ziemia obraca się o 360 stopni w 24 godziny, czyli o 15 stopni w ciągu godziny."
   },
   {
     "id": "R02_ROG_01",
@@ -614,7 +614,7 @@ const ALL_EXERCISES = [
     "id": "R02_ROG_04",
     "section": "Ruch obiegowy Ziemi",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy ruchu obiegowego Ziemi podane w podsumowaniu.",
+    "prompt": "Zaznacz cechy ruchu obiegowego Ziemi.",
     "options": [
       "Ziemia obiega Słońce po orbicie w kształcie elipsy",
       "Ziemia porusza się przeciwnie do ruchu wskazówek zegara",
@@ -627,7 +627,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Podsumowanie wskazuje eliptyczną orbitę, kierunek przeciwny do ruchu wskazówek zegara oraz stałe nachylenie osi do płaszczyzny orbity."
+    "explanation": "Ruch obiegowy Ziemi odbywa się po eliptycznej orbicie, przeciwnie do ruchu wskazówek zegara, przy stałym nachyleniu osi do płaszczyzny orbity."
   },
   {
     "id": "R02_ROG_05",
@@ -653,7 +653,7 @@ const ALL_EXERCISES = [
       "23 września": "jesień",
       "22 grudnia": "zima"
     },
-    "explanation": "Na półkuli północnej podano daty początków pór roku: 21 marca, 22 czerwca, 23 września i 22 grudnia."
+    "explanation": "Na półkuli północnej początki pór roku przypadają na 21 marca, 22 czerwca, 23 września i 22 grudnia."
   },
   {
     "id": "R02_ROG_06",
@@ -877,7 +877,7 @@ const ALL_EXERCISES = [
       "galaktyczna"
     ],
     "answer": 0,
-    "explanation": "Tak opisano strefy podbiegunowe: Słońce góruje tam nisko, a do powierzchni dociera mało energii."
+    "explanation": "W strefach podbiegunowych Słońce góruje nisko, a do powierzchni dociera mało energii."
   },
   {
     "id": "R02_STO_09",
@@ -1041,7 +1041,7 @@ const ALL_EXERCISES = [
       "zaczyna się rok przestępny"
     ],
     "answer": 0,
-    "explanation": "Mapa i opis linii zmiany daty podają, że przy przekraczaniu jej z zachodu na wschód zyskujemy jeden dzień.",
+    "explanation": "Przy przekraczaniu międzynarodowej linii zmiany daty z zachodu na wschód zyskuje się jeden dzień.",
     "image": "r02_linia_zmiany_daty.jpg"
   },
   {
@@ -1060,7 +1060,7 @@ const ALL_EXERCISES = [
         "46 sekund"
       ]
     ],
-    "explanation": "Podaje się dokładny czas pełnego obiegu Ziemi jako 365 dni 5 godz. 48 min 46 s."
+    "explanation": "Pełny obieg Ziemi wokół Słońca trwa 365 dni 5 godz. 48 min 46 s."
   },
   {
     "id": "R02_HARD_10",
@@ -1076,7 +1076,7 @@ const ALL_EXERCISES = [
       "180 stopni"
     ],
     "answer": 0,
-    "explanation": "W opisie ruchu obiegowego podano, że oś Ziemi jest nachylona do płaszczyzny orbity pod stałym kątem 66 stopni 34 minuty."
+    "explanation": "Oś Ziemi jest nachylona do płaszczyzny orbity pod stałym kątem 66 stopni 34 minuty."
   },
   {
     "id": "R02_HARD_11",

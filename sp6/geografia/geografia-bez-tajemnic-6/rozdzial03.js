@@ -111,7 +111,7 @@ const ALL_EXERCISES = [
       "najdłuższa rzeka Europy": "Wołga",
       "najwyższy szczyt Europy": "Mont Blanc"
     },
-    "explanation": "Wskazuje się Wielką Brytanię, Półwysep Skandynawski, Wołgę i Mont Blanc jako ważne europejskie przykłady geograficzne."
+    "explanation": "Wielka Brytania, Półwysep Skandynawski, Wołga i Mont Blanc należą do ważnych europejskich obiektów geograficznych."
   },
   {
     "id": "R03_POL_07",
@@ -168,7 +168,7 @@ const ALL_EXERCISES = [
       "Polska",
       "kraje bałtyckie"
     ],
-    "explanation": "Opisuje się pas nizin od Francji przez Belgię, Holandię, Niemcy i Polskę po kraje bałtyckie."
+    "explanation": "Pas nizin rozciąga się od Francji przez Belgię, Holandię, Niemcy i Polskę po kraje bałtyckie."
   },
   {
     "id": "R03_POL_09",
@@ -205,7 +205,7 @@ const ALL_EXERCISES = [
     "id": "R03_POL_11",
     "section": "Położenie i krajobrazy Europy",
     "type": "single_choice",
-    "prompt": "Który łańcuch górski wyznacza wschodnią granicę Europy w opisie?",
+    "prompt": "Który łańcuch górski wyznacza wschodnią granicę Europy?",
     "options": [
       "Alpy",
       "Pireneje",
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
     "id": "R03_ISL_08",
     "section": "Islandia - wyspa ognia",
     "type": "scenario",
-    "prompt": "W 2010 roku pyły i popioły z islandzkiej erupcji doprowadziły do kilkudniowego paraliżu ruchu lotniczego w Europie. Który wulkan podaje się jako przykład?",
+    "prompt": "W 2010 roku pyły i popioły z islandzkiej erupcji doprowadziły do kilkudniowego paraliżu ruchu lotniczego w Europie. Który wulkan wywołał tę erupcję?",
     "options": [
       "Eyjafjallajökull",
       "Etna",
@@ -615,7 +615,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_erupcja_eyjafjallajokull.jpg",
-    "explanation": "Opisuje się erupcję wulkanu Eyjafjallajökull z 2010 roku, której pyły utrudniły komunikację lotniczą."
+    "explanation": "Erupcja wulkanu Eyjafjallajökull w 2010 roku spowodowała emisję pyłów, które utrudniły komunikację lotniczą."
   },
   {
     "id": "R03_ISL_09",
@@ -681,7 +681,7 @@ const ALL_EXERCISES = [
       "zmiana granicy Europy"
     ],
     "answer": 0,
-    "explanation": "Podaje się wydarzenia z lat 2021-2024 koło Grindavik jako przykład zagrożeń związanych z aktywnymi wulkanami."
+    "explanation": "Wydarzenia z lat 2021-2024 w rejonie Grindaviku pokazują zagrożenia związane z aktywnymi wulkanami."
   },
   {
     "id": "R03_ENE_01",
@@ -801,7 +801,7 @@ const ALL_EXERCISES = [
     "id": "R03_ENE_06",
     "section": "Energia w Europie",
     "type": "single_choice",
-    "prompt": "Który kraj wskazuje się jako państwo o największym udziale elektrowni jądrowych w ogólnej produkcji energii?",
+    "prompt": "Który kraj ma największy udział elektrowni jądrowych w ogólnej produkcji energii?",
     "options": [
       "Francja",
       "Islandia",
@@ -811,7 +811,7 @@ const ALL_EXERCISES = [
       "Norwegia"
     ],
     "answer": 0,
-    "explanation": "Podaje się Francję jako kraj o największym udziale elektrowni jądrowych w ogólnej produkcji energii."
+    "explanation": "Francja ma największy udział elektrowni jądrowych w ogólnej produkcji energii."
   },
   {
     "id": "R03_ENE_07",
@@ -967,7 +967,7 @@ const ALL_EXERCISES = [
         "gorące"
       ]
     ],
-    "explanation": "Wskazuje się słoneczne, upalne lato oraz łagodną, deszczową zimę jako cechy sprzyjające turystyce i uprawom."
+    "explanation": "Słoneczne, upalne lato oraz łagodna, deszczowa zima sprzyjają turystyce i uprawom."
   },
   {
     "id": "R03_TUR_04",
@@ -994,7 +994,7 @@ const ALL_EXERCISES = [
       "Bazylika św. Piotra": "Watykan"
     },
     "image": "r03_zabytki_morza_srodziemnego.jpg",
-    "explanation": "Wymienia się Akropol w Atenach, Koloseum w Rzymie, Sagradę Familię w Barcelonie i Bazylikę św. Piotra w Watykanie."
+    "explanation": "Do ważnych zabytków należą Akropol w Atenach, Koloseum w Rzymie, Sagrada Familia w Barcelonie i Bazylika św. Piotra w Watykanie."
   },
   {
     "id": "R03_TUR_05",
@@ -1055,7 +1055,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_zabytki_morza_srodziemnego.jpg",
-    "explanation": "Bazylika św. Piotra znajduje się w Watykanie, który podaje się jako przykład miejsca kultu religijnego."
+    "explanation": "Bazylika św. Piotra znajduje się w Watykanie, ważnym miejscu kultu religijnego."
   },
   {
     "id": "R03_TUR_08",
@@ -1191,7 +1191,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r03_mapa_hipsometryczna_europy.jpg",
-    "explanation": "Podaje się długość wybrzeży bez wysp jako 38 tys. km i wskazuje, że półwyspy zajmują około jedną czwartą kontynentu."
+    "explanation": "Długość wybrzeży Europy bez wysp wynosi około 38 tys. km, a półwyspy zajmują około jedną czwartą kontynentu."
   },
   {
     "id": "R03_HARD_03",
@@ -1282,7 +1282,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_08",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Państwo kościelne na terenie Rzymu, wymienione jako ważne miejsce kultu religijnego, to...",
+    "prompt": "Państwo kościelne na terenie Rzymu, będące ważnym miejscem kultu religijnego, to...",
     "options": null,
     "answer": "Watykan",
     "altAnswers": [
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
     "prompt": "Węgiel kamienny dawniej stanowił główne źródło energii w Europie, ale obecnie jego wydobycie i udział w produkcji energii spadają.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się spadek znaczenia węgla, choć część krajów nadal posiada kopalnie i elektrownie węglowe."
+    "explanation": "Znaczenie węgla spada, choć część krajów nadal posiada kopalnie i elektrownie węglowe."
   },
   {
     "id": "R03_HARD_10",

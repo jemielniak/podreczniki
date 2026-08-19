@@ -45,7 +45,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r04_flaga_unii_europejskiej.jpg",
-    "explanation": "Wskazuje się m.in. swobodniejsze podróżowanie, możliwość pracy w innych krajach, łatwiejszy handel bez ceł oraz wykorzystanie środków ze wspólnego budżetu."
+    "explanation": "Do skutków integracji europejskiej należą m.in. swobodniejsze podróżowanie, możliwość pracy w innych krajach, łatwiejszy handel bez ceł oraz wykorzystanie środków ze wspólnego budżetu."
   },
   {
     "id": "R04_UNI_03",
@@ -212,7 +212,7 @@ const ALL_EXERCISES = [
     "prompt": "Gęstość zaludnienia to liczba osób przypadających na jednostkę powierzchni, zwykle na kilometr kwadratowy.",
     "options": null,
     "answer": true,
-    "explanation": "Tak definiuje się gęstość zaludnienia. Dzięki temu można porównywać zaludnienie państw i regionów o różnej powierzchni."
+    "explanation": "Gęstość zaludnienia to liczba osób przypadających na jednostkę powierzchni. Dzięki temu można porównywać zaludnienie państw i regionów o różnej powierzchni."
   },
   {
     "id": "R04_LUD_04",
@@ -236,7 +236,7 @@ const ALL_EXERCISES = [
         "ok. 70"
       ]
     ],
-    "explanation": "Podaje się oba wskaźniki jako przykłady opisu zaludnienia: liczbę ludności oraz gęstość zaludnienia."
+    "explanation": "Zaludnienie można określać za pomocą liczby ludności oraz gęstości zaludnienia."
   },
   {
     "id": "R04_LUD_05",
@@ -276,7 +276,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r04_osiedle_robotnicze_gorny_slask.jpg",
-    "explanation": "Rozwój kopalń i zakładów przetwarzających surowce przyciągał pracowników. podano przykład Górnego Śląska."
+    "explanation": "Rozwój kopalń i zakładów przetwarzających surowce przyciągał pracowników, czego przykładem jest Górny Śląsk."
   },
   {
     "id": "R04_LUD_08",
@@ -378,7 +378,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Wymieniono m.in. chęć zdobycia wykształcenia, karierę, niezależność finansową, realizację pasji, wysokie ceny mieszkań i niestabilną sytuację zawodową."
+    "explanation": "Do przyczyn odkładania decyzji o założeniu rodziny należą m.in. chęć zdobycia wykształcenia, kariera, niezależność finansowa, realizacja pasji, wysokie ceny mieszkań i niestabilna sytuacja zawodowa."
   },
   {
     "id": "R04_STA_03",
@@ -600,7 +600,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do prac często wykonywanych przez imigrantów: usługi porządkowe, usługi budowlane, usługi gastronomiczne, wydobycie węgla.",
     "options": null,
     "answer": "wydobycie węgla",
-    "explanation": "Jako częste zajęcia imigrantów wskazano m.in. usługi porządkowe, budowlane, gastronomiczne i transportowe, a nie wydobycie węgla."
+    "explanation": "Imigranci często pracują m.in. w usługach porządkowych, budowlanych, gastronomicznych i transportowych, a nie przy wydobyciu węgla."
   },
   {
     "id": "R04_MIG_07",
@@ -693,7 +693,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r04_centra_londynu_paryza.jpg",
-    "explanation": "Londyńskie City jest opisane jako jedno z najważniejszych centrów finansowych na świecie."
+    "explanation": "Londyńskie City jest jednym z najważniejszych centrów finansowych na świecie."
   },
   {
     "id": "R04_MIA_02",
@@ -760,7 +760,7 @@ const ALL_EXERCISES = [
       "aglomeracja",
       "aglomerację"
     ],
-    "explanation": "Tak definiuje się aglomerację. Paryż i Londyn tworzą aglomeracje liczące ponad 10 milionów mieszkańców."
+    "explanation": "Aglomeracja to zespół miast powiązanych funkcjonalnie z dominującym ośrodkiem centralnym. Paryż i Londyn tworzą aglomeracje liczące ponad 10 milionów mieszkańców."
   },
   {
     "id": "R04_MIA_06",
@@ -871,7 +871,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wskazuje się m.in. przewagę zatrudnienia w usługach, wysoką wydajność pracy i wykorzystywanie najnowszych osiągnięć techniki, komputerów oraz robotów."
+    "explanation": "Nowoczesną gospodarkę cechują m.in. przewaga zatrudnienia w usługach, wysoka wydajność pracy i wykorzystywanie najnowszych osiągnięć techniki, komputerów oraz robotów."
   },
   {
     "id": "R04_FRA_03",
@@ -903,7 +903,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r04_elektrownia_jadrowa_francja.jpg",
-    "explanation": "Opisano energetykę jądrową oraz przemysł lotniczy jako ważne elementy nowoczesnej gospodarki Francji."
+    "explanation": "Energetyka jądrowa oraz przemysł lotniczy są ważnymi elementami nowoczesnej gospodarki Francji."
   },
   {
     "id": "R04_FRA_05",
@@ -926,7 +926,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do kategorii usług: usługi finansowe, usługi medyczne, usługi transportowe, wydobycie surowców.",
     "options": null,
     "answer": "wydobycie surowców",
-    "explanation": "Wydobycie surowców należy do przemysłu, a nie do usług. Usługi finansowe, medyczne i transportowe są podane jako ważne kategorie usług."
+    "explanation": "Wydobycie surowców należy do przemysłu, a nie do usług. Do ważnych kategorii usług należą usługi finansowe, medyczne i transportowe."
   },
   {
     "id": "R04_FRA_07",
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
         "transport TGV"
       ]
     },
-    "explanation": "Energetyka, lotnictwo i produkcja gier są opisane jako przykłady nowoczesnego przemysłu lub działalności przemysłowo-technologicznej, a bankowość, medycyna i transport jako usługi."
+    "explanation": "Energetyka, lotnictwo i produkcja gier należą do nowoczesnego przemysłu lub działalności przemysłowo-technologicznej, a bankowość, medycyna i transport do usług."
   },
   {
     "id": "R04_HARD_01",
@@ -1041,7 +1041,7 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "r04_mapa_podzialu_politycznego_europy.jpg",
-    "explanation": "Po rozpadzie Związku Sowieckiego powstały m.in. Rosja, Ukraina, Białoruś, Estonia, Litwa, Łotwa i Mołdawia. Słowenia i Chorwacja są wymienione przy rozpadzie Jugosławii."
+    "explanation": "Po rozpadzie Związku Sowieckiego powstały m.in. Rosja, Ukraina, Białoruś, Estonia, Litwa, Łotwa i Mołdawia. Słowenia i Chorwacja powstały po rozpadzie Jugosławii."
   },
   {
     "id": "R04_HARD_03",
@@ -1050,7 +1050,7 @@ const ALL_EXERCISES = [
     "prompt": "Turcja i Kazachstan leżą w większości w Azji, a tylko ich niewielkie fragmenty należą do Europy.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się te dwa państwa jako przykłady krajów, które według części kryteriów zalicza się do Europy tylko fragmentarycznie."
+    "explanation": "Rosja i Turcja według części kryteriów są zaliczane do Europy tylko fragmentarycznie."
   },
   {
     "id": "R04_HARD_04",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do przeszkód w zakładaniu rodziny: wysokie ceny mieszkań, niestabilna sytuacja zawodowa, zdobywanie wykształcenia, stabilna sytuacja zawodowa.",
     "options": null,
     "answer": "stabilna sytuacja zawodowa",
-    "explanation": "Stabilna sytuacja zawodowa nie jest przeszkodą. Wskazuje się raczej niestabilną sytuację zawodową, koszty mieszkań oraz odkładanie rodziny z powodu edukacji i kariery."
+    "explanation": "Stabilna sytuacja zawodowa nie jest przeszkodą; znaczenie mają raczej niestabilność zatrudnienia, koszty mieszkań oraz odkładanie rodziny z powodu edukacji i kariery."
   },
   {
     "id": "R04_HARD_07",
