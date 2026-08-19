@@ -123,7 +123,6 @@ const ALL_EXERCISES = [
     "items": [
       "ryby",
       "płazy",
-      "gady",
       "ptaki",
       "ssaki"
     ],
@@ -134,8 +133,7 @@ const ALL_EXERCISES = [
     "answer": {
       "zmiennocieplne": [
         "ryby",
-        "płazy",
-        "gady"
+        "płazy"
       ],
       "stałocieplne": [
         "ptaki",
@@ -143,7 +141,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r04_zmiennocieplne_stalocieplne.jpg",
-    "explanation": "Ryby, płazy i gady są zmiennocieplne, a ptaki i ssaki są stałocieplne."
+    "explanation": "Ryby i płazy są zmiennocieplne, a ptaki i ssaki są stałocieplne."
   },
   {
     "id": "R04_KRG_09",
@@ -565,8 +563,6 @@ const ALL_EXERCISES = [
     "items": [
       "żaba",
       "ropucha",
-      "rzekotka",
-      "kumak",
       "salamandra",
       "traszka"
     ],
@@ -577,16 +573,14 @@ const ALL_EXERCISES = [
     "answer": {
       "płazy bezogonowe": [
         "żaba",
-        "ropucha",
-        "rzekotka",
-        "kumak"
+        "ropucha"
       ],
       "płazy ogoniaste": [
         "salamandra",
         "traszka"
       ]
     },
-    "explanation": "Żaby, ropuchy, rzekotki i kumaki to płazy bezogonowe, a salamandry i traszki to płazy ogoniaste."
+    "explanation": "Żaby i ropuchy to płazy bezogonowe, a salamandry i traszki to płazy ogoniaste."
   },
   {
     "id": "R04_PLA_07",
@@ -802,9 +796,7 @@ const ALL_EXERCISES = [
       "aligator",
       "żółw błotny",
       "jaszczurka zwinka",
-      "żmija zygzakowata",
-      "kameleon",
-      "gawial"
+      "żmija zygzakowata"
     ],
     "categories": [
       "krokodyle",
@@ -814,15 +806,13 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "krokodyle": [
-        "aligator",
-        "gawial"
+        "aligator"
       ],
       "żółwie": [
         "żółw błotny"
       ],
       "jaszczurki": [
-        "jaszczurka zwinka",
-        "kameleon"
+        "jaszczurka zwinka"
       ],
       "węże": [
         "żmija zygzakowata"

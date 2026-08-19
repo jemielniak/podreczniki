@@ -182,11 +182,9 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "tuńczyk w otwartej toni wodnej",
-      "patelnica przy piaszczystym dnie",
-      "murena w szczelinach rafy",
       "ryba szybko pływająca w toni",
-      "ryba ukryta pod warstwą piasku",
-      "ryba omijająca skały i rośliny"
+      "patelnica przy piaszczystym dnie",
+      "murena w szczelinach rafy"
     ],
     "categories": [
       "opływowy kształt",
@@ -199,12 +197,10 @@ const ALL_EXERCISES = [
         "ryba szybko pływająca w toni"
       ],
       "silnie spłaszczone ciało": [
-        "patelnica przy piaszczystym dnie",
-        "ryba ukryta pod warstwą piasku"
+        "patelnica przy piaszczystym dnie"
       ],
       "wydłużone ciało": [
-        "murena w szczelinach rafy",
-        "ryba omijająca skały i rośliny"
+        "murena w szczelinach rafy"
       ]
     },
     "explanation": "Ryby z toni wodnej zwykle mają ciało opływowe, ryby denne bywają spłaszczone, a gatunki żyjące wśród przeszkód często są wydłużone."
@@ -508,10 +504,8 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "salamandra plamista",
-      "traszka",
       "żaba",
       "ropucha",
-      "rzekotka",
       "marszczelec"
     ],
     "categories": [
@@ -521,19 +515,17 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "płazy ogoniaste": [
-        "salamandra plamista",
-        "traszka"
+        "salamandra plamista"
       ],
       "płazy bezogonowe": [
         "żaba",
-        "ropucha",
-        "rzekotka"
+        "ropucha"
       ],
       "płazy beznogie": [
         "marszczelec"
       ]
     },
-    "explanation": "Salamandra i traszka mają ogon, żaby i ropuchy nie mają ogona, a marszczelec należy do płazów beznogich."
+    "explanation": "Salamandra plamista ma ogon, żaba i ropucha należą do płazów bezogonowych, a marszczelec do płazów beznogich."
   },
   {
     "id": "R04_ZPL_03",
@@ -837,10 +829,7 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "jaszczurka zwinka",
-      "padalec zwyczajny",
       "żmija zygzakowata",
-      "zaskroniec zwyczajny",
-      "wąż Eskulapa",
       "żółw błotny",
       "krokodyl"
     ],
@@ -852,13 +841,10 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "jaszczurki": [
-        "jaszczurka zwinka",
-        "padalec zwyczajny"
+        "jaszczurka zwinka"
       ],
       "węże": [
-        "żmija zygzakowata",
-        "zaskroniec zwyczajny",
-        "wąż Eskulapa"
+        "żmija zygzakowata"
       ],
       "żółwie": [
         "żółw błotny"
@@ -867,7 +853,7 @@ const ALL_EXERCISES = [
         "krokodyl"
       ]
     },
-    "explanation": "Padalec jest beznogą jaszczurką, a w Polsce występują przedstawiciele gadów z wyjątkiem krokodyli."
+    "explanation": "Jaszczurka zwinka należy do jaszczurek, żmija zygzakowata do węży, żółw błotny do żółwi, a krokodyl do krokodyli."
   },
   {
     "id": "R04_ZGA_03",

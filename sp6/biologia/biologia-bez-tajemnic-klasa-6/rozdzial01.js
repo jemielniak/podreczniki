@@ -79,7 +79,7 @@ const ALL_EXERCISES = [
     ],
     "explanation": "Zwierzęta mają budowę wielokomórkową i są cudzożywne."
   },
-  {
+    {
     "id": "R01_CEZ_05",
     "section": "Cechy zwierząt",
     "type": "sort",
@@ -88,26 +88,18 @@ const ALL_EXERCISES = [
     "answer": {
       "bezkręgowce": [
         "płazińce",
-        "nicienie",
-        "stawonogi",
-        "mięczaki"
+        "nicienie"
       ],
       "kręgowce": [
         "ryby",
-        "płazy",
-        "ptaki",
-        "ssaki"
+        "płazy"
       ]
     },
     "items": [
       "płazińce",
       "nicienie",
       "ryby",
-      "płazy",
-      "stawonogi",
-      "ptaki",
-      "mięczaki",
-      "ssaki"
+      "płazy"
     ],
     "categories": [
       "bezkręgowce",
@@ -391,7 +383,7 @@ const ALL_EXERCISES = [
     "image": "/img/r01_nablonek_plaski_pecherzyki.jpg",
     "explanation": "Pęcherzyki płucne przypominają małe baloniki i są miejscem wymiany gazowej."
   },
-  {
+    {
     "id": "R01_NAB_10",
     "section": "Tkanka nabłonkowa",
     "type": "sort",
@@ -401,9 +393,7 @@ const ALL_EXERCISES = [
       "jedna warstwa": [
         "jednowarstwowy płaski",
         "jednowarstwowy sześcienny",
-        "migawkowy",
-        "zmysłowy",
-        "gruczołowy"
+        "migawkowy"
       ],
       "wiele warstw": [
         "wielowarstwowy płaski"
@@ -413,8 +403,6 @@ const ALL_EXERCISES = [
       "jednowarstwowy płaski",
       "jednowarstwowy sześcienny",
       "migawkowy",
-      "zmysłowy",
-      "gruczołowy",
       "wielowarstwowy płaski"
     ],
     "categories": [
@@ -886,7 +874,7 @@ const ALL_EXERCISES = [
     ],
     "explanation": "Mitochondria dostarczają energii potrzebnej do pracy komórek mięśniowych."
   },
-  {
+    {
     "id": "R01_MIX_01",
     "section": "Powtórka mieszana",
     "type": "sort",
@@ -898,25 +886,17 @@ const ALL_EXERCISES = [
         "komórka kostna"
       ],
       "tkanki": [
-        "krew",
-        "nabłonek migawkowy",
-        "tkanka kostna"
+        "krew"
       ],
       "narządy": [
-        "mózg",
-        "serce",
-        "płuco"
+        "mózg"
       ]
     },
     "items": [
       "neuron",
       "komórka kostna",
       "krew",
-      "nabłonek migawkowy",
-      "mózg",
-      "serce",
-      "płuco",
-      "tkanka kostna"
+      "mózg"
     ],
     "categories": [
       "komórki",

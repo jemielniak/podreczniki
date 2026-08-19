@@ -32,7 +32,7 @@ const ALL_EXERCISES = [
     "answer": true,
     "explanation": "Znanych jest ponad milion gatunków stawonogów."
   },
-  {
+    {
     "id": "R03_STA_03",
     "section": "Stawonogi",
     "type": "sort",
@@ -42,9 +42,7 @@ const ALL_EXERCISES = [
       "5 par odnóży krocznych",
       "4 pary odnóży krocznych",
       "3 pary odnóży krocznych",
-      "brak czułków",
-      "czułki",
-      "głowa, tułów i odwłok"
+      "czułki"
     ],
     "categories": [
       "skorupiaki",
@@ -57,16 +55,14 @@ const ALL_EXERCISES = [
         "czułki"
       ],
       "pajęczaki": [
-        "4 pary odnóży krocznych",
-        "brak czułków"
+        "4 pary odnóży krocznych"
       ],
       "owady": [
-        "3 pary odnóży krocznych",
-        "głowa, tułów i odwłok"
+        "3 pary odnóży krocznych"
       ]
     },
     "image": "/img/r03_stawonogi_trzy_grupy.jpg",
-    "explanation": "Skorupiaki mają zwykle 5 par odnóży krocznych i czułki, pajęczaki 4 pary odnóży i brak czułków, a owady 3 pary odnóży oraz ciało z głową, tułowiem i odwłokiem."
+    "explanation": "Skorupiaki mają zwykle 5 par odnóży krocznych i czułki, pajęczaki 4 pary odnóży krocznych, a owady 3 pary odnóży krocznych."
   },
   {
     "id": "R03_STA_04",
@@ -496,7 +492,7 @@ const ALL_EXERCISES = [
     "image": "/img/r03_aparaty_gebowe_owadow.jpg",
     "explanation": "Aparat gryzący, ssący, liżący i kłująco-ssący to typy narządów gębowych owadów. Szczękoczułki są narządami gębowymi pajęczaków, a nie owadów."
   },
-  {
+    {
     "id": "R03_PRZ_14",
     "section": "Przystosowania stawonogów",
     "type": "sort",
@@ -506,15 +502,13 @@ const ALL_EXERCISES = [
       "odnóża kroczne",
       "odnóża skoczne",
       "odnóża pływne",
-      "odnóża grzebne",
-      "odnóża chwytne"
+      "odnóża grzebne"
     ],
     "categories": [
       "poruszanie po powierzchni",
       "skakanie",
       "pływanie",
-      "kopanie",
-      "łapanie ofiary"
+      "kopanie"
     ],
     "answer": {
       "poruszanie po powierzchni": [
@@ -528,15 +522,12 @@ const ALL_EXERCISES = [
       ],
       "kopanie": [
         "odnóża grzebne"
-      ],
-      "łapanie ofiary": [
-        "odnóża chwytne"
       ]
     },
     "image": "/img/r03_odnoza_owadow_typy.jpg",
-    "explanation": "Odnóża owadów mogą być przystosowane do różnych funkcji, takich jak chodzenie, skakanie, pływanie, grzebanie lub chwytanie."
+    "explanation": "Odnóża owadów mogą być przystosowane do różnych funkcji, takich jak chodzenie, skakanie, pływanie lub kopanie."
   },
-  {
+    {
     "id": "R03_ZNA_01",
     "section": "Znaczenie stawonogów",
     "type": "sort",
@@ -546,9 +537,7 @@ const ALL_EXERCISES = [
       "rak szlachetny",
       "stonoga murowa",
       "kleszcz pospolity",
-      "kosarz pospolity",
-      "mucha domowa",
-      "biedronka siedmiokropka"
+      "mucha domowa"
     ],
     "categories": [
       "skorupiaki",
@@ -561,16 +550,14 @@ const ALL_EXERCISES = [
         "stonoga murowa"
       ],
       "pajęczaki": [
-        "kleszcz pospolity",
-        "kosarz pospolity"
+        "kleszcz pospolity"
       ],
       "owady": [
-        "mucha domowa",
-        "biedronka siedmiokropka"
+        "mucha domowa"
       ]
     },
     "image": "/img/r03_przedstawiciele_stawonogow.jpg",
-    "explanation": "Rak i stonoga to skorupiaki, kleszcz i kosarz to pajęczaki, a mucha i biedronka to owady."
+    "explanation": "Rak i stonoga to skorupiaki, kleszcz to pajęczak, a mucha to owad."
   },
   {
     "id": "R03_ZNA_02",
@@ -835,7 +822,7 @@ const ALL_EXERCISES = [
     ],
     "explanation": "Mięczaki żyją w wodzie słodkiej i słonej oraz na lądzie, zwykle w miejscach wilgotnych i zacienionych."
   },
-  {
+    {
     "id": "R03_MIE_03",
     "section": "Mięczaki",
     "type": "sort",
@@ -845,9 +832,7 @@ const ALL_EXERCISES = [
       "wstężyk gajowy",
       "błotniarka stawowa",
       "omułek jadalny",
-      "perłopław",
-      "ośmiornica",
-      "kałamarnica"
+      "ośmiornica"
     ],
     "categories": [
       "ślimaki",
@@ -860,12 +845,10 @@ const ALL_EXERCISES = [
         "błotniarka stawowa"
       ],
       "małże": [
-        "omułek jadalny",
-        "perłopław"
+        "omułek jadalny"
       ],
       "głowonogi": [
-        "ośmiornica",
-        "kałamarnica"
+        "ośmiornica"
       ]
     },
     "image": "/img/r03_mieczaki_podzial.jpg",
@@ -1054,7 +1037,7 @@ const ALL_EXERCISES = [
     "answer": "kleszcz pospolity",
     "explanation": "Kleszcz pospolity jest pajęczakiem, a ośmiornica, kałamarnica i mątwa to głowonogi."
   },
-  {
+    {
     "id": "R03_MIX_01",
     "section": "Powtórka mieszana",
     "type": "sort",
@@ -1063,10 +1046,8 @@ const ALL_EXERCISES = [
     "items": [
       "rak szlachetny",
       "pająk krzyżak",
-      "pszczoła miodna",
       "wstężyk gajowy",
-      "omułek jadalny",
-      "kałamarnica"
+      "omułek jadalny"
     ],
     "categories": [
       "stawonogi",
@@ -1075,16 +1056,14 @@ const ALL_EXERCISES = [
     "answer": {
       "stawonogi": [
         "rak szlachetny",
-        "pająk krzyżak",
-        "pszczoła miodna"
+        "pająk krzyżak"
       ],
       "mięczaki": [
         "wstężyk gajowy",
-        "omułek jadalny",
-        "kałamarnica"
+        "omułek jadalny"
       ]
     },
-    "explanation": "Rak, pająk i pszczoła są stawonogami, a ślimak, małż i kałamarnica należą do mięczaków."
+    "explanation": "Rak i pająk są stawonogami, a wstężyk i omułek należą do mięczaków."
   },
   {
     "id": "R03_MIX_02",

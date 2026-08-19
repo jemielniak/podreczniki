@@ -109,13 +109,9 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "ryby",
-      "płazy",
-      "gady",
       "ptaki",
-      "ssaki",
       "stawonogi",
-      "mięczaki",
-      "pierścienice"
+      "mięczaki"
     ],
     "categories": [
       "kręgowce",
@@ -124,18 +120,14 @@ const ALL_EXERCISES = [
     "answer": {
       "kręgowce": [
         "ryby",
-        "płazy",
-        "gady",
-        "ptaki",
-        "ssaki"
+        "ptaki"
       ],
       "bezkręgowce": [
         "stawonogi",
-        "mięczaki",
-        "pierścienice"
+        "mięczaki"
       ]
     },
-    "explanation": "Do kręgowców należą ryby, płazy, gady, ptaki i ssaki. Stawonogi, mięczaki i pierścienice należą do bezkręgowców."
+    "explanation": "Ryby i ptaki należą do kręgowców, a stawonogi i mięczaki do bezkręgowców."
   },
   {
     "id": "R01_KRO_07",
@@ -384,8 +376,7 @@ const ALL_EXERCISES = [
       "zewnętrzna warstwa skóry",
       "pęcherzyki płucne",
       "jelito cienkie",
-      "wydzielanie śluzu",
-      "wydzielanie enzymów trawiennych"
+      "wydzielanie śluzu"
     ],
     "categories": [
       "ochrona",
@@ -401,11 +392,10 @@ const ALL_EXERCISES = [
         "jelito cienkie"
       ],
       "wytwarzanie i wydzielanie": [
-        "wydzielanie śluzu",
-        "wydzielanie enzymów trawiennych"
+        "wydzielanie śluzu"
       ]
     },
-    "explanation": "Nabłonek skóry chroni, nabłonki pęcherzyków i jelita uczestniczą w transporcie lub wchłanianiu, a inne nabłonki wydzielają śluz i enzymy."
+    "explanation": "Nabłonek skóry chroni, nabłonki pęcherzyków płucnych i jelita cienkiego uczestniczą w transporcie lub wchłanianiu, a inne nabłonki mogą wydzielać śluz."
   },
   {
     "id": "R01_NAB_11",
@@ -562,9 +552,8 @@ const ALL_EXERCISES = [
     "prompt": "Przyporządkuj elementy do komórki nerwowej albo komórek gleju.",
     "options": null,
     "items": [
-      "dendryty",
-      "akson",
       "ciało komórki",
+      "akson",
       "ochrona neuronów",
       "dostarczanie substancji odżywczych"
     ],
@@ -574,7 +563,6 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "komórka nerwowa": [
-        "dendryty",
         "akson",
         "ciało komórki"
       ],
@@ -583,7 +571,7 @@ const ALL_EXERCISES = [
         "dostarczanie substancji odżywczych"
       ]
     },
-    "explanation": "Neuron składa się z ciała komórki, dendrytów i aksonu, a komórki gleju chronią neurony i dostarczają im substancji odżywczych."
+    "explanation": "Ciało komórki i akson są elementami neuronu, a komórki gleju chronią neurony i dostarczają im substancji odżywczych."
   },
   {
     "id": "R01_MIN_09",
@@ -973,7 +961,6 @@ const ALL_EXERCISES = [
       "nabłonki wielowarstwowe",
       "czaszkę i kręgosłup",
       "pancerz raka",
-      "muszlę ślimaka",
       "komórki parzydełkowe"
     ],
     "categories": [
@@ -987,11 +974,10 @@ const ALL_EXERCISES = [
       ],
       "bezkręgowce": [
         "pancerz raka",
-        "muszlę ślimaka",
         "komórki parzydełkowe"
       ]
     },
-    "explanation": "Nabłonki wielowarstwowe oraz czaszka i kręgosłup są powiązane z kręgowcami, a pancerz raka, muszla ślimaka i komórki parzydełkowe z bezkręgowcami."
+    "explanation": "Nabłonki wielowarstwowe oraz czaszka i kręgosłup są powiązane z kręgowcami, a pancerz raka i komórki parzydełkowe z bezkręgowcami."
   },
   {
     "id": "R01_HARD_09",

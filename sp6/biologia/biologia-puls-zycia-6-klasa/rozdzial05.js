@@ -167,14 +167,12 @@ const ALL_EXERCISES = [
       "skrzydła",
       "dziób",
       "pazury",
-      "powieki",
       "kości wypełnione powietrzem"
     ],
     "categories": [
       "lot",
       "pobieranie pokarmu",
       "ochrona i chwytanie",
-      "ochrona oka",
       "zmniejszanie masy ciała"
     ],
     "answer": {
@@ -187,14 +185,11 @@ const ALL_EXERCISES = [
       "ochrona i chwytanie": [
         "pazury"
       ],
-      "ochrona oka": [
-        "powieki"
-      ],
       "zmniejszanie masy ciała": [
         "kości wypełnione powietrzem"
       ]
     },
-    "explanation": "Skrzydła umożliwiają lot, dziób służy głównie do pobierania pokarmu, pazury chronią palce i pomagają chwytać, powieki zabezpieczają oczy, a kości z powietrzem zmniejszają masę ciała.",
+    "explanation": "Skrzydła umożliwiają lot, dziób służy głównie do pobierania pokarmu, pazury chronią palce i pomagają chwytać, a kości wypełnione powietrzem zmniejszają masę ciała.",
     "image": "r05_budowa_ptaka.jpg"
   },
   {
@@ -371,9 +366,8 @@ const ALL_EXERCISES = [
     "items": [
       "kury dostarczają jaj",
       "jemiołuszki rozsiewają nasiona",
-      "jastrzębie atakują ptactwo domowe",
-      "kormorany atakują ryby w stawach",
-      "kolibry zapylają kwiaty"
+      "kolibry zapylają kwiaty",
+      "jastrzębie atakują ptactwo domowe"
     ],
     "categories": [
       "dla człowieka pozytywne",
@@ -389,11 +383,10 @@ const ALL_EXERCISES = [
         "kolibry zapylają kwiaty"
       ],
       "dla człowieka negatywne": [
-        "jastrzębie atakują ptactwo domowe",
-        "kormorany atakują ryby w stawach"
+        "jastrzębie atakują ptactwo domowe"
       ]
     },
-    "explanation": "Ptaki mogą pomagać człowiekowi, pełnić ważne funkcje w przyrodzie, ale część gatunków powoduje też straty gospodarcze."
+    "explanation": "Kury dostarczają jaj, jemiołuszki rozsiewają nasiona, kolibry zapylają kwiaty, a jastrzębie mogą powodować straty w hodowli ptactwa."
   },
   {
     "id": "R05_ZPT_10",
@@ -496,14 +489,12 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "jeleń",
-      "małpa",
       "kret",
       "delfin",
       "nietoperz"
     ],
     "categories": [
       "naziemne",
-      "w koronach drzew",
       "pod ziemią",
       "w wodzie",
       "aktywnie latające"
@@ -511,9 +502,6 @@ const ALL_EXERCISES = [
     "answer": {
       "naziemne": [
         "jeleń"
-      ],
-      "w koronach drzew": [
-        "małpa"
       ],
       "pod ziemią": [
         "kret"
@@ -525,7 +513,7 @@ const ALL_EXERCISES = [
         "nietoperz"
       ]
     },
-    "explanation": "Ssaki mogą prowadzić naziemny, nadrzewny, podziemny lub wodny tryb życia, a niektóre potrafią aktywnie latać.",
+    "explanation": "Ssaki mogą prowadzić naziemny, podziemny lub wodny tryb życia, a niektóre potrafią aktywnie latać.",
     "image": "r05_srodowiska_ssakow.jpg"
   },
   {
@@ -781,7 +769,6 @@ const ALL_EXERCISES = [
       "wiewiórki gubią zapasy nasion",
       "sarny usuwają nasiona z kałem",
       "nietoperze odżywiające się nektarem zapylają kwiaty",
-      "ssaki są pokarmem wielu drapieżników",
       "ssaki odżywiają się roślinami i zwierzętami"
     ],
     "categories": [
@@ -798,11 +785,10 @@ const ALL_EXERCISES = [
         "nietoperze odżywiające się nektarem zapylają kwiaty"
       ],
       "regulacja liczebności organizmów": [
-        "ssaki są pokarmem wielu drapieżników",
         "ssaki odżywiają się roślinami i zwierzętami"
       ]
     },
-    "explanation": "Ssaki wpływają na przyrodę przez zjadanie innych organizmów, bycie pokarmem, rozsiewanie nasion i zapylanie kwiatów.",
+    "explanation": "Ssaki wpływają na przyrodę przez rozsiewanie nasion, zapylanie kwiatów oraz zjadanie innych organizmów.",
     "image": "r05_pokarm_i_rozsiewanie.jpg"
   },
   {
@@ -1005,9 +991,7 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "zakładanie karmników",
-      "ograniczanie wycinania drzew",
       "budowa przejść przez drogi",
-      "objęcie niedźwiedzia brunatnego ochroną gatunkową",
       "wycieki ropy naftowej",
       "wycinanie lasów"
     ],
@@ -1018,19 +1002,17 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "ochrona ptaków": [
-        "zakładanie karmników",
-        "ograniczanie wycinania drzew"
+        "zakładanie karmników"
       ],
       "ochrona ssaków": [
-        "budowa przejść przez drogi",
-        "objęcie niedźwiedzia brunatnego ochroną gatunkową"
+        "budowa przejść przez drogi"
       ],
       "zagrożenie": [
         "wycieki ropy naftowej",
         "wycinanie lasów"
       ]
     },
-    "explanation": "Karmniki i zachowanie zadrzewień pomagają ptakom, przejścia przez drogi i ochrona gatunkowa pomagają ssakom, a ropa i wycinanie lasów są zagrożeniami.",
+    "explanation": "Karmniki pomagają ptakom, przejścia przez drogi pomagają ssakom, a wycieki ropy i wycinanie lasów są zagrożeniami.",
     "image": "r05_ochrona_zwierzat.jpg"
   },
   {

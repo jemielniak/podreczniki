@@ -305,7 +305,7 @@ const ALL_EXERCISES = [
     "image": "/img/r05_gniazdo_jaja_ptakow.jpg",
     "explanation": "U ptaków zachodzi rozwój prosty, ponieważ pisklę przypomina osobnika dorosłego."
   },
-  {
+    {
     "id": "R05_ROP_06",
     "section": "Rozmnażanie ptaków",
     "type": "sort",
@@ -315,9 +315,7 @@ const ALL_EXERCISES = [
       "często są ślepe i nieopierzone",
       "są całkowicie bezradne",
       "w kilka godzin po wykluciu mogą opuścić gniazdo",
-      "potrafią samodzielnie zdobywać pokarm",
-      "wymagają długiej opieki rodziców",
-      "rodzice opiekują się nimi krótko albo wcale"
+      "potrafią samodzielnie zdobywać pokarm"
     ],
     "categories": [
       "gniazdowniki",
@@ -326,13 +324,11 @@ const ALL_EXERCISES = [
     "answer": {
       "gniazdowniki": [
         "często są ślepe i nieopierzone",
-        "są całkowicie bezradne",
-        "wymagają długiej opieki rodziców"
+        "są całkowicie bezradne"
       ],
       "zagniazdowniki": [
         "w kilka godzin po wykluciu mogą opuścić gniazdo",
-        "potrafią samodzielnie zdobywać pokarm",
-        "rodzice opiekują się nimi krótko albo wcale"
+        "potrafią samodzielnie zdobywać pokarm"
       ]
     },
     "image": "/img/r05_gniazdowniki_zagniazdowniki.jpg",
@@ -980,7 +976,7 @@ const ALL_EXERCISES = [
     "image": "/img/r05_srodowiska_ssakow.jpg",
     "explanation": "Tygrys syberyjski jest przykładem ssaka przystosowanego do zimnych rejonów Azji."
   },
-  {
+    {
     "id": "R05_RSS_06",
     "section": "Różnorodność ssaków",
     "type": "sort",
@@ -989,34 +985,27 @@ const ALL_EXERCISES = [
     "items": [
       "wydra",
       "foka",
-      "delfin",
       "nietoperz",
-      "kangur rudy",
-      "tygrys syberyjski"
+      "kangur rudy"
     ],
     "categories": [
       "wody słodkie",
       "morza",
       "aktywny lot",
-      "pustynie i suche obszary",
-      "zimne strefy"
+      "pustynie i suche obszary"
     ],
     "answer": {
       "wody słodkie": [
         "wydra"
       ],
       "morza": [
-        "foka",
-        "delfin"
+        "foka"
       ],
       "aktywny lot": [
         "nietoperz"
       ],
       "pustynie i suche obszary": [
         "kangur rudy"
-      ],
-      "zimne strefy": [
-        "tygrys syberyjski"
       ]
     },
     "image": "/img/r05_srodowiska_ssakow.jpg",
@@ -1420,7 +1409,7 @@ const ALL_EXERCISES = [
     "image": "/img/r05_ssak_lozysko.jpg",
     "explanation": "Łożysko jest charakterystyczne dla ssaków łożyskowych i odpowiada za wymianę substancji między matką a zarodkiem."
   },
-  {
+    {
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "sort",
@@ -1430,9 +1419,7 @@ const ALL_EXERCISES = [
       "żółtko",
       "komora powietrzna",
       "łożysko",
-      "gruczoły mlekowe",
-      "worki powietrzne",
-      "pęcherzyki płucne"
+      "gruczoły mlekowe"
     ],
     "categories": [
       "ptaki",
@@ -1441,17 +1428,15 @@ const ALL_EXERCISES = [
     "answer": {
       "ptaki": [
         "żółtko",
-        "komora powietrzna",
-        "worki powietrzne"
+        "komora powietrzna"
       ],
       "ssaki": [
         "łożysko",
-        "gruczoły mlekowe",
-        "pęcherzyki płucne"
+        "gruczoły mlekowe"
       ]
     },
     "image": "/img/r05_porownanie_ptaki_ssaki.jpg",
-    "explanation": "Części jaja i worki powietrzne wiążą się z ptakami, a łożysko, gruczoły mlekowe i płuca pęcherzykowate z ssakami."
+    "explanation": "Żółtko i komora powietrzna są związane z jajem ptaka, a łożysko i gruczoły mlekowe są cechami ssaków."
   },
   {
     "id": "R05_HARD_06",

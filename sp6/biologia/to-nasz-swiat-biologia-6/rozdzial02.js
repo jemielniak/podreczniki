@@ -175,11 +175,9 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "rzęski i śluz na ciele",
-      "proste oczy reagujące na światło",
       "gardziel do chwytania zdobyczy",
       "główka do przytwierdzenia",
-      "nabłonek z warstwą ochronną",
-      "liczne człony"
+      "nabłonek z warstwą ochronną"
     ],
     "categories": [
       "płazińce wolno żyjące",
@@ -188,16 +186,14 @@ const ALL_EXERCISES = [
     "answer": {
       "płazińce wolno żyjące": [
         "rzęski i śluz na ciele",
-        "proste oczy reagujące na światło",
         "gardziel do chwytania zdobyczy"
       ],
       "płazińce pasożytnicze": [
         "główka do przytwierdzenia",
-        "nabłonek z warstwą ochronną",
-        "liczne człony"
+        "nabłonek z warstwą ochronną"
       ]
     },
-    "explanation": "Wypławek ma rzęski, śluz, oczy i gardziel, a tasiemiec ma główkę przytwierdzającą, ochronną warstwę nabłonka oraz liczne człony."
+    "explanation": "Wypławek ma rzęski, śluz i gardziel do chwytania zdobyczy, a tasiemiec ma główkę przytwierdzającą i ochronną warstwę nabłonka."
   },
   {
     "id": "R02_PLA_12",
@@ -817,7 +813,6 @@ const ALL_EXERCISES = [
       "jedzenie przebadanego mięsa",
       "gotowanie, pieczenie lub smażenie mięsa",
       "częste mycie rąk",
-      "mycie owoców i warzyw",
       "częsta zmiana bielizny i pościeli"
     ],
     "categories": [
@@ -831,11 +826,10 @@ const ALL_EXERCISES = [
       ],
       "owsica": [
         "częste mycie rąk",
-        "mycie owoców i warzyw",
         "częsta zmiana bielizny i pościeli"
       ]
     },
-    "explanation": "Profilaktyka tasiemczycy dotyczy głównie mięsa, a profilaktyka owsicy — higieny rąk, bielizny, pościeli oraz mycia warzyw i owoców."
+    "explanation": "Profilaktyka tasiemczycy obejmuje spożywanie przebadanego i odpowiednio przygotowanego mięsa, a profilaktyka owsicy opiera się na higienie rąk oraz częstej zmianie bielizny i pościeli."
   },
   {
     "id": "R02_PRO_10",
@@ -905,8 +899,7 @@ const ALL_EXERCISES = [
       "wypławek biały",
       "tasiemiec uzbrojony",
       "owsik ludzki",
-      "dżdżownica",
-      "pijawka"
+      "dżdżownica"
     ],
     "categories": [
       "płazińce",
@@ -922,11 +915,10 @@ const ALL_EXERCISES = [
         "owsik ludzki"
       ],
       "pierścienice": [
-        "dżdżownica",
-        "pijawka"
+        "dżdżownica"
       ]
     },
-    "explanation": "Wypławek i tasiemiec to płazińce, owsik to nicień, a dżdżownica i pijawka to pierścienice."
+    "explanation": "Wypławek i tasiemiec to płazińce, owsik to nicień, a dżdżownica to pierścienica."
   },
   {
     "id": "R02_POR_03",

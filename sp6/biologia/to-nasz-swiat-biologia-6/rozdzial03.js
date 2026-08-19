@@ -148,8 +148,6 @@ const ALL_EXERCISES = [
       "krab tęczowy",
       "tygrzyk paskowany",
       "konik wąsacz",
-      "rak",
-      "pająk topik",
       "biedronka"
     ],
     "categories": [
@@ -159,19 +157,17 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "skorupiaki": [
-        "krab tęczowy",
-        "rak"
+        "krab tęczowy"
       ],
       "pajęczaki": [
-        "tygrzyk paskowany",
-        "pająk topik"
+        "tygrzyk paskowany"
       ],
       "owady": [
         "konik wąsacz",
         "biedronka"
       ]
     },
-    "explanation": "Kraby i raki to skorupiaki, pająki należą do pajęczaków, a konik wąsacz i biedronka są owadami."
+    "explanation": "Krab tęczowy jest skorupiakiem, tygrzyk paskowany należy do pajęczaków, a konik wąsacz i biedronka są owadami."
   },
   {
     "id": "R03_STA_10",
@@ -339,7 +335,6 @@ const ALL_EXERCISES = [
     "items": [
       "czyszczą dna zbiorników wodnych",
       "zooplankton stanowi pożywienie dla ryb",
-      "raki, homary i kraby są poławiane na pokarm",
       "pąkle utrudniają pływanie statków",
       "niektóre skorupiaki pasożytują na innych skorupiakach"
     ],
@@ -350,8 +345,7 @@ const ALL_EXERCISES = [
     "answer": {
       "znaczenie pozytywne": [
         "czyszczą dna zbiorników wodnych",
-        "zooplankton stanowi pożywienie dla ryb",
-        "raki, homary i kraby są poławiane na pokarm"
+        "zooplankton stanowi pożywienie dla ryb"
       ],
       "znaczenie negatywne": [
         "pąkle utrudniają pływanie statków",
@@ -508,11 +502,9 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "regulują liczbę drobnych zwierząt",
-      "ograniczają liczebność komarów",
       "stanowią pokarm dla ptaków",
       "mogą przenosić choroby",
-      "niektóre są pasożytami ludzi i zwierząt",
-      "jad niektórych może być groźny"
+      "niektóre są pasożytami ludzi i zwierząt"
     ],
     "categories": [
       "znaczenie pozytywne",
@@ -521,13 +513,11 @@ const ALL_EXERCISES = [
     "answer": {
       "znaczenie pozytywne": [
         "regulują liczbę drobnych zwierząt",
-        "ograniczają liczebność komarów",
         "stanowią pokarm dla ptaków"
       ],
       "znaczenie negatywne": [
         "mogą przenosić choroby",
-        "niektóre są pasożytami ludzi i zwierząt",
-        "jad niektórych może być groźny"
+        "niektóre są pasożytami ludzi i zwierząt"
       ]
     },
     "explanation": "Pajęczaki pełnią ważne funkcje w ekosystemach, ale niektóre mogą szkodzić ludziom i zwierzętom."
@@ -865,9 +855,7 @@ const ALL_EXERCISES = [
       "winniczek",
       "ślimak afrykański",
       "szczeżuja pospolita",
-      "zatoczek rogowy",
-      "ośmiornica zwyczajna",
-      "omułek jadalny"
+      "ośmiornica zwyczajna"
     ],
     "categories": [
       "ląd",
@@ -880,12 +868,10 @@ const ALL_EXERCISES = [
         "ślimak afrykański"
       ],
       "wody słodkie": [
-        "szczeżuja pospolita",
-        "zatoczek rogowy"
+        "szczeżuja pospolita"
       ],
       "wody słone": [
-        "ośmiornica zwyczajna",
-        "omułek jadalny"
+        "ośmiornica zwyczajna"
       ]
     },
     "explanation": "Mięczaki żyją na lądzie oraz w wodach słodkich i słonych.",
@@ -951,9 +937,7 @@ const ALL_EXERCISES = [
     "items": [
       "rak",
       "pająk",
-      "konik wąsacz",
       "winniczek",
-      "szczeżuja",
       "ośmiornica"
     ],
     "categories": [
@@ -963,16 +947,14 @@ const ALL_EXERCISES = [
     "answer": {
       "stawonogi": [
         "rak",
-        "pająk",
-        "konik wąsacz"
+        "pająk"
       ],
       "mięczaki": [
         "winniczek",
-        "szczeżuja",
         "ośmiornica"
       ]
     },
-    "explanation": "Raki, pająki i owady są stawonogami, a ślimaki, małże i głowonogi są mięczakami."
+    "explanation": "Rak i pająk są stawonogami, a winniczek i ośmiornica należą do mięczaków."
   },
   {
     "id": "R03_POW_03",
@@ -1227,8 +1209,7 @@ const ALL_EXERCISES = [
       "pąkle",
       "oczliki",
       "małże",
-      "głowonogi",
-      "duże skorupiaki"
+      "głowonogi"
     ],
     "categories": [
       "drobne cząstki zawieszone w wodzie",
@@ -1244,11 +1225,10 @@ const ALL_EXERCISES = [
         "małże"
       ],
       "polowanie na inne zwierzęta": [
-        "głowonogi",
-        "duże skorupiaki"
+        "głowonogi"
       ]
     },
-    "explanation": "Małe skorupiaki korzystają z drobnych cząstek w toni wodnej, małże filtrują pokarm z wody, a głowonogi i duże skorupiaki polują."
+    "explanation": "Pąkle i oczliki korzystają z drobnych cząstek zawieszonych w wodzie, małże filtrują plankton i bakterie, a głowonogi polują na inne zwierzęta."
   },
   {
     "id": "R03_HARD_09",
