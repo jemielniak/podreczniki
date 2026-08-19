@@ -480,7 +480,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_03",
     "section": "Ptaki: znaczenie i ochrona",
     "type": "match",
-    "prompt": "Połącz dziób z funkcją wynikającą z opisu.",
+    "prompt": "Połącz typ dzioba z jego funkcją.",
     "options": null,
     "left": [
       "krótki, mocny dziób bogatki",
@@ -1251,7 +1251,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_07",
     "section": "Ssaki: znaczenie i ochrona",
     "type": "single_choice",
-    "prompt": "Który gatunek inwazyjny wymieniono jako przykład zagrożenia dla rodzimych ssaków?",
+    "prompt": "Który gatunek inwazyjny stanowi zagrożenie dla rodzimych ssaków?",
     "options": [
       "szop pracz",
       "jeż zachodni",
@@ -1262,13 +1262,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r05_zagrozenia_ssakow.jpg",
-    "explanation": "Jako przykład gatunku inwazyjnego podano m.in. szopa pracza."
+    "explanation": "Szop pracz jest gatunkiem inwazyjnym, który może zagrażać rodzimym ssakom."
   },
   {
     "id": "R05_ZSS_08",
     "section": "Ssaki: znaczenie i ochrona",
     "type": "single_choice",
-    "prompt": "Które ssaki wymieniono jako zwierzęta mogące pracować w policji, wojsku, ratownictwie i służbach celnych?",
+    "prompt": "Które ssaki mogą pracować w policji, wojsku, ratownictwie i służbach celnych?",
     "options": [
       "psy",
       "koty",

@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r04_szkielet_kregowca.jpg",
-    "explanation": "To prawda: podaje się taki plan budowy ciała większości kręgowców."
+    "explanation": "To prawda: ciało większości kręgowców składa się z głowy, tułowia, ogona i kończyn."
   },
   {
     "id": "R04_KRG_04",
@@ -86,7 +86,7 @@ const ALL_EXERCISES = [
       "kręgowce",
       "kregowce"
     ],
-    "explanation": "Wymieniono ryby, płazy, gady, ptaki i ssaki jako grupy należące do kręgowców."
+    "explanation": "Ryby, płazy, gady, ptaki i ssaki należą do kręgowców."
   },
   {
     "id": "R04_KRG_06",
@@ -406,7 +406,7 @@ const ALL_EXERCISES = [
         "śledzie"
       ]
     },
-    "explanation": "Jako przykłady podano m.in. szczupaka jako drapieżnika, amura jako roślinożercę, karpia jako wszystkożercę i śledzie jako żywiące się planktonem."
+    "explanation": "Szczupak jest drapieżnikiem, amur roślinożercą, karp wszystkożercą, a śledzie żywią się planktonem."
   },
   {
     "id": "R04_RYB_11",
@@ -503,7 +503,7 @@ const ALL_EXERCISES = [
     "id": "R04_PLA_03",
     "section": "Płazy",
     "type": "multi_select",
-    "prompt": "Zaznacz przystosowania płazów do życia na lądzie wymienione przy żabie.",
+    "prompt": "Zaznacz przystosowania płazów do życia na lądzie.",
     "options": [
       "kończyny przystosowane do poruszania się",
       "śluz chroniący skórę przed wysychaniem",
@@ -667,7 +667,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r04_cykl_rozwojowy_zaby.jpg",
-    "explanation": "To prawda: tak opisano kijanki."
+    "explanation": "To prawda: kijanki żyją w wodzie, oddychają skrzelami, mają ogon i nie mają kończyn."
   },
   {
     "id": "R04_PLA_12",
@@ -781,7 +781,7 @@ const ALL_EXERCISES = [
       "ogon jaszczurki": "jest dłuższy od tułowia"
     },
     "image": "/img/r04_budowa_jaszczurki.jpg",
-    "explanation": "Ilustracja jaszczurki pokazuje m.in. skórę z łuskami, ruchomą powiekę i kończyny z palcami zakończonymi pazurami."
+    "explanation": "Jaszczurka ma m.in. skórę z łuskami, ruchomą powiekę i kończyny z palcami zakończonymi pazurami."
   },
   {
     "id": "R04_GAD_04",
@@ -906,7 +906,7 @@ const ALL_EXERCISES = [
       "gawial gangesowy"
     ],
     "answer": 0,
-    "explanation": "Wskazano żmiję zygzakowatą jako jedynego jadowitego węża występującego w Polsce."
+    "explanation": "Żmija zygzakowata jest jedynym jadowitym wężem występującym w Polsce."
   },
   {
     "id": "R04_GAD_11",
@@ -1046,7 +1046,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Jako zmiennocieplne wskazano ryby, płazy i gady."
+    "explanation": "Ryby, płazy i gady są zmiennocieplne."
   },
   {
     "id": "R04_MIE_05",
@@ -1121,7 +1121,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_10",
     "section": "Powtórka mieszana",
     "type": "sequence",
-    "prompt": "Ułóż grupy w kolejności od najbardziej związanej z wodą do najbardziej związanej z lądem według materiału.",
+    "prompt": "Ułóż grupy w kolejności od najbardziej związanej z wodą do najbardziej związanej z lądem.",
     "options": null,
     "items": [
       "gady",
@@ -1139,7 +1139,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która informacja o łososiach i jesiotrach wynika z ramki „Wędrówki ryb”?",
+    "prompt": "Która informacja o łososiach i jesiotrach jest prawdziwa?",
     "options": [
       "Dorosłe żyją w morzu, a ikra rozwija się w słodkich wodach potoków górskich",
       "Dorosłe żyją wyłącznie w glebie, a ikra na pustyni",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
     "prompt": "Narybek łososia po 2–3 latach płynie w dół rzek, do morza.",
     "options": null,
     "answer": true,
-    "explanation": "To prawda: ramka o wędrówkach ryb podaje, że narybek po 2–3 latach płynie do morza."
+    "explanation": "To prawda: narybek łososia po 2–3 latach płynie w dół rzek do morza."
   },
   {
     "id": "R04_HARD_03",
@@ -1170,7 +1170,7 @@ const ALL_EXERCISES = [
     "altAnswers": [
       "tran"
     ],
-    "explanation": "Tran to tłuszcz z rybiej wątroby, wymieniony jako cenny składnik pozyskiwany z ryb."
+    "explanation": "Tran to tłuszcz z rybiej wątroby i cenny składnik pozyskiwany z ryb."
   },
   {
     "id": "R04_HARD_04",
@@ -1192,7 +1192,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz ryby lub zwierzęta rybie opisane na stronie „To naprawdę ryba!”.",
+    "prompt": "Zaznacz zwierzęta należące do ryb.",
     "options": [
       "pławikoniki",
       "kurek czerwony",
@@ -1207,7 +1207,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Na stronie „To naprawdę ryba!” opisano m.in. pławikoniki, kurka czerwonego, rurecznice/fletnice oraz patelnicę niebieskoplamą."
+    "explanation": "Do ryb należą m.in. pławikoniki, kurek czerwony, rurecznice/fletnice oraz patelnica niebieskoplama."
   },
   {
     "id": "R04_HARD_06",
@@ -1256,7 +1256,7 @@ const ALL_EXERCISES = [
       "żółw błotny": "jedyny gatunek żółwia naturalnie występujący w Polsce",
       "zaskroniec zwyczajny": "ma żółte plamki za skroniami i dobrze pływa"
     },
-    "explanation": "Podaje się charakterystyczne informacje o wybranych gatunkach ryb, płazów i gadów."
+    "explanation": "Najeżka napełnia ciało wodą lub powietrzem, rzekotka drzewna ma przylgi, żółw błotny jest jedynym gatunkiem żółwia naturalnie występującym w Polsce, a zaskroniec zwyczajny ma żółte plamki za skroniami."
   },
   {
     "id": "R04_HARD_08",

@@ -206,7 +206,7 @@ const ALL_EXERCISES = [
     "id": "R03_CST_12",
     "section": "Cechy stawonogów",
     "type": "single_choice",
-    "prompt": "Który przedstawiciel stawonogów jest podany jako największy na świecie?",
+    "prompt": "Który przedstawiciel stawonogów jest największy na świecie?",
     "options": [
       "krab olbrzymi",
       "stonoga murowa",
@@ -216,7 +216,7 @@ const ALL_EXERCISES = [
       "homar europejski"
     ],
     "answer": 0,
-    "explanation": "Jako największy stawonóg opisany jest krab olbrzymi żyjący na dnie Oceanu Spokojnego."
+    "explanation": "Największym stawonogiem jest krab olbrzymi żyjący na dnie Oceanu Spokojnego."
   },
   {
     "id": "R03_SKO_01",
@@ -828,7 +828,7 @@ const ALL_EXERCISES = [
     "id": "R03_PAJ_11",
     "section": "Pajęczaki",
     "type": "single_choice",
-    "prompt": "Jakie oczy mają pająki według opisu?",
+    "prompt": "Jakie oczy mają pająki?",
     "options": [
       "od dwóch do ośmiu oczu prostych",
       "dwa oczy złożone",
@@ -881,7 +881,7 @@ const ALL_EXERCISES = [
     "prompt": "Mięczaki mają miękkie i niesegmentowane ciało.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się mięczaki jako zwierzęta o delikatnym, miękkim i niesegmentowanym ciele."
+    "explanation": "Mięczaki mają delikatne, miękkie i niesegmentowane ciało."
   },
   {
     "id": "R03_MIE_03",
@@ -1299,7 +1299,7 @@ const ALL_EXERCISES = [
       "pajęczaki": "brak czułków i cztery pary odnóży",
       "mięczaki": "miękkie niesegmentowane ciało"
     },
-    "explanation": "Tabela podsumowująca porównuje się stawonogi z mięczakami i wskazuje najważniejsze cechy rozpoznawcze każdej grupy."
+    "explanation": "Stawonogi i mięczaki różnią się najważniejszymi cechami budowy charakterystycznymi dla każdej z tych grup."
   }
 ];
 

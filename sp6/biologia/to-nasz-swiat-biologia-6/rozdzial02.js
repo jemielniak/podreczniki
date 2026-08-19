@@ -136,7 +136,7 @@ const ALL_EXERCISES = [
     "id": "R02_PLA_08",
     "section": "Płazińce",
     "type": "single_choice",
-    "prompt": "Czym tasiemiec uzbrojony różni się od tasiemca nieuzbrojonego według schematu?",
+    "prompt": "Czym tasiemiec uzbrojony różni się od tasiemca nieuzbrojonego?",
     "image": "/img/r02_tasiemiec_budowa.jpg",
     "options": [
       "Ma haczyki i przyssawki na główce",
@@ -156,7 +156,7 @@ const ALL_EXERCISES = [
     "prompt": "Gardziel wypławka białego służy do chwytania zdobyczy.",
     "options": null,
     "answer": true,
-    "explanation": "W schemacie wypławka gardziel jest wskazana jako narząd służący do chwytania zdobyczy."
+    "explanation": "Gardziel wypławka służy do chwytania zdobyczy."
   },
   {
     "id": "R02_PLA_10",
@@ -328,7 +328,7 @@ const ALL_EXERCISES = [
     "prompt": "Owsik ludzki występuje w jelicie grubym człowieka, głównie u dzieci.",
     "options": null,
     "answer": true,
-    "explanation": "Owsik ludzki opisano jako pasożyta jelita grubego, częstego szczególnie u dzieci."
+    "explanation": "Owsik ludzki jest pasożytem jelita grubego, a zakażenia są częste szczególnie u dzieci."
   },
   {
     "id": "R02_NIC_07",
@@ -387,7 +387,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: gleba, muł, gorące źródła, przestrzeń kosmiczna.",
     "options": null,
     "answer": "przestrzeń kosmiczna",
-    "explanation": "Gleba, muł i gorące źródła są wymienione jako środowiska nicieni, a przestrzeń kosmiczna nie."
+    "explanation": "Nicienie występują m.in. w glebie, mule i gorących źródłach, ale nie w przestrzeni kosmicznej."
   },
   {
     "id": "R02_NIC_11",
@@ -586,7 +586,7 @@ const ALL_EXERCISES = [
     "prompt": "Pijawka ma szczecinki na pierścieniach, tak jak dżdżownica.",
     "options": null,
     "answer": false,
-    "explanation": "Schemat pijawki wskazuje brak szczecinek na pierścieniach."
+    "explanation": "Pijawki nie mają szczecinek na pierścieniach."
   },
   {
     "id": "R02_PIE_09",
@@ -853,7 +853,7 @@ const ALL_EXERCISES = [
     "prompt": "Utrzymywanie toalety w czystości należy do sposobów zapobiegania zakażeniu owsikami.",
     "options": null,
     "answer": true,
-    "explanation": "Wymienia się czystość toalety jako jedną z zasad higieny pomagających uniknąć owsicy."
+    "explanation": "Utrzymywanie czystości toalety pomaga zapobiegać owsicy."
   },
   {
     "id": "R02_PRO_12",
@@ -962,7 +962,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Jako wolno żyjące opisano m.in. wypławka, niektóre nicienie glebowe i dżdżownice; pijawki też należą do pierścienic, choć wiele z nich jest pasożytami zewnętrznymi."
+    "explanation": "Wypławek, niektóre nicienie glebowe i dżdżownice prowadzą wolno żyjący tryb życia; pijawki także należą do pierścienic, choć wiele z nich jest pasożytami zewnętrznymi."
   },
   {
     "id": "R02_POR_05",
@@ -1031,7 +1031,7 @@ const ALL_EXERCISES = [
     "id": "R02_POR_09",
     "section": "Porównanie bezkręgowców",
     "type": "sort",
-    "prompt": "Przyporządkuj tryb życia do grup, w których go opisano.",
+    "prompt": "Przyporządkuj tryby życia do odpowiednich grup zwierząt.",
     "options": null,
     "items": [
       "pasożyty wewnętrzne",
@@ -1144,7 +1144,7 @@ const ALL_EXERCISES = [
     "image": "/img/r02_tasiemiec_budowa.jpg",
     "options": null,
     "answer": true,
-    "explanation": "Schemat tasiemca opisuje odrywanie się dojrzałych członów wypełnionych jajami i ich usuwanie z kałem."
+    "explanation": "Dojrzałe człony tasiemca, wypełnione jajami, odrywają się i są usuwane z kałem żywiciela."
   },
   {
     "id": "R02_HARD_04",
@@ -1159,7 +1159,7 @@ const ALL_EXERCISES = [
       "C. elegans",
       "c elegans"
     ],
-    "explanation": "Podaje się jako ciekawostkę gatunek Caenorhabditis elegans."
+    "explanation": "Caenorhabditis elegans jest niewielkim nicieniem żyjącym w glebie i pierwszym organizmem wielokomórkowym, u którego poznano wszystkie geny."
   },
   {
     "id": "R02_HARD_05",
@@ -1181,7 +1181,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy przygotowania hodowli nicieni zgodnie z opisem.",
+    "prompt": "Ułóż etapy przygotowania hodowli nicieni w prawidłowej kolejności.",
     "options": null,
     "items": [
       "dodaj drożdże, rozgniecionego banana i porcję startową nicieni",
@@ -1226,13 +1226,13 @@ const ALL_EXERCISES = [
     "image": "/img/r02_pijawka_budowa.jpg",
     "options": null,
     "answer": true,
-    "explanation": "W znaczeniu pierścienic wymieniono, że pijawki mogą przenosić choroby bakteryjne, wirusowe i pasożytnicze."
+    "explanation": "Pijawki mogą przenosić choroby bakteryjne, wirusowe i pasożytnicze."
   },
   {
     "id": "R02_HARD_09",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak długie mogą być wapienne rurki rurek według ciekawostki o rurówkach?",
+    "prompt": "Jak długie mogą być wapienne rurki rurek?",
     "image": "/img/r02_rurowka_w_rurce.jpg",
     "options": [
       "20–30 cm",
@@ -1243,13 +1243,13 @@ const ALL_EXERCISES = [
       "około 9 m"
     ],
     "answer": 0,
-    "explanation": "W ciekawostce podano, że wapienne rurki rurek mogą mieć 20–30 cm długości."
+    "explanation": "Wapienne rurki rurek mogą mieć 20–30 cm długości."
   },
   {
     "id": "R02_HARD_10",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Podczas porządkowania ogrodu uczeń chce wrzucić do kompostu kości, mięso i nabiał. Co powinien zrobić zgodnie z instrukcją?",
+    "prompt": "Podczas porządkowania ogrodu uczeń chce wrzucić do kompostu kości, mięso i nabiał. Co powinien zrobić?",
     "options": [
       "nie wrzucać tych produktów do kompostu",
       "wrzucić je jako odpadki zielone",
@@ -1257,7 +1257,7 @@ const ALL_EXERCISES = [
       "zakopać je jako porcję startową nicieni"
     ],
     "answer": 0,
-    "explanation": "Instrukcja kompostowania ostrzega, aby nie wrzucać do kompostu m.in. kości, mięsa ani nabiału."
+    "explanation": "Do kompostu nie należy wrzucać m.in. kości, mięsa ani nabiału."
   }
 ];
 

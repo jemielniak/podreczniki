@@ -504,7 +504,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "/img/r01_krew_skladniki.jpg",
-    "explanation": "Opisuje się krew jako płynną tkankę łączną z krwinkami zawieszonymi w osoczu."
+    "explanation": "Krew jest płynną tkanką łączną, w której krwinki są zawieszone w osoczu."
   },
   {
     "id": "R01_LAC_04",
@@ -552,7 +552,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "/img/r01_krew_skladniki.jpg",
-    "explanation": "Opisano krwinki czerwone, krwinki białe, płytki krwi i osocze."
+    "explanation": "Krew składa się z osocza oraz elementów morfotycznych: krwinek czerwonych, krwinek białych i płytek krwi."
   },
   {
     "id": "R01_LAC_06",
@@ -606,7 +606,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_tkanka_kostna_i_chrzestna.jpg",
-    "explanation": "To prawda. Opisuje się komórki chrzęstne jako mniej liczne i ułożone po 2-3 w jamkach."
+    "explanation": "To prawda. Komórki chrzęstne są stosunkowo nieliczne i mogą być ułożone po 2-3 w jamkach."
   },
   {
     "id": "R01_LAC_10",
@@ -996,7 +996,7 @@ const ALL_EXERCISES = [
     "id": "R01_MIX_05",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca lub narządy, w których wskazano tkankę nabłonkową.",
+    "prompt": "Zaznacz miejsca lub narządy, w których występuje tkanka nabłonkowa.",
     "options": [
       "skóra",
       "pęcherzyki płucne",
@@ -1013,7 +1013,7 @@ const ALL_EXERCISES = [
       4
     ],
     "image": "/img/r01_lokalizacja_tkanek_w_ciele.jpg",
-    "explanation": "Pokazuje się nabłonek m.in. w skórze, pęcherzykach płucnych, kanalikach nerkowych, żołądku i jamie nosowej."
+    "explanation": "Tkanka nabłonkowa występuje m.in. w skórze, pęcherzykach płucnych, kanalikach nerkowych, żołądku i jamie nosowej."
   },
   {
     "id": "R01_MIX_06",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r01_tkanka_tluszczowa_i_krew.jpg",
-    "explanation": "Opis odpowiada tkance tłuszczowej."
+    "explanation": "Takie cechy ma tkanka tłuszczowa."
   },
   {
     "id": "R01_MIX_10",
@@ -1152,7 +1152,7 @@ const ALL_EXERCISES = [
       "wielowarstwowy płaski"
     ],
     "image": "/img/r01_lokalizacja_tkanek_w_ciele.jpg",
-    "explanation": "Pokazuje się różne nabłonki w różnych miejscach organizmu, m.in. w płucach, nerkach, drogach oddechowych, jamie nosowej, żołądku i skórze."
+    "explanation": "Różne rodzaje nabłonków występują w różnych miejscach organizmu, m.in. w płucach, nerkach, drogach oddechowych, jamie nosowej, żołądku i skórze."
   },
   {
     "id": "R01_HARD_02",
@@ -1169,7 +1169,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r01_tkanki_miesniowe_porownanie.jpg",
-    "explanation": "Opis dotyczy tkanki mięśniowej poprzecznie prążkowanej serca."
+    "explanation": "Takie cechy ma tkanka mięśniowa poprzecznie prążkowana serca."
   },
   {
     "id": "R01_HARD_03",
@@ -1179,7 +1179,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_gabka_beztkankowa.jpg",
-    "explanation": "To prawda. Opisuje się gąbki jako proste zwierzęta beztkankowe o nieregularnym kształcie ciała."
+    "explanation": "To prawda. Gąbki są prostymi zwierzętami beztkankowymi o nieregularnym kształcie ciała."
   },
   {
     "id": "R01_HARD_04",
@@ -1250,7 +1250,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz nabłonki jednowarstwowe, które opisano z dodatkowymi strukturami lub komórkami między nabłonkowymi.",
+    "prompt": "Zaznacz nabłonki jednowarstwowe mające dodatkowe struktury lub wyspecjalizowane komórki.",
     "options": [
       "migawkowy",
       "zmysłowy",

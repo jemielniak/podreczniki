@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r05_ptaki_srodowiska_polski.jpg",
-    "explanation": "Podano przykłady ptaków żyjących w polskich miastach, na wsi i w lesie."
+    "explanation": "Wróbel domowy i kawka zwyczajna żyją w miastach, bocian biały i szpak na wsi, a dzięcioł duży i kowalik zwyczajny w lesie."
   },
   {
     "id": "R05_PTR_06",
@@ -382,7 +382,7 @@ const ALL_EXERCISES = [
     "id": "R05_PTR_10",
     "section": "Rozmnażanie i znaczenie ptaków",
     "type": "match",
-    "prompt": "Połącz przykład z opisanym znaczeniem ptaków.",
+    "prompt": "Połącz przykład z właściwym znaczeniem ptaków.",
     "options": null,
     "left": [
       "sójka",
@@ -561,7 +561,7 @@ const ALL_EXERCISES = [
     "id": "R05_SSB_07",
     "section": "Ssaki – środowisko i budowa",
     "type": "multi_select",
-    "prompt": "Zaznacz ssaki, które podano jako przykłady zapadające w sen zimowy.",
+    "prompt": "Zaznacz ssaki zapadające w sen zimowy.",
     "options": [
       "niedźwiedzie",
       "borsuki",
@@ -577,7 +577,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "W tekście wymieniono między innymi niedźwiedzie, borsuki, nietoperze, jeże i świstaki."
+    "explanation": "W sen zimowy zapadają m.in. niedźwiedzie, borsuki, nietoperze, jeże i świstaki."
   },
   {
     "id": "R05_SSB_08",
@@ -775,7 +775,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r05_ssaki_srodowiska.jpg",
-    "explanation": "Pokazano przykłady ssaków latających, wodnych i nadrzewnych lub szybujących."
+    "explanation": "Ssaki mogą prowadzić m.in. latający, wodny oraz nadrzewny lub szybujący tryb życia."
   },
   {
     "id": "R05_SSR_07",
@@ -931,7 +931,7 @@ const ALL_EXERCISES = [
       "sierść": "pokrycie ciała większości ssaków",
       "rogowy dziób": "okrywa bezzębne szczęki ptaka"
     },
-    "explanation": "Porównuje się przystosowania ptaków i ssaków oraz pokazuje, czym się różnią."
+    "explanation": "Ptaki i ssaki różnią się przystosowaniami, m.in. piórami i workami powietrznymi u ptaków oraz sierścią i mlekiem u ssaków."
   },
   {
     "id": "R05_MIE_03",
@@ -1053,7 +1053,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_10",
     "section": "Powtórka mieszana",
     "type": "match",
-    "prompt": "Połącz znaczenie z grupą zwierząt, której przykład podano.",
+    "prompt": "Połącz przykład z odpowiadającym mu znaczeniem.",
     "options": null,
     "left": [
       "zapylanie roślin przez kolibry",
@@ -1101,7 +1101,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który ptak podano jako najmniejszego polskiego ptaka z około 160 mln neuronów w mózgu o masie 0,36 g?",
+    "prompt": "Który ptak jest najmniejszym polskim ptakiem i ma około 160 mln neuronów w mózgu o masie 0,36 g?",
     "options": [
       "mysikrólik",
       "kruk",
@@ -1111,13 +1111,13 @@ const ALL_EXERCISES = [
       "modraszka zwyczajna"
     ],
     "answer": 0,
-    "explanation": "W tekście „Mały mózg...” jako przykład najmniejszego polskiego ptaka podano mysikrólika."
+    "explanation": "Mysikrólik jest najmniejszym polskim ptakiem i ma około 160 mln neuronów w mózgu o masie 0,36 g."
   },
   {
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który ptak został wskazany jako rekordzista z ponad 2 mld neuronów w mózgu o masie 10,2 g?",
+    "prompt": "Który ptak jest rekordzistą z ponad 2 mld neuronów w mózgu o masie 10,2 g?",
     "options": [
       "kruk",
       "mysikrólik",
@@ -1127,7 +1127,7 @@ const ALL_EXERCISES = [
       "sęp"
     ],
     "answer": 0,
-    "explanation": "Wskazuje się kruka jako rekordzistę pod względem liczby neuronów w małym mózgu."
+    "explanation": "Kruk jest rekordzistą pod względem liczby neuronów w małym mózgu."
   },
   {
     "id": "R05_HARD_03",
@@ -1155,7 +1155,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz ptaka lub grupę ptaków ze zdolnością opisaną w ciekawostkach.",
+    "prompt": "Połącz ptaka lub grupę ptaków z właściwą zdolnością.",
     "options": null,
     "left": [
       "rudziki",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
       "kszyk": "wykrywanie zdobyczy czułym dziobem",
       "burzyki i oceanniki": "wracanie do gniazd z morskich wędrówek dzięki zapachowi"
     },
-    "explanation": "Ciekawostki pokazują, że ptaki wykorzystują różne zmysły i zdolności do orientacji oraz zdobywania pokarmu."
+    "explanation": "Ptaki wykorzystują różne zmysły i zdolności do orientacji oraz zdobywania pokarmu."
   },
   {
     "id": "R05_HARD_06",
@@ -1196,7 +1196,7 @@ const ALL_EXERCISES = [
         "389 kilometrów na godzinę"
       ]
     ],
-    "explanation": "W ciekawostce podano lot pikujący sokoła wędrownego jako przykład błyskawicznego podejmowania decyzji przy bardzo dużej prędkości."
+    "explanation": "W locie pikującym sokół wędrowny może osiągać prędkość do 389 km/h."
   },
   {
     "id": "R05_HARD_07",
@@ -1218,13 +1218,13 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Ciekawostki opisują między innymi świetny wzrok, słuch, węch, dotyk dzioba, smak oraz pamięć przestrzenną."
+    "explanation": "Ptaki wykorzystują m.in. wzrok, słuch, węch, dotyk dzioba, smak oraz pamięć przestrzenną."
   },
   {
     "id": "R05_HARD_08",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Ptak rozpoznaje zapach uszkodzonych pędów sosen i dzięki temu znajduje owady żerujące w tych pędach. O którym ptaku mówi ciekawostka?",
+    "prompt": "Ptak rozpoznaje zapach uszkodzonych pędów sosen i dzięki temu znajduje owady żerujące w tych pędach. O którym ptaku mowa?",
     "options": [
       "modraszka zwyczajna",
       "kszyk",
@@ -1247,7 +1247,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_10",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż zwierzęta od najmniejszego do największego według przykładów i opisów.",
+    "prompt": "Ułóż zwierzęta od najmniejszego do największego.",
     "options": null,
     "items": [
       "szarytka morska",
@@ -1261,7 +1261,7 @@ const ALL_EXERCISES = [
       "szarytka morska",
       "słoń afrykański"
     ],
-    "explanation": "Podaje się przykłady od bardzo małej ryjówki etruskiej, przez niewielkiego kanczyla i szarytkę, po najcięższego lądowego słonia afrykańskiego."
+    "explanation": "Kolejność od najmniejszego do największego to: ryjówka etruska, kanczyl jawajski, szarytka morska, słoń afrykański."
   }
 ];
 

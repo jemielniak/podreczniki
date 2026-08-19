@@ -320,7 +320,7 @@ const ALL_EXERCISES = [
       "Nicienie nigdy nie są pasożytami roślin."
     ],
     "answer": 0,
-    "explanation": "Podaje się przykłady nicieni wolno żyjących oraz pasożytów roślin i zwierząt."
+    "explanation": "Wśród nicieni występują gatunki wolno żyjące oraz pasożyty roślin i zwierząt."
   },
   {
     "id": "R02_NIC_06",
@@ -417,7 +417,7 @@ const ALL_EXERCISES = [
       "guzak północny": "atakuje system korzeniowy warzyw i tworzy guzki",
       "mątwik ziemniaczany": "tworzy cysty na korzeniach ziemniaka i innych roślin"
     },
-    "explanation": "Przedstawione gatunki pokazują, że nicienie mogą pasożytować zarówno u człowieka i innych ssaków, jak i u roślin."
+    "explanation": "Nicienie mogą pasożytować zarówno u człowieka i innych ssaków, jak i u roślin."
   },
   {
     "id": "R02_NIC_11",
@@ -527,7 +527,7 @@ const ALL_EXERCISES = [
     "id": "R02_PIE_03",
     "section": "Pierścienice",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem środowisk i trybu życia pierścienic.",
+    "prompt": "Zaznacz prawidłowe informacje o środowiskach i trybie życia pierścienic.",
     "options": [
       "zasiedlają środowisko lądowe",
       "zasiedlają środowisko wodne",
@@ -742,7 +742,7 @@ const ALL_EXERCISES = [
         "Sabella pavonina"
       ]
     },
-    "explanation": "Większość wymienionych pierścienic porusza się aktywnie, natomiast rurecznik i Sabella są przykładami gatunków prowadzących osiadły tryb życia."
+    "explanation": "Większość tych pierścienic porusza się aktywnie, natomiast rurecznik i Sabella prowadzą osiadły tryb życia."
   },
   {
     "id": "R02_CHO_01",
@@ -870,7 +870,7 @@ const ALL_EXERCISES = [
       "u ryb karpiowatych"
     ],
     "answer": 0,
-    "explanation": "Owsica jest opisana jako częsta choroba pasożytnicza, zwykle występująca u dzieci w wieku przedszkolnym i wczesnoszkolnym."
+    "explanation": "Owsica jest częstą chorobą pasożytniczą, która zwykle występuje u dzieci w wieku przedszkolnym i wczesnoszkolnym."
   },
   {
     "id": "R02_CHO_09",
@@ -929,7 +929,7 @@ const ALL_EXERCISES = [
       "kołysanie tylnej części ciała"
     ],
     "answer": 0,
-    "explanation": "W opisie glisty ludzkiej podano, że charakterystycznym objawem glistnicy jest kaszel wywoływany przez wędrujące larwy."
+    "explanation": "Charakterystycznym objawem glistnicy jest kaszel wywoływany przez wędrujące larwy."
   },
   {
     "id": "R02_CHO_12",
@@ -1113,7 +1113,7 @@ const ALL_EXERCISES = [
         "pijawka rybia"
       ]
     },
-    "explanation": "Tasiemce i wymienione nicienie żyją wewnątrz ciała żywiciela, a pijawki przyczepiają się do zewnętrznej powierzchni ciała."
+    "explanation": "Tasiemiec uzbrojony, owsik ludzki i glista ludzka żyją wewnątrz ciała żywiciela, a pijawki przyczepiają się do zewnętrznej powierzchni ciała."
   },
   {
     "id": "R02_MIE_09",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Które warunki panujące w jelicie cienkim żywiciela opisano jako ważne dla życia tasiemca?",
+    "prompt": "Które warunki panujące w jelicie cienkim żywiciela są ważne dla życia tasiemca?",
     "options": [
       "rytmiczne skurcze mięśni przesuwające treść pokarmową",
       "obecność enzymów trawiennych",
@@ -1200,7 +1200,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaka średnia długość jelita cienkiego dorosłego człowieka została podana w opisie tasiemców?",
+    "prompt": "Jaka jest średnia długość jelita cienkiego dorosłego człowieka?",
     "options": [
       "około 6 m",
       "około 1 cm",
@@ -1216,7 +1216,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_03",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaką długość może osiągać ciało tasiemca według schematu budowy?",
+    "prompt": "Jaką długość może osiągać ciało tasiemca?",
     "options": [
       "2–10 m",
       "1 mm",
@@ -1226,13 +1226,13 @@ const ALL_EXERCISES = [
       "100 m"
     ],
     "answer": 0,
-    "explanation": "Na schemacie budowy tasiemca podano, że jego płaskie i długie ciało może mieć 2–10 m."
+    "explanation": "Płaskie i długie ciało tasiemca może osiągać 2–10 m długości."
   },
   {
     "id": "R02_HARD_04",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Caenorhabditis elegans ma według tekstu zawsze dokładnie 959 komórek, a około jedną trzecią z nich stanowią komórki nerwowe.",
+    "prompt": "Caenorhabditis elegans ma zawsze dokładnie 959 komórek, a około jedną trzecią z nich stanowią komórki nerwowe.",
     "options": null,
     "answer": true,
     "explanation": "Ten modelowy nicień jest zbudowany z 959 komórek, z czego około jedną trzecią stanowią komórki nerwowe."
@@ -1254,7 +1254,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która pierścienica została wspomniana jako przysmak kulinarny w niektórych krajach?",
+    "prompt": "Która pierścienica jest uznawana za przysmak kulinarny w niektórych krajach?",
     "options": [
       "robak palolo",
       "pijawka rybia",
@@ -1264,13 +1264,13 @@ const ALL_EXERCISES = [
       "tasiemiec uzbrojony"
     ],
     "answer": 0,
-    "explanation": "W części o znaczeniu pierścienic podano, że w niektórych krajach przysmakiem kulinarnym jest robak palolo."
+    "explanation": "W niektórych krajach robak palolo jest uznawany za przysmak kulinarny."
   },
   {
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Na pastwisku pies pasterski rozsiewa z kałem człony tasiemca wypełnione jajami. U owiec larwy osiedlają się zwykle w mózgu i mogą powodować kręcenie się w miejscu. Który tasiemiec opisano w tej ciekawostce?",
+    "prompt": "Na pastwisku pies pasterski rozsiewa z kałem człony tasiemca wypełnione jajami. U owiec larwy osiedlają się zwykle w mózgu i mogą powodować kręcenie się w miejscu. Który tasiemiec wywołuje taki przebieg zakażenia?",
     "options": [
       "tasiemiec kręćkowy",
       "tasiemiec nieuzbrojony",
@@ -1280,7 +1280,7 @@ const ALL_EXERCISES = [
       "węgorek octowy"
     ],
     "answer": 0,
-    "explanation": "Opis dotyczy tasiemca kręćkowego, którego żywicielem ostatecznym są najczęściej psy pasterskie, a pośrednim owce."
+    "explanation": "Tasiemiec kręćkowy ma najczęściej psy pasterskie jako żywicieli ostatecznych, a owce jako żywicieli pośrednich."
   },
   {
     "id": "R02_HARD_08",

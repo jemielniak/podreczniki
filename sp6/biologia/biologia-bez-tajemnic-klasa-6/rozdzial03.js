@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Stawonogi tworzą jedną z najliczniejszych i najbardziej różnorodnych grup zwierząt.",
     "options": null,
     "answer": true,
-    "explanation": "Opisano ponad milion gatunków stawonogów."
+    "explanation": "Znanych jest ponad milion gatunków stawonogów."
   },
   {
     "id": "R03_STA_03",
@@ -576,7 +576,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_02",
     "section": "Znaczenie stawonogów",
     "type": "single_choice",
-    "prompt": "Który skorupiak jest opisany jako składnik planktonu słodkowodnego i filtrator wód?",
+    "prompt": "Który skorupiak jest składnikiem planktonu słodkowodnego i filtruje wodę?",
     "options": [
       "rozwielitka",
       "homar europejski",
@@ -796,7 +796,7 @@ const ALL_EXERCISES = [
         "ujemne"
       ]
     ],
-    "explanation": "Opisano zarówno korzyści ze stawonogów, jak i szkody oraz zagrożenia powodowane przez niektóre gatunki."
+    "explanation": "Stawonogi mogą przynosić człowiekowi korzyści, ale niektóre gatunki powodują także szkody i zagrożenia."
   },
   {
     "id": "R03_MIE_01",
@@ -1199,7 +1199,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r03_slimak_budowa.jpg",
-    "explanation": "Opis wskazuje na ślimaka, który jest mięczakiem."
+    "explanation": "Ślimak jest mięczakiem."
   },
   {
     "id": "R03_MIX_09",
@@ -1269,7 +1269,7 @@ const ALL_EXERCISES = [
     "id": "R03_MIX_12",
     "section": "Powtórka mieszana",
     "type": "single_choice",
-    "prompt": "Która para zawiera wyłącznie zwierzęta opisane jako filtratory lub oczyszczające wodę?",
+    "prompt": "Która para zawiera wyłącznie zwierzęta filtrujące lub oczyszczające wodę?",
     "options": [
       "rozwielitka i omułek jadalny",
       "kleszcz i wesz ludzka",
@@ -1443,7 +1443,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r03_malze_budowa.jpg",
-    "explanation": "Opis wskazuje na małża, który pobiera wodę przez syfon i może oczyszczać zbiorniki wodne przez filtrowanie."
+    "explanation": "Małż pobiera wodę przez syfon i może oczyszczać zbiorniki wodne przez filtrowanie."
   },
   {
     "id": "R03_HARD_10",

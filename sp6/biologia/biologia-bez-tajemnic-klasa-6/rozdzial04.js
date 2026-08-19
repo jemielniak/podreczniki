@@ -982,7 +982,7 @@ const ALL_EXERCISES = [
     "id": "R04_ZPG_02",
     "section": "Płazy i gady: znaczenie",
     "type": "single_choice",
-    "prompt": "Który płaz jest opisany jako największy polski płaz?",
+    "prompt": "Który płaz jest największym polskim płazem?",
     "options": [
       "salamandra plamista",
       "rzekotka drzewna",
@@ -993,7 +993,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r04_przedstawiciele_plazow.jpg",
-    "explanation": "Salamandra plamista została opisana jako największy polski płaz."
+    "explanation": "Salamandra plamista jest największym polskim płazem."
   },
   {
     "id": "R04_ZPG_03",

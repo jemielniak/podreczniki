@@ -89,7 +89,7 @@ const ALL_EXERCISES = [
       "narząd": "serce",
       "układ narządów": "układ krwionośny"
     },
-    "explanation": "Pokazuje się hierarchię na przykładzie komórki mięśniowej serca, tkanki mięśniowej serca, serca i układu krwionośnego."
+    "explanation": "Hierarchię organizacji ciała można przedstawić jako ciąg: komórka mięśniowa serca, tkanka mięśniowa serca, serce i układ krwionośny."
   },
   {
     "id": "R01_KRO_05",
@@ -151,7 +151,7 @@ const ALL_EXERCISES = [
       "Parzydełkowce"
     ],
     "answer": 0,
-    "explanation": "Ryby opisano jako kręgowce o zwykle opływowym kształcie ciała, wyposażone w płetwy i łuski.",
+    "explanation": "Ryby są kręgowcami o zwykle opływowym kształcie ciała, wyposażonymi w płetwy i łuski.",
     "image": "r01_grupy_kregowcow.jpg"
   },
   {
@@ -321,7 +321,7 @@ const ALL_EXERCISES = [
       "jednowarstwowy walcowaty": "wnętrze jelita cienkiego",
       "wielowarstwowy płaski": "zewnętrzna warstwa skóry"
     },
-    "explanation": "Podaje się przykłady występowania czterech typów nabłonków w płucach, nerkach, jelicie cienkim i skórze.",
+    "explanation": "Cztery typy nabłonków występują między innymi w płucach, nerkach, jelicie cienkim i skórze.",
     "image": "r01_nablonki_rodzaje.jpg"
   },
   {
@@ -672,7 +672,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymieniono między innymi tkankę chrzęstną, kostną, tłuszczową i krew jako rodzaje tkanki łącznej.",
+    "explanation": "Do tkanki łącznej należą między innymi tkanka chrzęstna, kostna, tłuszczowa i krew.",
     "image": "r01_tkanka_laczna_typy.jpg"
   },
   {
@@ -847,7 +847,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które zwierzęta opisano jako jedyne, które nie wykształcają tkanek, narządów i układów?",
+    "prompt": "Które zwierzęta jako jedyne nie wykształcają tkanek, narządów i układów?",
     "options": [
       "Gąbki",
       "Parzydełkowce",
@@ -857,7 +857,7 @@ const ALL_EXERCISES = [
       "Mięczaki"
     ],
     "answer": 0,
-    "explanation": "Gąbki są opisane jako jedyne zwierzęta, które nie wykształcają tkanek, narządów i układów.",
+    "explanation": "Gąbki są jedynymi zwierzętami, które nie wykształcają tkanek, narządów i układów.",
     "image": "r01_gabki_morskie.jpg"
   },
   {

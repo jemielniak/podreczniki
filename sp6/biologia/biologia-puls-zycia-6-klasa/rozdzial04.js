@@ -647,7 +647,7 @@ const ALL_EXERCISES = [
       "ropucha aga",
       "aga"
     ],
-    "explanation": "Opisano przykład ropuchy olbrzymiej, która zamiast zwalczyć szkodniki zaczęła się gwałtownie rozprzestrzeniać."
+    "explanation": "Ropucha olbrzymia, wprowadzona w celu zwalczania szkodników, zaczęła się gwałtownie rozprzestrzeniać."
   },
   {
     "id": "R04_ZPL_09",
@@ -1082,7 +1082,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz działania ochronne wymienione przy wędrówkach płazów przez drogi.",
+    "prompt": "Zaznacz działania chroniące płazy podczas ich wędrówek przez drogi.",
     "options": [
       "ustawianie tablic ostrzegawczych",
       "budowanie tuneli pod drogami",
@@ -1155,7 +1155,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż zwierzę niepasujące do przykładów opieki nad jajami lub potomstwem: pyszczak, skalar, pętówka, tuńczyk.",
     "options": null,
     "answer": "tuńczyk",
-    "explanation": "Pyszczaki, skalary i pętówki są przykładami opieki nad jajami lub potomstwem; tuńczyk nie został podany jako taki przykład."
+    "explanation": "Pyszczaki, skalary i pętówki opiekują się jajami lub potomstwem; tuńczyk nie należy do takich przykładów."
   },
   {
     "id": "R04_HARD_10",
@@ -1230,7 +1230,7 @@ const ALL_EXERCISES = [
       "skorupiaki"
     ],
     "answer": 0,
-    "explanation": "Opis dotyczy płazów, których rozwój przebiega w wodzie i obejmuje stadium kijanki."
+    "explanation": "Płazy rozwijają się w wodzie, a ich rozwój obejmuje stadium kijanki."
   },
   {
     "id": "R04_HARD_14",

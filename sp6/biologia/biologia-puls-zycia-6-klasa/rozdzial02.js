@@ -79,7 +79,7 @@ const ALL_EXERCISES = [
     "id": "R02_PAR_05",
     "section": "Parzydełkowce",
     "type": "single_choice",
-    "prompt": "Który parzydełkowiec jest wymieniony jako najbardziej znany przedstawiciel tej grupy w Polsce?",
+    "prompt": "Który parzydełkowiec jest najbardziej znanym przedstawicielem tej grupy w Polsce?",
     "options": [
       "Chełbia modra",
       "Pijawka lekarska",
@@ -89,7 +89,7 @@ const ALL_EXERCISES = [
       "Włosień spiralny"
     ],
     "answer": 0,
-    "explanation": "W tekście podano, że w Polsce najbardziej znanym przedstawicielem parzydełkowców jest chełbia modra.",
+    "explanation": "W Polsce najbardziej znanym przedstawicielem parzydełkowców jest chełbia modra.",
     "image": "r02_chelbie_i_koralowce.jpg"
   },
   {
@@ -386,7 +386,7 @@ const ALL_EXERCISES = [
     "id": "R02_PLA_12",
     "section": "Płazińce",
     "type": "single_choice",
-    "prompt": "Czym tasiemiec uzbrojony różni się od tasiemca nieuzbrojonego według opisu główki?",
+    "prompt": "Czym różni się budowa główki tasiemca uzbrojonego od główki tasiemca nieuzbrojonego?",
     "options": [
       "Ma przyssawki i wieniec haczyków",
       "Nie ma przyssawek",
@@ -420,7 +420,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_02",
     "section": "Nicienie",
     "type": "multi_select",
-    "prompt": "Zaznacz nicienie wymienione jako pasożyty wewnętrzne człowieka.",
+    "prompt": "Zaznacz nicienie będące pasożytami wewnętrznymi człowieka.",
     "options": [
       "Glista ludzka",
       "Owsik ludzki",
@@ -433,7 +433,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Wymieniono glistę ludzką, owsika ludzkiego i włośnia spiralnego jako nicienie pasożytujące u człowieka."
+    "explanation": "Glista ludzka, owsik ludzki i włosień spiralny to nicienie pasożytujące u człowieka."
   },
   {
     "id": "R02_NIC_03",
@@ -465,7 +465,7 @@ const ALL_EXERCISES = [
     "id": "R02_NIC_05",
     "section": "Nicienie",
     "type": "sequence",
-    "prompt": "Ułóż etapy rozwoju glisty ludzkiej zgodnie z opisem.",
+    "prompt": "Ułóż etapy rozwoju glisty ludzkiej we właściwej kolejności.",
     "options": null,
     "items": [
       "Larwy wędrują przez narządy ciała",
@@ -546,7 +546,7 @@ const ALL_EXERCISES = [
       "Parzydełkowanie"
     ],
     "answer": 0,
-    "explanation": "Swędzenie okolic odbytu nasilające się w nocy jest opisane jako objaw owsicy wywołanej przez owsika ludzkiego.",
+    "explanation": "Swędzenie okolic odbytu nasilające się w nocy jest charakterystycznym objawem owsicy wywołanej przez owsika ludzkiego.",
     "image": "r02_owsiki_i_wlosnie.jpg"
   },
   {
@@ -753,14 +753,14 @@ const ALL_EXERCISES = [
       2,
       4
     ],
-    "explanation": "Pijawka ma przyssawki, nie ma głowy i żywi się krwią, a podano, że pijawka lekarska osiąga około 15 cm długości.",
+    "explanation": "Pijawka ma przyssawki, nie ma głowy i żywi się krwią, a pijawka lekarska osiąga około 15 cm długości.",
     "image": "r02_nereida_i_pijawka.jpg"
   },
   {
     "id": "R02_PIE_10",
     "section": "Pierścienice",
     "type": "single_choice",
-    "prompt": "Jaki organizm wymieniono jako pokarm dla ryb akwariowych hodowany przez człowieka?",
+    "prompt": "Jaki organizm jest hodowany przez człowieka jako pokarm dla ryb akwariowych?",
     "options": [
       "Rureczniki",
       "Koral szlachetny",
@@ -779,7 +779,7 @@ const ALL_EXERCISES = [
     "prompt": "Nereida różnokolorowa żyje na dnie mórz, także Morza Bałtyckiego.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się nereidę jako morską pierścienicę żyjącą na dnie mórz, również w Morzu Bałtyckim."
+    "explanation": "Nereida jest morską pierścienicą żyjącą na dnie mórz, również w Morzu Bałtyckim."
   },
   {
     "id": "R02_PIE_12",
@@ -817,7 +817,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która cecha z tabeli podsumowującej najlepiej odróżnia meduzę od polipa pod względem galaretowatej substancji?",
+    "prompt": "Która cecha najlepiej odróżnia meduzę od polipa pod względem grubości warstwy galaretowatej substancji?",
     "options": [
       "Meduza ma bardzo grubą warstwę tej substancji",
       "Meduza nie ma jej wcale",
@@ -826,14 +826,14 @@ const ALL_EXERCISES = [
       "Substancja występuje tylko u koralowców"
     ],
     "answer": 0,
-    "explanation": "W podsumowaniu porównano polipa i meduzę: u polipa warstwa galaretowatej substancji jest cienka, a u meduzy bardzo gruba.",
+    "explanation": "U polipa warstwa galaretowatej substancji jest cienka, a u meduzy bardzo gruba.",
     "image": "r02_polip_i_meduza.jpg"
   },
   {
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem raf koralowych i koralowców.",
+    "prompt": "Zaznacz prawidłowe informacje o rafach koralowych i koralowcach.",
     "options": [
       "Rafy należą do najbogatszych środowisk życia na Ziemi",
       "Rafy występują w ciepłych morzach",
@@ -919,7 +919,7 @@ const ALL_EXERCISES = [
       "Choroba raf"
     ],
     "answer": 0,
-    "explanation": "Opis dotyczy włośnia spiralnego: dorosłe osobniki żyją w jelicie cienkim, a larwy trafiają do mięśni i otaczają się ochronną torebką.",
+    "explanation": "Włosień spiralny ma dorosłe osobniki żyjące w jelicie cienkim, a jego larwy trafiają do mięśni i otaczają się ochronną torebką.",
     "image": "r02_owsiki_i_wlosnie.jpg"
   },
   {
@@ -935,7 +935,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaki wynik opisano w doświadczeniu dotyczącym wpływu dżdżownic na żyzność gleby?",
+    "prompt": "Jaki wynik uzyskano w doświadczeniu dotyczącym wpływu dżdżownic na żyzność gleby?",
     "options": [
       "Rośliny w słoju z dżdżownicami były wyższe o około 0,5 cm",
       "Rośliny bez dżdżownic były wyższe o około 5 cm",
@@ -956,7 +956,7 @@ const ALL_EXERCISES = [
     "answer": [
       "20 cm"
     ],
-    "explanation": "Opis nereidy podaje, że osiąga ona około 20 cm długości i żyje na dnie mórz, także Morza Bałtyckiego.",
+    "explanation": "Nereida osiąga około 20 cm długości i żyje na dnie mórz, także Morza Bałtyckiego.",
     "altAnswers": [
       [
         "20 cm",
@@ -986,7 +986,7 @@ const ALL_EXERCISES = [
       "pijawka lekarska": "osiąga 15 cm długości",
       "robak palolo": "osiąga około 40 cm długości"
     },
-    "explanation": "Podaje się liczby dla kilku pierścienic: dżdżownica ma około 100 segmentów, pijawka lekarska 15 cm, a palolo około 40 cm.",
+    "explanation": "Dżdżownica ma około 100 segmentów, pijawka lekarska osiąga około 15 cm długości, a palolo około 40 cm.",
     "image": "r02_nereida_i_pijawka.jpg"
   },
   {
@@ -996,7 +996,7 @@ const ALL_EXERCISES = [
     "prompt": "Rozmnażanie się i rozwój pasożytniczych nicieni zachodzą w organizmie jednego żywiciela.",
     "options": null,
     "answer": true,
-    "explanation": "W podsumowaniu zaznaczono, że rozwój pasożytniczych nicieni zachodzi w organizmie jednego żywiciela, w przeciwieństwie do tasiemców."
+    "explanation": "Rozwój pasożytniczych nicieni zachodzi w organizmie jednego żywiciela, w przeciwieństwie do tasiemców."
   },
   {
     "id": "R02_HARD_12",
@@ -1008,7 +1008,7 @@ const ALL_EXERCISES = [
       "20°C",
       "26°C"
     ],
-    "explanation": "W tekście o zagrożeniach raf podano, że koralowce najlepiej rozwijają się w wodzie o temperaturze od 20°C do 26°C.",
+    "explanation": "Koralowce najlepiej rozwijają się w wodzie o temperaturze od 20°C do 26°C.",
     "altAnswers": [
       [
         "20°C",

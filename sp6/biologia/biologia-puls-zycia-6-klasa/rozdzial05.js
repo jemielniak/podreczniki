@@ -232,7 +232,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZPT_01",
     "section": "Ptaki: różnorodność i znaczenie",
     "type": "single_choice",
-    "prompt": "Która para ptaków jest podana jako przykład ptaków nielotnych?",
+    "prompt": "Która para obejmuje ptaki nielotne?",
     "options": [
       "pingwin i struś",
       "jaskółka i koliber",
@@ -242,7 +242,7 @@ const ALL_EXERCISES = [
       "kaczka i łabędź"
     ],
     "answer": 0,
-    "explanation": "Wskazuje się pingwiny i strusie jako skrajne przykłady przystosowań, u których pojawia się brak zdolności do lotu.",
+    "explanation": "Pingwiny i strusie są ptakami nielotnymi o skrajnie odmiennych przystosowaniach.",
     "image": "r05_ptaki_nielotne.jpg"
   },
   {
@@ -306,7 +306,7 @@ const ALL_EXERCISES = [
       "do kucia dziupli"
     ],
     "answer": 0,
-    "explanation": "Tak opisano dziób łabędzia, który dzięki listewkom odcedza z wody pokarm, głównie roślinny.",
+    "explanation": "Dziób łabędzia dzięki listewkom umożliwia odcedzanie z wody pokarmu, głównie roślinnego.",
     "image": "r05_dzioby_ptakow.jpg"
   },
   {
@@ -316,7 +316,7 @@ const ALL_EXERCISES = [
     "prompt": "Czaple mają cechy ptaków brodzących w wodzie, na przykład długą szyję i długie cienkie nogi.",
     "options": null,
     "answer": true,
-    "explanation": "Czaple są opisane jako ptaki brodzące w wodzie w poszukiwaniu pokarmu."
+    "explanation": "Czaple są ptakami brodzącymi w wodzie w poszukiwaniu pokarmu."
   },
   {
     "id": "R05_ZPT_06",
@@ -360,7 +360,7 @@ const ALL_EXERCISES = [
       "szpak",
       "szpaki"
     ],
-    "explanation": "Wskazano szpaki jako ptaki, które uszkadzają owoce w sadach."
+    "explanation": "Szpaki mogą uszkadzać owoce w sadach."
   },
   {
     "id": "R05_ZPT_09",
@@ -525,7 +525,7 @@ const ALL_EXERCISES = [
         "nietoperz"
       ]
     },
-    "explanation": "Podaje się przykłady ssaków naziemnych, nadrzewnych, podziemnych, wodnych oraz aktywnie latających.",
+    "explanation": "Ssaki mogą prowadzić naziemny, nadrzewny, podziemny lub wodny tryb życia, a niektóre potrafią aktywnie latać.",
     "image": "r05_srodowiska_ssakow.jpg"
   },
   {
@@ -616,7 +616,7 @@ const ALL_EXERCISES = [
     "prompt": "Małżowina uszna występuje tylko u ssaków i ułatwia wychwytywanie dźwięków z otoczenia.",
     "options": null,
     "answer": true,
-    "explanation": "W opisie budowy ssaków podano, że małżowina uszna jest cechą ssaków i pomaga odbierać dźwięki."
+    "explanation": "Małżowina uszna jest cechą ssaków i pomaga odbierać dźwięki."
   },
   {
     "id": "R05_SSB_10",
@@ -819,7 +819,7 @@ const ALL_EXERCISES = [
       "jako przykład stałocieplności"
     ],
     "answer": 0,
-    "explanation": "Niszczenie zapasów żywności przez myszy jest podane jako przykład szkód wyrządzanych przez ssaki."
+    "explanation": "Niszczenie zapasów żywności przez myszy jest przykładem szkód wyrządzanych przez ssaki."
   },
   {
     "id": "R05_ZSS_09",
@@ -834,7 +834,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_10",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "single_choice",
-    "prompt": "Które ssaki wymieniono jako przenoszące wirusa wścieklizny?",
+    "prompt": "Które ssaki mogą przenosić wirusa wścieklizny?",
     "options": [
       "lisy, borsuki, nietoperze, psy i koty",
       "kury, kaczki, gęsi i indyki",
@@ -850,7 +850,7 @@ const ALL_EXERCISES = [
     "id": "R05_ZSS_11",
     "section": "Ssaki: odżywianie i znaczenie",
     "type": "sequence",
-    "prompt": "Ułóż drogę nasiona rozsiewanego przez sarnę zgodnie z opisem.",
+    "prompt": "Ułóż kolejne etapy rozsiewania nasiona przez sarnę.",
     "options": null,
     "items": [
       "nasiono zostaje usunięte z kałem",
@@ -919,7 +919,7 @@ const ALL_EXERCISES = [
       "budowa dróg przez siedliska"
     ],
     "answer": 0,
-    "explanation": "Zakładanie skrzynek lęgowych i karmników jest wskazane jako działanie pomagające chronić ptaki.",
+    "explanation": "Zakładanie skrzynek lęgowych i karmników pomaga chronić ptaki.",
     "image": "r05_ochrona_zwierzat.jpg"
   },
   {
@@ -946,7 +946,7 @@ const ALL_EXERCISES = [
       "przezroczyste ekrany akustyczne": "ptaki",
       "rozbudowa miast niszcząca siedliska": "ssaki"
     },
-    "explanation": "Wycieki ropy i przezroczyste ekrany opisano przy zagrożeniach dla ptaków, a drogi rozdzielające terytoria i rozbudowę miast przy zagrożeniach dla ssaków."
+    "explanation": "Wycieki ropy i przezroczyste ekrany stanowią zagrożenia dla ptaków, a drogi rozdzielające terytoria i rozbudowa miast zagrażają ssakom."
   },
   {
     "id": "R05_OCH_05",
@@ -986,7 +986,7 @@ const ALL_EXERCISES = [
       "przenoszenie wirusa wścieklizny"
     ],
     "answer": 0,
-    "explanation": "Przy szczególnie surowych zimach wskazuje się dokarmianie jako pomoc dla ptaków i ssaków."
+    "explanation": "Przy szczególnie surowych zimach dokarmianie może pomagać ptakom i ssakom."
   },
   {
     "id": "R05_OCH_07",
@@ -1089,13 +1089,13 @@ const ALL_EXERCISES = [
     "prompt": "Ochrona ptaków i ssaków polega między innymi na dbaniu o miejsca, w których te zwierzęta żyją.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się ochronę miejsc występowania jako wspólny sposób ochrony ptaków i ssaków."
+    "explanation": "Ochrona miejsc występowania jest wspólnym sposobem ochrony ptaków i ssaków."
   },
   {
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Badacz śledzi trasę bociana białego lecącego z Europy do Afryki. Jaki zakres długości takiej drogi podaje się?",
+    "prompt": "Badacz śledzi trasę bociana białego lecącego z Europy do Afryki. Jaki zakres długości może mieć taka droga?",
     "options": [
       "od 2 tys. do 10 tys. km",
       "od 20 km do 100 km",
@@ -1105,7 +1105,7 @@ const ALL_EXERCISES = [
       "od 1 m do 3 m"
     ],
     "answer": 0,
-    "explanation": "Pod ilustracją z wędrówką bocianów podano, że w drodze do Afryki pokonują od 2 tys. do 10 tys. km."
+    "explanation": "Bociany białe w drodze do Afryki pokonują od 2 tys. do 10 tys. km."
   },
   {
     "id": "R05_HARD_02",
@@ -1160,7 +1160,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje o pingwinie cesarskim zgodne z tekstem.",
+    "prompt": "Zaznacz prawidłowe informacje o pingwinie cesarskim.",
     "options": [
       "Samica składa w zimie jedno jajo",
       "Samiec ogrzewa jajo na stopach fałdem brzusznym",
@@ -1175,7 +1175,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Opis pingwina cesarskiego mówi o jednym jaju składanym zimą, wysiadywanym przez samca na stopach. Samiec pości, a samica wraca przy wykluwaniu pisklęcia."
+    "explanation": "Samica pingwina cesarskiego składa zimą jedno jajo, które samiec ogrzewa na stopach. Samiec pości, a samica wraca w czasie wykluwania pisklęcia."
   },
   {
     "id": "R05_HARD_05",
@@ -1204,7 +1204,7 @@ const ALL_EXERCISES = [
       "kozica skok około 8 m",
       "zając szarak do 80 km/godz."
     ],
-    "explanation": "Ryjówka jest najmniejsza, żubr najpotężniejszy, kozica jest najlepszym skoczkiem, a zając szarak najszybszym ssakiem Polski według podanych rekordów."
+    "explanation": "Wśród ssaków Polski ryjówka jest najmniejsza, żubr najpotężniejszy, kozica jest najlepszym skoczkiem, a zając szarak najszybszy."
   },
   {
     "id": "R05_HARD_07",
@@ -1213,7 +1213,7 @@ const ALL_EXERCISES = [
     "prompt": "Dziobaki to ssaki jajorodne zamieszkujące rzeki, stawy i jeziora Australii.",
     "options": null,
     "answer": true,
-    "explanation": "W tekście dodatkowym podano, że dziobaki są ssakami jajorodnymi wodno-lądowymi żyjącymi w Australii."
+    "explanation": "Dziobaki są jajorodnymi ssakami wodno-lądowymi żyjącymi w Australii."
   },
   {
     "id": "R05_HARD_08",
@@ -1287,7 +1287,7 @@ const ALL_EXERCISES = [
         "skok około 8 m"
       ]
     },
-    "explanation": "Wśród rekordzistów ssaków Polski wymienia się żubra, ryjówkę, zająca szaraka i kozicę z tymi właśnie wartościami."
+    "explanation": "Żubr osiąga do 2 m wysokości i tonę masy, ryjówka ma od 7 do 10 cm długości, zając szarak osiąga do 80 km/godz., a kozica skacze na około 8 m."
   },
   {
     "id": "R05_HARD_11",
@@ -1324,7 +1324,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podsumowanie wskazuje, że kolibry i niektóre nietoperze zapylają kwiaty, a jemiołuszki i wiewiórki pomagają rozsiewać nasiona.",
+    "explanation": "Kolibry i niektóre nietoperze zapylają kwiaty, a jemiołuszki i wiewiórki pomagają rozsiewać nasiona.",
     "image": "r05_pokarm_i_rozsiewanie.jpg"
   }
 ];

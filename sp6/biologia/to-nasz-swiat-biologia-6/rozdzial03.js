@@ -670,7 +670,7 @@ const ALL_EXERCISES = [
         "motyl zorzynka rzeżuchowiec"
       ]
     },
-    "explanation": "Pokazuje się aparat gryzący u szerszenia, kłująco-ssący u komara i ssący u motyla.",
+    "explanation": "Szerszeń ma aparat gryzący, komar kłująco-ssący, a motyl ssący.",
     "image": "/img/r03_odnoza_aparaty_owadow.jpg"
   },
   {
@@ -1019,7 +1019,7 @@ const ALL_EXERCISES = [
         "owady"
       ]
     ],
-    "explanation": "Jako główne grupy stawonogów wymieniono skorupiaki, pajęczaki i owady."
+    "explanation": "Główne grupy stawonogów to skorupiaki, pajęczaki i owady."
   },
   {
     "id": "R03_POW_06",
@@ -1121,7 +1121,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem pająka topika.",
+    "prompt": "Zaznacz prawdziwe informacje o pająku topiku.",
     "options": [
       "jest pajęczakiem",
       "może przebywać pod wodą",
@@ -1144,7 +1144,7 @@ const ALL_EXERCISES = [
     "prompt": "Najedzona samica kleszcza pospolitego może osiągnąć długość 10–12 mm.",
     "options": null,
     "answer": true,
-    "explanation": "Ilustracja podaje, że najedzona samica kleszcza ma około 10–12 mm."
+    "explanation": "Najedzona samica kleszcza ma około 10–12 mm długości."
   },
   {
     "id": "R03_HARD_04",
@@ -1168,7 +1168,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz organizm z informacją podaną w ramkach o podobieństwie owadów.",
+    "prompt": "Połącz organizm z właściwą informacją o jego podobieństwie do innych zwierząt.",
     "options": null,
     "left": [
       "trzmielówka wielka",
@@ -1188,7 +1188,7 @@ const ALL_EXERCISES = [
       "paśnik niszczyciel": "chrząszcz podobny do szerszenia",
       "zaleszczotek książkowy": "pajęczak spotykany w starych książkach, ulach lub pod korą"
     },
-    "explanation": "Pokazuje się przykłady upodabniania się owadów do groźniejszych gatunków oraz zaleszczotka podobnego do skorpiona.",
+    "explanation": "Niektóre owady upodabniają się do groźniejszych gatunków, a zaleszczotek wyglądem przypomina skorpiona.",
     "image": "/img/r03_pszczola_osa_szerszen_trzmiel.jpg"
   },
   {

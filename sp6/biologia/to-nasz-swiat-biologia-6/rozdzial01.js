@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Dorosłe koralowce prowadzą osiadły tryb życia.",
     "options": null,
     "answer": true,
-    "explanation": "Osiadły tryb życia oznacza, że dorosłe osobniki spędzają życie w jednym miejscu, przytwierdzone do podłoża; podaje się jako przykład koralowce."
+    "explanation": "Osiadły tryb życia oznacza, że dorosłe osobniki spędzają życie w jednym miejscu, przytwierdzone do podłoża; taki tryb życia prowadzą m.in. koralowce."
   },
   {
     "id": "R01_SWI_03",
@@ -115,7 +115,7 @@ const ALL_EXERCISES = [
       "saprobiont": "dżdżownica"
     },
     "image": "/img/r01_rodzaje_cudzozywnosci.jpg",
-    "explanation": "Pokazuje się m.in. sępa jako padlinożercę, pszczołę miodną jako roślinożercę, srokę jako wszystkożercę, kleszcza jako pasożyta i dżdżownicę jako saprobionta."
+    "explanation": "Sęp uszaty jest padlinożercą, pszczoła miodna roślinożercą, sroka zwyczajna wszystkożercą, kleszcz pospolity pasożytem, a dżdżownica saprobiontem."
   },
   {
     "id": "R01_SWI_07",
@@ -407,7 +407,7 @@ const ALL_EXERCISES = [
       "Nadecznik stawowy"
     ],
     "image": "/img/r01_gabka_budowa.jpg",
-    "explanation": "Podaje się nadecznika stawowego jako przykład gąbki słodkowodnej występującej w Polsce."
+    "explanation": "Nadecznik stawowy jest gąbką słodkowodną występującą w Polsce."
   },
   {
     "id": "R01_POD_10",
@@ -417,7 +417,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "/img/r01_podzial_krolestwa_zwierzat.jpg",
-    "explanation": "Te grupy są wymienione po stronie bezkręgowców."
+    "explanation": "Parzydełkowce, płazińce, nicienie, pierścienice, stawonogi i mięczaki należą do bezkręgowców."
   },
   {
     "id": "R01_POD_11",
@@ -453,7 +453,7 @@ const ALL_EXERCISES = [
       "kręgowe",
       "ssaki"
     ],
-    "explanation": "Schemat podziału prowadzi od całego królestwa zwierząt przez zwierzęta tkankowe i kręgowce do jednej z ich grup."
+    "explanation": "Kolejność od grupy najszerszej do najbardziej szczegółowej to: zwierzęta, tkankowe, kręgowe, ssaki."
   },
   {
     "id": "R01_NIM_01",
@@ -562,7 +562,7 @@ const ALL_EXERCISES = [
       "walcowaty": "wydłużone komórki przypominające walec"
     },
     "image": "/img/r01_nablonki_rodzaje.jpg",
-    "explanation": "Wyróżniono nabłonki płaskie, sześcienne i walcowate według kształtu komórek."
+    "explanation": "Ze względu na kształt komórek nabłonki dzieli się na płaskie, sześcienne i walcowate."
   },
   {
     "id": "R01_NIM_07",
@@ -815,7 +815,7 @@ const ALL_EXERCISES = [
     "id": "R01_LNE_10",
     "section": "Tkanka łączna i nerwowa",
     "type": "scenario",
-    "prompt": "W opisie tkanki padają przykłady: małżowina uszna, krtań, przegroda nosowa i stawy. O jaką tkankę łączną chodzi?",
+    "prompt": "Małżowina uszna, krtań, przegroda nosowa i stawy to miejsca występowania której tkanki łącznej?",
     "options": [
       "chrzęstna",
       "kostna",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Gdzie, według opisu rodzajów nabłonków, występuje nabłonek sześcienny?",
+    "prompt": "Gdzie występuje nabłonek sześcienny?",
     "options": [
       "W kanalikach nerkowych i oskrzelach",
       "Wyłącznie w mięśniu sercowym",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
         "bialek kurczliwych"
       ]
     ],
-    "explanation": "Prążki opisano jako wynik regularnego ułożenia białek kurczliwych."
+    "explanation": "Prążki powstają w wyniku regularnego ułożenia białek kurczliwych."
   },
   {
     "id": "R01_HARD_04",
@@ -1201,7 +1201,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r01_tkanka_miesniowa_rodzaje.jpg",
-    "explanation": "Tak opisano tkankę mięśniową gładką."
+    "explanation": "Jest to tkanka mięśniowa gładka."
   },
   {
     "id": "R01_HARD_09",
