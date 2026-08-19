@@ -1,10 +1,10 @@
 // Skróty sekcji (do identyfikatorów ćwiczeń):
-// POL = Jagiellonowie i unia lubelska
-// SEJ = Demokracja szlachecka i wolne elekcje
-// WOJ = Wojny i polityka nad Bałtykiem
-// GOS = Gospodarka i folwarki
-// KUL = Wiele narodów i kultura renesansu
-// HARD = Super trudne
+//   POL  = Jagiellonowie i unia lubelska
+//   SEJ  = Demokracja szlachecka i wolne elekcje
+//   WOJ  = Wojny i polityka nad Bałtykiem
+//   GOS  = Gospodarka i folwarki
+//   KUL  = Wiele narodów i kultura renesansu
+//   HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -762,13 +762,13 @@ const ALL_EXERCISES = [
     "prompt": "W dawnej Rzeczypospolitej Polacy stanowili mniej niż połowę całej ludności państwa.",
     "options": null,
     "answer": true,
-    "explanation": "Podkreśla się wielonarodowy charakter państwa: Polacy stanowili mniej niż połowę ludności, a jeszcze mniej liczni byli Litwini."
+    "explanation": "Rzeczpospolita miała wielonarodowy charakter: Polacy stanowili mniej niż połowę ludności, a jeszcze mniej liczni byli Litwini."
   },
   {
     "id": "R02_KUL_03",
     "section": "Wiele narodów i kultura renesansu",
     "type": "multi_select",
-    "prompt": "Zaznacz narody lub grupy etniczno-religijne wymienione jako mieszkańcy dawnej Rzeczypospolitej.",
+    "prompt": "Zaznacz narody lub grupy etniczno-religijne zamieszkujące dawną Rzeczpospolitą.",
     "options": [
       "Rusini",
       "Litwini",
@@ -784,7 +784,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Dawną Rzeczpospolitą zamieszkiwali m.in. Polacy, Rusini, Litwini, Niemcy i Żydzi oraz Ormianie; Aztekowie nie należeli do grup wymienionych jako mieszkańcy państwa."
+    "explanation": "Dawną Rzeczpospolitą zamieszkiwali m.in. Polacy, Rusini, Litwini, Niemcy, Żydzi oraz Ormianie; Aztekowie nie byli mieszkańcami tego państwa."
   },
   {
     "id": "R02_KUL_04",
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
       "rozejm w Jamie Zapolskim"
     ],
     "image": "r02_stefan_batory.jpg",
-    "explanation": "Kolejność to kampania połocka w 1579 roku, wielkołucka w 1580 roku, pskowska w latach 1580-1581 i rozejm w Jamie Zapolskim w 1582 roku."
+    "explanation": "Prawidłowa kolejność to kampania połocka w 1579 roku, wielkołucka w 1580 roku, pskowska w latach 1580-1581 i rozejm w Jamie Zapolskim w 1582 roku."
   },
   {
     "id": "R02_HARD_08",
@@ -1135,7 +1135,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_11",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz postać z informacją.",
+    "prompt": "Połącz postać z właściwą informacją.",
     "options": null,
     "left": [
       "Stanisław Murzynowski",

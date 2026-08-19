@@ -288,7 +288,7 @@ const ALL_EXERCISES = [
     "id": "R04_ANG_05",
     "section": "Anglia parlamentarna",
     "type": "multi_select",
-    "prompt": "Zaznacz postanowienia Deklaracji praw z 1689 r. opisane w materiale.",
+    "prompt": "Zaznacz postanowienia Deklaracji praw z 1689 r.",
     "options": [
       "Król nie może wykonywać praw bez zgody parlamentu",
       "Król nie może ściągać pieniędzy bez zgody parlamentu",
@@ -474,7 +474,7 @@ const ALL_EXERCISES = [
     "prompt": "Oświecenie zaczęło się w Anglii i Francji pod koniec XVII w., a trwało do pierwszych lat XIX w.",
     "options": null,
     "answer": true,
-    "explanation": "Taką chronologię oświecenia podaje materiał: początki pod koniec XVII w. w Anglii i Francji, a koniec w pierwszych latach XIX w."
+    "explanation": "Oświecenie rozpoczęło się pod koniec XVII w. w Anglii i Francji, a zakończyło w pierwszych latach XIX w."
   },
   {
     "id": "R04_OSW_06",
@@ -996,7 +996,7 @@ const ALL_EXERCISES = [
       "około 100 tysięcy"
     ],
     "answer": 3,
-    "explanation": "Materiał podaje około 3 tysięcy ofiar w samym Paryżu i około 30 tysięcy w całej Francji."
+    "explanation": "Podczas masakr związanych z nocą św. Bartłomieja zginęło około 3 tysięcy osób w Paryżu i około 30 tysięcy w całej Francji."
   },
   {
     "id": "R04_HARD_02",
@@ -1005,7 +1005,7 @@ const ALL_EXERCISES = [
     "prompt": "Istnieją pewne dowody, że Ludwik XIV naprawdę wypowiedział słowa: Państwo to ja.",
     "options": null,
     "answer": false,
-    "explanation": "Materiał zaznacza, że nie ma dowodów na wypowiedzenie przez Ludwika XIV słów przypisywanych mu jako Państwo to ja.",
+    "explanation": "Nie ma dowodów, że Ludwik XIV rzeczywiście wypowiedział słowa Państwo to ja.",
     "image": "r04_ludwik_xiv_portret.jpg"
   },
   {
@@ -1024,7 +1024,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz postać z okresem jej rządów podanym w materiale.",
+    "prompt": "Połącz postać z właściwym okresem jej rządów.",
     "options": null,
     "left": [
       "Kardynał Richelieu",
@@ -1084,14 +1084,14 @@ const ALL_EXERCISES = [
       "Karol I"
     ],
     "answer": 0,
-    "explanation": "Opis dotyczy Fryderyka II, twórcy potęgi Prus i przedstawiciela absolutyzmu oświeconego.",
+    "explanation": "Chodzi o Fryderyka II, twórcę potęgi Prus i przedstawiciela absolutyzmu oświeconego.",
     "image": "r04_fryderyk_ii_portret.jpg"
   },
   {
     "id": "R04_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz reformy Józefa II wymienione w materiale.",
+    "prompt": "Zaznacz reformy przeprowadzone przez Józefa II.",
     "options": [
       "Wprowadzenie wolności osobistej chłopów",
       "Wprowadzenie tolerancji religijnej",
@@ -1152,7 +1152,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_11",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż postać, która nie została stracona w wyniku opisywanych konfliktów politycznych: Karol I, Ludwik XVI, Maksymilian Robespierre, Wilhelm III Orański.",
+    "prompt": "Wskaż postać, która jako jedyna z wymienionych nie została stracona w wyniku konfliktów politycznych: Karol I, Ludwik XVI, Maksymilian Robespierre, Wilhelm III Orański.",
     "options": null,
     "answer": "Wilhelm III Orański",
     "explanation": "Karol I został ścięty, Ludwik XVI i Robespierre zostali zgilotynowani. Wilhelm III Orański objął tron Anglii po chwalebnej rewolucji i nie został stracony."
@@ -1211,7 +1211,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_15",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które z wymienionych państw miało pod koniec XVIII w. najliczniejszą armię według porównania w materiale?",
+    "prompt": "Które z tych państw miało pod koniec XVIII w. najliczniejszą armię?",
     "options": [
       "Prusy",
       "Austria",
@@ -1221,7 +1221,7 @@ const ALL_EXERCISES = [
       "Anglia"
     ],
     "answer": 2,
-    "explanation": "W porównaniu podanym przy reformach Józefa II armia rosyjska liczyła około 400 tysięcy żołnierzy, austriacka około 280 tysięcy, a pruska 186 tysięcy."
+    "explanation": "Pod koniec XVIII w. armia rosyjska liczyła około 400 tysięcy żołnierzy, austriacka około 280 tysięcy, a pruska 186 tysięcy."
   }
 ];
 

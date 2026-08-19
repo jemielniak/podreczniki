@@ -1,11 +1,11 @@
 // Skróty sekcji (do identyfikatorów ćwiczeń):
-// WOG = Wielkie odkrycia geograficzne
-// KOG = Konsekwencje wielkich odkryć geograficznych
-// ODR = Kultura odrodzenia we Włoszech
-// HUM = Humanizm i przewrót kopernikański
-// REF = Reformacja
-// KAT = Reforma katolicka
-// HARD = Super trudne
+//   WOG  = Wielkie odkrycia geograficzne
+//   KOG  = Konsekwencje wielkich odkryć geograficznych
+//   ODR  = Kultura odrodzenia we Włoszech
+//   HUM  = Humanizm i przewrót kopernikański
+//   REF  = Reformacja
+//   KAT  = Reforma katolicka
+//   HARD = Super trudne
 
 const ALL_EXERCISES = [
   {
@@ -257,7 +257,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOG_06",
     "section": "Konsekwencje wielkich odkryć geograficznych",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem miasta Tenochtitlan.",
+    "prompt": "Zaznacz prawdziwe informacje o mieście Tenochtitlan.",
     "image": "r01_tenochtitlan_miasto.jpg",
     "options": [
       "założono je na wyspie na jeziorze Texcoco",
@@ -272,7 +272,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Infografika opisuje Tenochtitlan jako azteckie miasto na wyspie jeziora Texcoco, liczące około 200 tys. mieszkańców i mające ważną piramidę świątynną."
+    "explanation": "Tenochtitlan było azteckim miastem na wyspie jeziora Texcoco, liczącym około 200 tys. mieszkańców i mającym ważną piramidę świątynną."
   },
   {
     "id": "R01_KOG_07",
@@ -305,13 +305,13 @@ const ALL_EXERCISES = [
       "Stanisław Hozjusz"
     ],
     "answer": 0,
-    "explanation": "Opisuje się Hernána Cortésa jako konkwistadora, który w latach 1519-1521 podbił imperium Azteków i po wylądowaniu nakazał spalenie okrętów."
+    "explanation": "Hernán Cortés był konkwistadorem, który w latach 1519-1521 podbił imperium Azteków i po wylądowaniu nakazał spalenie okrętów."
   },
   {
     "id": "R01_KOG_09",
     "section": "Konsekwencje wielkich odkryć geograficznych",
     "type": "sort",
-    "prompt": "Przyporządkuj produkty do kierunku wymiany opisanej po odkryciach geograficznych.",
+    "prompt": "Przyporządkuj produkty do kierunku wymiany, która rozwinęła się po odkryciach geograficznych.",
     "image": "r01_konkwistadorzy_i_indianie.jpg",
     "options": null,
     "items": [
@@ -376,7 +376,7 @@ const ALL_EXERCISES = [
       "kontrreformacja"
     ],
     "answer": 0,
-    "explanation": "Określa się epokę od XV do schyłku XVI wieku mianem odrodzenia lub renesansu."
+    "explanation": "Epokę od XV do schyłku XVI wieku nazywa się odrodzeniem lub renesansem."
   },
   {
     "id": "R01_ODR_02",
@@ -417,7 +417,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODR_04",
     "section": "Kultura odrodzenia we Włoszech",
     "type": "match",
-    "prompt": "Połącz twórcę włoskiego renesansu z opisanym dokonaniem lub dziełem.",
+    "prompt": "Połącz twórcę włoskiego renesansu z właściwym dokonaniem lub dziełem.",
     "image": "r01_leonardo_pracownia.jpg",
     "options": null,
     "left": [
@@ -435,7 +435,7 @@ const ALL_EXERCISES = [
       "Michał Anioł": "freski w Kaplicy Sykstyńskiej i kopuła Bazyliki św. Piotra",
       "Rafael Santi": "Szkoła ateńska i obrazy Madonny z Dzieciątkiem"
     },
-    "explanation": "Leonardo, Michał Anioł i Rafael Santi to najważniejsi artyści włoskiego renesansu."
+    "explanation": "Leonardo, Michał Anioł i Rafael Santi należą do najważniejszych artystów włoskiego renesansu."
   },
   {
     "id": "R01_ODR_05",
@@ -493,7 +493,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODR_09",
     "section": "Kultura odrodzenia we Włoszech",
     "type": "scenario",
-    "prompt": "Jesteś XV-wiecznym władcą Florencji z rodu Medyceuszy. Zasłynąłeś jako mecenas, a na twoim dworze pracował młody Michał Anioł. Jak cię nazwano?",
+    "prompt": "Jesteś XV-wiecznym władcą Florencji z rodu Medyceuszy. Zasłynąłeś jako mecenas, a na twoim dworze pracował młody Michał Anioł. Jak cię nazywano?",
     "options": [
       "Wawrzyniec Wspaniały",
       "Jan Gutenberg",
@@ -509,7 +509,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODR_10",
     "section": "Kultura odrodzenia we Włoszech",
     "type": "single_choice",
-    "prompt": "Jakie starożytne elementy architektury wskazano przy Panteonie jako naśladowane przez twórców renesansowych?",
+    "prompt": "Które elementy architektury Panteonu były naśladowane przez twórców renesansowych?",
     "options": [
       "portyk z kolumnami i kopułę",
       "wieżę z zegarem i ostre łuki",
@@ -519,7 +519,7 @@ const ALL_EXERCISES = [
       "schodkową piramidę ze świątynią"
     ],
     "answer": 0,
-    "explanation": "Opis Panteonu zwraca uwagę na portyk z kolumnami oraz kopułę, czyli elementy chętnie naśladowane w renesansie."
+    "explanation": "Portyk z kolumnami oraz kopuła Panteonu należały do elementów chętnie naśladowanych w renesansie."
   },
   {
     "id": "R01_HUM_01",
@@ -551,7 +551,7 @@ const ALL_EXERCISES = [
     "id": "R01_HUM_03",
     "section": "Humanizm i przewrót kopernikański",
     "type": "sequence",
-    "prompt": "Ułóż etapy pracy drukarskiej w kolejności.",
+    "prompt": "Ułóż etapy pracy drukarskiej we właściwej kolejności.",
     "image": "r01_drukarnia_gutenberga.jpg",
     "options": null,
     "items": [
@@ -784,7 +784,7 @@ const ALL_EXERCISES = [
     "id": "R01_REF_06",
     "section": "Reformacja",
     "type": "sort",
-    "prompt": "Przyporządkuj cechy do Kościoła katolickiego albo ewangelickiego według opisu.",
+    "prompt": "Przyporządkuj cechy do Kościoła katolickiego albo ewangelickiego.",
     "options": null,
     "items": [
       "uznawanie władzy papieża",
@@ -808,7 +808,7 @@ const ALL_EXERCISES = [
         "zniesienie celibatu duchownych"
       ]
     },
-    "explanation": "W opisie luteranizmu podkreślono odrzucenie władzy papieża, znaczenie Biblii w języku zrozumiałym dla wiernych i zniesienie celibatu; dla katolików papież pozostawał najwyższym zwierzchnikiem, a nabożeństwa odprawiano po łacinie."
+    "explanation": "Luteranizm odrzucał władzę papieża, podkreślał znaczenie Biblii w języku zrozumiałym dla wiernych i znosił celibat; dla katolików papież pozostawał najwyższym zwierzchnikiem, a nabożeństwa odprawiano po łacinie."
   },
   {
     "id": "R01_REF_07",
@@ -1013,7 +1013,7 @@ const ALL_EXERCISES = [
     "id": "R01_KAT_09",
     "section": "Reforma katolicka",
     "type": "multi_select",
-    "prompt": "Zaznacz konsekwencje reformacji i kontrreformacji wskazane w podsumowaniu lekcji.",
+    "prompt": "Zaznacz konsekwencje reformacji i kontrreformacji.",
     "options": [
       "krwawe wojny religijne",
       "podział wyznaniowy Europy",
@@ -1027,7 +1027,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Wskazuje się zarówno negatywne skutki, takie jak wojny i podziały, jak i pozytywny rozwój idei tolerancji religijnej."
+    "explanation": "Do skutków należały zarówno wojny i podziały religijne, jak i rozwój idei tolerancji religijnej."
   },
   {
     "id": "R01_KAT_10",
@@ -1080,7 +1080,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz osobę z określeniem lub rolą.",
+    "prompt": "Połącz osobę z właściwym określeniem lub rolą.",
     "options": null,
     "left": [
       "Erazm z Rotterdamu",
@@ -1100,7 +1100,7 @@ const ALL_EXERCISES = [
       "Bartolomé de Las Casas": "jeden z pierwszych obrońców Indian",
       "Lucas Cranach starszy": "malarz reformacji"
     },
-    "explanation": "Używa się tych określeń przy omawianiu humanizmu, reformy katolickiej, kolonizacji oraz reformacji."
+    "explanation": "Te określenia odnoszą się do humanizmu, reformy katolickiej, kolonizacji oraz reformacji."
   },
   {
     "id": "R01_HARD_04",
@@ -1155,16 +1155,16 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_07",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do pozostałych: 1450, 1455, 1543, 1789.",
+    "prompt": "Wskaż, co nie pasuje do pozostałych: 1450, 1455, 1543, Quetzalcoatl.",
     "options": null,
-    "answer": "1789",
-    "explanation": "Około 1450 roku Gutenberg wynalazł druk, w 1455 wydrukował Biblię, a w 1543 ukazało się dzieło Kopernika. Rok 1789 to wybuch rewolucji francuskiej - zupełnie inna epoka."
+    "answer": "Quetzalcoatl",
+    "explanation": "1450, 1455 i 1543 to daty ważne dla druku i dzieła Kopernika, a Quetzalcoatl to azteckie bóstwo Zielonego Pierzastego Węża."
   },
   {
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz osoby, które działały w związku z reformą katolicką lub katolicką odnową.",
+    "prompt": "Zaznacz osoby związane z reformą katolicką lub katolicką odnową.",
     "options": [
       "Stanisław Hozjusz",
       "Ignacy Loyola",
@@ -1230,7 +1230,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_11",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Według tekstu o prześladowaniach za czary nowsze badania wskazują, że w ciągu ponad dwustu lat ich ofiarą padło ile osób?",
+    "prompt": "Nowsze badania wskazują, że w ciągu ponad dwustu lat ofiarą prześladowań za czary padło ile osób?",
     "options": [
       "30-60 tys.",
       "około 200 tys.",
@@ -1240,7 +1240,7 @@ const ALL_EXERCISES = [
       "około 500 Europejczyków"
     ],
     "answer": 0,
-    "explanation": "W ramce Warto wiedzieć podano, że najnowsze badania mówią o 30-60 tys. ofiar prześladowań za czary w Europie nowożytnej."
+    "explanation": "Najnowsze badania mówią o 30-60 tys. ofiar prześladowań za czary w Europie nowożytnej."
   },
   {
     "id": "R01_HARD_12",

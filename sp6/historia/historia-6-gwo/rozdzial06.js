@@ -22,7 +22,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_napoleon_portret.jpg",
-    "explanation": "Napoleon urodził się na Korsyce. Nie był Francuzem z urodzenia."
+    "explanation": "Napoleon urodził się na Korsyce i nie był Francuzem z urodzenia."
   },
   {
     "id": "R06_WLA_02",
@@ -52,7 +52,7 @@ const ALL_EXERCISES = [
     "prompt": "Okres rządów Napoleona jako pierwszego konsula, zwany konsulatem, trwał od 1799 do 1804 roku.",
     "options": null,
     "answer": true,
-    "explanation": "Określa się lata 1799-1804 jako pięcioletni okres konsulatu Napoleona."
+    "explanation": "Konsulat Napoleona trwał pięć lat, od 1799 do 1804 r."
   },
   {
     "id": "R06_WLA_04",
@@ -241,7 +241,7 @@ const ALL_EXERCISES = [
     "prompt": "Wojny napoleońskie trwały w latach 1799-1815 i objęły większość Europy.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się lata 1799-1815 i zaznacza, że wojny napoleońskie ogarnęły większość Europy, od Portugalii po Rosję."
+    "explanation": "Wojny napoleońskie trwały w latach 1799-1815 i ogarnęły większość Europy, od Portugalii po Rosję."
   },
   {
     "id": "R06_WOJ_03",
@@ -896,7 +896,7 @@ const ALL_EXERCISES = [
     "prompt": "Francuzi stanowili około jednej trzeciej ponad 600-tysięcznej Wielkiej Armii zebranej przeciw Rosji.",
     "options": null,
     "answer": true,
-    "explanation": "Francuzi stanowili jedną trzecią armii, a resztę tworzyli m.in. Polacy oraz sojusznicy z innych państw."
+    "explanation": "Francuzi stanowili jedną trzecią Wielkiej Armii, a resztę tworzyli m.in. Polacy oraz sojusznicy z innych państw."
   },
   {
     "id": "R06_UPA_04",
@@ -1217,7 +1217,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_09",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz etap wyprawy na Rosję z przybliżoną liczebnością Wielkiej Armii podaną w materiale.",
+    "prompt": "Połącz etap wyprawy na Rosję z przybliżoną liczebnością Wielkiej Armii.",
     "options": null,
     "left": [
       "początek wyprawy",

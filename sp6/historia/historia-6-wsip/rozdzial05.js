@@ -438,7 +438,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r05_komisja_edukacji_narodowej.jpg",
-    "explanation": "W 1773 roku sejm rozbiorowy powołał Komisję Edukacji Narodowej, określoną jako pierwsze na świecie ministerstwo oświaty."
+    "explanation": "W 1773 roku sejm rozbiorowy powołał Komisję Edukacji Narodowej, uznawaną za pierwsze na świecie ministerstwo oświaty."
   },
   {
     "id": "R05_REF_02",
@@ -485,7 +485,7 @@ const ALL_EXERCISES = [
     "id": "R05_REF_04",
     "section": "Reformy stanisławowskie",
     "type": "riddle",
-    "prompt": "Jak nazywała się instytucja określona jako pierwszy w dziejach Polski rząd?",
+    "prompt": "Jak nazywała się instytucja uznawana za pierwszy w dziejach Polski rząd?",
     "options": null,
     "answer": "Rada Nieustająca",
     "altAnswers": [
@@ -637,7 +637,7 @@ const ALL_EXERCISES = [
       "Ojciec sceny polskiej",
       "ojciec sceny polskiej"
     ],
-    "explanation": "Wojciech Bogusławski, wieloletni dyrektor Teatru Narodowego, jest nazwany Ojcem sceny polskiej."
+    "explanation": "Wojciech Bogusławski, wieloletni dyrektor Teatru Narodowego, jest nazywany Ojcem sceny polskiej."
   },
   {
     "id": "R05_KON_01",
@@ -686,7 +686,7 @@ const ALL_EXERCISES = [
     "id": "R05_KON_04",
     "section": "Sejm Wielki i Konstytucja 3 maja",
     "type": "multi_select",
-    "prompt": "Zaznacz osoby jako ważne przy przygotowaniu Konstytucji 3 maja.",
+    "prompt": "Zaznacz osoby ważne przy przygotowaniu Konstytucji 3 maja.",
     "options": [
       "Stanisław August Poniatowski",
       "Stanisław Małachowski",
@@ -908,7 +908,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymienia się Kościuszkę, Potockiego, Małachowskiego i Kołłątaja wśród obrońców reform, którzy opuścili kraj."
+    "explanation": "Kościuszko, Potocki, Małachowski i Kołłątaj należeli do obrońców reform, którzy opuścili kraj."
   },
   {
     "id": "R05_ROZ_04",
@@ -1145,7 +1145,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz nazwisko z mniej oczywistą informacją.",
+    "prompt": "Połącz nazwisko z właściwą mniej oczywistą informacją.",
     "options": null,
     "left": [
       "Kazimierz Pułaski",
@@ -1165,13 +1165,13 @@ const ALL_EXERCISES = [
       "Berek Joselewicz": "dowódca pułku jazdy złożonego z polskich Żydów",
       "Wojciech Bogusławski": "autor dzieła Cud mniemany czyli Krakowiacy i Górale"
     },
-    "explanation": "Podaje się charakterystyczne informacje o każdej z tych postaci, wykraczające poza same daty polityczne."
+    "explanation": "Każda z tych postaci jest związana z charakterystycznym wydarzeniem, rolą lub dokonaniem wykraczającym poza same daty polityczne."
   },
   {
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Konstytucja 3 maja była mniej radykalna niż konstytucje amerykańska i francuska, bo nie znosiła całkowicie podziału społeczeństwa na stany.",
+    "prompt": "Konstytucja 3 maja była mniej radykalna niż konstytucje amerykańska i francuska, ponieważ nie znosiła całkowicie podziału społeczeństwa na stany.",
     "options": null,
     "answer": true,
     "explanation": "Konstytucja 3 maja była ogromnym krokiem naprzód, ale nie likwidowała całkowicie tradycyjnego podziału stanowego."
@@ -1228,7 +1228,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_09",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj dane liczbowe do państwa według tabel.",
+    "prompt": "Przyporządkuj dane liczbowe do właściwego państwa.",
     "options": null,
     "items": [
       "armia 150000",
@@ -1264,7 +1264,7 @@ const ALL_EXERCISES = [
         "dochód 60 ton srebra"
       ]
     },
-    "explanation": "Tabele zestawiają ogromną przewagę armii i dochodów zaborców nad Polską w drugiej połowie XVIII wieku."
+    "explanation": "Dane pokazują ogromną przewagę armii i dochodów zaborców nad Polską w drugiej połowie XVIII wieku."
   },
   {
     "id": "R05_HARD_10",

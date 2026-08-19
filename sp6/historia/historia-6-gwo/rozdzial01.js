@@ -52,7 +52,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r01_santa_maria_na_atlantyku.jpg",
-    "explanation": "W materiale karawelę i większą od niej karakę wskazano jako statki nadające się do dalekich wypraw oceanicznych."
+    "explanation": "Karawela i większa od niej karaka były statkami nadającymi się do dalekich wypraw oceanicznych."
   },
   {
     "id": "R01_ODK_04",
@@ -94,10 +94,10 @@ const ALL_EXERCISES = [
     "id": "R01_ODK_06",
     "section": "Wielkie odkrycia geograficzne",
     "type": "odd_one_out",
-    "prompt": "Wskaż element niepasujący do pozostałych jako pomoc w dalekiej żegludze: karawela, karaka, dokładniejsze mapy, silnik parowy.",
+    "prompt": "Wskaż element niepasujący do pozostałych jako pomoc w dalekiej żegludze: karawela, karaka, dokładniejsze mapy, plantacja.",
     "options": null,
-    "answer": "silnik parowy",
-    "explanation": "Karawele, karaki i dokładniejsze mapy pomagały w wyprawach oceanicznych XV wieku. Silnik parowy wynaleziono ponad trzysta lat później - statki Kolumba pływały wyłącznie pod żaglami."
+    "answer": "plantacja",
+    "explanation": "Karawela, karaka i dokładniejsze mapy pomagały w wyprawach oceanicznych. Plantacja to duży obszar zajęty pod uprawę jednej rośliny."
   },
   {
     "id": "R01_ODK_07",
@@ -258,7 +258,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r01_tenochtitlan_miasto.jpg",
-    "explanation": "Materiał opisuje Tenochtitlan jako około 200-tysięczne miasto, które Hiszpanie zburzyli podczas podboju państwa Azteków."
+    "explanation": "Tenochtitlan było około 200-tysięcznym miastem, które Hiszpanie zburzyli podczas podboju państwa Azteków."
   },
   {
     "id": "R01_KOL_04",
@@ -280,7 +280,7 @@ const ALL_EXERCISES = [
         "koń"
       ]
     ],
-    "explanation": "Wśród roślin sprowadzonych z Ameryki wymieniono kukurydzę i ziemniaki, a wśród zwierząt sprowadzonych z Europy do Ameryki konie, bydło i owce."
+    "explanation": "Z Ameryki do Europy sprowadzono kukurydzę i ziemniaki, a z Europy do Ameryki konie, bydło i owce."
   },
   {
     "id": "R01_KOL_05",
@@ -415,7 +415,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Wymieniono pracę ponad siły w kopalniach i na plantacjach, choroby przywiezione z Europy, takie jak ospa, oraz okrucieństwa popełniane przez Europejczyków."
+    "explanation": "Do przyczyn masowej śmierci Indian należały praca ponad siły w kopalniach i na plantacjach, choroby przywiezione z Europy, takie jak ospa, oraz okrucieństwa popełniane przez Europejczyków."
   },
   {
     "id": "R01_HUM_01",
@@ -578,7 +578,7 @@ const ALL_EXERCISES = [
         "zainteresowanie naukami przyrodniczymi"
       ]
     },
-    "explanation": "W materiale zestawiono średniowieczne skupienie na grzeszności i zbawieniu z renesansowym podkreślaniem godności, indywidualnych potrzeb oraz rozwoju człowieka."
+    "explanation": "Myśliciele średniowieczni skupiali się na grzeszności i zbawieniu, a humaniści renesansu podkreślali godność człowieka, jego indywidualne potrzeby i rozwój."
   },
   {
     "id": "R01_HUM_10",
@@ -872,7 +872,7 @@ const ALL_EXERCISES = [
     "prompt": "W luteranizmie duchownym wolno było się żenić.",
     "options": null,
     "answer": true,
-    "explanation": "W zestawieniu różnic między katolicyzmem a luteranizmem wskazano, że luterańscy duchowni mogą się żenić, a zakony zostają zniesione."
+    "explanation": "W luteranizmie duchowni mogli się żenić, a zakony zostały zniesione."
   },
   {
     "id": "R01_REF_04",
@@ -1003,7 +1003,7 @@ const ALL_EXERCISES = [
         "duchownym wolno się żenić"
       ]
     },
-    "explanation": "Materiał porównuje oba wyznania pod względem zbawienia, autorytetu Kościoła, kultu świętych, celibatu i języka nabożeństw."
+    "explanation": "Katolicyzm i luteranizm różniły się m.in. poglądami na zbawienie, autorytet Kościoła, kult świętych, celibat i język nabożeństw."
   },
   {
     "id": "R01_REF_10",
@@ -1052,7 +1052,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile kosztowało 100 kg goździków w Londynie w przykładzie pokazującym wzrost ceny przypraw na drodze z Azji do Europy?",
+    "prompt": "Ile kosztowało 100 kg goździków w Londynie na trasie handlowej z Azji do Europy?",
     "options": [
       "213 dukatów",
       "2 dukaty",
@@ -1062,7 +1062,7 @@ const ALL_EXERCISES = [
       "150 dukatów"
     ],
     "answer": 0,
-    "explanation": "W przykładzie 100 kg goździków kosztowało 2 dukaty na wyspach dzisiejszej Indonezji, 50 dukatów w Kalikacie i 213 dukatów w Londynie."
+    "explanation": "Cena 100 kg goździków wynosiła 2 dukaty na wyspach dzisiejszej Indonezji, 50 dukatów w Kalikacie i 213 dukatów w Londynie."
   },
   {
     "id": "R01_HARD_02",
@@ -1139,7 +1139,7 @@ const ALL_EXERCISES = [
       "ponad 50 tysięcy"
     ],
     "image": "r01_tenochtitlan_miasto.jpg",
-    "explanation": "Opis azteckiej stolicy podaje, że mieszkańcy mieli ponad 50 tysięcy łodzi."
+    "explanation": "Mieszkańcy Tenochtitlanu mieli ponad 50 tysięcy łodzi służących do transportu ludzi i towarów."
   },
   {
     "id": "R01_HARD_06",
@@ -1165,7 +1165,7 @@ const ALL_EXERCISES = [
       "Michał Anioł": "1475-1564",
       "Rafael Santi": "1483-1520"
     },
-    "explanation": "W materiale podano daty życia Leonarda da Vinci, Kopernika, Michała Anioła i Rafaela."
+    "explanation": "Leonardo da Vinci żył w latach 1452-1519, Mikołaj Kopernik w latach 1473-1543, Michał Anioł w latach 1475-1564, a Rafael Santi w latach 1483-1520."
   },
   {
     "id": "R01_HARD_07",
@@ -1193,7 +1193,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile dzieci miał papież Aleksander VI, którego przykład podano jako ilustrację kryzysu obyczajów w Kościele na przełomie XV i XVI wieku?",
+    "prompt": "Ile dzieci miał papież Aleksander VI, który na przełomie XV i XVI wieku powierzał swoim dzieciom całe księstwa?",
     "options": [
       "9",
       "3",
@@ -1203,7 +1203,7 @@ const ALL_EXERCISES = [
       "18"
     ],
     "answer": 0,
-    "explanation": "W materiale podano, że Aleksander VI miał dziewięcioro dzieci, którym powierzał całe księstwa."
+    "explanation": "Aleksander VI miał dziewięcioro dzieci, którym powierzał całe księstwa."
   },
   {
     "id": "R01_HARD_09",
@@ -1268,7 +1268,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_12",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jaki odsetek wyroków inkwizycji stanowiły kary śmierci według podanych w materiale współczesnych ustaleń?",
+    "prompt": "Jaki odsetek wyroków inkwizycji stanowiły kary śmierci według współczesnych ustaleń?",
     "options": [
       "około 1%",
       "około 10%",
@@ -1278,7 +1278,7 @@ const ALL_EXERCISES = [
       "niemal 100%"
     ],
     "answer": 0,
-    "explanation": "W materiale wskazano, że kary śmierci stanowiły około 1% wyroków inkwizycji, a znacznie częstsze były kary pokutne."
+    "explanation": "Kary śmierci stanowiły około 1% wyroków inkwizycji, a znacznie częstsze były kary pokutne."
   },
   {
     "id": "R01_HARD_13",

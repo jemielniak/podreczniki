@@ -43,7 +43,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podkreśla się potęgę Polski i Litwy, wzrost eksportu zboża, rozwój kultury i tolerancję religijną. Wojny nie niszczyły wówczas państwa.",
+    "explanation": "Czasy zygmuntowskie przyniosły wzrost znaczenia Polski i Litwy, eksportu zboża, kultury i tolerancji religijnej. Wojny nie niszczyły wówczas państwa.",
     "image": "r02_zloty_wiek_dworska_scena.jpg"
   },
   {
@@ -53,7 +53,7 @@ const ALL_EXERCISES = [
     "prompt": "Złoty wiek Polski i Litwy obejmował czasy zygmuntowskie oraz kilkanaście następnych lat, aż do śmierci Stefana Batorego w 1586 r.",
     "options": null,
     "answer": true,
-    "explanation": "Tak. Złoty wiek obejmuje czasy zygmuntowskie i okres do śmierci Stefana Batorego w 1586 r."
+    "explanation": "Tak. Złoty wiek obejmował czasy zygmuntowskie i okres do śmierci Stefana Batorego w 1586 r."
   },
   {
     "id": "R02_ZYG_04",
@@ -99,7 +99,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do działań Zygmunta Starego: zwiększanie dochodów skarbu, dobór doradców spośród senatorów, zapewnianie bezpieczeństwa granicom, koronacja Barbary Radziwiłłówny.",
     "options": null,
     "answer": "koronacja Barbary Radziwiłłówny",
-    "explanation": "Koronację Barbary Radziwiłłówny przeprowadził Zygmunt II August. Pozostałe działania przypisuje się Zygmuntowi Staremu.",
+    "explanation": "Koronację Barbary Radziwiłłówny przeprowadził Zygmunt II August. Pozostałe działania podejmował Zygmunt Stary.",
     "image": "r02_zygmunt_stary_portret.jpg"
   },
   {
@@ -143,7 +143,7 @@ const ALL_EXERCISES = [
       "Zygmunt II August": "Od 1548 r. sprawował samodzielne rządy",
       "Stefan Batory": "Jego śmierć w 1586 r. zamyka okres złotego wieku"
     },
-    "explanation": "Daty 1506, 1530, 1548 i 1586 porządkują najważniejsze informacje o początkach i końcu okresu opisanego jako złoty wiek."
+    "explanation": "Daty 1506, 1530, 1548 i 1586 porządkują najważniejsze wydarzenia związane z początkiem i końcem złotego wieku."
   },
   {
     "id": "R02_ZYG_09",
@@ -320,7 +320,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do przemian państwa krzyżackiego w Prusach: Prusy Królewskie, Prusy Zakonne, Prusy Książęce, Mazowsze.",
     "options": null,
     "answer": "Mazowsze",
-    "explanation": "Mazowsze nie było nazwą części państwa krzyżackiego. Pozostałe trzy nazwy występują w opisie stosunków Polski z zakonem i skutków hołdu pruskiego."
+    "explanation": "Mazowsze nie było nazwą części państwa krzyżackiego. Prusy Królewskie, Prusy Zakonne i Prusy Książęce były związane z przemianami państwa zakonnego i skutkami hołdu pruskiego."
   },
   {
     "id": "R02_PRU_08",
@@ -523,7 +523,7 @@ const ALL_EXERCISES = [
     "id": "R02_TUR_08",
     "section": "Turcja i Mazowsze",
     "type": "riddle",
-    "prompt": "Tytuł władcy Imperium Osmańskiego używany to...",
+    "prompt": "Jak brzmiał tytuł władcy Imperium Osmańskiego?",
     "options": null,
     "answer": "sułtan",
     "altAnswers": [
@@ -855,7 +855,7 @@ const ALL_EXERCISES = [
       "Połock",
       "Polock"
     ],
-    "explanation": "W 1563 r. wojska moskiewskie zdobyły Połock, wydarzenie pokazane na ilustracji.",
+    "explanation": "W 1563 r. wojska moskiewskie zdobyły Połock.",
     "image": "r02_polock_szturm_1563.jpg"
   },
   {
@@ -865,7 +865,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż państwo, które nie należało do czterech rywali o Inflanty: Litwa, Moskwa, Dania, Szwecja, Imperium Osmańskie.",
     "options": null,
     "answer": "Imperium Osmańskie",
-    "explanation": "O Inflanty rywalizowały Litwa, Moskwa, Dania i Szwecja. Imperium Osmańskie występuje w innym kontekście."
+    "explanation": "O Inflanty rywalizowały Litwa, Moskwa, Dania i Szwecja. Imperium Osmańskie nie uczestniczyło w tej rywalizacji."
   },
   {
     "id": "R02_INF_07",
@@ -1075,7 +1075,7 @@ const ALL_EXERCISES = [
         "247 lat"
       ]
     ],
-    "explanation": "W części poświęconej ocenie hołdu pruskiego podano, że od 1525 do 1772 r. minęło 247 lat. To argument przeciw obciążaniu Zygmunta Starego odpowiedzialnością za wydarzenia odległe o ponad dwa stulecia."
+    "explanation": "Od hołdu pruskiego w 1525 r. do pierwszego rozbioru w 1772 r. minęło 247 lat. Tak duży odstęp czasu przemawia przeciw obciążaniu Zygmunta Starego odpowiedzialnością za wydarzenia odległe o ponad dwa stulecia."
   },
   {
     "id": "R02_HARD_05",
@@ -1108,13 +1108,13 @@ const ALL_EXERCISES = [
       "Rozbiory nastąpiły za życia Zygmunta Augusta"
     ],
     "answer": 0,
-    "explanation": "Zwraca uwagę się na 247 lat dzielących hołd pruski od pierwszego rozbioru i ostrzega przed ocenianiem dawnych decyzji z wiedzą o bardzo odległych skutkach."
+    "explanation": "Hołd pruski i pierwszy rozbiór dzieliło 247 lat, dlatego bezpośrednie łączenie tych wydarzeń pomija bardzo duży odstęp czasu i późniejsze przemiany polityczne."
   },
   {
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Wskaż postać, która nie była związana z konfliktem polsko-krzyżackim ani jego opisanymi następstwami: Albrecht Hohenzollern, Marcin Luter, Mikołaj Kopernik, Barbara Radziwiłłówna.",
+    "prompt": "Wskaż postać, która nie była związana z konfliktem polsko-krzyżackim ani jego następstwami: Albrecht Hohenzollern, Marcin Luter, Mikołaj Kopernik, Barbara Radziwiłłówna.",
     "options": null,
     "answer": "Barbara Radziwiłłówna",
     "explanation": "Albrecht był wielkim mistrzem, Luter doradzał mu sekularyzację, a Kopernik bronił Olsztyna przed Krzyżakami. Barbara Radziwiłłówna wiąże się z życiem Zygmunta Augusta."

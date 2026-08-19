@@ -608,7 +608,7 @@ const ALL_EXERCISES = [
     "id": "R05_SEJM_07",
     "section": "Sejm Wielki i Konstytucja 3 maja",
     "type": "match",
-    "prompt": "Połącz władzę z instytucją wskazaną w ustroju Konstytucji 3 maja.",
+    "prompt": "Połącz rodzaj władzy z odpowiadającą mu instytucją w ustroju Konstytucji 3 maja.",
     "options": null,
     "left": [
       "władza ustawodawcza",
@@ -1050,7 +1050,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podaje się wzrost ludności z ok. 6 do ok. 11 mln, około 650 kadetów Szkoły Rycerskiej oraz ponad 300 tys. tomów biblioteki Załuskich."
+    "explanation": "Liczba ludności wzrosła z ok. 6 do ok. 11 mln, Szkołę Rycerską ukończyło około 650 kadetów, a biblioteka Załuskich zgromadziła ponad 300 tys. tomów."
   },
   {
     "id": "R05_HARD_05",

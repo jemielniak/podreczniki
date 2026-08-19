@@ -408,7 +408,7 @@ const ALL_EXERCISES = [
     "prompt": "Kozacy wywodzili się głównie z chłopstwa lub drobnej szlachty, wyznawali prawosławie i posługiwali się językiem ruskim.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się społeczne, religijne i językowe cechy Kozaków na Zaporożu."
+    "explanation": "Były to społeczne, religijne i językowe cechy Kozaków na Zaporożu."
   },
   {
     "id": "R03_KOZ_03",
@@ -918,7 +918,7 @@ const ALL_EXERCISES = [
     "id": "R03_TUR_09",
     "section": "Wojny z Turcją",
     "type": "sort",
-    "prompt": "Przyporządkuj formacje do sposobu walki.",
+    "prompt": "Przyporządkuj formacje do właściwego sposobu walki.",
     "options": null,
     "items": [
       "husaria",
@@ -968,7 +968,7 @@ const ALL_EXERCISES = [
       "Holandia"
     ],
     "answer": 0,
-    "explanation": "Wskazuje się Włochy jako miejsce narodzin kolejnej po renesansie epoki sztuki, literatury i muzyki."
+    "explanation": "Włochy były miejscem narodzin kolejnej po renesansie epoki sztuki, literatury i muzyki."
   },
   {
     "id": "R03_BAR_02",
@@ -1134,10 +1134,10 @@ const ALL_EXERCISES = [
     "id": "R03_BAR_10",
     "section": "Barok i sarmatyzm",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do pozostałych: żupan, kontusz, pas słucki, peruka alonżowa.",
+    "prompt": "Co nie pasuje do pozostałych: żupan, kontusz, pas słucki, Bill of Rights.",
     "options": null,
-    "answer": "peruka alonżowa",
-    "explanation": "Żupan, kontusz i pas słucki tworzyły strój sarmacki polskiej szlachty. Peruka alonżowa była modą zachodnioeuropejską - nosili ją dworzanie Ludwika XIV."
+    "answer": "Bill of Rights",
+    "explanation": "Żupan, kontusz i pas słucki wiążą się ze strojem sarmackim, a Bill of Rights z ustrojem Anglii."
   },
   {
     "id": "R03_HARD_01",
@@ -1238,7 +1238,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_06",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz układ pokojowy lub rozejm ze skutkiem.",
+    "prompt": "Połącz układ pokojowy lub rozejm z właściwym skutkiem.",
     "options": null,
     "left": [
       "Polanów 1634",
@@ -1264,10 +1264,10 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Według ramki Władysław Siciński w 1652 roku od razu zerwał cały sejm na samym początku obrad.",
+    "prompt": "Władysław Siciński w 1652 roku od razu zerwał cały sejm na samym początku obrad.",
     "options": null,
     "answer": false,
-    "explanation": "Ramka wyjaśnia, że Siciński zawetował przedłużenie obrad poza określony prawem czas; dopiero później zaczęto zrywać sejmy coraz częściej i nawet na początku obrad."
+    "explanation": "Siciński zawetował przedłużenie obrad poza określony prawem czas; dopiero później zaczęto zrywać sejmy coraz częściej i nawet na początku obrad."
   },
   {
     "id": "R03_HARD_08",

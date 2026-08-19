@@ -1166,7 +1166,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do sarmackiego ideału: szlachcic ziemianin, obrońca wiary katolickiej, strażnik złotej wolności, zwolennik gruntownej reformy ustroju.",
     "options": null,
     "answer": "zwolennik gruntownej reformy ustroju",
-    "explanation": "Sarmaci bronili istniejącego ustroju i sprzeciwiali się jego zmianom. Pozostałe określenia należą do opisywanego ideału Sarmaty.",
+    "explanation": "Sarmaci bronili istniejącego ustroju i sprzeciwiali się jego zmianom. Pozostałe określenia należą do ideału Sarmaty.",
     "image": "r03_sarmata.jpg"
   },
   {

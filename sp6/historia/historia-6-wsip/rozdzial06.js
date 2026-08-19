@@ -38,7 +38,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_napoleon_we_wloszech.jpg",
-    "explanation": "Tak opisano początki kariery Napoleona Bonapartego: sukcesy we Włoszech i stłumienie rozruchów w Paryżu zwiększyły jego popularność."
+    "explanation": "Początki kariery Napoleona Bonapartego wiązały się z sukcesami we Włoszech i stłumieniem rozruchów w Paryżu, co zwiększyło jego popularność."
   },
   {
     "id": "R06_WLA_03",
@@ -137,7 +137,7 @@ const ALL_EXERCISES = [
     "id": "R06_WLA_09",
     "section": "Droga Napoleona do władzy",
     "type": "multi_select",
-    "prompt": "Które zasady wymieniono jako najważniejsze regulacje Kodeksu Napoleona?",
+    "prompt": "Które zasady należały do najważniejszych regulacji Kodeksu Napoleona?",
     "options": [
       "Równość wobec prawa",
       "Wolność osobista obywateli",
@@ -351,16 +351,16 @@ const ALL_EXERCISES = [
     "id": "R06_EUR_08",
     "section": "Nowy ład w Europie",
     "type": "odd_one_out",
-    "prompt": "Wskaż państwo, które nie pasuje do koalicji występującej przeciw Napoleonowi w opisie wojny z Prusami: Prusy, Wielka Brytania, Rosja, Saksonia.",
+    "prompt": "Wskaż państwo, które nie pasuje do koalicji przeciw Napoleonowi: Prusy, Wielka Brytania, Rosja, Saksonia.",
     "options": null,
     "answer": "Saksonia",
-    "explanation": "Prusy, Wielka Brytania i Rosja stworzyły kolejną koalicję antyfrancuską. Saksonia została podana jako przykład państwa włączonego w system Związku Reńskiego."
+    "explanation": "Prusy, Wielka Brytania i Rosja stworzyły kolejną koalicję antyfrancuską. Saksonia należała do państw włączonych w system Związku Reńskiego."
   },
   {
     "id": "R06_EUR_09",
     "section": "Nowy ład w Europie",
     "type": "match",
-    "prompt": "Połącz państwo lub dynastię ze skutkiem.",
+    "prompt": "Połącz państwo lub dynastię z właściwym skutkiem.",
     "options": null,
     "left": [
       "Austria po Austerlitz",
@@ -407,7 +407,7 @@ const ALL_EXERCISES = [
     "id": "R06_EUR_11",
     "section": "Nowy ład w Europie",
     "type": "scenario",
-    "prompt": "Na karykaturze premier Wielkiej Brytanii William Pitt młodszy i Napoleon dzielą świat. Jaki sens ma ten obraz według podpisu?",
+    "prompt": "Na karykaturze premier Wielkiej Brytanii William Pitt młodszy i Napoleon dzielą świat. Jaki sens ma ten obraz?",
     "options": [
       "Drwi z apetytów Wielkiej Brytanii i Francji na panowanie nad światem",
       "Pokazuje faktyczny traktat o pokojowym podziale Europy",
@@ -431,7 +431,7 @@ const ALL_EXERCISES = [
       "koalicja",
       "koalicją"
     ],
-    "explanation": "Definiuje się koalicję jako związek lub porozumienie państw działających we wspólnym celu."
+    "explanation": "Koalicja to związek lub porozumienie państw działających we wspólnym celu."
   },
   {
     "id": "R06_LEG_01",
@@ -486,7 +486,7 @@ const ALL_EXERCISES = [
     "id": "R06_LEG_04",
     "section": "Legiony i nadzieje Polaków",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem Legionów Polskich.",
+    "prompt": "Zaznacz prawdziwe informacje o Legionach Polskich.",
     "options": [
       "Utworzono je u boku armii francuskiej",
       "Ich liczba w ciągu dwóch lat wzrosła do około 10 tysięcy żołnierzy",
@@ -561,7 +561,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Santo Domingo polscy legioniści mieli tłumić rebelię niewolników przeciw francuskim plantatorom.",
     "options": null,
     "answer": true,
-    "explanation": "Podkreśla się tragiczny paradoks: żołnierze z hasłem Ludzie wolni są braćmi zostali zmuszeni do walki przeciw powstaniu uciskanej ludności."
+    "explanation": "Tragicznym paradoksem było to, że żołnierze z hasłem Ludzie wolni są braćmi zostali zmuszeni do walki przeciw powstaniu uciskanej ludności."
   },
   {
     "id": "R06_LEG_09",
@@ -592,7 +592,7 @@ const ALL_EXERCISES = [
     "id": "R06_LEG_11",
     "section": "Legiony i nadzieje Polaków",
     "type": "match",
-    "prompt": "Połącz postać z rolą.",
+    "prompt": "Połącz postać z właściwą rolą.",
     "options": null,
     "left": [
       "Jan Henryk Dąbrowski",
@@ -856,7 +856,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_01",
     "section": "Klęska i ocena Napoleona",
     "type": "single_choice",
-    "prompt": "Które państwo wskazuje się jako najbardziej nieugiętego i jedynego niezwyciężonego przeciwnika Napoleona?",
+    "prompt": "Które państwo było najbardziej nieugiętym i jedynym niezwyciężonym przeciwnikiem Napoleona?",
     "options": [
       "Wielką Brytanię",
       "Austrię",
@@ -949,7 +949,7 @@ const ALL_EXERCISES = [
     "id": "R06_UPA_06",
     "section": "Klęska i ocena Napoleona",
     "type": "single_choice",
-    "prompt": "Jaka część początkowego stanu Wielkiej Armii wróciła z kampanii rosyjskiej według szacunków?",
+    "prompt": "Jaka część początkowego stanu Wielkiej Armii wróciła z kampanii rosyjskiej?",
     "options": [
       "Około 20%",
       "Około 30%",
@@ -1115,7 +1115,7 @@ const ALL_EXERCISES = [
       "nienaruszalność własności prywatnej": "ochrona posiadania przed dowolnym naruszeniem",
       "wolność handlu i produkcji": "swoboda działalności gospodarczej"
     },
-    "explanation": "Wśród regulacji Kodeksu Napoleona wymieniono śluby cywilne, państwowe akta stanu cywilnego, ochronę własności i wolność działalności gospodarczej."
+    "explanation": "Kodeks Napoleona obejmował m.in. śluby cywilne, państwowe akta stanu cywilnego, ochronę własności i wolność działalności gospodarczej."
   },
   {
     "id": "R06_HARD_04",
@@ -1142,7 +1142,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_05",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Prusy sprzeciwiają się zmianom na mapie Niemiec, tworzą z Wielką Brytanią i Rosją koalicję, po czym ponoszą druzgocącą klęskę w błyskawicznej kampanii. Który rok wskazuje się?",
+    "prompt": "Prusy sprzeciwiają się zmianom na mapie Niemiec, tworzą z Wielką Brytanią i Rosją koalicję, po czym ponoszą druzgocącą klęskę w błyskawicznej kampanii. W którym roku rozegrała się ta kampania?",
     "options": [
       "1806",
       "1804",
@@ -1153,7 +1153,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_europa_napoleonska_mapa.jpg",
-    "explanation": "Błyskawiczna kampania przeciw Prusom została opisana jako wydarzenie 1806 roku."
+    "explanation": "Błyskawiczna kampania przeciw Prusom rozegrała się w 1806 roku."
   },
   {
     "id": "R06_HARD_06",
@@ -1209,7 +1209,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_09",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z biogramem księcia Józefa Poniatowskiego i opisem jego służby.",
+    "prompt": "Zaznacz prawdziwe informacje o księciu Józefie Poniatowskim i jego służbie.",
     "options": [
       "Był bratankiem Stanisława Augusta Poniatowskiego",
       "Urodził się i wychował w Wiedniu",
@@ -1241,7 +1241,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_luk_triumfalny_paryz.jpg",
-    "explanation": "Nazwisko Józefa Poniatowskiego widnieje na Łuku Triumfalnym w Paryżu, a łączy się to z jego wiernością Napoleonowi i śmiercią po bitwie pod Lipskiem."
+    "explanation": "Nazwisko Józefa Poniatowskiego widnieje na Łuku Triumfalnym w Paryżu; upamiętnia to jego służbę u boku Napoleona i śmierć po bitwie pod Lipskiem."
   },
   {
     "id": "R06_HARD_11",

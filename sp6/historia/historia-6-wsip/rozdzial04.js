@@ -203,7 +203,7 @@ const ALL_EXERCISES = [
       "pierwszy lot balonem braci Montgolfier",
       "pierwsza bateria"
     ],
-    "explanation": "Podaje się kolejno: siewnik w 1701 roku, piorunochron w 1752 roku, udoskonalony silnik parowy w 1769 roku, pierwszy lot balonem braci Montgolfier w 1783 roku i pierwszą baterię w 1799 roku."
+    "explanation": "Chronologicznie były to: siewnik w 1701 roku, piorunochron w 1752 roku, udoskonalony silnik parowy w 1769 roku, pierwszy lot balonem braci Montgolfier w 1783 roku i pierwsza bateria w 1799 roku."
   },
   {
     "id": "R04_OSW_12",
@@ -275,7 +275,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "r04_fryderyk_ii_i_armia.jpg",
-    "explanation": "Nazywa się filarami państwa pruskiego liczną i wyćwiczoną armię, kompetentną administrację oraz dobrze zorganizowane szkolnictwo."
+    "explanation": "Filarami państwa pruskiego były liczna i wyćwiczona armia, kompetentna administracja oraz dobrze zorganizowane szkolnictwo."
   },
   {
     "id": "R04_ABO_05",
@@ -296,7 +296,7 @@ const ALL_EXERCISES = [
     "id": "R04_ABO_06",
     "section": "Absolutyzm oświecony",
     "type": "match",
-    "prompt": "Połącz państwo z dynastią lub władcą.",
+    "prompt": "Połącz państwo z właściwą dynastią lub władcą.",
     "options": null,
     "left": [
       "Prusy",
@@ -423,7 +423,7 @@ const ALL_EXERCISES = [
       "budowano Pałac Zimowy"
     ],
     "image": "r04_petersburg_piotra.jpg",
-    "explanation": "Opis Petersburga podaje, że Twierdzę Pietropawłowską zaczęto wznosić w 1703 roku, Admiralicję w 1704 roku, stolicą miasto zostało w 1712 roku, Piotr I zmarł w 1725 roku, a Pałac Zimowy budowano w latach 1755-1762."
+    "explanation": "Twierdzę Pietropawłowską zaczęto wznosić w 1703 roku, Admiralicję w 1704 roku, Petersburg został stolicą w 1712 roku, Piotr I zmarł w 1725 roku, a Pałac Zimowy budowano w latach 1755-1762."
   },
   {
     "id": "R04_ABO_12",
@@ -547,7 +547,7 @@ const ALL_EXERCISES = [
     "id": "R04_USA_08",
     "section": "Powstanie Stanów Zjednoczonych",
     "type": "match",
-    "prompt": "Połącz postać z rolą.",
+    "prompt": "Połącz postać z właściwą rolą.",
     "options": null,
     "left": [
       "Benjamin Franklin",
@@ -663,7 +663,7 @@ const ALL_EXERCISES = [
       "Benjamina Franklina"
     ],
     "answer": 0,
-    "explanation": "Wskazuje się na rządy Ludwika XVI z dynastii Burbonów w latach 1774-1792."
+    "explanation": "Ludwik XVI z dynastii Burbonów panował w latach 1774-1792."
   },
   {
     "id": "R04_REW_02",
@@ -707,7 +707,7 @@ const ALL_EXERCISES = [
     "prompt": "Stan trzeci obejmował m.in. chłopów i mieszczan, w tym rzemieślników, robotników manufaktur, urzędników, lekarzy, prawników i dziennikarzy.",
     "options": null,
     "answer": true,
-    "explanation": "Definiuje się stan trzeci jako najliczniejsze warstwy społeczeństwa: chłopów i różne grupy mieszczaństwa."
+    "explanation": "Stan trzeci obejmował najliczniejsze warstwy społeczeństwa: chłopów i różne grupy mieszczaństwa."
   },
   {
     "id": "R04_REW_05",
@@ -980,7 +980,7 @@ const ALL_EXERCISES = [
     "id": "R04_REP_10",
     "section": "Francja republiką",
     "type": "match",
-    "prompt": "Połącz symbol lub instytucję z informacją.",
+    "prompt": "Połącz symbol lub instytucję z właściwą informacją.",
     "options": null,
     "left": [
       "trójkolorowa flaga",
@@ -1060,7 +1060,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_02",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Miasto, w którym działała pierwsza w Europie fabryka porcelany wspomniana przy talerzu z motywem rocaille, to...",
+    "prompt": "W którym mieście działała pierwsza w Europie fabryka porcelany związana z produkcją wyrobów z motywem rocaille?",
     "options": null,
     "answer": "Miśnia",
     "altAnswers": [
@@ -1069,7 +1069,7 @@ const ALL_EXERCISES = [
       "Miśni"
     ],
     "image": "r04_misnia_porcelana.jpg",
-    "explanation": "Opis talerza z motywem rocaille wskazuje Królewsko-Polską i Elektorsko-Saską Manufakturę Porcelany w Miśni."
+    "explanation": "Królewsko-Polska i Elektorsko-Saska Manufaktura Porcelany działała w Miśni."
   },
   {
     "id": "R04_HARD_03",
@@ -1113,7 +1113,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz wynalazek z rokiem podanym w tabeli.",
+    "prompt": "Połącz wynalazek z właściwym rokiem.",
     "options": null,
     "left": [
       "piorunochron",
@@ -1133,7 +1133,7 @@ const ALL_EXERCISES = [
       "udoskonalony silnik parowy": "1769",
       "pierwsza bateria": "1799"
     },
-    "explanation": "Tabela wynalazków podaje: piorunochron w 1752 roku, wodę gazowaną w 1767 roku, udoskonalony silnik parowy w 1769 roku i pierwszą baterię w 1799 roku."
+    "explanation": "Piorunochron powstał w 1752 roku, woda gazowana w 1767 roku, udoskonalony silnik parowy w 1769 roku, a pierwsza bateria w 1799 roku."
   },
   {
     "id": "R04_HARD_06",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
       "1792"
     ],
     "answer": 0,
-    "explanation": "Opis Petersburga podaje, że był stolicą Cesarstwa Rosyjskiego od 1712 roku aż do upadku cesarstwa w 1917 roku."
+    "explanation": "Petersburg był stolicą Cesarstwa Rosyjskiego od 1712 roku aż do upadku cesarstwa w 1917 roku."
   },
   {
     "id": "R04_HARD_09",
@@ -1187,13 +1187,13 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż postać niepasującą do wojny o niepodległość USA: Benjamin Franklin, Jerzy Waszyngton, Tadeusz Kościuszko, Józef II.",
     "options": null,
     "answer": "Józef II",
-    "explanation": "Józef II był cesarzem z dynastii Habsburgów i reformatorem Austrii, a pozostałe osoby wiąże się z amerykańską niepodległością."
+    "explanation": "Józef II był cesarzem z dynastii Habsburgów i reformatorem Austrii, a pozostałe osoby wiążą się z amerykańską niepodległością."
   },
   {
     "id": "R04_HARD_10",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj grupy do sytuacji prawnej w początkowych Stanach Zjednoczonych.",
+    "prompt": "Przyporządkuj grupy do ich sytuacji prawnej w początkowych Stanach Zjednoczonych.",
     "options": null,
     "items": [
       "biali mężczyźni",
