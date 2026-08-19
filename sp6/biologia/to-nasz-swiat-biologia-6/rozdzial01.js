@@ -125,8 +125,11 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "sęp uszaty",
+      "gepard grzywiasty",
       "pszczoła miodna",
+      "koala australijski",
       "sroka zwyczajna",
+      "wiewiórka pospolita",
       "kleszcz pospolity"
     ],
     "categories": [
@@ -137,13 +140,16 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "mięsożercy": [
-        "sęp uszaty"
+        "sęp uszaty",
+        "gepard grzywiasty"
       ],
       "roślinożercy": [
-        "pszczoła miodna"
+        "pszczoła miodna",
+        "koala australijski"
       ],
       "wszystkożercy": [
-        "sroka zwyczajna"
+        "sroka zwyczajna",
+        "wiewiórka pospolita"
       ],
       "pasożyty": [
         "kleszcz pospolity"
@@ -329,9 +335,16 @@ const ALL_EXERCISES = [
     "prompt": "Przyporządkuj grupy zwierząt tkankowych do bezkręgowców albo kręgowców.",
     "options": null,
     "items": [
+      "parzydełkowce",
+      "płazińce",
+      "nicienie",
+      "pierścienice",
       "stawonogi",
       "mięczaki",
       "ryby",
+      "płazy",
+      "gady",
+      "ptaki",
       "ssaki"
     ],
     "categories": [
@@ -340,11 +353,18 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "bezkręgowe": [
+        "parzydełkowce",
+        "płazińce",
+        "nicienie",
+        "pierścienice",
         "stawonogi",
         "mięczaki"
       ],
       "kręgowe": [
         "ryby",
+        "płazy",
+        "gady",
+        "ptaki",
         "ssaki"
       ]
     },
@@ -890,9 +910,13 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "nabłonkowa",
+      "mięśniowa",
+      "łączna",
       "nerwowa",
       "ryby",
-      "stawonogi"
+      "stawonogi",
+      "mięczaki",
+      "gady"
     ],
     "categories": [
       "tkanki",
@@ -901,14 +925,18 @@ const ALL_EXERCISES = [
     "answer": {
       "tkanki": [
         "nabłonkowa",
+        "mięśniowa",
+        "łączna",
         "nerwowa"
       ],
       "grupy zwierząt": [
         "ryby",
-        "stawonogi"
+        "stawonogi",
+        "mięczaki",
+        "gady"
       ]
     },
-    "explanation": "Nabłonkowa i nerwowa to tkanki, a ryby i stawonogi to grupy zwierząt."
+    "explanation": "Nabłonkowa, mięśniowa, łączna i nerwowa to tkanki; ryby, stawonogi, mięczaki i gady to grupy zwierząt."
   },
   {
     "id": "R01_MIE_04",
@@ -1183,9 +1211,13 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "naskórek",
+      "ściany pęcherzyków płucnych",
       "mięsień sercowy",
+      "mięśnie szkieletowe",
       "krew",
-      "mózg"
+      "kości",
+      "mózg",
+      "nerwy"
     ],
     "categories": [
       "nabłonkowa",
@@ -1195,16 +1227,20 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "nabłonkowa": [
-        "naskórek"
+        "naskórek",
+        "ściany pęcherzyków płucnych"
       ],
       "mięśniowa": [
-        "mięsień sercowy"
+        "mięsień sercowy",
+        "mięśnie szkieletowe"
       ],
       "łączna": [
-        "krew"
+        "krew",
+        "kości"
       ],
       "nerwowa": [
-        "mózg"
+        "mózg",
+        "nerwy"
       ]
     },
     "image": "/img/r01_rodzaje_tkanek_schemat.jpg",

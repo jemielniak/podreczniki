@@ -173,6 +173,7 @@ const ALL_EXERCISES = [
     "items": [
       "skrzydła",
       "pióra",
+      "opływowa sylwetka",
       "kości pneumatyczne",
       "worki powietrzne"
     ],
@@ -183,14 +184,15 @@ const ALL_EXERCISES = [
     "answer": {
       "widoczne z zewnątrz": [
         "skrzydła",
-        "pióra"
+        "pióra",
+        "opływowa sylwetka"
       ],
       "ukryte wewnątrz ciała": [
         "kości pneumatyczne",
         "worki powietrzne"
       ]
     },
-    "explanation": "Skrzydła i pióra są widoczne z zewnątrz, a kości pneumatyczne oraz worki powietrzne znajdują się wewnątrz ciała."
+    "explanation": "Skrzydła, pióra i opływowa sylwetka są widoczne, a kości pneumatyczne oraz worki powietrzne znajdują się wewnątrz ciała."
   },
   {
     "id": "R05_PTL_12",
@@ -290,7 +292,9 @@ const ALL_EXERCISES = [
       "wróbel domowy",
       "kawka zwyczajna",
       "bocian biały",
-      "dzięcioł duży"
+      "szpak",
+      "dzięcioł duży",
+      "kowalik zwyczajny"
     ],
     "categories": [
       "miasto",
@@ -303,14 +307,16 @@ const ALL_EXERCISES = [
         "kawka zwyczajna"
       ],
       "wieś": [
-        "bocian biały"
+        "bocian biały",
+        "szpak"
       ],
       "las": [
-        "dzięcioł duży"
+        "dzięcioł duży",
+        "kowalik zwyczajny"
       ]
     },
     "image": "/img/r05_ptaki_srodowiska_polski.jpg",
-    "explanation": "Wróbel domowy i kawka zwyczajna są związane z miastami, bocian biały ze wsią, a dzięcioł duży z lasem."
+    "explanation": "Wróbel domowy i kawka zwyczajna żyją w miastach, bocian biały i szpak na wsi, a dzięcioł duży i kowalik zwyczajny w lesie."
   },
   {
     "id": "R05_PTR_06",
@@ -507,6 +513,7 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "lis pospolity",
+      "orangutan",
       "kret",
       "nietoperz",
       "wieloryb"
@@ -519,7 +526,8 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "naziemny lub nadrzewny": [
-        "lis pospolity"
+        "lis pospolity",
+        "orangutan"
       ],
       "pod ziemią": [
         "kret"
@@ -741,7 +749,9 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "gacek brunatny",
+      "rudawka wielka",
       "białucha arktyczna",
+      "szarytka morska",
       "manat rzeczny",
       "lotopałanka karłowata"
     ],
@@ -752,10 +762,12 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "ssaki latające": [
-        "gacek brunatny"
+        "gacek brunatny",
+        "rudawka wielka"
       ],
       "ssaki wodne": [
         "białucha arktyczna",
+        "szarytka morska",
         "manat rzeczny"
       ],
       "ssak nadrzewny/szybujący": [
@@ -865,8 +877,12 @@ const ALL_EXERCISES = [
     "items": [
       "pióra",
       "skrzydła",
+      "płuca z workami powietrznymi",
+      "jajorodność",
       "sierść",
-      "karmienie młodych mlekiem"
+      "karmienie młodych mlekiem",
+      "żyworodność",
+      "oczy z powiekami"
     ],
     "categories": [
       "ptaki",
@@ -875,14 +891,18 @@ const ALL_EXERCISES = [
     "answer": {
       "ptaki": [
         "pióra",
-        "skrzydła"
+        "skrzydła",
+        "płuca z workami powietrznymi",
+        "jajorodność"
       ],
       "ssaki": [
         "sierść",
-        "karmienie młodych mlekiem"
+        "karmienie młodych mlekiem",
+        "żyworodność",
+        "oczy z powiekami"
       ]
     },
-    "explanation": "Pióra i skrzydła są cechami ptaków, a sierść i karmienie młodych mlekiem są cechami ssaków."
+    "explanation": "Ptaki mają pióra, skrzydła i worki powietrzne oraz są jajorodne, a ssaki mają sierść, karmią młode mlekiem i zwykle są żyworodne."
   },
   {
     "id": "R05_MIE_02",

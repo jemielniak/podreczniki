@@ -79,7 +79,7 @@ const ALL_EXERCISES = [
     ],
     "explanation": "Zwierzęta mają budowę wielokomórkową i są cudzożywne."
   },
-    {
+  {
     "id": "R01_CEZ_05",
     "section": "Cechy zwierząt",
     "type": "sort",
@@ -88,18 +88,26 @@ const ALL_EXERCISES = [
     "answer": {
       "bezkręgowce": [
         "płazińce",
-        "nicienie"
+        "nicienie",
+        "stawonogi",
+        "mięczaki"
       ],
       "kręgowce": [
         "ryby",
-        "płazy"
+        "płazy",
+        "ptaki",
+        "ssaki"
       ]
     },
     "items": [
       "płazińce",
       "nicienie",
       "ryby",
-      "płazy"
+      "płazy",
+      "stawonogi",
+      "ptaki",
+      "mięczaki",
+      "ssaki"
     ],
     "categories": [
       "bezkręgowce",
@@ -383,7 +391,7 @@ const ALL_EXERCISES = [
     "image": "/img/r01_nablonek_plaski_pecherzyki.jpg",
     "explanation": "Pęcherzyki płucne przypominają małe baloniki i są miejscem wymiany gazowej."
   },
-    {
+  {
     "id": "R01_NAB_10",
     "section": "Tkanka nabłonkowa",
     "type": "sort",
@@ -393,7 +401,9 @@ const ALL_EXERCISES = [
       "jedna warstwa": [
         "jednowarstwowy płaski",
         "jednowarstwowy sześcienny",
-        "migawkowy"
+        "migawkowy",
+        "zmysłowy",
+        "gruczołowy"
       ],
       "wiele warstw": [
         "wielowarstwowy płaski"
@@ -403,6 +413,8 @@ const ALL_EXERCISES = [
       "jednowarstwowy płaski",
       "jednowarstwowy sześcienny",
       "migawkowy",
+      "zmysłowy",
+      "gruczołowy",
       "wielowarstwowy płaski"
     ],
     "categories": [
@@ -628,7 +640,7 @@ const ALL_EXERCISES = [
       "tkanka kostna",
       "tkanka chrzęstna"
     ],
-    "explanation": "Przykłady pokazują, że tkanki łączne tworzą różne struktury i pełnią różne funkcje."
+    "explanation": "Tkanki łączne tworzą różne struktury i pełnią różne funkcje."
   },
   {
     "id": "R01_LAC_11",
@@ -874,7 +886,7 @@ const ALL_EXERCISES = [
     ],
     "explanation": "Mitochondria dostarczają energii potrzebnej do pracy komórek mięśniowych."
   },
-    {
+  {
     "id": "R01_MIX_01",
     "section": "Powtórka mieszana",
     "type": "sort",
@@ -886,17 +898,25 @@ const ALL_EXERCISES = [
         "komórka kostna"
       ],
       "tkanki": [
-        "krew"
+        "krew",
+        "nabłonek migawkowy",
+        "tkanka kostna"
       ],
       "narządy": [
-        "mózg"
+        "mózg",
+        "serce",
+        "płuco"
       ]
     },
     "items": [
       "neuron",
       "komórka kostna",
       "krew",
-      "mózg"
+      "nabłonek migawkowy",
+      "mózg",
+      "serce",
+      "płuco",
+      "tkanka kostna"
     ],
     "categories": [
       "komórki",

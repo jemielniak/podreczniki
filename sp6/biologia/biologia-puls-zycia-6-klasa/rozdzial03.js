@@ -133,6 +133,8 @@ const ALL_EXERCISES = [
     "items": [
       "mucha",
       "pająk",
+      "krab",
+      "pszczoła",
       "ślimak",
       "małż"
     ],
@@ -143,14 +145,16 @@ const ALL_EXERCISES = [
     "answer": {
       "stawonogi": [
         "mucha",
-        "pająk"
+        "pająk",
+        "krab",
+        "pszczoła"
       ],
       "mięczaki": [
         "ślimak",
         "małż"
       ]
     },
-    "explanation": "Mucha i pająk są stawonogami. Ślimak i małż należą do mięczaków."
+    "explanation": "Muchy, pająki, kraby i pszczoły są stawonogami. Ślimaki i małże należą do mięczaków."
   },
   {
     "id": "R03_CST_09",
@@ -344,6 +348,7 @@ const ALL_EXERCISES = [
     "items": [
       "rak",
       "krewetka",
+      "pąkle",
       "rozwielitka",
       "stonoga murowa"
     ],
@@ -355,13 +360,14 @@ const ALL_EXERCISES = [
       "środowisko wodne": [
         "rak",
         "krewetka",
+        "pąkle",
         "rozwielitka"
       ],
       "wilgotne środowisko lądowe": [
         "stonoga murowa"
       ]
     },
-    "explanation": "Rak, krewetka i rozwielitka żyją w wodzie, a stonoga murowa zasiedla wilgotne miejsca na lądzie."
+    "explanation": "Większość skorupiaków żyje w wodzie, a nieliczne gatunki, takie jak stonoga murowa, zasiedlają wilgotne miejsca na lądzie."
   },
   {
     "id": "R03_SKO_09",
@@ -554,8 +560,10 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "pszczoła wytwarza miód",
+      "jedwabnik daje nici jedwabne",
       "biedronka zjada mszyce",
       "mól niszczy ubrania",
+      "stonka niszczy uprawy",
       "komar widliszek przenosi malarię"
     ],
     "categories": [
@@ -565,14 +573,16 @@ const ALL_EXERCISES = [
     "answer": {
       "korzystne": [
         "pszczoła wytwarza miód",
+        "jedwabnik daje nici jedwabne",
         "biedronka zjada mszyce"
       ],
       "niekorzystne": [
         "mól niszczy ubrania",
+        "stonka niszczy uprawy",
         "komar widliszek przenosi malarię"
       ]
     },
-    "explanation": "Pszczoła i biedronka mogą być pożyteczne, natomiast mól niszczy ubrania, a komar widliszek może przenosić malarię."
+    "explanation": "Owady mogą być pożyteczne, bo zapylają rośliny i dają surowce, ale mogą też niszczyć plony, ubrania lub przenosić choroby."
   },
   {
     "id": "R03_OWA_09",
@@ -766,8 +776,10 @@ const ALL_EXERCISES = [
     "items": [
       "pająk",
       "kleszcz",
+      "kosarz",
       "mucha",
-      "pszczoła"
+      "pszczoła",
+      "komar"
     ],
     "categories": [
       "pajęczaki",
@@ -776,14 +788,16 @@ const ALL_EXERCISES = [
     "answer": {
       "pajęczaki": [
         "pająk",
-        "kleszcz"
+        "kleszcz",
+        "kosarz"
       ],
       "owady": [
         "mucha",
-        "pszczoła"
+        "pszczoła",
+        "komar"
       ]
     },
-    "explanation": "Pająk i kleszcz to pajęczaki, a mucha i pszczoła to owady."
+    "explanation": "Pająki, kleszcze i kosarze mają cechy pajęczaków, natomiast muchy, pszczoły i komary są owadami."
   },
   {
     "id": "R03_PAJ_09",
@@ -974,7 +988,9 @@ const ALL_EXERCISES = [
       "winniczek",
       "pomrów",
       "ostryga",
-      "ośmiornica"
+      "omułek",
+      "ośmiornica",
+      "kałamarnica"
     ],
     "categories": [
       "ślimaki",
@@ -987,13 +1003,15 @@ const ALL_EXERCISES = [
         "pomrów"
       ],
       "małże": [
-        "ostryga"
+        "ostryga",
+        "omułek"
       ],
       "głowonogi": [
-        "ośmiornica"
+        "ośmiornica",
+        "kałamarnica"
       ]
     },
-    "explanation": "Winniczek i pomrów to ślimaki, ostryga jest małżem, a ośmiornica głowonogiem."
+    "explanation": "Winniczek i pomrów to ślimaki, ostryga i omułek to małże, a ośmiornica i kałamarnica to głowonogi."
   },
   {
     "id": "R03_MIE_09",
@@ -1198,8 +1216,10 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "skorupiaki",
-      "małże",
       "owady",
+      "pajęczaki",
+      "małże",
+      "głowonogi",
       "ślimaki"
     ],
     "categories": [
@@ -1210,16 +1230,18 @@ const ALL_EXERCISES = [
     "answer": {
       "głównie wodne": [
         "skorupiaki",
-        "małże"
+        "małże",
+        "głowonogi"
       ],
       "głównie lądowe": [
-        "owady"
+        "owady",
+        "pajęczaki"
       ],
       "wodne i lądowe": [
         "ślimaki"
       ]
     },
-    "explanation": "Skorupiaki i małże żyją głównie w wodzie, owady głównie na lądzie, a ślimaki występują w wodzie i na lądzie."
+    "explanation": "Skorupiaki, małże i głowonogi żyją głównie w wodzie, owady i pajęczaki głównie na lądzie, a ślimaki występują w wodzie i na lądzie."
   },
   {
     "id": "R03_HARD_10",

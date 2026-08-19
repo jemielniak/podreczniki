@@ -305,7 +305,7 @@ const ALL_EXERCISES = [
     "image": "/img/r05_gniazdo_jaja_ptakow.jpg",
     "explanation": "U ptaków zachodzi rozwój prosty, ponieważ pisklę przypomina osobnika dorosłego."
   },
-    {
+  {
     "id": "R05_ROP_06",
     "section": "Rozmnażanie ptaków",
     "type": "sort",
@@ -315,7 +315,9 @@ const ALL_EXERCISES = [
       "często są ślepe i nieopierzone",
       "są całkowicie bezradne",
       "w kilka godzin po wykluciu mogą opuścić gniazdo",
-      "potrafią samodzielnie zdobywać pokarm"
+      "potrafią samodzielnie zdobywać pokarm",
+      "wymagają długiej opieki rodziców",
+      "rodzice opiekują się nimi krótko albo wcale"
     ],
     "categories": [
       "gniazdowniki",
@@ -324,11 +326,13 @@ const ALL_EXERCISES = [
     "answer": {
       "gniazdowniki": [
         "często są ślepe i nieopierzone",
-        "są całkowicie bezradne"
+        "są całkowicie bezradne",
+        "wymagają długiej opieki rodziców"
       ],
       "zagniazdowniki": [
         "w kilka godzin po wykluciu mogą opuścić gniazdo",
-        "potrafią samodzielnie zdobywać pokarm"
+        "potrafią samodzielnie zdobywać pokarm",
+        "rodzice opiekują się nimi krótko albo wcale"
       ]
     },
     "image": "/img/r05_gniazdowniki_zagniazdowniki.jpg",
@@ -976,7 +980,7 @@ const ALL_EXERCISES = [
     "image": "/img/r05_srodowiska_ssakow.jpg",
     "explanation": "Tygrys syberyjski jest przykładem ssaka przystosowanego do zimnych rejonów Azji."
   },
-    {
+  {
     "id": "R05_RSS_06",
     "section": "Różnorodność ssaków",
     "type": "sort",
@@ -985,6 +989,7 @@ const ALL_EXERCISES = [
     "items": [
       "wydra",
       "foka",
+      "delfin",
       "nietoperz",
       "kangur rudy"
     ],
@@ -999,7 +1004,8 @@ const ALL_EXERCISES = [
         "wydra"
       ],
       "morza": [
-        "foka"
+        "foka",
+        "delfin"
       ],
       "aktywny lot": [
         "nietoperz"
@@ -1379,7 +1385,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_03",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Na ilustracji widać pisklę ślepe, nieopierzone i całkowicie zależne od rodziców. Do której grupy należy?",
+    "prompt": "Pisklę jest ślepe, nieopierzone i całkowicie zależne od rodziców. Do której grupy należy?",
     "options": [
       "gniazdowniki",
       "zagniazdowniki",
@@ -1409,7 +1415,7 @@ const ALL_EXERCISES = [
     "image": "/img/r05_ssak_lozysko.jpg",
     "explanation": "Łożysko jest charakterystyczne dla ssaków łożyskowych i odpowiada za wymianę substancji między matką a zarodkiem."
   },
-    {
+  {
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "sort",
@@ -1419,7 +1425,9 @@ const ALL_EXERCISES = [
       "żółtko",
       "komora powietrzna",
       "łożysko",
-      "gruczoły mlekowe"
+      "gruczoły mlekowe",
+      "worki powietrzne",
+      "pęcherzyki płucne"
     ],
     "categories": [
       "ptaki",
@@ -1428,15 +1436,17 @@ const ALL_EXERCISES = [
     "answer": {
       "ptaki": [
         "żółtko",
-        "komora powietrzna"
+        "komora powietrzna",
+        "worki powietrzne"
       ],
       "ssaki": [
         "łożysko",
-        "gruczoły mlekowe"
+        "gruczoły mlekowe",
+        "pęcherzyki płucne"
       ]
     },
     "image": "/img/r05_porownanie_ptaki_ssaki.jpg",
-    "explanation": "Żółtko i komora powietrzna są związane z jajem ptaka, a łożysko i gruczoły mlekowe są cechami ssaków."
+    "explanation": "Części jaja i worki powietrzne wiążą się z ptakami, a łożysko, gruczoły mlekowe i płuca pęcherzykowate z ssakami."
   },
   {
     "id": "R05_HARD_06",

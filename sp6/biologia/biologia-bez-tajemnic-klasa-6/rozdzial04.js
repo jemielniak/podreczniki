@@ -217,7 +217,7 @@ const ALL_EXERCISES = [
     "image": "/img/r04_ryba_rozwoj.jpg",
     "explanation": "Jaja ryb nazywa się ikrą."
   },
-    {
+  {
     "id": "R04_ZNA_01",
     "section": "Znaczenie i ochrona",
     "type": "sort",
@@ -226,8 +226,10 @@ const ALL_EXERCISES = [
     "items": [
       "pstrąg",
       "okoń",
+      "karp",
       "śledź",
-      "tuńczyk"
+      "tuńczyk",
+      "dorsz"
     ],
     "categories": [
       "słodkowodne",
@@ -236,17 +238,19 @@ const ALL_EXERCISES = [
     "answer": {
       "słodkowodne": [
         "pstrąg",
-        "okoń"
+        "okoń",
+        "karp"
       ],
       "słonowodne": [
         "śledź",
-        "tuńczyk"
+        "tuńczyk",
+        "dorsz"
       ]
     },
     "image": "/img/r04_ryby_srodowiska.jpg",
-    "explanation": "Pstrąg i okoń są rybami słodkowodnymi, a śledź i tuńczyk rybami słonowodnymi."
+    "explanation": "Pstrąg, okoń i karp są przykładami ryb słodkowodnych, a śledź, tuńczyk i dorsz ryb słonowodnych."
   },
-    {
+  {
     "id": "R04_ZNA_02",
     "section": "Znaczenie i ochrona",
     "type": "sort",
@@ -256,7 +260,9 @@ const ALL_EXERCISES = [
       "amur biały",
       "świnka pospolita",
       "płoć",
-      "szczupak pospolity"
+      "karaś pospolity",
+      "szczupak pospolity",
+      "sum pospolity"
     ],
     "categories": [
       "roślinożerne",
@@ -269,10 +275,12 @@ const ALL_EXERCISES = [
         "świnka pospolita"
       ],
       "wszystkożerne": [
-        "płoć"
+        "płoć",
+        "karaś pospolity"
       ],
       "mięsożerne": [
-        "szczupak pospolity"
+        "szczupak pospolity",
+        "sum pospolity"
       ]
     },
     "image": "/img/r04_roznorodnosc_ryb.jpg",
@@ -487,7 +495,7 @@ const ALL_EXERCISES = [
     "answer": true,
     "explanation": "Temperatura ciała płazów zależy od temperatury otoczenia."
   },
-    {
+  {
     "id": "R04_PLA_03",
     "section": "Płazy",
     "type": "sort",
@@ -497,7 +505,9 @@ const ALL_EXERCISES = [
       "mają ogon",
       "nie mają ogona",
       "nie mają kończyn",
-      "przykład: salamandra"
+      "przykład: salamandra",
+      "przykład: żaba",
+      "przykład: marszczelec"
     ],
     "categories": [
       "ogoniaste",
@@ -510,10 +520,12 @@ const ALL_EXERCISES = [
         "przykład: salamandra"
       ],
       "bezogonowe": [
-        "nie mają ogona"
+        "nie mają ogona",
+        "przykład: żaba"
       ],
       "beznogie": [
-        "nie mają kończyn"
+        "nie mają kończyn",
+        "przykład: marszczelec"
       ]
     },
     "image": "/img/r04_plazy_podzial.jpg",
@@ -782,7 +794,7 @@ const ALL_EXERCISES = [
     "image": "/img/r04_jaszczurka_budowa.jpg",
     "explanation": "Cechy budowy gadów są związane z przystosowaniem do życia na lądzie."
   },
-    {
+  {
     "id": "R04_GAD_06",
     "section": "Gady",
     "type": "sort",
@@ -790,7 +802,9 @@ const ALL_EXERCISES = [
     "options": null,
     "items": [
       "jaszczurka żyworodna",
+      "padalec zwyczajny",
       "gniewosz plamisty",
+      "zaskroniec zwyczajny",
       "żółw błotny",
       "krokodyl syjamski"
     ],
@@ -802,10 +816,12 @@ const ALL_EXERCISES = [
     ],
     "answer": {
       "jaszczurki": [
-        "jaszczurka żyworodna"
+        "jaszczurka żyworodna",
+        "padalec zwyczajny"
       ],
       "węże": [
-        "gniewosz plamisty"
+        "gniewosz plamisty",
+        "zaskroniec zwyczajny"
       ],
       "żółwie": [
         "żółw błotny"
@@ -929,7 +945,7 @@ const ALL_EXERCISES = [
     "image": "/img/r04_jaszczurka_budowa.jpg",
     "explanation": "Sucha skóra z łuskami, płuca i rozmnażanie na lądzie wskazują na gada."
   },
-    {
+  {
     "id": "R04_ZPG_01",
     "section": "Płazy i gady: znaczenie",
     "type": "sort",
@@ -939,7 +955,9 @@ const ALL_EXERCISES = [
       "salamandra plamista",
       "traszka zwyczajna",
       "rzekotka drzewna",
-      "żaba trawna"
+      "żaba trawna",
+      "ropucha szara",
+      "kumak nizinny"
     ],
     "categories": [
       "ogoniaste",
@@ -952,11 +970,13 @@ const ALL_EXERCISES = [
       ],
       "bezogonowe": [
         "rzekotka drzewna",
-        "żaba trawna"
+        "żaba trawna",
+        "ropucha szara",
+        "kumak nizinny"
       ]
     },
     "image": "/img/r04_przedstawiciele_plazow.jpg",
-    "explanation": "Salamandra i traszka to płazy ogoniaste, a rzekotka i żaba to płazy bezogonowe."
+    "explanation": "Salamandra i traszka to płazy ogoniaste, a rzekotka, żaba, ropucha i kumak to płazy bezogonowe."
   },
   {
     "id": "R04_ZPG_02",
@@ -1076,7 +1096,7 @@ const ALL_EXERCISES = [
     "answer": true,
     "explanation": "Wszystkie gatunki płazów w Polsce są objęte ochroną ścisłą."
   },
-    {
+  {
     "id": "R04_ZPG_08",
     "section": "Płazy i gady: znaczenie",
     "type": "sort",
@@ -1086,7 +1106,9 @@ const ALL_EXERCISES = [
       "jaszczurka zwinka",
       "padalec zwyczajny",
       "żmija zygzakowata",
-      "żółw błotny"
+      "zaskroniec zwyczajny",
+      "żółw błotny",
+      "wąż Eskulapa"
     ],
     "categories": [
       "jaszczurki",
@@ -1099,14 +1121,16 @@ const ALL_EXERCISES = [
         "padalec zwyczajny"
       ],
       "węże": [
-        "żmija zygzakowata"
+        "żmija zygzakowata",
+        "zaskroniec zwyczajny",
+        "wąż Eskulapa"
       ],
       "żółwie": [
         "żółw błotny"
       ]
     },
     "image": "/img/r04_gady_polskie.jpg",
-    "explanation": "Jaszczurka zwinka i padalec należą do jaszczurek, żmija zygzakowata do węży, a żółw błotny do żółwi."
+    "explanation": "Padalec jest beznogą jaszczurką, a żmija, zaskroniec i wąż Eskulapa należą do węży."
   },
   {
     "id": "R04_ZPG_09",
@@ -1228,7 +1252,7 @@ const ALL_EXERCISES = [
     "image": "/img/r04_ochrona_gadow.jpg",
     "explanation": "Ochrona gatunkowa, ochrona siedlisk, tworzenie nowych miejsc życia i edukacja pomagają zachować różnorodność gadów."
   },
-    {
+  {
     "id": "R04_MIX_01",
     "section": "Powtórka mieszana",
     "type": "sort",
@@ -1238,6 +1262,8 @@ const ALL_EXERCISES = [
       "skrzela u dorosłych",
       "skrzek",
       "błony płodowe",
+      "płuca i sucha skóra",
+      "kijanka",
       "linia boczna"
     ],
     "categories": [
@@ -1251,10 +1277,12 @@ const ALL_EXERCISES = [
         "linia boczna"
       ],
       "płazy": [
-        "skrzek"
+        "skrzek",
+        "kijanka"
       ],
       "gady": [
-        "błony płodowe"
+        "błony płodowe",
+        "płuca i sucha skóra"
       ]
     },
     "image": "/img/r04_porownanie_ryb_plazow_gadow.jpg",
@@ -1487,7 +1515,7 @@ const ALL_EXERCISES = [
     "image": "/img/r04_porownanie_ryb_plazow_gadow.jpg",
     "explanation": "Przystosowania kręgowców odpowiadają na konkretne problemy środowiska wodnego lub lądowego."
   },
-    {
+  {
     "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "sort",
@@ -1497,7 +1525,9 @@ const ALL_EXERCISES = [
       "narybek",
       "kijanka",
       "młody gad podobny do dorosłego",
-      "larwa płaza"
+      "larwa płaza",
+      "młoda ryba podobna do dorosłej",
+      "zanikający ogon u młodej żaby"
     ],
     "categories": [
       "rozwój prosty",
@@ -1506,11 +1536,13 @@ const ALL_EXERCISES = [
     "answer": {
       "rozwój prosty": [
         "narybek",
-        "młody gad podobny do dorosłego"
+        "młody gad podobny do dorosłego",
+        "młoda ryba podobna do dorosłej"
       ],
       "rozwój złożony": [
         "kijanka",
-        "larwa płaza"
+        "larwa płaza",
+        "zanikający ogon u młodej żaby"
       ]
     },
     "explanation": "W rozwoju prostym młody osobnik przypomina dorosłego, a w rozwoju złożonym występuje larwa różniąca się od dorosłego."

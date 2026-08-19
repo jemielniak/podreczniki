@@ -444,7 +444,7 @@ const ALL_EXERCISES = [
     "answer": "wypławek biały",
     "explanation": "Owsik, glista i włosień są nicieniami pasożytniczymi, a wypławek biały jest wolno żyjącym płazińcem."
   },
-    {
+  {
     "id": "R02_NIC_13",
     "section": "Nicienie",
     "type": "sort",
@@ -454,7 +454,9 @@ const ALL_EXERCISES = [
       "węgorek octowy",
       "Caenorhabditis elegans",
       "owsik ludzki",
-      "glista ludzka"
+      "glista ludzka",
+      "mątwik ziemniaczany",
+      "guzak północny"
     ],
     "categories": [
       "wolno żyjące",
@@ -467,7 +469,9 @@ const ALL_EXERCISES = [
       ],
       "pasożytnicze": [
         "owsik ludzki",
-        "glista ludzka"
+        "glista ludzka",
+        "mątwik ziemniaczany",
+        "guzak północny"
       ]
     },
     "explanation": "Węgorek octowy i Caenorhabditis elegans są przykładami wolno żyjących nicieni, a pozostałe wymienione gatunki są pasożytami."
@@ -710,7 +714,7 @@ const ALL_EXERCISES = [
     "answer": 0,
     "explanation": "Nereida różnokolorowa to drapieżna pierścienica żyjąca na dnie Bałtyku i aktywnie poszukująca pożywienia."
   },
-    {
+  {
     "id": "R02_PIE_14",
     "section": "Pierścienice",
     "type": "sort",
@@ -719,6 +723,7 @@ const ALL_EXERCISES = [
     "items": [
       "dżdżownica ziemna",
       "pijawka lekarska",
+      "nereida różnokolorowa",
       "rurecznik mułowy",
       "Sabella pavonina"
     ],
@@ -729,14 +734,15 @@ const ALL_EXERCISES = [
     "answer": {
       "poruszające się aktywnie": [
         "dżdżownica ziemna",
-        "pijawka lekarska"
+        "pijawka lekarska",
+        "nereida różnokolorowa"
       ],
       "prowadzące osiadły tryb życia": [
         "rurecznik mułowy",
         "Sabella pavonina"
       ]
     },
-    "explanation": "Pierścienice mogą poruszać się aktywnie lub prowadzić osiadły tryb życia."
+    "explanation": "Większość tych pierścienic porusza się aktywnie, natomiast rurecznik i Sabella prowadzą osiadły tryb życia."
   },
   {
     "id": "R02_CHO_01",
@@ -941,7 +947,7 @@ const ALL_EXERCISES = [
     "answer": 0,
     "explanation": "Włośnica rozwija się po spożyciu niedogotowanego mięsa zawierającego larwy włośnia krętego."
   },
-    {
+  {
     "id": "R02_MIE_01",
     "section": "Powtórka mieszana",
     "type": "sort",
@@ -951,7 +957,9 @@ const ALL_EXERCISES = [
       "wypławek biały",
       "tasiemiec uzbrojony",
       "owsik ludzki",
-      "dżdżownica ziemna"
+      "glista ludzka",
+      "dżdżownica ziemna",
+      "pijawka lekarska"
     ],
     "categories": [
       "płazińce",
@@ -964,13 +972,15 @@ const ALL_EXERCISES = [
         "tasiemiec uzbrojony"
       ],
       "nicienie": [
-        "owsik ludzki"
+        "owsik ludzki",
+        "glista ludzka"
       ],
       "pierścienice": [
-        "dżdżownica ziemna"
+        "dżdżownica ziemna",
+        "pijawka lekarska"
       ]
     },
-    "explanation": "Wypławek i tasiemiec to płazińce, owsik to nicień, a dżdżownica to pierścienica.",
+    "explanation": "Wypławek i tasiemiec to płazińce, owsik i glista to nicienie, a dżdżownica i pijawka to pierścienice.",
     "image": "/img/r02_porownanie_trzech_grup.jpg"
   },
   {
@@ -1012,7 +1022,7 @@ const ALL_EXERCISES = [
       0,
       1
     ],
-    "explanation": "Podsumowanie wskazuje przewód pokarmowy u nicieni i pierścienic; tasiemce są przykładem płazińców pozbawionych przewodu pokarmowego."
+    "explanation": "Nicienie i pierścienice mają przewód pokarmowy, natomiast tasiemce są płazińcami pozbawionymi przewodu pokarmowego."
   },
   {
     "id": "R02_MIE_04",
@@ -1075,7 +1085,7 @@ const ALL_EXERCISES = [
     },
     "explanation": "Definicje żywiciela, żywiciela pośredniego, ostatecznego i pasożyta zewnętrznego porządkują opisy cykli pasożytów."
   },
-    {
+  {
     "id": "R02_MIE_08",
     "section": "Powtórka mieszana",
     "type": "sort",
@@ -1084,6 +1094,7 @@ const ALL_EXERCISES = [
     "items": [
       "tasiemiec uzbrojony",
       "owsik ludzki",
+      "glista ludzka",
       "pijawka lekarska",
       "pijawka rybia"
     ],
@@ -1094,14 +1105,15 @@ const ALL_EXERCISES = [
     "answer": {
       "pasożyty wewnętrzne": [
         "tasiemiec uzbrojony",
-        "owsik ludzki"
+        "owsik ludzki",
+        "glista ludzka"
       ],
       "pasożyty zewnętrzne": [
         "pijawka lekarska",
         "pijawka rybia"
       ]
     },
-    "explanation": "Tasiemiec uzbrojony i owsik ludzki żyją wewnątrz ciała żywiciela, a pijawki przyczepiają się do zewnętrznej powierzchni ciała."
+    "explanation": "Tasiemiec uzbrojony, owsik ludzki i glista ludzka żyją wewnątrz ciała żywiciela, a pijawki przyczepiają się do zewnętrznej powierzchni ciała."
   },
   {
     "id": "R02_MIE_09",
