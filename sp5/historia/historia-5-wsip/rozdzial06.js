@@ -51,7 +51,7 @@ const ALL_EXERCISES = [
     "prompt": "Głównym zajęciem plemion słowiańskich zamieszkujących ziemie polskie było rolnictwo.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się rolnictwo jako główne zajęcie ówczesnych plemion słowiańskich."
+    "explanation": "Rolnictwo było głównym zajęciem ówczesnych plemion słowiańskich."
   },
   {
     "id": "R06_NAR_04",
@@ -125,7 +125,7 @@ const ALL_EXERCISES = [
       "Siemomysł",
       "Mieszko I"
     ],
-    "explanation": "Podaje się kolejność: Piast, Siemowit, Leszek, Siemomysł, Mieszko I."
+    "explanation": "Kolejność to: Piast, Siemowit, Leszek, Siemomysł, Mieszko I."
   },
   {
     "id": "R06_NAR_08",
@@ -666,7 +666,7 @@ const ALL_EXERCISES = [
     "id": "R06_KRZ_02",
     "section": "Panowanie Bolesława Krzywoustego",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem Władysława Hermana.",
+    "prompt": "Zaznacz prawdziwe informacje o Władysławie Hermanie.",
     "options": [
       "Nie koronował się na króla",
       "Zwykle ulegał wpływom możnych",
@@ -1126,7 +1126,7 @@ const ALL_EXERCISES = [
       "Wincenty Kadłubek": "opis gestu Ottona wobec Bolesława",
       "Drzwi Gnieźnieńskie": "sceny z życia św. Wojciecha"
     },
-    "explanation": "Przywołuje się kilku kronikarzy i źródła, aby opisać początki państwa Piastów oraz późniejszą pamięć o tych wydarzeniach."
+    "explanation": "Kronikarze i inne źródła przekazują informacje o początkach państwa Piastów oraz o późniejszej pamięci o tych wydarzeniach."
   },
   {
     "id": "R06_HARD_04",

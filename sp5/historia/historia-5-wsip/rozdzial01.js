@@ -165,7 +165,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "/img/r01_zyzny_polksiezyc_uprawy.jpg",
-    "explanation": "Wymieniono m.in. pszenicę, jęczmień, proso, soczewicę, groch, len i drzewa owocowe."
+    "explanation": "W neolicie na obszarze Żyznego Półksiężyca uprawiano m.in. pszenicę, jęczmień, proso, soczewicę, groch i len, a także drzewa owocowe."
   },
   {
     "id": "R01_NDC_10",
@@ -1130,7 +1130,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy wspólne starożytnych cywilizacji Mezopotamii, Egiptu, Indii i Chin wskazane w ćwiczeniu powtórzeniowym.",
+    "prompt": "Zaznacz cechy wspólne starożytnych cywilizacji Mezopotamii, Egiptu, Indii i Chin.",
     "options": [
       "Posługiwanie się pismem",
       "Zakładanie miast",
@@ -1201,7 +1201,7 @@ const ALL_EXERCISES = [
     "prompt": "Biblia jest dla badaczy ważnym źródłem do dziejów Izraela, ale naukowcy zestawiają opowieści biblijne z innymi źródłami, zwłaszcza archeologicznymi.",
     "options": null,
     "answer": true,
-    "explanation": "Podkreśla się religijny charakter Biblii i potrzebę porównywania jej przekazów z innymi źródłami."
+    "explanation": "Biblia ma charakter religijny, dlatego jej przekazy o dziejach Izraela porównuje się z innymi źródłami, zwłaszcza archeologicznymi."
   },
   {
     "id": "R01_HARD_08",
@@ -1243,7 +1243,7 @@ const ALL_EXERCISES = [
         "Jedwabny Szlak"
       ]
     },
-    "explanation": "Każde pojęcie pochodzi i jest charakterystyczne dla wskazanej cywilizacji lub tradycji."
+    "explanation": "Każde pojęcie jest charakterystyczne dla właściwej cywilizacji lub tradycji."
   },
   {
     "id": "R01_HARD_09",
@@ -1272,7 +1272,7 @@ const ALL_EXERCISES = [
       "Ludzie znali tylko liczby, ale nie znali żadnych znaków"
     ],
     "answer": 0,
-    "explanation": "Kilka razy podkreślono, że dawne systemy pisma zawierały tysiące znaków, dlatego umiejętność pisania była trudna i rzadka."
+    "explanation": "Dawne systemy pisma zawierały tysiące znaków, dlatego umiejętność pisania była trudna i rzadka."
   }
 ];
 

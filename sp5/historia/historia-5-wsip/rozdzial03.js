@@ -335,7 +335,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Grecja, Egipt, Palestyna, Lacjum.",
     "options": null,
     "answer": "Lacjum",
-    "explanation": "Grecja, Egipt i Palestyna zostały wymienione jako ziemie zdobywane przez Rzym poza Italią, a Lacjum było krainą w środkowej Italii z Rzymem."
+    "explanation": "Grecja, Egipt i Palestyna były ziemiami zdobywanymi przez Rzym poza Italią, natomiast Lacjum było krainą w środkowej Italii, w której leżał Rzym."
   },
   {
     "id": "R03_IMP_10",
@@ -357,7 +357,7 @@ const ALL_EXERCISES = [
     "id": "R03_WOJ_01",
     "section": "Armia i wojny Rzymu",
     "type": "single_choice",
-    "prompt": "Ilu żołnierzy liczył rzymski legion w okresie opisanym w infografice?",
+    "prompt": "Około ilu żołnierzy liczył rzymski legion przed późniejszym zwiększeniem jego liczebności?",
     "options": [
       "około 300",
       "około 1000",
@@ -367,7 +367,7 @@ const ALL_EXERCISES = [
       "około 250 000"
     ],
     "answer": 2,
-    "explanation": "Infografika podaje, że legion liczył około 4500 żołnierzy, a w późniejszym okresie 6000."
+    "explanation": "Rzymski legion liczył około 4500 żołnierzy, a w późniejszym okresie około 6000."
   },
   {
     "id": "R03_WOJ_02",
@@ -442,7 +442,7 @@ const ALL_EXERCISES = [
       "Wał Hadriana": "umocnienie chroniące rzymską Brytanię",
       "legion": "wielka jednostka armii rzymskiej"
     },
-    "explanation": "Galowie, Germanowie, Wał Hadriana i legion pojawiają się w opisie rzymskiej wojskowości i granic."
+    "explanation": "Galowie i Germanowie byli ludami związanymi z rzymskimi granicami, Wał Hadriana chronił Brytanię, a legion był dużą jednostką armii rzymskiej."
   },
   {
     "id": "R03_WOJ_06",
@@ -752,7 +752,7 @@ const ALL_EXERCISES = [
         "Nazaret"
       ]
     ],
-    "explanation": "Wskazuje się Jezusa z Nazaretu jako założyciela chrześcijaństwa."
+    "explanation": "Założycielem chrześcijaństwa był Jezus z Nazaretu."
   },
   {
     "id": "R03_CHR_04",
@@ -920,7 +920,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Której zalety położenia Rzymu nie wymienił Cyceron w przytoczonym fragmencie?",
+    "prompt": "Której zalety położenia Rzymu Cyceron nie podkreślał?",
     "options": [
       "spławna rzeka o spokojnym nurcie",
       "położenie niedaleko wybrzeża",
@@ -977,7 +977,7 @@ const ALL_EXERCISES = [
       "Juliusz Cezar": "O wojnie galijskiej i O wojnie domowej",
       "św. Paweł": "Listy w Nowym Testamencie"
     },
-    "explanation": "Wymienia się Wergiliusza jako autora Eneidy, Cycerona jako wzór mów, Juliusza Cezara jako autora dzieł o wojnach oraz św. Pawła jako autora listów w Nowym Testamencie."
+    "explanation": "Wergiliusz był autorem Eneidy, Cyceron stanowił wzór sztuki oratorskiej, Juliusz Cezar pisał o prowadzonych wojnach, a św. Paweł był autorem listów w Nowym Testamencie."
   },
   {
     "id": "R03_HARD_05",

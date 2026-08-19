@@ -145,7 +145,7 @@ const ALL_EXERCISES = [
       "brąz": "stop miedzi i cyny",
       "mowa": "sposób szybszego przekazywania informacji"
     },
-    "explanation": "Pięściaki, dymarki, brąz i mowa odnoszą się do różnych umiejętności oraz wynalazków opisanych w temacie."
+    "explanation": "Pięściak był kamiennym narzędziem, dymarka służyła do wytopu żelaza, brąz jest stopem miedzi i cyny, a mowa ułatwiała przekazywanie informacji."
   },
   {
     "id": "R01_ZYC_09",
@@ -514,7 +514,7 @@ const ALL_EXERCISES = [
       "Hatszepsut": "kobieta-faraon",
       "Howard Carter": "odkrywca grobowca Tutenchamona"
     },
-    "explanation": "Te postacie i bóstwa pojawiają się w opisach religii, władzy oraz odkryć dotyczących Egiptu."
+    "explanation": "Te postacie i bóstwa są związane z religią, władzą oraz odkryciami dotyczącymi Egiptu."
   },
   {
     "id": "R01_EGI_08",
@@ -614,7 +614,7 @@ const ALL_EXERCISES = [
     "id": "R01_IZR_04",
     "section": "W starożytnym Izraelu",
     "type": "multi_select",
-    "prompt": "Zaznacz pojęcia związane z judaizmem opisane w temacie.",
+    "prompt": "Zaznacz pojęcia związane z judaizmem.",
     "options": [
       "Jahwe",
       "Tora",
@@ -694,7 +694,7 @@ const ALL_EXERCISES = [
       "Dawid": "zjednoczył plemiona i zdobył Jerozolimę",
       "Salomon": "słynął z mądrości i był synem Dawida"
     },
-    "explanation": "Abraham, Mojżesz, Dawid i Salomon to najważniejsze postacie opisane w temacie o Izraelitach."
+    "explanation": "Abraham, Mojżesz, Dawid i Salomon należą do najważniejszych postaci w dziejach starożytnych Izraelitów."
   },
   {
     "id": "R01_IZR_08",
@@ -742,7 +742,7 @@ const ALL_EXERCISES = [
     "id": "R01_IND_01",
     "section": "Cywilizacje Indii i Chin",
     "type": "single_choice",
-    "prompt": "Gdzie narodziła się najstarsza cywilizacja Azji Środkowej opisana w temacie?",
+    "prompt": "Gdzie narodziła się najstarsza cywilizacja Azji Środkowej?",
     "options": [
       "w dolinie rzeki Indus",
       "nad Nilem",
@@ -803,7 +803,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Jako najważniejszych bogów hinduizmu wymieniono Brahmę, Wisznu i Sziwę."
+    "explanation": "Do najważniejszych bogów hinduizmu należą Brahma, Wisznu i Sziwa."
   },
   {
     "id": "R01_IND_05",
@@ -1036,7 +1036,7 @@ const ALL_EXERCISES = [
     "id": "R01_PIS_07",
     "section": "Od hieroglifów do alfabetu",
     "type": "sequence",
-    "prompt": "Ułóż etapy rozwoju znaku pisma zgodnie z infografiką.",
+    "prompt": "Ułóż etapy rozwoju znaku pisma w kolejności od najstarszego do współczesnego.",
     "options": null,
     "items": [
       "litera grecka",
@@ -1054,7 +1054,7 @@ const ALL_EXERCISES = [
       "litera łacińska",
       "pismo współczesne"
     ],
-    "explanation": "Infografika pokazuje przejście od hieroglifu przez pisma alfabetyczne do pisma współczesnego.",
+    "explanation": "Rozwój pisma prowadził od hieroglifów i uproszczonych form pisma egipskiego przez alfabet fenicki, grecki i łaciński do pisma współczesnego.",
     "image": "/img/r01_hieroglify_alfabety.jpg"
   },
   {
@@ -1183,7 +1183,7 @@ const ALL_EXERCISES = [
       "społeczeństwa bez władzy"
     ],
     "answer": 0,
-    "explanation": "Mezopotamia, Egipt, dolina Indusu i Chiny to przykłady cywilizacji rozwijających się w dolinach wielkich rzek."
+    "explanation": "Mezopotamia, Egipt, dolina Indusu i Chiny rozwijały się w dolinach wielkich rzek."
   },
   {
     "id": "R01_HARD_05",

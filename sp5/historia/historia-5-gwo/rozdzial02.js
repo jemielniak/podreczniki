@@ -148,7 +148,7 @@ const ALL_EXERCISES = [
       "barbarzyńcy": "nazwa nie-Greków",
       "polis": "greckie miasto-państwo"
     },
-    "explanation": "Hellada, Hellenowie, barbarzyńcy i polis to podstawowe pojęcia z opisu starożytnej Grecji."
+    "explanation": "Hellada, Hellenowie, barbarzyńcy i polis to podstawowe pojęcia dotyczące starożytnej Grecji."
   },
   {
     "id": "R02_POL_10",
@@ -362,7 +362,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Wskazuje się m.in. brak praw głosu kobiet, niewolników i cudzoziemców, demokrację bezpośrednią oraz losowanie wielu urzędów."
+    "explanation": "W demokracji ateńskiej kobiety, niewolnicy i cudzoziemcy nie mieli prawa głosu; była to demokracja bezpośrednia, a wiele urzędów obsadzano przez losowanie."
   },
   {
     "id": "R02_DEM_11",
@@ -601,7 +601,7 @@ const ALL_EXERCISES = [
     "prompt": "Herakles był przykładem herosa.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się Heraklesa jako herosa, syna Zeusa i ziemskiej kobiety."
+    "explanation": "Herakles był herosem, synem Zeusa i ziemskiej kobiety."
   },
   {
     "id": "R02_MIT_10",
@@ -957,7 +957,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIE_02",
     "section": "Powtórka mieszana",
     "type": "sort",
-    "prompt": "Przyporządkuj pojęcia do lekcji, z którą najbardziej się łączą.",
+    "prompt": "Przyporządkuj pojęcia do tematu, z którym najbardziej się łączą.",
     "options": null,
     "items": [
       "ostracyzm",
@@ -1048,7 +1048,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIE_07",
     "section": "Powtórka mieszana",
     "type": "single_choice",
-    "prompt": "Który zestaw zawiera wyłącznie postacie wymienione w części o osiągnięciach Greków?",
+    "prompt": "Który zestaw zawiera wyłącznie postacie związane z osiągnięciami Greków?",
     "options": [
       "Fidiasz, Sofokles, Hipokrates",
       "Zeus, Hera, Posejdon",
@@ -1058,7 +1058,7 @@ const ALL_EXERCISES = [
       "Temistokles, Hera, Odyseusz"
     ],
     "answer": 0,
-    "explanation": "Fidiasz, Sofokles i Hipokrates pojawiają się w części o architekturze, teatrze, literaturze, filozofii i nauce."
+    "explanation": "Fidiasz, Sofokles i Hipokrates byli związani odpowiednio ze sztuką, teatrem i medycyną starożytnej Grecji."
   },
   {
     "id": "R02_MIE_08",
@@ -1079,7 +1079,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "W jakich latach Perykles był przywódcą Aten według osi czasu?",
+    "prompt": "W jakich latach Perykles był przywódcą Aten?",
     "options": [
       "ok. 461–429 p.n.e.",
       "594–508/507 p.n.e.",
@@ -1089,7 +1089,7 @@ const ALL_EXERCISES = [
       "ok. 495–429 n.e."
     ],
     "answer": 0,
-    "explanation": "Oś czasu podaje okres ok. 461–429 p.n.e."
+    "explanation": "Perykles był przywódcą Aten około 461–429 p.n.e."
   },
   {
     "id": "R02_HARD_02",
@@ -1152,7 +1152,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz stwierdzenia zgodne z opisem Partenonu.",
+    "prompt": "Zaznacz prawdziwe stwierdzenia dotyczące Partenonu.",
     "options": [
       "Wzniesiono go z potężnych marmurowych bloków.",
       "Kolumny pochylono ku środkowi.",

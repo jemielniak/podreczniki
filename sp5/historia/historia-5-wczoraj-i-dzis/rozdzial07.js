@@ -194,7 +194,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Plątonogi, Łysy, Garbaty, Wierzynek.",
     "options": null,
     "answer": "Wierzynek",
-    "explanation": "Plątonogi, Łysy i Garbaty to przykłady przydomków książąt piastowskich, a Wierzynek był krakowskim mieszczaninem z czasów Kazimierza Wielkiego."
+    "explanation": "Plątonogi, Łysy i Garbaty były przydomkami książąt piastowskich, a Wierzynek był krakowskim mieszczaninem z czasów Kazimierza Wielkiego."
   },
   {
     "id": "R07_ZJE_01",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r07_podzial_polski_dzielnice.jpg",
-    "explanation": "Śmierć Leszka Białego w 1227 roku jest wskazana jako ostateczny upadek władzy zwierzchniej seniora."
+    "explanation": "Śmierć Leszka Białego w 1227 roku uznaje się za ostateczny upadek zwierzchniej władzy seniora nad pozostałymi Piastami."
   },
   {
     "id": "R07_HARD_02",

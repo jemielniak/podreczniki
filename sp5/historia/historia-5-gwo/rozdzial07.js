@@ -1298,7 +1298,7 @@ const ALL_EXERCISES = [
       "Zasłynął głównie ze sprowadzenia Krzyżaków do Polski"
     ],
     "answer": 0,
-    "explanation": "Pokazuje się Kazimierza jako władcę, który jednocześnie prowadził politykę zagraniczną, reformy wewnętrzne i rozwój kultury."
+    "explanation": "Kazimierz Wielki prowadził politykę zagraniczną, reformował państwo i wspierał rozwój kultury."
   },
   {
     "id": "R07_HARD_12",

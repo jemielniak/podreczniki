@@ -248,7 +248,7 @@ const ALL_EXERCISES = [
     "section": "Wielka wojna z zakonem krzyżackim",
     "type": "true_false",
     "prompt": "Zamek w Malborku był stolicą państwa zakonu krzyżackiego.",
-    "explanation": "Opisuje się zamek w Malborku jako stolicę zakonnego państwa i jedną z najpotężniejszych warowni w Europie.",
+    "explanation": "Zamek w Malborku był stolicą państwa zakonu krzyżackiego i jedną z najpotężniejszych warowni w Europie.",
     "options": null,
     "answer": true,
     "image": "/img/r08_zamek_malbork.jpg"
@@ -257,8 +257,8 @@ const ALL_EXERCISES = [
     "id": "R08_WOJ_03",
     "section": "Wielka wojna z zakonem krzyżackim",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy zamku w Malborku wymienione w infografice.",
-    "explanation": "Infografika wskazuje m.in. Zamek Wysoki, Pałac wielkiego mistrza, Wielki refektarz i gdanisko.",
+    "prompt": "Zaznacz elementy zamku w Malborku.",
+    "explanation": "Do ważnych części zamku w Malborku należą m.in. Zamek Wysoki, Pałac wielkiego mistrza, Wielki refektarz i gdanisko.",
     "options": [
       "Zamek Wysoki",
       "Pałac wielkiego mistrza",
@@ -764,7 +764,7 @@ const ALL_EXERCISES = [
     "id": "R08_SZL_07",
     "section": "Od rycerstwa do szlachty",
     "type": "sequence",
-    "prompt": "Ułóż kolejne kroki działania sejmu walnego według infografiki.",
+    "prompt": "Ułóż kolejne kroki działania sejmu walnego w poprawnej kolejności.",
     "explanation": "Najpierw król zawiadamiał szlachtę i zwoływał sejmiki, potem wybierano posłów i dawano im instrukcje, na sejmie dyskutowano projekt, a nowe prawo wymagało zgody trzech stanów.",
     "options": null,
     "items": [
@@ -860,7 +860,7 @@ const ALL_EXERCISES = [
     "section": "Polska i Litwa w XV wieku",
     "type": "single_choice",
     "prompt": "Jaka wartość była najważniejszym wkładem Polski do kultury europejskiej od drugiej połowy XIV w.?",
-    "explanation": "Wskazuje się tolerancję religijną jako najważniejszą wartość wnoszoną przez Polaków do kultury europejskiej.",
+    "explanation": "Tolerancja religijna była ważnym wkładem Polski do kultury europejskiej.",
     "options": [
       "tolerancja religijna",
       "budowa piramid",
@@ -997,7 +997,7 @@ const ALL_EXERCISES = [
     "section": "Polska i Litwa w XV wieku",
     "type": "fill_in",
     "prompt": "Wit Stwosz pracował nad ołtarzem w Kościele Mariackim w latach __________-__________.",
-    "explanation": "Infografika podaje, że Wit Stwosz pracował nad swoim arcydziełem 12 lat, od 1477 do 1489 r.",
+    "explanation": "Wit Stwosz pracował nad ołtarzem w Kościele Mariackim przez 12 lat, od 1477 do 1489 r.",
     "options": null,
     "answer": [
       "1477",

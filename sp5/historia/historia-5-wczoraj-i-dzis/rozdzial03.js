@@ -928,7 +928,7 @@ const ALL_EXERCISES = [
     "id": "R03_BUR_02",
     "section": "Bursztynowy szlak",
     "type": "multi_select",
-    "prompt": "Zaznacz ślady kontaktów ziem polskich z Imperium Rzymskim wymienione w tekście o bursztynowym szlaku.",
+    "prompt": "Zaznacz ślady kontaktów ziem polskich z Imperium Rzymskim związane z bursztynowym szlakiem.",
     "explanation": "Na terenach Polski znajdowano składy bursztynu, rzymskie monety i przedmioty codziennego użytku.",
     "options": [
       "składy bursztynu",
@@ -979,8 +979,8 @@ const ALL_EXERCISES = [
     "id": "R03_BUR_05",
     "section": "Bursztynowy szlak",
     "type": "match",
-    "prompt": "Połącz nazwę z opisem z tekstu o bursztynowym szlaku.",
-    "explanation": "Tekst o bursztynowym szlaku łączy Ptolemeusza, Calisię, Bramę Morawską i Pruszcz Gdański z kontaktami handlowymi.",
+    "prompt": "Połącz nazwę z właściwym opisem.",
+    "explanation": "Ptolemeusz był greckim geografem i astronomem, Calisia pojawia się w starożytnym źródle, Brama Morawska tworzy naturalne przejście między Sudetami i Karpatami, a w Pruszczu Gdańskim zrekonstruowano osadę z czasów rzymskich.",
     "options": null,
     "left": [
       "Ptolemeusz",
@@ -1210,7 +1210,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "true_false",
     "prompt": "Pozbawienie władzy Romulusa Augustulusa w 476 roku n.e. historycy uznali za symboliczny koniec starożytności.",
-    "explanation": "Wskazuje się 476 rok n.e. jako upadek cesarstwa zachodniorzymskiego i symboliczny koniec starożytności.",
+    "explanation": "Rok 476 n.e. uznaje się za datę upadku cesarstwa zachodniorzymskiego i symboliczny koniec starożytności.",
     "options": null,
     "answer": true
   },

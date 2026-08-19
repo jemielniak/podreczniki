@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Roku 0 nie było.",
     "options": null,
     "answer": true,
-    "explanation": "Na osi czasu po 1 roku p.n.e. następuje 1 rok n.e., bez roku zerowego."
+    "explanation": "Po 1 roku p.n.e. następuje 1 rok n.e.; w tej rachubie nie występuje rok zerowy."
   },
   {
     "id": "R01_CZA_03",
@@ -129,7 +129,7 @@ const ALL_EXERCISES = [
       "średniowiecze",
       "nowożytność"
     ],
-    "explanation": "Podaje się kolejność: starożytność, średniowiecze, nowożytność."
+    "explanation": "Kolejność epok to: starożytność, średniowiecze, nowożytność."
   },
   {
     "id": "R01_CZA_09",
@@ -286,7 +286,7 @@ const ALL_EXERCISES = [
       "z cegieł suszonych na słońcu"
     ],
     "answer": 2,
-    "explanation": "Opisano namioty z kości mamuta okrytych zwierzęcymi skórami."
+    "explanation": "Namioty budowano z kości mamuta i okrywano zwierzęcymi skórami."
   },
   {
     "id": "R01_PAL_07",
@@ -355,7 +355,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "image": "/img/r01_jaskinia_paleolit.jpg",
-    "explanation": "Opis pasuje do koczowniczego trybu życia ludzi paleolitu."
+    "explanation": "Koczowniczy tryb życia polegał na przemieszczaniu się w poszukiwaniu pożywienia i zwierzyny."
   },
   {
     "id": "R01_PAL_11",
@@ -381,7 +381,7 @@ const ALL_EXERCISES = [
       "łuk": "łatwiejsze polowanie na szybkie zwierzęta",
       "krzemień": "wyrób ostrych narzędzi i broni"
     },
-    "explanation": "Opisano praktyczne znaczenie jaskini, ognia, łuku i krzemienia."
+    "explanation": "Jaskinia dawała schronienie, ogień służył m.in. do ogrzewania i przygotowania pożywienia, łuk ułatwiał polowanie, a krzemień wykorzystywano do wyrobu narzędzi i broni."
   },
   {
     "id": "R01_PAL_12",
@@ -406,7 +406,7 @@ const ALL_EXERCISES = [
       "w Rzymie"
     ],
     "answer": 1,
-    "explanation": "Wskazuje się mieszkańców Bliskiego Wschodu jako pierwszych rolników."
+    "explanation": "Pierwsi rolnicy pojawili się na Bliskim Wschodzie."
   },
   {
     "id": "R01_NEO_02",
@@ -562,7 +562,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "image": "/img/r01_wies_neolityczna.jpg",
-    "explanation": "Opis dotyczy młodszej epoki kamienia, czyli neolitu."
+    "explanation": "Trwałe domy, uprawa zboża, hodowla zwierząt i wyrób naczyń są cechami neolitu."
   },
   {
     "id": "R01_NEO_10",
@@ -583,7 +583,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymieniono kozy, owce, bydło i świnie."
+    "explanation": "W neolicie udomowiono m.in. kozy, owce, bydło i świnie."
   },
   {
     "id": "R01_NEO_11",
@@ -977,7 +977,7 @@ const ALL_EXERCISES = [
       "niewolnicy"
     ],
     "image": "/img/r01_piramida_spoleczna_egiptu.jpg",
-    "explanation": "Przedstawia się społeczeństwo jako piramidę: faraon, wezyr, kapłani, urzędnicy, rzemieślnicy, żołnierze, chłopi, niewolnicy."
+    "explanation": "Społeczeństwo egipskie miało hierarchiczną strukturę: faraon, wezyr, kapłani, urzędnicy, rzemieślnicy, żołnierze, chłopi i niewolnicy."
   },
   {
     "id": "R01_EGI_08",
@@ -1083,7 +1083,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który rok według przykładów należy do VIII wieku p.n.e.?",
+    "prompt": "Który z podanych lat należy do VIII wieku p.n.e.?",
     "options": [
       "776 r. p.n.e.",
       "1370 r. n.e.",
@@ -1093,7 +1093,7 @@ const ALL_EXERCISES = [
       "1001 r. n.e."
     ],
     "answer": 0,
-    "explanation": "Pokazuje się przykład: 776 rok p.n.e. to VIII wiek p.n.e."
+    "explanation": "776 rok p.n.e. należy do VIII wieku p.n.e."
   },
   {
     "id": "R01_HARD_03",
@@ -1140,7 +1140,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Co zakończyło młodszą epokę kamienia według fragmentu o Sumerach?",
+    "prompt": "Co zakończyło młodszą epokę kamienia w dziejach Sumerów?",
     "options": [
       "uzyskanie brązu",
       "wynalezienie łuku",
@@ -1191,7 +1191,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Która budowla została opisana jako najwyższa kamienna budowla na Ziemi, o wysokości 138 metrów?",
+    "prompt": "Która z wymienionych budowli ma 138 metrów wysokości i jest najwyższą kamienną budowlą na Ziemi?",
     "options": [
       "piramida Cheopsa",
       "Wielki Mur Chiński",
@@ -1202,7 +1202,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r01_piramida_cheopsa.jpg",
-    "explanation": "Opis dotyczy piramidy Cheopsa, zbudowanej w XXVI wieku p.n.e."
+    "explanation": "Piramida Cheopsa, zbudowana w XXVI wieku p.n.e., ma 138 metrów wysokości."
   },
   {
     "id": "R01_HARD_09",

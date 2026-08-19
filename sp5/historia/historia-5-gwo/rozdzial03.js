@@ -390,7 +390,7 @@ const ALL_EXERCISES = [
         "cesarzem"
       ]
     ],
-    "explanation": "Opisuje się cesarstwo jako odmianę monarchii, z cesarzem zamiast króla."
+    "explanation": "Cesarstwo było odmianą monarchii, w której zamiast króla rządził cesarz."
   },
   {
     "id": "R03_UST_12",
@@ -569,7 +569,7 @@ const ALL_EXERCISES = [
     "prompt": "Rzymskie kobiety miały mniej swobody niż Atenki.",
     "options": null,
     "answer": false,
-    "explanation": "Podaje się odwrotnie: rzymskie kobiety miały więcej swobody niż Atenki, choć nie mogły obejmować urzędów."
+    "explanation": "Rzymskie kobiety miały więcej swobody niż Atenki, choć nie mogły obejmować urzędów."
   },
   {
     "id": "R03_SPO_11",
@@ -843,7 +843,7 @@ const ALL_EXERCISES = [
     "id": "R03_OSI_13",
     "section": "Osiągnięcia i rozrywki",
     "type": "multi_select",
-    "prompt": "Które języki podaje się jako romańskie, wywodzące się z łaciny?",
+    "prompt": "Które z podanych języków romańskich wywodzą się z łaciny?",
     "options": [
       "włoski",
       "francuski",
@@ -1138,7 +1138,7 @@ const ALL_EXERCISES = [
       "Leonardo da Vinci"
     ],
     "answer": 0,
-    "explanation": "W tekście źródłowym Józef Flawiusz pisał, że wielkość państwa była owocem męstwa i ćwiczeń Rzymian."
+    "explanation": "Józef Flawiusz wiązał wielkość państwa rzymskiego z męstwem i nieustannymi ćwiczeniami wojskowymi Rzymian."
   },
   {
     "id": "R03_HARD_02",
@@ -1158,7 +1158,7 @@ const ALL_EXERCISES = [
         "25 do 30"
       ]
     ],
-    "explanation": "Infografika o legionistach podaje, że w I–II w. n.e. armia rzymska składała się z 25–30 legionów."
+    "explanation": "W I–II w. n.e. armia rzymska składała się z około 25–30 legionów."
   },
   {
     "id": "R03_HARD_03",
@@ -1183,7 +1183,7 @@ const ALL_EXERCISES = [
       "Neron"
     ],
     "answer": 0,
-    "explanation": "W tekście źródłowym Ammianus Marcellinus pisał o ogromnym znaczeniu Circus Maximus dla widzów."
+    "explanation": "Ammianus Marcellinus pisał o ogromnym znaczeniu Circus Maximus dla rzymskich widzów."
   },
   {
     "id": "R03_HARD_05",

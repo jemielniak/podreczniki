@@ -42,7 +42,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymieniono duchowieństwo, rycerstwo, mieszczaństwo i chłopstwo."
+    "explanation": "Cztery stany średniowiecznego społeczeństwa to duchowieństwo, rycerstwo, mieszczaństwo i chłopstwo."
   },
   {
     "id": "R05_FEU_03",
@@ -264,7 +264,7 @@ const ALL_EXERCISES = [
     "id": "R05_RYC_05",
     "section": "Na rycerskim zamku",
     "type": "scenario",
-    "prompt": "Na placu dwie drużyny konnych rycerzy ruszają na siebie, a ten, kto spada z konia, trafia do niewoli. Jaki rodzaj walki turniejowej opisano?",
+    "prompt": "Na placu dwie drużyny konnych rycerzy ruszają na siebie, a ten, kto spada z konia, trafia do niewoli. Jaki rodzaj walki turniejowej odbywa się w tej sytuacji?",
     "options": [
       "pozorowana bitwa",
       "hołd lenny",
@@ -1017,7 +1017,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIE_07",
     "section": "Powtórka mieszana",
     "type": "scenario",
-    "prompt": "Uczeń widzi budowlę z grubymi murami, małymi oknami i mrocznym wnętrzem. Jaki styl opisuje?",
+    "prompt": "Uczeń widzi budowlę z grubymi murami, małymi oknami i mrocznym wnętrzem. Jaki to styl architektoniczny?",
     "options": [
       "romański",
       "gotycki",
@@ -1114,7 +1114,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_03",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Król Anglii ma własne królestwo, ale posiada też księstwo we Francji i z tego powodu składa hołd królowi Francji. Jaką podwójną sytuację opisuje ten przykład?",
+    "prompt": "Król Anglii ma własne królestwo, ale posiada też księstwo we Francji i z tego powodu składa hołd królowi Francji. Jaką podwójną pozycję zajmuje?",
     "options": [
       "w jednym kraju był wasalem, a w drugim suzerenem",
       "wszędzie był poddanym chłopskim",
@@ -1159,7 +1159,7 @@ const ALL_EXERCISES = [
         "jeden rok"
       ]
     ],
-    "explanation": "W ramce podano zasadę: rok i jeden dzień w mieście dawały zbiegłemu chłopu wolność."
+    "explanation": "Rok i jeden dzień pobytu w mieście dawały zbiegłemu chłopu wolność."
   },
   {
     "id": "R05_HARD_06",
@@ -1222,7 +1222,7 @@ const ALL_EXERCISES = [
         "Jan z Beka"
       ]
     },
-    "explanation": "Osoby pojawiają się w częściach o rycerstwie, zakonach i kulturze."
+    "explanation": "Św. Benedykt i św. Franciszek z Asyżu są związani z zakonami, a Christine de Pisan i Jan z Beka z kulturą rycerską i tematyką kobiet."
   }
 ];
 

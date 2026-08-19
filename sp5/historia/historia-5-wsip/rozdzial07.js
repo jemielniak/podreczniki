@@ -743,7 +743,7 @@ const ALL_EXERCISES = [
     "prompt": "Unia personalna oznacza połączenie państw pod władzą jednego monarchy przy zachowaniu ich odrębności.",
     "options": null,
     "answer": true,
-    "explanation": "Tak definiuje się unię personalną, na przykład związek Polski i Węgier pod rządami Ludwika."
+    "explanation": "Unia personalna łączy państwa osobą wspólnego monarchy przy zachowaniu ich odrębności; taki związek tworzyły Polska i Węgry pod rządami Ludwika."
   },
   {
     "id": "R07_UNI_03",

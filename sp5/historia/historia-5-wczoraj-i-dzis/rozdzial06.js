@@ -32,7 +32,7 @@ const ALL_EXERCISES = [
     "prompt": "Słowianie osiedlali się w Europie wschodniej, środkowej i południowej od V do VIII wieku.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się V-VIII wiek jako czas zasiedlania tych obszarów Europy przez Słowian."
+    "explanation": "Słowianie zasiedlali te obszary Europy od V do VIII wieku."
   },
   {
     "id": "R06_ZAN_03",
@@ -126,7 +126,7 @@ const ALL_EXERCISES = [
       "Świętowit": "pan wojny, płodności i urodzaju",
       "Marzanna": "słowiańska bogini śmierci"
     },
-    "explanation": "Opisuje się te postacie jako elementy wierzeń dawnych Słowian.",
+    "explanation": "Swaróg, Perun, Świętowit i Marzanna należeli do postaci obecnych w wierzeniach dawnych Słowian.",
     "image": "/img/r06_slowianskie_obrzedy.jpg"
   },
   {
@@ -1126,7 +1126,7 @@ const ALL_EXERCISES = [
       "Kupcy": "sprzedaż towarów na targach",
       "Wojowie": "obrona grodu i okolicznych ziem"
     },
-    "explanation": "Infografika o grodzie w Gnieźnie pokazuje różne grupy mieszkańców i ich zadania.",
+    "explanation": "W grodzie i podgrodziu mieszkali między innymi chłopi, rzemieślnicy, kupcy i wojowie, którzy pełnili różne funkcje.",
     "image": "/img/r06_grod_gniezno.jpg"
   },
   {
@@ -1177,7 +1177,7 @@ const ALL_EXERCISES = [
     "id": "R06_SPO_08",
     "section": "Społeczeństwo i kronikarze",
     "type": "single_choice",
-    "prompt": "Kto według infografiki najczęściej mieszkał na podgrodziu?",
+    "prompt": "Kto najczęściej mieszkał na podgrodziu?",
     "options": [
       "Rzemieślnicy i kupcy",
       "Tylko książę i jego rodzina",
@@ -1339,13 +1339,13 @@ const ALL_EXERCISES = [
         "obrona Głogowa"
       ]
     },
-    "explanation": "Każdy zestaw wskazuje charakterystyczne osoby lub skutki najważniejszych wydarzeń."
+    "explanation": "Poszczególne osoby i skutki są związane z chrztem Mieszka I, zjazdem gnieźnieńskim, kryzysem XI wieku lub najazdem z 1109 roku."
   },
   {
     "id": "R06_HARD_03",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Wincenty Kadłubek opisał zwycięstwo Krzywoustego nad Niemcami na Psim Polu, ale Gall Anonim piszący kilka lat po najazdzie o takiej bitwie nie wspomniał, a badania archeologiczne jej nie potwierdziły. Jaki wniosek przedstawia się?",
+    "prompt": "Wincenty Kadłubek opisał zwycięstwo Krzywoustego nad Niemcami na Psim Polu, ale Gall Anonim piszący kilka lat po najazdzie o takiej bitwie nie wspomniał, a badania archeologiczne jej nie potwierdziły. Jaki wniosek jest najbardziej uzasadniony?",
     "options": [
       "Uczeni uznali opowieść o Psim Polu za wymyśloną",
       "Bitwa na Psim Polu jest najlepiej potwierdzoną bitwą tego okresu",

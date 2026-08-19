@@ -157,7 +157,7 @@ const ALL_EXERCISES = [
     "prompt": "Wnętrza kościołów i pałaców bizantyjskich zdobiono freskami oraz mozaikami.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się freski i mozaiki jako charakterystyczne dekoracje wnętrz bizantyjskich."
+    "explanation": "Freski i mozaiki były charakterystycznymi dekoracjami wnętrz bizantyjskich."
   },
   {
     "id": "R04_BIZ_10",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "prompt": "W VIII wieku Arabowie opanowali ziemie od Indii po Morze Śródziemne, północną Afrykę i część dzisiejszej Hiszpanii.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się taki zasięg podbojów arabskich w VIII wieku.",
+    "explanation": "W VIII wieku podboje arabskie objęły ziemie od Indii po Morze Śródziemne, północną Afrykę i część dzisiejszej Hiszpanii.",
     "image": "/img/r04_wojownik_arabski.jpg"
   },
   {
@@ -855,7 +855,7 @@ const ALL_EXERCISES = [
     "id": "R04_WYP_02",
     "section": "Wyprawy krzyżowe",
     "type": "multi_select",
-    "prompt": "Zaznacz miasta Ziemi Świętej wymienione jako związane z życiem i działalnością Jezusa.",
+    "prompt": "Zaznacz miasta Ziemi Świętej związane z życiem i działalnością Jezusa.",
     "options": [
       "Jerozolima",
       "Betlejem",
@@ -1089,7 +1089,7 @@ const ALL_EXERCISES = [
         "30 metrów"
       ]
     ],
-    "explanation": "Infografika o Hagia Sophia podaje, że kopuła jest z cegieł i ma ponad 30 metrów średnicy.",
+    "explanation": "Kopułę Hagia Sophia wymurowano z cegieł; ma ponad 30 metrów średnicy.",
     "image": "/img/r04_hagia_sophia_kopula.jpg"
   },
   {
@@ -1195,7 +1195,7 @@ const ALL_EXERCISES = [
       "Klemens V": "papież, który rozwiązał zakon templariuszy",
       "Filip IV Piękny": "król Francji, który przejął majątek templariuszy"
     },
-    "explanation": "Teksty źródłowe i opowieść o templariuszach podają te mniej oczywiste postacie i ich role."
+    "explanation": "Al-Mansur i al-Ma'mun byli kalifami związanymi z pozyskiwaniem i tłumaczeniem dzieł naukowych, a Klemens V i Filip IV Piękny odegrali kluczowe role w likwidacji zakonu templariuszy."
   },
   {
     "id": "R04_HARD_09",
@@ -1220,7 +1220,7 @@ const ALL_EXERCISES = [
       "Konkordat wormacki"
     ],
     "answer": 0,
-    "explanation": "O skarbie templariuszy opisano Pergamin z Chinon odnaleziony w Tajnym Archiwum Watykanu."
+    "explanation": "Pergamin z Chinon, odnaleziony w 2001 roku w Tajnym Archiwum Watykanu, miał potwierdzać, że templariusze nie odstąpili od wiary chrześcijańskiej."
   }
 ];
 

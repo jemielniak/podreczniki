@@ -885,7 +885,7 @@ const ALL_EXERCISES = [
     "id": "R04_SLO_03",
     "section": "Słowiańszczyzna",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem życia dawnych Słowian.",
+    "prompt": "Zaznacz prawdziwe informacje o życiu dawnych Słowian.",
     "options": [
       "Zakładali skromne osady nad rzekami",
       "Posługiwali się prostymi narzędziami",
@@ -942,7 +942,7 @@ const ALL_EXERCISES = [
       "Ruś Kijowska": "Rurykowicze"
     },
     "image": "/img/r04_mapa_slowianie.jpg",
-    "explanation": "Wskazano najważniejsze dynastie państw Europy Środkowej i Wschodniej."
+    "explanation": "Czechami rządzili Przemyślidzi, Polską Piastowie, Węgrami Arpadowie, a Rusią Kijowską Rurykowicze."
   },
   {
     "id": "R04_SLO_06",
@@ -1091,7 +1091,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Podsumowanie wskazuje m.in. pochodzenie nazw państw, trwałość cyrylicy oraz znaczenie cyfr arabskich."
+    "explanation": "Do trwałego dziedzictwa wczesnego średniowiecza należą m.in. nazwy części państw, cyrylica oraz upowszechnienie cyfr arabskich."
   },
   {
     "id": "R04_HARD_02",
@@ -1308,7 +1308,7 @@ const ALL_EXERCISES = [
         "Wielkie Morawy"
       ]
     },
-    "explanation": "Ćwiczenie łączy najważniejsze pojęcia z czterema kręgami kulturowymi."
+    "explanation": "Pojęcia odnoszą się do czterech kręgów kulturowych: Bizancjum, islamu, Franków i Słowian."
   },
   {
     "id": "R04_HARD_12",

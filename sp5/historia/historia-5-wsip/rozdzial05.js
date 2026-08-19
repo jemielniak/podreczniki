@@ -31,7 +31,7 @@ const ALL_EXERCISES = [
     "prompt": "Wasal miał obowiązek dochować wierności seniorowi, walczyć pod jego dowództwem i służyć mu radą.",
     "options": null,
     "answer": true,
-    "explanation": "Wymienia się właśnie wierność, służbę wojskową i służenie radą jako podstawowe obowiązki wasala."
+    "explanation": "Podstawowe obowiązki wasala obejmowały wierność seniorowi, służbę wojskową i służenie mu radą."
   },
   {
     "id": "R05_RYC_03",
@@ -281,7 +281,7 @@ const ALL_EXERCISES = [
       "cała rodzina": "udział w pracach gospodarskich"
     },
     "image": "/img/r05_gospodarstwo_chlopskie.jpg",
-    "explanation": "Prace gospodarskie angażowały całą rodzinę, ale wskazuje się różne typowe zadania mężczyzn, kobiet i starszych dzieci."
+    "explanation": "Prace gospodarskie angażowały całą rodzinę; mężczyźni, kobiety i starsze dzieci wykonywali różne typowe zadania."
   },
   {
     "id": "R05_WIE_06",
@@ -715,7 +715,7 @@ const ALL_EXERCISES = [
     "id": "R05_KOS_09",
     "section": "Kościół, zakony i kultura",
     "type": "scenario",
-    "prompt": "Widzisz wysoką świątynię o cieńszych murach, ogromnych oknach wypełnionych witrażami i portalach zamkniętych łukiem ostrym. Jaki styl opisano?",
+    "prompt": "Widzisz wysoką świątynię o cieńszych murach, ogromnych oknach wypełnionych witrażami i portalach zamkniętych łukiem ostrym. Jaki to styl?",
     "options": [
       "gotycki",
       "romański",
@@ -726,7 +726,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r05_style_romanski_gotycki.jpg",
-    "explanation": "Opis wskazuje na styl gotycki, który umożliwił wznoszenie wyższych budowli z dużymi oknami."
+    "explanation": "Są to cechy stylu gotyckiego, który umożliwiał wznoszenie wyższych budowli z dużymi oknami."
   },
   {
     "id": "R05_KOS_10",
@@ -1010,13 +1010,13 @@ const ALL_EXERCISES = [
     ],
     "right": [
       "jeden z trzech najważniejszych zakonów rycerskich w Ziemi Świętej",
-      "zakon przedstawiany także jako opiekujący się pielgrzymami",
+      "zakon opiekujący się pielgrzymami",
       "jeden z zakonów, które po klęsce państw krzyżowców działały dalej w Europie",
       "łączyły życie według reguły z obowiązkiem walki"
     ],
     "answer": {
       "templariusze": "jeden z trzech najważniejszych zakonów rycerskich w Ziemi Świętej",
-      "joannici": "zakon przedstawiany także jako opiekujący się pielgrzymami",
+      "joannici": "zakon opiekujący się pielgrzymami",
       "Krzyżacy": "jeden z zakonów, które po klęsce państw krzyżowców działały dalej w Europie",
       "zakony rycerskie": "łączyły życie według reguły z obowiązkiem walki"
     },
@@ -1136,7 +1136,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Padwa, Bolonia, Paryż, Monte Cassino.",
     "options": null,
     "answer": "Monte Cassino",
-    "explanation": "Padwa, Bolonia i Paryż są wymienione jako ośrodki najstarszych uniwersytetów, a Monte Cassino wiąże się z początkiem benedyktynów."
+    "explanation": "Padwa, Bolonia i Paryż były ośrodkami najstarszych uniwersytetów, natomiast Monte Cassino wiąże się z początkiem benedyktynów."
   },
   {
     "id": "R05_HARD_04",

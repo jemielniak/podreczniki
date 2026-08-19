@@ -111,7 +111,7 @@ const ALL_EXERCISES = [
     "id": "R04_BIZ_07",
     "section": "Bizancjum",
     "type": "single_choice",
-    "prompt": "Która budowla jest przedstawiona jako najwspanialszy przykład architektury bizantyjskiej?",
+    "prompt": "Która budowla jest najwspanialszym przykładem architektury bizantyjskiej?",
     "options": [
       "Koloseum",
       "Hagia Sophia",
@@ -122,7 +122,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 1,
     "image": "/img/r04_hagia_sophia_przekroj.jpg",
-    "explanation": "Bazylika Hagia Sophia w Konstantynopolu została opisana jako najwspanialszy przykład architektury bizantyjskiej."
+    "explanation": "Hagia Sophia w Konstantynopolu jest jednym z najważniejszych przykładów architektury bizantyjskiej."
   },
   {
     "id": "R04_BIZ_08",
@@ -202,7 +202,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r04_mury_konstantynopola.jpg",
-    "explanation": "Opis pasuje do Konstantynopola, który był jedną z największych i najświetniejszych stolic średniowiecznego świata."
+    "explanation": "Konstantynopol był jedną z największych i najświetniejszych stolic średniowiecznego świata."
   },
   {
     "id": "R04_ARA_01",
@@ -390,7 +390,7 @@ const ALL_EXERCISES = [
         "judaizm i chrześcijaństwo jako wcześniejsze religie monoteistyczne"
       ]
     },
-    "explanation": "Pokazuje się zarówno elementy islamu, jak i wpływy chrześcijaństwa oraz judaizmu w nauczaniu Mahometa."
+    "explanation": "Islam ma własne podstawowe zasady i świętą księgę, a w jego tradycji widoczne są także związki z judaizmem i chrześcijaństwem."
   },
   {
     "id": "R04_ARA_11",
@@ -424,7 +424,7 @@ const ALL_EXERCISES = [
       "O ugodzie w Wormacji"
     ],
     "answer": 0,
-    "explanation": "Opisuje się wpływ cywilizacji arabskiej na Europę przez naukę, handel, tłumaczenia i zapożyczenia językowe."
+    "explanation": "Cywilizacja arabska wpływała na Europę przez naukę, handel, tłumaczenia i zapożyczenia językowe."
   },
   {
     "id": "R04_KAR_01",
@@ -639,7 +639,7 @@ const ALL_EXERCISES = [
       "reforma kluniacka"
     ],
     "answer": 0,
-    "explanation": "Tak opisane działania Karola Wielkiego tworzą odrodzenie karolińskie."
+    "explanation": "Działania Karola Wielkiego związane z rozwojem nauki, szkół i kopiowaniem ksiąg tworzyły odrodzenie karolińskie."
   },
   {
     "id": "R04_NOW_01",
@@ -1063,7 +1063,7 @@ const ALL_EXERCISES = [
       "podboje Arabów"
     ],
     "answer": 0,
-    "explanation": "Sytuacja opisuje spór o inwestyturę między cesarstwem a papiestwem."
+    "explanation": "Spór o mianowanie biskupów był sporem o inwestyturę między cesarstwem a papiestwem."
   },
   {
     "id": "R04_HARD_01",
@@ -1107,17 +1107,13 @@ const ALL_EXERCISES = [
       "powstanie późniejszej Francji i Niemiec",
       "początek ery muzułmańskiej",
       "odnowienie zachodniego cesarstwa rzymskiego przez Franków",
-      "kompromis w sprawie inwestytury",
-      "podział Kościoła na katolicki i prawosławny",
-      "utworzenie Państwa Kościelnego"
+      "kompromis w sprawie inwestytury"
     ],
     "categories": [
       "traktat w Verdun",
       "hidżra",
       "koronacja Karola Wielkiego",
-      "ugoda w Wormacji",
-      "wielka schizma wschodnia",
-      "darowizna Pepina"
+      "ugoda w Wormacji"
     ],
     "answer": {
       "traktat w Verdun": [
@@ -1131,15 +1127,9 @@ const ALL_EXERCISES = [
       ],
       "ugoda w Wormacji": [
         "kompromis w sprawie inwestytury"
-      ],
-      "wielka schizma wschodnia": [
-        "podział Kościoła na katolicki i prawosławny"
-      ],
-      "darowizna Pepina": [
-        "utworzenie Państwa Kościelnego"
       ]
     },
-    "explanation": "Każde z tych wydarzeń wywołało inne skutki polityczne lub religijne."
+    "explanation": "Traktat w Verdun przyczynił się do powstania Francji i Niemiec, hidżra rozpoczęła erę muzułmańską, koronacja Karola Wielkiego odnowiła cesarstwo na Zachodzie, a ugoda w Wormacji zakończyła spór o inwestyturę."
   },
   {
     "id": "R04_HARD_03",

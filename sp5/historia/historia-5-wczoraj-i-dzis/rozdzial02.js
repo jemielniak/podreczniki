@@ -472,7 +472,7 @@ const ALL_EXERCISES = [
       "Apollo": "lira",
       "Hades": "Cerber"
     },
-    "explanation": "Greckich bogów rozpoznawano po atrybutach, na przykład Zeus miał piorun, a Posejdon trójząb.",
+    "explanation": "Greckich bogów rozpoznawano po atrybutach: Zeus miał piorun, a Posejdon trójząb.",
     "image": "/img/r02_bogowie_olimpijscy_atrybuty.jpg"
   },
   {
@@ -799,7 +799,7 @@ const ALL_EXERCISES = [
     "id": "R02_KUL_10",
     "section": "Kultura starożytnej Grecji",
     "type": "multi_select",
-    "prompt": "Zaznacz konkurencje wchodzące w skład pięcioboju olimpijskiego według infografiki.",
+    "prompt": "Zaznacz konkurencje wchodzące w skład pięcioboju olimpijskiego.",
     "options": [
       "bieg",
       "skok w dal",
@@ -866,7 +866,7 @@ const ALL_EXERCISES = [
     "prompt": "Macedonia leżała na północ od Grecji i w IV wieku p.n.e. stała się silnym państwem.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się Macedonię jako krainę na północ od Grecji, która za Filipa II bardzo się wzmocniła."
+    "explanation": "Macedonia leżała na północ od Grecji i za panowania Filipa II bardzo się wzmocniła."
   },
   {
     "id": "R02_ALE_03",
@@ -913,7 +913,7 @@ const ALL_EXERCISES = [
         "323 roku"
       ]
     ],
-    "explanation": "Oś czasu wskazuje: początek podboju Persji w 334 roku p.n.e., bitwę pod Issos w 333 roku p.n.e. i śmierć Aleksandra w 323 roku p.n.e."
+    "explanation": "Aleksander rozpoczął podbój Persji w 334 roku p.n.e., zwyciężył pod Issos w 333 roku p.n.e., a zmarł w 323 roku p.n.e."
   },
   {
     "id": "R02_ALE_05",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
       "334 p.n.e.": "początek podboju Persji przez Aleksandra",
       "323 p.n.e.": "śmierć Aleksandra Wielkiego"
     },
-    "explanation": "Te daty wyznaczają najważniejsze wydarzenia z tematów o igrzyskach, wojnach perskich i wyprawie Aleksandra."
+    "explanation": "Te daty odnoszą się do igrzysk olimpijskich, wojen perskich i wyprawy Aleksandra Wielkiego."
   },
   {
     "id": "R02_HARD_03",
@@ -1169,7 +1169,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Latarnia morska na Faros została wzniesiona w __________ wieku p.n.e.; według tekstu ogień na jej około __________-metrowej wieży widziano nawet z __________ kilometrów.",
+    "prompt": "Latarnia morska na Faros została wzniesiona w __________ wieku p.n.e.; ogień na jej około __________-metrowej wieży widziano nawet z __________ kilometrów.",
     "options": null,
     "answer": [
       "III",
@@ -1191,14 +1191,14 @@ const ALL_EXERCISES = [
         "60 kilometrów"
       ]
     ],
-    "explanation": "Tekst o Faros podaje III wiek p.n.e., około 130 metrów wysokości i widoczność ognia nawet z 60 kilometrów.",
+    "explanation": "Latarnię na Faros wzniesiono w III wieku p.n.e.; miała około 130 metrów wysokości, a jej ogień był widoczny nawet z 60 kilometrów.",
     "image": "/img/r02_latarnia_faros.jpg"
   },
   {
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak nazywał się architekt, któremu tekst przypisuje projekt latarni aleksandryjskiej na Faros?",
+    "prompt": "Jak nazywał się architekt, któremu przypisuje się projekt latarni aleksandryjskiej na Faros?",
     "options": [
       "Sostratos",
       "Fidiasz",
@@ -1208,7 +1208,7 @@ const ALL_EXERCISES = [
       "Arystofanes"
     ],
     "answer": 0,
-    "explanation": "W tekście jako projektant latarni występuje Sostratos.",
+    "explanation": "Projekt latarni aleksandryjskiej na Faros przypisuje się Sostratosowi.",
     "image": "/img/r02_latarnia_faros.jpg"
   },
   {

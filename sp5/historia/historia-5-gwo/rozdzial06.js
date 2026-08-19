@@ -75,7 +75,7 @@ const ALL_EXERCISES = [
         "966 r."
       ]
     ],
-    "explanation": "Oś czasu wskazuje początek rządów Mieszka około 960 roku i chrzest Polski w 966 roku."
+    "explanation": "Mieszko I rozpoczął rządy około 960 roku, a chrzest przyjął w 966 roku."
   },
   {
     "id": "R06_POC_05",
@@ -546,7 +546,7 @@ const ALL_EXERCISES = [
       "kaplica książęca": "miejsce modlitwy władcy i dworu",
       "podgrodzie": "część z chatami wojów, chłopów i rzemieślników"
     },
-    "explanation": "Infografika grodu pokazuje wał, palatium, kaplicę i podgrodzie z drewnianymi chatami.",
+    "explanation": "Gród na Ostrowie Lednickim obejmował wał obronny, palatium, kaplicę książęcą i podgrodzie z drewnianymi chatami.",
     "image": "/img/r06_grod_ostrow_lednicki.jpg"
   },
   {
@@ -579,7 +579,7 @@ const ALL_EXERCISES = [
         "łaźnie"
       ]
     },
-    "explanation": "Opisuje się zarówno jedzenie i napoje, jak i dbanie o czystość oraz ubrania mieszkańców."
+    "explanation": "Życie codzienne obejmowało pożywienie i napoje, a także ubiór oraz dbanie o higienę."
   },
   {
     "id": "R06_NAJ_10",
@@ -1146,7 +1146,7 @@ const ALL_EXERCISES = [
       "zależność od Niemiec za Kazimierza": "polityka Bolesława Śmiałego i koronacja",
       "ryzyko wojny między synami Krzywoustego": "ustawa sukcesyjna"
     },
-    "explanation": "Każde rozwiązanie odpowiada innemu kryzysowi lub celowi politycznemu opisanych Piastów."
+    "explanation": "Każde rozwiązanie odpowiada innemu kryzysowi lub celowi politycznemu kolejnych Piastów."
   },
   {
     "id": "R06_HARD_08",

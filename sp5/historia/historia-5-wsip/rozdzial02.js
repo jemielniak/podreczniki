@@ -566,7 +566,7 @@ const ALL_EXERCISES = [
     "id": "R02_IGR_03",
     "section": "Teatr i igrzyska",
     "type": "multi_select",
-    "prompt": "Zaznacz dyscypliny wymienione w opisie starożytnych igrzysk greckich.",
+    "prompt": "Zaznacz dyscypliny rozgrywane podczas starożytnych igrzysk greckich.",
     "options": [
       "biegi",
       "rzut dyskiem",
@@ -779,7 +779,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Wymieniono rozwój matematyki, fizyki, astronomii, wiedzy przyrodniczej i medycyny."
+    "explanation": "W starożytnej Grecji rozwijały się matematyka, fizyka, astronomia, wiedza przyrodnicza i medycyna."
   },
   {
     "id": "R02_KUL_04",
@@ -965,7 +965,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "/img/r02_hoplici_falanga.jpg",
-    "explanation": "Maraton, Termopile i Salamina należą do opisu wojen grecko-perskich; wyprawa Aleksandra była późniejsza."
+    "explanation": "Maraton, Termopile i Salamina były związane z wojnami grecko-perskimi; wyprawa Aleksandra była późniejsza."
   },
   {
     "id": "R02_WOJ_04",
@@ -1117,7 +1117,7 @@ const ALL_EXERCISES = [
       "rok 334 przed Aleksandrem"
     ],
     "answer": 0,
-    "explanation": "Podaje się przykład, że 429 rok p.n.e. określano jako 4 rok 87 olimpiady."
+    "explanation": "429 rok p.n.e. określano jako 4 rok 87 olimpiady."
   },
   {
     "id": "R02_HARD_02",

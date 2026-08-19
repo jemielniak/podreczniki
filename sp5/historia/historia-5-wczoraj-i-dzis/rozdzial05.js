@@ -219,7 +219,7 @@ const ALL_EXERCISES = [
       0,
       1
     ],
-    "explanation": "Podsumowanie tematu wskazuje duchownych i rycerzy jako stany, które uzyskały wpływ na rządy."
+    "explanation": "Duchowieństwo i rycerstwo dzięki przywilejom uzyskały wpływ na rządy w państwie."
   },
   {
     "id": "R05_RYC_01",
@@ -533,7 +533,7 @@ const ALL_EXERCISES = [
     "id": "R05_MIA_05",
     "section": "Średniowieczne miasto i wieś",
     "type": "multi_select",
-    "prompt": "Zaznacz organy samorządu miejskiego wymienione w podsumowaniu tematu.",
+    "prompt": "Zaznacz organy samorządu miejskiego.",
     "options": [
       "Rada miejska",
       "Burmistrz",
@@ -815,7 +815,7 @@ const ALL_EXERCISES = [
     "prompt": "Regułę zakonu franciszkanów zatwierdził w 1223 roku papież Honoriusz III.",
     "options": null,
     "answer": true,
-    "explanation": "Tekst źródłowy podaje, że regułę franciszkanów oficjalnie zatwierdzono w 1223 roku."
+    "explanation": "Regułę franciszkanów oficjalnie zatwierdzono w 1223 roku."
   },
   {
     "id": "R05_KOS_09",
@@ -1013,7 +1013,7 @@ const ALL_EXERCISES = [
     "id": "R05_SZT_07",
     "section": "Sztuka średniowiecza",
     "type": "single_choice",
-    "prompt": "Katedra Notre Dame w Paryżu jest podana jako przykład którego stylu?",
+    "prompt": "Do którego stylu architektonicznego należy katedra Notre Dame w Paryżu?",
     "options": [
       "Gotyckiego",
       "Romańskiego",
@@ -1130,7 +1130,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz symbole nadania lenna wymienione przy opisie hołdu lennego.",
+    "prompt": "Zaznacz symbole nadania lenna podczas hołdu lennego.",
     "options": [
       "Włócznia",
       "Chorągiew",
@@ -1154,7 +1154,7 @@ const ALL_EXERCISES = [
     "prompt": "W średniowiecznej Hiszpanii jeden średniej klasy rumak mógł być wart tyle co 40 krów.",
     "options": null,
     "answer": true,
-    "explanation": "W tekście o turniejach podano, że przegrana mogła być kosztowna, bo koń bojowy miał ogromną wartość."
+    "explanation": "Przegrana w turnieju mogła być kosztowna, ponieważ koń bojowy miał ogromną wartość."
   },
   {
     "id": "R05_HARD_04",
@@ -1170,7 +1170,7 @@ const ALL_EXERCISES = [
       "Złożenie ślubów zakonnych"
     ],
     "answer": 0,
-    "explanation": "Przykład Williama Marshala pokazuje, że turnieje mogły być sposobem zdobycia dużych korzyści materialnych."
+    "explanation": "William Marshal zdobywał podczas turniejów konie, zbroje i okupy, dlatego udział w nich mógł przynosić duże korzyści materialne."
   },
   {
     "id": "R05_HARD_05",
@@ -1298,7 +1298,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "/img/r05_oltarz_sredniowieczny.jpg",
-    "explanation": "Przykłady pokazują, że sztuka średniowieczna obejmowała różne dziedziny: złotnictwo, malarstwo, rzeźbę i książkarstwo."
+    "explanation": "Sztuka średniowieczna obejmowała między innymi złotnictwo, malarstwo, rzeźbę i książkarstwo."
   },
   {
     "id": "R05_HARD_11",
