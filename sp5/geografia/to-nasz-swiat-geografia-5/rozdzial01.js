@@ -376,7 +376,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Wymieniono równik, zwrotniki Raka i Koziorożca oraz oba koła podbiegunowe."
+    "explanation": "Równik, zwrotniki Raka i Koziorożca oraz oba koła podbiegunowe są równoleżnikami."
   },
   {
     "id": "R01_KON_01",
@@ -393,7 +393,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_mapa_kontynentow.jpg",
-    "explanation": "Wymienia się siedem kontynentów: Azję, Afrykę, Amerykę Północną, Amerykę Południową, Antarktydę, Europę i Australię."
+    "explanation": "Na Ziemi wyróżnia się siedem kontynentów: Azję, Afrykę, Amerykę Północną, Amerykę Południową, Antarktydę, Europę i Australię."
   },
   {
     "id": "R01_KON_02",
@@ -528,7 +528,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_antarktyda_biegun.jpg",
-    "explanation": "Antarktyda leży na południu Ziemi, a na mapie działu znajduje się przy biegunie południowym i Oceanie Południowym."
+    "explanation": "Antarktyda leży wokół bieguna południowego i jest otoczona wodami Oceanu Południowego."
   },
   {
     "id": "R01_KON_09",
@@ -543,7 +543,7 @@ const ALL_EXERCISES = [
     "id": "R01_KON_10",
     "section": "Kontynenty i oceany",
     "type": "multi_select",
-    "prompt": "Zaznacz kontynenty, które według mapy działu leżą w całości na półkuli południowej.",
+    "prompt": "Zaznacz kontynenty leżące w całości na półkuli południowej.",
     "options": [
       "Australia",
       "Antarktyda",
@@ -556,7 +556,7 @@ const ALL_EXERCISES = [
       0,
       1
     ],
-    "explanation": "Na mapie kontynentami leżącymi w całości na półkuli południowej są Australia i Antarktyda."
+    "explanation": "Australia i Antarktyda leżą w całości na półkuli południowej."
   },
   {
     "id": "R01_ODK_01",
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
         "bogactw"
       ]
     ],
-    "explanation": "Wymienia się głód wiedzy oraz chęć zdobycia bogactwa i nowych ziem jako motywy wypraw."
+    "explanation": "Do motywów wypraw należały głód wiedzy oraz chęć zdobycia bogactwa i nowych ziem."
   },
   {
     "id": "R01_ODK_04",
@@ -617,7 +617,7 @@ const ALL_EXERCISES = [
       "drakkary",
       "drakkar"
     ],
-    "explanation": "Podpisano łodzie wikingów jako drakkary."
+    "explanation": "Łodzie wikingów nazywały się drakkarami."
   },
   {
     "id": "R01_ODK_05",
@@ -674,7 +674,7 @@ const ALL_EXERCISES = [
     "id": "R01_ODK_08",
     "section": "Odkrycia geograficzne",
     "type": "multi_select",
-    "prompt": "Zaznacz dzisiejsze państwa, które podano jako obszar Skandynawii.",
+    "prompt": "Zaznacz państwa zaliczane do Skandynawii.",
     "options": [
       "Norwegia",
       "Szwecja",
@@ -688,7 +688,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Skandynawię wyjaśniono jako tereny dzisiejszej Norwegii, Szwecji i Danii."
+    "explanation": "Do Skandynawii zalicza się Norwegię, Szwecję i Danię."
   },
   {
     "id": "R01_ODK_09",
@@ -854,7 +854,7 @@ const ALL_EXERCISES = [
     "id": "R01_WYP_08",
     "section": "Wielkie wyprawy i odkrywcy",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do trzech słynnych wypraw geograficznych XV i XVI wieku opisanych w lekcji: Krzysztof Kolumb, Vasco da Gama, Ferdynand Magellan, Roald Amundsen.",
+    "prompt": "Co nie pasuje do trzech słynnych wypraw geograficznych XV i XVI wieku: Krzysztof Kolumb, Vasco da Gama, Ferdynand Magellan, Roald Amundsen.",
     "options": null,
     "answer": "Roald Amundsen",
     "explanation": "Kolumb, da Gama i Magellan są związani z wielkimi wyprawami XV i XVI wieku. Roald Amundsen dotyczy późniejszego zdobycia bieguna południowego."
@@ -975,7 +975,7 @@ const ALL_EXERCISES = [
       "1605": "dopłynięcie Janszoona do Australii",
       "1820": "pierwsze zaobserwowanie Antarktydy"
     },
-    "explanation": "Podaje się te daty przy kolejnych wyprawach i odkryciach: Kolumb 1492, da Gama 1497, Magellan 1519, Janszoon 1605, Antarktyda 1820."
+    "explanation": "Krzysztof Kolumb wyruszył w 1492 roku, Vasco da Gama w 1497, Ferdynand Magellan w 1519, Willem Janszoon w 1605, a Antarktydę odkryto w 1820 roku."
   },
   {
     "id": "R01_HARD_04",
@@ -1014,7 +1014,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_australia_i_strzelecki.jpg",
-    "explanation": "Wymienia się Pawła Edmunda Strzeleckiego jako polskiego badacza Australii, który nazwał jej najwyższy szczyt Górą Kościuszki."
+    "explanation": "Paweł Edmund Strzelecki był polskim badaczem Australii i nazwał jej najwyższy szczyt Górą Kościuszki."
   },
   {
     "id": "R01_HARD_06",
@@ -1049,7 +1049,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_08",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj kontynenty według położenia względem równika na mapie działu.",
+    "prompt": "Przyporządkuj kontynenty według ich położenia względem równika.",
     "options": null,
     "items": [
       "Afryka",
@@ -1071,7 +1071,7 @@ const ALL_EXERCISES = [
         "Antarktyda"
       ]
     },
-    "explanation": "Na mapie równik przecina Afrykę i Amerykę Południową. Australia oraz Antarktyda leżą w całości na półkuli południowej."
+    "explanation": "Równik przecina Afrykę i Amerykę Południową. Australia oraz Antarktyda leżą w całości na półkuli południowej."
   },
   {
     "id": "R01_HARD_09",

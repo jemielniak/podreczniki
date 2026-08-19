@@ -178,7 +178,7 @@ const ALL_EXERCISES = [
       "step"
     ],
     "image": "r05_klimatogram.jpg",
-    "explanation": "W materiałach działu podróż przez krajobrazy prowadzi od wilgotnych lasów równikowych przez sawanny i pustynie gorące ku krajobrazom podzwrotnikowym oraz stepom."
+    "explanation": "W układzie strefowym od równika ku wyższym szerokościom geograficznym występują kolejno wilgotne lasy równikowe, sawanny, pustynie gorące, krajobrazy podzwrotnikowe i stepy."
   },
   {
     "id": "R05_LAS_01",
@@ -285,7 +285,7 @@ const ALL_EXERCISES = [
       "orangutan": "południowo-wschodnia Azja",
       "tygrys": "Azja"
     },
-    "explanation": "Wskazuje się przykładowe zwierzęta lasów równikowych z różnych części świata."
+    "explanation": "Zwierzęta wilgotnych lasów równikowych żyją w różnych częściach świata, między innymi w Ameryce Południowej, Afryce i Azji."
   },
   {
     "id": "R05_LAS_07",
@@ -345,7 +345,7 @@ const ALL_EXERCISES = [
         "łowiectwo"
       ]
     },
-    "explanation": "Osobno opisano roślinność, zwierzęta i zajęcia mieszkańców wilgotnych lasów równikowych."
+    "explanation": "Liany i wanilia należą do roślinności i upraw, tapiry i tukany do zwierząt, a rybołówstwo i łowiectwo do zajęć mieszkańców."
   },
   {
     "id": "R05_LAS_10",
@@ -359,7 +359,7 @@ const ALL_EXERCISES = [
       "wycinka lasów",
       "wycinanie lasów"
     ],
-    "explanation": "Taki proces nazwano wylesianiem i opisano jego negatywne skutki przyrodnicze."
+    "explanation": "Wylesianie to wycinanie lasów w celu uzyskania miejsca pod uprawy, zabudowę lub pozyskanie drewna; ma ono negatywne skutki przyrodnicze."
   },
   {
     "id": "R05_SAW_01",
@@ -440,7 +440,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r05_sawanna_baobab_akacja.jpg",
-    "explanation": "W opisie sawanny wymieniono baobaby i akacje jako pojedyncze drzewa rosnące na tych terenach."
+    "explanation": "Baobaby i akacje są charakterystycznymi pojedynczymi drzewami sawanny."
   },
   {
     "id": "R05_SAW_06",
@@ -495,7 +495,7 @@ const ALL_EXERCISES = [
       "górnictwo odkrywkowe"
     ],
     "answer": 0,
-    "explanation": "Taki sposób hodowli opisano jako pasterstwo koczownicze."
+    "explanation": "Przenoszenie się pasterzy wraz ze zwierzętami w poszukiwaniu pożywienia to pasterstwo koczownicze."
   },
   {
     "id": "R05_SAW_09",
@@ -624,7 +624,7 @@ const ALL_EXERCISES = [
     "id": "R05_PUS_06",
     "section": "Pustynia gorąca",
     "type": "match",
-    "prompt": "Połącz pojęcie z opisem z lekcji o pustyni gorącej.",
+    "prompt": "Połącz pojęcie z właściwym opisem.",
     "options": null,
     "left": [
       "oaza",
@@ -641,7 +641,7 @@ const ALL_EXERCISES = [
       "karawana": "grupa ludzi podróżujących na wielbłądach",
       "dromader": "wielbłąd jednogarbny"
     },
-    "explanation": "Wyjaśniono oazy, karawany i przykładowe zwierzę pustyni."
+    "explanation": "Oaza to miejsce z płytko położoną wodą podziemną, karawana to grupa ludzi podróżujących na wielbłądach, a dromader jest wielbłądem jednogarbnym."
   },
   {
     "id": "R05_PUS_07",
@@ -818,7 +818,7 @@ const ALL_EXERCISES = [
       "muflon": "ssak lądowy",
       "jeżowiec": "zwierzę morskie"
     },
-    "explanation": "Wymienia się typowe rośliny uprawne i zwierzęta spotykane w tej strefie."
+    "explanation": "Winorośl i drzewo oliwne są typowymi roślinami uprawnymi, a muflon i jeżowiec należą do zwierząt spotykanych w strefie śródziemnomorskiej."
   },
   {
     "id": "R05_SRD_07",
@@ -879,7 +879,7 @@ const ALL_EXERCISES = [
         "połów ryb"
       ]
     },
-    "explanation": "Osobno opisano rośliny, zwierzęta i zajęcia ludzi w regionie śródziemnomorskim."
+    "explanation": "Cyprys i oleander to rośliny, delfin i muflon to zwierzęta, a turystyka i połów ryb należą do działalności gospodarczej regionu śródziemnomorskiego."
   },
   {
     "id": "R05_SRD_10",
@@ -941,7 +941,7 @@ const ALL_EXERCISES = [
     "prompt": "Na większości stepów panuje klimat umiarkowany ciepły kontynentalny.",
     "options": null,
     "answer": true,
-    "explanation": "Taki klimat wskazano jako typowy dla większości stepów."
+    "explanation": "Klimat umiarkowany ciepły kontynentalny jest typowy dla większości stepów."
   },
   {
     "id": "R05_STE_04",
@@ -1005,7 +1005,7 @@ const ALL_EXERCISES = [
       "suhaki": "Azja",
       "pieski preriowe": "prerie Ameryki Północnej"
     },
-    "explanation": "Wymienia się różne zwierzęta stepów Ameryki Północnej, Ameryki Południowej i Azji."
+    "explanation": "Bizony i pieski preriowe występują w Ameryce Północnej, nandu w Ameryce Południowej, a suhaki w Azji."
   },
   {
     "id": "R05_STE_07",
@@ -1066,7 +1066,7 @@ const ALL_EXERCISES = [
         "wielbłądy dwugarbne"
       ]
     },
-    "explanation": "Pokazuje się przykładowe zwierzęta stepowe z Ameryki Północnej, Ameryki Południowej i Azji."
+    "explanation": "Bizony i pieski preriowe występują w Ameryce Północnej, nandu i nibylisy pampasowe w Ameryce Południowej, a suhaki i wielbłądy dwugarbne w Azji."
   },
   {
     "id": "R05_STE_10",
@@ -1138,7 +1138,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz typ klimatu z krajobrazem opisanym w dziale.",
+    "prompt": "Połącz typ klimatu z właściwym krajobrazem.",
     "options": null,
     "left": [
       "równikowy wybitnie wilgotny",
@@ -1161,13 +1161,13 @@ const ALL_EXERCISES = [
       "podzwrotnikowy morski": "krajobraz śródziemnomorski",
       "umiarkowany ciepły kontynentalny": "step"
     },
-    "explanation": "Każdy krajobraz w dziale ma wskazany typ klimatu lub charakterystyczny przebieg pogody w roku."
+    "explanation": "Wilgotny las równikowy wiąże się z klimatem równikowym wybitnie wilgotnym, sawanna z podrównikowym, pustynia gorąca ze zwrotnikowym suchym, krajobraz śródziemnomorski z podzwrotnikowym morskim, a step z umiarkowanym ciepłym kontynentalnym."
   },
   {
     "id": "R05_HARD_05",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do właściwych krajobrazów.",
+    "prompt": "Przyporządkuj elementy do właściwych typów krajobrazu.",
     "options": null,
     "items": [
       "liany",
@@ -1183,40 +1183,37 @@ const ALL_EXERCISES = [
     ],
     "categories": [
       "las równikowy",
-      "sawanna",
+      "krajobrazy trawiaste (sawanna i step)",
       "pustynia gorąca",
-      "śródziemnomorski",
-      "step"
+      "krajobraz śródziemnomorski"
     ],
     "answer": {
       "las równikowy": [
         "liany",
         "tukany"
       ],
-      "sawanna": [
+      "krajobrazy trawiaste (sawanna i step)": [
         "baobaby",
-        "gnu"
+        "gnu",
+        "czarnoziemy",
+        "suhaki"
       ],
       "pustynia gorąca": [
         "kaktusy",
         "fenki"
       ],
-      "śródziemnomorski": [
+      "krajobraz śródziemnomorski": [
         "makia",
         "jeżowce"
-      ],
-      "step": [
-        "czarnoziemy",
-        "suhaki"
       ]
     },
-    "explanation": "Elementy pochodzą z opisów roślinności i zwierząt poszczególnych krajobrazów działu."
+    "explanation": "Liany i tukany są związane z lasem równikowym; baobaby, gnu, czarnoziemy i suhaki z krajobrazami trawiastymi; kaktusy i fenki z pustynią gorącą; makia i jeżowce z krajobrazem śródziemnomorskim."
   },
   {
     "id": "R05_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż typowy dzień w wilgotnym lesie równikowym zgodnie z opisem.",
+    "prompt": "Ułóż etapy typowego obiegu wody w ciągu dnia w wilgotnym lesie równikowym.",
     "options": null,
     "items": [
       "pada deszcz",
@@ -1273,7 +1270,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do pozostałych klimatów: równikowy wybitnie wilgotny, podrównikowy, zwrotnikowy suchy, preria.",
     "options": null,
     "answer": "preria",
-    "explanation": "Preria to nazwa stepów w Ameryce Północnej, a pozostałe elementy są typami klimatów opisanymi w dziale."
+    "explanation": "Preria to nazwa stepów w Ameryce Północnej, a pozostałe elementy są typami klimatów."
   },
   {
     "id": "R05_HARD_10",

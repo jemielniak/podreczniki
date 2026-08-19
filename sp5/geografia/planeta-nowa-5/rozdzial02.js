@@ -375,7 +375,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r02_jeziora_mazurskie.jpg",
-    "explanation": "Pojezierze Mazurskie jest opisane jako dobre miejsce do uprawiania żeglarstwa i kajakarstwa."
+    "explanation": "Pojezierze Mazurskie, z licznymi połączonymi jeziorami, sprzyja żeglarstwu i kajakarstwu."
   },
   {
     "id": "R02_NIW_01",
@@ -468,7 +468,7 @@ const ALL_EXERCISES = [
       "Stadion Narodowy": "arena wydarzeń sportowych i kulturalnych"
     },
     "image": "/img/r02_warszawa_panorama.jpg",
-    "explanation": "Przedstawia się kilka znanych atrakcji Warszawy."
+    "explanation": "Stare Miasto, Łazienki Królewskie, Centrum Nauki Kopernik i Stadion Narodowy to znane atrakcje Warszawy."
   },
   {
     "id": "R02_NIW_06",
@@ -555,7 +555,7 @@ const ALL_EXERCISES = [
       "Tarnowskie Góry"
     ],
     "answer": 0,
-    "explanation": "Muzeum w Żelazowej Woli jest przedstawione jako atrakcja Niziny Mazowieckiej związana z koncertami fortepianowymi."
+    "explanation": "Żelazowa Wola jest miejscem urodzenia Fryderyka Chopina i ważnym miejscem związanym z jego muzyką."
   },
   {
     "id": "R02_WSL_01",
@@ -750,7 +750,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r02_wawoz_lessowy.jpg",
-    "explanation": "Tak opisano rolniczy krajobraz Wyżyny Lubelskiej."
+    "explanation": "Żyzne gleby oraz uprawy pszenicy, buraków cukrowych, tytoniu i chmielu są charakterystyczne dla rolniczego krajobrazu Wyżyny Lubelskiej."
   },
   {
     "id": "R02_JUT_01",
@@ -984,7 +984,7 @@ const ALL_EXERCISES = [
     "prompt": "Stalaktyty w jaskiniach wydłużają się bardzo powoli, około 1 mm na rok.",
     "options": null,
     "answer": true,
-    "explanation": "Schemat rzeźby krasowej podaje, że stalaktyty wydłużają się bardzo powoli, około 1 mm rocznie."
+    "explanation": "Stalaktyty wydłużają się bardzo powoli, około 1 mm rocznie."
   },
   {
     "id": "R02_HARD_04",
@@ -1029,7 +1029,7 @@ const ALL_EXERCISES = [
       "600 m": "długość podziemnego przepływu w Sztolni Czarnego Pstrąga",
       "4 grudnia": "data Barbórki"
     },
-    "explanation": "Te liczby pojawiają się w opisach konkretnych krajobrazów i obiektów."
+    "explanation": "2499 m n.p.m. to wysokość Rysów, 163 km to długość Szlaku Orlich Gniazd, 600 m to długość podziemnego przepływu w Sztolni Czarnego Pstrąga, a 4 grudnia przypada Barbórka."
   },
   {
     "id": "R02_HARD_06",

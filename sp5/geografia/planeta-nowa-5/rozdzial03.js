@@ -162,8 +162,8 @@ const ALL_EXERCISES = [
     "id": "R03_ZIE_11",
     "section": "Ziemia i globus",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem Ziemi.",
-    "explanation": "Podkreśla się kulisty kształt Ziemi, jej obrót wokół osi oraz spłaszczenie na biegunach.",
+    "prompt": "Zaznacz prawdziwe informacje o Ziemi.",
+    "explanation": "Ziemia ma kształt zbliżony do kuli, obraca się wokół własnej osi i jest lekko spłaszczona na biegunach.",
     "options": [
       "Ziemia obraca się wokół własnej osi",
       "Ziemia jest idealnym sześcianem",
@@ -277,7 +277,7 @@ const ALL_EXERCISES = [
     "section": "Siatka geograficzna i półkule",
     "type": "multi_select",
     "prompt": "Zaznacz równoleżniki, którym nadano własne nazwy.",
-    "explanation": "Wymieniono równik, dwa zwrotniki i dwa koła podbiegunowe.",
+    "explanation": "Własne nazwy mają równik, dwa zwrotniki i dwa koła podbiegunowe.",
     "options": [
       "równik",
       "zwrotnik Raka",
@@ -432,7 +432,7 @@ const ALL_EXERCISES = [
     "section": "Kontynenty i oceany",
     "type": "single_choice",
     "prompt": "Ile kontynentów wyróżnia się na Ziemi?",
-    "explanation": "Wymienia się siedem kontynentów.",
+    "explanation": "Na Ziemi wyróżnia się siedem kontynentów.",
     "options": [
       "pięć",
       "sześć",
@@ -628,7 +628,7 @@ const ALL_EXERCISES = [
     "section": "Kontynenty i oceany",
     "type": "true_false",
     "prompt": "Kontynenty zajmują większą powierzchnię na półkuli północnej niż na półkuli południowej.",
-    "explanation": "Pod mapą podano, że rozmieszczenie kontynentów nie jest równomierne i więcej lądów znajduje się na półkuli północnej.",
+    "explanation": "Kontynenty są rozmieszczone nierównomiernie, a większa powierzchnia lądów znajduje się na półkuli północnej.",
     "options": null,
     "answer": true,
     "image": "/img/r03_kontynenty_oceany_mapa.jpg"
@@ -667,7 +667,7 @@ const ALL_EXERCISES = [
     "section": "Wielkie odkrycia geograficzne",
     "type": "fill_in",
     "prompt": "Wyprawa Marca Polo w głąb Azji trwała od roku __________ do roku __________.",
-    "explanation": "Podano lata 1271-1295.",
+    "explanation": "Wyprawa Marca Polo trwała od 1271 do 1295 roku.",
     "options": null,
     "answer": [
       "1271",
@@ -705,7 +705,7 @@ const ALL_EXERCISES = [
     "section": "Wielkie odkrycia geograficzne",
     "type": "multi_select",
     "prompt": "Które towary zaczęto sprowadzać z Azji dzięki poznaniu odległych państw przez Europejczyków?",
-    "explanation": "Wymieniono przyprawy: pieprz, cynamon, goździki i gałkę muszkatołową.",
+    "explanation": "Do przypraw sprowadzanych z Azji należały pieprz, cynamon, goździki i gałka muszkatołowa.",
     "options": [
       "pieprz",
       "cynamon",
@@ -808,7 +808,7 @@ const ALL_EXERCISES = [
     "section": "Wielkie odkrycia geograficzne",
     "type": "scenario",
     "prompt": "Żeglarz płynie na zachód przez Ocean Atlantycki, chce dotrzeć do Indii, ale trafia na Bahamy, Kubę i Haiti. Kto to jest?",
-    "explanation": "Tak opisana jest wyprawa Krzysztofa Kolumba z 1492 roku.",
+    "explanation": "Krzysztof Kolumb w 1492 roku popłynął na zachód przez Atlantyk i dotarł do wysp Ameryki.",
     "options": [
       "Krzysztof Kolumb",
       "Vasco da Gama",
@@ -960,7 +960,7 @@ const ALL_EXERCISES = [
     "section": "Badacze i podróże nowożytne",
     "type": "single_choice",
     "prompt": "Który podróżnik trzykrotnie opłynął Ziemię i odkrył wiele wysp na Oceanie Spokojnym, m.in. Hawaje?",
-    "explanation": "Tak opisano Jamesa Cooka.",
+    "explanation": "James Cook trzykrotnie opłynął Ziemię i odkrył wiele wysp na Oceanie Spokojnym, w tym Hawaje.",
     "options": [
       "James Cook",
       "Willem Janszoon",
@@ -976,7 +976,7 @@ const ALL_EXERCISES = [
     "section": "Badacze i podróże nowożytne",
     "type": "single_choice",
     "prompt": "Kto odkrył Australię w 1605 roku?",
-    "explanation": "Wskazuje się holenderskiego żeglarza Willema Janszoona.",
+    "explanation": "Willem Janszoon był holenderskim żeglarzem, który dotarł do Australii w 1605 roku.",
     "options": [
       "Willem Janszoon",
       "James Cook",
@@ -1090,7 +1090,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_02",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz obszary wymienione w opisie trasy Marca Polo.",
+    "prompt": "Zaznacz obszary, przez które przebiegała trasa Marca Polo.",
     "explanation": "Trasa Marca Polo wiodła między innymi przez Nizinę Mezopotamską, Wyżynę Irańską, Pamir i pustynię Gobi.",
     "options": [
       "Nizina Mezopotamska",
@@ -1137,7 +1137,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "match",
     "prompt": "Połącz obiekt geograficzny z podróżnikiem, którego dotyczy.",
-    "explanation": "Każdy obiekt pojawia się przy opisie innej wyprawy lub odkrycia.",
+    "explanation": "Góry Pamir wiążą się z podróżą Marca Polo, Przylądek Igielny z wyprawą Vasco da Gamy, Wodospady Wiktorii z Davidem Livingstone’em, a Hawaje z Jamesem Cookiem.",
     "options": null,
     "left": [
       "góry Pamir",
@@ -1163,7 +1163,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "fill_in",
     "prompt": "Marek Kamiński w 1995 roku zdobył najpierw biegun __________, a później samotnie biegun __________.",
-    "explanation": "Ciekawostka podaje, że w marcu 1995 roku dotarł do bieguna północnego, a w grudniu samotnie zdobył biegun południowy.",
+    "explanation": "Marek Kamiński dotarł do bieguna północnego w marcu 1995 roku, a w grudniu samotnie zdobył biegun południowy.",
     "options": null,
     "answer": [
       "północny",
@@ -1186,7 +1186,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "scenario",
     "prompt": "Badacz XIX wieku bada okolice jeziora Tanganika, biegi rzek Zambezi i Konga oraz odkrywa Wodospady Wiktorii. Kto to jest?",
-    "explanation": "Taki opis dotyczy Davida Livingstone’a.",
+    "explanation": "David Livingstone badał okolice jeziora Tanganika oraz biegi Zambezi i Konga, a także odkrył Wodospady Wiktorii.",
     "options": [
       "David Livingstone",
       "Henry Stanley",

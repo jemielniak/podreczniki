@@ -114,7 +114,7 @@ const ALL_EXERCISES = [
     "id": "R04_STR_07",
     "section": "Strefowość i piętrowość klimatyczno-roślinna",
     "type": "multi_select",
-    "prompt": "Zaznacz zdania zgodne z podsumowaniem lekcji o strefowości i piętrowości.",
+    "prompt": "Zaznacz poprawne zdania o strefowości i piętrowości klimatyczno-roślinnej.",
     "options": [
       "Temperatura powietrza zależy od ilości energii słonecznej docierającej do powierzchni Ziemi.",
       "Warunki klimatyczne decydują o tym, jakie rośliny i zwierzęta można spotkać w danej strefie.",
@@ -129,7 +129,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W podsumowaniu wskazano zależność temperatury od energii słonecznej, równoleżnikowy układ stref oraz podobieństwo pięter w górach do stref klimatycznych."
+    "explanation": "Temperatura zależy od ilości energii słonecznej, strefy mają układ równoleżnikowy, a piętra w górach przypominają układ stref klimatycznych."
   },
   {
     "id": "R04_STR_08",
@@ -208,7 +208,7 @@ const ALL_EXERCISES = [
     "prompt": "Na obszarach o najzimniejszych klimatach na Ziemi nie występują rośliny, a grunt jest stale zamarznięty.",
     "options": null,
     "answer": true,
-    "explanation": "Takie obszary opisuje się jako pustynie lodowe."
+    "explanation": "Obszary o skrajnie niskiej temperaturze, bez roślinności i z trwale zamarzniętym gruntem to pustynie lodowe."
   },
   {
     "id": "R04_STR_12",
@@ -250,7 +250,7 @@ const ALL_EXERCISES = [
       "Amazonia, tundra, tajga"
     ],
     "answer": 0,
-    "explanation": "Wskazuje się Amazonię, Kotlinę Konga i Archipelag Malajski."
+    "explanation": "Główne obszary wilgotnych lasów równikowych to Amazonia, Kotlina Konga i Archipelag Malajski."
   },
   {
     "id": "R04_ROW_02",
@@ -318,7 +318,7 @@ const ALL_EXERCISES = [
     "id": "R04_ROW_06",
     "section": "Wilgotne lasy równikowe",
     "type": "match",
-    "prompt": "Połącz zwierzę z obszarem, dla którego jest typowe w lekcji o lasach równikowych.",
+    "prompt": "Połącz zwierzę z obszarem, dla którego jest charakterystyczne.",
     "options": null,
     "left": [
       "kapucynka",
@@ -470,7 +470,7 @@ const ALL_EXERCISES = [
     "prompt": "W klimacie umiarkowanym występują termiczne pory roku.",
     "options": null,
     "answer": true,
-    "explanation": "Termiczne pory roku są jedną z cech klimatu umiarkowanego omawianych w lekcji."
+    "explanation": "Termiczne pory roku są charakterystyczną cechą klimatu umiarkowanego."
   },
   {
     "id": "R04_LAS_03",
@@ -496,7 +496,7 @@ const ALL_EXERCISES = [
     "id": "R04_LAS_04",
     "section": "Lasy strefy umiarkowanej",
     "type": "multi_select",
-    "prompt": "Zaznacz zwierzęta wymienione jako żyjące w lasach strefy umiarkowanej.",
+    "prompt": "Zaznacz zwierzęta żyjące w lasach strefy umiarkowanej.",
     "options": [
       "jeleń",
       "wilk",
@@ -517,7 +517,7 @@ const ALL_EXERCISES = [
     "id": "R04_LAS_05",
     "section": "Lasy strefy umiarkowanej",
     "type": "match",
-    "prompt": "Połącz termiczną porę roku w Polsce z zakresem temperatury podanym w lekcji.",
+    "prompt": "Połącz termiczną porę roku w Polsce z odpowiednim zakresem temperatury.",
     "options": null,
     "left": [
       "lato",
@@ -538,7 +538,7 @@ const ALL_EXERCISES = [
       "przedwiośnie i przedzimie": "od 0 do 5°C"
     },
     "image": "/img/r04_las_umiarkowany_pory_roku.jpg",
-    "explanation": "Diagram w lekcji opisuje pory roku w Polsce według temperatury powietrza."
+    "explanation": "Termiczne pory roku w Polsce rozróżnia się na podstawie zakresów temperatury powietrza."
   },
   {
     "id": "R04_LAS_06",
@@ -634,7 +634,7 @@ const ALL_EXERCISES = [
         "puszczyk"
       ]
     },
-    "explanation": "Lekcja wymienia zarówno rośliny, jak i liczne zwierzęta charakterystyczne dla lasów umiarkowanych."
+    "explanation": "Lasy strefy umiarkowanej są siedliskiem wielu charakterystycznych roślin i zwierząt."
   },
   {
     "id": "R04_LAS_11",
@@ -743,7 +743,7 @@ const ALL_EXERCISES = [
     "id": "R04_SAW_05",
     "section": "Sawanna i step",
     "type": "multi_select",
-    "prompt": "Zaznacz zwierzęta żyjące na sawannie wymienione w lekcji.",
+    "prompt": "Zaznacz zwierzęta żyjące na sawannie.",
     "options": [
       "antylopa",
       "zebra",
@@ -794,7 +794,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: zebra, żyrafa, słoń, drop.",
     "options": null,
     "answer": "drop",
-    "explanation": "Zebra, żyrafa i słoń są typowe dla sawanny, a drop jest wymieniony jako zwierzę stepu."
+    "explanation": "Zebra, żyrafa i słoń są typowe dla sawanny, a drop jest charakterystycznym zwierzęciem stepu."
   },
   {
     "id": "R04_SAW_08",
@@ -965,7 +965,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_03",
     "section": "Powtórka mieszana",
     "type": "sequence",
-    "prompt": "Ułóż etapy zmiany krajobrazu od równika ku północnej części Kamerunu opisane w podróży przez Afrykę.",
+    "prompt": "Ułóż etapy zmiany krajobrazu od równika ku północnej części Kamerunu.",
     "options": null,
     "items": [
       "sucha sawanna z pożółkłymi trawami",
@@ -980,7 +980,7 @@ const ALL_EXERCISES = [
       "sucha sawanna z pożółkłymi trawami"
     ],
     "image": "/img/r04_sawanna_pora_sucha_deszczowa.jpg",
-    "explanation": "W podróży z Gabonu do północnego Kamerunu bujny las przechodzi stopniowo w krajobraz sawanny."
+    "explanation": "Na trasie z Gabonu do północnego Kamerunu bujny las przechodzi stopniowo w krajobraz sawanny."
   },
   {
     "id": "R04_MIE_04",
@@ -1017,7 +1017,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Opisuje się wpływ energii słonecznej, temperatury, opadów, wysokości nad poziomem morza oraz położenia względem wybrzeży."
+    "explanation": "Na klimat wpływają m.in. energia słoneczna, temperatura, opady, wysokość nad poziomem morza oraz położenie względem wybrzeży."
   },
   {
     "id": "R04_MIE_06",
@@ -1035,7 +1035,7 @@ const ALL_EXERCISES = [
     "prompt": "Niedostatek wody jest dużym problemem zarówno na stepie, jak i na sawannie.",
     "options": null,
     "answer": true,
-    "explanation": "Podsumowanie lekcji o sawannie i stepie wskazuje niedostatek wody jako wspólne wyzwanie."
+    "explanation": "Niedostatek wody jest wspólnym wyzwaniem dla sawanny i stepu."
   },
   {
     "id": "R04_MIE_08",
@@ -1082,7 +1082,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_10",
     "section": "Powtórka mieszana",
     "type": "match",
-    "prompt": "Połącz zwierzę z krajobrazem, w którym zostało omówione.",
+    "prompt": "Połącz zwierzę z krajobrazem, dla którego jest charakterystyczne.",
     "options": null,
     "left": [
       "goryl",
@@ -1102,7 +1102,7 @@ const ALL_EXERCISES = [
       "lew": "sawanna",
       "nieświszczuk": "step"
     },
-    "explanation": "Zwierzęta pomagają odróżnić omawiane krajobrazy: las równikowy, las umiarkowany, sawannę i step."
+    "explanation": "Charakterystyczne zwierzęta pomagają odróżnić las równikowy, las umiarkowany, sawannę i step."
   },
   {
     "id": "R04_MIE_11",
@@ -1122,7 +1122,7 @@ const ALL_EXERCISES = [
     "id": "R04_MIE_12",
     "section": "Powtórka mieszana",
     "type": "sort",
-    "prompt": "Przyporządkuj działania człowieka do krajobrazu, w którym zostały opisane.",
+    "prompt": "Przyporządkuj działania człowieka do krajobrazu, dla którego są charakterystyczne.",
     "options": null,
     "items": [
       "budowanie domów z drewna, gliny i liści",
@@ -1157,7 +1157,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Które dwa miejsca wymienia się jako należące do najbardziej suchych na Ziemi?",
+    "prompt": "Które dwa miejsca należą do najbardziej suchych na Ziemi?",
     "options": [
       "Pustynia Atacama i Antarktyda",
       "Amazonia i Kotlina Konga",
@@ -1167,7 +1167,7 @@ const ALL_EXERCISES = [
       "Ukraina i Mongolia"
     ],
     "answer": 0,
-    "explanation": "W ciekawostce wskazano pustynię Atacama w Ameryce Południowej oraz Antarktydę."
+    "explanation": "Do najbardziej suchych miejsc na Ziemi należą pustynia Atacama w Ameryce Południowej oraz Antarktyda."
   },
   {
     "id": "R04_HARD_02",
@@ -1176,7 +1176,7 @@ const ALL_EXERCISES = [
     "prompt": "W centralnych częściach Antarktydy opady są bardzo skąpe i występują niemal wyłącznie w postaci śniegu.",
     "options": null,
     "answer": true,
-    "explanation": "Tak opisano centralne części Antarktydy w ciekawostce o najbardziej suchych miejscach na Ziemi."
+    "explanation": "W centralnych częściach Antarktydy opady są bardzo skąpe i występują niemal wyłącznie jako śnieg."
   },
   {
     "id": "R04_HARD_03",
@@ -1209,7 +1209,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz rośliny wymienione w tabeli jako typowe dla mieszanego lasu strefy umiarkowanej.",
+    "prompt": "Zaznacz rośliny typowe dla mieszanego lasu strefy umiarkowanej.",
     "options": [
       "dąb",
       "buk",
@@ -1224,7 +1224,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "W porównaniu lasów wymieniono m.in. dąb, buk, lipę, grab, klon, sosnę, świerk, modrzew i paprocie."
+    "explanation": "W mieszanym lesie strefy umiarkowanej występują m.in. dąb, buk, lipa, grab, klon, sosna, świerk, modrzew i paprocie."
   },
   {
     "id": "R04_HARD_05",
@@ -1250,7 +1250,7 @@ const ALL_EXERCISES = [
       "teren bardziej wzniesiony": "większe opady",
       "klimat równikowy": "brak pór roku innych niż lato"
     },
-    "explanation": "Lekcja o klimacie umiarkowanym porównuje wybrzeża, wnętrza lądów i obszary wzniesione."
+    "explanation": "Wybrzeża, wnętrza lądów i obszary wzniesione różnią się przebiegiem temperatury i wielkością opadów."
   },
   {
     "id": "R04_HARD_06",
@@ -1321,7 +1321,7 @@ const ALL_EXERCISES = [
     "prompt": "Gleby wilgotnego lasu równikowego są szczególnie bogate w składniki pokarmowe, ponieważ obfite deszcze ich nie wypłukują.",
     "options": null,
     "answer": false,
-    "explanation": "W tabeli porównawczej wskazano odwrotnie: obfite deszcze wypłukują z gleby cenne składniki."
+    "explanation": "Obfite deszcze wypłukują z gleby wilgotnego lasu równikowego cenne składniki pokarmowe."
   },
   {
     "id": "R04_HARD_11",
@@ -1363,7 +1363,7 @@ const ALL_EXERCISES = [
         "nomadzi"
       ]
     },
-    "explanation": "To zadanie łączy pojęcia ze słowniczka z porównaniami."
+    "explanation": "Każde pojęcie jest charakterystyczne dla jednego z porównywanych krajobrazów."
   },
   {
     "id": "R04_HARD_12",
@@ -1392,7 +1392,7 @@ const ALL_EXERCISES = [
       "Serengeti": "wschodnia Afryka",
       "Ułan Bator": "Mongolia"
     },
-    "explanation": "Podaje się przykłady miejsc występowania lasów równikowych, sawann i stepów."
+    "explanation": "Wilgotne lasy równikowe, sawanny i stepy występują w różnych częściach świata, zależnie od warunków klimatycznych."
   }
 ];
 

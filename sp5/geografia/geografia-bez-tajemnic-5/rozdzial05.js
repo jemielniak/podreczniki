@@ -30,7 +30,7 @@ const ALL_EXERCISES = [
     "prompt": "Zwrotnik Raka przecina Saharę, największą pustynię gorącą świata.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się Saharę jako największą pustynię gorącą i podaje, że przecina ją zwrotnik Raka."
+    "explanation": "Sahara jest największą pustynią gorącą świata i przecina ją zwrotnik Raka."
   },
   {
     "id": "R05_PUS_03",
@@ -457,7 +457,7 @@ const ALL_EXERCISES = [
     "prompt": "W klimacie śródziemnomorskim nie występuje termiczna zima, ponieważ w chłodnej porze roku średnia miesięczna temperatura powietrza jest wyższa niż 0°C.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się łagodną, deszczową zimę i brak termicznej zimy w tym klimacie."
+    "explanation": "Klimat śródziemnomorski ma łagodną, deszczową zimę i nie występuje w nim termiczna zima."
   },
   {
     "id": "R05_SRO_03",
@@ -691,7 +691,7 @@ const ALL_EXERCISES = [
         "50 milionów"
       ]
     ],
-    "explanation": "Podaje się wysokość Mount Everestu 8849 m n.p.m. oraz informację, że Himalaje zaczęły powstawać około 50 milionów lat temu."
+    "explanation": "Mount Everest ma wysokość 8849 m n.p.m., a Himalaje zaczęły powstawać około 50 milionów lat temu."
   },
   {
     "id": "R05_HIM_03",
@@ -700,13 +700,13 @@ const ALL_EXERCISES = [
     "prompt": "Himalaje są jednymi z najmłodszych gór świata, a proces ich wypiętrzania nadal trwa.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się Himalaje jako młode góry, które nadal rosną."
+    "explanation": "Himalaje są młodymi górami, a proces ich wypiętrzania nadal trwa."
   },
   {
     "id": "R05_HIM_04",
     "section": "Himalaje i ich mieszkańcy",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem położenia i cech Himalajów.",
+    "prompt": "Zaznacz poprawne informacje o położeniu i cechach Himalajów.",
     "options": [
       "leżą w Azji",
       "mają około 2500 km długości",
@@ -909,7 +909,7 @@ const ALL_EXERCISES = [
       "wieloletnia zmarzlina": "warstwa gruntu stale utrzymująca ujemną temperaturę",
       "lodowiec górski": "przemieszczająca się masa lodu w górach"
     },
-    "explanation": "Pojęcia te pochodzą ze słowniczka i podsumowania działu V."
+    "explanation": "Oaza, makia, wieloletnia zmarzlina i lodowiec górski mają odrębne definicje związane z różnymi krajobrazami."
   },
   {
     "id": "R05_POW_02",
@@ -951,7 +951,7 @@ const ALL_EXERCISES = [
         "Szerpowie"
       ]
     },
-    "explanation": "Każdy zestaw łączy roślinę, zwierzę lub grupę ludzi z krajobrazem opisanym w dziale."
+    "explanation": "Każdy zestaw łączy roślinę, zwierzę lub grupę ludzi z właściwym krajobrazem."
   },
   {
     "id": "R05_POW_03",
@@ -1085,7 +1085,7 @@ const ALL_EXERCISES = [
     "id": "R05_POW_11",
     "section": "Powtórka mieszana",
     "type": "multi_select",
-    "prompt": "Zaznacz zwierzęta, których chów lub hodowla są opisane jako ważne dla mieszkańców omawianych krajobrazów.",
+    "prompt": "Zaznacz zwierzęta, których chów lub hodowla są ważne dla mieszkańców tych krajobrazów.",
     "options": [
       "renifery",
       "jaki",
@@ -1100,7 +1100,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wspomina się chów reniferów, hodowlę jaków oraz owiec i kóz w Himalajach, a także stada koczowników na pustyniach."
+    "explanation": "Ważne znaczenie mają chów reniferów, hodowla jaków oraz owiec i kóz w Himalajach, a także stada wielbłądów u koczowników pustynnych."
   },
   {
     "id": "R05_POW_12",
@@ -1168,13 +1168,13 @@ const ALL_EXERCISES = [
         "Azji środkowej"
       ]
     ],
-    "explanation": "Podaje się długość łańcucha himalajskiego oraz jego rolę jako bariery między Azją Południową a Środkową."
+    "explanation": "Himalaje mają około 2500 km długości i tworzą barierę między Azją Południową a Azją Środkową."
   },
   {
     "id": "R05_HARD_04",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz poprawne pary obszar - położenie opisane w dziale.",
+    "prompt": "Zaznacz poprawne pary: obszar – położenie.",
     "options": [
       "Sahara - przecina ją zwrotnik Raka",
       "Wielka Pustynia Piaszczysta - przecina ją zwrotnik Koziorożca",
@@ -1189,7 +1189,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Dział porównuje położenie pustyń gorących przy zwrotnikach i pustyń lodowych w obszarach okołobiegunowych."
+    "explanation": "Pustynie gorące leżą zwykle w pobliżu zwrotników, a pustynie lodowe w obszarach okołobiegunowych."
   },
   {
     "id": "R05_HARD_05",
@@ -1280,7 +1280,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_10",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj warunek klimatyczny do właściwego krajobrazu.",
+    "prompt": "Przyporządkuj warunek klimatyczny do właściwego krajobrazu lub grupy krajobrazów.",
     "options": null,
     "items": [
       "gorące i suche lato, łagodna deszczowa zima",
@@ -1291,29 +1291,26 @@ const ALL_EXERCISES = [
     ],
     "categories": [
       "klimat śródziemnomorski",
-      "pustynia lodowa",
+      "pustynie",
       "tajga",
-      "Himalaje",
-      "pustynia gorąca"
+      "Himalaje"
     ],
     "answer": {
       "klimat śródziemnomorski": [
         "gorące i suche lato, łagodna deszczowa zima"
       ],
-      "pustynia lodowa": [
-        "bardzo niska temperatura przez cały rok"
+      "pustynie": [
+        "bardzo niska temperatura przez cały rok",
+        "brak wody i bardzo wysoka temperatura"
       ],
       "tajga": [
         "mroźna zima i krótkie niezbyt ciepłe lato"
       ],
       "Himalaje": [
         "rozrzedzone powietrze i spadek temperatury z wysokością"
-      ],
-      "pustynia gorąca": [
-        "brak wody i bardzo wysoka temperatura"
       ]
     },
-    "explanation": "Każdy krajobraz ma własny zestaw barier klimatycznych, od suszy po mróz i warunki wysokogórskie."
+    "explanation": "Pustynie mogą być gorące lub lodowe, a klimat śródziemnomorski, tajga i Himalaje mają odmienne warunki klimatyczne."
   },
   {
     "id": "R05_HARD_11",
@@ -1340,7 +1337,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_12",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz miejsce lub region z opisanym w dziale sposobem dostosowania ludzi do warunków środowiska.",
+    "prompt": "Połącz miejsce lub region ze sposobem dostosowania ludzi do warunków środowiska.",
     "options": null,
     "left": [
       "Dubaj",

@@ -34,7 +34,7 @@ const ALL_EXERCISES = [
       "skala",
       "legenda",
       "tytuł",
-      "spis treści podręcznika",
+      "spis treści książki",
       "prognoza pogody"
     ],
     "answer": [
@@ -492,15 +492,13 @@ const ALL_EXERCISES = [
       "odcienie zieleni od 0 do 300 m n.p.m.",
       "odcienie żółci powyżej 300 m n.p.m.",
       "pomarańczowy i czerwony powyżej 500 m n.p.m.",
-      "ciemnozielony poniżej poziomu morza",
-      "niebieski"
+      "ciemnozielony poniżej poziomu morza"
     ],
     "categories": [
       "niziny",
       "wyżyny",
       "góry",
-      "depresje",
-      "wody"
+      "depresje"
     ],
     "answer": {
       "niziny": [
@@ -514,13 +512,10 @@ const ALL_EXERCISES = [
       ],
       "depresje": [
         "ciemnozielony poniżej poziomu morza"
-      ],
-      "wody": [
-        "niebieski"
       ]
     },
     "image": "/img/r01_barwy_hipsometryczne.jpg",
-    "explanation": "Na mapach hipsometrycznych niziny, wyżyny, góry, depresje i wody oznacza się różnymi barwami."
+    "explanation": "Na mapach hipsometrycznych niziny, wyżyny, góry i depresje oznacza się różnymi barwami."
   },
   {
     "id": "R01_UKS_09",
@@ -1093,7 +1088,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_09",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż zakresy wysokości od najniższego do najwyższego według opisu barw hipsometrycznych.",
+    "prompt": "Ułóż zakresy wysokości od najniższego do najwyższego.",
     "options": null,
     "items": [
       "góry powyżej 500 m n.p.m.",

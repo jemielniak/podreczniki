@@ -447,7 +447,7 @@ const ALL_EXERCISES = [
     "id": "R02_POJ_02",
     "section": "Krajobraz pojezierny",
     "type": "single_choice",
-    "prompt": "Które jezioro wskazano jako największe w Polsce?",
+    "prompt": "Które jezioro jest największe w Polsce?",
     "options": [
       "Śniardwy",
       "Łebsko",
@@ -481,7 +481,7 @@ const ALL_EXERCISES = [
     "id": "R02_POJ_05",
     "section": "Krajobraz pojezierny",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady ptaków wodnych wymienione przy opisie Pojezierza Mazurskiego.",
+    "prompt": "Zaznacz ptaki wodne występujące na Pojezierzu Mazurskim.",
     "options": [
       "czapla",
       "gęś",
@@ -580,7 +580,7 @@ const ALL_EXERCISES = [
       "Kanał Elbląski": "zabytek techniki z pochylniami",
       "Wilczy Szaniec": "sieć bunkrów z czasów II wojny światowej"
     },
-    "explanation": "Wymienia się zarówno elementy przyrodnicze Mazur, jak i atrakcje historyczne oraz techniczne."
+    "explanation": "Mazury łączą cenne elementy przyrodnicze z atrakcjami historycznymi i technicznymi."
   },
   {
     "id": "R02_POJ_11",
@@ -674,7 +674,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Nizinie Mazowieckiej charakterystyczne są rozległe równiny, kotliny i szerokie doliny rzeczne.",
     "options": null,
     "answer": true,
-    "explanation": "Opisuje się Nizinę Mazowiecką jako obszar mało urozmaicony, z równinami, kotlinami i szerokimi dolinami rzek."
+    "explanation": "Nizina Mazowiecka jest obszarem mało urozmaiconym, z równinami, kotlinami i szerokimi dolinami rzek."
   },
   {
     "id": "R02_NIZ_04",
@@ -704,7 +704,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród dużych rzek tego obszaru wymienia się Wisłę, Narew, Pilicę, Bzurę, Wkrę i Bug."
+    "explanation": "Do dużych rzek tego obszaru należą Wisła, Narew, Pilica, Bzura, Wkra i Bug."
   },
   {
     "id": "R02_NIZ_06",
@@ -900,7 +900,7 @@ const ALL_EXERCISES = [
     "id": "R02_MIA_05",
     "section": "Krajobraz wielkomiejski",
     "type": "multi_select",
-    "prompt": "Zaznacz funkcje dużego miasta wymienione przy opisie Warszawy.",
+    "prompt": "Zaznacz funkcje pełnione przez Warszawę jako duże miasto.",
     "options": [
       "administracyjna",
       "handlowa",
@@ -1001,7 +1001,7 @@ const ALL_EXERCISES = [
       "Muzeum Powstania Warszawskiego": "upamiętnia walkę mieszkańców stolicy",
       "Stadion Narodowy": "zbudowany na Euro 2012"
     },
-    "explanation": "Przedstawia się wybrane miejsca Warszawy i wyjaśnia, z czym są związane."
+    "explanation": "Te miejsca Warszawy pełnią różne funkcje i wiążą się z ważnymi wydarzeniami, kulturą lub rekreacją."
   },
   {
     "id": "R02_MIA_11",
@@ -1053,7 +1053,7 @@ const ALL_EXERCISES = [
       "osiedla mieszkaniowe i dzielnice przemysłowe",
       "przedmieścia"
     ],
-    "explanation": "Opisuje się Stare Miasto jako najstarszą część, śródmieście jako część centralną, dalej osiedla i dzielnice, a na skraju przedmieścia."
+    "explanation": "Stare Miasto jest najstarszą częścią miasta, śródmieście częścią centralną, dalej znajdują się osiedla i dzielnice, a na skraju przedmieścia."
   },
   {
     "id": "R02_HARD_01",
@@ -1075,7 +1075,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który z wymienionych obiektów jest ujęciem wody opisanym w Warszawie?",
+    "prompt": "Który z poniższych obiektów jest ujęciem wody w Warszawie?",
     "options": [
       "Gruba Kaśka",
       "Wydma Łącka",
@@ -1103,7 +1103,7 @@ const ALL_EXERCISES = [
     "prompt": "Łebsko, największe jezioro Wybrzeża Słowińskiego, powstało wskutek podniesienia się poziomu morza i zalania łąk.",
     "options": null,
     "answer": true,
-    "explanation": "Odróżnia się Łebsko od części jezior przybrzeżnych odciętych przez mierzeje i wskazuje jego powstanie przez zalanie łąk."
+    "explanation": "Jezioro Łebsko powstało w wyniku zalania łąk, w odróżnieniu od części jezior przybrzeżnych odciętych od morza przez mierzeje."
   },
   {
     "id": "R02_HARD_05",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "/img/r02_wydmy_ruchome.jpg",
-    "explanation": "Wśród roślin pionierskich wymieniono piaskownicę zwyczajną, wydmuchrzycę piaskową i mikołajka nadmorskiego."
+    "explanation": "Do roślin pionierskich na wydmach należą piaskownica zwyczajna, wydmuchrzyca piaskowa i mikołajek nadmorski."
   },
   {
     "id": "R02_HARD_06",
@@ -1172,7 +1172,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Ryn, Giżycko, Kętrzyn, Kołobrzeg.",
     "options": null,
     "answer": "Kołobrzeg",
-    "explanation": "Ryn, Giżycko i Kętrzyn są wymienione przy zamkach krzyżackich na Mazurach, a Kołobrzeg to miejscowość nadmorska."
+    "explanation": "Ryn, Giżycko i Kętrzyn są związane z zamkami krzyżackimi na Mazurach, a Kołobrzeg jest miejscowością nadmorską."
   },
   {
     "id": "R02_HARD_09",
@@ -1245,7 +1245,7 @@ const ALL_EXERCISES = [
         "hałas w wielkich miastach"
       ]
     },
-    "explanation": "Podsumowanie działu podaje przykłady zmian korzystnych, takich jak parki narodowe, oraz niekorzystnych, takich jak zanieczyszczenia i zmniejszanie powierzchni lasów."
+    "explanation": "Do korzystnych zmian należą m.in. działania ochronne, takie jak tworzenie parków narodowych, a do niekorzystnych zanieczyszczenia i zmniejszanie powierzchni lasów."
   },
   {
     "id": "R02_HARD_12",

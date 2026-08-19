@@ -11,7 +11,7 @@ const ALL_EXERCISES = [
     "id": "R06_WYS_01",
     "section": "Występowanie i typy lasów",
     "type": "single_choice",
-    "prompt": "Jakie trzy typy lasów występują w strefie umiarkowanej według lekcji?",
+    "prompt": "Jakie trzy typy lasów występują w strefie umiarkowanej?",
     "options": [
       "liściaste, iglaste i mieszane",
       "równikowe, sawannowe i pustynne",
@@ -27,11 +27,11 @@ const ALL_EXERCISES = [
     "id": "R06_WYS_02",
     "section": "Występowanie i typy lasów",
     "type": "true_false",
-    "prompt": "Ta lekcja skupia się na lasach liściastych i mieszanych strefy umiarkowanej.",
+    "prompt": "Lasy liściaste i mieszane są typami lasów występujących w strefie umiarkowanej.",
     "options": null,
     "answer": true,
     "image": "r06_las_mieszany_panorama.jpg",
-    "explanation": "W strefie umiarkowanej występują lasy liściaste, iglaste i mieszane, ale ta lekcja omawia przede wszystkim liściaste i mieszane."
+    "explanation": "W strefie umiarkowanej występują lasy liściaste, iglaste i mieszane."
   },
   {
     "id": "R06_WYS_03",
@@ -93,10 +93,10 @@ const ALL_EXERCISES = [
     "id": "R06_WYS_06",
     "section": "Występowanie i typy lasów",
     "type": "odd_one_out",
-    "prompt": "Co nie pasuje do lasów wymienionych w strefie umiarkowanej: liściaste, iglaste, mieszane, palmowe.",
+    "prompt": "Co nie pasuje do typów lasów strefy umiarkowanej: liściaste, iglaste, mieszane, palmowe.",
     "options": null,
     "answer": "palmowe",
-    "explanation": "Wymieniono lasy liściaste, iglaste i mieszane, a lasy palmowe nie są podane jako typ lasów strefy umiarkowanej."
+    "explanation": "W strefie umiarkowanej występują lasy liściaste, iglaste i mieszane; lasy palmowe nie należą do tej grupy."
   },
   {
     "id": "R06_WYS_07",
@@ -122,13 +122,13 @@ const ALL_EXERCISES = [
       "wschodnia Azja": "częściowe występowanie",
       "półkula południowa": "niewiele lasów przez dominację oceanu"
     },
-    "explanation": "Wskazuje się znaczne obszary w Europie i Ameryce Północnej, częściowe występowanie we wschodniej Azji oraz niewiele takich lasów na półkuli południowej."
+    "explanation": "Lasy liściaste i mieszane zajmują znaczne obszary Europy i Ameryki Północnej, częściowo występują we wschodniej Azji, a na półkuli południowej jest ich niewiele."
   },
   {
     "id": "R06_WYS_08",
     "section": "Występowanie i typy lasów",
     "type": "sort",
-    "prompt": "Rozdziel typy lasów według tego, czy są głównym tematem tej lekcji.",
+    "prompt": "Przyporządkuj typy lasów do opisu ich składu.",
     "options": null,
     "items": [
       "lasy liściaste",
@@ -136,19 +136,22 @@ const ALL_EXERCISES = [
       "lasy iglaste"
     ],
     "categories": [
-      "główny temat lekcji",
-      "występują w strefie umiarkowanej poza głównym tematem"
+      "drzewa liściaste",
+      "drzewa liściaste i iglaste",
+      "drzewa iglaste"
     ],
     "answer": {
-      "główny temat lekcji": [
-        "lasy liściaste",
+      "drzewa liściaste": [
+        "lasy liściaste"
+      ],
+      "drzewa liściaste i iglaste": [
         "lasy mieszane"
       ],
-      "występują w strefie umiarkowanej poza głównym tematem": [
+      "drzewa iglaste": [
         "lasy iglaste"
       ]
     },
-    "explanation": "Lekcja skupia się na lasach liściastych i mieszanych, choć w strefie umiarkowanej występują również lasy iglaste."
+    "explanation": "Lasy liściaste tworzą drzewa liściaste, lasy iglaste drzewa iglaste, a w lasach mieszanych występują oba te typy drzew."
   },
   {
     "id": "R06_WYS_09",
@@ -204,7 +207,7 @@ const ALL_EXERCISES = [
     "prompt": "W lasach strefy umiarkowanej występują cztery pory roku.",
     "options": null,
     "answer": true,
-    "explanation": "Wymieniono wiosnę, lato, jesień i zimę jako cztery pory roku tej strefy."
+    "explanation": "Wiosna, lato, jesień i zima to cztery pory roku występujące w strefie umiarkowanej."
   },
   {
     "id": "R06_KLI_03",
@@ -340,7 +343,7 @@ const ALL_EXERCISES = [
       "wschodnia Azja"
     ],
     "answer": 0,
-    "explanation": "Tak opisano zachód Europy, gdzie występuje klimat umiarkowany ciepły morski."
+    "explanation": "Na zachodzie Europy występuje klimat umiarkowany ciepły morski, z większymi i bardziej równomiernymi opadami oraz łagodniejszymi zimami."
   },
   {
     "id": "R06_KLI_10",
@@ -366,7 +369,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r06_dab_i_buk.jpg",
-    "explanation": "Jako drzewa liściaste podano dęby, buki, klony i lipy."
+    "explanation": "Dęby, buki, klony i lipy są drzewami liściastymi."
   },
   {
     "id": "R06_ROS_02",
@@ -388,7 +391,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r06_dab_i_buk.jpg",
-    "explanation": "Wymieniono wśród drzew liściastych dęby, buki, klony i lipy."
+    "explanation": "Dąb, buk, klon i lipa są drzewami liściastymi, a sosna i świerk są drzewami iglastymi."
   },
   {
     "id": "R06_ROS_03",
@@ -459,7 +462,7 @@ const ALL_EXERCISES = [
       "maślaki"
     ],
     "image": "r06_grzyby_lesne.jpg",
-    "explanation": "Jako jadalne grzyby podano między innymi borowiki i maślaki."
+    "explanation": "Borowiki i maślaki należą do jadalnych grzybów leśnych."
   },
   {
     "id": "R06_ROS_07",
@@ -623,13 +626,13 @@ const ALL_EXERCISES = [
         "ssaków"
       ]
     ],
-    "explanation": "Tekst mówi o wielu różnych ptakach oraz mniej licznych ssakach."
+    "explanation": "Lasy strefy umiarkowanej zamieszkuje wiele różnych ptaków oraz mniej liczne ssaki."
   },
   {
     "id": "R06_ZWI_05",
     "section": "Zwierzęta lasów",
     "type": "riddle",
-    "prompt": "Jaki dzięcioł jest podpisany na ilustracji zwierząt?",
+    "prompt": "Jaki gatunek dzięcioła przedstawia ilustracja?",
     "options": null,
     "answer": "dzięcioł duży",
     "altAnswers": [
@@ -638,7 +641,7 @@ const ALL_EXERCISES = [
       "dzięcioł"
     ],
     "image": "r06_ptaki_lasow_umiarkowanych.jpg",
-    "explanation": "Na ilustracji obok innych ptaków podpisano dzięcioła dużego."
+    "explanation": "Dzięcioł duży jest jednym z ptaków lasów strefy umiarkowanej."
   },
   {
     "id": "R06_ZWI_06",
@@ -654,7 +657,7 @@ const ALL_EXERCISES = [
     "id": "R06_ZWI_07",
     "section": "Zwierzęta lasów",
     "type": "match",
-    "prompt": "Połącz zwierzę z opisem z ilustracji lub tekstu.",
+    "prompt": "Połącz zwierzę z właściwym opisem.",
     "options": null,
     "left": [
       "uszatka zwyczajna",
@@ -674,7 +677,7 @@ const ALL_EXERCISES = [
       "jeż zachodni": "ssak kolczasty",
       "dzik euroazjatycki": "ssak leśny"
     },
-    "explanation": "Ilustracja przedstawia między innymi uszatkę zwyczajną jako sowę, sikorę bogatkę jako ptaka oraz ssaki takie jak jeż i dzik."
+    "explanation": "Uszatka zwyczajna jest sową, sikora bogatka ptakiem, jeż zachodni ssakiem kolczastym, a dzik euroazjatycki ssakiem leśnym."
   },
   {
     "id": "R06_ZWI_08",
@@ -897,7 +900,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": false,
     "image": "r06_sciete_pnie_las.jpg",
-    "explanation": "To fałsz: wskazuje się negatywny wpływ na środowisko i pogorszenie komfortu życia ludzi."
+    "explanation": "To fałsz. Wylesianie i silna ingerencja człowieka mogą negatywnie wpływać na środowisko oraz pogarszać komfort życia ludzi."
   },
   {
     "id": "R06_HARD_01",

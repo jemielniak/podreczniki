@@ -278,7 +278,7 @@ const ALL_EXERCISES = [
         "dno"
       ]
     ],
-    "explanation": "Opisuje się wąwóz jako wydłużoną, wklęsłą formę terenu o stromych zboczach i płaskim dnie."
+    "explanation": "Wąwóz to wydłużona, wklęsła forma terenu o stromych zboczach i płaskim dnie."
   },
   {
     "id": "R03_LUB_05",
@@ -388,7 +388,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do pozostałych: Lublin, Zamość, Kazimierz Dolny, Katowice, Nałęczów",
     "options": null,
     "answer": "Katowice",
-    "explanation": "Katowice leżą na Wyżynie Śląskiej, a pozostałe miejsca są wskazane jako warte odwiedzenia na Wyżynie Lubelskiej."
+    "explanation": "Katowice leżą na Wyżynie Śląskiej, natomiast Lublin, Zamość, Kazimierz Dolny i Nałęczów znajdują się na Wyżynie Lubelskiej."
   },
   {
     "id": "R03_LUB_10",
@@ -607,7 +607,7 @@ const ALL_EXERCISES = [
     "id": "R03_JUR_11",
     "section": "Wyżyna Krakowsko-Częstochowska",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca, które wskazuje się jako możliwe do zobaczenia w Ojcowskim Parku Narodowym.",
+    "prompt": "Zaznacz miejsca, które można zobaczyć w Ojcowskim Parku Narodowym.",
     "options": [
       "Brama Krakowska",
       "Dolina Prądnika",
@@ -962,14 +962,14 @@ const ALL_EXERCISES = [
     "items": [
       "zaproponowanie rozwiązań",
       "określenie położenia szkoły",
-      "lekcja terenowa i obserwacje",
+      "obserwacje terenowe",
       "wyznaczenie obszaru oraz trasy obserwacji",
       "zebranie i porównanie ocen grup"
     ],
     "answer": [
       "określenie położenia szkoły",
       "wyznaczenie obszaru oraz trasy obserwacji",
-      "lekcja terenowa i obserwacje",
+      "obserwacje terenowe",
       "zebranie i porównanie ocen grup",
       "zaproponowanie rozwiązań"
     ],
@@ -1232,7 +1232,7 @@ const ALL_EXERCISES = [
     "prompt": "W Polsce wyżyny są zwykle położone na wysokości 300-500 m n.p.m., a góry powyżej 500 m n.p.m.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się taki podział wysokościowy wyżyn i gór."
+    "explanation": "Wyżyny leżą zwykle na wysokości 300–500 m n.p.m., a góry powyżej 500 m n.p.m."
   },
   {
     "id": "R03_MIE_09",
@@ -1311,7 +1311,7 @@ const ALL_EXERCISES = [
     "prompt": "Granica między Tatrami Zachodnimi i Tatrami Wysokimi przebiega przez Przełęcz Liliowe niedaleko Kasprowego Wierchu.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się Przełęcz Liliowe jako granicę między tymi częściami Tatr."
+    "explanation": "Przełęcz Liliowe stanowi granicę między Tatrami Zachodnimi a Tatrami Wysokimi."
   },
   {
     "id": "R03_HARD_04",

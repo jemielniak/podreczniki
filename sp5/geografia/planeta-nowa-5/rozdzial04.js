@@ -217,7 +217,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Wskazuje się ukształtowanie powierzchni oraz odległość od mórz i oceanów jako ważne czynniki różnicujące klimat."
+    "explanation": "Ukształtowanie powierzchni, odległość od mórz i oceanów oraz wysokość bezwzględna wpływają na zróżnicowanie klimatu."
   },
   {
     "id": "R04_STR_04",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "id": "R04_LAS_04",
     "section": "Lasy świata",
     "type": "multi_select",
-    "prompt": "Zaznacz zwierzęta wymienione przy wilgotnych lasach równikowych.",
+    "prompt": "Zaznacz zwierzęta charakterystyczne dla wilgotnych lasów równikowych.",
     "options": [
       "małpy",
       "jaguary",
@@ -399,7 +399,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Przy lasach równikowych pojawiają się między innymi małpy, ptaki, tapiry i jaguary."
+    "explanation": "W wilgotnych lasach równikowych żyją między innymi małpy, ptaki, tapiry i jaguary."
   },
   {
     "id": "R04_LAS_05",
@@ -495,7 +495,7 @@ const ALL_EXERCISES = [
     "prompt": "Strefa lasów liściastych i mieszanych występuje przede wszystkim w Ameryce Północnej, Europie i Azji.",
     "options": null,
     "answer": true,
-    "explanation": "Wskazuje się te trzy kontynenty jako główne obszary lasów liściastych i mieszanych."
+    "explanation": "Lasy liściaste i mieszane występują przede wszystkim w Ameryce Północnej, Europie i Azji."
   },
   {
     "id": "R04_LAS_10",
@@ -812,7 +812,7 @@ const ALL_EXERCISES = [
     "id": "R04_SRO_07",
     "section": "Krajobraz śródziemnomorski",
     "type": "scenario",
-    "prompt": "Rodzina planuje wakacje nad Morzem Śródziemnym w lipcu. Jakich warunków powinna się spodziewać według opisu klimatu tej strefy?",
+    "prompt": "Rodzina planuje wakacje nad Morzem Śródziemnym w lipcu. Jakich warunków klimatycznych powinna się spodziewać?",
     "options": [
       "gorącego i suchego lata",
       "mroźnej zimy z wieloletnią zmarzliną",
@@ -846,7 +846,7 @@ const ALL_EXERCISES = [
       "turystyka": "ważne zajęcie mieszkańców",
       "rolnictwo": "uprawa m.in. oliwek i winorośli"
     },
-    "explanation": "Klimat, makia, turystyka i rolnictwo są głównymi elementami opisu tej strefy."
+    "explanation": "Klimat, makia, turystyka i rolnictwo to ważne elementy krajobrazu śródziemnomorskiego."
   },
   {
     "id": "R04_TTG_01",
@@ -1086,13 +1086,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "/img/r04_klimatogram_schemat.jpg",
-    "explanation": "W przykładzie z Oslo najniższa średnia temperatura występuje w lutym."
+    "explanation": "W Oslo najniższa średnia temperatura występuje w lutym."
   },
   {
     "id": "R04_HARD_02",
     "section": "Super trudne",
     "type": "fill_in",
-    "prompt": "Na podstawie danych dla Oslo średnia roczna temperatura wynosi około __________°C, a roczna suma opadów __________ mm.",
+    "prompt": "Suma średnich miesięcznych temperatur dla Oslo wynosi 47,6°C, a suma miesięcznych opadów 845 mm. Średnia roczna temperatura wynosi około __________°C, a roczna suma opadów __________ mm.",
     "options": null,
     "answer": [
       "4,0",
@@ -1109,16 +1109,16 @@ const ALL_EXERCISES = [
         "845 mm"
       ]
     ],
-    "explanation": "Pokazuje się obliczenia: 47,6: 12 ≈ 4,0°C oraz suma opadów 845 mm."
+    "explanation": "Średnia roczna temperatura wynosi 47,6 : 12 ≈ 4,0°C, a roczna suma opadów wynosi 845 mm."
   },
   {
     "id": "R04_HARD_03",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "W Oslo najwyższa miesięczna suma opadów w przykładzie przypada na październik.",
+    "prompt": "W Oslo najwyższa miesięczna suma opadów przypada na październik.",
     "options": null,
     "answer": true,
-    "explanation": "W opisie klimatogramu Oslo podano najwyższe opady w październiku."
+    "explanation": "Najwyższa miesięczna suma opadów w Oslo występuje w październiku."
   },
   {
     "id": "R04_HARD_04",
@@ -1166,7 +1166,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż krajobrazy od równika ku biegunowi na półkuli północnej zgodnie z uproszczonym schematem.",
+    "prompt": "Ułóż krajobrazy od równika ku biegunowi na półkuli północnej.",
     "options": null,
     "items": [
       "tajga",
@@ -1186,7 +1186,7 @@ const ALL_EXERCISES = [
       "tundra",
       "pustynie lodowe"
     ],
-    "explanation": "Schemat pokazuje kolejność od wilgotnych lasów równikowych przez sawanny, pustynie gorące, roślinność śródziemnomorską, lasy, tajgę, tundrę do pustyń lodowych."
+    "explanation": "W uproszczeniu kolejność prowadzi od wilgotnych lasów równikowych przez sawanny, pustynie gorące, lasy liściaste i mieszane, tajgę i tundrę do pustyń lodowych."
   },
   {
     "id": "R04_HARD_07",

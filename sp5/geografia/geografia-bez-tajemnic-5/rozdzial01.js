@@ -207,7 +207,7 @@ const ALL_EXERCISES = [
       "Na legendę",
       "Na skalę",
       "Na kierunek północy",
-      "Na kolor okładki podręcznika",
+      "Na kolor papieru, na którym wydrukowano mapę",
       "Na numer strony w stopce"
     ],
     "answer": [
@@ -358,7 +358,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "/img/r01_podzialka_liniowa.jpg",
-    "explanation": "Podaje się linijkę, cyrkiel i nitkę jako przydatne sposoby odmierzania odległości na mapie."
+    "explanation": "Linijka, cyrkiel i nitka mogą służyć do odmierzania odległości na mapie."
   },
   {
     "id": "R01_SKA_09",
@@ -880,7 +880,7 @@ const ALL_EXERCISES = [
     "prompt": "Na Ziemi jest pięć oceanów i siedem kontynentów.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się pięć oceanów i siedem kontynentów."
+    "explanation": "Na Ziemi wyróżnia się pięć oceanów i siedem kontynentów."
   },
   {
     "id": "R01_KON_04",
@@ -998,7 +998,7 @@ const ALL_EXERCISES = [
     "id": "R01_KON_10",
     "section": "Kontynenty i oceany",
     "type": "sequence",
-    "prompt": "Ułóż kontynenty od największego do najmniejszego zgodnie z listą.",
+    "prompt": "Ułóż kontynenty od największego do najmniejszego.",
     "options": null,
     "items": [
       "Europa",
@@ -1065,7 +1065,7 @@ const ALL_EXERCISES = [
       "Ferdynand Magellan": "Jego statki jako pierwsze opłynęły Ziemię",
       "James Cook": "Ustalił wielkość kontynentu Australii"
     },
-    "explanation": "Opisano najważniejszych podróżników i trasy ich wypraw."
+    "explanation": "Podróżnicy odbywali wyprawy różnymi trasami i docierali do nowych dla Europejczyków obszarów."
   },
   {
     "id": "R01_HARD_01",
@@ -1212,7 +1212,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_09",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż wyprawy od najwcześniejszej do najpóźniejszej zgodnie z datami na mapie wypraw.",
+    "prompt": "Ułóż wyprawy od najwcześniejszej do najpóźniejszej.",
     "options": null,
     "items": [
       "James Cook (1768-1771)",

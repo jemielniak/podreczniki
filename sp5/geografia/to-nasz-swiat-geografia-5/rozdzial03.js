@@ -140,13 +140,13 @@ const ALL_EXERCISES = [
       "klif": "wysoki stromy brzeg",
       "mierzeja": "wąski pas lądu odcinający zatokę"
     },
-    "explanation": "Plaże, wydmy, klify i mierzeje są opisane jako formy związane z działaniem morza i wiatru na pobrzeżach."
+    "explanation": "Plaże, wydmy, klify i mierzeje to formy związane z działaniem morza i wiatru na pobrzeżach."
   },
   {
     "id": "R03_NAD_09",
     "section": "Krajobraz nadmorski",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do czynnika, z którym są w tekście najmocniej związane.",
+    "prompt": "Przyporządkuj elementy do czynnika, z którym są najmocniej związane.",
     "options": null,
     "items": [
       "plaża",
@@ -231,7 +231,7 @@ const ALL_EXERCISES = [
     "prompt": "Pojezierza to tereny o największej liczbie jezior w Polsce.",
     "options": null,
     "answer": true,
-    "explanation": "Pojezierza opisano jako obszary o największej liczbie jezior w Polsce."
+    "explanation": "Pojezierza to obszary o największej liczbie jezior w Polsce."
   },
   {
     "id": "R03_POJ_03",
@@ -331,7 +331,7 @@ const ALL_EXERCISES = [
       "Olsztyn": "największe miasto regionu",
       "Puszcza Piska": "gęsty i rozległy las"
     },
-    "explanation": "Tekst nazywa Pojezierze Mazurskie Krainą Tysiąca Jezior, wskazuje Śniardwy jako największe jezioro, Olsztyn jako największe miasto i Puszczę Piską jako rozległy las."
+    "explanation": "Pojezierze Mazurskie nazywa się Krainą Tysiąca Jezior; Śniardwy są największym jeziorem w Polsce, Olsztyn największym miastem regionu, a Puszcza Piska jest rozległym lasem."
   },
   {
     "id": "R03_POJ_08",
@@ -400,7 +400,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": "foka",
     "image": "r03_puszcza_piska.jpg",
-    "explanation": "Foki wymieniono przy krajobrazie nadmorskim, natomiast kormorany, łosie i bobry należą do charakterystycznych zwierząt Pojezierza Mazurskiego."
+    "explanation": "Foka jest charakterystyczna dla krajobrazu nadmorskiego, natomiast kormorany, łosie i bobry występują na Pojezierzu Mazurskim."
   },
   {
     "id": "R03_NIZ_01",
@@ -540,7 +540,7 @@ const ALL_EXERCISES = [
     "id": "R03_NIZ_09",
     "section": "Krajobraz nizinny",
     "type": "scenario",
-    "prompt": "W regionie jest dużo gospodarstw rolnych, warzyw, owoców i mleka. Powstają zakłady, które wytwarzają sery, jogurty, dżemy i soki. Jaki rodzaj działalności opisano?",
+    "prompt": "W regionie jest dużo gospodarstw rolnych, warzyw, owoców i mleka. Powstają zakłady, które wytwarzają sery, jogurty, dżemy i soki. Jaki to rodzaj działalności?",
     "options": [
       "przetwórstwo spożywcze",
       "wspinaczkę skalną",
@@ -645,7 +645,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymienia się Wyżynę Krakowsko-Częstochowską, Śląską, Lubelską i Kielecką."
+    "explanation": "Do polskich wyżyn należą między innymi Wyżyna Krakowsko-Częstochowska, Wyżyna Śląska, Wyżyna Lubelska i Wyżyna Kielecka."
   },
   {
     "id": "R03_WYZ_03",
@@ -1072,7 +1072,7 @@ const ALL_EXERCISES = [
       "Kampinoski Park Narodowy": "jego symbolem jest łoś",
       "Tatrzański Park Narodowy": "powstał ze względu na unikatową przyrodę Tatr"
     },
-    "explanation": "Opisano kilka form ochrony przyrody powiązanych z różnymi pasami krajobrazowymi."
+    "explanation": "Te formy ochrony przyrody są powiązane z różnymi pasami krajobrazowymi Polski."
   },
   {
     "id": "R03_HARD_03",
@@ -1215,7 +1215,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_11",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż pasy krajobrazowe zgodnie z trasą podręcznikowej wędrówki przez Polskę z północy na południe.",
+    "prompt": "Ułóż pasy krajobrazowe Polski od północy do południa.",
     "options": null,
     "items": [
       "pas nizin",

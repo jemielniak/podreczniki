@@ -28,7 +28,7 @@ const ALL_EXERCISES = [
     "section": "Krajobraz wielkomiejski",
     "type": "true_false",
     "prompt": "Wielkie miasto jest przykładem krajobrazu antropogenicznego.",
-    "explanation": "Wielkie miasto opisano jako teren o krajobrazie antropogenicznym, czyli silnie przekształconym przez człowieka.",
+    "explanation": "Wielkie miasto jest krajobrazem antropogenicznym, czyli silnie przekształconym przez człowieka.",
     "options": null,
     "answer": true
   },
@@ -59,7 +59,7 @@ const ALL_EXERCISES = [
     "section": "Krajobraz wielkomiejski",
     "type": "multi_select",
     "prompt": "Zaznacz typy dzielnic.",
-    "explanation": "Podano dzielnice mieszkaniowe, przemysłowe i handlowe jako przykłady części dużego miasta.",
+    "explanation": "Dzielnice mieszkaniowe, przemysłowe i handlowe są przykładami części dużego miasta.",
     "options": [
       "mieszkaniowe",
       "przemysłowe",
@@ -106,7 +106,7 @@ const ALL_EXERCISES = [
     "section": "Krajobraz wielkomiejski",
     "type": "match",
     "prompt": "Połącz pojęcie z wyjaśnieniem.",
-    "explanation": "Stolica państwa, dzielnica i osiedle to pojęcia wyjaśnione przy opisie wielkiego miasta.",
+    "explanation": "Stolica państwa to miasto z siedzibą władz państwowych, dzielnica jest częścią dużego miasta, a osiedle to obszar o ujednoliconej zabudowie mieszkaniowej.",
     "options": null,
     "left": [
       "stolica państwa",
@@ -222,7 +222,7 @@ const ALL_EXERCISES = [
     "section": "Warszawa",
     "type": "single_choice",
     "prompt": "Które miasto jest największym miastem Polski i jej stolicą?",
-    "explanation": "Wskazuje się Warszawę jako największe miasto Polski i zarazem stolicę państwa.",
+    "explanation": "Warszawa jest największym miastem Polski i stolicą państwa.",
     "options": [
       "Warszawa",
       "Kraków",
@@ -252,7 +252,7 @@ const ALL_EXERCISES = [
     "section": "Warszawa",
     "type": "multi_select",
     "prompt": "Zaznacz duże miasta Polski poza Warszawą.",
-    "explanation": "Jako inne duże miasta wymienia się Kraków, Wrocław, Łódź, Poznań i Gdańsk.",
+    "explanation": "Do dużych miast Polski poza Warszawą należą Kraków, Wrocław, Łódź, Poznań i Gdańsk.",
     "options": [
       "Kraków",
       "Wrocław",
@@ -375,7 +375,7 @@ const ALL_EXERCISES = [
     "section": "Warszawa",
     "type": "match",
     "prompt": "Połącz atrakcję Warszawy z opisem.",
-    "explanation": "Wymienia się najważniejsze atrakcje turystyczne Warszawy i krótko opisuje, co można z nimi kojarzyć.",
+    "explanation": "Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie oraz Stadion Narodowy należą do ważnych atrakcji Warszawy.",
     "options": null,
     "left": [
       "Stare Miasto",
@@ -416,8 +416,8 @@ const ALL_EXERCISES = [
     "id": "R04_SLA_01",
     "section": "Wyżyna Śląska",
     "type": "single_choice",
-    "prompt": "Który region opisano jako jeden z najbardziej przekształconych przez człowieka w Polsce?",
-    "explanation": "Wskazuje się Wyżynę Śląską jako region silnie przekształcony przez człowieka.",
+    "prompt": "Który region należy do najbardziej przekształconych przez człowieka w Polsce?",
+    "explanation": "Wyżyna Śląska jest regionem silnie przekształconym przez człowieka.",
     "options": [
       "Wyżyna Śląska",
       "Wyżyna Lubelska",
@@ -561,7 +561,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Śląska",
     "type": "true_false",
     "prompt": "Węgiel kamienny jest wykorzystywany wyłącznie do ogrzewania domów.",
-    "explanation": "To fałsz, ponieważ wymienia się także energię elektryczną, tworzywa sztuczne, barwniki, leki i kosmetyki.",
+    "explanation": "To fałsz. Węgiel kamienny wykorzystuje się także do wytwarzania energii elektrycznej oraz produkcji tworzyw sztucznych, barwników, leków i kosmetyków.",
     "options": null,
     "answer": false
   },
@@ -703,7 +703,7 @@ const ALL_EXERCISES = [
     "id": "R04_KON_06",
     "section": "Konurbacja i Śląsk",
     "type": "multi_select",
-    "prompt": "Zaznacz źródła szkodliwych substancji wymienione w części o zanieczyszczeniu środowiska.",
+    "prompt": "Zaznacz źródła szkodliwych substancji zanieczyszczających środowisko.",
     "explanation": "Szkodliwe substancje emitują między innymi zakłady przemysłowe, przestarzałe systemy ogrzewania budynków oraz transport.",
     "options": [
       "zakłady przemysłowe",
@@ -738,7 +738,7 @@ const ALL_EXERCISES = [
     "section": "Konurbacja i Śląsk",
     "type": "sort",
     "prompt": "Przyporządkuj przykłady do właściwych grup.",
-    "explanation": "Pokazuje się zarówno problemy środowiskowe, zmiany dawnych obiektów przemysłowych, jak i elementy kultury śląskiej.",
+    "explanation": "Przykłady obejmują problemy środowiskowe, nowe funkcje dawnych obiektów przemysłowych oraz elementy kultury śląskiej.",
     "options": null,
     "items": [
       "smog",
@@ -821,7 +821,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Lubelska",
     "type": "true_false",
     "prompt": "Teren Wyżyny Lubelskiej jest lekko pagórkowaty, a wysokości bezwzględne nieznacznie przekraczają 300 m n.p.m.",
-    "explanation": "Tak opisano ukształtowanie terenu Wyżyny Lubelskiej.",
+    "explanation": "Wyżyna Lubelska ma lekko pagórkowate ukształtowanie terenu, a wysokości bezwzględne nieznacznie przekraczają 300 m n.p.m.",
     "options": null,
     "answer": true
   },
@@ -830,7 +830,7 @@ const ALL_EXERCISES = [
     "section": "Wyżyna Lubelska",
     "type": "fill_in",
     "prompt": "Jedną z najważniejszych rzek przepływających przez Wyżynę Lubelską jest __________.",
-    "explanation": "Wskazano Wieprz jako jedną z najważniejszych rzek regionu.",
+    "explanation": "Wieprz jest jedną z najważniejszych rzek regionu.",
     "options": null,
     "answer": [
       "Wieprz"
@@ -1065,7 +1065,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "match",
     "prompt": "Połącz trudniejsze pojęcia z wyjaśnieniami.",
-    "explanation": "Pojęcia te pojawiają się w częściach o Wyżynie Śląskiej i jej kulturze.",
+    "explanation": "Pojęcia obejmują zjawiska środowiskowe oraz elementy związane z Wyżyną Śląską i jej kulturą.",
     "options": null,
     "left": [
       "globalne ocieplenie",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "single_choice",
     "prompt": "Który obiekt nazywa się najwyższym budynkiem w Polsce i całej Unii Europejskiej?",
-    "explanation": "Tak opisano Varso Tower w śródmieściu Warszawy.",
+    "explanation": "Varso Tower w śródmieściu Warszawy jest najwyższym budynkiem w Polsce i Unii Europejskiej.",
     "options": [
       "Varso Tower",
       "Pałac Prezydencki",
@@ -1110,8 +1110,8 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz atrakcje turystyczne Warszawy wymienione razem w części o atrakcjach stolicy.",
-    "explanation": "Wymienia się Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie oraz Stadion Narodowy.",
+    "prompt": "Zaznacz atrakcje turystyczne Warszawy.",
+    "explanation": "Do atrakcji turystycznych Warszawy należą Stare Miasto, Pałac Kultury i Nauki, pałac w Wilanowie oraz Stadion Narodowy.",
     "options": [
       "Stare Miasto",
       "Pałac Kultury i Nauki",
@@ -1165,7 +1165,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "true_false",
     "prompt": "Lista światowego dziedzictwa UNESCO obejmuje obiekty dziedzictwa kulturowego i naturalnego o wyjątkowej wartości dla ludzkości.",
-    "explanation": "Tak wyjaśniono listę UNESCO w części o Zamościu.",
+    "explanation": "Lista światowego dziedzictwa UNESCO obejmuje obiekty dziedzictwa kulturowego i naturalnego o wyjątkowej wartości dla ludzkości.",
     "options": null,
     "answer": true
   },
@@ -1224,7 +1224,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "riddle",
     "prompt": "Dawna kopalnia w Zabrzu, w której część trasy turyści pokonują łodziami, to...",
-    "explanation": "Podaje się przykład dawnej kopalni Królowa Luiza w Zabrzu.",
+    "explanation": "Królowa Luiza w Zabrzu to dawna kopalnia udostępniona turystom; część trasy pokonuje się tam łodziami.",
     "options": null,
     "answer": "Królowa Luiza",
     "altAnswers": [

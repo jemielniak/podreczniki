@@ -113,7 +113,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do elementów mapy: legenda, skala, tytuł, numer strony.",
     "options": null,
     "answer": "numer strony",
-    "explanation": "Legenda, skala i tytuł to elementy mapy. Numer strony należy do atlasu lub książki, w której mapę wydrukowano."
+    "explanation": "Legenda, skala i tytuł to elementy mapy. Numer strony nie jest elementem mapy."
   },
   {
     "id": "R02_MAP_07",
@@ -695,7 +695,7 @@ const ALL_EXERCISES = [
     "prompt": "Góry to także tereny o wysokościach względnych większych niż 300 m.",
     "options": null,
     "answer": true,
-    "explanation": "Oprócz wysokości bezwzględnych powyżej 500 m n.p.m. góry opisano jako tereny o wysokościach względnych większych niż 300 m."
+    "explanation": "Góry mogą mieć wysokości bezwzględne powyżej 500 m n.p.m. lub wysokości względne większe niż 300 m."
   },
   {
     "id": "R02_KRA_05",
@@ -708,7 +708,7 @@ const ALL_EXERCISES = [
       "roślinność i zwierzęta",
       "wytwory człowieka",
       "pogoda",
-      "numer strony podręcznika"
+      "numer autobusu"
     ],
     "answer": [
       0,
@@ -970,7 +970,7 @@ const ALL_EXERCISES = [
       "Biebrzanski Park Narodowy",
       "Biebrzanski"
     ],
-    "explanation": "Wskazano rozlewiska Biebrzy w Biebrzańskim Parku Narodowym i opisano go jako największy park narodowy w Polsce."
+    "explanation": "Biebrzański Park Narodowy, obejmujący między innymi rozlewiska Biebrzy, jest największym parkiem narodowym w Polsce."
   },
   {
     "id": "R02_OCH_07",
@@ -1178,7 +1178,7 @@ const ALL_EXERCISES = [
       "powyżej 500 m n.p.m.": "góry według wysokości bezwzględnej",
       "powyżej 300 m wysokości względnej": "góry według wysokości względnej"
     },
-    "explanation": "Podaje się progi wysokości dla nizin, wyżyn i gór oraz przypomina, że góry można rozpoznawać także po wysokości względnej powyżej 300 m."
+    "explanation": "Niziny, wyżyny i góry rozróżnia się między innymi według wysokości bezwzględnej; góry można rozpoznawać także po wysokości względnej powyżej 300 m."
   },
   {
     "id": "R02_HARD_07",
@@ -1196,7 +1196,7 @@ const ALL_EXERCISES = [
     "prompt": "Na mapach głębokość zbiorników wodnych oznacza się tak, że im jaśniejszy odcień niebieskiego, tym większa głębokość.",
     "options": null,
     "answer": false,
-    "explanation": "Podano odwrotną zasadę: im ciemniejszy odcień niebieskiego, tym większa głębokość zbiornika wodnego."
+    "explanation": "Obowiązuje odwrotna zasada: im ciemniejszy odcień niebieskiego, tym większa głębokość zbiornika wodnego."
   },
   {
     "id": "R02_HARD_09",
