@@ -75,7 +75,7 @@ const ALL_EXERCISES = [
         "Drogi Mlecznej"
       ]
     ],
-    "explanation": "Podaje się wiek Układu Słonecznego na około 4,6 mld lat i wskazuje, że należy on do Drogi Mlecznej."
+    "explanation": "Układ Słoneczny ma około 4,6 mld lat i należy do Drogi Mlecznej."
   },
   {
     "id": "R01_UKL_05",
@@ -138,7 +138,7 @@ const ALL_EXERCISES = [
       "planeta": "ciało niebieskie często krążące wokół gwiazdy",
       "orbita": "tor ruchu ciała niebieskiego wokół innego ciała"
     },
-    "explanation": "Te definicje pochodzą z opisów Wszechświata, Układu Słonecznego i orbity.",
+    "explanation": "Galaktyka, gwiazda, planeta i orbita to podstawowe pojęcia związane z opisem Wszechświata i Układu Słonecznego.",
     "image": "r01_galaktyka_spiralna.jpg"
   },
   {
@@ -290,7 +290,7 @@ const ALL_EXERCISES = [
         "poludniowego"
       ]
     ],
-    "explanation": "Oś Ziemi opisano jako prostą linię prowadzącą przez środek Ziemi od bieguna północnego do bieguna południowego."
+    "explanation": "Oś Ziemi to prosta linia prowadząca przez środek Ziemi od bieguna północnego do bieguna południowego."
   },
   {
     "id": "R01_OBR_04",
@@ -400,7 +400,7 @@ const ALL_EXERCISES = [
     "prompt": "Im dalej na zachód położone jest miejsce na Ziemi, tym wcześniejsza jest tam godzina.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się zasadę: im dalej na zachód, tym wcześniejsza godzina, a im dalej na wschód, tym późniejsza.",
+    "explanation": "Im dalej na zachód, tym wcześniejsza godzina, a im dalej na wschód, tym późniejsza.",
     "image": "r01_strefy_czasowe_mapa.jpg"
   },
   {
@@ -497,7 +497,7 @@ const ALL_EXERCISES = [
         "49 minut"
       ]
     ],
-    "explanation": "Podaje się dokładniejszy czas obiegu Ziemi wokół Słońca: 365 dni, 5 godzin i 49 minut."
+    "explanation": "Dokładniejszy czas obiegu Ziemi wokół Słońca wynosi 365 dni, 5 godzin i 49 minut."
   },
   {
     "id": "R01_OBI_03",
@@ -857,7 +857,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie układa się równoleżnikowo i symetrycznie względem równika: strefy oświetlenia, strefy klimatyczne, strefy krajobrazowe, strefy czasowe.",
     "options": null,
     "answer": "strefy czasowe",
-    "explanation": "Wskazuje się podobieństwa w równoleżnikowym układzie stref oświetlenia, klimatycznych i krajobrazowych, a nie stref czasowych."
+    "explanation": "Strefy oświetlenia, klimatyczne i krajobrazowe mają podobny równoleżnikowy układ; strefy czasowe nie mają takiego układu."
   },
   {
     "id": "R01_STR_10",
@@ -901,7 +901,7 @@ const ALL_EXERCISES = [
     "id": "R01_KOS_01",
     "section": "Poznawanie kosmosu",
     "type": "single_choice",
-    "prompt": "Ile gwiazd znajduje się według tekstu w Drodze Mlecznej?",
+    "prompt": "Ile gwiazd znajduje się w Drodze Mlecznej?",
     "options": [
       "około 400 miliardów",
       "około 88",
@@ -911,7 +911,7 @@ const ALL_EXERCISES = [
       "około 300 tysięcy"
     ],
     "answer": 0,
-    "explanation": "Tekst o Drodze Mlecznej podaje, że w tej galaktyce znajduje się około 400 miliardów gwiazd.",
+    "explanation": "W Drodze Mlecznej znajduje się około 400 miliardów gwiazd.",
     "image": "r01_droga_mleczna_nocne_niebo.jpg"
   },
   {
@@ -994,7 +994,7 @@ const ALL_EXERCISES = [
         "100000"
       ]
     ],
-    "explanation": "W tekście podano prędkość światła prawie 300 tys. km/s oraz ogrom Drogi Mlecznej: światło potrzebuje 100 tys. lat, aby przebyć ją od krańca do krańca.",
+    "explanation": "Prędkość światła wynosi prawie 300 tys. km/s, a przebycie Drogi Mlecznej od krańca do krańca zajęłoby światłu około 100 tys. lat.",
     "image": "r01_droga_mleczna_nocne_niebo.jpg"
   },
   {
@@ -1038,7 +1038,7 @@ const ALL_EXERCISES = [
       "Wostok 1": "statek, którym odbyto lot na orbitę okołoziemską w 1961 roku",
       "Apollo 11": "misja, podczas której człowiek stanął na Księżycu w 1969 roku"
     },
-    "explanation": "Opisuje się lot Jurija Gagarina statkiem Wostok 1 oraz misję Apollo 11, podczas której Neil Armstrong stanął na Księżycu.",
+    "explanation": "Jurij Gagarin odbył lot statkiem Wostok 1, a podczas misji Apollo 11 Neil Armstrong stanął na Księżycu.",
     "image": "r01_teleskop_kosmiczny.jpg"
   },
   {
@@ -1153,7 +1153,7 @@ const ALL_EXERCISES = [
     "prompt": "Saturn ma 146 księżyców, a Jowisz 95 księżyców.",
     "options": null,
     "answer": true,
-    "explanation": "W opisach planet podano, że Saturn ma 146 księżyców, a Jowisz 95."
+    "explanation": "Saturn ma 146 księżyców, a Jowisz 95."
   },
   {
     "id": "R01_HARD_04",
@@ -1266,7 +1266,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_09",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Podróżnik leci z Polski do kraju położonego daleko na wschód. Jaką ogólną zmianę czasu powinien przewidzieć według zasady?",
+    "prompt": "Podróżnik leci z Polski do kraju położonego daleko na wschód. Jaką ogólną zmianę czasu powinien przewidzieć?",
     "options": [
       "będzie tam późniejsza godzina",
       "będzie tam wcześniejsza godzina",
@@ -1337,7 +1337,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podaje się liczbę 88 gwiazdozbiorów, opisuje Gwiazdę Polarną w Małej Niedźwiedzicy oraz wskazuje, że Wielki Wóz jest częścią Wielkiej Niedźwiedzicy."
+    "explanation": "Na niebie wyróżnia się 88 gwiazdozbiorów, Gwiazda Polarna należy do Małej Niedźwiedzicy, a Wielki Wóz jest częścią Wielkiej Niedźwiedzicy."
   }
 ];
 

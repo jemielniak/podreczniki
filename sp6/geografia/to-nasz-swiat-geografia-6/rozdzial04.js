@@ -305,7 +305,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród francuskich firm i marek wymieniono m.in. Carrefour, Auchan, Renault, Airbus i Danone."
+    "explanation": "Do francuskich firm i marek należą m.in. Carrefour, Auchan, Renault, Airbus i Danone."
   },
   {
     "id": "R04_FRA_05",
@@ -658,7 +658,7 @@ const ALL_EXERCISES = [
       "Paryż 1924",
       "Londyn 1948"
     ],
-    "explanation": "Wymienia się igrzyska w Paryżu w 1900, Londynie w 1908, Paryżu w 1924 oraz Londynie w 1948 roku."
+    "explanation": "Igrzyska olimpijskie odbyły się w Paryżu w 1900 i 1924 roku oraz w Londynie w 1908 i 1948 roku."
   },
   {
     "id": "R04_MET_11",
@@ -862,7 +862,7 @@ const ALL_EXERCISES = [
       "Barcelona": "Sagrada Familia",
       "Ateny": "Akropol"
     },
-    "explanation": "Wymienia się m.in. Wenecję z kanałami, Rzym z Koloseum i Forum Romanum, Barcelonę z Sagradą Familią oraz Ateny z Akropolem."
+    "explanation": "Wenecja słynie z kanałów, Rzym z Koloseum i Forum Romanum, Barcelona z Sagrady Familii, a Ateny z Akropolu."
   },
   {
     "id": "R04_TUR_09",
@@ -883,7 +883,7 @@ const ALL_EXERCISES = [
     "id": "R04_TUR_10",
     "section": "Turystyka w południowej Europie",
     "type": "scenario",
-    "prompt": "Turysta wybiera miejsce, gdzie ciepła i czysta woda sprzyja sportom wodnym, np. nurkowaniu. Który akwen opisuje się w tym kontekście?",
+    "prompt": "Turysta wybiera miejsce, gdzie ciepła i czysta woda sprzyja sportom wodnym, np. nurkowaniu. Który akwen zapewnia takie warunki?",
     "image": "r04_atrakcje_poludniowej_europy.jpg",
     "options": [
       "Morze Śródziemne",
@@ -911,7 +911,7 @@ const ALL_EXERCISES = [
       "Iberyjski, Geysir i Akropol"
     ],
     "answer": 0,
-    "explanation": "Wymieniono półwyspy Iberyjski, Apeniński i Bałkański."
+    "explanation": "Do wielkich półwyspów południowej Europy należą Iberyjski, Apeniński i Bałkański."
   },
   {
     "id": "R04_TUR_12",
@@ -1068,7 +1068,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_06",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz wszystkie zdania zgodne z opisem francuskiego przemysłu high-tech.",
+    "prompt": "Zaznacz wszystkie poprawne zdania o francuskim przemyśle high-tech.",
     "options": [
       "pracują w nim świetnie wykształceni specjaliści",
       "duże środki przeznacza się na badania i testy",
@@ -1167,7 +1167,7 @@ const ALL_EXERCISES = [
     "image": "r04_atrakcje_poludniowej_europy.jpg",
     "options": null,
     "answer": "Big Ben",
-    "explanation": "Big Ben jest symbolem Londynu, a pozostałe obiekty opisano w części o atrakcjach południowej Europy."
+    "explanation": "Big Ben jest symbolem Londynu, a pozostałe obiekty są atrakcjami południowej Europy."
   },
   {
     "id": "R04_HARD_11",
@@ -1246,7 +1246,7 @@ const ALL_EXERCISES = [
         "bałkański"
       ]
     ],
-    "explanation": "Wymienia się trzy wielkie półwyspy: Iberyjski, Apeniński i Bałkański."
+    "explanation": "Trzy wielkie półwyspy południowej Europy to Iberyjski, Apeniński i Bałkański."
   },
   {
     "id": "R04_HARD_14",

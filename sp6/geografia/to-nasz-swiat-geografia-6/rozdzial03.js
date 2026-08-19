@@ -104,7 +104,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_mapa_polityczna_europy.jpg",
-    "explanation": "Podaje się liczbę 47 państw w Europie i zaznacza, że Kosowo nie przez wszystkie kraje jest uznawane."
+    "explanation": "W Europie znajduje się 47 państw, a niepodległość Kosowa nie jest uznawana przez wszystkie kraje."
   },
   {
     "id": "R03_POL_06",
@@ -126,7 +126,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do wód otaczających Europę: Ocean Arktyczny, Ocean Atlantycki, Morze Śródziemne, Ocean Indyjski.",
     "options": null,
     "answer": "Ocean Indyjski",
-    "explanation": "Ocean Indyjski nie jest jako woda otaczająca Europę; Europę oblewają m.in. Ocean Arktyczny, Ocean Atlantycki i Morze Śródziemne."
+    "explanation": "Ocean Indyjski nie otacza Europy; Europę oblewają m.in. Ocean Arktyczny, Ocean Atlantycki i Morze Śródziemne."
   },
   {
     "id": "R03_POL_08",
@@ -168,7 +168,7 @@ const ALL_EXERCISES = [
       "Belgia i Holandia"
     ],
     "answer": 0,
-    "explanation": "Wymienia się Rosję, Kazachstan i Turcję jako państwa położone częściowo w Europie i Azji."
+    "explanation": "Rosja, Kazachstan i Turcja są państwami położonymi częściowo w Europie i częściowo w Azji."
   },
   {
     "id": "R03_POL_10",
@@ -243,7 +243,7 @@ const ALL_EXERCISES = [
     "id": "R03_UKS_03",
     "section": "Ukształtowanie i wody Europy",
     "type": "multi_select",
-    "prompt": "Zaznacz morza wymienione jako części Morza Śródziemnego.",
+    "prompt": "Zaznacz morza będące częściami Morza Śródziemnego.",
     "options": [
       "Morze Adriatyckie",
       "Morze Tyrreńskie",
@@ -298,7 +298,7 @@ const ALL_EXERCISES = [
       "największy europejski półwysep": "Półwysep Skandynawski",
       "największa europejska wyspa": "Wielka Brytania"
     },
-    "explanation": "Wskazuje się Ładogę, Wołgę, Półwysep Skandynawski i Wielką Brytanię jako największe lub najdłuższe obiekty w swoich kategoriach."
+    "explanation": "Ładoga, Wołga, Półwysep Skandynawski i Wielka Brytania należą do największych lub najdłuższych obiektów w swoich kategoriach."
   },
   {
     "id": "R03_UKS_06",
@@ -376,7 +376,7 @@ const ALL_EXERCISES = [
       "zatoka"
     ],
     "answer": 0,
-    "explanation": "Część nizin leżących poniżej poziomu morza to depresje. Podano przykłady z Holandii i Żuław Wiślanych."
+    "explanation": "Część nizin leżących poniżej poziomu morza to depresje; występują one m.in. w Holandii i na Żuławach Wiślanych."
   },
   {
     "id": "R03_UKS_10",
@@ -386,7 +386,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_wulkan_etna.jpg",
-    "explanation": "Wymienia się Włochy, Grecję, Islandię i norweską wyspę Jan Mayen jako miejsca występowania czynnych wulkanów w Europie."
+    "explanation": "Czynne wulkany w Europie występują m.in. we Włoszech, Grecji, Islandii i na norweskiej wyspie Jan Mayen."
   },
   {
     "id": "R03_KLI_01",
@@ -422,7 +422,7 @@ const ALL_EXERCISES = [
     "id": "R03_KLI_03",
     "section": "Klimat i zmiana klimatu",
     "type": "single_choice",
-    "prompt": "Gdzie w Europie jest najcieplej według zależności od szerokości geograficznej?",
+    "prompt": "Gdzie w Europie jest najcieplej ze względu na szerokość geograficzną?",
     "options": [
       "na południu kontynentu",
       "na północy kontynentu",
@@ -642,7 +642,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": true,
     "image": "r03_europejski_banan_mapa.jpg",
-    "explanation": "Mapa i podsumowanie wskazują, że europejski banan obejmuje m.in. północne Włochy, zachodnie Niemcy, Belgię, Holandię oraz południową i środkową Wielką Brytanię."
+    "explanation": "Europejski banan obejmuje m.in. północne Włochy, zachodnie Niemcy, Belgię, Holandię oraz południową i środkową Wielką Brytanię."
   },
   {
     "id": "R03_LUD_05",
@@ -760,7 +760,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wymienia się m.in. naukę, chęć zmiany, migracje zarobkowe oraz konieczność ucieczki przed wojną lub prześladowaniami."
+    "explanation": "Do przyczyn migracji należą m.in. nauka, chęć zmiany, migracje zarobkowe oraz konieczność ucieczki przed wojną lub prześladowaniami."
   },
   {
     "id": "R03_GOS_01",
@@ -866,7 +866,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_elektrownia_wodna_norwegia.jpg",
-    "explanation": "Opisuje się Norwegię jako górzysty kraj, w którym szybkie rzeki sprzyjają energetyce wodnej."
+    "explanation": "Norwegia jest krajem górzystym, a szybkie rzeki sprzyjają tam energetyce wodnej."
   },
   {
     "id": "R03_GOS_06",
@@ -889,7 +889,7 @@ const ALL_EXERCISES = [
     "id": "R03_GOS_07",
     "section": "Gospodarka i energetyka",
     "type": "multi_select",
-    "prompt": "Zaznacz przykłady działalności zaliczanych do rolnictwa.",
+    "prompt": "Zaznacz przykłady działalności należących do rolnictwa.",
     "options": [
       "uprawa roślin",
       "chów zwierząt",
@@ -904,7 +904,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Do rolnictwa zaliczono uprawę roślin, chów zwierząt, rybołówstwo i pozyskiwanie drewna. Bankowość to usługi, a produkcja komputerów to przemysł."
+    "explanation": "Do rolnictwa należą uprawa roślin, chów zwierząt, rybołówstwo i pozyskiwanie drewna. Bankowość to usługi, a produkcja komputerów to przemysł."
   },
   {
     "id": "R03_GOS_08",
@@ -946,7 +946,7 @@ const ALL_EXERCISES = [
     "id": "R03_GOS_10",
     "section": "Gospodarka i energetyka",
     "type": "match",
-    "prompt": "Połącz sektor gospodarki z przykładem z procesu produkcji i sprzedaży serów.",
+    "prompt": "Połącz sektor gospodarki z odpowiednim etapem produkcji i sprzedaży serów.",
     "options": null,
     "left": [
       "rolnictwo",
@@ -963,7 +963,7 @@ const ALL_EXERCISES = [
       "przemysł": "produkcja serów",
       "usługi": "przewóz i sprzedaż produktów"
     },
-    "explanation": "W przykładzie rolnictwo obejmuje chów krów, przemysł produkcję serów, a usługi ich przewóz i sprzedaż."
+    "explanation": "Rolnictwo obejmuje chów krów, przemysł produkcję serów, a usługi ich przewóz i sprzedaż."
   },
   {
     "id": "R03_UNI_01",
@@ -1256,13 +1256,13 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r03_susza_poludnie_europy.jpg",
-    "explanation": "Wymienia się m.in. topnienie lądolodów, wzrost poziomu mórz, zalewanie wybrzeży, gwałtowne zjawiska pogodowe, susze i pożary."
+    "explanation": "Do skutków zmiany klimatu należą m.in. topnienie lądolodów, wzrost poziomu mórz, zalewanie wybrzeży, gwałtowne zjawiska pogodowe, susze i pożary."
   },
   {
     "id": "R03_HARD_06",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W pewnym kraju lodowce dają początek licznym rzekom, a liczne wulkany sprawiają, że pod ziemią jest wysoka temperatura. Dlatego dobrze rozwijają się tam energetyka wodna i geotermalna. Który kraj opisano?",
+    "prompt": "W pewnym kraju lodowce dają początek licznym rzekom, a liczne wulkany sprawiają, że pod ziemią jest wysoka temperatura. Dlatego dobrze rozwijają się tam energetyka wodna i geotermalna. O jaki kraj chodzi?",
     "options": [
       "Islandia",
       "Dania",
@@ -1273,7 +1273,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r03_elektrownia_wodna_norwegia.jpg",
-    "explanation": "Opisuje się Islandię jako kraj z lodowcami i wulkanami, co sprzyja energetyce wodnej oraz geotermalnej."
+    "explanation": "Islandia ma liczne lodowce i wulkany, co sprzyja energetyce wodnej oraz geotermalnej."
   },
   {
     "id": "R03_HARD_07",
@@ -1338,7 +1338,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż, co nie pasuje do krajów spoza UE używających euro jako głównej waluty: Andora, Czarnogóra, Kosowo, Monako, Niemcy.",
     "options": null,
     "answer": "Niemcy",
-    "explanation": "Andora, Czarnogóra, Kosowo i Monako są wymienione jako kraje nienależące do UE, w których euro jest główną walutą. Niemcy są państwem członkowskim UE i strefy euro."
+    "explanation": "Andora, Czarnogóra, Kosowo i Monako nie należą do UE, ale euro jest w nich główną walutą. Niemcy są państwem członkowskim UE i strefy euro."
   },
   {
     "id": "R03_HARD_10",

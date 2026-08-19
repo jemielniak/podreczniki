@@ -368,7 +368,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do słowackich pasm górskich: Tatry, Niżne Tatry, Wielka Fatra, Rudawy, Bieszczady.",
     "options": null,
     "answer": "Rudawy",
-    "explanation": "Rudawy wymieniono przy opisie gór otaczających Czechy. Pozostałe nazwy podano jako pasma górskie Słowacji."
+    "explanation": "Rudawy należą do gór otaczających Czechy. Pozostałe nazwy to pasma górskie Słowacji."
   },
   {
     "id": "R05_CZS_10",
@@ -567,7 +567,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do największych miast zajętych przez okupanta: Donieck, Ługańsk, Mariupol, Symferopol, Kijów.",
     "options": null,
     "answer": "Kijów",
-    "explanation": "Wśród największych miast zajętych przez okupanta wymienia się Donieck, Ługańsk, Sewastopol, Mariupol i Symferopol. Kijów jest stolicą Ukrainy, ale nie znajduje się na tej liście."
+    "explanation": "Do największych miast zajętych przez okupanta należą Donieck, Ługańsk, Sewastopol, Mariupol i Symferopol. Kijów jest stolicą Ukrainy, ale nie znajduje się na tej liście."
   },
   {
     "id": "R05_UKR_10",
@@ -754,7 +754,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do litewskich walorów kulturowych: zamek w Trokach, Stare Miasto w Wilnie, Stare Miasto w Kownie, zamek w Nieświeżu.",
     "options": null,
     "answer": "zamek w Nieświeżu",
-    "explanation": "Zamek w Nieświeżu jest walorem kulturowym Białorusi. Zamek w Trokach oraz stare miasta w Wilnie i Kownie wymieniono przy Litwie."
+    "explanation": "Zamek w Nieświeżu jest walorem kulturowym Białorusi. Zamek w Trokach oraz stare miasta w Wilnie i Kownie są walorami kulturowymi Litwy."
   },
   {
     "id": "R05_BIL_09",
@@ -899,13 +899,13 @@ const ALL_EXERCISES = [
       4,
       5
     ],
-    "explanation": "Wymienia się między innymi ropę naftową, gaz ziemny, węgiel kamienny, uran, żelazo, miedź, nikiel, złoto i diamenty. Kakao i banany nie są w nim podane jako rosyjskie surowce mineralne."
+    "explanation": "Do rosyjskich surowców należą między innymi ropa naftowa, gaz ziemny, węgiel kamienny, uran, żelazo, miedź, nikiel, złoto i diamenty. Kakao i banany nie są surowcami mineralnymi."
   },
   {
     "id": "R05_ROS_06",
     "section": "Rosja i relacje z sąsiadami",
     "type": "sort",
-    "prompt": "Przyporządkuj strefy krajobrazowe i cechy do części Rosji, w której je opisano.",
+    "prompt": "Przyporządkuj strefy krajobrazowe i cechy do odpowiednich części Rosji.",
     "options": null,
     "items": [
       "stepy",
@@ -974,13 +974,13 @@ const ALL_EXERCISES = [
       "Ukraina"
     ],
     "answer": 0,
-    "explanation": "Opisuje się Białoruś jako państwo nienależące do NATO ani UE, nieszanowujące demokracji, wolności słowa i praw człowieka oraz prowadzące wrogie działania na granicy z Polską."
+    "explanation": "Białoruś nie należy do NATO ani UE, nie przestrzega demokracji, wolności słowa i praw człowieka oraz prowadzi wrogie działania na granicy z Polską."
   },
   {
     "id": "R05_ROS_10",
     "section": "Rosja i relacje z sąsiadami",
     "type": "sequence",
-    "prompt": "Ułóż typy klimatu Rosji od północy ku południu według opisu.",
+    "prompt": "Ułóż typy klimatu Rosji od północy ku południu.",
     "options": null,
     "items": [
       "umiarkowany ciepły kontynentalny",
@@ -1010,13 +1010,13 @@ const ALL_EXERCISES = [
       "Litwa"
     ],
     "answer": 0,
-    "explanation": "W części o relacjach Polski z sąsiadami podano, że Niemcy są głównym partnerem handlowym Polski."
+    "explanation": "Niemcy są głównym partnerem handlowym Polski."
   },
   {
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Który zestaw miast podano jako przykłady miast tworzących konurbację w Zagłębiu Ruhry?",
+    "prompt": "Który zestaw miast tworzy konurbację w Zagłębiu Ruhry?",
     "options": [
       "Dortmund, Essen, Bochum i Duisburg",
       "Berlin, Monachium, Hamburg i Kolonia",
@@ -1026,7 +1026,7 @@ const ALL_EXERCISES = [
       "Moskwa, Petersburg, Kazań i Omsk"
     ],
     "answer": 0,
-    "explanation": "Przy opisie Zagłębia Ruhry wymieniono miasta Dortmund, Essen, Bochum i Duisburg, które utworzyły konurbację."
+    "explanation": "Dortmund, Essen, Bochum i Duisburg tworzą konurbację w Zagłębiu Ruhry."
   },
   {
     "id": "R05_HARD_02",
@@ -1081,7 +1081,7 @@ const ALL_EXERCISES = [
         "Nizne"
       ]
     ],
-    "explanation": "Jasna w Niżnych Tatrach jest wymieniona jako jeden z najważniejszych słowackich ośrodków narciarskich."
+    "explanation": "Jasna w Niżnych Tatrach jest jednym z najważniejszych słowackich ośrodków narciarskich."
   },
   {
     "id": "R05_HARD_05",
@@ -1127,7 +1127,7 @@ const ALL_EXERCISES = [
     "prompt": "Co nie pasuje do elementów kultury ludowej i kuchni Białorusi: Maslenica, draniki, babka ziemniaczana, kartacze.",
     "options": null,
     "answer": "kartacze",
-    "explanation": "Kartacze podano jako tradycyjną potrawę litewską. Maslenica, draniki i babka ziemniaczana pojawiają się przy opisie kultury Białorusi."
+    "explanation": "Kartacze są tradycyjną potrawą litewską. Maslenica, draniki i babka ziemniaczana są elementami kultury Białorusi."
   },
   {
     "id": "R05_HARD_08",

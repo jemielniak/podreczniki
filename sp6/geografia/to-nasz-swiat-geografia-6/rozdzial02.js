@@ -137,7 +137,7 @@ const ALL_EXERCISES = [
       "Britstown": "30°S"
     },
     "image": "r02_mapa_szerokosci_przyklady.jpg",
-    "explanation": "W przykładach Kair ma 30°N, Kampala leży na równiku i ma 0°, a Britstown ma 30°S."
+    "explanation": "Kair ma szerokość 30°N, Kampala leży na równiku i ma 0°, a Britstown ma 30°S."
   },
   {
     "id": "R02_LAT_09",
@@ -320,7 +320,7 @@ const ALL_EXERCISES = [
       "Dhaka": "90°E"
     },
     "image": "r02_mapa_dlugosci_przyklady.jpg",
-    "explanation": "W przykładach Park Narodowy Grenlandii ma 30°W, Londyn leży na południku 0°, a Dhaka ma 90°E."
+    "explanation": "Park Narodowy Grenlandii ma długość 30°W, Londyn leży na południku 0°, a Dhaka ma 90°E."
   },
   {
     "id": "R02_LON_09",
@@ -571,7 +571,7 @@ const ALL_EXERCISES = [
     "prompt": "Współrzędne geograficzne można podawać z dokładnością do stopni i minut.",
     "options": null,
     "answer": true,
-    "explanation": "Gdy potrzebna jest większa dokładność, obok stopni podaje się także minuty."
+    "explanation": "Gdy potrzebna jest większa dokładność, obok stopni zapisuje się także minuty."
   },
   {
     "id": "R02_GPS_03",
@@ -589,7 +589,7 @@ const ALL_EXERCISES = [
         "szescdziesiat"
       ]
     ],
-    "explanation": "Podano, że 1° dzieli się na 60 minut."
+    "explanation": "Jeden stopień dzieli się na 60 minut kątowych."
   },
   {
     "id": "R02_GPS_04",
@@ -609,7 +609,7 @@ const ALL_EXERCISES = [
     "id": "R02_GPS_05",
     "section": "Stopnie, minuty i GPS",
     "type": "multi_select",
-    "prompt": "Zaznacz informacje zgodne z opisem działania GPS.",
+    "prompt": "Zaznacz poprawne informacje o działaniu GPS.",
     "options": [
       "GPS korzysta ze sztucznych satelitów",
       "satelity wysyłają sygnały radiowe",
@@ -647,7 +647,7 @@ const ALL_EXERCISES = [
     "id": "R02_GPS_07",
     "section": "Stopnie, minuty i GPS",
     "type": "match",
-    "prompt": "Połącz zapis dziesiętny z oznaczeniem półkuli według zasad.",
+    "prompt": "Połącz zapis dziesiętny z właściwym oznaczeniem półkuli.",
     "options": null,
     "left": [
       "pierwsza wartość dodatnia",
@@ -673,7 +673,7 @@ const ALL_EXERCISES = [
     "id": "R02_GPS_08",
     "section": "Stopnie, minuty i GPS",
     "type": "single_choice",
-    "prompt": "Jakie współrzędne Przylądka Rozewie podano?",
+    "prompt": "Jakie są współrzędne Przylądka Rozewie?",
     "options": [
       "54°50'N 18°20'E",
       "54°20'N 18°50'E",
@@ -684,7 +684,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r02_przyladek_rozewie.jpg",
-    "explanation": "W przykładzie Przylądek Rozewie ma współrzędne 54°50'N 18°20'E."
+    "explanation": "Przylądek Rozewie ma współrzędne 54°50'N 18°20'E."
   },
   {
     "id": "R02_GPS_09",
@@ -693,7 +693,7 @@ const ALL_EXERCISES = [
     "prompt": "Wartości po kropce w zapisie z aplikacji GPS można przeliczyć na minuty, mnożąc je przez 60.",
     "options": null,
     "answer": true,
-    "explanation": "Podano zasadę: wartości po kropce należy przeliczyć na minuty przez pomnożenie razy 60."
+    "explanation": "Wartości po kropce należy przeliczyć na minuty przez pomnożenie przez 60."
   },
   {
     "id": "R02_GPS_10",
@@ -756,7 +756,7 @@ const ALL_EXERCISES = [
     "prompt": "Aby określić położenie rozległego obszaru, można podać współrzędne czterech punktów wysuniętych najdalej w każdą stronę świata.",
     "options": null,
     "answer": true,
-    "explanation": "Dla obszarów takich jak państwa lub kontynenty wskazuje się cztery skrajne punkty: północny, południowy, zachodni i wschodni."
+    "explanation": "Państwa i kontynenty mają cztery skrajne punkty: północny, południowy, zachodni i wschodni."
   },
   {
     "id": "R02_EXT_04",
@@ -888,7 +888,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Miasto Hawana leży w połowie drogi między równoleżnikami 22° i 24°. Jaką przybliżoną szerokość geograficzną podano?",
+    "prompt": "Miasto Hawana leży w połowie drogi między równoleżnikami 22° i 24°. Jaka jest jego przybliżona szerokość geograficzna?",
     "options": [
       "23°N",
       "22°N",
@@ -948,33 +948,33 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_05",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Miejscowość na Hawajach, której szerokość geograficzną podano jako 22°N, to...",
+    "prompt": "Miejscowość na Hawajach położona na szerokości 22°N to...",
     "options": null,
     "answer": "Lihue",
     "altAnswers": [
       "Lihue",
       "lihue"
     ],
-    "explanation": "W przykładzie fragmentu mapy półkuli północnej szerokość geograficzna miejscowości Lihue wynosi 22°N."
+    "explanation": "Szerokość geograficzna miejscowości Lihue wynosi 22°N."
   },
   {
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "riddle",
-    "prompt": "Miasto w Indonezji, którego długość geograficzną podano jako 112°E, to...",
+    "prompt": "Miasto w Indonezji położone na długości 112°E to...",
     "options": null,
     "answer": "Kediri",
     "altAnswers": [
       "Kediri",
       "kediri"
     ],
-    "explanation": "Na fragmencie mapy półkuli wschodniej podano przykład miasta Kediri o długości geograficznej 112°E."
+    "explanation": "Kediri leży na długości geograficznej 112°E."
   },
   {
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz miejsca z przykładów, które leżą na półkuli zachodniej.",
+    "prompt": "Zaznacz miejsca leżące na półkuli zachodniej.",
     "options": [
       "Park Narodowy Grenlandii",
       "Hilo",
@@ -989,13 +989,13 @@ const ALL_EXERCISES = [
       2,
       5
     ],
-    "explanation": "Zachodnią długość geograficzną oznacza litera W. W przykładach 30°W ma Park Narodowy Grenlandii, 155°W Hilo, 84°W San José, a około 83°W Puerto Limón."
+    "explanation": "Zachodnią długość geograficzną oznacza litera W. Park Narodowy Grenlandii ma 30°W, Hilo 155°W, San José 84°W, a Puerto Limón około 83°W."
   },
   {
     "id": "R02_HARD_08",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "Uczeń widzi w aplikacji GPS zapis 54.679599, 18.385639. Zasady każą pomnożyć części po kropce przez 60. Który zapis minutowy podano w przykładzie?",
+    "prompt": "Uczeń widzi w aplikacji GPS zapis 54.679599, 18.385639. Części po kropce należy pomnożyć przez 60. Który zapis minutowy jest poprawny?",
     "options": [
       "54°41'N 18°23'E",
       "54°23'N 18°41'E",
@@ -1006,13 +1006,13 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r02_smartfon_gps.jpg",
-    "explanation": "W przykładzie 0.679599 daje około 41 minut, a 0.385639 około 23 minuty, więc zapisano 54°41'N 18°23'E."
+    "explanation": "0.679599 daje około 41 minut, a 0.385639 około 23 minuty, więc otrzymujemy zapis 54°41'N 18°23'E."
   },
   {
     "id": "R02_HARD_09",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz przykład z podaną współrzędną lub parą współrzędnych.",
+    "prompt": "Połącz miejsce z właściwą współrzędną lub parą współrzędnych.",
     "options": null,
     "left": [
       "Tampa",
@@ -1072,7 +1072,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_13",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz dziedziny lub działania, w których wskazuje się zastosowanie precyzyjnego określania położenia.",
+    "prompt": "Zaznacz dziedziny lub działania, w których wykorzystuje się precyzyjne określanie położenia.",
     "options": [
       "planowanie zagospodarowania przestrzennego",
       "transport",
@@ -1087,7 +1087,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Jako zastosowania precyzyjnego określania położenia wymieniono planowanie zagospodarowania przestrzennego, transport, wojskowość i ochronę przyrody."
+    "explanation": "Precyzyjne określanie położenia wykorzystuje się w planowaniu zagospodarowania przestrzennego, transporcie, wojskowości i ochronie przyrody."
   },
   {
     "id": "R02_HARD_14",
