@@ -29,7 +29,7 @@ const ALL_EXERCISES = [
     "section": "Powstanie styczniowe",
     "type": "match",
     "prompt": "Połącz działacza pracy organicznej z jego działaniem.",
-    "explanation": "W podręczniku te trzy osoby pokazują wielkopolskie początki pracy organicznej.",
+    "explanation": "Te trzy osoby symbolizują wielkopolskie początki pracy organicznej.",
     "options": null,
     "left": [
       "Dezydery Chłapowski",
@@ -112,7 +112,7 @@ const ALL_EXERCISES = [
     "section": "Powstanie styczniowe",
     "type": "fill_in",
     "prompt": "Pierwsza manifestacja patriotyczna w ramach rewolucji moralnej odbyła się w roku __________ podczas pogrzebu wdowy po generale __________.",
-    "explanation": "Podręcznik wskazuje pogrzeb wdowy po generale Józefie Sowińskim jako pierwszą manifestację patriotyczną rewolucji moralnej.",
+    "explanation": "Pogrzeb wdowy po generale Józefie Sowińskim był impulsem dla pierwszej manifestacji patriotycznej w ramach rewolucji moralnej.",
     "image": "r04_bizuteria_patriotyczna.jpg",
     "options": null,
     "answer": [
@@ -255,7 +255,7 @@ const ALL_EXERCISES = [
     "section": "Represje i polityka zaborców",
     "type": "riddle",
     "prompt": "Rodzaj kary polegającej na ciężkiej pracy, np. przy wyrębie drzew w tajdze lub w kopalniach, to...",
-    "explanation": "Podręcznik definiuje katorgę jako ciężką pracę, na którą zsyłano m.in. uczestników powstania.",
+    "explanation": "Katorga to ciężka praca, na którą zsyłano m.in. uczestników powstania.",
     "options": null,
     "answer": "katorga",
     "altAnswers": [
@@ -444,7 +444,7 @@ const ALL_EXERCISES = [
     "section": "Przemiany społeczno-gospodarcze",
     "type": "match",
     "prompt": "Połącz okręg przemysłowy Królestwa Polskiego z dominującą produkcją.",
-    "explanation": "Podręcznik wskazuje trzy główne okręgi rozwoju przemysłu w Królestwie Polskim.",
+    "explanation": "Były to trzy główne okręgi rozwoju przemysłu w Królestwie Polskim.",
     "image": "r04_lodz_przemyslowa.jpg",
     "options": null,
     "left": [
@@ -527,7 +527,7 @@ const ALL_EXERCISES = [
     "section": "Przemiany społeczno-gospodarcze",
     "type": "riddle",
     "prompt": "Lwowski aptekarz, którego wynalazek pozwolił wykorzystywać naftę do oświetlania domów, to...",
-    "explanation": "Podręcznik łączy galicyjską ropę naftową z lampą naftową wynalezioną przez Ignacego Łukasiewicza.",
+    "explanation": "Wynalazcą lampy naftowej był Ignacy Łukasiewicz.",
     "image": "r04_szyby_naftowe_boryslaw.jpg",
     "options": null,
     "answer": "Ignacy Łukasiewicz",
@@ -605,7 +605,7 @@ const ALL_EXERCISES = [
     "section": "Przemiany społeczno-gospodarcze",
     "type": "single_choice",
     "prompt": "Które miasto jako pierwsze na ziemiach polskich wprowadziło tramwaje?",
-    "explanation": "Podręcznik wskazuje Lwów jako pierwsze miasto z tramwajami, najpierw konnymi, a potem elektrycznymi.",
+    "explanation": "Lwów był pierwszym miastem z tramwajami, najpierw konnymi, a potem elektrycznymi.",
     "options": [
       "Lwów",
       "Warszawa",
@@ -657,7 +657,7 @@ const ALL_EXERCISES = [
     "section": "Działalność polityczna",
     "type": "match",
     "prompt": "Połącz ugrupowanie z odpowiednimi osobami.",
-    "explanation": "Rozdział zestawia najważniejsze partie z ich liderami lub ideologami.",
+    "explanation": "Najważniejsze polskie partie z ich liderami lub ideologami.",
     "options": null,
     "left": [
       "PPS",
@@ -699,7 +699,7 @@ const ALL_EXERCISES = [
     "section": "Działalność polityczna",
     "type": "true_false",
     "prompt": "SDKPiL odrzucała walkę o niepodległość Polski i stawiała cele społeczne ponad narodowymi.",
-    "explanation": "Podręcznik wskazuje, że SDKPiL chciała współpracy rewolucjonistów z różnych państw i obalenia caratu, a nie osobnej walki o niepodległość Polski.",
+    "explanation": "SDKPiL chciała współpracy rewolucjonistów z różnych państw i obalenia caratu, a nie osobnej walki o niepodległość Polski.",
     "options": null,
     "answer": true
   },
@@ -737,7 +737,7 @@ const ALL_EXERCISES = [
     "section": "Działalność polityczna",
     "type": "multi_select",
     "prompt": "Zaznacz osoby związane z początkami ruchu ludowego w Galicji.",
-    "explanation": "Rozdział wymienia Stefczyka, księdza Stojałowskiego oraz Marię i Bolesława Wysłouchów jako działaczy związanych z ruchem ludowym.",
+    "explanation": "Stefczyk, ksiądz Stojałowski oraz Maria i Bolesław Wysłouchów to działacze związani z ruchem ludowym.",
     "options": [
       "Franciszek Stefczyk",
       "Stanisław Stojałowski",
@@ -911,7 +911,7 @@ const ALL_EXERCISES = [
     "section": "Kultura polska przełomu XIX i XX wieku",
     "type": "match",
     "prompt": "Połącz twórcę z właściwym dziełem lub dziedziną.",
-    "explanation": "Rozdział pokazuje literaturę, pieśń patriotyczną, dramat i malarstwo jako elementy kultury narodowej.",
+    "explanation": "Literatura, pieśń patriotyczna, dramat i malarstwo to elementy kultury narodowej.",
     "image": "r04_hold_pruski_matejko.jpg",
     "options": null,
     "left": [
@@ -956,7 +956,7 @@ const ALL_EXERCISES = [
     "section": "Kultura polska przełomu XIX i XX wieku",
     "type": "single_choice",
     "prompt": "Które miejsca stały się głównymi ośrodkami rozwoju sztuki młodopolskiej?",
-    "explanation": "Podręcznik wskazuje Kraków i popularne Zakopane jako najważniejsze ośrodki sztuki Młodej Polski.",
+    "explanation": "Kraków i popularne Zakopane to najważniejsze ośrodki sztuki Młodej Polski.",
     "options": [
       "Kraków i Zakopane",
       "Warszawa i Łódź",
@@ -1117,7 +1117,7 @@ const ALL_EXERCISES = [
     "section": "Super trudne",
     "type": "riddle",
     "prompt": "Ksiądz związany ze Związkiem Spółek Zarobkowych i walką gospodarczą Polaków w Wielkopolsce to...",
-    "explanation": "Podręcznik wskazuje księdza Piotra Wawrzyniaka jako działacza zaangażowanego w pracę Związku Spółek Zarobkowych.",
+    "explanation": "Ksiądz Piotra Wawrzyniak to działacz zaangażowany w pracę Związku Spółek Zarobkowych.",
     "options": null,
     "answer": "Piotr Wawrzyniak",
     "altAnswers": [

@@ -340,7 +340,7 @@ const ALL_EXERCISES = [
     id: "R03_POL_03",
     section: "Przemiany polityczno-społeczne w Europie",
     type: "multi_select",
-    prompt: "Zaznacz idee socjaldemokracji opisane w rozdziale.",
+    prompt: "Zaznacz idee socjaldemokracji.",
     options: ["Rozszerzenie praw wyborczych", "Walka o prawa socjalne w parlamencie", "Krytyka komunizmu", "Likwidacja każdego państwa", "Zbrojna rewolucja robotników"],
     answer: [0, 1, 2],
     explanation: "Socjaldemokraci chcieli działać legalnie w systemie parlamentarnym, walcząc o prawa wyborcze i socjalne."
@@ -613,7 +613,7 @@ const ALL_EXERCISES = [
       "1895": "publiczny pokaz braci Lumiere",
       "1903": "pierwszy lot samolotem"
     },
-    explanation: "Daty te porządkują przemiany polityczne, naukowe i kulturowe opisane w rozdziale."
+    explanation: "Daty te porządkują przemiany polityczne, naukowe i kulturowe."
   },
   {
     id: "R03_HARD_09",
@@ -633,7 +633,7 @@ const ALL_EXERCISES = [
     id: "R03_HARD_10",
     section: "Super trudne",
     type: "sequence",
-    prompt: "Ułóż wydarzenia z rozdziału w kolejności chronologicznej.",
+    prompt: "Ułóż wydarzenia w kolejności chronologicznej.",
     options: null,
     items: ["Utworzenie Królestwa Włoch", "Powstanie Niemieckiego Związku Celnego", "Otwarcie Kanału Sueskiego", "Pierwszy publiczny pokaz filmowy", "Ogłoszenie dekretu Lincolna"],
     answer: ["Powstanie Niemieckiego Związku Celnego", "Utworzenie Królestwa Włoch", "Ogłoszenie dekretu Lincolna", "Otwarcie Kanału Sueskiego", "Pierwszy publiczny pokaz filmowy"],

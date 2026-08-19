@@ -498,7 +498,7 @@ const ALL_EXERCISES = [
       ["27", "27 mln"],
       ["31", "31%"]
     ],
-    explanation: "Według danych w rozdziale II RP miała około 27 mln obywateli, a blisko 31% stanowili przedstawiciele mniejszości narodowych."
+    explanation: "II RP miała około 27 mln obywateli, a blisko 31% stanowili przedstawiciele mniejszości narodowych."
   },
   {
     id: "R07_GSK_07",
@@ -548,7 +548,7 @@ const ALL_EXERCISES = [
     id: "R07_GSK_11",
     section: "Gospodarka, społeczeństwo i kultura",
     type: "sort",
-    prompt: "Przyporządkuj nazwiska do dziedzin opisanych w rozdziale.",
+    prompt: "Przyporządkuj nazwiska do dziedzin.",
     options: null,
     items: ["Stefan Banach", "Marian Rejewski", "Mieczysława Ćwiklińska", "Tytus Czyżewski", "Eugeniusz Kwiatkowski"],
     categories: ["nauka i technika", "kultura", "gospodarka"],

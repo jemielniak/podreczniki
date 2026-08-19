@@ -23,7 +23,7 @@ const ALL_EXERCISES = [
     prompt: "Zaznacz państwa, które na przełomie XIX i XX w. dołączyły do grona światowych mocarstw.",
     options: ["Niemcy", "Stany Zjednoczone", "Japonia", "Serbia", "Czarnogóra", "Bułgaria"],
     answer: [0, 1, 2],
-    explanation: "Rozdział wskazuje Niemcy, Stany Zjednoczone i Japonię jako państwa, które zyskały wtedy duże znaczenie międzynarodowe."
+    explanation: "Niemcy, Stany Zjednoczone i Japonia to państwa, które zyskały wtedy duże znaczenie międzynarodowe."
   },
   {
     id: "R05_SWI_03",
@@ -288,7 +288,7 @@ const ALL_EXERCISES = [
     prompt: "Zaznacz rozwiązania techniczne wykorzystywane podczas I wojny światowej.",
     options: ["Czołgi", "Samoloty", "Gazy bojowe", "Karabiny maszynowe", "Działa laserowe", "Rakiety kosmiczne"],
     answer: [0, 1, 2, 3],
-    explanation: "W rozdziale wymieniono między innymi czołgi, samoloty, gazy bojowe i karabiny maszynowe jako nowoczesne środki walki."
+    explanation: "Czołgi, samoloty, gazy bojowe i karabiny maszynowe wykorzystywane były jako nowoczesne środki walki."
   },
   {
     id: "R05_NBR_04",
@@ -742,7 +742,7 @@ const ALL_EXERCISES = [
     id: "R05_HARD_10",
     section: "Super trudne",
     type: "single_choice",
-    prompt: "Ilu żołnierzy służyło łącznie w Legionach Polskich według rozdziału?",
+    prompt: "Ilu żołnierzy służyło łącznie w Legionach Polskich?",
     options: ["Około 20 tys.", "Około 70 tys.", "Około 500 tys.", "Około 3 mln", "Około 49", "Około 400"],
     answer: 0,
     explanation: "W Legionach Polskich służyło w sumie około 20 tys. żołnierzy."

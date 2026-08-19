@@ -24,7 +24,7 @@ const ALL_EXERCISES = [
     prompt: "Najważniejsze decyzje kongresu wiedeńskiego podejmowali przedstawiciele Rosji, Prus, Wielkiej Brytanii, Austrii i Francji.",
     options: null,
     answer: true,
-    explanation: "W rozdziale wskazano właśnie te pięć państw jako najsilniejsze i decydujące o najważniejszych ustaleniach kongresu."
+    explanation: "Właśnie te pięc państw było najsilniejsze i decydujące o najważniejszych ustaleniach kongresu."
   },
   {
     id: "R01_KNG_03",
@@ -116,7 +116,7 @@ const ALL_EXERCISES = [
     options: null,
     answer: "abdykacja",
     altAnswers: ["abdykacja", "abdykowanie", "rezygnacja z tronu"],
-    explanation: "W rozdziale wyjaśniono pojęcie abdykacji przy opisie upadku Napoleona po klęsce Francji."
+    explanation: "Napoleon abdykował po klęsce Francji w 1814 roku."
   },
   {
     id: "R01_PRZ_01",
@@ -240,7 +240,7 @@ const ALL_EXERCISES = [
     id: "R01_IDE_02",
     section: "Nowe idee polityczne",
     type: "multi_select",
-    prompt: "Zaznacz poglądy liberałów opisane w rozdziale.",
+    prompt: "Zaznacz poglądy charakterystyczne dla liberałów.",
     options: ["wolność i swobodny rozwój człowieka są najważniejsze", "obywatele powinni być równi wobec prawa", "wolność słowa i wyznania to prawo obywatela", "należy bronić dziedzicznej monarchii", "własność prywatna ma być zlikwidowana"],
     answer: [0, 1, 2],
     explanation: "Liberałowie głosili wolność jednostki, równość wobec prawa oraz wolność słowa i wyznania. Obrona dziedzicznej monarchii była cechą konserwatyzmu, a likwidacja własności prywatnej komunizmu."
@@ -249,7 +249,7 @@ const ALL_EXERCISES = [
     id: "R01_IDE_03",
     section: "Nowe idee polityczne",
     type: "match",
-    prompt: "Połącz ideologię z postacią wskazaną w tabeli rozdziału.",
+    prompt: "Połącz ideologię z powiązaną z nią postacią.",
     options: null,
     left: ["liberalizm", "konserwatyzm", "socjalizm", "komunizm"],
     right: ["Adam Smith", "Edmund Burke", "Robert Owen", "Karol Marks"],
@@ -327,7 +327,7 @@ const ALL_EXERCISES = [
       "socjalizm": ["pokojowa poprawa losu robotników"],
       "komunizm": ["rewolucyjne obalenie kapitalizmu"]
     },
-    explanation: "Tabela w rozdziale porównuje ideologie XIX w.: liberalizm, konserwatyzm, socjalizm i komunizm."
+    explanation: "Główne ideologie XIX w. to: liberalizm, konserwatyzm, socjalizm i komunizm."
   },
   {
     id: "R01_IDE_10",
@@ -361,7 +361,7 @@ const ALL_EXERCISES = [
     id: "R01_WIO_03",
     section: "Wiosna Ludów i rewolucje",
     type: "multi_select",
-    prompt: "Zaznacz przyczyny Wiosny Ludów wymienione w rozdziale.",
+    prompt: "Zaznacz przyczyny Wiosny Ludów.",
     options: ["fala nieurodzaju i głodu w latach 1845-1847", "żądania poprawy warunków pracy i życia robotników", "postulaty rozszerzenia praw obywatelskich", "tendencje niepodległościowe i zjednoczeniowe", "wyprawa Napoleona na Elbę"],
     answer: [0, 1, 2, 3],
     explanation: "Do przyczyn Wiosny Ludów należały głód i epidemie, żądania robotników, postulaty praw obywatelskich oraz dążenia niepodległościowe i zjednoczeniowe."
@@ -393,7 +393,7 @@ const ALL_EXERCISES = [
       "rewolucja w Berlinie": "Prusy",
       "powstanie przeciw Austrii": "Węgry"
     },
-    explanation: "Rozdział omawia wystąpienia przeciw ładowi wiedeńskiemu w Rosji, Francji, Prusach i na Węgrzech."
+    explanation: "Wystąpienia przeciw ładowi wiedeńskiemu miały miejsce m.in. w Rosji, Francji, Prusach i na Węgrzech."
   },
   {
     id: "R01_WIO_06",
@@ -431,7 +431,7 @@ const ALL_EXERCISES = [
     options: null,
     answer: "uwłaszczenie chłopów",
     altAnswers: ["uwłaszczenie chłopów", "uwłaszczenie", "uwlaszczenie chlopow"],
-    explanation: "W rozdziale wyjaśniono, że uwłaszczenie chłopów oznaczało nadanie im na własność użytkowanej ziemi."
+    explanation: "Uwłaszczenie chłopów oznaczało nadanie im na własność użytkowanej ziemi."
   },
   {
     id: "R01_WIO_10",
@@ -597,7 +597,7 @@ const ALL_EXERCISES = [
       "Adam Jerzy Czartoryski": "Rosja",
       "Charles Talleyrand": "Francja"
     },
-    explanation: "Rozdział przedstawia głównych dyplomatów kongresu: Castlereagha, Metternicha, Czartoryskiego i Talleyranda."
+    explanation: "Główni dyplomaci kongresu: Castlereagha, Metternicha, Czartoryskiego i Talleyranda."
   },
   {
     id: "R01_HARD_05",
@@ -649,7 +649,7 @@ const ALL_EXERCISES = [
       "telegraf": ["Samuel Morse"],
       "lokomotywa": ["George Stephenson"]
     },
-    explanation: "W rozdziale wymieniono Watta przy maszynie parowej, Faradaya przy odkryciach elektrycznych, Morse'a przy telegrafie i Stephensona przy lokomotywie parowej."
+    explanation: "Watt - maszyna parowa, Faraday - odkryciac elektryczne, Morse - telegraf, Stephenson - lokomotywa parowa."
   },
   {
     id: "R01_HARD_10",
