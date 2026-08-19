@@ -104,7 +104,7 @@ const ALL_EXERCISES = [
     id: "R02_PAN_10",
     section: "Zjednoczenie państw narodowych",
     type: "multi_select",
-    prompt: "Zaznacz skutki wojny francusko-pruskiej opisane w materiale.",
+    prompt: "Zaznacz skutki wojny francusko-pruskiej.",
     options: ["Francja oddała Alzację i Lotaryngię", "Francja zapłaciła ogromną kontrybucję", "Niemcy ogłoszono cesarstwem", "Austria odzyskała wpływy w Niemczech", "Paryż nigdy nie skapitulował", "Włochy utraciły Wenecję"],
     answer: [0, 1, 2],
     explanation: "Pokój we Frankfurcie narzucił Francji utratę Alzacji i Lotaryngii oraz kontrybucję, a zwycięstwo Prus umożliwiło ogłoszenie cesarstwa niemieckiego.",
@@ -191,7 +191,7 @@ const ALL_EXERCISES = [
     prompt: "Który brytyjski pisarz wyraził przekonanie o europejskiej misji kolonizacyjnej hasłem brzemienia białego człowieka?",
     options: ["Rudyard Kipling", "Henryk Sienkiewicz", "Stefan Żeromski", "Karol Dickens", "Lew Tołstoj", "Karen Blixen"],
     answer: 0,
-    explanation: "W materiale wskazano Rudyarda Kiplinga jako autora najdobitniej wyrażającego przekonanie o rzekomej misji cywilizacyjnej Europejczyków."
+    explanation: "Rudyard Kipling najdobitniej wyrażał przekonanie o rzekomej misji cywilizacyjnej Europejczyków."
   },
   {
     id: "R02_WSK_09",
@@ -563,7 +563,7 @@ const ALL_EXERCISES = [
     id: "R02_HARD_03",
     section: "Super trudne",
     type: "multi_select",
-    prompt: "Zaznacz elementy związane z wojną rosyjsko-japońską opisane w materiale.",
+    prompt: "Zaznacz elementy związane z wojną rosyjsko-japońską.",
     options: ["toczyła się w latach 1904-1905", "dotyczyła rywalizacji o Mandżurię", "zakończyła się przekazaniem Mandżurii Japonii", "doprowadziła do zjednoczenia Włoch", "była skutkiem branki w Królestwie Polskim", "zakończyła się pokojem w Paryżu w 1856 r."],
     answer: [0, 1, 2],
     explanation: "Rywalizacja Rosji i Japonii o Mandżurię doprowadziła do wojny 1904-1905, wygranej przez Japonię."

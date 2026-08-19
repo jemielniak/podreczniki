@@ -23,7 +23,7 @@ const ALL_EXERCISES = [
     prompt: "Na początku XX w. największy potencjał gospodarczy na świecie miały Stany Zjednoczone, a w Europie Niemcy.",
     options: null,
     answer: true,
-    explanation: "Podręcznik wskazuje, że Wielka Brytania traciła przewagę, a największy potencjał gospodarczy osiągnęły Stany Zjednoczone i Niemcy."
+    explanation: "Wielka Brytania traciła przewagę, a największy potencjał gospodarczy osiągnęły Stany Zjednoczone i Niemcy."
   },
   {
     id: "R03_WYN_03",
@@ -59,7 +59,7 @@ const ALL_EXERCISES = [
     id: "R03_WYN_05",
     section: "Wynalazki i przemiany codzienności",
     type: "multi_select",
-    prompt: "Zaznacz skutki upowszechnienia elektryczności wskazane w materiale.",
+    prompt: "Zaznacz skutki upowszechnienia elektryczności.",
     options: ["Rozwój tramwajów elektrycznych", "Możliwość stosowania telefonów", "Natychmiastowe zakończenie pracy w fabrykach", "Wyposażanie domów w nieduże urządzenia elektryczne", "Zanik prasy drukowanej"],
     answer: [0, 1, 3],
     explanation: "Elektryczność usprawniła transport, łączność i życie codzienne, ale nie zakończyła pracy fabrycznej ani nie spowodowała zaniku prasy.",
@@ -583,10 +583,10 @@ const ALL_EXERCISES = [
     id: "R03_HARD_03",
     section: "Super trudne",
     type: "single_choice",
-    prompt: "Który budynek w Nowym Jorku podano jako przykład wczesnego drapacza chmur?",
+    prompt: "Który budynek w Nowym Jorku jest przykładem wczesnego drapacza chmur?",
     options: ["The Flatiron Building", "Empire State Building", "Chrysler Building", "World Trade Center", "Brooklyn Bridge", "Metropolitan Railway"],
     answer: 0,
-    explanation: "The Flatiron Building, wybudowany w 1902 r. w Nowym Jorku, został wskazany jako jeden z rozpoznawalnych symboli miasta."
+    explanation: "The Flatiron Building, wybudowany w 1902 r. w Nowym Jorku, był jednym z rozpoznawalnych symboli miasta."
   },
   {
     id: "R03_HARD_04",

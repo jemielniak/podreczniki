@@ -141,7 +141,7 @@ const ALL_EXERCISES = [
     prompt: "Armia Królestwa Polskiego liczyła około 27 tysięcy żołnierzy i oficerów.",
     options: null,
     answer: true,
-    explanation: "Podręcznik podaje, że Królestwo posiadało dobrze wyćwiczoną polską armię liczącą około 27 tysięcy żołnierzy i oficerów."
+    explanation: "Królestwo posiadało dobrze wyćwiczoną polską armię liczącą około 27 tysięcy żołnierzy i oficerów."
   },
   {
     id: "R01_KRO_04",
@@ -296,7 +296,7 @@ const ALL_EXERCISES = [
       "Jan Skrzynecki": "nieudolny wódz naczelny po zwycięstwach wiosennych",
       "Jan Krukowiecki": "źle przygotował obronę Warszawy"
     },
-    explanation: "Podręcznik podkreśla różne role tych dowódców: od dyktatury Chłopickiego po błędy Skrzyneckiego i Krukowieckiego."
+    explanation: "Dowódcy odgrywali różne role: od dyktatury Chłopickiego po błędy Skrzyneckiego i Krukowieckiego."
   },
   {
     id: "R01_POW_08",
@@ -457,7 +457,7 @@ const ALL_EXERCISES = [
     id: "R01_WPR_02",
     section: "Wiosna Ludów i rewolucja przemysłowa",
     type: "multi_select",
-    prompt: "Zaznacz przyczyny Wiosny Ludów wymienione w materiale.",
+    prompt: "Zaznacz przyczyny Wiosny Ludów.",
     options: ["klęski głodu", "kryzys gospodarczy", "żądania likwidacji absolutyzmu", "dążenia do konstytucji i praw obywatelskich", "zwycięstwo Napoleona pod Waterloo", "dobrowolne zniesienie cenzury przez wszystkie monarchie"],
     answer: [0, 1, 2, 3],
     explanation: "Wiosnę Ludów wywołały m.in. głód, kryzys gospodarczy oraz żądania likwidacji absolutyzmu i rozszerzenia praw."
@@ -673,7 +673,7 @@ const ALL_EXERCISES = [
     id: "R01_HARD_12",
     section: "Super trudne",
     type: "multi_select",
-    prompt: "Zaznacz przyczyny klęski powstania listopadowego wskazane w materiale.",
+    prompt: "Zaznacz przyczyny klęski powstania listopadowego.",
     options: ["liczebna przewaga armii rosyjskiej", "nieudolność części dowódców i polityków", "brak realnej pomocy Zachodu", "brak pozyskania chłopów przez uwłaszczenie", "zwycięstwo Polski pod Ostrołęką", "pełne poparcie cara dla konstytucji"],
     answer: [0, 1, 2, 3],
     explanation: "Klęskę tłumaczono m.in. przewagą Rosji, błędami dowództwa, brakiem realnej pomocy Zachodu i niepozyskaniem chłopów."

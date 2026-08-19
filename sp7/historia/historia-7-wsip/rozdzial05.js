@@ -251,7 +251,7 @@ const ALL_EXERCISES = [
     id: "R05_SAN_04",
     section: "Sanacja i konstytucja kwietniowa",
     type: "multi_select",
-    prompt: "Zaznacz skutki lub cechy rządów sanacji opisane w materiale.",
+    prompt: "Zaznacz skutki lub cechy rządów sanacji.",
     options: ["ograniczanie roli parlamentu", "wzmocnienie władzy wykonawczej", "represje wobec części opozycji", "likwidacja urzędu prezydenta", "pełna dominacja sejmu nad rządem"],
     answer: [0, 1, 2],
     explanation: "Sanacja ograniczała znaczenie sejmu, wzmacniała władzę wykonawczą i stosowała represje wobec części przeciwników politycznych."
@@ -397,7 +397,7 @@ const ALL_EXERCISES = [
     id: "R05_SPO_09",
     section: "Społeczeństwo wielonarodowe",
     type: "sort",
-    prompt: "Przyporządkuj grupy do typowych miejsc zamieszkania opisanych w materiale.",
+    prompt: "Przyporządkuj grupy do typowych miejsc zamieszkania.",
     options: null,
     items: ["Ukraińcy", "Białorusini", "Żydzi", "Niemcy"],
     categories: ["wschód i południowy wschód", "miasta i miasteczka", "pogranicze zachodnie i północne"],
@@ -592,7 +592,7 @@ const ALL_EXERCISES = [
     prompt: "Uczeń po sześciu klasach szkoły powszechnej zdaje egzaminy do czteroletniego gimnazjum, a potem może przejść do dwuletniego liceum. Z którą reformą wiąże się ten model?",
     options: ["reformą jędrzejewiczowską", "reformą Grabskiego", "konstytucją kwietniową", "paktem reńskim", "ustawą sierpniową"],
     answer: 0,
-    explanation: "Reforma Jędrzejewicza z 1932 r. porządkowała system szkolny i wprowadzała opisany układ nauki."
+    explanation: "Reforma Jędrzejewicza z 1932 r. porządkowała system szkolny i wprowadzała nowy układ nauki."
   },
   {
     id: "R05_KUL_09",

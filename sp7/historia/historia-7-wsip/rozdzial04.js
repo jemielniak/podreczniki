@@ -26,7 +26,7 @@ const ALL_EXERCISES = [
     options: ["Thomas Woodrow Wilson", "David Lloyd George", "Georges Clemenceau", "Włodzimierz Lenin", "Adolf Hitler", "Vittorio Orlando"],
     answer: [0, 1, 2, 5],
     image: "r04_konferencja_paryska.jpg",
-    explanation: "W podręczniku wymieniono Wilsona, Lloyda George'a, Clemenceau i Orlando jako przywódców czterech zwycięskich mocarstw."
+    explanation: "Wilson, Lloyd George, Clemenceau i Orlando byli przywódcami czterech zwycięskich mocarstw."
   },
   {
     id: "R04_KPT_03",
@@ -126,7 +126,7 @@ const ALL_EXERCISES = [
     options: ["od 1 do 2 mln", "od 8,5 do 10 mln", "około 20 mln", "około 50 mln", "500 mln", "około 7 mln"],
     answer: 1,
     image: "r04_cmentarz_wojenny.jpg",
-    explanation: "Podręcznik podaje, że na frontach życie straciło od 8,5 do 10 mln żołnierzy."
+    explanation: "Na frontach I wojny światowej życie straciło od 8,5 do 10 mln żołnierzy."
   },
   {
     id: "R04_SKW_02",
@@ -164,7 +164,7 @@ const ALL_EXERCISES = [
     prompt: "Co nie pasuje do gospodarczych skutków wojny: zadłużenie państw, inflacja, bezrobocie, wzrost monarchii absolutnych.",
     options: null,
     answer: "wzrost monarchii absolutnych",
-    explanation: "Po wojnie państwa mierzyły się z zadłużeniem, inflacją i bezrobociem; podręcznik nie wskazuje wzrostu monarchii absolutnych jako skutku gospodarczego."
+    explanation: "Po wojnie państwa mierzyły się z zadłużeniem, inflacją i bezrobociem; wzrost monarchii absolutnych nie był skutkiem gospodarczym wojny."
   },
   {
     id: "R04_SKW_06",
@@ -208,7 +208,7 @@ const ALL_EXERCISES = [
     prompt: "Stany Zjednoczone znalazły się po wojnie w zupełnie innej sytuacji niż Francja, ponieważ ich terytorium nie zostało bezpośrednio dotknięte działaniami wojennymi.",
     options: null,
     answer: true,
-    explanation: "Podręcznik wskazuje, że USA nie doświadczyły bezpośrednich zniszczeń wojennych na swoim terytorium i zarabiały na dostawach wojennych."
+    explanation: "USA nie doświadczyły bezpośrednich zniszczeń wojennych na swoim terytorium i zarabiały na dostawach wojennych."
   },
   {
     id: "R04_SKW_10",
@@ -470,7 +470,7 @@ const ALL_EXERCISES = [
     prompt: "Hitler został kanclerzem 30 stycznia 1933 r.",
     options: null,
     answer: true,
-    explanation: "Podręcznik podaje datę mianowania Hitlera kanclerzem: 30 stycznia 1933 r."
+    explanation: "Hitler został mianowany kanclerzem 30 stycznia 1933 r."
   },
   {
     id: "R04_RZE_06",
@@ -675,7 +675,7 @@ const ALL_EXERCISES = [
     prompt: "Francja osiągnęła poziom produkcji przemysłowej sprzed wojny już w 1924 r.",
     options: null,
     answer: true,
-    explanation: "Podręcznik podaje, że dzięki reparacjom i nadzwyczajnemu wysiłkowi Francja osiągnęła poziom produkcji przemysłowej sprzed wojny w 1924 r."
+    explanation: "Dzięki reparacjom i nadzwyczajnemu wysiłkowi Francja osiągnęła poziom produkcji przemysłowej sprzed wojny w 1924 r."
   },
   {
     id: "R04_HARD_06",
@@ -685,7 +685,7 @@ const ALL_EXERCISES = [
     options: null,
     answer: "Louis Armstrong",
     altAnswers: ["Louis Armstrong", "Armstrong"],
-    explanation: "Podręcznik nazywa Louisa Armstronga królem jazzu."
+    explanation: "Louis Armstrong był nazywany królem jazzu."
   },
   {
     id: "R04_HARD_07",
