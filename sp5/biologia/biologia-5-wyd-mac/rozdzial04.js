@@ -154,7 +154,7 @@ const ALL_EXERCISES = [
     "id": "R04_CHAR_08",
     "section": "Charakterystyka i organy",
     "type": "scenario",
-    "prompt": "Roślina rośnie na glebie ubogiej w azot. Jej liście mają włoski z lepką cieczą, do której przyklejają się owady. Jaki rodzaj modyfikacji liści opisano?",
+    "prompt": "Roślina rośnie na glebie ubogiej w azot. Jej liście mają włoski z lepką cieczą, do której przyklejają się owady. Jaka modyfikacja liści występuje u tej rośliny?",
     "options": [
       "liście pułapkowe",
       "liście spichrzowe",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "id": "R04_ROZM_09",
     "section": "Rozmnażanie i kwiaty",
     "type": "scenario",
-    "prompt": "Truskawka wytwarza boczny pęd zwany rozłogiem. Gdy rozłóg zetknie się z ziemią, wypuszcza korzenie i daje początek nowej roślinie. Jaki typ rozmnażania opisano?",
+    "prompt": "Truskawka wytwarza boczny pęd zwany rozłogiem. Gdy rozłóg zetknie się z ziemią, wypuszcza korzenie i daje początek nowej roślinie. Jaki to typ rozmnażania?",
     "options": [
       "rozmnażanie wegetatywne",
       "zapylenie wiatropylne",
@@ -548,7 +548,7 @@ const ALL_EXERCISES = [
     "id": "R04_NAS_07",
     "section": "Nasiona i owoce",
     "type": "scenario",
-    "prompt": "Dojrzały owoc rośliny pęka po dotknięciu albo podmuchu wiatru i wyrzuca nasiona na znaczną odległość. Jaki sposób rozsiewania opisano?",
+    "prompt": "Dojrzały owoc rośliny pęka po dotknięciu albo podmuchu wiatru i wyrzuca nasiona na znaczną odległość. Jaki to sposób rozsiewania nasion?",
     "options": [
       "samorzutny",
       "przez wodę",
@@ -724,7 +724,7 @@ const ALL_EXERCISES = [
     "id": "R04_DRZ_06",
     "section": "Drzewa liściaste",
     "type": "scenario",
-    "prompt": "Drzewo ma charakterystyczną białą korę. Jego liście są rombowate lub trójkątne, a owoce to małe orzeszki ze skrzydełkami. Który gatunek opisano?",
+    "prompt": "Drzewo ma charakterystyczną białą korę. Jego liście są rombowate lub trójkątne, a owoce to małe orzeszki ze skrzydełkami. Jaki to gatunek?",
     "options": [
       "brzoza brodawkowata",
       "kasztanowiec pospolity",
@@ -789,7 +789,7 @@ const ALL_EXERCISES = [
       "buk zwyczajny": "orzeszki ukryte w kolczastej łupinie",
       "klon jesionolistny": "liście pierzastozłożone o 3-7 listkach"
     },
-    "explanation": "Podaje się charakterystyczne cechy wybranych gatunków drzew liściastych spotykanych w Polsce.",
+    "explanation": "Wybrane gatunki drzew liściastych spotykanych w Polsce można rozpoznawać po charakterystycznych cechach liści i owoców.",
     "image": "r04_drzewa_lisciaste.jpg"
   },
   {
@@ -908,7 +908,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród materiałów pochodzących z roślin okrytonasiennych wymieniono wiklinę, bawełnę, korek i drewno.",
+    "explanation": "Wiklina, bawełna, korek i drewno są materiałami pochodzącymi z roślin okrytonasiennych.",
     "image": "r04_zastosowania_roslin.jpg"
   },
   {
@@ -1011,7 +1011,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Ile gatunków roślin okrytonasiennych podano jako poznanych przez naukę?",
+    "prompt": "Ile gatunków roślin okrytonasiennych poznano?",
     "options": [
       "ponad 320 tysięcy",
       "około 36 tysięcy",
@@ -1091,14 +1091,14 @@ const ALL_EXERCISES = [
       "brylancik niebieskogardły": "koliber",
       "nietoperz wieprzoryjek meksykański": "ssak zapylający kwiaty"
     },
-    "explanation": "Pokazuje się różne zwierzęta zapylające: owady, ptaki i ssaki.",
+    "explanation": "Zapylaczami mogą być różne zwierzęta, między innymi owady, ptaki i ssaki.",
     "image": "r04_zapylacze_swiata.jpg"
   },
   {
     "id": "R04_HARD_05",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Której barwy pszczoły nie rozróżniają według ciekawostki?",
+    "prompt": "Której barwy pszczoły nie rozróżniają?",
     "options": [
       "czerwonej",
       "żółtej",
@@ -1108,7 +1108,7 @@ const ALL_EXERCISES = [
       "białej"
     ],
     "answer": 0,
-    "explanation": "W ciekawostce podano, że pszczoły nie rozróżniają barwy czerwonej, ale dostrzegają niewidoczne dla człowieka promieniowanie ultrafioletowe.",
+    "explanation": "Pszczoły nie rozróżniają barwy czerwonej, ale dostrzegają niewidoczne dla człowieka promieniowanie ultrafioletowe.",
     "image": "r04_zapylacze_swiata.jpg"
   },
   {
@@ -1142,7 +1142,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_08",
     "section": "Super trudne",
     "type": "match",
-    "prompt": "Połącz zwierzę z miejscem do odnalezienia na mapie.",
+    "prompt": "Połącz zwierzę z miejscem jego występowania.",
     "options": null,
     "left": [
       "brylancik niebieskogardły",
@@ -1159,7 +1159,7 @@ const ALL_EXERCISES = [
       "wari czarno-biały": "Madagaskar",
       "wieprzoryjek meksykański": "Meksyk"
     },
-    "explanation": "Zachęca się do znalezienia na mapie miejsc występowania tych zwierząt: Ekwadoru, Madagaskaru i Meksyku."
+    "explanation": "Brylantik niebieskogardły występuje w Ekwadorze, wari czarno-biały na Madagaskarze, a wieprzoryjek meksykański w Meksyku."
   },
   {
     "id": "R04_HARD_09",
@@ -1220,7 +1220,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Instrukcja tworzenia plakatu podkreśla tytuł, dobór obiektu, materiały, przewagę obrazu nad tekstem oraz wypisanie źródeł."
+    "explanation": "Dobry plakat informacyjny ma wyraźny tytuł, przedstawia podstawowe dane głównie za pomocą obrazu i zawiera źródła wykorzystanych informacji."
   },
   {
     "id": "R04_HARD_12",

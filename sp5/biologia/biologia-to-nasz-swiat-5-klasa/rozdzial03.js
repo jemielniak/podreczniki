@@ -157,7 +157,7 @@ const ALL_EXERCISES = [
     "id": "R03_CRO_09",
     "section": "Cechy roślin",
     "type": "scenario",
-    "prompt": "Na schemacie podziału roślin widzisz grupę bez tkanki przewodzącej. Do której kategorii należy taka grupa?",
+    "prompt": "Do której kategorii zalicza się rośliny bez tkanki przewodzącej?",
     "image": "r03_podzial_roslin.jpg",
     "options": [
       "rośliny nienaczyniowe",
@@ -167,7 +167,7 @@ const ALL_EXERCISES = [
       "rośliny nagonasienne"
     ],
     "answer": 0,
-    "explanation": "Rośliny bez tkanki przewodzącej to rośliny nienaczyniowe. Jako przykład pokazano mchy."
+    "explanation": "Rośliny bez tkanki przewodzącej to rośliny nienaczyniowe. Do tej grupy należą mchy."
   },
   {
     "id": "R03_CRO_10",
@@ -762,7 +762,7 @@ const ALL_EXERCISES = [
       "nagonasienne"
     ],
     "answer": 0,
-    "explanation": "Skupiska zarodni na spodniej stronie liści są cechą opisaną przy paprociowych."
+    "explanation": "Skupiska zarodni na spodniej stronie liści są charakterystyczne dla paprociowych."
   },
   {
     "id": "R03_PWS_07",
@@ -810,7 +810,7 @@ const ALL_EXERCISES = [
       "kłącze",
       "klacze"
     ],
-    "explanation": "W budowie paproci pokazano kłącze, czyli podziemną łodygę."
+    "explanation": "Kłącze paproci jest podziemną łodygą, z której wyrastają korzenie i liście."
   },
   {
     "id": "R03_PWS_11",
@@ -870,7 +870,7 @@ const ALL_EXERCISES = [
       "skrzyp polny": "skrzypowe",
       "salwinia pływająca": "paprociowe wodne"
     },
-    "explanation": "Podaje się liczne przykłady: paprotka jest paprocią, widłak goździsty należy do widłakowych, skrzyp polny do skrzypowych, a salwinia to paproć wodna."
+    "explanation": "Paprotka zwyczajna należy do paprociowych lądowych, widłak goździsty do widłakowych, skrzyp polny do skrzypowych, a salwinia pływająca do paprociowych wodnych."
   },
   {
     "id": "R03_PWS_13",
@@ -1024,7 +1024,7 @@ const ALL_EXERCISES = [
       "runo leśne": "paprociowe, widłakowe i skrzypowe tworzą warstwę lasu",
       "większe rozmiary niż u mchów": "tkanka przewodząca rozprowadza substancje"
     },
-    "explanation": "Zależności między cechami roślin a ich znaczeniem pomagają zrozumieć materiał z kilku lekcji naraz."
+    "explanation": "Zależności między cechami roślin a ich znaczeniem pozwalają powiązać budowę, funkcjonowanie i rolę roślin w środowisku."
   },
   {
     "id": "R03_HARD_07",

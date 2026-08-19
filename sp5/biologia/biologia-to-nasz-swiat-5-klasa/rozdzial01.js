@@ -225,7 +225,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Do podstawowych związków chemicznych organizmów należą między innymi białka, cukry, tłuszcze i kwasy nukleinowe. Wymieniono także sole mineralne i wodę."
+    "explanation": "Do podstawowych związków chemicznych organizmów należą między innymi białka, cukry, tłuszcze i kwasy nukleinowe. W organizmach występują także sole mineralne i woda."
   },
   {
     "id": "R01_CHEM_03",
@@ -326,7 +326,7 @@ const ALL_EXERCISES = [
     "id": "R01_CHEM_08",
     "section": "Skład chemiczny organizmów",
     "type": "scenario",
-    "prompt": "W opisie związku chemicznego podano, że hemoglobina przenosi tlen we krwi. Do której grupy związków należy hemoglobina?",
+    "prompt": "Hemoglobina przenosi tlen we krwi. Do której grupy związków należy hemoglobina?",
     "options": [
       "białka",
       "cukry",
@@ -337,7 +337,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_funkcje_zwiazkow.jpg",
-    "explanation": "Hemoglobina jest białkiem zawartym we krwi. Podano ją jako przykład białka transportującego tlen."
+    "explanation": "Hemoglobina jest białkiem zawartym we krwi i pełni funkcję transportową, przenosząc tlen."
   },
   {
     "id": "R01_CHEM_09",
@@ -590,7 +590,7 @@ const ALL_EXERCISES = [
       1
     ],
     "image": "r01_model_komorki_zwierzecej.jpg",
-    "explanation": "Błona komórkowa i cytozol występują w komórkach zwierzęcych, roślinnych i bakteryjnych. Pozostałe wymienione elementy nie występują we wszystkich tych typach komórek."
+    "explanation": "Błona komórkowa i cytozol występują w komórkach zwierzęcych, roślinnych i bakteryjnych. Chloroplast, wakuola, jądro komórkowe i mitochondrium nie występują we wszystkich tych typach komórek."
   },
   {
     "id": "R01_KOM_03",
@@ -666,7 +666,7 @@ const ALL_EXERCISES = [
       ]
     },
     "image": "r01_model_komorki_bakteryjnej.jpg",
-    "explanation": "Chloroplasty i duża wakuola są pokazane w komórce roślinnej, substancja jądrowa w komórce bakteryjnej, jądro i mitochondria w komórkach zwierzęcych i roślinnych, a cytozol występuje we wszystkich typach komórek."
+    "explanation": "Chloroplasty i duża wakuola są charakterystyczne dla komórki roślinnej, substancja jądrowa dla komórki bakteryjnej, jądro i mitochondria występują w komórkach zwierzęcych i roślinnych, a cytozol we wszystkich typach komórek."
   },
   {
     "id": "R01_KOM_06",
@@ -919,7 +919,7 @@ const ALL_EXERCISES = [
     "id": "R01_FOT_10",
     "section": "Fotosynteza",
     "type": "sequence",
-    "prompt": "Ułóż uproszczony przebieg fotosyntezy zgodnie z opisem.",
+    "prompt": "Ułóż uproszczony przebieg fotosyntezy w prawidłowej kolejności.",
     "options": null,
     "items": [
       "powstają glukoza i tlen",
@@ -1026,11 +1026,11 @@ const ALL_EXERCISES = [
     "id": "R01_ODD_06",
     "section": "Oddychanie komórkowe",
     "type": "odd_one_out",
-    "prompt": "Wskaż, co nie pasuje do schematu oddychania tlenowego: glukoza, tlen, dwutlenek węgla, azot.",
+    "prompt": "Wskaż substancję, która nie jest substratem ani produktem oddychania tlenowego: glukoza, tlen, dwutlenek węgla, azot.",
     "options": null,
     "answer": "azot",
     "image": "r01_oddychanie_schemat.jpg",
-    "explanation": "Glukoza, tlen i dwutlenek węgla występują w schemacie oddychania tlenowego. Azot stanowi większość powietrza, ale organizmy go nie zużywają - w oddychaniu komórkowym nie bierze udziału."
+    "explanation": "Glukoza i tlen są substratami oddychania tlenowego, a dwutlenek węgla jest jego produktem. Azot nie jest substratem ani produktem tego procesu."
   },
   {
     "id": "R01_ODD_07",
@@ -1142,7 +1142,7 @@ const ALL_EXERCISES = [
       "sole mineralne": "regulują przebieg procesów życiowych"
     },
     "image": "r01_sklad_chemiczny.jpg",
-    "explanation": "Podano przykłady funkcji związków chemicznych: białka kurczliwe odpowiadają za skurcz mięśni, celuloza buduje ściany komórkowe roślin, DNA zawiera informację, a sole mineralne regulują procesy życiowe."
+    "explanation": "Białka kurczliwe odpowiadają za skurcz mięśni, celuloza buduje ściany komórkowe roślin, DNA zawiera informację o budowie i funkcjonowaniu komórki, a sole mineralne regulują procesy życiowe."
   },
   {
     "id": "R01_HARD_02",
@@ -1170,7 +1170,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_03",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy obserwacji mikroskopowej zgodnie z instrukcją.",
+    "prompt": "Ułóż etapy obserwacji mikroskopowej w prawidłowej kolejności.",
     "options": null,
     "items": [
       "wyreguluj ostrość śrubą mikrometryczną",
@@ -1187,7 +1187,7 @@ const ALL_EXERCISES = [
       "wyreguluj ostrość śrubą mikrometryczną"
     ],
     "image": "r01_preparat_mikroskopowy.jpg",
-    "explanation": "Instrukcja nakazuje zacząć od położenia preparatu, ustawienia najmniejszego powiększenia i oświetlenia, a potem stopniowo ustawiać ostrość śrubami."
+    "explanation": "Obserwację zaczyna się od położenia preparatu, ustawienia najmniejszego powiększenia i oświetlenia, a następnie stopniowo ustawia się ostrość śrubami."
   },
   {
     "id": "R01_HARD_04",

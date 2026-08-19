@@ -21,7 +21,7 @@ const ALL_EXERCISES = [
       "protisty zawsze wielokomórkowe"
     ],
     "answer": 0,
-    "explanation": "Bakterie opisano jako mikroskopijne organizmy jednokomórkowe pozbawione jądra komórkowego."
+    "explanation": "Bakterie to mikroskopijne organizmy jednokomórkowe pozbawione jądra komórkowego."
   },
   {
     "id": "R02_BAK_02",
@@ -36,7 +36,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_03",
     "section": "Bakterie - budowa i życie",
     "type": "multi_select",
-    "prompt": "Zaznacz podstawowe kształty komórek bakteryjnych wymienione w podsumowaniu tematu.",
+    "prompt": "Zaznacz podstawowe kształty komórek bakteryjnych.",
     "options": [
       "kulisty",
       "wydłużony",
@@ -73,7 +73,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r02_komorka_bakteryjna.jpg",
-    "explanation": "Schemat komórki bakteryjnej pokazuje brak jądra komórkowego i chloroplastów. Materiał genetyczny leży w cytoplazmie."
+    "explanation": "Komórka bakteryjna nie ma jądra komórkowego ani chloroplastów. Materiał genetyczny znajduje się w cytoplazmie."
   },
   {
     "id": "R02_BAK_05",
@@ -165,7 +165,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_10",
     "section": "Bakterie - budowa i życie",
     "type": "sort",
-    "prompt": "Przyporządkuj elementy do typu komórki, w którym występują według porównania.",
+    "prompt": "Przyporządkuj elementy do odpowiedniej kategorii dotyczącej komórki bakteryjnej.",
     "options": null,
     "items": [
       "cytoplazma",
@@ -284,7 +284,7 @@ const ALL_EXERCISES = [
         "sery"
       ]
     ],
-    "explanation": "Jako przykłady produktów spożywczych uzyskiwanych dzięki bakteriom podano kiszoną kapustę i sery."
+    "explanation": "Bakterie są wykorzystywane między innymi do kiszenia kapusty i produkcji serów."
   },
   {
     "id": "R02_BCZ_05",
@@ -362,7 +362,7 @@ const ALL_EXERCISES = [
       "salmonelloza": "pałeczka salmonelli"
     },
     "image": "r02_drogi_zakazen.jpg",
-    "explanation": "Wymieniono laseczki tężca, krętki boreliozy, prątki gruźlicy i pałeczki salmonelli jako przyczyny odpowiednich chorób."
+    "explanation": "Tężec wywołują laseczki tężca, boreliozę krętki boreliozy, gruźlicę prątki gruźlicy, a salmonellozę pałeczki salmonelli."
   },
   {
     "id": "R02_BCZ_09",
@@ -871,7 +871,7 @@ const ALL_EXERCISES = [
     "id": "R02_PRO_02",
     "section": "Protisty",
     "type": "multi_select",
-    "prompt": "Zaznacz środowiska życia protistów wymienione w podsumowaniu.",
+    "prompt": "Zaznacz środowiska, w których żyją protisty.",
     "options": [
       "woda",
       "wilgotna gleba",
@@ -942,7 +942,7 @@ const ALL_EXERCISES = [
       "świdrowiec gambijski": "jednokomórkowy pasożyt wywołujący śpiączkę afrykańską"
     },
     "image": "r02_protisty_roznorodnosc.jpg",
-    "explanation": "Podano przykłady bardzo różnych protistów, od jednokomórkowych okrzemek po wielokomórkowy morszcz."
+    "explanation": "Protisty są bardzo zróżnicowane: należą do nich między innymi jednokomórkowe okrzemki i wielokomórkowy morszcz."
   },
   {
     "id": "R02_PRO_06",
@@ -1094,7 +1094,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Podsumowanie wskazuje szczepionkę przy gruźlicy i tężcu, higienę przy salmonellozie, czerwonce pełzakowatej i toksoplazmozie oraz leki przeciwmalaryczne przy malarii."
+    "explanation": "Profilaktyka chorób zakaźnych obejmuje między innymi szczepienia przeciw gruźlicy i tężcowi, higienę przy salmonellozie, czerwonce pełzakowatej i toksoplazmozie oraz leki przeciwmalaryczne przy malarii."
   },
   {
     "id": "R02_HARD_02",
@@ -1146,11 +1146,11 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_04",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Według mapy i opisu malaria występuje w krajach Afryki, Ameryki Południowej oraz południowej Azji, gdzie jest gorąco.",
+    "prompt": "Malaria występuje między innymi w gorących regionach Afryki, Ameryki Południowej i południowej Azji.",
     "options": null,
     "answer": true,
     "image": "r02_mapa_malarii.jpg",
-    "explanation": "To prawda. Opis pod mapą wskazuje te obszary jako miejsca występowania malarii."
+    "explanation": "To prawda. Malaria występuje w wielu gorących regionach Afryki, Ameryki Południowej i południowej Azji."
   },
   {
     "id": "R02_HARD_05",
@@ -1173,13 +1173,13 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r02_szalka_fleminga.jpg",
-    "explanation": "Podaje się datę 3 września 1928 roku dla obserwacji Fleminga oraz 1940 rok dla eksperymentu Howarda Floreya."
+    "explanation": "Fleming dokonał tej obserwacji 3 września 1928 roku, a Howard Florey przeprowadził eksperyment na myszach w 1940 roku."
   },
   {
     "id": "R02_HARD_06",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż wydarzenia związane z penicyliną w kolejności podanej w tekście.",
+    "prompt": "Ułóż wydarzenia związane z penicyliną w kolejności chronologicznej.",
     "options": null,
     "items": [
       "eksperyment Floreya na myszach",
@@ -1200,7 +1200,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_07",
     "section": "Super trudne",
     "type": "scenario",
-    "prompt": "W tekście o penicylinie podano, że w Londynie w 1942 roku tylko połowa chorych na gruźlicę miała szansę przeżyć, a dwadzieścia lat później umierał jeden pacjent na dziesięciu. Co pokazuje ten przykład?",
+    "prompt": "W Londynie w 1942 roku tylko połowa chorych na gruźlicę miała szansę przeżyć, a dwadzieścia lat później umierał jeden pacjent na dziesięciu. Co pokazuje ta zmiana?",
     "options": [
       "spadek śmiertelności po upowszechnieniu antybiotyków",
       "całkowite zniknięcie gruźlicy w 1942 roku",
@@ -1211,7 +1211,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r02_szalka_fleminga.jpg",
-    "explanation": "Tekst pokazuje, że rozpowszechnienie antybiotyków bardzo zmniejszyło śmiertelność z powodu gruźlicy."
+    "explanation": "Rozpowszechnienie antybiotyków bardzo zmniejszyło śmiertelność z powodu gruźlicy."
   },
   {
     "id": "R02_HARD_08",

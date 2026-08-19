@@ -52,7 +52,7 @@ const ALL_EXERCISES = [
     "prompt": "Świat organizmów podzielono na trzy domeny i sześć królestw.",
     "options": null,
     "answer": true,
-    "explanation": "Podano trzy domeny: archeowce, bakterie i eukarionty, a w nich łącznie sześć królestw.",
+    "explanation": "Trzy domeny to archeowce, bakterie i eukarionty; obejmują one łącznie sześć królestw.",
     "image": "r02_domeny_krolestwa.jpg"
   },
   {
@@ -220,7 +220,7 @@ const ALL_EXERCISES = [
     "id": "R02_KLU_04",
     "section": "Klucze do oznaczania",
     "type": "match",
-    "prompt": "Połącz drzewo iglaste z cechą podaną w przykładzie klucza.",
+    "prompt": "Połącz drzewo iglaste z charakterystyczną cechą jego igieł.",
     "options": null,
     "left": [
       "jodła pospolita",
@@ -240,7 +240,7 @@ const ALL_EXERCISES = [
       "sosna zwyczajna": "igły wyrastają po dwie",
       "modrzew europejski": "igły zebrane w pęczki"
     },
-    "explanation": "W przykładzie klucza rozpoznawano gatunki po ułożeniu i kształcie igieł.",
+    "explanation": "Gatunki drzew iglastych można rozpoznawać między innymi po ułożeniu i kształcie igieł.",
     "image": "r02_klucz_iglaste.jpg"
   },
   {
@@ -537,7 +537,7 @@ const ALL_EXERCISES = [
     "id": "R02_BAK_03",
     "section": "Bakterie",
     "type": "multi_select",
-    "prompt": "Zaznacz elementy pokazane w modelu komórki bakteryjnej.",
+    "prompt": "Zaznacz elementy, które mogą występować w budowie komórki bakteryjnej.",
     "options": [
       "cytozol",
       "błona komórkowa",
@@ -553,7 +553,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Model komórki bakteryjnej obejmuje cytozol, błonę, ścianę, otoczkę śluzową i substancję jądrową; bakterie nie mają chloroplastów w tym schemacie.",
+    "explanation": "Komórka bakteryjna zawiera cytozol, błonę komórkową, ścianę komórkową i substancję jądrową, a u części bakterii występuje także otoczka śluzowa. Bakterie nie mają chloroplastów.",
     "image": "r02_komorka_bakteryjna.jpg"
   },
   {
@@ -604,7 +604,7 @@ const ALL_EXERCISES = [
       "krętek": "długa spiralnie skręcona komórka",
       "dwoinka": "dwie połączone komórki"
     },
-    "explanation": "Pokazano różne kształty bakterii: ziarenkowce, pałeczki, krętki oraz komórki połączone w pary."
+    "explanation": "Bakterie mogą mieć różne kształty, między innymi kuliste, pałeczkowate i spiralne, a ich komórki mogą także występować parami."
   },
   {
     "id": "R02_BAK_06",
@@ -629,7 +629,7 @@ const ALL_EXERCISES = [
       "Przez rozmowę telefoniczną"
     ],
     "answer": 0,
-    "explanation": "Salmonelloza w opisanej sytuacji wiąże się ze spożyciem pokarmu zawierającego bakterie.",
+    "explanation": "W tej sytuacji salmonelloza wiąże się ze spożyciem pokarmu zawierającego bakterie.",
     "image": "r02_drogi_bakterii.jpg"
   },
   {
@@ -854,7 +854,7 @@ const ALL_EXERCISES = [
       "ustawić ostrość obrazu",
       "wykonać rysunek zaobserwowanego protista"
     ],
-    "explanation": "Instrukcja doświadczenia prowadzi od pobrania kropli z hodowli, przez przygotowanie preparatu, do obserwacji i rysunku."
+    "explanation": "Prawidłowa kolejność obejmuje pobranie kropli z hodowli, przygotowanie preparatu, obserwację mikroskopową i wykonanie rysunku."
   },
   {
     "id": "R02_GRZ_01",
@@ -1109,7 +1109,7 @@ const ALL_EXERCISES = [
     "prompt": "Archeobakterie są jednokomórkowe, nie mają jądra komórkowego i mogą żyć w ekstremalnych warunkach.",
     "options": null,
     "answer": true,
-    "explanation": "W tabeli królestw podano, że archeobakterie nie mają jądra komórkowego, mają ścianę komórkową i żyją m.in. w gorących źródłach."
+    "explanation": "Archeobakterie nie mają jądra komórkowego, mają ścianę komórkową i mogą żyć między innymi w gorących źródłach."
   },
   {
     "id": "R02_HARD_05",
@@ -1139,7 +1139,7 @@ const ALL_EXERCISES = [
       "morszczyn pecherzykowaty",
       "morszczyn"
     ],
-    "explanation": "Morszczyn pęcherzykowaty jest opisany jako wielokomórkowy protist osiągający do 100 cm długości i żyjący w wodach słonych."
+    "explanation": "Morszczyn pęcherzykowaty jest wielokomórkowym protistem, który może osiągać do 100 cm długości i żyje w wodach słonych."
   },
   {
     "id": "R02_HARD_07",
@@ -1188,7 +1188,7 @@ const ALL_EXERCISES = [
       "Przykładanie rany do ziemi"
     ],
     "answer": 0,
-    "explanation": "Bakterie mogą dostać się do krwi m.in. przez ukąszenie kleszcza, dlatego wskazana jest odzież ochronna i środki odstraszające.",
+    "explanation": "Bakterie mogą dostać się do krwi m.in. przez ukąszenie kleszcza, dlatego należy stosować odzież ochronną i środki odstraszające.",
     "image": "r02_drogi_bakterii.jpg"
   },
   {

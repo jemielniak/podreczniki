@@ -820,7 +820,7 @@ const ALL_EXERCISES = [
     "id": "R05_OKR_06",
     "section": "Rośliny okrytonasienne",
     "type": "odd_one_out",
-    "prompt": "Wskaż roślinę, która nie jest drzewem liściastym opisanym w części o okrytonasiennych: wierzba biała, buk zwyczajny, dąb szypułkowy, klon zwyczajny, lipa drobnolistna, świerk pospolity.",
+    "prompt": "Wskaż roślinę, która nie jest drzewem liściastym: wierzba biała, buk zwyczajny, dąb szypułkowy, klon zwyczajny, lipa drobnolistna, świerk pospolity.",
     "options": null,
     "answer": "świerk pospolity",
     "explanation": "Wierzba, buk, dąb, klon i lipa są drzewami okrytonasiennymi. Świerk jest nagonasienny."
@@ -957,7 +957,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_01",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz cechy, które według podsumowania odróżniają typowe okrytonasienne od typowych nagonasiennych.",
+    "prompt": "Zaznacz cechy odróżniające typowe rośliny okrytonasienne od typowych roślin nagonasiennych.",
     "options": [
       "Nasiona okryte owocnią",
       "Obecność owoców",
@@ -1004,7 +1004,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_03",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż grupy według podanych cech: od roślin bez właściwych organów i nasion do roślin mających nasiona zamknięte w owocach.",
+    "prompt": "Ułóż grupy od roślin bez właściwych organów i nasion do roślin mających nasiona zamknięte w owocach.",
     "options": null,
     "items": [
       "rośliny okrytonasienne",
@@ -1124,7 +1124,7 @@ const ALL_EXERCISES = [
     "prompt": "Listek i łodyżka mchu nie mają tkanek przewodzących.",
     "options": null,
     "answer": true,
-    "explanation": "Zgodnie ze słowniczkiem pojęć listek i łodyżka mchu są odpowiednikami liścia i łodygi, ale nie zawierają tkanek przewodzących."
+    "explanation": "Listek i łodyżka mchu są odpowiednikami liścia i łodygi, ale nie zawierają tkanek przewodzących."
   },
   {
     "id": "R05_HARD_10",
@@ -1173,7 +1173,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Sosna ma nasiona ze skrzydełkiem; wierzba i topola owoce z puchem; klon i brzoza owoce ze skrzydełkami. Jarząb ma czerwone owoce, ale nie opisano ich jako wiatrosiewnych.",
+    "explanation": "Sosna ma nasiona ze skrzydełkiem; wierzba i topola owoce z puchem; klon i brzoza owoce ze skrzydełkami. Owoce jarzębu nie mają cech typowych dla rozsiewania przez wiatr.",
     "image": "r05_liscie_i_owoce_drzew.jpg"
   },
   {

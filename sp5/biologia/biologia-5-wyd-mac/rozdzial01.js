@@ -283,7 +283,7 @@ const ALL_EXERCISES = [
     "prompt": "Szkolne mikroskopy świetlne umożliwiają oglądanie obiektów w powiększeniu od około 100 do 1200 razy.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się taki zakres powiększeń dla mikroskopów świetlnych używanych w pracowniach szkolnych."
+    "explanation": "Szkolne mikroskopy świetlne umożliwiają zwykle uzyskanie powiększeń od około 100 do 1200 razy."
   },
   {
     "id": "R01_MIK_04",
@@ -761,7 +761,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r01_drzewo_zycia.jpg",
-    "explanation": "Przedstawia się organizmy jako jedną wielką rodzinę pochodzącą od wspólnego przodka."
+    "explanation": "Wszystkie gatunki na Ziemi są ze sobą spokrewnione ewolucyjnie i pochodzą od wspólnego przodka."
   },
   {
     "id": "R01_KLW_03",
@@ -861,7 +861,7 @@ const ALL_EXERCISES = [
     "id": "R01_KLW_09",
     "section": "Klasyfikacja i wirusy",
     "type": "riddle",
-    "prompt": "Jak nazywa się wirus atakujący bakterie, przedstawiany jako kształt przypominający małego robota?",
+    "prompt": "Jak nazywa się wirus atakujący bakterie, który często ma kształt przypominający małego robota?",
     "options": null,
     "answer": "bakteriofag",
     "altAnswers": [
@@ -1059,7 +1059,7 @@ const ALL_EXERCISES = [
       "wapń": "buduje kości i szkliwo",
       "magnez": "wchodzi w skład kości i zębów"
     },
-    "explanation": "Na stronach o pierwiastkach dla aktywnych opisano znaczenie sodu, potasu, wapnia i magnezu."
+    "explanation": "Sód, potas, wapń i magnez pełnią ważne funkcje w organizmie, między innymi regulują gospodarkę wodną, wspierają pracę serca oraz budują kości i zęby."
   },
   {
     "id": "R01_HARD_06",

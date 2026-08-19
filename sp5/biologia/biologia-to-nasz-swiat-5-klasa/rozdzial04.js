@@ -120,7 +120,7 @@ const ALL_EXERCISES = [
     "prompt": "Sosna zwyczajna ma sztywne, kłujące igły.",
     "options": null,
     "answer": true,
-    "explanation": "Opis sosny wskazuje, że jej igły są sztywne i kłujące."
+    "explanation": "Igły sosny zwyczajnej są sztywne i kłujące."
   },
   {
     "id": "R04_NAG_08",
@@ -360,7 +360,7 @@ const ALL_EXERCISES = [
     "id": "R04_POL_10",
     "section": "Nagonasienne w Polsce",
     "type": "single_choice",
-    "prompt": "Który gatunek nagonasienny wymieniono jako drzewo górskie?",
+    "prompt": "Który gatunek nagonasienny jest drzewem górskim?",
     "options": [
       "sosna limba",
       "cis pospolity",
@@ -370,7 +370,7 @@ const ALL_EXERCISES = [
       "jodła pospolita"
     ],
     "answer": 0,
-    "explanation": "Wśród przedstawionych nagonasiennych drzewem górskim jest sosna limba."
+    "explanation": "Sosna limba jest nagonasiennym drzewem górskim."
   },
   {
     "id": "R04_OKR_01",
@@ -468,7 +468,7 @@ const ALL_EXERCISES = [
       "krzewinki": "niskie rośliny krzewiaste",
       "rośliny zielne": "rośliny o miękkich zielonych pędach"
     },
-    "explanation": "Wskazano cztery formy okrytonasiennych: drzewa, krzewy, krzewinki i rośliny zielne."
+    "explanation": "Do form roślin okrytonasiennych należą drzewa, krzewy, krzewinki i rośliny zielne."
   },
   {
     "id": "R04_OKR_06",
@@ -863,13 +863,13 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród drzew liściastych wymieniono dąb szypułkowy, brzozę brodawkowatą, lipę drobnolistną i jesion wyniosły."
+    "explanation": "Do drzew liściastych należą dąb szypułkowy, brzoza brodawkowata, lipa drobnolistna i jesion wyniosły."
   },
   {
     "id": "R04_LIS_02",
     "section": "Drzewa liściaste i znaczenie roślin",
     "type": "single_choice",
-    "prompt": "Które z wymienionych drzew jest drzewem liściastym i okrytonasiennym?",
+    "prompt": "Które drzewo jest liściaste i okrytonasienne?",
     "options": [
       "dąb szypułkowy",
       "jodła pospolita",
@@ -1081,7 +1081,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_03",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak opisano dolną część kory sosny zwyczajnej?",
+    "prompt": "Jaki kolor ma dolna część kory sosny zwyczajnej?",
     "options": [
       "brunatnoszara",
       "czerwonawożółta",
@@ -1091,7 +1091,7 @@ const ALL_EXERCISES = [
       "fioletowa"
     ],
     "answer": 0,
-    "explanation": "W tekście o sośnie wskazano, że dolna część kory jest brunatnoszara."
+    "explanation": "Dolna część kory sosny zwyczajnej jest brunatnoszara."
   },
   {
     "id": "R04_HARD_04",

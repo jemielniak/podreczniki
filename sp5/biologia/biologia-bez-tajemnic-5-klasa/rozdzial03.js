@@ -271,7 +271,7 @@ const ALL_EXERCISES = [
     "options": null,
     "answer": false,
     "image": "r03_budowa_wirusa.jpg",
-    "explanation": "Wirus nie ma budowy komórkowej. Przedstawiono go jako otoczkę białkową z DNA lub RNA."
+    "explanation": "Wirus nie ma budowy komórkowej. Składa się z otoczki białkowej oraz materiału genetycznego w postaci DNA lub RNA."
   },
   {
     "id": "R03_WIR_05",
@@ -391,7 +391,7 @@ const ALL_EXERCISES = [
     "id": "R03_BAK_01",
     "section": "Bakterie",
     "type": "single_choice",
-    "prompt": "Jaki zakres wielkości bakterii podano?",
+    "prompt": "Jaki jest typowy zakres wielkości bakterii?",
     "options": [
       "0,5-10 mikrometrów",
       "80-120 nanometrów",
@@ -1099,7 +1099,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r03_grzyby_jadalne_trujace.jpg",
-    "explanation": "Koźlarz czerwony, podgrzybek brunatny, pieprznik jadalny i borowik szlachetny zostały przedstawione jako jadalne."
+    "explanation": "Koźlarz czerwony, podgrzybek brunatny, pieprznik jadalny i borowik szlachetny są grzybami jadalnymi."
   },
   {
     "id": "R03_ZNA_10",
@@ -1227,7 +1227,7 @@ const ALL_EXERCISES = [
         "0.000001"
       ]
     ],
-    "explanation": "Podano: 1 mikrometr = 0,001 mm, a 1 nanometr = 0,000001 mm."
+    "explanation": "1 mikrometr = 0,001 mm, a 1 nanometr = 0,000001 mm."
   },
   {
     "id": "R03_HARD_06",
@@ -1262,7 +1262,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_07",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Zaznacz drogi rozprzestrzeniania się wirusów, przy których jako przykład podano AIDS.",
+    "prompt": "Zaznacz drogi, którymi może dojść do zakażenia wirusem HIV.",
     "options": [
       "ciąża i poród",
       "droga moczowo-płciowa",
@@ -1277,7 +1277,7 @@ const ALL_EXERCISES = [
       2
     ],
     "image": "r03_drogi_zakazenia_wirusami.jpg",
-    "explanation": "AIDS podano jako przykład zakażenia z matki na dziecko, drogą moczowo-płciową oraz przez kontakt z krwią."
+    "explanation": "Do zakażenia wirusem HIV może dojść z matki na dziecko, drogą moczowo-płciową oraz przez kontakt z krwią."
   },
   {
     "id": "R03_HARD_08",

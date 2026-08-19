@@ -688,7 +688,7 @@ const ALL_EXERCISES = [
     "prompt": "Igły sosny zwyczajnej wyrastają po dwie obok siebie.",
     "options": null,
     "answer": true,
-    "explanation": "W opisie sosny zwyczajnej podano, że jej igły są osadzone po dwie."
+    "explanation": "Igły sosny zwyczajnej są osadzone po dwie."
   },
   {
     "id": "R03_ZNA_01",
@@ -726,7 +726,7 @@ const ALL_EXERCISES = [
       2,
       3
     ],
-    "explanation": "Wśród polskich nagonasiennych wymieniono między innymi sosnę zwyczajną, świerk pospolity, jodłę pospolitą i modrzew europejski."
+    "explanation": "Do nagonasiennych naturalnie występujących w Polsce należą między innymi sosna zwyczajna, świerk pospolity, jodła pospolita i modrzew europejski."
   },
   {
     "id": "R03_ZNA_03",
@@ -762,7 +762,7 @@ const ALL_EXERCISES = [
     "prompt": "Drewno sosnowe jest wykorzystywane w stolarstwie, ponieważ łatwo poddaje się obróbce.",
     "options": null,
     "answer": true,
-    "explanation": "Podaje się drewno sosnowe jako przykład surowca chętnie wykorzystywanego w stolarstwie."
+    "explanation": "Drewno sosnowe jest chętnie wykorzystywane w stolarstwie, ponieważ łatwo poddaje się obróbce."
   },
   {
     "id": "R03_ZNA_05",
@@ -790,7 +790,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZNA_06",
     "section": "Znaczenie nagonasiennych",
     "type": "scenario",
-    "prompt": "Oznaczasz drzewo z miękkimi igłami zebranymi w pęczki, które opadają na zimę. Do jakiego gatunku prowadzi klucz?",
+    "prompt": "Oznaczasz drzewo z miękkimi igłami zebranymi w pęczki, które opadają na zimę. Jaki to gatunek?",
     "options": [
       "modrzew europejski",
       "cis pospolity",
@@ -798,7 +798,7 @@ const ALL_EXERCISES = [
       "świerk pospolity"
     ],
     "answer": 0,
-    "explanation": "Klucz do oznaczania wskazuje, że miękkie igły zebrane w pęczki i opadające na zimę prowadzą do modrzewia europejskiego."
+    "explanation": "Miękkie igły zebrane w pęczki i opadające na zimę są charakterystyczne dla modrzewia europejskiego."
   },
   {
     "id": "R03_ZNA_07",
@@ -908,7 +908,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Korek, drewno i twardzica są opisane jako zbudowane z martwych komórek. Łyko i zwarcica tworzą komórki żywe."
+    "explanation": "Korek, drewno i twardzica są zbudowane z martwych komórek. Łyko i zwarcica tworzą komórki żywe."
   },
   {
     "id": "R03_HARD_03",
@@ -990,7 +990,7 @@ const ALL_EXERCISES = [
     "prompt": "Salwinia pływająca jest przykładem paproci żyjącej w środowisku wodnym.",
     "options": null,
     "answer": true,
-    "explanation": "Podano salwinię pływającą jako nieliczny przykład paproci spotykanej w stawach i wolno płynących rzekach."
+    "explanation": "Salwinia pływająca jest jedną z nielicznych paproci spotykanych w stawach i wolno płynących rzekach."
   },
   {
     "id": "R03_HARD_08",
@@ -1005,7 +1005,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_09",
     "section": "Super trudne",
     "type": "sort",
-    "prompt": "Przyporządkuj gatunki do liczby lub ułożenia igieł z klucza.",
+    "prompt": "Przyporządkuj gatunki do właściwej liczby lub ułożenia igieł.",
     "options": null,
     "items": [
       "sosna zwyczajna",
@@ -1044,7 +1044,7 @@ const ALL_EXERCISES = [
     "prompt": "Szyszki jodły pospolitej rosną do góry i rozpadają się po dojrzeniu.",
     "options": null,
     "answer": true,
-    "explanation": "Opis jodły pospolitej wskazuje, że jej szyszki są walcowate, rosną do góry i po dojrzeniu rozpadają się."
+    "explanation": "Szyszki jodły pospolitej są walcowate, rosną do góry i po dojrzeniu rozpadają się."
   },
   {
     "id": "R03_HARD_11",

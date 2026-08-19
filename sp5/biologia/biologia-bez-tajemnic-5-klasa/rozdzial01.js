@@ -73,7 +73,7 @@ const ALL_EXERCISES = [
       3,
       4
     ],
-    "explanation": "Jako nauki przyrodnicze wskazano biologię, chemię, fizykę, geografię i astronomię."
+    "explanation": "Do nauk przyrodniczych należą biologia, chemia, fizyka, geografia i astronomia."
   },
   {
     "id": "R01_BIO_05",
@@ -125,7 +125,7 @@ const ALL_EXERCISES = [
     ],
     "answer": 0,
     "image": "r01_nauki_przyrodnicze.jpg",
-    "explanation": "Nauka stale się rozwija, dlatego nowsze ustalenia mogą różnić się od starszych. Najlepiej korzystać z kilku źródeł i porównywać przedstawione fakty oraz argumenty."
+    "explanation": "Nauka stale się rozwija, dlatego nowsze ustalenia mogą różnić się od starszych. Najlepiej korzystać z kilku źródeł i porównywać fakty oraz argumenty."
   },
   {
     "id": "R01_BIO_08",
@@ -384,7 +384,7 @@ const ALL_EXERCISES = [
     "id": "R01_DZI_10",
     "section": "Działy biologii i przyrządy",
     "type": "multi_select",
-    "prompt": "Zaznacz przyrządy znane z lekcji przyrody, które wskazano.",
+    "prompt": "Zaznacz przyrządy służące do podstawowych obserwacji i pomiarów biologicznych.",
     "options": [
       "Taśma miernicza",
       "Lornetka",
@@ -400,7 +400,7 @@ const ALL_EXERCISES = [
       3
     ],
     "image": "r01_przyrzady_badawcze.jpg",
-    "explanation": "Pokazano taśmę mierniczą, lornetkę, lupę i mikroskop jako podstawowe przyrządy badawcze."
+    "explanation": "Taśma miernicza, lornetka, lupa i mikroskop służą do podstawowych obserwacji i pomiarów biologicznych."
   },
   {
     "id": "R01_DZI_11",
@@ -969,7 +969,7 @@ const ALL_EXERCISES = [
       ]
     ],
     "image": "r01_mikroskop_budowa.jpg",
-    "explanation": "Podano powiększenie do 1000 razy oraz możliwość obserwacji szczegółów o wielkości około 0,0002 mm."
+    "explanation": "Nowoczesny mikroskop optyczny może powiększać obraz do 1000 razy i umożliwia obserwację szczegółów o wielkości około 0,0002 mm."
   },
   {
     "id": "R01_MIK_06",
@@ -1101,7 +1101,7 @@ const ALL_EXERCISES = [
     "id": "R01_HARD_01",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Kto po raz pierwszy użył terminu biologia w 1802 roku według informacji?",
+    "prompt": "Kto po raz pierwszy użył terminu biologia w 1802 roku?",
     "options": [
       "Jean Baptiste Lamarck",
       "Antoni van Leeuwenhoek",

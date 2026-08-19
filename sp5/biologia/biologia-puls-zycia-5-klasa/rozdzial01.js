@@ -245,7 +245,7 @@ const ALL_EXERCISES =
       "Uważnym przyglądaniem się bez zmieniania warunków",
       "Mieszaniem różnych substancji",
       "Rysowaniem tylko z pamięci",
-      "Tylko czytaniem podręcznika"
+      "Tylko zapamiętywaniem gotowych informacji"
     ],
     "answer": 0,
     "explanation": "Podczas obserwacji przyglądamy się organizmom lub procesom, ale nie zmieniamy ich przebiegu.",
@@ -861,7 +861,7 @@ const ALL_EXERCISES =
       4,
       5
     ],
-    "explanation": "Wymieniono zoologię, botanikę, mikrobiologię, anatomię, fizjologię i ekologię. Geometria nie jest dziedziną biologii."
+    "explanation": "Zoologia, botanika, mikrobiologia, anatomia, fizjologia i ekologia są dziedzinami biologii. Geometria nie jest dziedziną biologii."
   },
   {
     "id": "R01_ST_08",
@@ -1006,7 +1006,7 @@ const ALL_EXERCISES =
       2,
       4
     ],
-    "explanation": "Wymienia się ogród botaniczny, ogród zoologiczny, muzeum przyrodnicze i zajęcia terenowe. Parking sam w sobie nie jest takim miejscem."
+    "explanation": "Ogród botaniczny, ogród zoologiczny, muzeum przyrodnicze i zajęcia terenowe mogą rozwijać zainteresowania biologiczne. Parking sam w sobie nie pełni takiej funkcji."
   },
   {
     "id": "R01_ST_15",

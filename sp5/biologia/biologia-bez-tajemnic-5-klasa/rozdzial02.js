@@ -217,7 +217,7 @@ const ALL_EXERCISES = [
       "substancji mineralnej"
     ],
     "answer": 0,
-    "explanation": "Według opisu ewolucyjnego kolonie komórek, w których grupy komórek zaczęły się specjalizować, dały początek pierwszym organizmom wielokomórkowym."
+    "explanation": "Kolonie komórek, w których grupy komórek zaczęły się specjalizować, mogły dać początek pierwszym organizmom wielokomórkowym."
   },
   {
     "id": "R02_CHEM_01",
@@ -580,7 +580,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż element, który nie jest charakterystyczny dla komórki roślinnej: chloroplast, wakuola, ściana komórkowa, wodniczka.",
     "options": null,
     "answer": "wodniczka",
-    "explanation": "Komórka roślinna ma chloroplasty, ścianę komórkową i zwykle jedną dużą wakuolę. Wodniczki opisano przy komórce zwierzęcej.",
+    "explanation": "Komórka roślinna ma chloroplasty, ścianę komórkową i zwykle jedną dużą wakuolę. Wodniczki mogą występować w komórkach zwierzęcych.",
     "image": "r02_komorka_roslinna.jpg"
   },
   {
@@ -891,7 +891,7 @@ const ALL_EXERCISES = [
     "prompt": "Niektóre rośliny iglaste mogą prowadzić fotosyntezę w temperaturze poniżej 0 stopni Celsjusza.",
     "options": null,
     "answer": true,
-    "explanation": "Poszczególne gatunki są przystosowane do różnych temperatur; podano, że rośliny iglaste mogą fotosyntetyzować poniżej 0 stopni Celsjusza."
+    "explanation": "Poszczególne gatunki są przystosowane do różnych temperatur; rośliny iglaste mogą fotosyntetyzować poniżej 0 stopni Celsjusza."
   },
   {
     "id": "R02_ODD_01",
@@ -999,7 +999,7 @@ const ALL_EXERCISES = [
     "prompt": "Wskaż substancję, która jest potrzebna do oddychania tlenowego, a nie powstaje w jego wyniku: energia, dwutlenek węgla, woda, tlen.",
     "options": null,
     "answer": "tlen",
-    "explanation": "Tlen jest substratem oddychania tlenowego. Energia, dwutlenek węgla i woda są przedstawione jako wyniki tego procesu."
+    "explanation": "Tlen jest substratem oddychania tlenowego. Energia, dwutlenek węgla i woda powstają w wyniku tego procesu."
   },
   {
     "id": "R02_ODD_07",
@@ -1141,7 +1141,7 @@ const ALL_EXERCISES = [
     "id": "R02_HARD_02",
     "section": "Super trudne",
     "type": "sequence",
-    "prompt": "Ułóż etapy powstawania organizmów wielokomórkowych zgodnie z opisem ewolucyjnym.",
+    "prompt": "Ułóż etapy powstawania organizmów wielokomórkowych w kolejności ewolucyjnej.",
     "options": null,
     "items": [
       "specjalizacja grup komórek",
@@ -1205,7 +1205,7 @@ const ALL_EXERCISES = [
         "wodniczka"
       ]
     },
-    "explanation": "Bakterie mają DNA poza jądrem i mogą mieć otoczkę śluzową, rośliny mają chloroplasty oraz dużą wakuolę, a przy komórce zwierzęcej opisano wodniczki.",
+    "explanation": "Bakterie mają DNA poza jądrem i mogą mieć otoczkę śluzową, rośliny mają chloroplasty oraz dużą wakuolę, a komórki zwierzęce mogą zawierać wodniczki.",
     "image": "r02_porownanie_komorek.jpg"
   },
   {

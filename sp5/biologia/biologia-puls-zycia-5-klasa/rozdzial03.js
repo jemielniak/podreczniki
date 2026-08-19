@@ -18,7 +18,7 @@ const ALL_EXERCISES = [
       "Wyłącznie badaniem wirusów"
     ],
     "answer": 1,
-    "explanation": "Systematyka jest przedstawiona jako dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów."
+    "explanation": "Systematyka to dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów."
   },
   {
     "id": "SYS_02",
@@ -60,7 +60,7 @@ const ALL_EXERCISES = [
         "wirus grypy"
       ]
     },
-    "explanation": "Zakres obejmuje wirusy oraz trzy królestwa: bakterie, protisty i grzyby.",
+    "explanation": "Pałeczka okrężnicy jest bakterią, pantofelek i euglena są protistami, drożdże i pieczarka są grzybami, a wirus grypy należy do wirusów.",
     "items": [
       "pałeczka okrężnicy",
       "pantofelek",
@@ -102,7 +102,7 @@ const ALL_EXERCISES = [
       "nukleinowego",
       "białek"
     ],
-    "explanation": "Opisuje się wirusa jako cząstkę z kwasem nukleinowym i otoczką białkową.",
+    "explanation": "Wirus jest zbudowany z kwasu nukleinowego otoczonego białkową osłonką.",
     "image": "/img/r03_schemat_wirusa.jpg",
     "altAnswers": [["nukleinowego", "nukleinowy", "nukleinowym"], ["białek", "białka", "białko", "białkowej"]]
   },
@@ -113,7 +113,7 @@ const ALL_EXERCISES = [
     "prompt": "Bakterie są organizmami jednokomórkowymi i bezjądrowymi.",
     "options": null,
     "answer": true,
-    "explanation": "Tak opisano bakterie."
+    "explanation": "Bakterie są organizmami jednokomórkowymi i nie mają jądra komórkowego."
   },
   {
     "id": "WB_04",
@@ -131,7 +131,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Na ilustracjach pokazano bakterie kuliste, podłużne i spiralne.",
+    "explanation": "Bakterie mogą mieć kształt kulisty, podłużny lub spiralny.",
     "image": "/img/r03_ksztalty_bakterii.jpg"
   },
   {
@@ -156,7 +156,7 @@ const ALL_EXERCISES = [
         "salmonelloza"
       ]
     },
-    "explanation": "Taki podział pojawia się.",
+    "explanation": "Grypa, odra, ospa wietrzna, różyczka, świnka i AIDS są chorobami wirusowymi, a gruźlica, borelioza, tężec i salmonelloza są chorobami bakteryjnymi.",
     "items": [
       "grypa",
       "odra",
@@ -187,7 +187,7 @@ const ALL_EXERCISES = [
       "przez krew": "borelioza lub AIDS",
       "droga płciowa": "AIDS"
     },
-    "explanation": "Opisano cztery główne drogi rozprzestrzeniania się drobnoustrojów.",
+    "explanation": "Drobnoustroje mogą rozprzestrzeniać się drogą kropelkową, pokarmową, przez krew lub drogą płciową.",
     "left": [
       "droga kropelkowa",
       "droga pokarmowa",
@@ -232,7 +232,7 @@ const ALL_EXERCISES = [
       1,
       2
     ],
-    "explanation": "Wymienia się te zastosowania jako pożyteczne.",
+    "explanation": "Bakterie są wykorzystywane między innymi do produkcji jogurtów i kiszonek, oczyszczania ścieków oraz produkcji antybiotyków.",
     "image": "/img/r03_bakterie_dobre_i_zle.jpg"
   },
   {
@@ -247,7 +247,7 @@ const ALL_EXERCISES = [
       "Drożdże"
     ],
     "answer": 0,
-    "explanation": "Podkreślono rolę pałeczek okrężnicy."
+    "explanation": "Pałeczka okrężnicy żyje w jelicie grubym i pomaga wytwarzać witaminy z grupy B oraz witaminę K."
   },
   {
     "id": "WB_10",
@@ -256,7 +256,7 @@ const ALL_EXERCISES = [
     "prompt": "Niektóre bakterie mogą oddychać tylko tlenowo, inne tylko bez udziału tlenu, a jeszcze inne na oba sposoby.",
     "options": null,
     "answer": true,
-    "explanation": "Tak opisano oddychanie bakterii."
+    "explanation": "Bakterie różnią się sposobem oddychania: część wymaga tlenu, część żyje bez jego udziału, a niektóre mogą oddychać na oba sposoby."
   },
   {
     "id": "WB_11",
@@ -293,7 +293,7 @@ const ALL_EXERCISES = [
       "Zawsze bezbarwne"
     ],
     "answer": 2,
-    "explanation": "Omówiono oba typy protistów."
+    "explanation": "Protisty mogą być jednokomórkowe albo wielokomórkowe."
   },
   {
     "id": "PRO_02",
@@ -417,7 +417,7 @@ const ALL_EXERCISES = [
       "Picie ciepłej herbaty"
     ],
     "answer": 1,
-    "explanation": "Takie sposoby zapobiegania wymieniono przy toksoplazmozie."
+    "explanation": "Ryzyko toksoplazmozy zmniejsza unikanie surowego lub niedogotowanego mięsa oraz kontaktu z zakażonym kotem."
   },
   {
     "id": "PRO_09",
@@ -518,7 +518,7 @@ const ALL_EXERCISES = [
     "id": "GRZ_06",
     "section": "Super trudne",
     "type": "single_choice",
-    "prompt": "Jak nazywa się rozmnażanie drożdży pokazane na lekcji?",
+    "prompt": "Jak nazywa się bezpłciowy sposób rozmnażania drożdży?",
     "options": [
       "Podział komórki",
       "Pączkowanie",
@@ -540,7 +540,7 @@ const ALL_EXERCISES = [
       "zarodniki": "powstają pod kapeluszem",
       "grzybnia": "sieć strzępek w podłożu"
     },
-    "explanation": "Tak opisano budowę grzyba wielokomórkowego.",
+    "explanation": "Kapelusz i trzon tworzą część nadziemną grzyba, zarodniki powstają pod kapeluszem, a grzybnia jest siecią strzępek w podłożu.",
     "left": [
       "kapelusz",
       "trzon",
@@ -630,7 +630,7 @@ const ALL_EXERCISES = [
       "porost - to sam glon"
     ],
     "answer": 1,
-    "explanation": "Tylko drugie zdanie jest zgodne z materiałem."
+    "explanation": "Poprawne jest tylko zdanie „bakteria - bez jądra komórkowego”."
   },
   {
     "id": "MIX_02",
@@ -644,7 +644,7 @@ const ALL_EXERCISES = [
       "wymieszaj i przelej do słoików",
       "odstaw w ciepłe miejsce"
     ],
-    "explanation": "W doświadczeniu pokazano namnażanie się bakterii w ciepłym mleku.",
+    "explanation": "W ciepłym mleku bakterie z jogurtu naturalnego namnażają się i prowadzą do powstania jogurtu.",
     "items": [
       "odstaw w ciepłe miejsce",
       "dodaj jogurt naturalny",
@@ -664,7 +664,7 @@ const ALL_EXERCISES = [
       "Grzyby pleśniowe"
     ],
     "answer": 3,
-    "explanation": "O grzybach pokazano pleśń na wilgotnych ścianach."
+    "explanation": "Ciemny nalot na wilgotnej ścianie może być pleśnią, czyli grzybem."
   },
   {
     "id": "MIX_04",
@@ -688,7 +688,7 @@ const ALL_EXERCISES = [
     "id": "MIX_05",
     "section": "Super trudne",
     "type": "true_false",
-    "prompt": "Wirusy, bakterie, protisty i grzyby to cztery grupy opisane w zakresie materiału, ale tylko trzy z nich są królestwami organizmów.",
+    "prompt": "Bakterie, protisty i grzyby są zaliczane do organizmów, natomiast wirusy nie.",
     "options": null,
     "answer": true,
     "explanation": "Wirusy nie są zaliczane do organizmów."
@@ -730,7 +730,7 @@ const ALL_EXERCISES = [
       "Sześciennego"
     ],
     "answer": 3,
-    "explanation": "Na ilustracji pokazano trzy kształty: kuliste, podłużne i spiralne. Sześciennych nie ma.",
+    "explanation": "Na ilustracji są widoczne kształty kuliste, podłużne i spiralne. Nie ma kształtu sześciennego.",
     "image": "/img/r03_ksztalty_bakterii.jpg"
   },
   {
@@ -782,7 +782,7 @@ const ALL_EXERCISES = [
     "id": "IMG_06",
     "section": "Super trudne",
     "type": "multi_select",
-    "prompt": "Na rysunku - które drogi zakażenia pokazano?",
+    "prompt": "Które drogi zakażenia są przedstawione na rysunku?",
     "options": [
       "Kropelkowa",
       "Pokarmowa",
@@ -848,7 +848,7 @@ const ALL_EXERCISES = [
     "id": "SYS_EASY_04",
     "section": "Systematyka",
     "type": "single_choice",
-    "prompt": "Która grupa nie jest królestwem organizmów z tego działu?",
+    "prompt": "Która z tych grup nie jest zaliczana do organizmów?",
     "options": [
       "Bakterie",
       "Protisty",
@@ -862,10 +862,10 @@ const ALL_EXERCISES = [
     "id": "SYS_EASY_05",
     "section": "Systematyka",
     "type": "true_false",
-    "prompt": "Bakterie, protisty i grzyby to grupy organizmów omawiane w tym dziale.",
+    "prompt": "Bakterie, protisty i grzyby to grupy organizmów.",
     "options": null,
     "answer": true,
-    "explanation": "Te trzy grupy należą do organizmów omawianych w materiale."
+    "explanation": "Bakterie, protisty i grzyby są zaliczane do organizmów."
   },
   {
     "id": "WB_EASY_01",
@@ -1112,7 +1112,7 @@ const KID_PROMPTS = {
   GRZ_03: "Która część grzyba jest zwykle pod ziemią?",
   GRZ_04: "Wybierz, do czego przydają się grzyby.",
   GRZ_05: "Prawda czy fałsz? Drożdże mogą oddychać albo robić fermentację.",
-  GRZ_06: "Jak nazywa się sposób rozmnażania drożdży pokazany na lekcji?",
+  GRZ_06: "Jak nazywa się bezpłciowy sposób rozmnażania drożdży?",
   GRZ_07: "Połącz część grzyba z opisem.",
   GRZ_08: "Porost to połączenie:",
   GRZ_09: "Co glon daje grzybowi w poroście?",
@@ -1123,20 +1123,20 @@ const KID_PROMPTS = {
   MIX_02: "Ułóż po kolei robienie jogurtu.",
   MIX_03: "Na wilgotnej ścianie pojawił się ciemny nalot. Co to najpewniej jest?",
   MIX_04: "Wybierz organizmy, które mogą robić fotosyntezę.",
-  MIX_05: "Prawda czy fałsz? W tym dziale są cztery grupy, ale tylko trzy z nich to królestwa organizmów.",
+  MIX_05: "Prawda czy fałsz? Bakterie, protisty i grzyby są organizmami, a wirusy nie.",
   MIX_06: "Zgadnij: nie jest organizmem, ale mnoży się tylko w komórkach. To...",
   IMG_01: "Na rysunku wirusa - ile pokazano elementów?",
   IMG_02: "Na rysunku bakterii - którego kształtu tam nie ma?",
   IMG_03: "Na rysunku - kto ma chloroplasty?",
   IMG_04: "Na rysunku grzyba - co jest pod ziemią?",
   IMG_05: "Na rysunku porostu - z jakich dwóch organizmów się składa?",
-  IMG_06: "Na rysunku - które drogi zakażenia pokazano?",
+  IMG_06: "Które drogi zakażenia są przedstawione na rysunku?",
   IMG_07: "Prawda czy fałsz? Na rysunku pantofelek porusza się witką.",
   SYS_EASY_01: "Jak nazywa się podstawowa jednostka klasyfikacji organizmów?",
   SYS_EASY_02: "Prawda czy fałsz? Systematyka pomaga porządkować organizmy w grupy.",
   SYS_EASY_03: "Które zdanie pasuje do jednego gatunku?",
-  SYS_EASY_04: "Która grupa nie jest królestwem organizmów z tego działu?",
-  SYS_EASY_05: "Prawda czy fałsz? Bakterie, protisty i grzyby to grupy organizmów z tego działu.",
+  SYS_EASY_04: "Która z tych grup nie jest zaliczana do organizmów?",
+  SYS_EASY_05: "Prawda czy fałsz? Bakterie, protisty i grzyby to grupy organizmów.",
   WB_EASY_01: "Prawda czy fałsz? Wirus nie ma budowy komórkowej.",
   WB_EASY_02: "Bakterie są najczęściej organizmami:",
   WB_EASY_03: "Która choroba jest wirusowa?",
