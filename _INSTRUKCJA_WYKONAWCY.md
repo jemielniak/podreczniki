@@ -33,7 +33,7 @@ Na końcu: najczęstsze wpadki.
 
 - przeglądarka internetowa (Chrome, Edge, Firefox - dowolna),
 - konto GitHub (założysz w kroku 1, jest darmowe),
-- link z zaproszeniem do repozytorium `podreczniki-content` - przyśle Ci go
+- link z zaproszeniem do repozytorium `podreczniki` - przyśle Ci go
   Dariusz na e-mail,
 - gotowe pliki rozdziału z czatu (plik `rozdzialNN.js` i obrazki).
 
@@ -47,11 +47,15 @@ Nic nie instalujesz. Wszystko dzieje się na stronie github.com.
    e-mail, hasło i nazwę użytkownika. Potwierdź e-mail, jeśli GitHub o to
    poprosi.
 2. Otwórz e-mail od Dariusza z zaproszeniem do repozytorium
-   `podreczniki-content`. Kliknij w nim zielony przycisk "Accept invitation"
+   `podreczniki`. Kliknij w nim zielony przycisk "Accept invitation"
    (przyjmij zaproszenie). Bez tego kroku nie zobaczysz folderów.
 3. Po przyjęciu zaproszenia trafisz na stronę repozytorium. Zapisz ją w
    zakładkach przeglądarki - to Twoje miejsce pracy. Adres to
-   `github.com/jemielniak/podreczniki-content`.
+   `github.com/jemielniak/podreczniki`.
+
+Uwaga na podobną nazwę: istnieje też repozytorium `podreczniki-content`.
+To NIE jest Twoje miejsce pracy - leży tam gotowy materiał, który aplikacja
+podaje uczniom. Ty pracujesz w `podreczniki`, bez końcówki.
 
 Od tej pory zaczynasz zawsze od wejścia na tę stronę.
 
@@ -59,39 +63,45 @@ Od tej pory zaczynasz zawsze od wejścia na tę stronę.
 
 ## 2. Mapa repozytorium - co gdzie leży i czego nie ruszać
 
-Po wejściu na stronę repozytorium widzisz w korzeniu kilka folderów. Cała
-Twoja praca dzieje się WYŁĄCZNIE w folderze `content-src/`. Otwórz go i
-zobaczysz układ klas:
+Po wejściu na stronę repozytorium widzisz w korzeniu foldery klas. Cała
+Twoja praca dzieje się WYŁĄCZNIE wewnątrz nich:
 
 ```
-content-src/                 ← tu pracujesz, wchodzisz na start
-  sp5/ sp6/ sp7/ sp8/        klasy podstawówki
-  lo1/ lo2/ lo3/ lo4/        klasy liceum
-    <przedmiot>/             np. historia, biologia, chemia
-      <podręcznik>/          np. historia-5-gwo
-        _bookConfig.json      ustawienia podręcznika
-        rozdzial01.js         rozdziały
-        rozdzial02.js
-        img/                  obrazki do pytań
-        visuals/              infografiki i mapy pojęć
-        cover.png             okładka
+sp5/ sp6/ sp7/ sp8/          klasy podstawówki  ← tu pracujesz
+lo1/ lo2/ lo3/ lo4/          klasy liceum
+  <przedmiot>/               np. historia, biologia, chemia
+    <podręcznik>/            np. historia-5-gwo
+      _bookConfig.json        ustawienia podręcznika
+      rozdzial01.js           rozdziały
+      rozdzial02.js
+      img/                    obrazki do pytań
+      visuals/                infografiki i mapy pojęć
+      cover.png               okładka
 ```
 
-Żeby dojść do swojego podręcznika, klikasz kolejno: `content-src` → klasa →
-przedmiot → podręcznik. Na przykład: `content-src` → `sp5` → `historia` →
-`historia-5-gwo`.
+Żeby dojść do swojego podręcznika, klikasz kolejno: klasa → przedmiot →
+podręcznik. Na przykład: `sp5` → `historia` → `historia-5-gwo`.
 
-W KORZENIU repozytorium (obok `content-src/`) leżą foldery `bundles/` oraz
-`img/` i plik `catalog.json`. To jest gotowy materiał, który aplikacja sama
-sobie generuje przy publikacji. NIE otwieraj ich i niczego w nich nie zmieniaj
-- Twoje pliki wgrywasz zawsze wewnątrz `content-src/`.
+W KORZENIU repozytorium, obok folderów klas, leżą jeszcze `bundles/`,
+`img/` i plik `catalog.json`. To jest gotowy materiał, który powstaje sam
+przy publikacji. NIE otwieraj ich i niczego w nich nie zmieniaj. Twoje
+pliki trafiają zawsze do folderu konkretnego podręcznika, czyli co najmniej
+trzy poziomy głębiej - jeśli wgrywasz obrazek, ścieżka musi wyglądać jak
+`sp5/historia/historia-5-gwo/img/`, nigdy jak samo `img/`.
 
 Czego jeszcze NIE ruszać:
 
 - pliku `_bookConfig.json` (ustawienia podręcznika - pilnuje ich Dariusz),
-- pliku `content-src/_przedmioty.json`, jeśli go zobaczysz (lista przedmiotów),
+- pliku `_przedmioty.json` w korzeniu (lista przedmiotów),
 - cudzych folderów - pracuj tylko w podręczniku, który masz przydzielony,
 - nazw folderów podręczników (raz nadana nazwa zostaje na zawsze).
+
+Nowe podręczniki zakłada Dariusz. Nazwa folderu podręcznika jest
+jednocześnie jego identyfikatorem w całej aplikacji: musi być
+niepowtarzalna w CAŁYM repozytorium i kończyć się numerem tej klasy,
+w której leży. W `sp8` ma być `planeta-nowa-8`, nie `planeta-nowa-7` -
+ta druga nazwa jest już zajęta przez podręcznik klasy 7 i publikacja
+zatrzymuje się na takim zderzeniu.
 
 Jeśli nie widzisz folderu, do którego masz coś wgrać, napisz do Dariusza -
 prawdopodobnie trzeba go najpierw założyć.
@@ -187,9 +197,9 @@ Teraz przenosisz gotowe pliki na wspólny dysk. Wszystko w przeglądarce.
 ### 6.1. Wgranie pliku rozdziału
 
 1. Na stronie repozytorium wejdź do swojego podręcznika: klikaj kolejno
-   `content-src` → klasa → przedmiot → podręcznik (np. `content-src` →
-   `sp5` → `historia` → `historia-5-gwo`). Powinieneś zobaczyć istniejące
-   pliki `rozdzial01.js` itd.
+   klasa → przedmiot → podręcznik (np. `sp5` → `historia` →
+   `historia-5-gwo`). Powinieneś zobaczyć istniejące pliki `rozdzial01.js`
+   itd.
 2. Kliknij przycisk "Add file" (u góry po prawej) → "Upload files".
 3. Przeciągnij plik `rozdzial03.js` w zaznaczone pole (albo kliknij "choose
    your files" i wskaż go).
@@ -275,7 +285,7 @@ plansze też". Reszta należy do niego.
 ## 10. Ściąga - co dokąd trafia
 
 Wszystkie ścieżki poniżej są WEWNĄTRZ folderu podręcznika, czyli
-`content-src/<klasa>/<przedmiot>/<podręcznik>/`.
+`<klasa>/<przedmiot>/<podręcznik>/`.
 
 | Co | Dokąd (w folderze podręcznika) | Format | Wzór nazwy | Waga |
 |---|---|---|---|---|
@@ -311,3 +321,24 @@ Podmieniony cudzysłów w pliku rozdziału. Jeśli edytujesz plik `.js` przez
 ołówek na GitHub, nie zamieniaj prostych cudzysłowów `"` na ozdobne „ ” -
 ozdobne psują plik. Najbezpieczniej drobne poprawki też robić w Notatniku i
 wgrywać na nowo.
+
+Lista przez "czy" w pytaniu "co nie pasuje". W pytaniach typu
+`odd_one_out` aplikacja bierze to, co stoi po dwukropku, i robi osobny
+przycisk z każdego fragmentu między przecinkami. Dlatego lista musi być
+rozdzielona SAMYMI przecinkami i zakończona kropką. Zapis "...leży poza
+Azją: Chiny, Indie, Wietnam czy Brazylia?" daje przycisk
+"Wietnam czy Brazylia?" - poprawnej odpowiedzi nie ma wtedy na ekranie
+i uczeń nie ma jak jej kliknąć. Dobrze: "...leży poza Azją: Chiny, Indie,
+Wietnam, Brazylia."
+
+Obrazek wołany w pytaniu, ale niewgrany. Jeśli pytanie ma pole `image`,
+plik o dokładnie tej nazwie musi leżeć w `img/`. Brakujący plik zatrzymuje
+publikację CAŁEJ dostawy, nie tylko tego jednego podręcznika - po wgraniu
+rozdziału przejrzyj pola `image` i sprawdź, czy każdy z tych plików
+faktycznie widać na liście w `img/`.
+
+Przeklejony `_bookConfig.json`. Jeśli kiedykolwiek kopiujesz ten plik
+z innego podręcznika, przeczytaj go potem linijka po linijce: pole `id`
+musi być identyczne z nazwą folderu, a `title` i `pageTitle` to tytuł TEGO
+podręcznika. Przeklejony plik z inną klasą w środku albo zatrzymuje
+publikację, albo pokazuje uczniom cudzy tytuł.

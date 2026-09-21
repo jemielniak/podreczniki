@@ -6,17 +6,21 @@ repozytorium, do wygodnej codziennej pracy na własnym komputerze. Zakłada,
 i nie przeskakuj kroków.
 
 Dwa pojęcia na start, obrazowo. Repozytorium to wspólny folder w
-internecie - nazywa się `podreczniki-content` i należy do Dariusza. Klon to
+internecie - nazywa się `podreczniki` i należy do Dariusza. Klon to
 kopia tego folderu na Twoim dysku. Pracujesz na kopii, a program GitHub
 Desktop przenosi Twoje zmiany do internetu jednym przyciskiem.
 
+Uwaga na podobną nazwę: jest też drugie repozytorium, `podreczniki-content`.
+To nie jest Twoje miejsce pracy - leży tam gotowy materiał dla aplikacji.
+Ty pracujesz w `podreczniki`, bez końcówki.
+
 Zasada nadrzędna, od której zależy bezpieczeństwo całej aplikacji: Twoje
-miejsce pracy to WYŁĄCZNIE podfolder `content-src`. Wszystko poza nim
-(foldery `bundles`, `img` oraz plik `catalog.json` w głównym folderze) to
-materiał generowany automatycznie - aplikacja uczniów czyta go wprost,
-więc ręczna zmiana czegokolwiek tam może zepsuć działające podręczniki.
-Ta instrukcja pokazuje w kroku 4 i 6, jak ustawić sobie pracę tak, żeby
-poza `content-src` w ogóle nie zaglądać.
+miejsce pracy to WYŁĄCZNIE foldery klas (`sp5`, `sp6`, `sp7`, `sp8`,
+`lo1`...`lo4`) i to, co jest w nich w środku. Wszystko poza nimi (foldery
+`bundles`, `img` oraz plik `catalog.json` leżące wprost w głównym folderze)
+to materiał generowany automatycznie - ręczna zmiana czegokolwiek tam może
+zepsuć działające podręczniki. Ta instrukcja pokazuje w kroku 6, jak
+sprawdzić przed wysyłką, że nie ruszyłeś niczego poza swoim terenem.
 
 ---
 
@@ -47,14 +51,14 @@ adresem.
 2. Wejdź pod adres:
 
    ```
-   https://github.com/jemielniak/podreczniki-content
+   https://github.com/jemielniak/podreczniki
    ```
 
 3. Zapisz tę stronę w zakładkach przeglądarki (Ctrl+D) - to Twój punkt
    startowy na przyszłość.
-4. Zobaczysz listę folderów i plików. Twoim miejscem pracy jest folder
-   `content-src` - kliknij go, a w środku znajdziesz foldery klas
-   (`sp5`, `sp6`, ...), a w nich przedmioty i podręczniki.
+4. Zobaczysz listę folderów i plików. Twoim miejscem pracy są foldery klas
+   (`sp5`, `sp6`, ...) leżące wprost w korzeniu - kliknij swoją klasę,
+   a w środku znajdziesz przedmioty i podręczniki.
 
 Jeśli coś się nie zgadza:
 
@@ -63,10 +67,10 @@ Jeśli coś się nie zgadza:
   zalogowany na inne konto niż to z zaproszenia. Sprawdź awatar w prawym
   górnym rogu. Zaproszenie jest też ważne tylko 7 dni - jeśli minęło,
   poproś Dariusza o nowe.
-- Repozytorium się otwiera, ale NIE MA w nim folderu `content-src`
-  (widzisz tylko `bundles`, `img`, `catalog.json`). To znaczy, że folder
-  roboczy nie został jeszcze wgrany - napisz do Dariusza i poczekaj z
-  dalszymi krokami, aż potwierdzi.
+- Repozytorium się otwiera, ale NIE MA w nim folderów klas (widzisz tylko
+  `bundles`, `img`, `catalog.json`). To znaczy, że jesteś w repozytorium
+  `podreczniki-content` zamiast w `podreczniki` - sprawdź adres na górze
+  strony i wejdź pod ten z punktu 2.
 
 ## 2. Instalacja GitHub Desktop (raz)
 
@@ -90,22 +94,23 @@ Jeśli coś się nie zgadza:
 
 1. W GitHub Desktop wybierz z menu: File → Clone repository.
 2. W okienku przejdź na zakładkę "GitHub.com". Na liście powinno być
-   `jemielniak/podreczniki-content` - kliknij je. Jeśli listy nie widać
-   albo jest pusta, przejdź na zakładkę "URL" i w górne pole wklej:
+   `jemielniak/podreczniki` - kliknij je (uważaj, żeby nie wybrać
+   podobnie nazwanego `jemielniak/podreczniki-content`). Jeśli listy nie
+   widać albo jest pusta, przejdź na zakładkę "URL" i w górne pole wklej:
 
    ```
-   https://github.com/jemielniak/podreczniki-content
+   https://github.com/jemielniak/podreczniki
    ```
 
 3. Pole "Local path" mówi, GDZIE na dysku wyląduje kopia. Zostaw
    proponowaną ścieżkę w Dokumentach (kończy się na
-   `\Documents\GitHub\podreczniki-content`) ALBO kliknij "Choose..." i
+   `\Documents\GitHub\podreczniki`) ALBO kliknij "Choose..." i
    wskaż inne miejsce. Jedna zasada jest twarda: folder NIE może być w
    miejscu synchronizowanym z chmurą (OneDrive, Dysk Google, Dropbox).
    Chmura podmienia pliki w tle i psuje współpracę z GitHubem. Ścieżka
    z "OneDrive" w nazwie odpada; zwykłe `C:\Users\...\Documents` jest w
    porządku, o ile Twoje Dokumenty nie są spięte z OneDrive - jeśli są,
-   wybierz np. `C:\Praca\podreczniki-content`.
+   wybierz np. `C:\Praca\podreczniki`.
 4. Kliknij "Clone". Zobaczysz pasek postępu - repozytorium zawiera
    obrazki wszystkich podręczników, więc waży kilkaset megabajtów i
    pierwsze pobranie może potrwać od kilku do kilkunastu minut. To
@@ -114,26 +119,24 @@ Jeśli coś się nie zgadza:
    (nazwa repozytorium, "Current branch: main", "Fetch origin"), a po
    lewej zakładki "Changes" i "History". Tak ma być.
 
-## 5. Skrót na pulpicie - Twoje jedyne wejście do plików
+## 5. Skrót na pulpicie - Twoje wejście do plików
 
-GitHub Desktop nie ma ustawienia "pracuj tylko w jednym podfolderze",
-więc ochronę budujemy nawykiem: na dysk wchodzisz zawsze przez skrót
-prowadzący prosto do `content-src`, a główny folder repozytorium omijasz.
+Żeby nie szukać za każdym razem, zrób sobie skrót prosto do folderu swojej
+klasy - wtedy do głównego folderu repozytorium w ogóle nie musisz zaglądać.
 
 1. W GitHub Desktop wybierz z menu: Repository → Show in Explorer.
-   Otworzy się folder `podreczniki-content` na Twoim dysku.
-2. Wejdź do podfolderu `content-src`.
-3. Wróć o jeden poziom wyżej (strzałka wstecz), tak żeby folder
-   `content-src` widzieć na liście. Kliknij go PRAWYM przyciskiem.
-   W Windows 11 wybierz "Pokaż więcej opcji", potem "Wyślij do" →
-   "Pulpit (utwórz skrót)". W Windows 10 pozycja "Wyślij do" jest od
-   razu w menu.
-4. Na pulpicie pojawi się skrót "content-src - skrót". Możesz zmienić mu
-   nazwę na np. "Podręczniki - treści".
+   Otworzy się folder `podreczniki` na Twoim dysku.
+2. Znajdź na liście folder swojej klasy (np. `sp5`) i kliknij go PRAWYM
+   przyciskiem. W Windows 11 wybierz "Pokaż więcej opcji", potem
+   "Wyślij do" → "Pulpit (utwórz skrót)". W Windows 10 pozycja
+   "Wyślij do" jest od razu w menu.
+3. Na pulpicie pojawi się skrót "sp5 - skrót". Możesz zmienić mu nazwę
+   na np. "Podręczniki - klasa 5". Jeśli pracujesz nad kilkoma klasami,
+   zrób po jednym skrócie na każdą.
 
-Od tej chwili do plików wchodzisz WYŁĄCZNIE tym skrótem. Wewnątrz
-poruszasz się po znajomej strukturze: klasa → przedmiot → podręcznik
-(np. `sp5` → `historia` → `historia-5-gwo`). Co dokładnie wkładasz do
+Od tej chwili do plików wchodzisz tymi skrótami. Wewnątrz poruszasz się
+po znajomej strukturze: przedmiot → podręcznik (np. `historia` →
+`historia-5-gwo`). Co dokładnie wkładasz do
 folderu podręcznika (nazwy plików, rozmiary obrazków, kompresja w
 Squoosh), opisuje sąsiedni dokument `_INSTRUKCJA_WYKONAWCY.md` w
 sekcjach 3, 4 i 5 - tamte zasady obowiązują bez zmian, różni się tylko
@@ -162,12 +165,12 @@ być w tym czasie zamknięty - on tylko obserwuje folder.
 
 1. Wróć do GitHub Desktop, zakładka "Changes" po lewej. Zobaczysz listę
    wszystkich plików, które doszły lub się zmieniły, każdy z ptaszkiem.
-2. Przeczytaj ścieżki. KAŻDA pozycja musi zaczynać się od `content-src/`.
-   Przykład dobrej pozycji:
-   `content-src/sp5/historia/historia-5-gwo/rozdzial03.js`.
+2. Przeczytaj ścieżki. KAŻDA pozycja musi zaczynać się od folderu klasy
+   (`sp5/`, `sp6/`, `sp7/`, `sp8/`, `lo1/`...`lo4/`). Przykład dobrej
+   pozycji: `sp5/historia/historia-5-gwo/rozdzial03.js`.
 3. Jeżeli na liście jest COKOLWIEK innego (ścieżka zaczynająca się od
-   `bundles/`, od `img/` bez `content-src` na początku, albo sam
-   `catalog.json`) - to przypadkowa zmiana poza Twoim terenem. Zrób dwie
+   `bundles/`, od `img/` bez klasy na początku, albo sam `catalog.json`)
+   - to przypadkowa zmiana poza Twoim terenem. Zrób dwie
    rzeczy: odznacz ptaszek przy tym pliku, a następnie kliknij go PRAWYM
    przyciskiem i wybierz "Discard changes...", potwierdź. Plik wraca do
    stanu sprzed Twojej zmiany i nie zostanie wysłany.
@@ -184,7 +187,7 @@ być w tym czasie zamknięty - on tylko obserwuje folder.
 3. Kliknij "Push origin" (u góry). Dopiero to wysyła pliki do internetu.
    Gdy strzałka z liczbą zniknie, wysyłka się udała.
 4. Kontrola: odśwież stronę repozytorium w przeglądarce (zakładka z
-   kroku 1) i wejdź w `content-src` do swojego podręcznika - Twoje pliki
+   kroku 1) i wejdź przez klasę do swojego podręcznika - Twoje pliki
    są na liście, obok widnieje Twój opis.
 
 Na koniec porcji napisz Dariuszowi, który podręcznik i rozdział jest
@@ -207,7 +210,7 @@ Desktop pokaże parę usunięty + nowy. To w porządku.
 
 ## 8. Czego nigdy nie robić
 
-- Nie zmieniaj niczego poza `content-src` (punkt 6.3 wyłapie wpadki).
+- Nie zmieniaj niczego poza folderami klas (punkt 6.3 wyłapie wpadki).
 - Nie klikaj w "Current branch" i nie twórz gałęzi (Branch → New branch) -
   u góry ma zawsze być napisane `main`.
 - Nie używaj niczego w zakładce "History", zwłaszcza opcji "Revert
@@ -239,7 +242,7 @@ Zapisujesz w złym miejscu - w innej kopii folderu albo w Pobranych.
 Wejdź przez skrót z pulpitu i zapisz tam.
 
 W Desktop widnieje inne repozytorium. Kliknij w lewym górnym rogu
-"Current repository" i wybierz `podreczniki-content` z listy.
+"Current repository" i wybierz `podreczniki` z listy.
 
 Chcesz tylko szybko coś podejrzeć bez komputera. Strona repozytorium w
 przeglądarce zawsze działa - a drobne wgrywki da się zrobić wariantem
@@ -251,8 +254,8 @@ prowadzą do tego samego miejsca.
 | Kiedy | Co klikasz |
 |---|---|
 | Początek pracy | GitHub Desktop → "Fetch origin" (i "Pull origin", jeśli się pojawi) |
-| Dodawanie plików | skrót z pulpitu → klasa → przedmiot → podręcznik |
-| Przed wysyłką | zakładka "Changes": każda ścieżka zaczyna się od `content-src/`; obce pozycje - odznacz i "Discard changes" |
+| Dodawanie plików | skrót z pulpitu (klasa) → przedmiot → podręcznik |
+| Przed wysyłką | zakładka "Changes": każda ścieżka zaczyna się od folderu klasy (`sp5/`, `sp8/`...); obce pozycje - odznacz i "Discard changes" |
 | Wysyłka | opis w "Summary" → "Commit to main" → "Push origin" |
-| Kontrola | odśwież stronę repo w przeglądarce, znajdź swoje pliki w `content-src` |
+| Kontrola | odśwież stronę repo w przeglądarce, znajdź swoje pliki w folderze klasy |
 | Coś dziwnego | zatrzymaj się i napisz do Dariusza |

@@ -272,6 +272,10 @@ jednym ze sparsowanych elementów. Wnioski praktyczne:
   nie może KOŃCZYĆ SIĘ kropką skrótu ("n.e.") - parser obcina kropkę z
   końca każdego elementu; taki skrót przeformułuj albo przenieś w głąb
   elementu ("rok 622 n.e." zamiast "n.e."),
+- ŻADNYCH spójników w liście ("czy", "albo", "oraz", "i") - ostatnie dwa
+  elementy też rozdziela sam przecinek. "Wietnam czy Brazylia" to dla
+  parsera JEDEN element, więc `answer: "Brazylia"` nie ma do czego pasować
+  i poprawnej odpowiedzi nie da się w aplikacji kliknąć,
 - `options: null`.
 
 ```javascript
