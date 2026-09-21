@@ -283,7 +283,7 @@ const ALL_EXERCISES = [
     "id": "R01_ROL_06",
     "section": "Rolnictwo Azji",
     "type": "odd_one_out",
-    "prompt": "Który duży producent ryżu leży poza Azją: Chiny, Indie, Wietnam czy Brazylia?",
+    "prompt": "Wskaż dużego producenta ryżu, który leży poza Azją: Chiny, Indie, Wietnam, Brazylia.",
     "options": null,
     "answer": "Brazylia",
     "explanation": "W pierwszej dziesiątce największych producentów ryżu znajduje się tylko jedno państwo spoza Azji — Brazylia."
@@ -663,7 +663,7 @@ const ALL_EXERCISES = [
     "id": "R01_CHI_06",
     "section": "Chiny",
     "type": "odd_one_out",
-    "prompt": "Która z pozycji nie należy do ważnych roślin przemysłowych i używek w Chinach: bawełna, rzepak, tytoń, herbata, ryż?",
+    "prompt": "Wskaż pozycję, która nie należy do ważnych roślin przemysłowych i używek w Chinach: bawełna, rzepak, tytoń, herbata, ryż.",
     "options": null,
     "answer": "ryż",
     "explanation": "Bawełna, rzepak, tytoń i herbata należą do ważnych roślin przemysłowych i używek w Chinach. Ryż należy do podstawowych roślin żywieniowych."
@@ -846,7 +846,7 @@ const ALL_EXERCISES = [
     "id": "R01_IND_06",
     "section": "Indie",
     "type": "odd_one_out",
-    "prompt": "Który element nie jest ważną rośliną uprawną Indii: ryż, herbata, bawełna, tytoń, ropa naftowa?",
+    "prompt": "Wskaż element, który nie jest ważną rośliną uprawną Indii: ryż, herbata, bawełna, tytoń, ropa naftowa.",
     "options": null,
     "answer": "ropa naftowa",
     "explanation": "Ryż, herbata, bawełna i tytoń są ważnymi roślinami uprawnymi Indii. Ropa naftowa jest surowcem mineralnym."

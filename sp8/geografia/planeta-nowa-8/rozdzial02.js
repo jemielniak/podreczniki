@@ -274,7 +274,7 @@ const ALL_EXERCISES = [
     "id": "R02_ROL_06",
     "section": "Rolnictwo Afryki",
     "type": "odd_one_out",
-    "prompt": "Która roślina nie należy do trzech najważniejszych zbóż żywieniowych Afryki: proso, sorgo, kukurydza czy kakaowiec?",
+    "prompt": "Wskaż roślinę, która nie należy do trzech najważniejszych zbóż żywieniowych Afryki: proso, sorgo, kukurydza, kakaowiec.",
     "options": null,
     "answer": "kakaowiec",
     "explanation": "Proso, sorgo i kukurydza należą do najważniejszych zbóż żywieniowych Afryki, natomiast kakaowiec jest rośliną plantacyjną."
@@ -461,7 +461,7 @@ const ALL_EXERCISES = [
     "id": "R02_GOS_06",
     "section": "Przemysł i usługi w Afryce",
     "type": "odd_one_out",
-    "prompt": "Które państwo nie pasuje do grupy afrykańskich krajów o rozwiniętym przetwórstwie przemysłowym: RPA, Egipt, Algieria czy Niger?",
+    "prompt": "Wskaż państwo, które nie pasuje do grupy afrykańskich krajów o rozwiniętym przetwórstwie przemysłowym: RPA, Egipt, Algieria, Niger.",
     "options": null,
     "answer": "Niger",
     "explanation": "RPA, Egipt i Algieria należą do państw Afryki, w których rozwinęło się przetwórstwo przemysłowe."

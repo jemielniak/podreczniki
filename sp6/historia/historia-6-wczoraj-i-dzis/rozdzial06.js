@@ -45,8 +45,7 @@ const ALL_EXERCISES = [
       "stan drugi": "szlachta",
       "stan trzeci": "mieszczanie i chłopi"
     },
-    "explanation": "Stan pierwszy tworzyło duchowieństwo, drugi szlachta, a do stanu trzeciego zaliczali się między innymi mieszczanie i chłopi.",
-    "image": "r06_trzy_stany.jpg"
+    "explanation": "Stan pierwszy tworzyło duchowieństwo, drugi szlachta, a do stanu trzeciego zaliczali się między innymi mieszczanie i chłopi."
   },
   {
     "id": "R06_REV_03",
