@@ -825,8 +825,8 @@ const KID_PROMPTS = {};
 
 const chapter = {
   id: "r06",
-  number: 4,
-  title: "Gospodarka Polski",
+  number: 6,
+  title: "Gospodarka Polski - rolnictwo, przemysł i usługi",
   icon: "🏭",
   sectionOrder: [
     "Warunki rozwoju rolnictwa",

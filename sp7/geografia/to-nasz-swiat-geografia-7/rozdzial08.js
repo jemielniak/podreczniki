@@ -790,7 +790,7 @@ const KID_PROMPTS = {};
 
 const chapter = {
   id: "r08",
-  number: 5,
+  number: 8,
   title: "Własny region i mała ojczyzna",
   icon: "🏡",
   sectionOrder: [

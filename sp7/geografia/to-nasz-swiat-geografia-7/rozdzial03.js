@@ -746,8 +746,8 @@ const KID_PROMPTS = {};
 
 const chapter = {
   id: "r03",
-  number: 2,
-  title: "Środowisko przyrodnicze Polski",
+  number: 3,
+  title: "Środowisko przyrodnicze Polski - klimat, wody, gleby i lasy",
   icon: "🌿",
   sectionOrder: [
     "Pogoda i klimat",

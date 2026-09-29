@@ -759,7 +759,7 @@ const KID_PROMPTS = {};
 const chapter = {
   id: "r02",
   number: 2,
-  title: "Środowisko przyrodnicze Polski",
+  title: "Środowisko przyrodnicze Polski - rzeźba terenu i surowce",
   icon: "🌍",
   sectionOrder: [
     "Ukształtowanie terenu",

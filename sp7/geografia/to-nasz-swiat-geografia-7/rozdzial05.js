@@ -731,7 +731,7 @@ const KID_PROMPTS = {
 
 const chapter = {
   id: "r05",
-  number: 3,
+  number: 5,
   title: "Ludność Polski - urbanizacja i miasta",
   icon: "🏙️",
   sectionOrder: [

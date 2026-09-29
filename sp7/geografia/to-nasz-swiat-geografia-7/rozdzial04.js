@@ -799,7 +799,7 @@ const KID_PROMPTS = {};
 
 const chapter = {
   id: "r04",
-  number: 3,
+  number: 4,
   title: "Ludność Polski",
   icon: "👥",
   sectionOrder: [

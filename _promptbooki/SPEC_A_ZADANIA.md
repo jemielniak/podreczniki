@@ -101,8 +101,13 @@ export default chapter;
 | Pole | Typ | Wymagane | Opis |
 |---|---|---|---|
 | `id` | string | tak | `"r04"` - małe litery, zgodne z numerem pliku. |
-| `number` | number | tak | Numer rozdziału (liczba całkowita, sortowanie w menu). |
-| `title` | string | tak | Pełny tytuł rozdziału. |
+| `number` | number | tak | Numer rozdziału w aplikacji = numer z nazwy pliku (`rozdzial04.js` → `4`). Kolejno 1..N, bez powtórzeń - to NIE jest numer działu z podręcznika. |
+| `title` | string | tak | Pełny tytuł rozdziału, inny niż tytuły pozostałych rozdziałów podręcznika. |
+
+[AUTOMAT] Powtórzony `number` blokuje publikację CAŁEGO drzewa. Gdy jeden
+dział podręcznika dzielisz na dwa pliki, każdy plik dostaje własny kolejny
+`number` i własny tytuł, np. "Gospodarka Polski - rolnictwo, przemysł
+i usługi" oraz "Gospodarka Polski - turystyka i rozwój kraju".
 | `icon` | string | tak | Jedno emoji. |
 | `sectionOrder` | string[] | tak | Sekcje ZWYKŁE w kolejności wyświetlania. |
 | `sectionIcons` | object | tak | Mapa: nazwa sekcji zwykłej → emoji. |
@@ -486,8 +491,9 @@ normalnie. Manifest analogicznie: czysty JSON.
 
 ## 10. Lista kontrolna przed oddaniem
 
-Metadane: `id` zgodne z numerem w nazwie pliku; `number` liczbą; `title`
-i `icon` wypełnione; żadnych pól spoza tabeli 3.2.
+Metadane: `id` i `number` zgodne z numerem w nazwie pliku (numery 1..N
+bez powtórzeń); `title` i `icon` wypełnione, tytuły rozdziałów różne;
+żadnych pól spoza tabeli 3.2.
 
 Sekcje: każda sekcja zwykła użyta w ćwiczeniach jest w `sectionOrder` i ma
 emoji w `sectionIcons`; "Super trudne" NIE występuje w `sectionOrder` ani

@@ -748,8 +748,8 @@ const KID_PROMPTS = {};
 
 const chapter = {
   id: "r07",
-  number: 4,
-  title: "Gospodarka Polski",
+  number: 7,
+  title: "Gospodarka Polski - turystyka i rozwój kraju",
   icon: "🇵🇱",
   sectionOrder: [
     "Turystyka i jej znaczenie",
