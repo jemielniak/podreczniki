@@ -88,7 +88,7 @@ const ALL_EXERCISES = [
     "id": "R03_ODK_06",
     "section": "Wielkie odkrycia geograficzne",
     "type": "odd_one_out",
-    "prompt": "Który z tych towarów nie jest rośliną pochodzącą z Nowego Świata: kukurydza, ziemniak, pomidor, jedwab?",
+    "prompt": "Który z tych towarów nie jest rośliną pochodzącą z Nowego Świata: kukurydza, ziemniak, pomidor, jedwab.",
     "options": null,
     "answer": "jedwab",
     "explanation": "Kukurydza, ziemniaki i pomidory pochodzą z Nowego Świata; jedwab był poszukiwanym towarem azjatyckim."
@@ -264,7 +264,7 @@ const ALL_EXERCISES = [
     "id": "R03_REN_06",
     "section": "Kultura renesansu",
     "type": "odd_one_out",
-    "prompt": "Który utwór nie jest dziełem Jana Kochanowskiego: Treny, Fraszki, Pieśni, Utopia?",
+    "prompt": "Który utwór nie jest dziełem Jana Kochanowskiego: Treny, Fraszki, Pieśni, Utopia.",
     "options": null,
     "answer": "Utopia",
     "explanation": "„Utopia” to dzieło Tomasza More’a, a „Treny”, „Fraszki” i „Pieśni” napisał Jan Kochanowski."
@@ -613,7 +613,7 @@ const ALL_EXERCISES = [
     "id": "R03_ZLO_06",
     "section": "Złoty wiek Rzeczypospolitej",
     "type": "odd_one_out",
-    "prompt": "Które z poniższych nie było obowiązkiem chłopa w gospodarce folwarcznej: pańszczyzna, czynsz, danina, wolna elekcja?",
+    "prompt": "Które z poniższych nie było obowiązkiem chłopa w gospodarce folwarcznej: pańszczyzna, czynsz, danina, wolna elekcja.",
     "options": null,
     "answer": "wolna elekcja",
     "explanation": "Pańszczyzna, czynsz i danina były powinnościami chłopów. Wolna elekcja dotyczyła wyboru króla przez szlachtę.",
@@ -796,7 +796,7 @@ const ALL_EXERCISES = [
     "id": "R03_WOJ_06",
     "section": "Wojny Rzeczypospolitej w XVII wieku",
     "type": "odd_one_out",
-    "prompt": "Które państwo nie było przeciwnikiem Rzeczypospolitej w wojnach XVII wieku: Szwecja, Rosja, Turcja, Portugalia?",
+    "prompt": "Które państwo nie było przeciwnikiem Rzeczypospolitej w wojnach XVII wieku: Szwecja, Rosja, Turcja, Portugalia.",
     "options": null,
     "answer": "Portugalia",
     "explanation": "W XVII wieku Rzeczpospolita walczyła m.in. ze Szwecją, Rosją i Turcją; Portugalia nie należała do tych przeciwników."
@@ -1283,7 +1283,7 @@ const ALL_EXERCISES = [
     "id": "R03_HARD_11",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Który element nie był wspólny dla Korony i Litwy po unii lubelskiej: król, sejm, moneta, wojsko?",
+    "prompt": "Który element nie był wspólny dla Korony i Litwy po unii lubelskiej: król, sejm, moneta, wojsko.",
     "options": null,
     "answer": "wojsko",
     "explanation": "Na mocy unii lubelskiej wspólne były m.in. król, sejm i moneta, natomiast wojska pozostały odrębne."

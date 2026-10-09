@@ -1139,7 +1139,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_09",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Która budowla jest przykładem rokoka, a nie klasycyzmu: Panteon w Paryżu, Brama Brandenburska w Berlinie, Teatr Wielki w Warszawie, pałac Sanssouci?",
+    "prompt": "Która budowla jest przykładem rokoka, a nie klasycyzmu: Panteon w Paryżu, Brama Brandenburska w Berlinie, Teatr Wielki w Warszawie, pałac Sanssouci.",
     "options": null,
     "answer": "pałac Sanssouci",
     "explanation": "Pałac Sanssouci w Poczdamie reprezentuje rokoko, natomiast pozostałe budowle są przykładami klasycyzmu."

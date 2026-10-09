@@ -1261,7 +1261,7 @@ const ALL_EXERCISES = [
     id: "R01_HARD_07",
     section: "Super trudne",
     type: "odd_one_out",
-    prompt: "Które bóstwo nie należy do egipskiego panteonu: Re, Horus, Thot, Hermes?",
+    prompt: "Które bóstwo nie należy do egipskiego panteonu: Re, Horus, Thot, Hermes.",
     options: null,
     answer: "Hermes",
     explanation: "Re, Horus i Thot to bóstwa egipskie, natomiast Hermes był bogiem greckim."

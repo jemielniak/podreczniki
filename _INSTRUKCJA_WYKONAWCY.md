@@ -103,6 +103,14 @@ w której leży. W `sp8` ma być `planeta-nowa-8`, nie `planeta-nowa-7` -
 ta druga nazwa jest już zajęta przez podręcznik klasy 7 i publikacja
 zatrzymuje się na takim zderzeniu.
 
+REPETYTORIA mają swój przedmiot `repetytorium` w klasie egzaminacyjnej:
+wszystkie repetytoria szkoły podstawowej (także te obejmujące klasy 4-6)
+leżą w `sp8/repetytorium/<repetytorium>/`, a licealne w
+`lo4/repetytorium/<repetytorium>/`. Przykład:
+`sp8/repetytorium/repetytorium-historia-7-8-greg`. Nie zakładaj dla nich
+osobnych folderów w korzeniu (np. `repetytoria_szkola_podst/`). Publikacja
+widzi tylko foldery klas, więc wszystko poza nimi pomija po cichu.
+
 Jeśli nie widzisz folderu, do którego masz coś wgrać, napisz do Dariusza -
 prawdopodobnie trzeba go najpierw założyć.
 
