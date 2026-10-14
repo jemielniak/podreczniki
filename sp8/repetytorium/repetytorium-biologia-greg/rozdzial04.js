@@ -1393,7 +1393,7 @@ const ALL_EXERCISES = [
     "id": "R04_HARD_13",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Który składnik nie uczestniczy bezpośrednio w krzepnięciu krwi: witamina K, fibrynogen, hemoglobina czy płytki krwi?",
+    "prompt": "Wskaż składnik, który nie uczestniczy bezpośrednio w krzepnięciu krwi: witamina K, fibrynogen, hemoglobina, płytki krwi.",
     "options": null,
     "answer": "hemoglobina",
     "explanation": "Witamina K, fibrynogen i płytki uczestniczą w krzepnięciu; hemoglobina jest barwnikiem erytrocytów transportującym tlen."

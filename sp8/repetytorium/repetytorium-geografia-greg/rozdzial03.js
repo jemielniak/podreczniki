@@ -393,7 +393,7 @@ const ALL_EXERCISES = [
     "id": "R03_LUD_10",
     "section": "Ludność, migracje i religie",
     "type": "odd_one_out",
-    "prompt": "Wskaż obiekt, który nie jest świątynią: meczet, synagoga, cerkiew czy port morski.",
+    "prompt": "Wskaż obiekt, który nie jest świątynią: meczet, synagoga, cerkiew, port morski.",
     "options": null,
     "answer": "port morski",
     "explanation": "Meczet to świątynia muzułmańska, synagoga żydowska, a cerkiew prawosławna. Port morski nie jest świątynią.",

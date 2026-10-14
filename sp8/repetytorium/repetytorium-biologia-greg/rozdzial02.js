@@ -1001,7 +1001,7 @@ const ALL_EXERCISES = [
     "id": "R02_KIEL_07",
     "section": "Kiełkowanie i znaczenie roślin",
     "type": "odd_one_out",
-    "prompt": "Który z elementów nie jest niezbędnym warunkiem kiełkowania: woda, tlen, odpowiednia temperatura czy silny wiatr?",
+    "prompt": "Wskaż czynnik, który nie jest niezbędnym warunkiem kiełkowania: woda, tlen, odpowiednia temperatura, silny wiatr.",
     "options": null,
     "answer": "silny wiatr",
     "explanation": "Nasiona potrzebują do kiełkowania wody, tlenu i odpowiedniej temperatury; silny wiatr nie jest warunkiem kiełkowania."

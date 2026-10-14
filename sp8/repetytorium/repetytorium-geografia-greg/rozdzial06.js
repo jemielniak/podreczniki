@@ -560,7 +560,7 @@ const ALL_EXERCISES = [
     "id": "R06_IND_06",
     "section": "Indie i Bliski Wschód",
     "type": "odd_one_out",
-    "prompt": "Której z roślin nie uprawia się powszechnie w Indiach: ryżu, pszenicy, herbaty czy baobabu?",
+    "prompt": "Wskaż roślinę, której nie uprawia się powszechnie w Indiach: ryż, pszenica, herbata, baobab.",
     "options": null,
     "answer": "baobab",
     "explanation": "W Indiach uprawia się m.in. ryż, pszenicę i herbatę. Baobaby rosną na sawannie afrykańskiej."
@@ -796,7 +796,7 @@ const ALL_EXERCISES = [
     "id": "R06_AFR_06",
     "section": "Afryka – środowisko i gospodarka",
     "type": "odd_one_out",
-    "prompt": "Które zwierzę nie jest typowym przedstawicielem sawanny: lew, żyrafa, zebra czy krokodyl?",
+    "prompt": "Wskaż zwierzę, które nie jest typowym przedstawicielem sawanny: lew, żyrafa, zebra, krokodyl.",
     "options": null,
     "answer": "krokodyl",
     "explanation": "Lew, żyrafa i zebra są typowymi zwierzętami sawanny; krokodyle żyją głównie w pobliżu zbiorników i cieków wodnych."
@@ -1368,7 +1368,7 @@ const ALL_EXERCISES = [
     "id": "R06_HARD_10",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Która miejscowość nie jest znana z rekordów klimatycznych Azji: Tomtor, Tirat Cewi, Czerapundźi czy Samarkanda?",
+    "prompt": "Wskaż miejscowość, która nie jest znana z rekordów klimatycznych Azji: Tomtor, Tirat Cewi, Czerapundźi, Samarkanda.",
     "options": null,
     "answer": "Samarkanda",
     "explanation": "Tomtor wiąże się z rekordowym mrozem, Tirat Cewi z upałem, Czerapundźi z opadami, a Samarkanda to historyczne miasto na jedwabnym szlaku."

@@ -93,7 +93,7 @@ const ALL_EXERCISES = [
     "id": "R05_DEM_06",
     "section": "Ludność, demografia i migracje",
     "type": "odd_one_out",
-    "prompt": "Który z obszarów nie jest wielkim miastem, wokół którego koncentruje się ludność: Warszawa, Kraków, Łódź czy Pojezierze Suwalskie?",
+    "prompt": "Wskaż obszar, który nie jest wielkim miastem, wokół którego koncentruje się ludność: Warszawa, Kraków, Łódź, Pojezierze Suwalskie.",
     "options": null,
     "answer": "Pojezierze Suwalskie",
     "explanation": "Warszawa, Kraków i Łódź to wielkie miasta, wokół których koncentruje się ludność. Pojezierze Suwalskie jest regionem geograficznym, nie miastem."
@@ -276,7 +276,7 @@ const ALL_EXERCISES = [
     "id": "R05_URB_06",
     "section": "Urbanizacja i osadnictwo",
     "type": "odd_one_out",
-    "prompt": "Które miasto nie stanowi samodzielnego centrum aglomeracji monocentrycznej: Warszawa, Kraków, Londyn czy Bytom?",
+    "prompt": "Wskaż miasto, które nie stanowi samodzielnego centrum aglomeracji monocentrycznej: Warszawa, Kraków, Londyn, Bytom.",
     "options": null,
     "answer": "Bytom",
     "explanation": "Warszawa, Kraków i Londyn są centrami aglomeracji monocentrycznych; Bytom wchodzi w skład konurbacji górnośląskiej."
@@ -1174,7 +1174,7 @@ const ALL_EXERCISES = [
     "id": "R05_HARD_06",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Która z elektrowni nie jest szczytowo-pompowa: Żarnowiec, Żydowo, Porąbka-Żar czy Bełchatów?",
+    "prompt": "Wskaż elektrownię, która nie jest szczytowo-pompowa: Żarnowiec, Żydowo, Porąbka-Żar, Bełchatów.",
     "options": null,
     "answer": "Bełchatów",
     "explanation": "Żarnowiec, Żydowo i Porąbka-Żar to elektrownie szczytowo-pompowe; Bełchatów jest elektrownią cieplną na węgiel brunatny.",

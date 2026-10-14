@@ -345,7 +345,7 @@ const ALL_EXERCISES = [
     "id": "R07_BRA_08",
     "section": "Brazylia i Amazonia",
     "type": "odd_one_out",
-    "prompt": "Które działanie nie przyczynia się do wylesiania Amazonii: pozyskiwanie drewna, zakładanie pastwisk, budowa dróg czy tworzenie rezerwatów przyrody?",
+    "prompt": "Wskaż działanie, które nie przyczynia się do wylesiania Amazonii: pozyskiwanie drewna, zakładanie pastwisk, budowa dróg, tworzenie rezerwatów przyrody.",
     "options": null,
     "answer": "tworzenie rezerwatów przyrody",
     "explanation": "Tworzenie rezerwatów służy ochronie przyrody, natomiast pozostałe działania mogą prowadzić do wycinania lasów.",
@@ -565,7 +565,7 @@ const ALL_EXERCISES = [
     "id": "R07_USA_08",
     "section": "Stany Zjednoczone — gospodarka",
     "type": "odd_one_out",
-    "prompt": "Który z produktów nie należy do typowych upraw Regionu Południowego USA: bawełna, cytrusy, trzcina cukrowa czy półprzewodniki?",
+    "prompt": "Wskaż produkt, który nie należy do typowych upraw Regionu Południowego USA: bawełna, cytrusy, trzcina cukrowa, półprzewodniki.",
     "options": null,
     "answer": "półprzewodniki",
     "explanation": "Bawełna, cytrusy i trzcina cukrowa to uprawy; półprzewodniki są wyrobami przemysłu zaawansowanych technologii."
@@ -778,7 +778,7 @@ const ALL_EXERCISES = [
     "id": "R07_AUS_08",
     "section": "Australia i Oceania",
     "type": "odd_one_out",
-    "prompt": "Który obiekt nie jest rzeką ani akwenem morskim: Murray, Darling, Zatoka Karpentaria czy Wyżyna Zachodnioaustralijska?",
+    "prompt": "Wskaż obiekt, który nie jest rzeką ani akwenem morskim: Murray, Darling, Zatoka Karpentaria, Wyżyna Zachodnioaustralijska.",
     "options": null,
     "answer": "Wyżyna Zachodnioaustralijska",
     "explanation": "Murray i Darling to rzeki, Zatoka Karpentaria jest zatoką, a Wyżyna Zachodnioaustralijska formą ukształtowania lądu."
@@ -1000,7 +1000,7 @@ const ALL_EXERCISES = [
     "id": "R07_POL_08",
     "section": "Arktyka i Antarktyda",
     "type": "odd_one_out",
-    "prompt": "Który obszar nie należy do Arktyki: północna Kanada, Alaska, Grenlandia czy Półwysep Antarktyczny?",
+    "prompt": "Wskaż obszar, który nie należy do Arktyki: północna Kanada, Alaska, Grenlandia, Półwysep Antarktyczny.",
     "options": null,
     "answer": "Półwysep Antarktyczny",
     "explanation": "Półwysep Antarktyczny leży na południu Ziemi, a pozostałe tereny na północy."
@@ -1274,7 +1274,7 @@ const ALL_EXERCISES = [
     "id": "R07_HARD_10",
     "section": "Super trudne",
     "type": "odd_one_out",
-    "prompt": "Który stan nie należy do Alei Tornad: Kansas, Oklahoma, Nebraska czy Kalifornia?",
+    "prompt": "Wskaż stan, który nie należy do Alei Tornad: Kansas, Oklahoma, Nebraska, Kalifornia.",
     "options": null,
     "answer": "Kalifornia",
     "explanation": "Kansas, Oklahoma i Nebraska są częścią Alei Tornad; Kalifornia leży poza tym regionem."
