@@ -1150,7 +1150,7 @@ const ALL_EXERCISES = [
     "id": "R01_CHR_06",
     "section": "Narodziny chrześcijaństwa",
     "type": "odd_one_out",
-    "prompt": "Wskaż postać niezwiązaną z dziejami narodzin chrześcijaństwa omawianymi w rozdziale: Jezus Chrystus, apostołowie, Konstantyn, Ozyrys.",
+    "prompt": "Wskaż postać niezwiązaną z dziejami narodzin chrześcijaństwa: Jezus Chrystus, apostołowie, Konstantyn, Ozyrys.",
     "options": null,
     "answer": "Ozyrys",
     "explanation": "Jezus, apostołowie i Konstantyn występują w opowieści o narodzinach i rozwoju chrześcijaństwa. Ozyrys to egipski bóg świata zmarłych."

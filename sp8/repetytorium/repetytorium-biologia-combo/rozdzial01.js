@@ -49,7 +49,7 @@ const ALL_EXERCISES = [
     "id": "R01_CHE_03",
     "section": "Skład chemiczny komórek",
     "type": "true_false",
-    "prompt": "Woda i dwutlenek węgla są w tym rozdziale zaliczone do związków nieorganicznych.",
+    "prompt": "Woda i dwutlenek węgla są zaliczane do związków nieorganicznych.",
     "options": null,
     "answer": true,
     "explanation": "Woda, tlen, dwutlenek węgla, jony i sole należą do związków nieorganicznych."

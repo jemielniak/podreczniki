@@ -681,7 +681,7 @@ const ALL_EXERCISES = [
     id: "R07_PRL_08",
     section: "Polska w latach 1956–1979",
     type: "odd_one_out",
-    prompt: "Które miasto nie było głównym ośrodkiem protestów robotniczych w czerwcu 1976 roku: Radom, Ursus, Płock, Gdańsk?",
+    prompt: "Wskaż miasto, które nie było głównym ośrodkiem protestów robotniczych w czerwcu 1976 roku: Radom, Ursus, Płock, Gdańsk.",
     options: null,
     answer: "Gdańsk",
     explanation: "W czerwcu 1976 r. najostrzejsze protesty miały miejsce w Ursusie, Radomiu i Płocku. Gdańsk był ośrodkiem protestów z grudnia 1970 r."

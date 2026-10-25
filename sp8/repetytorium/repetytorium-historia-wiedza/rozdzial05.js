@@ -900,7 +900,7 @@ const ALL_EXERCISES = [
     "id": "R05_DWR_08",
     "section": "II Rzeczpospolita: polityka, gospodarka i kultura",
     "type": "odd_one_out",
-    "prompt": "Które miasto nie było ośrodkiem budowy zakładów przemysłowych Centralnego Okręgu Przemysłowego: Stalowa Wola, Mielec, Dębica, Gdynia?",
+    "prompt": "Wskaż miasto, które nie było ośrodkiem budowy zakładów przemysłowych Centralnego Okręgu Przemysłowego: Stalowa Wola, Mielec, Dębica, Gdynia.",
     "options": null,
     "answer": "Gdynia",
     "explanation": "Gdynia była przede wszystkim ośrodkiem rozbudowy portu morskiego, natomiast zakłady COP powstawały m.in. w Stalowej Woli, Mielcu i Dębicy."
